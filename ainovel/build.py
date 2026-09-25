@@ -20,6 +20,7 @@ from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
 from ainovel.digest import load_editions
 from ainovel.views import counts as browse_views
+from ainovel.trends import load as load_trends
 from ainovel.odai import load_used
 from ainovel.predict import scoreboard
 from ainovel.highlights import collect as collect_highlights
@@ -182,7 +183,7 @@ def build() -> None:
         dest.write_text(html, encoding="utf-8")
 
     render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates, specials=specials,
-           news=load_editions()[-1:] , hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
+           news=load_editions()[-1:], trend=(load_trends() or [None])[-1], hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
     render("search.html", "search.html", "", active="search")
@@ -217,8 +218,12 @@ def build() -> None:
     render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL, kinds=KIND_LABEL,
            post_count=len(posts))
     hl = collect_highlights(posts, cfg.get("authors") or [])
+    trend_history = load_trends()
+    latest_trend = trend_history[-1] if trend_history else None
+    trend_log = [t for t in trend_history if t["status"] != "none"][::-1][:8]
     editions = load_editions()[::-1][:10]
-    render("highlights.html", "highlights.html", "", active="sns", h=hl, editions=editions, roles=ROLE_LABEL, kinds=KIND_LABEL)
+    render("highlights.html", "highlights.html", "", active="sns", h=hl, editions=editions, roles=ROLE_LABEL, kinds=KIND_LABEL,
+           trend=latest_trend, trend_log=trend_log)
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

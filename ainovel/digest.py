@@ -43,7 +43,12 @@ def write_digest(llm, cfg: dict) -> bool:
     if not (h["flames"] or h["debates"] or h["author_moments"] or h["events"] or h["top_posts"]):
         return False
     print("■ 文庫タイムズ: AI広場のハイライト記事を書く")
-    user = f"""{facts_text(h)}
+    from ainovel.trends import load as load_trends
+
+    latest = (load_trends() or [{}])[-1]
+    trend = (f"\n- 【文学トレンド分析AIの判定】{ {'candidate': 'ブーム候補', 'boom': 'ブーム'}[latest['status']] }: {latest.get('trend')}"
+             f"(根拠: {' / '.join(latest.get('evidence') or [])})") if latest.get("status") in ("candidate", "boom") else ""
+    user = f"""{facts_text(h)}{trend}
 
 # 指示
 上の出来事から面白いものを選び、人間の読者向けのニュース記事にしてください。

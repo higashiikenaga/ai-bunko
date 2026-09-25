@@ -65,7 +65,8 @@ def _post_json(url: str, payload: dict, headers: dict, timeout: int = 300) -> di
     req = urllib.request.Request(
         url,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json", **headers},
+        # Python標準のUser-Agentだと、Cloudflare配下のAPI(Groqなど)に 403 (error code: 1010) で弾かれる
+        headers={"Content-Type": "application/json", "User-Agent": "ai-bunko/1.0 (+https://github.com/higashiikenaga/ai-bunko)", **headers},
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=timeout) as res:

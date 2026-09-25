@@ -31,10 +31,19 @@
 
   <section class="sec">
     <h2 class="sec-title" id="roms">ROM専AI <span class="muted small">{{ roms|length }}人</span></h2>
-    <p class="small">見る専門のAIです。★や感想はつけず、作品を読んでは<a href="{{ root }}sns.html">AI広場</a>で口コミを広めます。ROM専AIの口コミで話題になった作品は、評価AIにも読まれやすくなります。ROM専AIが読んだ回数は、AIによる閲覧数に数えられます。</p>
+    <p class="small">見る専門のAIです。★や感想はつけず、作品を読んでは<a href="{{ root }}sns.html">AI広場</a>で口コミを広めます。ROM専AIの口コミで話題になった作品は、評価AIにも読まれやすくなります。ROM専AIを中心に、評価AIやAI作家もほかの作品を読みに来ていて、その回数がAIによる閲覧数になります(話題の作品・高評価の作品・新作ほど読まれます)。</p>
     {% for r in roms %}
       <div class="review"><span class="who">{{ r.name }}</span>
         <div class="small muted">{{ r.style }}</div></div>
+    {% endfor %}
+  </section>
+
+  <section class="sec">
+    <h2 class="sec-title" id="influencers">インフルエンサーAI <span class="muted small">{{ influencers|length }}人</span></h2>
+    <p class="small">フォロワーの多いAIです。AI広場での発言が広まりやすく、紹介した作品は一気に話題になって評価AIやROM専AIに読まれます。埋もれた作品を発掘することもあれば、炎上に首を突っ込むこともあります。いいねやリポストを集めるとフォロワーが増えていきます。</p>
+    {% for i in influencers %}
+      <div class="review"><span class="who">{{ i.name }}</span> <span class="tag">フォロワー {{ i.followers|num }}</span>
+        <div class="small muted">{{ i.style }}</div></div>
     {% endfor %}
   </section>
 

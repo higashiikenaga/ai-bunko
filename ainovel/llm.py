@@ -31,31 +31,42 @@ class BaseLLM:
 
     def __init__(self, min_interval: float = 0.0, tpm_limit: int = 0):
         self.min_interval = min_interval
-        self.tpm_limit = tpm_limit  # 1分あたりのトークン上限(0なら管理しない)
+        self.tpm_limit = tpm_limit  # 1分あたりのトークン上限(0なら管理しない)。上限はモデルごとに別
+        self.tpm_limits: dict[str, int] = {}  # モデルごとの上限の上書き
         self._last_call = 0.0
-        self._window: list[tuple[float, int]] = []  # 直近60秒の (時刻, 使用トークン)
+        self._windows: dict[str, list[tuple[float, int]]] = {}  # モデルごとの直近60秒の (時刻, 使用トークン)
         self.last_model = ""
         self.tokens_used = 0
         self._exhausted: set[str] = set()  # 1日の無料枠を使い切ったモデル(今回の実行ではもう使わない)
 
-    def _throttle(self, est_tokens: int = 0) -> None:
+    def _used(self, key: str) -> int:
+        now = time.time()
+        self._windows[key] = [(t, n) for t, n in self._windows.get(key, []) if now - t < 60]
+        return sum(n for _, n in self._windows[key])
+
+    def _throttle(self, est_tokens: int = 0, key: str = "") -> None:
         wait = self.min_interval - (time.time() - self._last_call)
         if wait > 0:
             time.sleep(wait)
-        if self.tpm_limit:
-            # 毎分のトークン上限に当たらないよう、直近60秒の使用量に余裕ができるまで待つ
+        limit = self.tpm_limits.get(key, self.tpm_limit)
+        if limit:
+            # 毎分のトークン上限(モデルごと)に当たらないよう、直近60秒の使用量に余裕ができるまで待つ
             while True:
-                now = time.time()
-                self._window = [(t, n) for t, n in self._window if now - t < 60]
-                used = sum(n for _, n in self._window)
-                if not self._window or used + est_tokens <= self.tpm_limit:
+                used = self._used(key)
+                window = self._windows[key]
+                if not window or used + est_tokens <= limit:
                     break
-                time.sleep(max(1.0, 60 - (now - self._window[0][0]) + 0.5))
+                time.sleep(max(1.0, 60 - (time.time() - window[0][0]) + 0.5))
         self._last_call = time.time()
 
-    def _record(self, tokens: int) -> None:
+    def _record(self, tokens: int, key: str = "") -> None:
         self.tokens_used += tokens
-        self._window.append((time.time(), tokens))
+        self._windows.setdefault(key, []).append((time.time(), tokens))
+
+    def _order(self, models: list[str], rotate: int) -> list[str]:
+        """先頭 rotate 個のモデルは、直近1分の使用量が少ない順に使う(負荷を分散して、待ち時間を減らす)。"""
+        head = sorted(models[:rotate], key=lambda m: self._used(m) / max(1, self.tpm_limits.get(m, self.tpm_limit) or 1))
+        return head + models[rotate:]
 
     def chat(self, system: str, user: str, max_tokens: int = 2048, temperature: float = 0.9) -> str:
         raise NotImplementedError
@@ -110,10 +121,13 @@ class GeminiLLM(BaseLLM):
     name = "gemini"
     ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
-    def __init__(self, api_key: str, models: list[str], min_interval: float, tpm_limit: int = 0):
+    def __init__(self, api_key: str, models: list[str], min_interval: float, tpm_limit: int = 0,
+                 rotate: int = 1, tpm_limits: dict | None = None):
         super().__init__(min_interval, tpm_limit)
         self.api_key = api_key
         self.models = models
+        self.rotate = rotate
+        self.tpm_limits = dict(tpm_limits or {})
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         est = _estimate_tokens(system, user, max_tokens)
@@ -124,14 +138,15 @@ class GeminiLLM(BaseLLM):
         }
         errors = []
         # 全モデルが5xxだったときだけ、少し待ってもう一巡する
-        for model in self.models + self.models:
+        order = self._order(self.models, self.rotate)
+        for model in order + order:
             if model in self._exhausted:
                 continue
             if len(errors) == len(self.models):
                 if not all(e.startswith("5xx ") for e in errors):
                     break
                 time.sleep(30)
-            self._throttle(est)
+            self._throttle(est, model)
             try:
                 data = _with_retry(
                     lambda: _post_json(
@@ -148,7 +163,7 @@ class GeminiLLM(BaseLLM):
                     continue
                 errors.append(f"{'5xx ' if e.server_error else ''}{model}: {e}")
                 continue
-            self._record(int((data.get("usageMetadata") or {}).get("totalTokenCount") or est))
+            self._record(int((data.get("usageMetadata") or {}).get("totalTokenCount") or est), model)
             candidates = data.get("candidates") or []
             if not candidates:
                 errors.append(f"{model}: 応答なし {data.get('promptFeedback')}")
@@ -180,7 +195,7 @@ class OpenAICompatLLM(BaseLLM):
         for model in self.models:
             if model in self._exhausted:
                 continue
-            self._throttle(est)
+            self._throttle(est, model)
             payload = {
                 "model": model,
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
@@ -207,7 +222,7 @@ class OpenAICompatLLM(BaseLLM):
             except (KeyError, IndexError) as e:
                 errors.append(f"{model}: {e}")
                 continue
-            self._record(int((data.get("usage") or {}).get("total_tokens") or est))
+            self._record(int((data.get("usage") or {}).get("total_tokens") or est), model)
             if text.strip():
                 self.last_model = model
                 return text.strip()
@@ -306,7 +321,8 @@ def _primary_llm(cfg: dict, provider: str, interval: float) -> Optional[BaseLLM]
     if provider == "gemini":
         key = os.environ.get("GEMINI_API_KEY")
         g = cfg["gemini"]
-        return GeminiLLM(key, g["models"], interval, int(g.get("tpm_limit", 0))) if key else None
+        return GeminiLLM(key, g["models"], interval, int(g.get("tpm_limit", 0)), int(g.get("rotate", 1)),
+                         g.get("tpm_limits")) if key else None
     if provider == "openai":
         key = os.environ.get("OPENAI_COMPAT_API_KEY")
         o = cfg["openai"]

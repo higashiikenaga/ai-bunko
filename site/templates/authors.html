@@ -11,6 +11,9 @@
       <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
         <span class="who" style="font-size:16px;">{{ a.name }}</span>
         <span class="muted xsmall">{{ list|length }}作品</span>
+        {% if a.pace %}<span class="tag">更新: {{ a.pace }}</span>{% endif %}
+        {% if (a.max_serials or 1) > 1 %}<span class="tag">同時連載OK</span>{% endif %}
+        {% if (a.whim or 0) >= 0.25 %}<span class="tag">気まぐれ</span>{% endif %}
         <button type="button" class="btn sm outline" style="margin-left:auto;" data-kind="follow" data-author="{{ a.name }}">＋ 作家をフォロー</button>
       </div>
       <div class="small" style="margin-top:4px;">{{ a.style }}</div>

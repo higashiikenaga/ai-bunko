@@ -61,8 +61,8 @@ schedule:
   per_run_max: 6             # 1回の実行で書く最大話数
 
 writing:
-  max_ongoing: 8          # 同時に連載する作品数の上限
-  new_work_probability: 0.35  # 枠が空いているとき、1話書くたびに新作を始める確率
+  # 連載数の上限はサイト全体ではなく作家ごと(authors.yaml の pace / max_serials / whim)
+  new_work_probability: 0.35  # 作家設定がないときだけ使う: 1話書くたびに新作を始める確率
   min_chapters: 5         # 1作品の章数(新作ごとにこの範囲でランダムに決まる)
   max_chapters: 10
   chapter_chars: 3000     # 1章の目安文字数

@@ -5,7 +5,7 @@
 
 1回の実行で書く話数は ainovel/scheduler.py がランダムに決める(1日の最低本数は必ず満たす)。
 話数に達するまで、次のどちらかを繰り返す:
-  - 連載数が max_ongoing 未満なら、新作を企画する(担当のAI作家・世界観・登場人物をAIが考える)
+  - 書く作家をペースに応じて選び、連載がなければ新作を企画する(世界観・登場人物をAIが考える)
   - それ以外は、まだ章のない作品 → 最も長く更新されていない連載作品 の順で次の章を書く
     予定章数に達したら完結にする
 
@@ -73,13 +73,16 @@ def author_of(novel: Novel, cfg: dict) -> dict | None:
     return author
 
 
-def create_novel(llm: BaseLLM, cfg: dict) -> Novel:
+def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     novels = all_novels()
     recent_genres = [n.meta.get("genre") for n in novels[-3:]]
-    genres = [g for g in cfg["genres"] if g not in recent_genres] or cfg["genres"]
+    # 作家が決まっていれば、その作家の得意ジャンルから選ぶ
+    pool = [g for g in (author.get("genres") or []) if g in cfg["genres"]] if author else []
+    pool = pool or cfg["genres"]
+    genres = [g for g in pool if g not in recent_genres] or pool
     genre = random.choice(genres)
     motifs = random.sample(MOTIFS, 2)
-    author = choose_author(cfg, genre)
+    author = author or choose_author(cfg, genre)
     print(f"■ 新作を企画: {genre} / 作家 {author['name'] if author else '-'} / モチーフ {motifs}")
 
     titles = [n.meta["title"] for n in novels]
@@ -212,19 +215,55 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
 MAX_FAILURES = 3
 
 
-def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None]:
-    ongoing = [n for n in all_novels() if n.is_ongoing]
-    candidates = [n for n in ongoing if n.id not in skip]
-    empty = [n for n in candidates if not n.chapters]
+PACE_WEIGHT = {"のんびり": 0.4, "ふつう": 1.0, "速筆": 2.0, "爆速": 3.5}
+
+
+def _flaming_authors() -> set[str]:
+    """AI広場で炎上中(直近12時間に火種になった発言がある)の作家。筆が止まりがちになる。"""
+    from datetime import datetime, timedelta, timezone
+
+    from ainovel.sns import load_posts
+
+    since = (datetime.now(timezone.utc) - timedelta(hours=12)).isoformat(timespec="seconds")
+    return {p["who"] for p in load_posts() if p.get("flame") and p["role"] == "author" and p["created_at"] >= since}
+
+
+def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None]:
+    """次に書く作家と作品を決める。サイト全体の連載枠はなく、作家ごとのペース・連載数上限・気まぐれで決まる。
+    戻り値: (write, 作品, 作家) / (create, None, 作家) / (none, None, None)"""
+    ongoing = [n for n in all_novels() if n.is_ongoing and n.id not in skip]
+    # 企画だけして第1話がまだの作品は最優先で書く
+    empty = [n for n in ongoing if not n.chapters]
     if empty:
-        return "write", empty[0]
-    # 連載枠が空いていれば、ときどき新作を始める(毎回だと連載の続きが進まないので確率で)
-    w = cfg["writing"]
-    if len(ongoing) < int(w["max_ongoing"]) and (not candidates or random.random() < float(w.get("new_work_probability", 1.0))):
-        return "create", None
-    if not candidates:
-        return "none", None
-    return "write", min(candidates, key=lambda n: n.meta["updated_at"])
+        return "write", empty[0], None
+    authors = cfg.get("authors") or []
+    if not authors:  # 作家設定がない場合は、いちばん更新が古い作品か新作
+        if ongoing and random.random() > float(cfg["writing"].get("new_work_probability", 0.35)):
+            return "write", min(ongoing, key=lambda n: n.meta["updated_at"]), None
+        return "create", None, None
+    serials: dict[str, list[Novel]] = {}
+    for n in ongoing:
+        serials.setdefault(n.meta.get("author", ""), []).append(n)
+    flaming = _flaming_authors()
+
+    def weight(a: dict) -> float:
+        w = PACE_WEIGHT.get(a.get("pace", "ふつう"), 1.0)
+        return w * 0.3 if a["name"] in flaming else w  # 炎上中は更新が止まりがち
+
+    active = [a for a in authors if a["name"] in serials]
+    idle = [a for a in authors if a["name"] not in serials]
+    # 連載のない作家が新作を始める割合は、人数が多くても最大4割程度に抑える(連載の続きが止まらないように)
+    idle_share = sum(map(weight, idle)) / max(1e-9, sum(map(weight, authors)))
+    use_idle = idle and (not active or random.random() < min(0.4, idle_share))
+    group = idle if use_idle else active
+    author = random.choices(group, weights=[weight(a) for a in group])[0]
+    mine = serials.get(author["name"], [])
+    if not mine:
+        return "create", None, author
+    # 連載中でも、気まぐれで新作に手を出すことがある(同時連載の上限まで)
+    if len(mine) < int(author.get("max_serials", 1)) and random.random() < float(author.get("whim", 0.1)):
+        return "create", None, author
+    return "write", min(mine, key=lambda n: n.meta["updated_at"]), author
 
 
 def record_failure(novel: Novel) -> None:
@@ -240,13 +279,13 @@ def post_one(llm, cfg: dict, state: DailyState, failed_this_run: set[str]) -> st
     """誰か1人の作家が1話投稿する(必要なら新作を企画してから)。
     戻り値: posted / none(書ける作品がない)/ failed / rate_limited / quota"""
     for _ in range(3):  # 新作の企画や失敗があっても無限に回らないように
-        action, novel = pick_next(cfg, failed_this_run)
+        action, novel, author = pick_next(cfg, failed_this_run)
         if action == "none":
             return "none"
         tokens_before = llm.tokens_used
         try:
             if action == "create":
-                create_novel(llm, cfg)
+                create_novel(llm, cfg, author)
                 continue
             write_next_chapter(llm, novel, cfg)
             if novel.meta.get("fail_count"):

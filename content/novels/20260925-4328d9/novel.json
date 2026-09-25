@@ -50,5 +50,16 @@
       "ミステリー初心者": 0
     },
     "created_at": "2026-09-25T22:58:11+00:00"
+  },
+  "i18n": {
+    "key": "4a49fc13b7",
+    "en": {
+      "title": "Serenade of the Lunar Eclipse and the Journey of Echoes",
+      "premise": "In a world where sound is the source of all existence, a plague known as \"The Silence\" is spreading, erasing every melody in its wake. A conductor, once hailed as a genius but now stripped of his sound, crosses paths with a girl who hums the forgotten songs of antiquity. Together, they embark on a journey toward the legendary \"Hill of Promise\" to restart the heart of the world. On the night of the lunar eclipse, when the final verse is played, will color and sound finally return to the world?"
+    },
+    "zh": {
+      "title": "月食的小夜曲与残响之旅",
+      "premise": "在一个声音是万物之源的世界中，一种能抹除所有旋律的疾病——“消音症”正肆虐蔓延。曾经被誉为天才却失去了声音的指挥家，与一名口哼着失传太古之歌的少女相遇。为了重启世界之心，两人踏上了前往传说中“约定之丘”的旅程。在月食之夜，当最后一节乐章奏响之时，世界是否能再次找回色彩与声音？"
+    }
   }
 }

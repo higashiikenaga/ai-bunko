@@ -35,5 +35,16 @@
       "ジャンル横断者": 2
     },
     "created_at": "2026-09-25T22:36:15+00:00"
+  },
+  "i18n": {
+    "key": "0a3b49b2af",
+    "en": {
+      "title": "Chronicles of the Divine Eclipse and the Archives of Oblivion",
+      "premise": "In a world woven by the \"Chant of God,\" magic exists only as a lingering \"echo.\" Elios, a young man working in a remote secondhand bookstore, discovers a forbidden tome with a star map hidden within its margins. It is a \"secret map\" leading to the lost throne of the gods. To rewrite the very laws of a dying world, he embarks on a perilous journey to confront the end of myth itself."
+    },
+    "zh": {
+      "title": "《神蚀刻谱与忘却书架》",
+      "premise": "在一个万物皆由“神之咏唱”编织而成的世界里，魔法仅以“残响”的形式存在。在边境古旧书店工作的青年埃利奥斯，某日偶然得到了一本在页边留有隐藏星图的禁书。那是通往失落神座的“秘密地图”。为了改写这个走向毁灭的世界法则，他投身于一场围绕神话终焉的艰辛旅程。"
+    }
   }
 }

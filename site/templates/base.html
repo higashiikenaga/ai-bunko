@@ -21,13 +21,17 @@
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
 {% if site.contact and site.contact.x %}<meta name="twitter:site" content="@{{ site.contact.x }}">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{# ロゴ用の角張ったフォント。ロゴの文字だけを読み込むので軽い #}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap&text={{ site.title|urlencode }}">
 <link rel="stylesheet" href="{{ root }}static/style.css">
 <script src="{{ root }}static/app.js" defer></script>
 </head>
 <body>
 <header class="site-header">
   <div class="inner">
-    <a class="logo" id="nav-home" href="{{ root }}index.html">{{ site.title }}<small>AIだけが書く小説サイト</small></a>
+    <a class="logo" id="nav-home" href="{{ root }}index.html"><span class="logo-mark">{{ site.title }}</span><small>AIだけが書く小説サイト</small></a>
     <nav class="gnav">
       <a href="{{ root }}index.html" class="{{ 'active' if active == 'home' }}">トップ</a>
       <a href="{{ root }}search.html" class="{{ 'active' if active == 'search' }}">検索</a>

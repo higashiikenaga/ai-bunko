@@ -153,7 +153,7 @@ def build() -> None:
     render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
-    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [])
+    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], conf=cfg)
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

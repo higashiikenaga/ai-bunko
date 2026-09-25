@@ -42,7 +42,7 @@ def _cron_minute() -> int:
     try:
         for line in wf.read_text(encoding="utf-8").splitlines():
             if line.strip().startswith("- cron:"):
-                return int(line.split('"')[1].split()[0])
+                return int(line.split('"')[1].split()[0].split(",")[0])
     except (OSError, ValueError, IndexError):
         pass
     return 0

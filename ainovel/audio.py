@@ -39,14 +39,23 @@ def enabled(cfg: dict) -> bool:
 def _state() -> dict:
     today = datetime.now(JST).strftime("%Y-%m-%d")
     data = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
-    return data if data.get("date") == today else {"date": today, "count": 0, "requests": 0, "exhausted": False}
+    if data.get("date") != today or "used" not in data:
+        data = {"date": today, "count": 0, "used": {}, "exhausted": []}  # used/exhausted はモデルごと
+    return data
+
+
+def _models(cfg: dict) -> list[tuple[str, int]]:
+    """使うTTSモデルと、それぞれの1日の呼び出し上限。上限はモデルごとに別なので、先頭から順に使い切る。"""
+    t = cfg.get("tts") or {}
+    models = t.get("models") or [{"name": t.get("model", "gemini-3.8-flash-lite-tts"), "daily_requests": t.get("daily_requests", 9)}]
+    return [(m["name"], int(m.get("daily_requests", 9))) for m in models]
 
 
 def _save_state(s: dict) -> None:
     STATE_PATH.write_text(json.dumps(s), encoding="utf-8")
 
 
-def _tts(cfg: dict, text: str, voice: str) -> bytes:
+def _tts(cfg: dict, text: str, voice: str, model: str) -> bytes:
     """テキストを読み上げた PCM(24kHz/16bit/mono)を返す。"""
     t = cfg.get("tts") or {}
     style = t.get("style", "落ち着いた声で、情景が浮かぶように、小説を朗読してください。会話文は少しだけ声色を変えてください。")
@@ -55,7 +64,7 @@ def _tts(cfg: dict, text: str, voice: str) -> bytes:
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}},
     }
-    req = urllib.request.Request(ENDPOINT.format(model=t.get("model", "gemini-3.8-flash-lite-tts")),
+    req = urllib.request.Request(ENDPOINT.format(model=model),
                                  data=json.dumps(payload).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "User-Agent": USER_AGENT,
                                           "x-goog-api-key": os.environ["GEMINI_API_KEY"]})
@@ -118,8 +127,11 @@ def make_one(cfg: dict) -> bool:
     if not enabled(cfg):
         return False
     st = _state()
-    rpd = int(t.get("daily_requests", 9))  # 1日の呼び出し回数の上限(無料枠のRPDより少し少なく)
-    if st["exhausted"] or st.get("requests", 0) >= rpd:
+
+    def room(model: str, limit: int) -> int:
+        return 0 if model in st["exhausted"] else limit - st["used"].get(model, 0)
+
+    if not any(room(m, lim) > 0 for m, lim in _models(cfg)):
         return False
     for n in _popular(cfg):
         done = n.meta.get("audio") or {}
@@ -128,22 +140,24 @@ def make_one(cfg: dict) -> bool:
             continue
         voice = VOICES[int(hashlib.md5(n.id.encode()).hexdigest(), 16) % len(VOICES)]  # 作品ごとに同じ声
         parts = _chunks(n.chapter_text(ch["index"]))
-        if st.get("requests", 0) + len(parts) > rpd:
-            return False  # 今日の残り回数では1話を読み切れない(途中までの音声は作らない)
-        print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice}・{len(parts)}回に分けて)")
+        # 残りの回数で1話を読み切れるモデルを使う(途中までの音声は作らない)
+        model = next((m for m, lim in _models(cfg) if room(m, lim) >= len(parts)), None)
+        if not model:
+            return False
+        print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice}・{model}・{len(parts)}回に分けて)")
         pcm = b""
         try:
             for k, part in enumerate(parts):
                 if k:
                     time.sleep(float(t.get("interval_sec", 25)))  # 1分あたりの回数の上限(RPM)に当たらないように
-                st["requests"] = st.get("requests", 0) + 1
+                st["used"][model] = st["used"].get(model, 0) + 1
                 _save_state(st)
-                pcm += _tts(cfg, part, voice)
+                pcm += _tts(cfg, part, voice, model)
         except RuntimeError as e:
             if len(e.args) > 1 and e.args[1] == 429:
-                st["exhausted"] = True  # 無料枠の上限。今日はもう作らない
+                st["exhausted"].append(model)  # このモデルの無料枠の上限。今日はほかのモデルで続ける
                 _save_state(st)
-                print("  TTSの無料枠の上限に達したため、今日の朗読はここまでにします")
+                print(f"  {model} の無料枠の上限に達したため、今日はほかのモデルで朗読します")
                 return False
             raise
         dest = AUDIO_DIR / n.id / f"{ch['index']:03d}.m4a"

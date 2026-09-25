@@ -1,0 +1,14 @@
+{
+  "id": "20260925-331288",
+  "title": "事象地平の古書録",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-25T15:36:23+00:00",
+  "updated_at": "2026-09-25T15:39:15+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ"
+}

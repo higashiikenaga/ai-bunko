@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel.scheduler import DailyState, plan_posts, start_delay_seconds
+from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
 MOTIFS = [
     "古い灯台", "壊れた懐中時計", "雨の日だけ開く店", "失われた手紙", "双子", "渡り鳥", "地下図書館",
@@ -232,10 +232,47 @@ def record_failure(novel: Novel) -> None:
     novel.save_meta()
 
 
+def post_one(llm, cfg: dict, state: DailyState, failed_this_run: set[str]) -> str:
+    """誰か1人の作家が1話投稿する(必要なら新作を企画してから)。
+    戻り値: posted / none(書ける作品がない)/ failed / rate_limited / quota"""
+    for _ in range(3):  # 新作の企画や失敗があっても無限に回らないように
+        action, novel = pick_next(cfg, failed_this_run)
+        if action == "none":
+            return "none"
+        tokens_before = llm.tokens_used
+        try:
+            if action == "create":
+                create_novel(llm, cfg)
+                continue
+            write_next_chapter(llm, novel, cfg)
+            if novel.meta.get("fail_count"):
+                novel.meta["fail_count"] = 0
+                novel.save_meta()
+            state.add_post()
+            return "posted"
+        except Exception as e:  # noqa: BLE001 - 1作業の失敗で全体を止めない
+            print(f"  ✗ 失敗: {e}")
+            traceback.print_exc(limit=2)
+            if isinstance(e, LLMError) and e.daily_quota:
+                state.mark_quota_exhausted()
+                print("  1日の無料枠を使い切ったため、今日の執筆はここまでにします。")
+                return "quota"
+            if action == "write" and novel is not None:
+                failed_this_run.add(novel.id)
+                record_failure(novel)
+            if isinstance(e, LLMError) and "429" in str(e):
+                print("  API上限に達したため、今回の執筆はここで終了します。")
+                return "rate_limited"
+            return "failed"
+        finally:
+            state.add_tokens(llm.tokens_used - tokens_before)
+    return "failed"
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="AI小説家を1回分動かす")
     parser.add_argument("--posts", type=int, default=None, help="今回書く話数を指定(省略時はスケジューラが決める)")
-    parser.add_argument("--no-delay", action="store_true", help="書き始める前のランダムな待ち時間を省く")
+    parser.add_argument("--no-delay", action="store_true", help="待ち時間を入れず、すぐに続けて書く")
     args = parser.parse_args(argv)
 
     cfg = load_config()
@@ -256,64 +293,46 @@ def main(argv: list[str] | None = None) -> int:
     if target <= 0 and review_target <= 0:
         return 0
 
-    if not args.no_delay:
-        delay = start_delay_seconds(sched, state)
-        print(f"投稿時刻をばらけさせるため {delay // 60}分{delay % 60}秒 待ってから書き始めます。")
-        time.sleep(delay)
+    # 定期実行でまとめて書くのではなく、作家と読者がそれぞれ好きなときに書いている様子を再現する。
+    # 今回の執筆・レビューをばらばらの順に並べ、実行時間内のランダムな時刻に1件ずつ行う。
+    events = ["post"] * max(0, target) + ["review"] * review_target
+    random.shuffle(events)
+    window = 0 if args.no_delay else activity_window_seconds(sched, state)
+    times = sorted(random.uniform(0, window) for _ in events)
+    if window:
+        print(f"作家と読者が約{window // 60}分のあいだに、それぞれ思い思いのタイミングで書きます。")
+    run_start = time.time()
 
-    posted = failed = 0
+    posted = failed = reviewed = 0
     failed_this_run: set[str] = set()
-    attempts = target * 3 + 3  # 新作の企画や失敗があっても無限に回らないように
-    while posted < target and attempts > 0:
-        attempts -= 1
-        action, novel = pick_next(cfg, failed_this_run)
-        if action == "none":
+    stop_posts = stop_all = False
+    for event, at in zip(events, times):
+        if stop_all:
             break
-        tokens_before = llm.tokens_used
-        try:
-            if action == "create":
-                novel = create_novel(llm, cfg)
-            else:
-                write_next_chapter(llm, novel, cfg)
-                if novel.meta.get("fail_count"):
-                    novel.meta["fail_count"] = 0
-                    novel.save_meta()
-                posted += 1
-                state.add_post()
-        except Exception as e:  # noqa: BLE001 - 1作業の失敗で全体を止めない
-            failed += 1
-            print(f"  ✗ 失敗: {e}")
-            traceback.print_exc(limit=2)
-            if isinstance(e, LLMError) and e.daily_quota:
-                state.mark_quota_exhausted()
-                print("  1日の無料枠を使い切ったため、今日の執筆はここまでにします。")
+        wait = at - (time.time() - run_start)
+        if wait > 0:
+            time.sleep(wait)
+        if event == "post":
+            if stop_posts:
+                continue
+            result = post_one(llm, cfg, state, failed_this_run)
+            posted += result == "posted"
+            failed += result in ("failed", "rate_limited", "quota")
+            stop_posts = result in ("none", "rate_limited", "quota")
+            stop_all = result == "quota"
+        else:
+            if state.data.get("quota_exhausted"):
                 break
-            if action == "write" and novel is not None:
-                failed_this_run.add(novel.id)
-                record_failure(novel)
-            if isinstance(e, LLMError) and "429" in str(e):
-                print("  API上限に達したため、今回はここで終了します。")
-                break
-        finally:
-            state.add_tokens(llm.tokens_used - tokens_before)
-
-    # ROM専AI読者のレビュー(投稿話数とは別枠。無料枠を使い切った日は行わない)
-    reviewed = 0
-    for _ in range(review_target):
-        if state.data.get("quota_exhausted"):
-            break
-        tokens_before = llm.tokens_used
-        try:
-            if not write_review(llm, cfg):
-                break
-            reviewed += 1
-        except Exception as e:  # noqa: BLE001
-            print(f"  ✗ レビュー失敗: {e}")
-            if isinstance(e, LLMError) and e.daily_quota:
-                state.mark_quota_exhausted()
-                break
-        finally:
-            state.add_tokens(llm.tokens_used - tokens_before)
+            tokens_before = llm.tokens_used
+            try:
+                reviewed += bool(write_review(llm, cfg))
+            except Exception as e:  # noqa: BLE001
+                print(f"  ✗ レビュー失敗: {e}")
+                if isinstance(e, LLMError) and e.daily_quota:
+                    state.mark_quota_exhausted()
+                    stop_all = True
+            finally:
+                state.add_tokens(llm.tokens_used - tokens_before)
 
     print(f"完了: 投稿 {posted}話 / レビュー {reviewed}件 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
     try:

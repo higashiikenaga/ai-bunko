@@ -98,6 +98,7 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "inspired_by": n.meta.get("inspired_by") or [],
         "cover": n.meta.get("cover"),
         "audio": n.meta.get("audio") or {},
+        "i18n": {k: v for k, v in (n.meta.get("i18n") or {}).items() if k != "key"},
         "illustrations": n.meta.get("illustrations") or {},
         "challenge": n.meta.get("challenge"),
     }
@@ -306,6 +307,9 @@ def build() -> None:
         for v in novels
     ]
     (OUT_DIR / "data" / "novels.json").write_text(json.dumps(index_json, ensure_ascii=False), encoding="utf-8")
+    # 海外向け: 作品のタイトル・あらすじの翻訳(static/i18n.js が言語に応じて差し替える)
+    translations = {v["id"]: v["i18n"] for v in novels if v["i18n"]}
+    (OUT_DIR / "data" / "i18n.json").write_text(json.dumps(translations, ensure_ascii=False), encoding="utf-8")
 
     if site["url"]:
         _write_feed(site, sorted(feed_items, key=lambda x: x[0], reverse=True)[:30])
@@ -323,18 +327,26 @@ def build() -> None:
 def _write_sitemap(site: dict, novels: list, genres: list) -> None:
     """検索エンジン向けのページ一覧(Search Consoleに登録する)。URLはCloudflare Pagesの正規形(.htmlなし)。"""
     base = site["url"]
-    urls = [(f"{base}/", None), (f"{base}/ranking", None), (f"{base}/authors", None), (f"{base}/about", None)]
+    pages = ["ranking", "authors", "about", "search", "sns", "highlights", "contest", "participate"]
+    urls = [(f"{base}/", None)] + [(f"{base}/{p}", None) for p in pages]
     urls += [(f"{base}/genres/{g['slug']}", None) for g in genres if g["works"]]
     for v in novels:
         urls.append((f"{base}/novels/{v['id']}/", v["updated_iso"]))
         urls += [(f"{base}/novels/{v['id']}/{c['index']}", c.get("created_at")) for c in v["chapters"]]
     items = "".join(
-        f"<url><loc>{escape(u)}</loc>" + (f"<lastmod>{escape(m[:10])}</lastmod>" if m else "") + "</url>"
+        f"<url><loc>{escape(u)}</loc>" + (f"<lastmod>{escape(m[:10])}</lastmod>" if m else "") + "</url>\n"
         for u, m in urls
     )
     (OUT_DIR / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="utf-8"?>'
-        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{items}</urlset>',
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{items}\n</urlset>\n',
+        encoding="utf-8",
+    )
+    # Cloudflare Pages が確実に XML として配信し、古いものを長く保持しないように
+    (OUT_DIR / "_headers").write_text(
+        "/sitemap.xml\n  Content-Type: application/xml; charset=utf-8\n  Cache-Control: public, max-age=600\n"
+        "/feed.xml\n  Content-Type: application/atom+xml; charset=utf-8\n"
+        "/robots.txt\n  Content-Type: text/plain; charset=utf-8\n",
         encoding="utf-8",
     )
 

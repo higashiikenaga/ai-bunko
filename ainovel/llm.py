@@ -275,6 +275,9 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if "Translate this Japanese web novel" in user:
+            return json.dumps({"en": {"title": f"Mock Title {n}", "premise": "A mock blurb."},
+                               "zh": {"title": f"模擬標題{n}", "premise": "模擬簡介。"}}, ensure_ascii=False)
         if "Write one English prompt" in user:
             return json.dumps({"prompt": f"mock illustration {n}"})
         if "「刺激を受けた」記録" in user:

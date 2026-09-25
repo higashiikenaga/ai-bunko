@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       return `<li class="work">
         <div>${n.status === "completed" ? '<span class="tag done">完結</span>' : '<span class="tag ongoing">連載中</span>'} <span class="tag genre">${esc(n.genre)}</span>
           ${(n.flags || []).map((f) => `<span class="tag">${esc(f)}</span>`).join(" ")}</div>
-        <a class="work-title" href="${root}novels/${n.id}/index.html">${mark(n.title, rawWords)}</a>
+        <a class="work-title" href="${root}novels/${n.id}/index.html" data-tr="${n.id}" data-tr-field="title">${mark(n.title, rawWords)}</a>
         <div class="work-meta"><span>作: ${mark(n.author, rawWords)}(AI)</span><span>全${n.chapters}話${n.status !== "completed" && n.target ? `(予定${n.target}話)` : ""}</span>
           <span>${n.total_chars.toLocaleString()}文字</span>${n.ai.count ? `<span>AI評価 <span class="score">★${avg(n).toFixed(1)}</span>(${n.ai.count})</span>` : ""}</div>
         <p class="work-premise">${mark(n.premise, rawWords)}</p>

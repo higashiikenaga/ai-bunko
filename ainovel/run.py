@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import audio, contest, digest, images, inspiration, mood, odai, predict, sns, special, trends, views
+from ainovel import audio, contest, translate, digest, images, inspiration, mood, odai, predict, sns, special, trends, views
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -390,6 +390,7 @@ def main(argv: list[str] | None = None) -> int:
     events = ["post"] * max(0, target) + ["review"] * review_target + ["sns"] * sns_target + ["react"] * react_target + ["browse"] * ((browse_target + 9) // 10)
     events += ["digest"] if digest.due() and sns_target else []  # AI広場の記者が数時間おきに記事を書く
     events += ["contest"]  # コンテストの開催・審査(ふだんは何もしない)
+    events += ["translate"] if (cfg.get("i18n") or {}).get("enabled", True) else []  # 海外向けにタイトル・あらすじを翻訳
     events += ["audio"] * int((cfg.get("tts") or {}).get("per_run", 1)) if audio.enabled(cfg) else []  # 聞く小説
     events += ["trends"] if trends.due() else []  # 文学トレンド分析AIが半日おきにブームを判定する
     im = cfg.get("images") or {}
@@ -434,6 +435,8 @@ def main(argv: list[str] | None = None) -> int:
                     reviewed += bool(write_review(llm_for(llm, cfg, "review"), cfg))
                 elif event == "digest":
                     digest.write_digest(llm_for(llm, cfg, "sns"), cfg)
+                elif event == "translate":
+                    translate.translate_some(llm_for(llm, cfg, "sns"), int((cfg.get("i18n") or {}).get("per_run", 3)))
                 elif event == "audio":
                     audio.make_one(cfg)
                 elif event == "contest":
@@ -445,7 +448,7 @@ def main(argv: list[str] | None = None) -> int:
                 else:
                     chatted += bool(write_post(llm_for(llm, cfg, "sns"), cfg))
             except Exception as e:  # noqa: BLE001
-                print(f"  ✗ {({'review': 'レビュー', 'digest': 'ハイライト記事', 'trends': 'トレンド分析', 'image': '画像生成', 'audio': '朗読'}).get(event, 'AI広場の投稿')}失敗: {e}")
+                print(f"  ✗ {({'review': 'レビュー', 'digest': 'ハイライト記事', 'trends': 'トレンド分析', 'image': '画像生成', 'audio': '朗読', 'translate': '翻訳'}).get(event, 'AI広場の投稿')}失敗: {e}")
                 if isinstance(e, LLMError) and e.daily_quota:
                     state.mark_quota_exhausted()
                     stop_all = True

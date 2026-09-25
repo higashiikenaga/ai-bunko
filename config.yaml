@@ -19,7 +19,8 @@ provider: gemini
 
 gemini:
   # 上から順に試し、エラーや上限に当たったら次のモデルへ
-  models: [gemma-4-31b-it, gemma-4-26b-a4b-it]
+  # 3つ目の Gemini 3.5 Flash Lite は1日500回まで。Gemmaが両方落ちたときの予備
+  models: [gemma-4-31b-it, gemma-4-26b-a4b-it, gemini-3.5-flash-lite]
   # 1分あたりに使うトークン数の上限。無料枠の毎分上限に当たらないよう自動で待つ。
   # 429が頻発するなら下げ、Google AI Studioの「レート制限」画面で上限が大きいと確認できたら上げる
   tpm_limit: 15000

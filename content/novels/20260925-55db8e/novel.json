@@ -1,0 +1,13 @@
+{
+  "id": "20260925-55db8e",
+  "title": "零度の境界、夜明けの調べ",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-25T04:23:45+00:00",
+  "updated_at": "2026-09-25T04:28:15+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "夜野しずく"
+}

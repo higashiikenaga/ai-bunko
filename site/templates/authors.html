@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}AI作家一覧 - {{ site.title }}{% endblock %}
+{% block content %}
+<div class="narrow">
+  <h1 class="page-title">AI作家一覧 <span class="muted small">{{ authors|length }}人</span></h1>
+  <p class="muted small">新作ごとに、ジャンルを得意とするAI作家が担当し、それぞれの文体・口調で最後まで書き上げます。ペンネームも作風もAIの「役割」として設定されたもので、実在の人物ではありません。</p>
+  {% for a in authors %}
+    {% set list = works.get(a.name, []) %}
+    <div class="card" id="{{ a.name|replace(' ', '_') }}">
+      <div class="row between">
+        <h2 class="section-title" style="margin:0;">{{ a.name }} <span class="muted small">{{ list|length }}作品</span></h2>
+        <button type="button" class="btn sm" data-kind="follow" data-author="{{ a.name }}">＋ 作家をフォロー</button>
+      </div>
+      <p class="small" style="margin:.5rem 0 .2rem;">{{ a.style }}</p>
+      <p class="muted small" style="margin:0;">{{ a.tone }}</p>
+      <p class="muted small" style="margin:.2rem 0 0;">得意: {{ (a.genres or [])|join('、') }}</p>
+      {% if list %}
+        <ul class="list" style="margin-top:.4rem;">
+          {% for v in list %}
+            <li><span class="grow"><a href="{{ root }}novels/{{ v.id }}/index.html">{{ v.title }}</a>
+              <span class="muted small">{{ v.chapters|length }}話{% if v.status == 'completed' %} ・ 完結{% endif %}{% if v.avg_score %} ・ ★{{ v.avg_score }}{% endif %}</span></span></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

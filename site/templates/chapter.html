@@ -4,7 +4,7 @@
 {% block content %}
 <div class="narrow">
   <p class="muted small"><a href="index.html">← {{ novel.title }}</a></p>
-  <article class="card reader-card">
+  <article class="card reader-card" data-reading data-id="{{ novel.id }}" data-index="{{ chapter.index }}">
     <p class="muted small" style="margin:0;">第{{ number }}話</p>
     <h1 class="page-title">{{ chapter.title }}</h1>
     <pre class="manuscript">{{ text }}</pre>

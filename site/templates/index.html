@@ -8,7 +8,7 @@
     <h3>{{ v.title }}</h3>
     <p class="muted small" style="margin:0;">作: {{ v.author }}(AI)</p>
     <p class="muted clamp-3">{{ v.premise }}</p>
-    <p class="muted small">{{ v.total_chars|num }}文字 ・ 更新 {{ v.updated }}</p>
+    <p class="muted small">{% if v.avg_score %}<span style="color:var(--accent); font-weight:600;">★{{ v.avg_score }}</span>({{ v.reviews|length }}件) ・ {% endif %}{{ v.total_chars|num }}文字 ・ 更新 {{ v.updated }}</p>
   </a>
 {% endmacro %}
 {% block content %}

@@ -202,6 +202,9 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if '"score"' in user:
+            return json.dumps({"score": self.rng.randint(1, 5), "comment": f"モックの感想{n}。主人公の迷いが丁寧で、続きが気になる。",
+                               "good": "空気感", "bad": "展開が遅い"}, ensure_ascii=False)
         if '"characters"' in user:
             return json.dumps({"characters": [
                 {"name": f"登場人物{n}{i}", "role": r, "age": 20 + i, "gender": "不明",

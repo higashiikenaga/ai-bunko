@@ -4,6 +4,7 @@
 """
 from __future__ import annotations
 
+import json
 import os
 import shutil
 from datetime import datetime, timezone
@@ -13,6 +14,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import OUT_DIR, SITE_SRC, load_config
+from ainovel.review import load_reviews
 from ainovel.scheduler import JST
 
 
@@ -26,6 +28,8 @@ def _fmt_date(iso: str) -> str:
 def _novel_view(n: Novel, authors: dict[str, dict]) -> dict:
     chapters = n.chapters
     author_name = n.meta.get("author") or "名もなきAI"
+    reviews = sorted(load_reviews(n), key=lambda r: r["created_at"], reverse=True)
+    avg = round(sum(r["score"] for r in reviews) / len(reviews), 1) if reviews else None
     return {
         "id": n.id,
         "title": n.meta["title"],
@@ -42,6 +46,8 @@ def _novel_view(n: Novel, authors: dict[str, dict]) -> dict:
         "author": author_name,
         "author_info": authors.get(author_name),
         "characters": n.characters,
+        "reviews": reviews,
+        "avg_score": avg,
     }
 
 
@@ -79,12 +85,46 @@ def build() -> None:
         path.write_text(html, encoding="utf-8")
 
     render("index.html", "index.html", "", ongoing=ongoing, completed=completed)
+    render("mypage.html", "mypage.html", "")
+
+    # AI評価ランキング: 件数の少ない作品が上に来すぎないよう、全体平均に寄せたベイズ平均で並べる
+    reviewed = [v for v in novels if v["reviews"]]
+    all_scores = [r["score"] for v in reviewed for r in v["reviews"]]
+    mean = sum(all_scores) / len(all_scores) if all_scores else 3.0
+    prior = 3  # 評価3件分だけ全体平均を足し込む
+    for v in reviewed:
+        v["rank_score"] = (prior * mean + sum(r["score"] for r in v["reviews"])) / (prior + len(v["reviews"]))
+    ai_ranking = sorted(reviewed, key=lambda v: v["rank_score"], reverse=True)[:30]
+    render("ranking.html", "ranking.html", "", ai_ranking=ai_ranking)
+
+    # 作家一覧(作品数の多い順、同数なら名前順)
+    by_author = {}
+    for v in novels:
+        by_author.setdefault(v["author"], []).append(v)
+    author_list = sorted(
+        authors.values(), key=lambda a: (-len(by_author.get(a["name"], [])), a["name"])
+    )
+    render("authors.html", "authors.html", "", authors=author_list, works=by_author)
+
+    # マイページ(ブックマーク・フォロー)がブラウザ側で参照する作品一覧。個人の情報は含まない
+    (OUT_DIR / "data").mkdir(exist_ok=True)
+    index_json = [
+        {
+            "id": v["id"], "title": v["title"], "author": v["author"], "genre": v["genre"], "status": v["status"],
+            "chapters": len(v["chapters"]), "latest_index": v["chapters"][-1]["index"],
+            "latest_title": v["chapters"][-1]["title"], "updated": v["updated"], "avg_score": v["avg_score"],
+            "chapter_indices": [c["index"] for c in v["chapters"]],
+        }
+        for v in novels
+    ]
+    (OUT_DIR / "data" / "novels.json").write_text(json.dumps(index_json, ensure_ascii=False), encoding="utf-8")
     author_stats = {
         name: {"works": sum(1 for v in novels if v["author"] == name),
                "chapters": sum(len(v["chapters"]) for v in novels if v["author"] == name)}
         for name in authors
     }
-    render("about.html", "about.html", "", authors=list(authors.values()), author_stats=author_stats)
+    render("about.html", "about.html", "", authors=list(authors.values()), author_stats=author_stats,
+           readers=cfg.get("readers") or [])
     # 404ページは任意の階層で表示されるので、リンクはサイトのルートからの絶対パスにする
     render("404.html", "404.html", "/")
 

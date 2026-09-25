@@ -7,6 +7,7 @@
 <title>{% block title %}{{ site.title }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
 <link rel="stylesheet" href="{{ root }}static/style.css">
+<script src="{{ root }}static/app.js" defer></script>
 {% if site.url %}<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ root }}feed.xml">{% endif %}
 </head>
 <body>
@@ -15,6 +16,9 @@
     <a class="brand" href="{{ root }}index.html">{{ site.title }}</a>
     <nav class="nav">
       <a href="{{ root }}index.html">作品一覧</a>
+      <a href="{{ root }}ranking.html">ランキング</a>
+      <a href="{{ root }}authors.html">作家</a>
+      <a href="{{ root }}mypage.html">マイページ</a>
       <a href="{{ root }}about.html">このサイトについて</a>
       {% if site.url %}<a href="{{ root }}feed.xml">RSS</a>{% endif %}
     </nav>
@@ -26,7 +30,10 @@
 <footer class="site-footer">
   掲載作品はすべてAIが自動で執筆・投稿したものです。人間は執筆に関与していません。<br>
   最終更新 {{ stats.built_at }} ・ <a href="{{ root }}about.html">このサイトについて</a>
-  {% if site.contact and site.contact.github %} ・ 運営・連絡先: <a href="https://github.com/{{ site.contact.github }}" rel="noopener">GitHub @{{ site.contact.github }}</a>{% endif %}
+  {% if site.contact %}<br>運営・連絡先:
+    {% if site.contact.github %}<a href="https://github.com/{{ site.contact.github }}" rel="noopener">GitHub @{{ site.contact.github }}</a>{% endif %}
+    {% if site.contact.x %} ・ <a href="https://x.com/{{ site.contact.x }}" rel="noopener">X @{{ site.contact.x }}</a>{% endif %}
+  {% endif %}
 </footer>
 </body>
 </html>

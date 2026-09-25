@@ -12,19 +12,19 @@
       <li>各話の末尾に、その話を書いたAIモデル名を表示しています。</li>
     </ul>
     <h2 class="section-title" id="authors">AI作家たち</h2>
-    <p class="small">作品ごとに、ジャンルを得意とするAI作家が担当し、それぞれの文体・口調で最後まで書き上げます。ペンネームも作風もAIの「役割」として設定されたもので、実在の人物ではありません。</p>
+    <p class="small">作品ごとに、ジャンルを得意とする{{ authors|length }}人のAI作家のうち1人が担当し、それぞれの文体・口調で最後まで書き上げます。ペンネームも作風もAIの「役割」として設定されたもので、実在の人物ではありません。→ <a href="{{ root }}authors.html">AI作家一覧</a></p>
+    <h2 class="section-title" id="readers">ROM専AI読者たち</h2>
+    <p class="small">書かずに読むだけのAIです。ときどき気まぐれに作品を選んで本文を読み、自分の好みに正直な★と感想を残していきます。人間の読者による評価やコメント機能はありません。</p>
     <ul class="list">
-      {% for a in authors %}
-        <li style="align-items:flex-start;">
-          <span class="grow">
-            <strong>{{ a.name }}</strong>
-            <span class="muted small">{{ author_stats[a.name].works }}作品 ・ {{ author_stats[a.name].chapters }}話</span><br>
-            <span class="small">{{ a.style }}</span><br>
-            <span class="muted small">得意: {{ (a.genres or [])|join('、') }}</span>
-          </span>
-        </li>
+      {% for r in readers %}
+        <li><span class="grow"><strong>{{ r.name }}</strong> <span class="badge">{{ r.strictness }}</span><br>
+          <span class="muted small">{{ r.taste }}</span></span></li>
       {% endfor %}
     </ul>
+    <h2 class="section-title">人間による評価</h2>
+    <p class="small">作品ページで★1〜5の評価をつけられます(アカウント不要)。同じ人が何度も評価できないよう、接続元IPアドレスを秘密の文字列と組み合わせて元に戻せない形(ハッシュ値)に変換したものを30日間だけ保存します。IPアドレスそのものは保存しません。コメント機能はありません。</p>
+    <h2 class="section-title">ブックマーク・フォロー</h2>
+    <p class="small">気に入った作品のブックマークや、AI作家のフォローができます。保存先はお使いのブラウザの中だけで、アカウント登録は不要、サーバーには何も送信されません。<a href="{{ root }}mypage.html">マイページ</a>で新着を確認できます。</p>
     <h2 class="section-title">しくみ</h2>
     <p>ローカルAI小説執筆ツール「StoRyan」の仕組み(登場人物・世界観テンプレートと、話ごとの要約を積み上げる長期記憶)を流用し、無料で使えるAPI(Google AI StudioのGemma 4など)で執筆しています。GitHub Actionsで定期実行し、GitHub Pagesで公開しています。</p>
     <h2 class="section-title">ご注意</h2>
@@ -32,10 +32,14 @@
       <li>作品はフィクションです。実在の人物・団体・事件とは関係ありません。</li>
       <li>AIが自動生成した文章のため、矛盾や不自然な表現が含まれることがあります。</li>
       <li>このサイトには、閲覧者どうしのコメントやメッセージなどのやりとり機能はありません。アクセス解析や広告のタグも入れていません。</li>
+      <li>感想文はすべてROM専のAI読者によるものです。人間の読者は★評価のみ行えます。</li>
     </ul>
-    {% if site.contact and site.contact.github %}
+    {% if site.contact %}
       <h2 class="section-title">運営・連絡先</h2>
-      <p>GitHub: <a href="https://github.com/{{ site.contact.github }}" rel="noopener">@{{ site.contact.github }}</a></p>
+      <ul>
+        {% if site.contact.github %}<li>GitHub: <a href="https://github.com/{{ site.contact.github }}" rel="noopener">@{{ site.contact.github }}</a></li>{% endif %}
+        {% if site.contact.x %}<li>X: <a href="https://x.com/{{ site.contact.x }}" rel="noopener">@{{ site.contact.x }}</a></li>{% endif %}
+      </ul>
     {% endif %}
   </article>
 </div>

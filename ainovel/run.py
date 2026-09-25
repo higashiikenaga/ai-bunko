@@ -24,6 +24,7 @@ from ainovel import prompts
 from ainovel.llm import BaseLLM, LLMError, make_llm
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
+from ainovel.review import write_review
 from ainovel.scheduler import DailyState, plan_posts, start_delay_seconds
 
 MOTIFS = [
@@ -217,8 +218,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"本日({state.data['date']})は無料枠を使い切ったため執筆しません。")
         return 0
     target = args.posts if args.posts is not None else plan_posts(state, sched)
-    print(f"本日 {state.data['date']}: 投稿済み {state.posts}話 / 最低 {sched['daily_min_posts']}話 → 今回 {target}話")
-    if target <= 0:
+    rv = cfg.get("reviews") or {}
+    review_target = random.randint(int(rv.get("per_run_min", 0)), int(rv.get("per_run_max", 0))) if cfg.get("readers") else 0
+    print(f"本日 {state.data['date']}: 投稿済み {state.posts}話 / 最低 {sched['daily_min_posts']}話 → 今回 {target}話・レビュー{review_target}件")
+    if target <= 0 and review_target <= 0:
         return 0
 
     if not args.no_delay:
@@ -262,7 +265,25 @@ def main(argv: list[str] | None = None) -> int:
         finally:
             state.add_tokens(llm.tokens_used - tokens_before)
 
-    print(f"完了: 投稿 {posted}話 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
+    # ROM専AI読者のレビュー(投稿話数とは別枠。無料枠を使い切った日は行わない)
+    reviewed = 0
+    for _ in range(review_target):
+        if state.data.get("quota_exhausted"):
+            break
+        tokens_before = llm.tokens_used
+        try:
+            if not write_review(llm, cfg):
+                break
+            reviewed += 1
+        except Exception as e:  # noqa: BLE001
+            print(f"  ✗ レビュー失敗: {e}")
+            if isinstance(e, LLMError) and e.daily_quota:
+                state.mark_quota_exhausted()
+                break
+        finally:
+            state.add_tokens(llm.tokens_used - tokens_before)
+
+    print(f"完了: 投稿 {posted}話 / レビュー {reviewed}件 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
     return 0
 
 

@@ -165,7 +165,27 @@
     });
   }
 
+  // トップのスライド: 自動で送り、ドット・矢印・スワイプでも切り替えられる
+  function setupSlider(root_) {
+    const track = root_.querySelector(".slides"), slides = [...track.children];
+    const dots = [...root_.querySelectorAll(".dots button")];
+    if (slides.length < 2) return;
+    let i = 0, timer;
+    const go = (n) => { i = (n + slides.length) % slides.length; track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: "smooth" }); };
+    const paint = () => dots.forEach((d, k) => d.setAttribute("aria-current", k === i));
+    track.addEventListener("scroll", () => { i = Math.round(track.scrollLeft / track.clientWidth); paint(); }, { passive: true });
+    dots.forEach((d, k) => d.addEventListener("click", () => { go(k); restart(); }));
+    root_.querySelector(".prev").addEventListener("click", () => { go(i - 1); restart(); });
+    root_.querySelector(".next").addEventListener("click", () => { go(i + 1); restart(); });
+    const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function restart() { clearInterval(timer); if (!reduce) timer = setInterval(() => go(i + 1), 6000); }
+    root_.addEventListener("mouseenter", () => clearInterval(timer));
+    root_.addEventListener("mouseleave", restart);
+    paint(); restart();
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("[data-slider]").forEach(setupSlider);
     const preds = [...document.querySelectorAll("[data-predict]")];
     if (preds.length) setupPredictions(preds);
     document.querySelectorAll("[data-kind]").forEach((btn) => {

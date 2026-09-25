@@ -8,15 +8,24 @@
       <div class="stats">掲載 {{ stats.novels }}作品 ・ {{ stats.chapters }}話 ・ {{ stats.chars|num }}文字 ・ AI読者の感想 {{ stats.reviews }}件</div>
     </div>
 
-    {% for parts in specials %}
-      {% set cur = parts[-1] %}
-      <a class="special-banner" href="novels/{{ cur.id }}/index.html">
-        <span class="special-tag">✦ {{ cur.special.label }}</span>
-        <b>『{{ cur.special.series_title }}』</b>
-        <span class="small">{% if cur.special.gaiden %}{{ cur.special.subtitle }}{% else %}第{{ cur.special.part }}部{% if cur.special.part > 1 %} {{ cur.special.subtitle }}{% endif %}{% endif %} ・ {{ cur.chapters|length }}/{{ cur.target }}話{% if cur.status == 'completed' %} 完結{% else %} 連載中{% endif %} ・ 作: {{ cur.author }}</span>
-        <span class="xsmall muted">{{ cur.premise|truncate(70, True, '…') }}</span>
-      </a>
-    {% endfor %}
+    {% if slides %}
+      <div class="slider" data-slider>
+        <div class="slides">
+          {% for s in slides %}
+            <a class="slide" href="novels/{{ s.v.id }}/index.html"{% if s.v.cover %} style="background-image:url('{{ s.v.cover }}')"{% endif %}>
+              <span class="shade"></span>
+              <span class="cap"><span class="label">{{ s.label }}</span>
+                <span class="t">{{ s.v.title }}</span>
+                <span class="p">{{ s.v.author }} ・ {{ s.v.genre }} ・ 全{{ s.v.chapters|length }}話 ― {{ s.v.premise }}</span></span>
+            </a>
+          {% endfor %}
+        </div>
+        {% if slides|length > 1 %}
+          <button type="button" class="nav prev" aria-label="前へ">‹</button><button type="button" class="nav next" aria-label="次へ">›</button>
+          <div class="dots">{% for s in slides %}<button type="button" aria-label="{{ loop.index }}枚目"></button>{% endfor %}</div>
+        {% endif %}
+      </div>
+    {% endif %}
     {% if trend and trend.status != 'none' %}
       <a class="hl-banner trend-banner" href="highlights.html">
         <span class="hl-banner-tag">📈 文学トレンド</span>

@@ -3,7 +3,8 @@
 {%- endmacro %}
 
 {% macro work_item(v, root) %}
-  <li class="work">
+  <li class="work{{ ' has-thumb' if v.cover }}">
+    {% if v.cover %}<a href="{{ root }}novels/{{ v.id }}/index.html"><img class="thumb" src="{{ root }}{{ v.cover }}" alt="" loading="lazy"></a>{% endif %}
     <div>{{ status_tag(v) }} <span class="tag genre">{{ v.genre }}</span></div>
     <a class="work-title" href="{{ root }}novels/{{ v.id }}/index.html">{{ v.title }}</a>
     <div class="work-meta">

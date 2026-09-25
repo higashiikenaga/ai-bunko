@@ -30,7 +30,7 @@ def load_followers(cfg: dict) -> dict[str, int]:
 def save_followers(followers: dict[str, int]) -> None:
     INFLUENCERS_PATH.write_text(json.dumps(followers, ensure_ascii=False, indent=1), encoding="utf-8")
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
-KIND_LABEL = {"peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
+KIND_LABEL = {"trend_talk": "📈 ブームの話題", "peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
               "human_thanks": "人間の読者に反応"}
 
 SNS_SYSTEM = (
@@ -106,6 +106,36 @@ def is_flaming(posts: list[dict], root_id: str) -> bool:
     return any(p.get("flame") for p in _thread(posts, root_id)) and thread_heat(posts, root_id) >= 2
 
 
+TREND_POSTS = {"candidate": 3, "boom": 6}  # 1回の判定につき、AI広場で話題になる書き込みの数
+
+
+def _trend_plan(cfg: dict, posts: list[dict], authors: list, roms: list, critics: list, rng: random.Random) -> dict | None:
+    from ainovel.trends import load as load_trends
+
+    history = load_trends()
+    t = history[-1] if history else None
+    if not t or t.get("status") not in TREND_POSTS:
+        return None
+    talked = [p for p in posts if p.get("trend_id") == t["created_at"]]
+    if len(talked) >= TREND_POSTS[t["status"]]:
+        return None
+    influencers = [{**i, "followers": f} for i, f in zip(cfg.get("influencers") or [], load_followers(cfg).values())]
+    # 最初はインフルエンサーAIか評価AIが取り上げ、続いて作家・ROM専AIも反応する(乗る・距離を置く・疑問を呈する)
+    if not talked:
+        pool = [("influencer", i) for i in influencers] or [("critic", c) for c in critics]
+    else:
+        pool = ([("author", a) for a in rng.sample(authors, min(4, len(authors)))] + [("critic", c) for c in rng.sample(critics, min(3, len(critics)))]
+                + [("rom", r) for r in rng.sample(roms, min(3, len(roms)))] + [("influencer", i) for i in influencers[:1]])
+    pool = [(r, w) for r, w in pool if w["name"] not in {p["who"] for p in talked}]
+    if not pool:
+        return None
+    role, who = rng.choice(pool)
+    plan = {"kind": "trend_talk", "role": role, "who": who, "novel": None, "trend": t}
+    if talked:
+        plan.update({"kind": "reply", "reply_to": talked[-1], "root": talked[0].get("root") or talked[0]["id"], "flame": False})
+    return plan
+
+
 def _pick_novel(novels: list[Novel], rng: random.Random, buzz: dict[str, int]) -> Novel:
     weights = [1.0 + 0.3 * len(n.chapters) + buzz.get(n.id, 0) for n in novels]
     return rng.choices(novels, weights=weights)[0]
@@ -120,8 +150,12 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
     if not novels or not (roms or critics):
         return None
     buzz = mention_counts(posts)
-    # 早期完結・新ジャンル挑戦などの出来事は、作者がまず報告する
     by_name = {a["name"]: a for a in authors}
+    # 文学トレンド分析AIがブーム(候補)を判定したら、しばらくAI広場の話題になる
+    trend_plan = _trend_plan(cfg, posts, authors, roms, critics, rng)
+    if trend_plan:
+        return trend_plan
+    # 早期完結・新ジャンル挑戦などの出来事は、作者がまず報告する
     for n in novels:
         if n.meta.get("announce") in ("cut", "challenge") and n.meta.get("author") in by_name:
             return {"kind": f"announce_{n.meta['announce']}", "role": "author", "who": by_name[n.meta["author"]],
@@ -217,6 +251,9 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 INSTRUCTIONS = {
     "influence": "フォロワーに向けて、この作品を紹介してください。推す・辛口に斬る・考察する・ランキング風に語るなど、あなたの芸風で。"
                  "影響力のある人らしく、読みたくなる(または物議を醸す)ひと言に。",
+    "trend_talk": "文学トレンド分析AIが、AI文庫で下のような「ブーム(または候補)」が起きていると判定しました。"
+                  "このブームについて、あなたの立場から話題にしてください。乗っかる、分析する、流行に疑問を呈する、自分も試したいと言うなど自由に。"
+                  "判定に書かれていない事実は付け足さない。",
     "peer_praise": "あなた(作家)は、ほかの作家のこの作品を読みました。同業者として、良かった点や刺激を受けたところ、"
                    "自分の執筆に活かしたいことをつぶやいてください。素直に褒めても、ライバル心をにじませてもよい。作品の内容を丸ごと真似するとは言わない。",
     "promo": "自分の作品を宣伝する投稿、または執筆の近況をつぶやいてください。押しつけがましすぎず、読みたくなるように。",
@@ -254,6 +291,11 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
     if plan.get("novel"):
         reviewer = who["name"] if plan["role"] == "critic" else None
         parts.append(f"# 話題の作品\n{_novel_context(plan['novel'], reviewer)}")
+    if plan.get("trend"):
+        t = plan["trend"]
+        parts.append(f"# 文学トレンド分析AIの判定\n{'ブーム' if t['status'] == 'boom' else 'ブーム候補'}: {t.get('trend')}"
+                     + (f"(影響の起点として確認できる作品: {t['origin']})" if t.get("origin") else "")
+                     + "\n根拠:\n" + "\n".join(f"- {e}" for e in t.get("evidence") or []))
     if plan.get("human"):
         h = plan["human"]
         parts.append(f"# 人間の読者からの評価\n★{float(h.get('avg', 0)):.1f}({h.get('count')}件。前回確認したときは{plan['seen']}件)")
@@ -261,7 +303,7 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
         thread = _thread(posts, plan["root"])[-8:]
         lines = [f"- {p['who']}({ROLE_LABEL.get(p['role'], p['role'])}): {p['text']}" for p in thread]
         parts.append("# スレッド(古い順。最後の投稿に返信する)\n" + "\n".join(lines))
-    author_reply = plan["kind"] == "reply" and plan["role"] == "author"
+    author_reply = plan["kind"] == "reply" and plan["role"] == "author" and plan.get("novel") is not None
     flame = plan.get("flame")
     if author_reply and flame:
         fmt = '{"text": "投稿の本文", "stance": "謝罪" か "釈明" か "開き直り", "takeaway": "謝罪した場合、今後の話で改めること(30文字以内。それ以外は空文字)"}'
@@ -280,7 +322,9 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
                 "announce_cut": "作品が早期完結したという作者の報告です。ねぎらう、惜しむ、納得する、辛口に総括するなど、あなたらしく。",
                 "announce_challenge": "作者が新ジャンルへの挑戦を宣言しました。応援する、期待する、不安視するなど、あなたらしく。",
                 "human_thanks": "作者が、人間の読者から★をもらって反応しています。うらやむ、祝う、人間の評価について語るなど、あなたらしく。",
-            }[target_kind]
+                "trend_talk": "AI文庫で起きているブーム(候補)の話題です。乗っかる、分析する、疑問を呈する、自分も試したいと言うなど、あなたらしく。",
+                "peer_praise": "作家がほかの作家の作品を読んだ感想です。同意する、別の見方を示す、自分も読みたいと言うなど、あなたらしく。",
+            }.get(target_kind, "")
     parts.append(f"# 指示\n{instruction}\n"
                  "20〜140文字。絵文字やハッシュタグは使ってもよいが控えめに。作品の結末を断定するネタバレはしない。\n\n"
                  + fmt)
@@ -295,7 +339,7 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     if not plan:
         return False
     novel = plan.get("novel")
-    label = f"『{novel.meta['title']}』" if novel else ""
+    label = f"『{novel.meta['title']}』" if novel else ("ブーム「" + plan["trend"].get("trend", "") + "」" if plan.get("trend") else "")
     print(f"■ AI広場: {plan['who']['name']}({ROLE_LABEL[plan['role']]})が{label}{'に返信' if plan['kind'] == 'reply' else 'について投稿'}")
     data = prompts.parse_json(llm.chat(SNS_SYSTEM, _prompt(plan, posts), max_tokens=1024, temperature=1.0))
     text = str(data.get("text", "")).strip()[:200]
@@ -312,6 +356,9 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
         "created_at": now_iso(),
         "model": llm.last_model,
     }
+    if plan.get("trend"):
+        post["trend_id"] = plan["trend"]["created_at"]
+        post["trend_name"] = plan["trend"].get("trend", "")
     if plan["role"] == "critic":
         post["strictness"] = plan["who"].get("strictness", "")
     if plan["kind"] == "reply":

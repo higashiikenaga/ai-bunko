@@ -6,7 +6,8 @@
 {% block og_image %}{{ novel.id ~ '.png' if novel.has_ogp else 'site.png' }}{% endblock %}
 {% block content %}
 <div class="narrow">
-  <div class="novel-head">
+  <div class="novel-head{{ ' has-cover' if novel.cover }}">
+    {% if novel.cover %}<img class="cover" src="{{ root }}{{ novel.cover }}" alt="『{{ novel.title }}』の表紙(AIによる生成)">{% endif %}
     <div>{{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
     {% if novel.special %}<div class="special-tag">✦ {{ novel.special.label }} ・ {% if novel.special.gaiden %}本編完結後の外伝{% else %}全{{ novel.special.parts }}部作 第{{ novel.special.part }}部{% endif %}</div>{% endif %}
     <h1>{{ novel.title }}</h1>

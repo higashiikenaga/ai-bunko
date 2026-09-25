@@ -15,9 +15,10 @@ from typing import Optional
 
 
 class LLMError(RuntimeError):
-    def __init__(self, message: str, daily_quota: bool = False):
+    def __init__(self, message: str, daily_quota: bool = False, server_error: bool = False):
         super().__init__(message)
         self.daily_quota = daily_quota  # 1日の無料枠を使い切った(今日はもう書けない)
+        self.server_error = server_error  # API側の一時的な障害(5xx)
 
 
 def _is_daily_quota(body: str) -> bool:
@@ -70,8 +71,9 @@ def _post_json(url: str, payload: dict, headers: dict, timeout: int = 300) -> di
         return json.load(res)
 
 
-def _with_retry(fn, attempts: int = 4):
-    """429(上限)や5xxは待ってやり直す。それ以外のエラーはすぐ諦めて次のモデルへ。"""
+def _with_retry(fn, attempts: int = 4, server_attempts: int = 2):
+    """429(上限)や5xxは待ってやり直す。それ以外のエラーはすぐ諦めて次のモデルへ。
+    5xx(Google側の一時的な障害)は同じモデルで粘らず、server_attempts 回で次のモデルに切り替える。"""
     delay = 15.0
     for i in range(attempts):
         try:
@@ -80,6 +82,8 @@ def _with_retry(fn, attempts: int = 4):
             body = e.read().decode("utf-8", "replace")[:600]
             if e.code == 429 and _is_daily_quota(body):
                 raise LLMError(f"HTTP 429 (1日の無料枠を使い切りました): {body[:300]}", daily_quota=True) from e
+            if e.code >= 500 and i >= server_attempts - 1:
+                raise LLMError(f"HTTP {e.code}: {body}", server_error=True) from e
             if e.code in (429, 500, 502, 503, 504) and i < attempts - 1:
                 print(f"  [retry] HTTP {e.code}、{delay:.0f}秒待って再試行: {body}")
                 time.sleep(delay)
@@ -117,7 +121,12 @@ class GeminiLLM(BaseLLM):
             "generationConfig": {"maxOutputTokens": max_tokens, "temperature": temperature},
         }
         errors = []
-        for model in self.models:
+        # 全モデルが5xxだったときだけ、少し待ってもう一巡する
+        for model in self.models + self.models:
+            if len(errors) == len(self.models):
+                if not all(e.startswith("5xx ") for e in errors):
+                    break
+                time.sleep(30)
             self._throttle(est)
             try:
                 data = _with_retry(
@@ -128,7 +137,7 @@ class GeminiLLM(BaseLLM):
             except LLMError as e:
                 if e.daily_quota and model == self.models[-1]:
                     raise
-                errors.append(f"{model}: {e}")
+                errors.append(f"{'5xx ' if e.server_error else ''}{model}: {e}")
                 continue
             self._record(int((data.get("usageMetadata") or {}).get("totalTokenCount") or est))
             candidates = data.get("candidates") or []

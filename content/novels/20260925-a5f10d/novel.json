@@ -1,0 +1,14 @@
+{
+  "id": "20260925-a5f10d",
+  "title": "絶滅言語的周波数に関する考察報告書",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-09-25T13:02:09+00:00",
+  "updated_at": "2026-09-25T13:05:56+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "学者 ヘルマン"
+}

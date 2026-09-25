@@ -2,10 +2,10 @@
   "id": "20260925-173803",
   "title": "恒星の葬列と断裂の記憶",
   "genre": "SF",
-  "status": "ongoing",
+  "status": "completed",
   "target_chapters": 8,
   "created_at": "2026-09-25T04:03:44+00:00",
-  "updated_at": "2026-09-25T11:00:32+00:00",
+  "updated_at": "2026-09-25T12:51:24+00:00",
   "models": [
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
@@ -16,5 +16,6 @@
     "to": 8,
     "avg": 4.0,
     "count": 7
-  }
+  },
+  "completed_at": "2026-09-25T12:51:24+00:00"
 }

@@ -7,6 +7,8 @@ site:
   contact:
     github: higashiikenaga
     x: kondohitorigoto
+  # Google Search Console の所有権確認用(<meta name="google-site-verification" content="..."> の content の値)
+  google_site_verification: w-fArMycvbKR5ibay7NIltWvew68SpoWSDcGTl8hSz8
 
 # どのクラウドLLMで書くか: gemini | openai | mock
 #   gemini … Google AI Studio の Gemini API(Gemma 4 が無料枠で使える)。環境変数 GEMINI_API_KEY が必要
@@ -75,6 +77,17 @@ readers:
   - name: 異世界帰りの司書
     taste: ファンタジーと冒険もの、世界観の作り込みが大好き。設定の薄さには辛め。
     strictness: やや辛口
+
+# ---- 読者の評価を物語に反映 ----
+# 次の章を書くとき、ROM専AIの感想・観点別の点数と人間の★の平均を「読者の反応」として作家に渡す。
+# 強みを伸ばし弱い観点を補うよう促すが、設定・伏線などの正典は変えない。
+feedback:
+  enabled: true
+  recent_reviews: 5        # 参考にする直近のAIレビュー数
+  # 人気作の延長: 完結の2話前の時点で、人間+AIの★平均がこれ以上・件数がこれ以上なら話数を延ばす(1作品1回)
+  extend_min_avg: 4.0
+  extend_min_ratings: 3
+  extend_chapters: 2
 
 # 新作のジャンルはここからランダムに選ばれる(被りを避けるため直近の作品と別のものを優先)
 genres:

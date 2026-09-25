@@ -20,7 +20,7 @@ import sys
 import time
 import traceback
 
-from ainovel import dedupe, prompts
+from ainovel import dedupe, feedback, prompts
 from ainovel.llm import BaseLLM, LLMError, make_llm
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
@@ -141,6 +141,14 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     repair_summaries(llm, novel)
     memory = novel.memory
     index = memory.next_chapter_index()
+
+    # 読者の評価を物語に反映(人気作の延長と、次の章への「読者の反応」)
+    fb_cfg = cfg.get("feedback") or {}
+    reaction = None
+    if fb_cfg.get("enabled", True):
+        human = feedback.fetch_human_ratings(cfg["site"].get("url", ""))
+        reaction = feedback.summarize(novel, human, int(fb_cfg.get("recent_reviews", 5)))
+        feedback.maybe_extend(novel, reaction, index, cfg)
     total = int(novel.meta["target_chapters"])
     print(f"■ 執筆: 『{novel.meta['title']}』 第{index}章 / 全{total}章")
 
@@ -148,7 +156,7 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     target_chars = int(w["chapter_chars"])
     system = prompts.system_prompt(world, author_of(novel, cfg))
     user = prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
-                                  index, total, target_chars)
+                                  index, total, target_chars, feedback.prompt_block(reaction))
     previous = [(c["index"], novel.chapter_text(c["index"])) for c in memory.data["chapters"]]
 
     text = ""
@@ -179,6 +187,11 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     memory.add_chapter(index=index, title=meta.get("title") or f"第{index}章", summary=meta.get("summary", ""),
                        new_facts=meta.get("new_facts", []), word_count=len(text))
     memory.data["chapters"][-1]["model"] = model
+    if reaction:
+        # どの評価を踏まえて書いたかを記録(サイトの本文ページに表示する)
+        memory.data["chapters"][-1]["feedback"] = {
+            k: reaction[k] for k in ("avg", "count", "ai_avg", "ai_count", "human_avg", "human_count")
+        }
     if meta.get("fallback"):
         memory.data["chapters"][-1]["summary_fallback"] = True
     memory._save()

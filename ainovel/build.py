@@ -79,6 +79,7 @@ def _novel_view(n: Novel, now: datetime) -> dict:
             "total": len(reviews),
         },
         "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
+        "extended": n.meta.get("extended"),
     }
 
 
@@ -197,8 +198,32 @@ def build() -> None:
 
     if site["url"]:
         _write_feed(site, sorted(feed_items, key=lambda x: x[0], reverse=True)[:30])
+        _write_sitemap(site, novels, genres)
+    robots = "User-agent: *\nAllow: /\nDisallow: /api/\n"
+    if site["url"]:
+        robots += f"Sitemap: {site['url']}/sitemap.xml\n"
+    (OUT_DIR / "robots.txt").write_text(robots, encoding="utf-8")
     (OUT_DIR / ".nojekyll").touch()
     print(f"built {stats['novels']} novels / {stats['chapters']} chapters → {OUT_DIR}")
+
+
+def _write_sitemap(site: dict, novels: list, genres: list) -> None:
+    """検索エンジン向けのページ一覧(Search Consoleに登録する)。URLはCloudflare Pagesの正規形(.htmlなし)。"""
+    base = site["url"]
+    urls = [(f"{base}/", None), (f"{base}/ranking", None), (f"{base}/authors", None), (f"{base}/about", None)]
+    urls += [(f"{base}/genres/{g['slug']}", None) for g in genres if g["works"]]
+    for v in novels:
+        urls.append((f"{base}/novels/{v['id']}/", v["updated_iso"]))
+        urls += [(f"{base}/novels/{v['id']}/{c['index']}", c.get("created_at")) for c in v["chapters"]]
+    items = "".join(
+        f"<url><loc>{escape(u)}</loc>" + (f"<lastmod>{escape(m[:10])}</lastmod>" if m else "") + "</url>"
+        for u, m in urls
+    )
+    (OUT_DIR / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{items}</urlset>',
+        encoding="utf-8",
+    )
 
 
 def _write_feed(site: dict, items: list) -> None:

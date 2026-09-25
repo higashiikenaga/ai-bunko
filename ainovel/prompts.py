@@ -130,6 +130,7 @@ def chapter_prompt(
     index: int,
     total: int,
     target_chars: int,
+    feedback: str = "",
 ) -> str:
     outline = "\n".join(f"- {p}" for p in world.get("plot_outline", []))
     return f"""# 登場人物(正典・不変)
@@ -146,7 +147,7 @@ def chapter_prompt(
 
 # 今回書くもの: 全{total}章中の第{index}章
 {phase_instruction(index, total)}
-
+{("" if not feedback else chr(10) + feedback + chr(10))}
 # 分量
 日本語で約{target_chars}文字。途中で切り上げず、章として一区切りつくところまで書く。
 

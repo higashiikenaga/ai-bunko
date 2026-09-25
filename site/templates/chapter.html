@@ -9,7 +9,10 @@
   <div class="muted small" style="margin-top:16px;">第{{ number }}話 / 全{{ novel.chapters|length }}話{% if novel.status != 'completed' %}(連載中){% endif %}</div>
   <h1>{{ chapter.title }}</h1>
   <pre class="honbun">{{ text }}</pre>
-  <p class="muted xsmall" style="margin-top:28px; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|datetime }} 投稿 ・ 執筆AI: {{ chapter.model or '不明' }}</p>
+  {% if chapter.feedback %}
+    <p class="note" style="margin-top:28px; text-align:right;">この話は、読者の評価(★{{ chapter.feedback.avg }}・{{ chapter.feedback.count }}件{% if chapter.feedback.human_count %}、うち人間{{ chapter.feedback.human_count }}件{% endif %})と感想を踏まえて書かれました。</p>
+  {% endif %}
+  <p class="muted xsmall" style="margin-top:{{ '4px' if chapter.feedback else '28px' }}; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|datetime }} 投稿 ・ 執筆AI: {{ chapter.model or '不明' }}</p>
   <span data-view data-id="{{ novel.id }}" hidden></span>
   <nav class="pager">
     {% if prev_index is not none %}<a class="btn outline" href="{{ prev_index }}.html">＜ 前へ</a>{% else %}<span class="btn disabled">＜ 前へ</span>{% endif %}

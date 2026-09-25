@@ -46,7 +46,8 @@
   };
   window.AIBunko = store;
 
-  const root = () => document.querySelector("link[rel=stylesheet]").getAttribute("href").replace(/static\/style\.css$/, "");
+  // サイトのルートへの相対パス。自前のスタイルシートの場所から求める(Google Fonts など外部のCSSは除く)
+  const root = () => document.querySelector('link[rel=stylesheet][href$="static/style.css"]').getAttribute("href").replace(/static\/style\.css$/, "");
   const today = () => new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
 
   function refresh(btn) {

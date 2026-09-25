@@ -45,6 +45,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_COMPAT_API_KEY: ${{ secrets.OPENAI_COMPAT_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           AINOVEL_PROVIDER: ${{ vars.AINOVEL_PROVIDER }}
           POSTS: ${{ github.event.inputs.posts }}
           DELAY: ${{ github.event.inputs.delay }}

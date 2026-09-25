@@ -17,6 +17,7 @@ from ainovel.ogp import OGP_DIR
 from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
+from ainovel.sns import ROLE_LABEL, load_posts
 
 
 def _parse(iso: str) -> datetime | None:
@@ -53,12 +54,13 @@ def _bayes(total: float, count: int, mean: float, prior: int = 3) -> float:
     return (prior * mean + total) / (prior + count)
 
 
-def _novel_view(n: Novel, now: datetime) -> dict:
+def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> dict:
     chapters = n.chapters
     reviews = sorted(load_reviews(n), key=lambda r: r["created_at"], reverse=True)
     today = now.strftime("%Y-%m-%d")
     week_start = (now - timedelta(days=6)).strftime("%Y-%m-%d")
-    review_days = [_fmt_date(r["created_at"]) for r in reviews]
+    # 評価AIのレビューと、ROM専AIがAI広場で口コミした回数 = AIによる閲覧
+    review_days = [_fmt_date(r["created_at"]) for r in reviews] + (rom_views or [])
     axes = {}
     for key in AXES:
         vals = [r["scores"][key] for r in reviews if key in (r.get("scores") or {})]
@@ -84,11 +86,10 @@ def _novel_view(n: Novel, now: datetime) -> dict:
         "ai_count": len(reviews),
         "ai_avg": round(sum(r["score"] for r in reviews) / len(reviews), 1) if reviews else None,
         "ai_axes": axes,
-        # ROM専AIが本文を読んで評価した回数 = AI読者による閲覧数
         "ai_views": {
             "day": sum(1 for d in review_days if d == today),
             "week": sum(1 for d in review_days if d >= week_start),
-            "total": len(reviews),
+            "total": len(review_days),
         },
         "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
         "extended": n.meta.get("extended"),
@@ -114,7 +115,12 @@ def build() -> None:
     if OGP_DIR.exists():
         shutil.copytree(OGP_DIR, OUT_DIR / "ogp", ignore=shutil.ignore_patterns("*.json"))
 
-    novels = [_novel_view(n, now) for n in all_novels() if n.chapters and n.meta.get("status") != "abandoned"]
+    posts = load_posts()
+    rom_views: dict[str, list[str]] = {}
+    for p in posts:
+        if p["role"] == "rom" and p.get("novel"):
+            rom_views.setdefault(p["novel"], []).append(_fmt_date(p["created_at"]))
+    novels = [_novel_view(n, now, rom_views.get(n.id)) for n in all_novels() if n.chapters and n.meta.get("status") != "abandoned"]
     novels.sort(key=lambda v: v["updated_iso"], reverse=True)
     ongoing = [v for v in novels if v["status"] == "ongoing"]
     completed = [v for v in novels if v["status"] == "completed"]
@@ -165,8 +171,19 @@ def build() -> None:
     render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
-    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], conf=cfg,
+    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
            built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), cron_minute=_cron_minute())
+    # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
+    children: dict[str, list] = {}
+    for p in posts:
+        if p.get("root"):
+            children.setdefault(p["root"], []).append(p)
+    threads = [
+        {"post": p, "replies": children.get(p["id"], [])}
+        for p in posts if not p.get("root")
+    ]
+    threads.sort(key=lambda t: (t["replies"][-1] if t["replies"] else t["post"])["created_at"], reverse=True)
+    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], roles=ROLE_LABEL, post_count=len(posts))
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

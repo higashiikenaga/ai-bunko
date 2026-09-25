@@ -36,6 +36,7 @@ class BaseLLM:
         self._window: list[tuple[float, int]] = []  # 直近60秒の (時刻, 使用トークン)
         self.last_model = ""
         self.tokens_used = 0
+        self._exhausted: set[str] = set()  # 1日の無料枠を使い切ったモデル(今回の実行ではもう使わない)
 
     def _throttle(self, est_tokens: int = 0) -> None:
         wait = self.min_interval - (time.time() - self._last_call)
@@ -112,7 +113,6 @@ class GeminiLLM(BaseLLM):
         super().__init__(min_interval, tpm_limit)
         self.api_key = api_key
         self.models = models
-        self._exhausted: set[str] = set()  # 1日の無料枠を使い切ったモデル(今回の実行ではもう使わない)
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         est = _estimate_tokens(system, user, max_tokens)
@@ -177,6 +177,8 @@ class OpenAICompatLLM(BaseLLM):
         errors = []
         est = _estimate_tokens(system, user, max_tokens)
         for model in self.models:
+            if model in self._exhausted:
+                continue
             self._throttle(est)
             payload = {
                 "model": model,
@@ -212,6 +214,35 @@ class OpenAICompatLLM(BaseLLM):
         raise LLMError(" / ".join(errors))
 
 
+class ChainLLM:
+    """メインのAPIが全モデル失敗したとき、別の無料API(Groqなど)に切り替える。"""
+
+    name = "chain"
+
+    def __init__(self, llms: list[BaseLLM]):
+        self.llms = llms
+        self.last_model = ""
+
+    @property
+    def tokens_used(self) -> int:
+        return sum(l.tokens_used for l in self.llms)
+
+    def chat(self, system, user, max_tokens=2048, temperature=0.9):
+        errors: list[LLMError] = []
+        for llm in self.llms:
+            try:
+                text = llm.chat(system, user, max_tokens=max_tokens, temperature=temperature)
+            except LLMError as e:
+                errors.append(e)
+                if llm is not self.llms[-1]:
+                    print(f"  ({llm.name} が使えないため、別のAPIに切り替えます: {str(e)[:120]})")
+                continue
+            self.last_model = llm.last_model
+            return text
+        raise LLMError(" / ".join(f"{l.name}: {e}" for l, e in zip(self.llms, errors)),
+                       daily_quota=all(e.daily_quota for e in errors))
+
+
 class MockLLM(BaseLLM):
     """APIキーなしで仕組みを確認するためのダミー。"""
 
@@ -224,6 +255,8 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if '"text"' in user:
+            return json.dumps({"text": f"モックのつぶやき{n}。この作品、続きが気になる。"}, ensure_ascii=False)
         if '"score"' in user:
             return json.dumps({"score": self.rng.randint(1, 5),
                                "scores": {k: self.rng.randint(1, 5) for k in ("story", "characters", "writing", "originality")},
@@ -251,10 +284,7 @@ class MockLLM(BaseLLM):
         return "モックの本文。" + text
 
 
-def make_llm(cfg: dict) -> Optional[BaseLLM]:
-    """設定と環境変数からAIを作る。必要なAPIキーが無ければ None(執筆をスキップ)。"""
-    provider = os.environ.get("AINOVEL_PROVIDER") or cfg.get("provider", "gemini")
-    interval = float(cfg.get("min_interval_sec", 6))
+def _primary_llm(cfg: dict, provider: str, interval: float) -> Optional[BaseLLM]:
     if provider == "gemini":
         key = os.environ.get("GEMINI_API_KEY")
         g = cfg["gemini"]
@@ -266,3 +296,24 @@ def make_llm(cfg: dict) -> Optional[BaseLLM]:
     if provider == "mock":
         return MockLLM()
     raise ValueError(f"不明なprovider: {provider}")
+
+
+def make_llm(cfg: dict):
+    """設定と環境変数からAIを作る。使えるAPIキーが1つも無ければ None(執筆をスキップ)。
+    config の fallbacks(Groqなど)は、キーが設定されていればメインが全滅したときの予備として後ろにつなぐ。"""
+    provider = os.environ.get("AINOVEL_PROVIDER") or cfg.get("provider", "gemini")
+    interval = float(cfg.get("min_interval_sec", 6))
+    primary = _primary_llm(cfg, provider, interval)
+    if provider == "mock":
+        return primary
+    llms = [primary] if primary else []
+    for fb in cfg.get("fallbacks") or []:
+        key = os.environ.get(fb["api_key_env"])
+        if key:
+            llm = OpenAICompatLLM(key, fb["base_url"], fb["models"], float(fb.get("min_interval_sec", interval)),
+                                  int(fb.get("tpm_limit", 0)))
+            llm.name = fb.get("name", "fallback")
+            llms.append(llm)
+    if not llms:
+        return None
+    return llms[0] if len(llms) == 1 else ChainLLM(llms)

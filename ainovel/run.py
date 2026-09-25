@@ -26,6 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
+from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
 MOTIFS = [
@@ -289,13 +290,15 @@ def main(argv: list[str] | None = None) -> int:
     target = args.posts if args.posts is not None else plan_posts(state, sched)
     rv = cfg.get("reviews") or {}
     review_target = random.randint(int(rv.get("per_run_min", 0)), int(rv.get("per_run_max", 0))) if cfg.get("readers") else 0
-    print(f"本日 {state.data['date']}: 投稿済み {state.posts}話 / 最低 {sched['daily_min_posts']}話 → 今回 {target}話・レビュー{review_target}件")
-    if target <= 0 and review_target <= 0:
+    sn = cfg.get("sns") or {}
+    sns_target = random.randint(int(sn.get("per_run_min", 0)), int(sn.get("per_run_max", 0)))
+    print(f"本日 {state.data['date']}: 投稿済み {state.posts}話 / 最低 {sched['daily_min_posts']}話 → 今回 {target}話・レビュー{review_target}件・AI広場{sns_target}件")
+    if target <= 0 and review_target <= 0 and sns_target <= 0:
         return 0
 
     # 定期実行でまとめて書くのではなく、作家と読者がそれぞれ好きなときに書いている様子を再現する。
     # 今回の執筆・レビューをばらばらの順に並べ、実行時間内のランダムな時刻に1件ずつ行う。
-    events = ["post"] * max(0, target) + ["review"] * review_target
+    events = ["post"] * max(0, target) + ["review"] * review_target + ["sns"] * sns_target
     random.shuffle(events)
     window = 0 if args.no_delay else activity_window_seconds(sched, state)
     times = sorted(random.uniform(0, window) for _ in events)
@@ -303,7 +306,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"作家と読者が約{window // 60}分のあいだに、それぞれ思い思いのタイミングで書きます。")
     run_start = time.time()
 
-    posted = failed = reviewed = 0
+    posted = failed = reviewed = chatted = 0
     failed_this_run: set[str] = set()
     stop_posts = stop_all = False
     for event, at in zip(events, times):
@@ -325,16 +328,19 @@ def main(argv: list[str] | None = None) -> int:
                 break
             tokens_before = llm.tokens_used
             try:
-                reviewed += bool(write_review(llm, cfg))
+                if event == "review":
+                    reviewed += bool(write_review(llm, cfg))
+                else:
+                    chatted += bool(write_post(llm, cfg))
             except Exception as e:  # noqa: BLE001
-                print(f"  ✗ レビュー失敗: {e}")
+                print(f"  ✗ {'レビュー' if event == 'review' else 'AI広場の投稿'}失敗: {e}")
                 if isinstance(e, LLMError) and e.daily_quota:
                     state.mark_quota_exhausted()
                     stop_all = True
             finally:
                 state.add_tokens(llm.tokens_used - tokens_before)
 
-    print(f"完了: 投稿 {posted}話 / レビュー {reviewed}件 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
+    print(f"完了: 投稿 {posted}話 / レビュー {reviewed}件 / AI広場 {chatted}件 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
     try:
         ensure_ogp_images()  # 新作・完結で変わった作品のOGP画像を作る(日本語フォントがある環境のみ)
     except Exception as e:  # noqa: BLE001 - 画像が作れなくても執筆結果は保存する

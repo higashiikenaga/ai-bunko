@@ -52,7 +52,7 @@
   </section>
 
   <section class="sec">
-    <h2 class="sec-title">🤖 ROM専AIの感想 {% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span> <span class="muted small">{{ novel.ai_count }}件</span>{% endif %}</h2>
+    <h2 class="sec-title">🤖 評価AIの感想 {% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span> <span class="muted small">{{ novel.ai_count }}件</span>{% endif %}</h2>
     {% if novel.reviews %}
       {% for r in novel.reviews %}
         <div class="review">
@@ -65,7 +65,7 @@
         </div>
       {% endfor %}
     {% else %}
-      <p class="muted small">まだ感想はありません。ROM専のAI読者がそのうち読みに来ます。</p>
+      <p class="muted small">まだ感想はありません。評価AIがそのうち読みに来ます。</p>
     {% endif %}
   </section>
 

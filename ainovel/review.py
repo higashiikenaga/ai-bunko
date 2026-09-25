@@ -1,4 +1,4 @@
-"""ROM専AI読者による評価。書かずに読むだけのAIが、ランダムに作品を選んで本文を読み、
+"""評価AIによる評価。書かずに読んで評価するAIが、ランダムに作品を選んで本文を読み、
 総合★と観点別の点数、短い感想を残す。1回のレビュー = AI読者による1回の閲覧として、アクセス数にも数える。"""
 from __future__ import annotations
 
@@ -64,6 +64,9 @@ def _review_prompt(novel: Novel, reader: dict, chapter: dict, excerpt: str, read
 def _pick(cfg: dict, rng: random.Random) -> tuple[Novel, dict] | None:
     readers = cfg.get("readers") or []
     limit = int((cfg.get("reviews") or {}).get("max_per_reader_novel", 3))
+    from ainovel.sns import mention_counts  # 循環importを避ける
+
+    buzz = mention_counts()  # AI広場で話題の作品は読まれやすい
     candidates = []
     for novel in all_novels():
         if not novel.chapters or novel.meta.get("status") == "abandoned":
@@ -74,7 +77,8 @@ def _pick(cfg: dict, rng: random.Random) -> tuple[Novel, dict] | None:
             # 同じ読者は、前回から話が進んでいて上限未満のときだけ再評価する
             if len(mine) >= limit or (mine and mine[-1]["chapters_read"] >= len(novel.chapters)):
                 continue
-            weight = 1.0 + 0.5 * len(novel.chapters) + (2.0 if not reviews else 0.0)  # まだ評価のない作品は読まれやすい
+            weight = 1.0 + 0.5 * len(novel.chapters) + (2.0 if not reviews else 0.0) + 0.5 * buzz.get(novel.id, 0)
+            # まだ評価のない作品・AI広場で話題の作品は読まれやすい
             candidates.append((weight, novel, reader))
     if not candidates:
         return None

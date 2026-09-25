@@ -61,6 +61,7 @@ def maybe_cut_short(novel: Novel, index: int, rng: random.Random | None = None) 
         return False
     novel.meta["cut_short"] = {"from": total, "to": index, "avg": round(avg, 1)}
     novel.meta["target_chapters"] = index
+    novel.meta["announce"] = "cut"  # AI広場で作者が報告する
     novel.save_meta()
     print(f"  評価が伸びない(★{avg:.1f})ため、作者はこの話で物語を畳むことにしました(全{total}話 → 全{index}話)")
     return True

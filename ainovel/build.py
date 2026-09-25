@@ -18,7 +18,7 @@ from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
-from ainovel.sns import ROLE_LABEL, is_flaming, load_posts, thread_heat
+from ainovel.sns import KIND_LABEL, ROLE_LABEL, is_flaming, load_posts, thread_heat
 
 
 def _parse(iso: str) -> datetime | None:
@@ -196,7 +196,7 @@ def build() -> None:
     threads.sort(key=lambda t: t["last"], reverse=True)
     day_ago = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat(timespec="seconds")
     trending = sorted((t for t in threads if t["last"] >= day_ago and t["heat"] >= 3), key=lambda t: -t["heat"])[:5]
-    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL,
+    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL, kinds=KIND_LABEL,
            post_count=len(posts))
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:

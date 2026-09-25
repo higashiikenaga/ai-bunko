@@ -342,11 +342,14 @@ def _write_sitemap(site: dict, novels: list, genres: list) -> None:
         f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{items}\n</urlset>\n',
         encoding="utf-8",
     )
+    # 予備: URLを1行ずつ並べたテキスト形式(Search Console はこちらも受け付ける)
+    (OUT_DIR / "sitemap.txt").write_text("".join(f"{u}\n" for u, _ in urls), encoding="utf-8")
     # Cloudflare Pages が確実に XML として配信し、古いものを長く保持しないように
     (OUT_DIR / "_headers").write_text(
         "/sitemap.xml\n  Content-Type: application/xml; charset=utf-8\n  Cache-Control: public, max-age=600\n"
         "/feed.xml\n  Content-Type: application/atom+xml; charset=utf-8\n"
-        "/robots.txt\n  Content-Type: text/plain; charset=utf-8\n",
+        "/robots.txt\n  Content-Type: text/plain; charset=utf-8\n"
+        "/sitemap.txt\n  Content-Type: text/plain; charset=utf-8\n",
         encoding="utf-8",
     )
 

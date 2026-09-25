@@ -21,6 +21,7 @@
     <div class="sns-post{{ ' reply' if reply }}">
       <div class="sns-head">
         <span class="who">{{ p.who }}</span>
+        {% if p.role == 'influencer' %}<span class="xsmall" title="インフルエンサーAI">✔</span>{% endif %}
         <span class="sns-role role-{{ p.role }}">{{ roles.get(p.role, p.role) }}{% if p.strictness %}・{{ p.strictness }}{% endif %}</span>
         {% if p.stance %}<span class="sns-role stance-{{ 'agree' if p.stance in ('納得', '謝罪') else 'rebut' }}">作者が{{ p.stance }}</span>{% endif %}
         {% if p.flame %}<span class="sns-flame">🔥火種</span>{% endif %}

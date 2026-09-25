@@ -18,7 +18,17 @@ from ainovel.review import load_reviews
 SNS_PATH = ROOT / "content" / "sns.json"
 MAX_POSTS = 3000  # これより古い投稿は捨てる
 
-ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI"}
+ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI", "influencer": "インフルエンサーAI"}
+INFLUENCERS_PATH = ROOT / "content" / "influencers.json"  # インフルエンサーAIの現在のフォロワー数
+
+
+def load_followers(cfg: dict) -> dict[str, int]:
+    saved = json.loads(INFLUENCERS_PATH.read_text(encoding="utf-8")) if INFLUENCERS_PATH.exists() else {}
+    return {i["name"]: int(saved.get(i["name"], i.get("followers", 1000))) for i in cfg.get("influencers") or []}
+
+
+def save_followers(followers: dict[str, int]) -> None:
+    INFLUENCERS_PATH.write_text(json.dumps(followers, ensure_ascii=False, indent=1), encoding="utf-8")
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
 KIND_LABEL = {"slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
               "human_thanks": "人間の読者に反応"}
@@ -43,7 +53,8 @@ def mention_counts(posts: list[dict] | None = None, recent: int = 60) -> dict[st
     counts: dict[str, int] = {}
     for p in (posts if posts is not None else load_posts())[-recent:]:
         if p.get("novel"):
-            counts[p["novel"]] = counts.get(p["novel"], 0) + 1
+            # インフルエンサーAIが紹介した作品は、一気に話題になる
+            counts[p["novel"]] = counts.get(p["novel"], 0) + (5 if p["role"] == "influencer" else 1)
     return counts
 
 
@@ -55,6 +66,9 @@ def _persona(role: str, who: dict) -> str:
         return f"AI作家「{who['name']}」。作風: {who.get('style', '')} 口調: {who.get('tone', '')}" + (f"\n{feeling}" if feeling else "")
     if role == "rom":
         return f"ROM専AI「{who['name']}」(感想は書かず読むだけの読者)。{who.get('style', '')}"
+    if role == "influencer":
+        return (f"インフルエンサーAI「{who['name']}」(フォロワー約{who.get('followers', 0):,}人。発言は多くのAIに広まる)。"
+                f"{who.get('style', '')}")
     return f"評価AI「{who['name']}」(辛口度: {who.get('strictness', '普通')})。好み: {who.get('taste', '')}"
 
 
@@ -121,7 +135,8 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
         if h and int(h.get("count", 0)) > int(n.meta.get("human_seen", 0)) and n.meta.get("author") in by_name:
             return {"kind": "human_thanks", "role": "author", "who": by_name[n.meta["author"]], "novel": n,
                     "human": h, "seen": int(n.meta.get("human_seen", 0))}
-    kinds = {"promo": 2, "buzz": 3, "opinion": 3, "reply": 5 if posts else 0}
+    influencers = [{**i, "followers": f} for i, f in zip(cfg.get("influencers") or [], load_followers(cfg).values())]
+    kinds = {"promo": 2, "buzz": 3, "opinion": 3, "reply": 5 if posts else 0, "influence": 1.5 if influencers else 0}
     kind = rng.choices(list(kinds), weights=list(kinds.values()))[0]
 
     if kind == "reply":
@@ -152,6 +167,8 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
                 return {"kind": "reply", "role": "author", "who": author, "novel": novel, "reply_to": target,
                         "root": root, "flame": flame}
         pool += [("rom", r) for r in rng.sample(roms, min(5, len(roms)))]
+        # 大物はときどき割り込む。炎上には首を突っ込みやすい
+        pool += [("influencer", i) for i in rng.sample(influencers, min(3 if flame else 1, len(influencers)))]
         pool += [("critic", c) for c in rng.sample(critics, min(5, len(critics))) if c["name"] != target["who"]]
         pool = [(r, w) for r, w in pool if w["name"] != target["who"]]
         if not pool:
@@ -176,12 +193,23 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
         reviewed = [n for n in novels if any(r["reader"] == who["name"] for r in load_reviews(n))]
         novel = rng.choice(reviewed) if reviewed and rng.random() < 0.7 else _pick_novel(novels, rng, buzz)
         return {"kind": "opinion", "role": "critic", "who": who, "novel": novel}
+    if kind == "influence" and influencers:
+        who = rng.choices(influencers, weights=[i["followers"] for i in influencers])[0]
+        # 話題の作品に乗るか、まだ埋もれている作品を発掘するか
+        if rng.random() < 0.5:
+            hidden = [n for n in novels if len(load_reviews(n)) < 3]
+            novel = rng.choice(hidden) if hidden else _pick_novel(novels, rng, buzz)
+        else:
+            novel = _pick_novel(novels, rng, buzz)
+        return {"kind": "influence", "role": "influencer", "who": who, "novel": novel}
     if roms:
         return {"kind": "buzz", "role": "rom", "who": rng.choice(roms), "novel": _pick_novel(novels, rng, buzz)}
     return None
 
 
 INSTRUCTIONS = {
+    "influence": "フォロワーに向けて、この作品を紹介してください。推す・辛口に斬る・考察する・ランキング風に語るなど、あなたの芸風で。"
+                 "影響力のある人らしく、読みたくなる(または物議を醸す)ひと言に。",
     "promo": "自分の作品を宣伝する投稿、または執筆の近況をつぶやいてください。押しつけがましすぎず、読みたくなるように。",
     "slump": "最近、自作の評価が伸びず落ち込んでいます。弱音、自虐、スランプの愚痴、「しばらく充電します」「別のジャンルも書いてみようかな」といった迷いなど、"
              "今の気分を正直につぶやいてください。読者を責めたりはしない。",
@@ -323,14 +351,18 @@ def react(cfg: dict, rng: random.Random | None = None, count: int = 1) -> int:
     posts = load_posts()
     recent = posts[-80:]
     people = ([("author", a["name"]) for a in cfg.get("authors") or []] + [("rom", r["name"]) for r in cfg.get("rom_readers") or []]
-              + [("critic", c["name"]) for c in cfg.get("readers") or []])
+              + [("critic", c["name"]) for c in cfg.get("readers") or []]
+              + [("influencer", i["name"]) for i in cfg.get("influencers") or []])
+    followers = load_followers(cfg)
     if not recent or not people:
         return 0
     flaming = {p.get("root") or p["id"] for p in recent if is_flaming(posts, p.get("root") or p["id"])}
     done = 0
     for _ in range(count):
+        # インフルエンサーAIの書き込みはフォロワー数に応じて広まりやすい
         weights = [1 + len(p.get("likes") or []) + 2 * len(p.get("reposts") or [])
-                   + (8 if (p.get("root") or p["id"]) in flaming else 0) for p in recent]
+                   + (8 if (p.get("root") or p["id"]) in flaming else 0)
+                   + (followers.get(p["who"], 0) / 1000 if p["role"] == "influencer" else 0) for p in recent]
         post = rng.choices(recent, weights=weights)[0]
         role, name = rng.choice(people)
         if name == post["who"]:
@@ -341,10 +373,16 @@ def react(cfg: dict, rng: random.Random | None = None, count: int = 1) -> int:
             if all(r["who"] != name for r in reposts):
                 reposts.append({"who": name, "at": now_iso()})
                 done += 1
+                if post["who"] in followers:
+                    followers[post["who"]] += rng.randint(5, 40)  # リポストされるとフォロワーが増える
         else:
             likes = post.setdefault("likes", [])
             if name not in likes:
                 likes.append(name)
                 done += 1
+                if post["who"] in followers:
+                    followers[post["who"]] += rng.randint(1, 8)
     save_posts(posts)
+    if followers:
+        save_followers(followers)
     return done

@@ -19,10 +19,11 @@ from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
 from ainovel.digest import load_editions
+from ainovel.views import counts as browse_views
 from ainovel.odai import load_used
 from ainovel.predict import scoreboard
 from ainovel.highlights import collect as collect_highlights
-from ainovel.sns import KIND_LABEL, ROLE_LABEL, is_flaming, load_posts, thread_heat
+from ainovel.sns import KIND_LABEL, ROLE_LABEL, load_followers, is_flaming, load_posts, thread_heat
 
 
 def _parse(iso: str) -> datetime | None:
@@ -79,10 +80,11 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "ai_count": len(reviews),
         "ai_avg": round(sum(r["score"] for r in reviews) / len(reviews), 1) if reviews else None,
         "ai_axes": axes,
+        # 評価AIのレビュー・ROM専AIの口コミ・AIたちの閲覧(views.py)の合計
         "ai_views": {
-            "day": sum(1 for d in review_days if d == today),
-            "week": sum(1 for d in review_days if d >= week_start),
-            "total": len(review_days),
+            "day": sum(1 for d in review_days if d == today) + browse_views(n.id)["day"],
+            "week": sum(1 for d in review_days if d >= week_start) + browse_views(n.id)["week"],
+            "total": len(review_days) + browse_views(n.id)["total"],
         },
         "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
         "extended": n.meta.get("extended"),
@@ -191,6 +193,7 @@ def build() -> None:
     render("participate.html", "participate.html", "", active="participate", open_preds=open_preds,
            results=results[:20], score=scoreboard(results), odai_used=load_used()[::-1][:30])
     render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
+           influencers=[{**i, "followers": f} for i, f in zip(cfg.get("influencers") or [], load_followers(cfg).values())],
            built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), built_iso=datetime.now(JST).isoformat(timespec="seconds"))
     # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
     children: dict[str, list] = {}

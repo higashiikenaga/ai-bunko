@@ -51,7 +51,7 @@ jobs:
           cache: pip
       - name: 依存関係(OGP画像用の日本語フォントとPillowを含む)
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk > /dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg > /dev/null
           pip install -r requirements.txt Pillow
       - name: AIが執筆(クラウドLLM)
         env:

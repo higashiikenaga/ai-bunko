@@ -97,6 +97,7 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "odai": n.meta.get("odai"),
         "inspired_by": n.meta.get("inspired_by") or [],
         "cover": n.meta.get("cover"),
+        "audio": n.meta.get("audio") or {},
         "illustrations": n.meta.get("illustrations") or {},
         "challenge": n.meta.get("challenge"),
     }
@@ -118,6 +119,9 @@ def build() -> None:
         shutil.rmtree(OUT_DIR)
     (OUT_DIR / "novels").mkdir(parents=True)
     shutil.copytree(SITE_SRC / "static", OUT_DIR / "static")
+    audio_dir = SITE_SRC.parent / "content" / "audio"
+    if audio_dir.exists():
+        shutil.copytree(audio_dir, OUT_DIR / "audio")  # 聞く小説
     images_dir = SITE_SRC.parent / "content" / "images"
     if images_dir.exists():
         shutil.copytree(images_dir, OUT_DIR / "images")  # 表紙・挿絵
@@ -295,7 +299,8 @@ def build() -> None:
             "characters": [c.get("name", "") for c in v["characters"]],
             "prediction": ({k: v["prediction"][k] for k in ("chapter", "question", "options", "ai_votes")}
                            if v["prediction"] else None),
-            "flags": [t for t, on in (("新ジャンル挑戦作", v["challenge"]), ("早期完結", v["cut_short"]), ("人気につき延長", v["extended"])) if on],
+            "audio": len(v["audio"]),
+            "flags": [t for t, on in (("聞く小説", v["audio"]),("新ジャンル挑戦作", v["challenge"]), ("早期完結", v["cut_short"]), ("人気につき延長", v["extended"])) if on],
             "ai": {"sum": v["ai_sum"], "count": v["ai_count"], "axes": v["ai_axes"], "views": v["ai_views"]},
         }
         for v in novels

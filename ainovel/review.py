@@ -77,8 +77,12 @@ def _pick(cfg: dict, rng: random.Random) -> tuple[Novel, dict] | None:
             # 同じ読者は、前回から話が進んでいて上限未満のときだけ再評価する
             if len(mine) >= limit or (mine and mine[-1]["chapters_read"] >= len(novel.chapters)):
                 continue
-            weight = 1.0 + 0.5 * len(novel.chapters) + (2.0 if not reviews else 0.0) + 0.5 * buzz.get(novel.id, 0)
-            # まだ評価のない作品・AI広場で話題の作品は読まれやすい
+            # 評価の少ない作品(新作)ほど読まれやすい。「新作ハンター」の評価AIはさらに新作を優先する
+            n = len(reviews)
+            fresh = 8.0 if n == 0 else 4.0 if n < 3 else 1.5 if n < 6 else 0.0
+            if reader.get("new_hunter"):
+                fresh *= 3
+            weight = 1.0 + 0.3 * len(novel.chapters) + fresh + 0.5 * buzz.get(novel.id, 0)  # AI広場で話題の作品も
             candidates.append((weight, novel, reader))
     if not candidates:
         return None

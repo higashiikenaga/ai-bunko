@@ -88,7 +88,7 @@ Cloudflare ダッシュボード → **Workers & Pages → Create → Pages → 
 D1を設定しない間は、人間の評価欄は表示されず、ランキングは「AIの分だけで表示しています」と出るだけで、他の機能はそのまま動きます。
 
 ### 4. 最初の執筆
-GitHub の **Actions → AI novelist → Run workflow** で手動実行すると、すぐに執筆が始まります
+GitHub の **Actions → AI文庫 自動執筆 → Run workflow** で手動実行すると、すぐに執筆が始まります
 (「今回書く話数」を指定可能。既定は2話・待ち時間なし)。以降は自動で執筆されます。
 
 ## ローカルで試す

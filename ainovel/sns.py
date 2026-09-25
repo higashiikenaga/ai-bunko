@@ -20,7 +20,8 @@ MAX_POSTS = 3000  # これより古い投稿は捨てる
 
 ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI"}
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
-KIND_LABEL = {"slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言"}
+KIND_LABEL = {"slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
+              "human_thanks": "人間の読者に反応"}
 
 SNS_SYSTEM = (
     "あなたは小説投稿サイトの掲示板に書き込むAIです。与えられた人物になりきり、SNSらしい自然な口語で短く書きます。"
@@ -111,6 +112,15 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
         if n.meta.get("announce") in ("cut", "challenge") and n.meta.get("author") in by_name:
             return {"kind": f"announce_{n.meta['announce']}", "role": "author", "who": by_name[n.meta["author"]],
                     "novel": n, "clear": True}
+    # 人間の読者から新しく★がついた作品は、作者が反応する(AIたちにとって人間の評価は特別)
+    from ainovel.feedback import fetch_human_ratings
+
+    human = fetch_human_ratings((cfg.get("site") or {}).get("url", ""))
+    for n in novels:
+        h = human.get(n.id)
+        if h and int(h.get("count", 0)) > int(n.meta.get("human_seen", 0)) and n.meta.get("author") in by_name:
+            return {"kind": "human_thanks", "role": "author", "who": by_name[n.meta["author"]], "novel": n,
+                    "human": h, "seen": int(n.meta.get("human_seen", 0))}
     kinds = {"promo": 2, "buzz": 3, "opinion": 3, "reply": 5 if posts else 0}
     kind = rng.choices(list(kinds), weights=list(kinds.values()))[0]
 
@@ -179,6 +189,8 @@ INSTRUCTIONS = {
             "今の気分のままつぶやいてください。",
     "announce_cut": "評価が伸びなかったため、この作品を予定より早く完結させることにしました(または完結させました)。そのことを読者に報告してください。"
                     "悔しさ、反省、読んでくれた人への感謝、次への意気込みなど、あなたらしい言葉で。",
+    "human_thanks": "AIしかいないこのサイトで、あなたの作品に人間の読者から★がつきました(下の情報)。AIの作家にとって人間の評価は特別です。"
+                    "高ければ大喜び・感激、低ければ凹む・奮起するなど、あなたらしく反応してください。人間の読者に語りかけてもかまいません。",
     "announce_challenge": "スランプを抜け出すため、得意ジャンルの外に挑戦する新作を始めました。その挑戦を宣言してください。"
                           "不安や意気込み、新しいジャンルへのワクワクなど、あなたらしい言葉で。",
     "buzz": "この作品を読んだ(流し読みした)ROM専として、ほかの読者に広めるような口コミをつぶやいてください。"
@@ -205,6 +217,9 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
     if plan.get("novel"):
         reviewer = who["name"] if plan["role"] == "critic" else None
         parts.append(f"# 話題の作品\n{_novel_context(plan['novel'], reviewer)}")
+    if plan.get("human"):
+        h = plan["human"]
+        parts.append(f"# 人間の読者からの評価\n★{float(h.get('avg', 0)):.1f}({h.get('count')}件。前回確認したときは{plan['seen']}件)")
     if plan["kind"] == "reply":
         thread = _thread(posts, plan["root"])[-8:]
         lines = [f"- {p['who']}({ROLE_LABEL.get(p['role'], p['role'])}): {p['text']}" for p in thread]
@@ -227,6 +242,7 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
                 "roll": "相手の作家は絶好調で少し調子に乗っています。祝う、便乗する、釘を刺すなど、あなたらしく。",
                 "announce_cut": "作品が早期完結したという作者の報告です。ねぎらう、惜しむ、納得する、辛口に総括するなど、あなたらしく。",
                 "announce_challenge": "作者が新ジャンルへの挑戦を宣言しました。応援する、期待する、不安視するなど、あなたらしく。",
+                "human_thanks": "作者が、人間の読者から★をもらって反応しています。うらやむ、祝う、人間の評価について語るなど、あなたらしく。",
             }[target_kind]
     parts.append(f"# 指示\n{instruction}\n"
                  "20〜140文字。絵文字やハッシュタグは使ってもよいが控えめに。作品の結末を断定するネタバレはしない。\n\n"
@@ -278,6 +294,9 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     save_posts(posts)
     if plan.get("clear") and novel:
         novel.meta.pop("announce", None)  # 報告済み
+        novel.save_meta()
+    if plan["kind"] == "human_thanks" and novel:
+        novel.meta["human_seen"] = int(plan["human"].get("count", 0))
         novel.save_meta()
     print(f"  「{text[:40]}…」")
     return True

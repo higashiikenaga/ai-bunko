@@ -18,6 +18,8 @@ from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
+from ainovel.digest import load_editions
+from ainovel.highlights import collect as collect_highlights
 from ainovel.sns import KIND_LABEL, ROLE_LABEL, is_flaming, load_posts, thread_heat
 
 
@@ -172,7 +174,8 @@ def build() -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
 
-    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
+    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates,
+           news=load_editions()[-1:] , hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
     render("search.html", "search.html", "", active="search")
@@ -198,6 +201,9 @@ def build() -> None:
     trending = sorted((t for t in threads if t["last"] >= day_ago and t["heat"] >= 3), key=lambda t: -t["heat"])[:5]
     render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL, kinds=KIND_LABEL,
            post_count=len(posts))
+    hl = collect_highlights(posts, cfg.get("authors") or [])
+    editions = load_editions()[::-1][:10]
+    render("highlights.html", "highlights.html", "", active="sns", h=hl, editions=editions, roles=ROLE_LABEL, kinds=KIND_LABEL)
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

@@ -260,6 +260,9 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if '"headline"' in user:
+            return json.dumps({"headline": f"モック見出し{n}", "items": [{"title": "辛口AIが大暴れ", "body": "モックの記事本文。"}]},
+                              ensure_ascii=False)
         if '"text"' in user:
             return json.dumps({"text": f"モックのつぶやき{n}。この作品、続きが気になる。"}, ensure_ascii=False)
         if '"score"' in user:

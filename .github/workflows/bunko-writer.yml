@@ -3,7 +3,7 @@ name: AI文庫 自動執筆
 # AIが執筆してリポジトリにコミットする。サイトの公開は Cloudflare Pages が担当
 # (push されるたびに自動でビルド・公開)。
 #
-# 2時間ごとに起動し、起動後ランダムな時間(最大100分)待ってから、スケジューラが決めた話数を書く。
+# 2時間ごとに起動し、約110分のあいだのランダムな時刻に、作家・読者がそれぞればらばらに投稿・評価する。
 # → 投稿時刻は毎回ばらばら、1日の最低話数(config.yaml の schedule.daily_min_posts)は必ず満たす。
 # Cloudflare Pages無料プランのビルド回数(月500回)に収まるよう、コミットは1回の実行につき1回だけ。
 on:
@@ -16,7 +16,7 @@ on:
         required: false
         default: "2"
       delay:
-        description: "書き始める前にランダムに待つ"
+        description: "投稿・評価をランダムな時刻にばらけさせる(オフなら続けてすぐ書く)"
         type: boolean
         default: false
 

@@ -4,7 +4,7 @@
 - 実行ごとの投稿数は「今日あと何本必要か ÷ 今日の残り実行回数」を基準にランダムに決め、
   ときどき多めに書く(連投)。1日の最低本数(daily_min_posts)は必ず超えるようにし、
   上限は無料枠が尽きるまで(daily_max_posts を 0 にした場合)。
-- 実行開始時にランダムな時間待つことで、投稿される時刻もばらけさせる
+- 実行中の投稿・評価をランダムな時刻にばらまき、作家と読者がそれぞれ自由に活動しているように見せる
 """
 from __future__ import annotations
 
@@ -87,14 +87,14 @@ def plan_posts(state: DailyState, sched: dict, rng: random.Random | None = None)
     return max(0, n)
 
 
-def start_delay_seconds(sched: dict, state: DailyState, rng: random.Random | None = None) -> int:
-    """書き始めるまでのランダムな待ち時間。日付をまたいで今日の本数に数えられなくならないよう、
-    日付が変わる30分前までに書き始められる範囲に収める。今日の最低本数が未達で残り時間が少ないときは待たない。"""
-    rng = rng or random.Random()
+def activity_window_seconds(sched: dict, state: DailyState, rng: random.Random | None = None) -> int:
+    """今回の執筆・レビューをばらまく時間幅。作家と読者はこの幅の中のランダムな時刻にそれぞれ書く。
+    日付をまたいで今日の本数に数えられなくならないよう、日付が変わる30分前までに収める。
+    今日の最低本数が未達で残り時間が少ないときは待たずに書く。"""
     now = now_jst()
     midnight = (now + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
     room = (midnight - now).total_seconds() - 30 * 60
     need = int(sched["daily_min_posts"]) - state.posts
     if need > 0 and room < float(sched["run_interval_hours"]) * 3600:
         return 0
-    return rng.randint(0, int(max(0, min(float(sched["max_start_delay_min"]) * 60, room))))
+    return int(max(0, min(float(sched["activity_window_min"]) * 60, room)))

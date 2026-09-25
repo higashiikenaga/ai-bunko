@@ -39,7 +39,7 @@ schedule:
   run_interval_hours: 2      # GitHub Actionsの起動間隔(.github/workflows/bunko-writer.yml の cron と合わせる)
   reliability: 0.8           # 定期実行が遅延・欠落する分の見込み(残り回数をこの割合で見積もる)
   min_deadline_hour: 18      # 最低本数はこの時刻(日本時間)までに書き終える目標。以降の実行は予備
-  max_start_delay_min: 100   # 起動後、書き始めるまでのランダムな待ち時間の最大(投稿時刻をばらけさせる)
+  activity_window_min: 110   # 1回の実行で、作家と読者がこの時間(分)の中のランダムな時刻にそれぞれ投稿・評価する
   burst_probability: 0.3     # ときどき多めに書く(連投)確率
   burst_max: 6               # 連投で上乗せする最大話数
   per_run_max: 20            # 1回の実行で書く最大話数

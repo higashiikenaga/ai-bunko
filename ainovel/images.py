@@ -31,7 +31,23 @@ def enabled(cfg: dict) -> bool:
 
 def _token() -> str:
     """画像生成専用のトークン(CLOUDFLARE_AI_TOKEN)があればそれを、なければ公開用のトークンを使う。"""
-    return os.environ.get("CLOUDFLARE_AI_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN") or ""
+    # 貼り付けで紛れ込んだ空白・改行は 401 の原因になるので取り除く
+    return (os.environ.get("CLOUDFLARE_AI_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN") or "").strip()
+
+
+def _diagnose() -> str:
+    """401 のとき、どのトークンを使ったか・トークン自体が有効かを調べてログに残す(トークンの中身は出さない)。"""
+    which = "CLOUDFLARE_AI_TOKEN" if (os.environ.get("CLOUDFLARE_AI_TOKEN") or "").strip() else "CLOUDFLARE_API_TOKEN"
+    try:
+        req = urllib.request.Request("https://api.cloudflare.com/client/v4/user/tokens/verify",
+                                     headers={"Authorization": f"Bearer {_token()}", "User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=30) as res:
+            status = (json.load(res).get("result") or {}).get("status", "?")
+    except urllib.error.HTTPError as e:
+        status = f"確認できず(HTTP {e.code})"
+    acct = (os.environ.get("CLOUDFLARE_ACCOUNT_ID") or "").strip()
+    return (f"使用トークン: {which} / トークンの状態: {status} / アカウントID: {acct[:4]}…({len(acct)}文字)。"
+            "状態が active なのに 401 なら、トークンに Workers AI の権限がないか、アカウントIDとトークンのアカウントが違う")
 
 
 def _today_count() -> tuple[str, int]:
@@ -48,7 +64,7 @@ def _count_up() -> None:
 def _generate(cfg: dict, prompt: str) -> bytes:
     im = cfg.get("images") or {}
     model = im.get("model", "@cf/black-forest-labs/flux-1-schnell")
-    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CLOUDFLARE_ACCOUNT_ID']}/ai/run/{model}"
+    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CLOUDFLARE_ACCOUNT_ID'].strip()}/ai/run/{model}"
     req = urllib.request.Request(url, data=json.dumps({"prompt": prompt, "steps": int(im.get("steps", 4))}).encode(),
                                  headers={"Authorization": f"Bearer {_token()}",
                                           "Content-Type": "application/json", "User-Agent": USER_AGENT}, method="POST")
@@ -56,7 +72,8 @@ def _generate(cfg: dict, prompt: str) -> bytes:
         with urllib.request.urlopen(req, timeout=120) as res:
             body = res.read()
     except urllib.error.HTTPError as e:
-        raise RuntimeError(f"画像生成 HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}") from e
+        detail = f" [{_diagnose()}]" if e.code in (401, 403) else ""
+        raise RuntimeError(f"画像生成 HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}{detail}") from e
     if body[:1] == b"{":
         data = json.loads(body)
         img = (data.get("result") or {}).get("image")

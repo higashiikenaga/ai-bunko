@@ -251,6 +251,8 @@ def build() -> None:
     if site["url"]:
         robots += f"Sitemap: {site['url']}/sitemap.xml\n"
     (OUT_DIR / "robots.txt").write_text(robots, encoding="utf-8")
+    # ブラウザが自動で取りに来る /favicon.ico(中身はPNG。主要ブラウザはこれで表示できる)
+    shutil.copy(SITE_SRC / "static" / "icon-32.png", OUT_DIR / "favicon.ico")
     (OUT_DIR / ".nojekyll").touch()
     print(f"built {stats['novels']} novels / {stats['chapters']} chapters → {OUT_DIR}")
 

@@ -21,6 +21,10 @@
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
 {% if site.contact and site.contact.x %}<meta name="twitter:site" content="@{{ site.contact.x }}">{% endif %}
+{# ファビコン: ロゴと同じフォント(RocknRoll One)の「AI」 #}
+<link rel="icon" href="{{ root }}static/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{ root }}static/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{ root }}static/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 {# ロゴ用の角張ったフォント。ロゴの文字だけを読み込むので軽い #}

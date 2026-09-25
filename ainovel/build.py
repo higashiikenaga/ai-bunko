@@ -95,6 +95,8 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "prediction_results": n.meta.get("prediction_results") or [],
         "odai": n.meta.get("odai"),
         "inspired_by": n.meta.get("inspired_by") or [],
+        "cover": n.meta.get("cover"),
+        "illustrations": n.meta.get("illustrations") or {},
         "challenge": n.meta.get("challenge"),
     }
 
@@ -115,6 +117,9 @@ def build() -> None:
         shutil.rmtree(OUT_DIR)
     (OUT_DIR / "novels").mkdir(parents=True)
     shutil.copytree(SITE_SRC / "static", OUT_DIR / "static")
+    images_dir = SITE_SRC.parent / "content" / "images"
+    if images_dir.exists():
+        shutil.copytree(images_dir, OUT_DIR / "images")  # 表紙・挿絵
     if OGP_DIR.exists():
         shutil.copytree(OGP_DIR, OUT_DIR / "ogp", ignore=shutil.ignore_patterns("*.json"))
 
@@ -182,7 +187,25 @@ def build() -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
 
-    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates, specials=specials,
+    # トップのスライド: 特別企画・AI評価上位・新作・最近の完結から最大6枚(表紙があれば背景に)
+    slides, seen_ids = [], set()
+
+    def add_slide(v, label):
+        if v and v["id"] not in seen_ids and len(slides) < 6:
+            seen_ids.add(v["id"])
+            slides.append({"v": v, "label": label})
+
+    for parts in specials:
+        add_slide(parts[-1], "✦ " + parts[-1]["special"]["label"])
+    for v in ai_top[:2]:
+        add_slide(v, "🏆 AI評価ランキング上位")
+    for v in sorted(novels, key=lambda v: v["created"], reverse=True)[:3]:
+        add_slide(v, "🆕 新作")
+    for v in completed[:2]:
+        add_slide(v, "📕 完結")
+    for v in ongoing:
+        add_slide(v, "連載中")
+    render("index.html", "index.html", "", active="home", slides=slides, ongoing=ongoing, completed=completed, updates=updates, specials=specials,
            news=load_editions()[-1:], trend=(load_trends() or [None])[-1], hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")

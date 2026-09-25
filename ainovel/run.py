@@ -21,7 +21,7 @@ import time
 import traceback
 
 from ainovel import dedupe, feedback, prompts
-from ainovel.llm import BaseLLM, LLMError, make_llm
+from ainovel.llm import BaseLLM, LLMError, llm_for, make_llm
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
@@ -329,9 +329,9 @@ def main(argv: list[str] | None = None) -> int:
             tokens_before = llm.tokens_used
             try:
                 if event == "review":
-                    reviewed += bool(write_review(llm, cfg))
+                    reviewed += bool(write_review(llm_for(llm, cfg, "review"), cfg))
                 else:
-                    chatted += bool(write_post(llm, cfg))
+                    chatted += bool(write_post(llm_for(llm, cfg, "sns"), cfg))
             except Exception as e:  # noqa: BLE001
                 print(f"  ✗ {'レビュー' if event == 'review' else 'AI広場の投稿'}失敗: {e}")
                 if isinstance(e, LLMError) and e.daily_quota:

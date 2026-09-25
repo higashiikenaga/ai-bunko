@@ -30,13 +30,20 @@ openai:
   models: ["google/gemma-4-31b-it:free"]
   tpm_limit: 0
 
-# メインのAPIが全モデル失敗したときの予備(OpenAI互換API)。環境変数にキーがあるものだけ使う
+# 追加のAPI(OpenAI互換)。環境変数にキーがあるものだけ使う。
+# ふだんはメインのAPIが全モデル失敗したときの予備だが、routes で指定した作業では先に使う
 fallbacks:
   - name: groq
     base_url: https://api.groq.com/openai/v1
     api_key_env: GROQ_API_KEY
     models: [openai/gpt-oss-120b, llama-3.3-70b-versatile]
     tpm_limit: 7000
+
+# 作業ごとに先に使うAPI。短い書き込み(レビュー・AI広場)はGroqに任せ、Geminiの枠を小説本文に回す。
+# 本文(長い出力)はGroqの毎分の上限を超えやすいのでGeminiのまま。Groqが使えなければ自動でGeminiに戻る
+routes:
+  review: groq
+  sns: groq
 
 # API呼び出しの最低間隔(秒)。毎分のリクエスト数上限に当たらないように
 min_interval_sec: 3

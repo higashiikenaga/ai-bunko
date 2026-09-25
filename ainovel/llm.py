@@ -227,6 +227,10 @@ class ChainLLM:
     def tokens_used(self) -> int:
         return sum(l.tokens_used for l in self.llms)
 
+    def prefer(self, name: str) -> "ChainLLM":
+        """指定したAPIを先に試す版(中のAPIは共有するので、毎分の上限の管理も共有される)。"""
+        return ChainLLM(sorted(self.llms, key=lambda l: l.name != name))
+
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         errors: list[LLMError] = []
         for llm in self.llms:
@@ -296,6 +300,12 @@ def _primary_llm(cfg: dict, provider: str, interval: float) -> Optional[BaseLLM]
     if provider == "mock":
         return MockLLM()
     raise ValueError(f"不明なprovider: {provider}")
+
+
+def llm_for(llm, cfg: dict, task: str):
+    """作業の種類ごとに、先に使うAPIを切り替える(config の routes)。該当しなければそのまま。"""
+    name = (cfg.get("routes") or {}).get(task)
+    return llm.prefer(name) if name and isinstance(llm, ChainLLM) else llm
 
 
 def make_llm(cfg: dict):

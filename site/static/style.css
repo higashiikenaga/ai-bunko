@@ -196,3 +196,13 @@ mark { background: #fff3b0; padding: 0; }
 .sns-role.kind-roll { background: #fff4d6; color: var(--gold); font-weight: 700; }
 .sns-role.kind-announce_cut { background: #f1f1f1; color: #555; font-weight: 700; }
 .sns-role.kind-announce_challenge { background: var(--accent-soft); color: var(--accent-dark); font-weight: 700; }
+
+/* ---------- ハイライト ---------- */
+.hl-banner { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; margin: 12px 0; border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 6px; background: var(--bg); color: var(--text); }
+.hl-banner:hover { text-decoration: none; background: var(--bg-soft); }
+.hl-banner-tag { font-size: 12px; font-weight: 700; color: var(--red); }
+.hl-stats { font-size: 13px; background: var(--bg-soft); border-radius: 6px; padding: 8px 12px; margin: 8px 0; }
+.news { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin: 10px 0; }
+.news.latest { border-color: var(--accent); }
+.news-head { font-size: 18px; margin: 2px 0 8px; }
+.news-item { margin: 6px 0; }

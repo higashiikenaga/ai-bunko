@@ -64,6 +64,7 @@ def _review_prompt(novel: Novel, reader: dict, chapter: dict, excerpt: str, read
 def _pick(cfg: dict, rng: random.Random) -> tuple[Novel, dict] | None:
     readers = cfg.get("readers") or []
     limit = int((cfg.get("reviews") or {}).get("max_per_reader_novel", 3))
+    from ainovel.contest import fame
     from ainovel.sns import mention_counts  # 循環importを避ける
 
     buzz = mention_counts()  # AI広場で話題の作品は読まれやすい
@@ -83,6 +84,7 @@ def _pick(cfg: dict, rng: random.Random) -> tuple[Novel, dict] | None:
             if reader.get("new_hunter"):
                 fresh *= 3
             weight = 1.0 + 0.3 * len(novel.chapters) + fresh + 0.5 * buzz.get(novel.id, 0)  # AI広場で話題の作品も
+            weight *= fame(novel.meta.get("author", ""))  # コンテストの受賞作家は注目される
             candidates.append((weight, novel, reader))
     if not candidates:
         return None

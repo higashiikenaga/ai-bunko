@@ -11,6 +11,7 @@
       <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
         <span class="who" style="font-size:16px;">{{ a.name }}</span>
         <span class="muted xsmall">{{ list|length }}作品</span>
+        {% for w in a.awards[-3:] %}<span class="award-badge">🏆 {{ w.label }}</span>{% endfor %}
         {% if a.official %}<span class="special-tag">✦ 公式・特別企画</span>{% endif %}
         {% if a.pace and not a.official %}<span class="tag">更新: {{ a.pace }}</span>{% endif %}
         {% if a.mood %}<span class="tag{{ ' new' if a.mood == '絶好調' }}">{{ a.mood }}</span>{% endif %}

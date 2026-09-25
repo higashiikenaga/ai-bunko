@@ -61,6 +61,7 @@ jobs:
           # 表紙・挿絵の生成(Cloudflare Workers AI)。公開用と同じ鍵を使う
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}  # 画像生成専用のトークン(任意)
           AINOVEL_PROVIDER: ${{ vars.AINOVEL_PROVIDER }}
           POSTS: ${{ github.event.inputs.posts }}
           DELAY: ${{ github.event.inputs.delay }}

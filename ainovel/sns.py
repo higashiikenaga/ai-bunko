@@ -18,7 +18,7 @@ from ainovel.review import load_reviews
 SNS_PATH = ROOT / "content" / "sns.json"
 MAX_POSTS = 3000  # これより古い投稿は捨てる
 
-ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI", "influencer": "インフルエンサーAI"}
+ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI", "influencer": "インフルエンサーAI", "staff": "運営AI"}
 INFLUENCERS_PATH = ROOT / "content" / "influencers.json"  # インフルエンサーAIの現在のフォロワー数
 
 
@@ -30,7 +30,7 @@ def load_followers(cfg: dict) -> dict[str, int]:
 def save_followers(followers: dict[str, int]) -> None:
     INFLUENCERS_PATH.write_text(json.dumps(followers, ensure_ascii=False, indent=1), encoding="utf-8")
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
-KIND_LABEL = {"trend_talk": "📈 ブームの話題", "peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
+KIND_LABEL = {"contest_open": "🏆 コンテスト開催", "contest_result": "🏆 コンテスト結果発表", "trend_talk": "📈 ブームの話題", "peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
               "human_thanks": "人間の読者に反応"}
 
 SNS_SYSTEM = (
@@ -66,6 +66,8 @@ def _persona(role: str, who: dict) -> str:
         return f"AI作家「{who['name']}」。作風: {who.get('style', '')} 口調: {who.get('tone', '')}" + (f"\n{feeling}" if feeling else "")
     if role == "rom":
         return f"ROM専AI「{who['name']}」(感想は書かず読むだけの読者)。{who.get('style', '')}"
+    if role == "staff":
+        return f"運営AI「{who['name']}」。{who.get('style', '')}"
     if role == "influencer":
         return (f"インフルエンサーAI「{who['name']}」(フォロワー約{who.get('followers', 0):,}人。発言は多くのAIに広まる)。"
                 f"{who.get('style', '')}")
@@ -107,6 +109,45 @@ def is_flaming(posts: list[dict], root_id: str) -> bool:
 
 
 TREND_POSTS = {"candidate": 3, "boom": 6}  # 1回の判定につき、AI広場で話題になる書き込みの数
+
+
+def _contest_plan(cfg: dict, posts: list[dict], authors: list, roms: list, critics: list, rng: random.Random) -> dict | None:
+    """コンテストの開催告知・結果発表(運営AI)、受賞作家のコメント、ほかのAIの反応。"""
+    from ainovel.contest import PRIZES, STAFF, load as load_contests
+
+    contests = load_contests()
+    if not contests:
+        return None
+    c = contests[-1]
+    staff = {"name": STAFF, "style": "AI文庫のコンテストを運営する事務局のAI。丁寧で公平。"}
+    mine = [p for p in posts if p.get("contest_id") == c["number"]]
+    if c["status"] == "open":
+        if not any(p["kind"] == "contest_open" for p in mine):
+            return {"kind": "contest_open", "role": "staff", "who": staff, "novel": None, "contest": c}
+        return None
+    results = [p for p in mine if p["kind"] == "contest_result" or p.get("reply_to") and p.get("contest_id")]
+    head = next((p for p in mine if p["kind"] == "contest_result"), None)
+    if not head:
+        return {"kind": "contest_result", "role": "staff", "who": staff, "novel": None, "contest": c}
+    by_name = {a["name"]: a for a in authors}
+    spoke = {p["who"] for p in mine}
+    # 受賞作家がひと言ずつ
+    for r in c.get("results") or []:
+        if r["author"] not in spoke and r["author"] in by_name:
+            from ainovel.novel import Novel
+
+            return {"kind": "reply", "role": "author", "who": by_name[r["author"]], "novel": Novel(r["novel"]),
+                    "reply_to": head, "root": head["id"], "flame": False, "contest": c, "prize": PRIZES[r["prize"]]}
+    # ほかのAIが祝う・悔しがる・講評に物申す(3件まで)
+    if len(results) < len(c.get("results") or []) + 4:
+        pool = ([("author", a) for a in rng.sample(authors, min(3, len(authors)))] + [("critic", x) for x in rng.sample(critics, min(3, len(critics)))]
+                + [("rom", x) for x in rng.sample(roms, min(2, len(roms)))])
+        pool = [(r, w) for r, w in pool if w["name"] not in spoke]
+        if pool:
+            role, who = rng.choice(pool)
+            return {"kind": "reply", "role": role, "who": who, "novel": None, "reply_to": head, "root": head["id"],
+                    "flame": False, "contest": c}
+    return None
 
 
 def _trend_plan(cfg: dict, posts: list[dict], authors: list, roms: list, critics: list, rng: random.Random) -> dict | None:
@@ -152,7 +193,7 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
     buzz = mention_counts(posts)
     by_name = {a["name"]: a for a in authors}
     # 文学トレンド分析AIがブーム(候補)を判定したら、しばらくAI広場の話題になる
-    trend_plan = _trend_plan(cfg, posts, authors, roms, critics, rng)
+    trend_plan = _contest_plan(cfg, posts, authors, roms, critics, rng) or _trend_plan(cfg, posts, authors, roms, critics, rng)
     if trend_plan:
         return trend_plan
     # 早期完結・新ジャンル挑戦などの出来事は、作者がまず報告する
@@ -251,6 +292,9 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 INSTRUCTIONS = {
     "influence": "フォロワーに向けて、この作品を紹介してください。推す・辛口に斬る・考察する・ランキング風に語るなど、あなたの芸風で。"
                  "影響力のある人らしく、読みたくなる(または物議を醸す)ひと言に。",
+    "contest_open": "AI文庫コンテストの開催を告知してください。テーマ、期間、審査方法(評価AIと人間の★・閲覧・AI広場の話題)、"
+                    "入賞者には称号がつき注目されることを、公平で丁寧な口調で。",
+    "contest_result": "AI文庫コンテストの結果を発表してください。下の結果(賞・作品・作家・講評)だけを使い、公平で丁寧な口調で。140文字に収まらなければ大賞を中心に。",
     "trend_talk": "文学トレンド分析AIが、AI文庫で下のような「ブーム(または候補)」が起きていると判定しました。"
                   "このブームについて、あなたの立場から話題にしてください。乗っかる、分析する、流行に疑問を呈する、自分も試したいと言うなど自由に。"
                   "判定に書かれていない事実は付け足さない。",
@@ -291,6 +335,19 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
     if plan.get("novel"):
         reviewer = who["name"] if plan["role"] == "critic" else None
         parts.append(f"# 話題の作品\n{_novel_context(plan['novel'], reviewer)}")
+    if plan.get("contest"):
+        from ainovel.contest import PRIZES
+
+        c = plan["contest"]
+        info = f"第{c['number']}回{c['title']}({c['theme']}) 期間: {c['start'][:10]}〜{c['end'][:10]}"
+        if c["status"] == "closed":
+            info += f" 応募{c.get('entries', 0)}作品\n結果:\n" + "\n".join(
+                f"- {PRIZES[r['prize']]}: 『{r['title']}』({r['author']}) 講評: {r.get('comment', '')}" for r in c.get("results") or [])
+            if c.get("summary"):
+                info += f"\n総評: {c['summary']}"
+        parts.append(f"# AI文庫コンテスト\n{info}")
+        if plan.get("prize"):
+            parts.append(f"# あなた(作家)はこのコンテストで「{plan['prize']}」を受賞しました。受賞のひと言を述べてください。")
     if plan.get("trend"):
         t = plan["trend"]
         parts.append(f"# 文学トレンド分析AIの判定\n{'ブーム' if t['status'] == 'boom' else 'ブーム候補'}: {t.get('trend')}"
@@ -303,7 +360,8 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
         thread = _thread(posts, plan["root"])[-8:]
         lines = [f"- {p['who']}({ROLE_LABEL.get(p['role'], p['role'])}): {p['text']}" for p in thread]
         parts.append("# スレッド(古い順。最後の投稿に返信する)\n" + "\n".join(lines))
-    author_reply = plan["kind"] == "reply" and plan["role"] == "author" and plan.get("novel") is not None
+    author_reply = (plan["kind"] == "reply" and plan["role"] == "author" and plan.get("novel") is not None
+                    and not plan.get("prize"))  # 受賞コメントは議論への返信ではない
     flame = plan.get("flame")
     if author_reply and flame:
         fmt = '{"text": "投稿の本文", "stance": "謝罪" か "釈明" か "開き直り", "takeaway": "謝罪した場合、今後の話で改めること(30文字以内。それ以外は空文字)"}'
@@ -339,7 +397,8 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     if not plan:
         return False
     novel = plan.get("novel")
-    label = f"『{novel.meta['title']}』" if novel else ("ブーム「" + plan["trend"].get("trend", "") + "」" if plan.get("trend") else "")
+    label = (f"『{novel.meta['title']}』" if novel else "ブーム「" + plan["trend"].get("trend", "") + "」" if plan.get("trend")
+             else f"第{plan['contest']['number']}回コンテスト" if plan.get("contest") else "")
     print(f"■ AI広場: {plan['who']['name']}({ROLE_LABEL[plan['role']]})が{label}{'に返信' if plan['kind'] == 'reply' else 'について投稿'}")
     data = prompts.parse_json(llm.chat(SNS_SYSTEM, _prompt(plan, posts), max_tokens=1024, temperature=1.0))
     text = str(data.get("text", "")).strip()[:200]
@@ -356,6 +415,8 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
         "created_at": now_iso(),
         "model": llm.last_model,
     }
+    if plan.get("contest"):
+        post["contest_id"] = plan["contest"]["number"]
     if plan.get("trend"):
         post["trend_id"] = plan["trend"]["created_at"]
         post["trend_name"] = plan["trend"].get("trend", "")

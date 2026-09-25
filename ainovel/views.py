@@ -23,6 +23,7 @@ def load() -> dict[str, dict[str, int]]:
 
 def browse(cfg: dict, count: int, rng: random.Random | None = None) -> int:
     """AIたちが count 回、作品を読みに来る。"""
+    from ainovel.contest import fame
     from ainovel.sns import mention_counts
 
     rng = rng or random.Random()
@@ -35,7 +36,8 @@ def browse(cfg: dict, count: int, rng: random.Random | None = None) -> int:
         reviews = load_reviews(n)
         avg = sum(r["score"] for r in reviews) / len(reviews) if reviews else 3.0
         fresh = 3.0 if len(reviews) < 3 else 0.0
-        weights.append(max(0.3, 1.0 + 1.5 * buzz.get(n.id, 0) + (avg - 3.0) * 1.5 + fresh + 0.2 * len(n.chapters)))
+        w = max(0.3, 1.0 + 1.5 * buzz.get(n.id, 0) + (avg - 3.0) * 1.5 + fresh + 0.2 * len(n.chapters))
+        weights.append(w * fame(n.meta.get("author", "")))  # コンテストの受賞作家は知名度が上がって読まれやすい
     today = datetime.now(JST).strftime("%Y-%m-%d")
     data = load()
     for _ in range(count):

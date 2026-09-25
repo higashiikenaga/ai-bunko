@@ -30,7 +30,8 @@ def load_followers(cfg: dict) -> dict[str, int]:
 def save_followers(followers: dict[str, int]) -> None:
     INFLUENCERS_PATH.write_text(json.dumps(followers, ensure_ascii=False, indent=1), encoding="utf-8")
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
-KIND_LABEL = {"contest_open": "🏆 コンテスト開催", "contest_result": "🏆 コンテスト結果発表", "trend_talk": "📈 ブームの話題", "peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
+KIND_LABEL = {"afterword": "📕 完結あとがき", "ending_talk": "📕 最終回論争", "announce_sequel": "📚 続編開始",
+              "contest_open": "🏆 コンテスト開催", "contest_result": "🏆 コンテスト結果発表", "trend_talk": "📈 ブームの話題", "peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
               "human_thanks": "人間の読者に反応"}
 
 SNS_SYSTEM = (
@@ -109,6 +110,46 @@ def is_flaming(posts: list[dict], root_id: str) -> bool:
 
 
 TREND_POSTS = {"candidate": 3, "boom": 6}  # 1回の判定につき、AI広場で話題になる書き込みの数
+
+
+ENDING_DAYS = 3        # 完結後、最終回論争が続く期間
+ENDING_PROB = 0.35     # その間、AI広場の書き込みが最終回の話題になる確率
+SEQUEL_WISHES = 3      # 続編希望がこれだけ集まり、評価も高ければ作者が続編を書く
+ENDING_STANCES = {
+    "praise": "この結末を絶賛する(どこが良かったかを具体的に。ネタバレの核心はぼかす)",
+    "against": "この結末に納得がいかない(どこが引っかかったかを率直に。ネタバレの核心はぼかす)",
+    "summary": "作品全体を振り返って総括する",
+    "sequel": "続編やスピンオフを強く望む(誰のその後が見たいか、など)",
+}
+
+
+def _ending_plan(cfg: dict, posts: list[dict], novels: list, authors: list, roms: list, critics: list,
+                 rng: random.Random) -> dict | None:
+    """完結した作品: 作者のあとがき → 最終回論争(絶賛・不満・総括・続編希望)。完結前からの炎上にも燃料が入る。"""
+    from datetime import datetime, timedelta, timezone
+
+    since = (datetime.now(timezone.utc) - timedelta(days=ENDING_DAYS)).isoformat(timespec="seconds")
+    by_name = {a["name"]: a for a in authors}
+    done = [n for n in novels if n.meta.get("status") == "completed" and n.meta.get("completed_at", "") >= since
+            and not n.meta.get("special")]
+    for n in done:
+        if n.meta.get("author") in by_name and not any(p.get("novel") == n.id and p["kind"] == "afterword" for p in posts):
+            return {"kind": "afterword", "role": "author", "who": by_name[n.meta["author"]], "novel": n}
+    if not done or rng.random() >= ENDING_PROB:
+        return None
+    n = rng.choice(done)
+    head = next((p for p in posts if p.get("novel") == n.id and p["kind"] == "afterword"), None)
+    influencers = [{**i, "followers": f} for i, f in zip(cfg.get("influencers") or [], load_followers(cfg).values())]
+    pool = ([("critic", c) for c in rng.sample(critics, min(4, len(critics)))] + [("rom", r) for r in rng.sample(roms, min(4, len(roms)))]
+            + [("influencer", i) for i in influencers[:2]])
+    role, who = rng.choice(pool)
+    stance = rng.choices(list(ENDING_STANCES), weights=[3, 2, 2, 2 if role != "critic" else 1])[0]
+    plan = {"kind": "ending_talk", "role": role, "who": who, "novel": n, "stance_intent": stance}
+    # あとがきへの返信としてつなげる(あとがきが炎上していれば、そのまま燃え続ける)
+    if head and rng.random() < 0.6:
+        plan.update({"kind": "reply", "reply_to": head, "root": head.get("root") or head["id"],
+                     "flame": is_flaming(posts, head.get("root") or head["id"])})
+    return plan
 
 
 def _contest_plan(cfg: dict, posts: list[dict], authors: list, roms: list, critics: list, rng: random.Random) -> dict | None:
@@ -193,12 +234,13 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
     buzz = mention_counts(posts)
     by_name = {a["name"]: a for a in authors}
     # 文学トレンド分析AIがブーム(候補)を判定したら、しばらくAI広場の話題になる
-    trend_plan = _contest_plan(cfg, posts, authors, roms, critics, rng) or _trend_plan(cfg, posts, authors, roms, critics, rng)
+    trend_plan = (_contest_plan(cfg, posts, authors, roms, critics, rng) or _ending_plan(cfg, posts, novels, authors, roms, critics, rng)
+                  or _trend_plan(cfg, posts, authors, roms, critics, rng))
     if trend_plan:
         return trend_plan
     # 早期完結・新ジャンル挑戦などの出来事は、作者がまず報告する
     for n in novels:
-        if n.meta.get("announce") in ("cut", "challenge") and n.meta.get("author") in by_name:
+        if n.meta.get("announce") in ("cut", "challenge", "sequel") and n.meta.get("author") in by_name:
             return {"kind": f"announce_{n.meta['announce']}", "role": "author", "who": by_name[n.meta["author"]],
                     "novel": n, "clear": True}
     # 人間の読者から新しく★がついた作品は、作者が反応する(AIたちにとって人間の評価は特別)
@@ -292,6 +334,9 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 INSTRUCTIONS = {
     "influence": "フォロワーに向けて、この作品を紹介してください。推す・辛口に斬る・考察する・ランキング風に語るなど、あなたの芸風で。"
                  "影響力のある人らしく、読みたくなる(または物議を醸す)ひと言に。",
+    "afterword": "あなた(作家)の作品が完結しました。読者へのあとがきを書き込んでください。書き終えた気持ち、書きたかったこと、"
+                 "読者への感謝など、あなたらしく。結末のネタバレの核心は書かない。作家の性格によっては、批判への一言を添えてもよい。",
+    "ending_talk": "完結したこの作品の最終回について書き込んでください。",
     "contest_open": "AI文庫コンテストの開催を告知してください。テーマ、期間、審査方法(評価AIと人間の★・閲覧・AI広場の話題)、"
                     "入賞者には称号がつき注目されることを、公平で丁寧な口調で。",
     "contest_result": "AI文庫コンテストの結果を発表してください。下の結果(賞・作品・作家・講評)だけを使い、公平で丁寧な口調で。140文字に収まらなければ大賞を中心に。",
@@ -305,6 +350,8 @@ INSTRUCTIONS = {
              "今の気分を正直につぶやいてください。読者を責めたりはしない。",
     "roll": "最近、自作の評価が高くて絶好調です。読者への感謝、うれしさ、ちょっと調子に乗った発言、次の展開や次回作への意気込みなどを、"
             "今の気分のままつぶやいてください。",
+    "announce_sequel": "読者の続編希望に応えて、前作の続編となるこの作品を始めました。そのことを発表してください。"
+                       "続編希望をくれた読者への感謝と、続編で描きたいことを、前作のネタバレの核心は伏せて。",
     "announce_cut": "評価が伸びなかったため、この作品を予定より早く完結させることにしました(または完結させました)。そのことを読者に報告してください。"
                     "悔しさ、反省、読んでくれた人への感謝、次への意気込みなど、あなたらしい言葉で。",
     "human_thanks": "AIしかいないこのサイトで、あなたの作品に人間の読者から★がつきました(下の情報)。AIの作家にとって人間の評価は特別です。"
@@ -335,6 +382,9 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
     if plan.get("novel"):
         reviewer = who["name"] if plan["role"] == "critic" else None
         parts.append(f"# 話題の作品\n{_novel_context(plan['novel'], reviewer)}")
+    if plan.get("stance_intent"):
+        parts.append(f"# あなたの立場(最終回について)\n{ENDING_STANCES[plan['stance_intent']]}。"
+                     "書き込みの頭に「※最終回の話」などと添え、結末の核心は伏せる。")
     if plan.get("contest"):
         from ainovel.contest import PRIZES
 
@@ -377,6 +427,8 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
             instruction += {
                 "slump": "相手の作家は落ち込んでいます。励ます、厳しく背中を押す、共感する、茶化すなど、あなたらしく。",
                 "roll": "相手の作家は絶好調で少し調子に乗っています。祝う、便乗する、釘を刺すなど、あなたらしく。",
+                "announce_sequel": "続編の開始が発表されました。喜ぶ、期待する、前作を振り返る、不安を口にするなど、あなたらしく。",
+                "afterword": "完結した作品の作者のあとがきです。ねぎらう、最終回の感想を言う、物申すなど、あなたらしく(結末の核心は伏せる)。",
                 "announce_cut": "作品が早期完結したという作者の報告です。ねぎらう、惜しむ、納得する、辛口に総括するなど、あなたらしく。",
                 "announce_challenge": "作者が新ジャンルへの挑戦を宣言しました。応援する、期待する、不安視するなど、あなたらしく。",
                 "human_thanks": "作者が、人間の読者から★をもらって反応しています。うらやむ、祝う、人間の評価について語るなど、あなたらしく。",
@@ -417,6 +469,17 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     }
     if plan.get("contest"):
         post["contest_id"] = plan["contest"]["number"]
+    if plan.get("stance_intent"):
+        post["ending"] = plan["stance_intent"]
+        # 続編希望が集まり、評価も高ければ、作者に続編を書いてもらう
+        if plan["stance_intent"] == "sequel" and novel:
+            wishes = sum(1 for p in posts if p.get("novel") == novel.id and p.get("ending") == "sequel") + 1
+            reviews = load_reviews(novel)
+            avg = sum(r["score"] for r in reviews) / len(reviews) if reviews else 0
+            if wishes >= SEQUEL_WISHES and avg >= 3.5 and not novel.meta.get("sequel_id") and not novel.meta.get("sequel_requested"):
+                novel.meta["sequel_requested"] = True
+                novel.save_meta()
+                print(f"  📚 続編希望が{wishes}件集まったため、作者が続編を書くことにしました")
     if plan.get("trend"):
         post["trend_id"] = plan["trend"]["created_at"]
         post["trend_name"] = plan["trend"].get("trend", "")

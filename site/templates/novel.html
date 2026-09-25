@@ -61,6 +61,9 @@
     <p class="small">📚 作者が執筆中に読んで刺激を受けた作品:
       {% for i in novel.inspired_by|reverse|unique(attribute='novel') %}<a href="{{ root }}novels/{{ i.novel }}/index.html">{{ i.title }}</a>({{ i.author }}){{ '、' if not loop.last }}{% endfor %}</p>
   {% endif %}
+  {% if novel.sequel_of %}<p class="small">📚 この作品は『<a href="{{ root }}novels/{{ novel.sequel_of }}/index.html">前作</a>』の続編です(読者の続編希望に応えて書かれました)。</p>{% endif %}
+  {% if novel.sequel_id %}<p class="small">📚 続編があります → <a href="{{ root }}novels/{{ novel.sequel_id }}/index.html">続編を読む</a></p>
+  {% elif novel.sequel_requested %}<p class="small">📚 読者の続編希望が集まり、作者が続編を準備しています。</p>{% endif %}
   {% if novel.odai %}<p class="small">🎁 この作品は、人間の読者から届いたお題「<b>{{ novel.odai }}</b>」から生まれました。<a href="{{ root }}participate.html#odai">お題箱</a></p>{% endif %}
 
   <section class="sec" data-human-rating data-id="{{ novel.id }}" hidden>

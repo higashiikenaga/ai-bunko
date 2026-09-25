@@ -100,7 +100,18 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     print(f"■ 新作を企画: {genre} / 作家 {author['name'] if author else '-'} / モチーフ {motifs}")
 
     titles = [n.meta["title"] for n in novels]
-    world = chat_json(llm, prompts.world_prompt(genre, motifs, titles, author), max_tokens=6144, temperature=1.0)
+    prev = Novel(author["_sequel_of"]) if author and author.get("_sequel_of") else None
+    sequel = ""
+    if prev:
+        genre = prev.meta.get("genre") or genre
+        story = "\n".join(f"- 第{i}話: {c.get('summary', '')}" for i, c in enumerate(prev.chapters, 1))
+        sequel = (f"\n# これは前作『{prev.meta['title']}』の続編(読者の続編希望に応えて書く)\n"
+                  f"前作のあらすじ: {prev.world.get('premise', '')}\n前作の物語(正典。覆さない):\n{story}\n"
+                  "前作の結末のその後を描く。前作の登場人物・世界のルールを引き継ぐ。タイトルは前作の続編と分かるものにする。\n")
+        print(f"  📚 『{prev.meta['title']}』の続編を企画します")
+        challenge, word = False, None  # 続編は前作と同じジャンル。お題は使わない
+        titles = [t for t in titles if t != prev.meta["title"]]  # 前作と似たタイトルは重複扱いしない
+    world = chat_json(llm, prompts.world_prompt(genre, motifs, titles, author, sequel), max_tokens=6144, temperature=1.0)
     dup = dedupe.similar_title(world.get("title", ""), titles)
     if dup:
         print(f"  タイトル「{world.get('title')}」が既存作品「{dup}」とほぼ同じなので企画し直します")
@@ -112,7 +123,8 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     world["genre"] = world.get("genre") or genre
     print(f"  タイトル: {world.get('title')}")
 
-    chars = chat_json(llm, prompts.characters_prompt(world), max_tokens=6144, temperature=0.9).get("characters", [])
+    # 続編は前作の登場人物を引き継ぐ
+    chars = prev.characters if prev else chat_json(llm, prompts.characters_prompt(world), max_tokens=6144, temperature=0.9).get("characters", [])
     if not chars:
         raise ValueError("登場人物が生成されませんでした")
     print(f"  登場人物: {', '.join(c.get('name', '?') for c in chars)}")
@@ -122,6 +134,12 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     novel = Novel.create(world, chars, target, llm.last_model)
     if author:
         novel.meta["author"] = author["name"]
+    if prev:
+        novel.meta["sequel_of"] = prev.id
+        novel.meta["announce"] = "sequel"  # AI広場で続編開始を発表する
+        prev.meta["sequel_id"] = novel.id
+        prev.meta.pop("sequel_requested", None)
+        prev.save_meta()
     if word:
         novel.meta["odai"] = word
         odai.mark_used(word, novel.id, novel.meta["title"], novel.meta.get("author", ""), novel.meta["created_at"])
@@ -261,6 +279,11 @@ def _flaming_authors() -> set[str]:
 def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None]:
     """次に書く作家と作品を決める。サイト全体の連載枠はなく、作家ごとのペース・連載数上限・気まぐれで決まる。
     戻り値: (write, 作品, 作家) / (create, None, 作家) / (none, None, None)"""
+    # 読者の続編希望に応えて、作者が続編を書く
+    by_name = {a["name"]: a for a in cfg.get("authors") or []}
+    for n in all_novels():
+        if n.meta.get("sequel_requested") and not n.meta.get("sequel_id") and n.meta.get("author") in by_name:
+            return "create", None, {**by_name[n.meta["author"]], "_sequel_of": n.id}
     # 特別企画(運営の設定をもとにAIが書くシリーズ)は、通常の作家とは別枠で一定間隔ごとに更新する
     sp = special.due_novel(skip)
     if sp:

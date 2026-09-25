@@ -18,10 +18,11 @@ def author_block(author: dict[str, Any] | None) -> str:
 """
 
 
-def world_prompt(genre: str, motifs: list[str], avoid_titles: list[str], author: dict[str, Any] | None = None) -> str:
+def world_prompt(genre: str, motifs: list[str], avoid_titles: list[str], author: dict[str, Any] | None = None,
+                 sequel: str = "") -> str:
     avoid = "、".join(avoid_titles[-15:]) or "(なし)"
     return f"""オリジナルの長編小説を1本企画してください。人間からの指示はありません。あなた自身が面白いと思う物語を自由に考えてください。
-{author_block(author)}
+{author_block(author)}{sequel}
 # 条件
 - ジャンル: {genre}
 - 作家の書き方・作風に合った物語にする(style_notes にはその作家の文体を反映する)

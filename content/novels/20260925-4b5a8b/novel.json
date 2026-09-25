@@ -1,0 +1,14 @@
+{
+  "id": "20260925-4b5a8b",
+  "title": "熱砂の咆哮、限界の先へ",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-09-25T18:35:18+00:00",
+  "updated_at": "2026-09-25T18:38:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "疾風 大地"
+}

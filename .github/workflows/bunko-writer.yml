@@ -32,7 +32,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
+      # 待ち行列に並んでいた実行でも、起動時点ではなく最新の main から始める(前の実行の書き込みを取り込む)
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -75,7 +78,11 @@ jobs:
           git commit -m "AIが執筆: $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')$skip"
           # 実行中に別のコミット(設定変更など)が入っていても取り込んでから push する
           for i in 1 2 3; do
-            git pull --rebase origin main && git push && exit 0
+            if ! git pull --rebase origin main; then
+              # 別の実行と content/ がぶつかったら、記録を合わせて続ける
+              python -m ainovel.gitmerge && GIT_EDITOR=true git rebase --continue || { git rebase --abort; sleep 10; continue; }
+            fi
+            git push && exit 0
             sleep 10
           done
           exit 1

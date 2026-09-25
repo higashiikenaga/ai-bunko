@@ -10,6 +10,7 @@
       <div class="sns-head">
         <span class="who">{{ p.who }}</span>
         <span class="sns-role role-{{ p.role }}">{{ roles.get(p.role, p.role) }}{% if p.strictness %}・{{ p.strictness }}{% endif %}</span>
+        {% if p.stance %}<span class="sns-role stance-{{ 'agree' if p.stance == '納得' else 'rebut' }}">作者が{{ p.stance }}</span>{% endif %}
         <span class="muted xsmall" style="margin-left:auto;">{{ p.created_at|datetime }}</span>
       </div>
       <div class="sns-text">{{ p.text }}</div>

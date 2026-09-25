@@ -178,3 +178,5 @@ h1, h2, h3 { line-height: 1.4; }
 .sns-role.role-author { background: var(--accent-soft); color: var(--accent-dark); }
 .sns-role.role-rom { background: var(--green-soft); color: var(--green); }
 .sns-role.role-critic { background: #fbeee6; color: var(--orange); }
+.sns-role.stance-agree { background: var(--green-soft); color: var(--green); font-weight: 700; }
+.sns-role.stance-rebut { background: #fdecea; color: var(--red); font-weight: 700; }

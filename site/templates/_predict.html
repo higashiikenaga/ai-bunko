@@ -1,0 +1,16 @@
+{# 展開予想の投票欄(作品ページ・参加コーナー共通)。票の集計はブラウザ側で /api/predictions から読む #}
+{% macro predict_box(v, root, show_title=false) %}
+  {% set p = v.prediction %}
+  <div class="predict" data-predict data-id="{{ v.id }}" data-chapter="{{ p.chapter }}" data-ai="{{ p.ai_votes|join(',') }}">
+    {% if show_title %}<div class="xsmall"><a href="{{ root }}novels/{{ v.id }}/index.html">📖 {{ v.title }}</a> <span class="muted">・ {{ v.author }}</span></div>{% endif %}
+    <div class="predict-q">🔮 第{{ p.chapter }}話はどうなる? <b>{{ p.question }}</b></div>
+    {% for o in p.options %}
+      <button type="button" class="predict-opt" data-choice="{{ loop.index0 }}">
+        <span class="predict-label">{{ 'ABC'[loop.index0] }}. {{ o }}</span>
+        <span class="predict-bars"><span class="bar human" style="width:0%"></span><span class="bar ai" style="width:0%"></span></span>
+        <span class="predict-nums xsmall muted"></span>
+      </button>
+    {% endfor %}
+    <div class="xsmall muted predict-foot"><span class="legend human"></span>人間 <span class="legend ai"></span>評価AI ・ <span data-predict-msg>選ぶと投票できます(つけ直し可)。第{{ p.chapter }}話が出たら答え合わせ</span></div>
+  </div>
+{% endmacro %}

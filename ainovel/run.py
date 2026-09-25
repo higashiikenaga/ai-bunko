@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import digest, mood, sns, special
+from ainovel import digest, mood, odai, predict, sns, special
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -89,6 +89,11 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     genres = [g for g in pool if g not in recent_genres] or pool
     genre = random.choice(genres)
     motifs = random.sample(MOTIFS, 2)
+    # お題箱: 人間の読者から届いたお題があれば、ときどき新作のモチーフに使う
+    word = odai.pick((cfg.get("site") or {}).get("url", "")) if random.random() < float((cfg.get("odai") or {}).get("use_probability", 0.6)) else None
+    if word:
+        motifs[0] = f"{word}(人間の読者からのお題。作品にふさわしくない言葉なら使わず、別の題材にする)"
+        print(f"  🎁 お題箱から「{word}」を使います")
     if author and author.get("official"):
         author = None  # 公式(特別企画)の作家は、特別企画以外の作品を書かない
     author = author or choose_author(cfg, genre)
@@ -117,6 +122,9 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     novel = Novel.create(world, chars, target, llm.last_model)
     if author:
         novel.meta["author"] = author["name"]
+    if word:
+        novel.meta["odai"] = word
+        odai.mark_used(word, novel.id, novel.meta["title"], novel.meta.get("author", ""), novel.meta["created_at"])
     if challenge:
         novel.meta["challenge"] = True  # 得意ジャンル外への挑戦作
         novel.meta["announce"] = "challenge"  # AI広場で作者が宣言する
@@ -174,7 +182,8 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     target_chars = int(world.get("chapter_chars") or w["chapter_chars"])  # 特別企画は作品ごとに指定
     system = prompts.system_prompt(world, author_of(novel, cfg))
     user = prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
-                                  index, total, target_chars, feedback.prompt_block(reaction) + sns.debate_block(novel))
+                                  index, total, target_chars, feedback.prompt_block(reaction) + sns.debate_block(novel)
+                                  + predict.author_block(novel, index, cfg["site"].get("url", "")))
     previous = [(c["index"], novel.chapter_text(c["index"])) for c in memory.data["chapters"]]
 
     text = ""
@@ -222,6 +231,13 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
         novel.meta["completed_at"] = novel.meta["updated_at"]
         novel.save_meta()
         print("  → 完結しました")
+    # 展開予想: この話の予想の答え合わせと、次の話の予想問題(失敗しても執筆結果は残す)
+    try:
+        side = llm_for(llm, cfg, "sns")
+        predict.judge(side, novel, index, cfg["site"].get("url", ""))
+        predict.make_prediction(side, novel, cfg)
+    except Exception as e:  # noqa: BLE001
+        print(f"  (展開予想の処理に失敗: {e})")
     print(f"  「{meta.get('title')}」 {len(text)}文字 ({model})")
 
 

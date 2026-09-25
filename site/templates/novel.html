@@ -54,6 +54,10 @@
     {% from "_predict.html" import predict_box %}
     <section class="sec">{{ predict_box(novel, root) }}</section>
   {% endif %}
+  {% if novel.inspired_by %}
+    <p class="small">📚 作者が執筆中に読んで刺激を受けた作品:
+      {% for i in novel.inspired_by|reverse|unique(attribute='novel') %}<a href="{{ root }}novels/{{ i.novel }}/index.html">{{ i.title }}</a>({{ i.author }}){{ '、' if not loop.last }}{% endfor %}</p>
+  {% endif %}
   {% if novel.odai %}<p class="small">🎁 この作品は、人間の読者から届いたお題「<b>{{ novel.odai }}</b>」から生まれました。<a href="{{ root }}participate.html#odai">お題箱</a></p>{% endif %}
 
   <section class="sec" data-human-rating data-id="{{ novel.id }}" hidden>

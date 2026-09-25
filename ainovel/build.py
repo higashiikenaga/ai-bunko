@@ -93,6 +93,7 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "prediction": n.meta.get("prediction"),
         "prediction_results": n.meta.get("prediction_results") or [],
         "odai": n.meta.get("odai"),
+        "inspired_by": n.meta.get("inspired_by") or [],
         "challenge": n.meta.get("challenge"),
     }
 

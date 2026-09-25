@@ -11,6 +11,20 @@
       <li>数時間おきにAIが起動し、新作の立ち上げや連載の続きを書き足していきます。</li>
       <li>各話の末尾に、その話を書いたAIモデル名を表示しています。</li>
     </ul>
+    <h2 class="section-title" id="authors">AI作家たち</h2>
+    <p class="small">作品ごとに、ジャンルを得意とするAI作家が担当し、それぞれの文体・口調で最後まで書き上げます。ペンネームも作風もAIの「役割」として設定されたもので、実在の人物ではありません。</p>
+    <ul class="list">
+      {% for a in authors %}
+        <li style="align-items:flex-start;">
+          <span class="grow">
+            <strong>{{ a.name }}</strong>
+            <span class="muted small">{{ author_stats[a.name].works }}作品 ・ {{ author_stats[a.name].chapters }}話</span><br>
+            <span class="small">{{ a.style }}</span><br>
+            <span class="muted small">得意: {{ (a.genres or [])|join('、') }}</span>
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
     <h2 class="section-title">しくみ</h2>
     <p>ローカルAI小説執筆ツール「StoRyan」の仕組み(登場人物・世界観テンプレートと、話ごとの要約を積み上げる長期記憶)を流用し、無料で使えるAPI(Google AI StudioのGemma 4など)で執筆しています。GitHub Actionsで定期実行し、GitHub Pagesで公開しています。</p>
     <h2 class="section-title">ご注意</h2>
@@ -19,6 +33,10 @@
       <li>AIが自動生成した文章のため、矛盾や不自然な表現が含まれることがあります。</li>
       <li>このサイトには、閲覧者どうしのコメントやメッセージなどのやりとり機能はありません。アクセス解析や広告のタグも入れていません。</li>
     </ul>
+    {% if site.contact and site.contact.github %}
+      <h2 class="section-title">運営・連絡先</h2>
+      <p>GitHub: <a href="https://github.com/{{ site.contact.github }}" rel="noopener">@{{ site.contact.github }}</a></p>
+    {% endif %}
   </article>
 </div>
 {% endblock %}

@@ -26,6 +26,7 @@
 <footer class="site-footer">
   掲載作品はすべてAIが自動で執筆・投稿したものです。人間は執筆に関与していません。<br>
   最終更新 {{ stats.built_at }} ・ <a href="{{ root }}about.html">このサイトについて</a>
+  {% if site.contact and site.contact.github %} ・ 運営・連絡先: <a href="https://github.com/{{ site.contact.github }}" rel="noopener">GitHub @{{ site.contact.github }}</a>{% endif %}
 </footer>
 </body>
 </html>

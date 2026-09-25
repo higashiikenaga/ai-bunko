@@ -13,23 +13,47 @@ import urllib.error
 import urllib.request
 from typing import Optional
 
+
 class LLMError(RuntimeError):
-    pass
+    def __init__(self, message: str, daily_quota: bool = False):
+        super().__init__(message)
+        self.daily_quota = daily_quota  # 1日の無料枠を使い切った(今日はもう書けない)
+
+
+def _is_daily_quota(body: str) -> bool:
+    b = body.lower()
+    return "perday" in b or "per_day" in b or "per day" in b or "requestsperday" in b
 
 
 class BaseLLM:
     name = "base"
 
-    def __init__(self, min_interval: float = 0.0):
+    def __init__(self, min_interval: float = 0.0, tpm_limit: int = 0):
         self.min_interval = min_interval
+        self.tpm_limit = tpm_limit  # 1分あたりのトークン上限(0なら管理しない)
         self._last_call = 0.0
+        self._window: list[tuple[float, int]] = []  # 直近60秒の (時刻, 使用トークン)
         self.last_model = ""
+        self.tokens_used = 0
 
-    def _throttle(self) -> None:
+    def _throttle(self, est_tokens: int = 0) -> None:
         wait = self.min_interval - (time.time() - self._last_call)
         if wait > 0:
             time.sleep(wait)
+        if self.tpm_limit:
+            # 毎分のトークン上限に当たらないよう、直近60秒の使用量に余裕ができるまで待つ
+            while True:
+                now = time.time()
+                self._window = [(t, n) for t, n in self._window if now - t < 60]
+                used = sum(n for _, n in self._window)
+                if not self._window or used + est_tokens <= self.tpm_limit:
+                    break
+                time.sleep(max(1.0, 60 - (now - self._window[0][0]) + 0.5))
         self._last_call = time.time()
+
+    def _record(self, tokens: int) -> None:
+        self.tokens_used += tokens
+        self._window.append((time.time(), tokens))
 
     def chat(self, system: str, user: str, max_tokens: int = 2048, temperature: float = 0.9) -> str:
         raise NotImplementedError
@@ -53,7 +77,9 @@ def _with_retry(fn, attempts: int = 4):
         try:
             return fn()
         except urllib.error.HTTPError as e:
-            body = e.read().decode("utf-8", "replace")[:300]
+            body = e.read().decode("utf-8", "replace")[:600]
+            if e.code == 429 and _is_daily_quota(body):
+                raise LLMError(f"HTTP 429 (1日の無料枠を使い切りました): {body[:300]}", daily_quota=True) from e
             if e.code in (429, 500, 502, 503, 504) and i < attempts - 1:
                 print(f"  [retry] HTTP {e.code}、{delay:.0f}秒待って再試行: {body}")
                 time.sleep(delay)
@@ -67,18 +93,24 @@ def _with_retry(fn, attempts: int = 4):
             raise LLMError(str(e)) from e
 
 
+def _estimate_tokens(system: str, user: str, max_tokens: int) -> int:
+    """呼び出し前の使用トークン見積もり(日本語は1文字≒1トークン弱、出力は上限の7割程度と見る)。"""
+    return int((len(system) + len(user)) * 0.9 + max_tokens * 0.7)
+
+
 class GeminiLLM(BaseLLM):
     """Google AI Studio の Gemini API(Gemma 4 は無料枠で利用可能)。"""
 
     name = "gemini"
     ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
-    def __init__(self, api_key: str, models: list[str], min_interval: float):
-        super().__init__(min_interval)
+    def __init__(self, api_key: str, models: list[str], min_interval: float, tpm_limit: int = 0):
+        super().__init__(min_interval, tpm_limit)
         self.api_key = api_key
         self.models = models
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
+        est = _estimate_tokens(system, user, max_tokens)
         payload = {
             "systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}],
@@ -86,7 +118,7 @@ class GeminiLLM(BaseLLM):
         }
         errors = []
         for model in self.models:
-            self._throttle()
+            self._throttle(est)
             try:
                 data = _with_retry(
                     lambda: _post_json(
@@ -94,8 +126,11 @@ class GeminiLLM(BaseLLM):
                     )
                 )
             except LLMError as e:
+                if e.daily_quota and model == self.models[-1]:
+                    raise
                 errors.append(f"{model}: {e}")
                 continue
+            self._record(int((data.get("usageMetadata") or {}).get("totalTokenCount") or est))
             candidates = data.get("candidates") or []
             if not candidates:
                 errors.append(f"{model}: 応答なし {data.get('promptFeedback')}")
@@ -115,16 +150,17 @@ class OpenAICompatLLM(BaseLLM):
 
     name = "openai"
 
-    def __init__(self, api_key: str, base_url: str, models: list[str], min_interval: float):
-        super().__init__(min_interval)
+    def __init__(self, api_key: str, base_url: str, models: list[str], min_interval: float, tpm_limit: int = 0):
+        super().__init__(min_interval, tpm_limit)
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
         self.models = models
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         errors = []
+        est = _estimate_tokens(system, user, max_tokens)
         for model in self.models:
-            self._throttle()
+            self._throttle(est)
             payload = {
                 "model": model,
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
@@ -138,9 +174,15 @@ class OpenAICompatLLM(BaseLLM):
                     )
                 )
                 text = data["choices"][0]["message"]["content"] or ""
-            except (LLMError, KeyError, IndexError) as e:
+            except LLMError as e:
+                if e.daily_quota and model == self.models[-1]:
+                    raise
                 errors.append(f"{model}: {e}")
                 continue
+            except (KeyError, IndexError) as e:
+                errors.append(f"{model}: {e}")
+                continue
+            self._record(int((data.get("usage") or {}).get("total_tokens") or est))
             if text.strip():
                 self.last_model = model
                 return text.strip()
@@ -186,11 +228,12 @@ def make_llm(cfg: dict) -> Optional[BaseLLM]:
     interval = float(cfg.get("min_interval_sec", 6))
     if provider == "gemini":
         key = os.environ.get("GEMINI_API_KEY")
-        return GeminiLLM(key, cfg["gemini"]["models"], interval) if key else None
+        g = cfg["gemini"]
+        return GeminiLLM(key, g["models"], interval, int(g.get("tpm_limit", 0))) if key else None
     if provider == "openai":
         key = os.environ.get("OPENAI_COMPAT_API_KEY")
         o = cfg["openai"]
-        return OpenAICompatLLM(key, o["base_url"], o["models"], interval) if key else None
+        return OpenAICompatLLM(key, o["base_url"], o["models"], interval, int(o.get("tpm_limit", 0))) if key else None
     if provider == "mock":
         return MockLLM()
     raise ValueError(f"不明なprovider: {provider}")

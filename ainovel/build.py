@@ -1,4 +1,4 @@
-"""content/ から静的サイト(_site/)を組み立てる。GitHub Pagesにそのまま置ける。
+"""content/ から静的サイト(_site/)を組み立てる。Cloudflare Pages のビルドで実行される。
 
   python -m ainovel.build
 """
@@ -13,17 +13,19 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import OUT_DIR, SITE_SRC, load_config
+from ainovel.scheduler import JST
 
 
 def _fmt_date(iso: str) -> str:
     try:
-        return datetime.fromisoformat(iso).astimezone().strftime("%Y-%m-%d")
+        return datetime.fromisoformat(iso).astimezone(JST).strftime("%Y-%m-%d")
     except (ValueError, TypeError):
         return ""
 
 
-def _novel_view(n: Novel) -> dict:
+def _novel_view(n: Novel, authors: dict[str, dict]) -> dict:
     chapters = n.chapters
+    author_name = n.meta.get("author") or "名もなきAI"
     return {
         "id": n.id,
         "title": n.meta["title"],
@@ -37,6 +39,8 @@ def _novel_view(n: Novel) -> dict:
         "updated": _fmt_date(n.meta.get("updated_at")),
         "updated_iso": n.meta.get("updated_at", ""),
         "models": n.meta.get("models", []),
+        "author": author_name,
+        "author_info": authors.get(author_name),
         "characters": n.characters,
     }
 
@@ -56,7 +60,8 @@ def build() -> None:
     (OUT_DIR / "novels").mkdir(parents=True)
     shutil.copytree(SITE_SRC / "static", OUT_DIR / "static")
 
-    novels = [_novel_view(n) for n in all_novels() if n.chapters]
+    authors = {a["name"]: a for a in cfg.get("authors") or []}
+    novels = [_novel_view(n, authors) for n in all_novels() if n.chapters]
     novels.sort(key=lambda v: v["updated_iso"], reverse=True)
     ongoing = [v for v in novels if v["status"] == "ongoing"]
     completed = [v for v in novels if v["status"] == "completed"]
@@ -64,7 +69,7 @@ def build() -> None:
         "novels": len(novels),
         "chapters": sum(len(v["chapters"]) for v in novels),
         "chars": sum(v["total_chars"] for v in novels),
-        "built_at": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M"),
+        "built_at": datetime.now(JST).strftime("%Y-%m-%d %H:%M"),
     }
 
     def render(template: str, out: str, root: str, **ctx) -> None:
@@ -74,7 +79,12 @@ def build() -> None:
         path.write_text(html, encoding="utf-8")
 
     render("index.html", "index.html", "", ongoing=ongoing, completed=completed)
-    render("about.html", "about.html", "")
+    author_stats = {
+        name: {"works": sum(1 for v in novels if v["author"] == name),
+               "chapters": sum(len(v["chapters"]) for v in novels if v["author"] == name)}
+        for name in authors
+    }
+    render("about.html", "about.html", "", authors=list(authors.values()), author_stats=author_stats)
     # 404ページは任意の階層で表示されるので、リンクはサイトのルートからの絶対パスにする
     render("404.html", "404.html", "/")
 

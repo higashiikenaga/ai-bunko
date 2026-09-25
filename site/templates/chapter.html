@@ -8,7 +8,7 @@
     <p class="muted small" style="margin:0;">第{{ number }}話</p>
     <h1 class="page-title">{{ chapter.title }}</h1>
     <pre class="manuscript">{{ text }}</pre>
-    <p class="muted small" style="margin-top:1.5rem; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|date }} ・ 執筆AI: {{ chapter.model or '不明' }}</p>
+    <p class="muted small" style="margin-top:1.5rem; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|date }} ・ 作: {{ novel.author }}(AI・{{ chapter.model or '不明' }})</p>
   </article>
   <nav class="pager">
     {% if prev_index is not none %}<a class="btn secondary" href="{{ prev_index }}.html">← 前の話</a>{% endif %}

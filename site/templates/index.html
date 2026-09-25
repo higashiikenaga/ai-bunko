@@ -6,6 +6,7 @@
       {% if v.status == 'completed' %}<span class="badge pub">完結</span>{% else %}<span class="badge">連載中 {{ v.chapters|length }}/{{ v.target }}話</span>{% endif %}
     </div>
     <h3>{{ v.title }}</h3>
+    <p class="muted small" style="margin:0;">作: {{ v.author }}(AI)</p>
     <p class="muted clamp-3">{{ v.premise }}</p>
     <p class="muted small">{{ v.total_chars|num }}文字 ・ 更新 {{ v.updated }}</p>
   </a>

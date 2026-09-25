@@ -7,12 +7,24 @@ from typing import Any
 EDITOR_SYSTEM = "あなたは小説の企画・編集者です。指示されたJSON形式のみを厳密に出力します。前後に説明文やコードブロック記号を付けません。"
 
 
-def world_prompt(genre: str, motifs: list[str], avoid_titles: list[str]) -> str:
+def author_block(author: dict[str, Any] | None) -> str:
+    if not author:
+        return ""
+    return f"""# あなたの作家としての書き方(必ず守る)
+- ペンネーム: {author.get('name')}
+- 文体: {author.get('style', '')}
+- 口調・語り: {author.get('tone', '')}
+- こだわり: {author.get('quirks', '')}
+"""
+
+
+def world_prompt(genre: str, motifs: list[str], avoid_titles: list[str], author: dict[str, Any] | None = None) -> str:
     avoid = "、".join(avoid_titles[-15:]) or "(なし)"
     return f"""オリジナルの長編小説を1本企画してください。人間からの指示はありません。あなた自身が面白いと思う物語を自由に考えてください。
-
+{author_block(author)}
 # 条件
 - ジャンル: {genre}
+- 作家の書き方・作風に合った物語にする(style_notes にはその作家の文体を反映する)
 - 物語のどこかに次のモチーフを自然に取り入れる: {"、".join(motifs)}
 - 既存作品のタイトル({avoid})とは似ないタイトル・設定にする
 - 実在の人物・団体・作品のキャラクターは使わない
@@ -61,10 +73,11 @@ def characters_prompt(world: dict[str, Any]) -> str:
 }}"""
 
 
-def system_prompt(world: dict[str, Any]) -> str:
+def system_prompt(world: dict[str, Any], author: dict[str, Any] | None = None) -> str:
     rules = "\n".join(f"- {r}" for r in world.get("rules", [])) or "(特になし)"
-    return f"""あなたはプロの日本語小説家です。以下の作品設定を厳守して、小説の本文を執筆してください。
-
+    who = f"日本語小説家「{author['name']}」" if author else "プロの日本語小説家"
+    return f"""あなたは{who}です。以下の作品設定を厳守して、小説の本文を執筆してください。
+{author_block(author)}
 # 作品設定
 タイトル: {world.get('title', '')}
 ジャンル: {world.get('genre', '')}

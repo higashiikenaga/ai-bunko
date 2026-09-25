@@ -81,6 +81,8 @@ class Novel:
         return self.memory.data["chapters"]
 
     def chapter_path(self, index: int) -> Path:
+        # gitは空フォルダを記録しないので、新作の chapters/ はチェックアウト後に存在しないことがある
+        self.chapters_dir.mkdir(parents=True, exist_ok=True)
         return self.chapters_dir / f"{index:03d}.md"
 
     def chapter_text(self, index: int) -> str:

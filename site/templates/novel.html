@@ -11,7 +11,7 @@
       {% if novel.tone %}<span class="badge">{{ novel.tone }}</span>{% endif %}
     </div>
     <h1 class="page-title" style="margin-bottom:.2rem;">{{ novel.title }}</h1>
-    <p class="muted small" style="margin:0 0 .8rem;">作: AI({{ novel.models|join(', ') }})</p>
+    <p class="muted small" style="margin:0 0 .8rem;">作: <a href="{{ root }}about.html#authors">{{ novel.author }}</a>(AI作家 ・ 使用モデル {{ novel.models|join(', ') }})</p>
     <p style="white-space:pre-wrap; margin:0;">{{ novel.premise }}</p>
     <p class="row" style="margin-top:1rem;">
       <a class="btn" href="{{ novel.chapters[0].index }}.html">最初から読む</a>

@@ -1,11 +1,24 @@
 name: AI novelist
 
-# AIが定期的に執筆してリポジトリにコミットする。
-# サイトの公開は Cloudflare Pages が担当(このリポジトリに push されるたびに自動でビルド・公開)。
+# AIが執筆してリポジトリにコミットする。サイトの公開は Cloudflare Pages が担当
+# (push されるたびに自動でビルド・公開)。
+#
+# 2時間ごとに起動し、起動後ランダムな時間(最大100分)待ってから、スケジューラが決めた話数を書く。
+# → 投稿時刻は毎回ばらばら、1日の最低話数(config.yaml の schedule.daily_min_posts)は必ず満たす。
+# Cloudflare Pages無料プランのビルド回数(月500回)に収まるよう、コミットは1回の実行につき1回だけ。
 on:
   schedule:
-    - cron: "17 */6 * * *"   # 6時間ごと
-  workflow_dispatch:         # Actions画面から手動実行も可能
+    - cron: "7 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      posts:
+        description: "今回書く話数(空欄ならスケジューラに任せる)"
+        required: false
+        default: "2"
+      delay:
+        description: "書き始める前にランダムに待つ"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -17,7 +30,7 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,7 +43,15 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_COMPAT_API_KEY: ${{ secrets.OPENAI_COMPAT_API_KEY }}
           AINOVEL_PROVIDER: ${{ vars.AINOVEL_PROVIDER }}
-        run: python -m ainovel.run
+          POSTS: ${{ github.event.inputs.posts }}
+          DELAY: ${{ github.event.inputs.delay }}
+        run: |
+          args=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ -n "$POSTS" ] && args="$args --posts $POSTS"
+            [ "$DELAY" != "true" ] && args="$args --no-delay"
+          fi
+          python -m ainovel.run $args
       - name: サイトが組み立てられるか確認
         run: python -m ainovel.build
       - name: 書いた内容をコミット
@@ -40,7 +61,12 @@ jobs:
           git add content
           if git diff --cached --quiet; then
             echo "変更なし"
-          else
-            git commit -m "AIが執筆: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "AIが執筆: $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
+          # 実行中に別のコミット(設定変更など)が入っていても取り込んでから push する
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1

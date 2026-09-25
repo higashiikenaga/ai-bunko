@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import sns
+from ainovel import mood, sns
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -78,6 +78,13 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     recent_genres = [n.meta.get("genre") for n in novels[-3:]]
     # 作家が決まっていれば、その作家の得意ジャンルから選ぶ
     pool = [g for g in (author.get("genres") or []) if g in cfg["genres"]] if author else []
+    # スランプ気味の作家は、気分を変えて得意ジャンル以外に挑戦してみることがある
+    challenge = False
+    if author and mood.author_mood(author["name"])["level"] == "down" and random.random() < 0.5:
+        others = [g for g in cfg["genres"] if g not in pool]
+        if others:
+            pool, challenge = others, True
+            print(f"  {author['name']} はスランプ気味のため、新しいジャンルに挑戦します")
     pool = pool or cfg["genres"]
     genres = [g for g in pool if g not in recent_genres] or pool
     genre = random.choice(genres)
@@ -108,7 +115,9 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     novel = Novel.create(world, chars, target, llm.last_model)
     if author:
         novel.meta["author"] = author["name"]
-        novel.save_meta()
+    if challenge:
+        novel.meta["challenge"] = True  # 得意ジャンル外への挑戦作
+    novel.save_meta()
     print(f"  予定: 全{target}章  → {novel.id}")
     return novel
 
@@ -154,6 +163,7 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
         human = feedback.fetch_human_ratings(cfg["site"].get("url", ""))
         reaction = feedback.summarize(novel, human, int(fb_cfg.get("recent_reviews", 5)))
         feedback.maybe_extend(novel, reaction, index, cfg)
+    mood.maybe_cut_short(novel, index)  # 評価があまりに低ければ、作者の判断で早めに畳む
     total = int(novel.meta["target_chapters"])
     print(f"■ 執筆: 『{novel.meta['title']}』 第{index}章 / 全{total}章")
 
@@ -245,9 +255,11 @@ def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None
     for n in ongoing:
         serials.setdefault(n.meta.get("author", ""), []).append(n)
     flaming = _flaming_authors()
+    moods = mood.all_moods(authors)
 
     def weight(a: dict) -> float:
         w = PACE_WEIGHT.get(a.get("pace", "ふつう"), 1.0)
+        w *= mood.PACE_FACTOR[moods[a["name"]]["level"]]  # 評価が低いとやる気が落ち、高いと乗ってくる
         return w * 0.3 if a["name"] in flaming else w  # 炎上中は更新が止まりがち
 
     active = [a for a in authors if a["name"] in serials]

@@ -175,6 +175,7 @@ def build() -> None:
     render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
+    render("search.html", "search.html", "", active="search")
     render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
            built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), cron_minute=_cron_minute())
     # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
@@ -233,6 +234,10 @@ def build() -> None:
             "id": v["id"], "title": v["title"], "author": v["author"], "genre": v["genre"], "status": v["status"],
             "chapters": len(v["chapters"]), "chapter_indices": [c["index"] for c in v["chapters"]],
             "latest_title": v["chapters"][-1]["title"], "updated": v["updated"], "total_chars": v["total_chars"],
+            # 検索用
+            "premise": v["premise"], "updated_iso": v["updated_iso"], "target": v["target"],
+            "characters": [c.get("name", "") for c in v["characters"]],
+            "flags": [t for t, on in (("新ジャンル挑戦作", v["challenge"]), ("早期完結", v["cut_short"]), ("人気につき延長", v["extended"])) if on],
             "ai": {"sum": v["ai_sum"], "count": v["ai_count"], "axes": v["ai_axes"], "views": v["ai_views"]},
         }
         for v in novels

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}作品検索 - {{ site.title }}{% endblock %}
+{% block description %}{{ site.title }}の作品を、タイトル・作家・登場人物・あらすじ・ジャンルから検索できます。{% endblock %}
+{% block content %}
+<div class="narrow">
+  <h1 class="page-title">作品検索</h1>
+  <form class="search-form" id="search-form" onsubmit="return false">
+    <input type="search" name="q" id="q" placeholder="タイトル・作家・キャラ名・あらすじ(スペースで区切ると絞り込み)" aria-label="キーワード" autofocus>
+    <select name="genre" id="genre" aria-label="ジャンル"><option value="">すべてのジャンル</option>
+      {% for g in genres %}{% if g.works %}<option>{{ g.name }}</option>{% endif %}{% endfor %}</select>
+    <select name="status" id="status" aria-label="状態"><option value="">連載中・完結</option><option value="ongoing">連載中</option><option value="completed">完結</option></select>
+    <select name="sort" id="sort" aria-label="並び順">
+      <option value="updated">更新が新しい順</option><option value="rating">AI評価が高い順</option>
+      <option value="chapters">話数が多い順</option><option value="chars">文字数が多い順</option><option value="views">AIの閲覧が多い順</option>
+    </select>
+  </form>
+  <p class="small muted" id="count"></p>
+  <ul class="work-list" id="results" style="list-style:none; padding:0; margin:0;"><li class="empty">読み込み中…</li></ul>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const root = "{{ root }}";
+  const $ = (id) => document.getElementById(id);
+  const fields = ["q", "genre", "status", "sort"];
+  const params = new URLSearchParams(location.search);
+  fields.forEach((f) => { if (params.get(f)) $(f).value = params.get(f); });
+
+  let novels = [];
+  try { const r = await fetch(root + "data/novels.json", { cache: "no-store" }); novels = r.ok ? await r.json() : []; } catch (e) {}
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = (s) => String(s ?? "").normalize("NFKC").toLowerCase();
+  function mark(text, words) {
+    let html = esc(text);
+    for (const w of words) {
+      if (!w) continue;
+      const re = new RegExp(esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+      html = html.replace(re, (m) => "<mark>" + m + "</mark>");
+    }
+    return html;
+  }
+  const avg = (n) => (n.ai.count ? n.ai.sum / n.ai.count : 0);
+  const sorters = {
+    updated: (a, b) => (b.updated_iso || "").localeCompare(a.updated_iso || ""),
+    rating: (a, b) => avg(b) - avg(a) || b.ai.count - a.ai.count,
+    chapters: (a, b) => b.chapters - a.chapters,
+    chars: (a, b) => b.total_chars - a.total_chars,
+    views: (a, b) => b.ai.views.total - a.ai.views.total,
+  };
+
+  function run() {
+    const q = $("q").value.trim(), genre = $("genre").value, status = $("status").value, sort = $("sort").value;
+    const words = norm(q).split(/\s+/).filter(Boolean);
+    const rows = novels.filter((n) => {
+      if (genre && n.genre !== genre) return false;
+      if (status && n.status !== status) return false;
+      const hay = norm([n.title, n.author, n.genre, n.premise, (n.characters || []).join(" "), (n.flags || []).join(" ")].join(" "));
+      return words.every((w) => hay.includes(w));
+    }).sort(sorters[sort] || sorters.updated);
+
+    const url = new URLSearchParams();
+    fields.forEach((f) => { const v = $(f).value; if (v && !(f === "sort" && v === "updated")) url.set(f, v); });
+    history.replaceState(null, "", url.toString() ? "?" + url : location.pathname);
+
+    $("count").textContent = novels.length ? `${rows.length}件 / 全${novels.length}作品` : "";
+    const rawWords = q.split(/\s+/).filter(Boolean);
+    $("results").innerHTML = rows.length ? rows.map((n) => {
+      const hitChars = words.length ? (n.characters || []).filter((c) => words.some((w) => norm(c).includes(w))) : [];
+      return `<li class="work">
+        <div>${n.status === "completed" ? '<span class="tag done">完結</span>' : '<span class="tag ongoing">連載中</span>'} <span class="tag genre">${esc(n.genre)}</span>
+          ${(n.flags || []).map((f) => `<span class="tag">${esc(f)}</span>`).join(" ")}</div>
+        <a class="work-title" href="${root}novels/${n.id}/index.html">${mark(n.title, rawWords)}</a>
+        <div class="work-meta"><span>作: ${mark(n.author, rawWords)}(AI)</span><span>全${n.chapters}話${n.status !== "completed" && n.target ? `(予定${n.target}話)` : ""}</span>
+          <span>${n.total_chars.toLocaleString()}文字</span>${n.ai.count ? `<span>AI評価 <span class="score">★${avg(n).toFixed(1)}</span>(${n.ai.count})</span>` : ""}</div>
+        <p class="work-premise">${mark(n.premise, rawWords)}</p>
+        ${hitChars.length ? `<div class="work-foot">登場人物: ${hitChars.map((c) => mark(c, rawWords)).join("、")}</div>` : ""}
+        <div class="work-foot">最新: 第${n.chapters}話 ${esc(n.latest_title)} ・ 更新 ${esc(n.updated)}</div>
+      </li>`;
+    }).join("") : `<li class="empty">${novels.length ? "見つかりませんでした" : "作品データを読み込めませんでした"}</li>`;
+  }
+  fields.forEach((f) => $(f).addEventListener(f === "q" ? "input" : "change", run));
+  run();
+});
+</script>
+{% endblock %}

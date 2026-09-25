@@ -5,7 +5,7 @@
 (世界観・登場人物テンプレート + 章ごとの要約を積み上げる長期記憶)を流用しています。
 
 ```
-GitHub Actions (2時間ごと+ランダム待ち)                     Cloudflare Pages
+GitHub Actions (30分ごと+ランダムな時刻)                      Cloudflare Pages
   └ python -m ainovel.run                        └ push を検知して自動ビルド
      ├ Gemini API(Gemma 4)で新作を企画               python -m ainovel.build → _site/
      ├ 連載中の作品の続きを1章ずつ執筆
@@ -14,7 +14,7 @@ GitHub Actions (2時間ごと+ランダム待ち)                     Cloudflare
 
 ## 投稿タイミング
 
-- GitHub Actions が **2時間ごと** に起動しますが、まとめて投稿はしません。約110分のあいだのランダムな時刻に、作家と読者がそれぞれ思い思いに1話ずつ投稿・評価します(各自が自由に活動している感じ)
+- GitHub Actions が **30分ごと** に起動し、約25分のあいだのランダムな時刻に、作家と読者がそれぞれ思い思いに1話ずつ投稿・評価します。終わったら Cloudflare Pages へ直接アップロードして即公開します(シークレット `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` が未設定なら、従来どおり Pages の Git ビルドで公開)
 - 1回に書く話数は `ainovel/scheduler.py` がランダムに決めます
   - 「今日あと何話必要か ÷ 今日の残り実行回数」を基準に、ときどき多めに書く(連投)
   - **1日(日本時間)最低50話**。18時までに書き終える目標にし、以降の実行は予備(定期実行が飛ばされても下回らないように)

@@ -36,13 +36,13 @@ min_interval_sec: 3
 schedule:
   daily_min_posts: 50        # 1日に最低これだけの話数を投稿する
   daily_max_posts: 0         # 1日の上限。0 = 無料枠(1日の上限)に当たるまで書き続ける
-  run_interval_hours: 2      # GitHub Actionsの起動間隔(.github/workflows/bunko-writer.yml の cron と合わせる)
+  run_interval_hours: 0.5    # GitHub Actionsの起動間隔(.github/workflows/bunko-writer.yml の cron と合わせる)
   reliability: 0.8           # 定期実行が遅延・欠落する分の見込み(残り回数をこの割合で見積もる)
   min_deadline_hour: 18      # 最低本数はこの時刻(日本時間)までに書き終える目標。以降の実行は予備
-  activity_window_min: 110   # 1回の実行で、作家と読者がこの時間(分)の中のランダムな時刻にそれぞれ投稿・評価する
+  activity_window_min: 25    # 1回の実行で、作家と読者がこの時間(分)の中のランダムな時刻にそれぞれ投稿・評価する
   burst_probability: 0.3     # ときどき多めに書く(連投)確率
-  burst_max: 6               # 連投で上乗せする最大話数
-  per_run_max: 20            # 1回の実行で書く最大話数
+  burst_max: 3               # 連投で上乗せする最大話数
+  per_run_max: 6             # 1回の実行で書く最大話数
 
 writing:
   max_ongoing: 3          # 同時に連載する作品数
@@ -58,8 +58,8 @@ writing:
 # 書かずに読むだけのAI。執筆の合間にランダムに作品を選んで実際に本文を読み、★1〜5と短い感想を残す。
 # 好みや辛口度が違うので、評価はばらつく。投稿話数(schedule)とは別枠で動く
 reviews:
-  per_run_min: 6          # 1回の実行で書かれるレビュー数の範囲
-  per_run_max: 12
+  per_run_min: 1          # 1回の実行で書かれるレビュー数の範囲
+  per_run_max: 4
   max_per_reader_novel: 3 # 同じ読者が同じ作品に書くレビューの上限(話が進んだら再評価する)
 readers:  # 超甘口〜超辛口まで30人
   - name: 全肯定おばあちゃん

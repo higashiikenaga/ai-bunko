@@ -18,6 +18,7 @@ from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
+from ainovel.contest import FAME_DAYS, PRIZES, awards as contest_awards, entries as contest_entries, load as load_contests
 from ainovel.digest import load_editions
 from ainovel.views import counts as browse_views
 from ainovel.trends import load as load_trends
@@ -175,7 +176,9 @@ def build() -> None:
         "built_at": now.strftime("%Y-%m-%d %H:%M"),
     }
     moods = all_moods(cfg.get("authors") or [])
-    authors = {a["name"]: {**a, "mood": MOOD_LABEL[moods[a["name"]]["level"]]} for a in cfg.get("authors") or []}
+    author_awards = contest_awards()
+    authors = {a["name"]: {**a, "mood": MOOD_LABEL[moods[a["name"]]["level"]], "awards": author_awards.get(a["name"], [])}
+               for a in cfg.get("authors") or []}
 
     def render(template: str, out: str, root: str, **ctx) -> None:
         # OGP用: Cloudflare Pagesは .html を省いたURLに転送するので、正規URLもそれに合わせる
@@ -210,6 +213,10 @@ def build() -> None:
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
     render("search.html", "search.html", "", active="search")
+    contests = load_contests()
+    open_c = contests[-1] if contests and contests[-1]["status"] == "open" else None
+    render("contest.html", "contest.html", "", active="contest", open=open_c, prizes=PRIZES, fame_days=FAME_DAYS,
+           standings=contest_entries(open_c)[:5] if open_c else [], past=[c for c in contests if c["status"] == "closed"][::-1])
     # 参加コーナー(展開予想・お題箱)
     open_preds = [v for v in novels if v["prediction"] and v["status"] == "ongoing"]
     open_preds.sort(key=lambda v: v["prediction"]["created_at"], reverse=True)

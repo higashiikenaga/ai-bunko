@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import digest, images, inspiration, mood, odai, predict, sns, special, trends, views
+from ainovel import contest, digest, images, inspiration, mood, odai, predict, sns, special, trends, views
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -288,6 +288,7 @@ def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None
     def weight(a: dict) -> float:
         w = PACE_WEIGHT.get(a.get("pace", "ふつう"), 1.0)
         w *= mood.PACE_FACTOR[moods[a["name"]]["level"]]  # 評価が低いとやる気が落ち、高いと乗ってくる
+        w *= contest.fame(a["name"])  # コンテストで受賞した作家は、しばらく勢いに乗る
         return w * 0.3 if a["name"] in flaming else w  # 炎上中は更新が止まりがち
 
     active = [a for a in authors if a["name"] in serials]
@@ -388,6 +389,7 @@ def main(argv: list[str] | None = None) -> int:
     # 今回の執筆・レビューをばらばらの順に並べ、実行時間内のランダムな時刻に1件ずつ行う。
     events = ["post"] * max(0, target) + ["review"] * review_target + ["sns"] * sns_target + ["react"] * react_target + ["browse"] * ((browse_target + 9) // 10)
     events += ["digest"] if digest.due() and sns_target else []  # AI広場の記者が数時間おきに記事を書く
+    events += ["contest"]  # コンテストの開催・審査(ふだんは何もしない)
     events += ["trends"] if trends.due() else []  # 文学トレンド分析AIが半日おきにブームを判定する
     im = cfg.get("images") or {}
     if images.enabled(cfg):  # 表紙・挿絵(Cloudflare Workers AI の無料枠)
@@ -431,6 +433,8 @@ def main(argv: list[str] | None = None) -> int:
                     reviewed += bool(write_review(llm_for(llm, cfg, "review"), cfg))
                 elif event == "digest":
                     digest.write_digest(llm_for(llm, cfg, "sns"), cfg)
+                elif event == "contest":
+                    contest.step(llm_for(llm, cfg, "sns"), cfg)
                 elif event == "trends":
                     trends.analyze(llm_for(llm, cfg, "sns"))
                 elif event == "image":

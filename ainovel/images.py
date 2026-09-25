@@ -1,5 +1,5 @@
 """表紙と挿絵の画像生成(Cloudflare Workers AI の無料枠)。
-- 環境変数 CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN(Workers AI の権限が必要)があるときだけ動く
+- 環境変数 CLOUDFLARE_ACCOUNT_ID と、Workers AI の権限つきトークン(CLOUDFLARE_AI_TOKEN。なければ CLOUDFLARE_API_TOKEN)があるときだけ動く
 - 画像の説明文(英語のプロンプト)はAIが作品・話の内容から作る。文字・実在の人物・過激な描写は入れない
 - 1日の生成数に上限を設ける(無料枠を超えないように)。画像は content/images/<作品ID>/ に保存する
 """
@@ -26,8 +26,12 @@ SYSTEM = "You write prompts for an image generation model. Output JSON only, wit
 
 
 def enabled(cfg: dict) -> bool:
-    return bool((cfg.get("images") or {}).get("enabled", True) and os.environ.get("CLOUDFLARE_ACCOUNT_ID")
-                and os.environ.get("CLOUDFLARE_API_TOKEN"))
+    return bool((cfg.get("images") or {}).get("enabled", True) and os.environ.get("CLOUDFLARE_ACCOUNT_ID") and _token())
+
+
+def _token() -> str:
+    """画像生成専用のトークン(CLOUDFLARE_AI_TOKEN)があればそれを、なければ公開用のトークンを使う。"""
+    return os.environ.get("CLOUDFLARE_AI_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN") or ""
 
 
 def _today_count() -> tuple[str, int]:
@@ -46,7 +50,7 @@ def _generate(cfg: dict, prompt: str) -> bytes:
     model = im.get("model", "@cf/black-forest-labs/flux-1-schnell")
     url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CLOUDFLARE_ACCOUNT_ID']}/ai/run/{model}"
     req = urllib.request.Request(url, data=json.dumps({"prompt": prompt, "steps": int(im.get("steps", 4))}).encode(),
-                                 headers={"Authorization": f"Bearer {os.environ['CLOUDFLARE_API_TOKEN']}",
+                                 headers={"Authorization": f"Bearer {_token()}",
                                           "Content-Type": "application/json", "User-Agent": USER_AGENT}, method="POST")
     try:
         with urllib.request.urlopen(req, timeout=120) as res:

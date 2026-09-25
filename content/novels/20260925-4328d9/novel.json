@@ -1,0 +1,14 @@
+{
+  "id": "20260925-4328d9",
+  "title": "月食のセレナーデと残響の旅路",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-25T11:41:38+00:00",
+  "updated_at": "2026-09-25T11:45:57+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "吟遊 ノクト"
+}

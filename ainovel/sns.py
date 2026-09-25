@@ -19,6 +19,8 @@ SNS_PATH = ROOT / "content" / "sns.json"
 MAX_POSTS = 3000  # これより古い投稿は捨てる
 
 ROLE_LABEL = {"author": "AI作家", "rom": "ROM専AI", "critic": "評価AI"}
+# 作家の気分や出来事による書き込み(掲示板にラベル表示)
+KIND_LABEL = {"slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言"}
 
 SNS_SYSTEM = (
     "あなたは小説投稿サイトの掲示板に書き込むAIです。与えられた人物になりきり、SNSらしい自然な口語で短く書きます。"
@@ -103,6 +105,12 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
     if not novels or not (roms or critics):
         return None
     buzz = mention_counts(posts)
+    # 早期完結・新ジャンル挑戦などの出来事は、作者がまず報告する
+    by_name = {a["name"]: a for a in authors}
+    for n in novels:
+        if n.meta.get("announce") in ("cut", "challenge") and n.meta.get("author") in by_name:
+            return {"kind": f"announce_{n.meta['announce']}", "role": "author", "who": by_name[n.meta["author"]],
+                    "novel": n, "clear": True}
     kinds = {"promo": 2, "buzz": 3, "opinion": 3, "reply": 5 if posts else 0}
     kind = rng.choices(list(kinds), weights=list(kinds.values()))[0]
 
@@ -146,7 +154,13 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
         candidates = [n for n in novels if n.meta.get("author") in mine]
         if candidates:
             novel = max(candidates, key=lambda n: n.meta.get("updated_at", "")) if rng.random() < 0.5 else rng.choice(candidates)
-            return {"kind": "promo", "role": "author", "who": mine[novel.meta["author"]], "novel": novel}
+            who = mine[novel.meta["author"]]
+            # やる気しだいで書き込みが変わる: スランプなら弱音・自虐、絶好調なら調子に乗る
+            from ainovel.mood import author_mood
+
+            level = author_mood(who["name"])["level"]
+            kind = "slump" if level == "down" and rng.random() < 0.65 else "roll" if level == "up" and rng.random() < 0.6 else "promo"
+            return {"kind": kind, "role": "author", "who": who, "novel": novel}
     if kind == "opinion" and critics:
         who = rng.choice(critics)
         reviewed = [n for n in novels if any(r["reader"] == who["name"] for r in load_reviews(n))]
@@ -159,6 +173,14 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 
 INSTRUCTIONS = {
     "promo": "自分の作品を宣伝する投稿、または執筆の近況をつぶやいてください。押しつけがましすぎず、読みたくなるように。",
+    "slump": "最近、自作の評価が伸びず落ち込んでいます。弱音、自虐、スランプの愚痴、「しばらく充電します」「別のジャンルも書いてみようかな」といった迷いなど、"
+             "今の気分を正直につぶやいてください。読者を責めたりはしない。",
+    "roll": "最近、自作の評価が高くて絶好調です。読者への感謝、うれしさ、ちょっと調子に乗った発言、次の展開や次回作への意気込みなどを、"
+            "今の気分のままつぶやいてください。",
+    "announce_cut": "評価が伸びなかったため、この作品を予定より早く完結させることにしました(または完結させました)。そのことを読者に報告してください。"
+                    "悔しさ、反省、読んでくれた人への感謝、次への意気込みなど、あなたらしい言葉で。",
+    "announce_challenge": "スランプを抜け出すため、得意ジャンルの外に挑戦する新作を始めました。その挑戦を宣言してください。"
+                          "不安や意気込み、新しいジャンルへのワクワクなど、あなたらしい言葉で。",
     "buzz": "この作品を読んだ(流し読みした)ROM専として、ほかの読者に広めるような口コミをつぶやいてください。"
             "おすすめでも、気になった点でも、正直な印象でかまいません。",
     "opinion": "この作品について、あなたの評価の立場からはっきり意見を述べてください。好みや辛口度に正直に。",
@@ -198,6 +220,14 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
     else:
         fmt = '{"text": "投稿の本文"}'
         instruction = INSTRUCTIONS["flame_reply" if flame else plan["kind"]]
+        target_kind = (plan.get("reply_to") or {}).get("kind", "")
+        if plan["kind"] == "reply" and target_kind in KIND_LABEL:
+            instruction += {
+                "slump": "相手の作家は落ち込んでいます。励ます、厳しく背中を押す、共感する、茶化すなど、あなたらしく。",
+                "roll": "相手の作家は絶好調で少し調子に乗っています。祝う、便乗する、釘を刺すなど、あなたらしく。",
+                "announce_cut": "作品が早期完結したという作者の報告です。ねぎらう、惜しむ、納得する、辛口に総括するなど、あなたらしく。",
+                "announce_challenge": "作者が新ジャンルへの挑戦を宣言しました。応援する、期待する、不安視するなど、あなたらしく。",
+            }[target_kind]
     parts.append(f"# 指示\n{instruction}\n"
                  "20〜140文字。絵文字やハッシュタグは使ってもよいが控えめに。作品の結末を断定するネタバレはしない。\n\n"
                  + fmt)
@@ -246,6 +276,9 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     posts = load_posts()
     posts.append(post)
     save_posts(posts)
+    if plan.get("clear") and novel:
+        novel.meta.pop("announce", None)  # 報告済み
+        novel.save_meta()
     print(f"  「{text[:40]}…」")
     return True
 

@@ -23,6 +23,7 @@
         <span class="sns-role role-{{ p.role }}">{{ roles.get(p.role, p.role) }}{% if p.strictness %}・{{ p.strictness }}{% endif %}</span>
         {% if p.stance %}<span class="sns-role stance-{{ 'agree' if p.stance in ('納得', '謝罪') else 'rebut' }}">作者が{{ p.stance }}</span>{% endif %}
         {% if p.flame %}<span class="sns-flame">🔥火種</span>{% endif %}
+        {% if kinds.get(p.kind) %}<span class="sns-role kind-{{ p.kind }}">{{ kinds[p.kind] }}</span>{% endif %}
         <span class="muted xsmall" style="margin-left:auto;">{{ p.created_at|datetime }}</span>
       </div>
       <div class="sns-text">{{ p.text }}</div>

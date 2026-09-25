@@ -117,6 +117,7 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
         novel.meta["author"] = author["name"]
     if challenge:
         novel.meta["challenge"] = True  # 得意ジャンル外への挑戦作
+        novel.meta["announce"] = "challenge"  # AI広場で作者が宣言する
     novel.save_meta()
     print(f"  予定: 全{target}章  → {novel.id}")
     return novel

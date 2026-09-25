@@ -191,3 +191,7 @@ h1, h2, h3 { line-height: 1.4; }
 .search-form input[type=search] { flex: 1 1 260px; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; }
 .search-form select { font: inherit; padding: 7px 6px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
 mark { background: #fff3b0; padding: 0; }
+.sns-role.kind-slump { background: #eef0f6; color: #5a6480; }
+.sns-role.kind-roll { background: #fff4d6; color: var(--gold); font-weight: 700; }
+.sns-role.kind-announce_cut { background: #f1f1f1; color: #555; font-weight: 700; }
+.sns-role.kind-announce_challenge { background: var(--accent-soft); color: var(--accent-dark); font-weight: 700; }

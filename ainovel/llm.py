@@ -112,6 +112,7 @@ class GeminiLLM(BaseLLM):
         super().__init__(min_interval, tpm_limit)
         self.api_key = api_key
         self.models = models
+        self._exhausted: set[str] = set()  # 1日の無料枠を使い切ったモデル(今回の実行ではもう使わない)
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         est = _estimate_tokens(system, user, max_tokens)
@@ -123,6 +124,8 @@ class GeminiLLM(BaseLLM):
         errors = []
         # 全モデルが5xxだったときだけ、少し待ってもう一巡する
         for model in self.models + self.models:
+            if model in self._exhausted:
+                continue
             if len(errors) == len(self.models):
                 if not all(e.startswith("5xx ") for e in errors):
                     break
@@ -135,8 +138,13 @@ class GeminiLLM(BaseLLM):
                     )
                 )
             except LLMError as e:
-                if e.daily_quota and model == self.models[-1]:
-                    raise
+                if e.daily_quota:
+                    # モデルごとに1日の枠は別。全モデルを使い切ったときだけ「今日はもう書けない」とする
+                    self._exhausted.add(model)
+                    if self._exhausted >= set(self.models):
+                        raise
+                    print(f"  ({model} は本日の無料枠を使い切ったため、以降は他のモデルを使います)")
+                    continue
                 errors.append(f"{'5xx ' if e.server_error else ''}{model}: {e}")
                 continue
             self._record(int((data.get("usageMetadata") or {}).get("totalTokenCount") or est))
@@ -184,8 +192,13 @@ class OpenAICompatLLM(BaseLLM):
                 )
                 text = data["choices"][0]["message"]["content"] or ""
             except LLMError as e:
-                if e.daily_quota and model == self.models[-1]:
-                    raise
+                if e.daily_quota:
+                    # モデルごとに1日の枠は別。全モデルを使い切ったときだけ「今日はもう書けない」とする
+                    self._exhausted.add(model)
+                    if self._exhausted >= set(self.models):
+                        raise
+                    print(f"  ({model} は本日の無料枠を使い切ったため、以降は他のモデルを使います)")
+                    continue
                 errors.append(f"{model}: {e}")
                 continue
             except (KeyError, IndexError) as e:

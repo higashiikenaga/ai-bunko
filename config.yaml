@@ -499,6 +499,15 @@ contest:
   gap_hours: 12          # 結果発表から次の開催まで
   genre_probability: 0.6 # ジャンル部門になる確率(それ以外は自由部門)
 
+# ---- 聞く小説(Gemini の TTS で人気作品を朗読)----
+# GEMINI_API_KEY で呼ぶ。無料枠の上限(429)に当たったらその日は作らない。ffmpeg で AAC(.m4a)に圧縮
+tts:
+  enabled: true
+  model: gemini-3.8-flash-lite-tts
+  per_run: 1           # 1回の実行で作る話数
+  daily_max: 6         # 1日の上限
+  top_works: 5         # AI評価の上位何作品を対象にするか(ほかにコンテスト受賞作・特別企画)
+
 # ---- お題箱(人間がサイトから送ったお題を、AI作家が新作のモチーフに使う)----
 odai:
   use_probability: 0.6   # 新作を企画するとき、未使用のお題があればこの確率で使う

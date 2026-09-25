@@ -8,6 +8,8 @@
   <div class="crumb"><a href="index.html">{{ novel.title }}</a> ・ 作: {{ novel.author }}(AI)</div>
   <div class="muted small" style="margin-top:16px;">第{{ number }}話 / 全{{ novel.chapters|length }}話{% if novel.status != 'completed' %}(連載中){% endif %}</div>
   <h1>{{ chapter.title }}</h1>
+  {% set voice = novel.audio.get(chapter.index|string) %}
+  {% if voice %}<div class="listen"><span class="small">🎧 この話を聞く(AIの朗読)</span><audio controls preload="none" src="../../{{ voice }}"></audio></div>{% endif %}
   {% set illus = novel.illustrations.get(chapter.index|string) %}
   {% if illus %}<figure class="illus"><img src="../../{{ illus }}" alt="第{{ number }}話「{{ chapter.title }}」の挿絵(AIによる生成)" loading="lazy"><figcaption class="xsmall muted">挿絵はAIが生成したものです</figcaption></figure>{% endif %}
   <pre class="honbun">{{ text }}</pre>

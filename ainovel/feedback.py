@@ -103,7 +103,7 @@ def maybe_extend(novel: Novel, s: dict | None, index: int, cfg: dict) -> bool:
     """人気作なら、完結の2話前の時点で予定話数を延ばす(1作品1回)。延ばしたら True。"""
     fb = cfg.get("feedback") or {}
     total = int(novel.meta["target_chapters"])
-    if not s or novel.meta.get("extended") or index != total - 1:
+    if not s or novel.meta.get("extended") or novel.meta.get("special") or index != total - 1:
         return False
     if s["count"] < int(fb.get("extend_min_ratings", 3)) or (s["avg"] or 0) < float(fb.get("extend_min_avg", 4.0)):
         return False

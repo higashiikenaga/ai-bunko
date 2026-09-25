@@ -97,6 +97,7 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
         "extended": n.meta.get("extended"),
         "cut_short": n.meta.get("cut_short"),
+        "special": n.meta.get("special"),
         "challenge": n.meta.get("challenge"),
     }
 
@@ -127,6 +128,16 @@ def build() -> None:
             rom_views.setdefault(p["novel"], []).append(_fmt_date(p["created_at"]))
     novels = [_novel_view(n, now, rom_views.get(n.id)) for n in all_novels() if n.chapters and n.meta.get("status") != "abandoned"]
     novels.sort(key=lambda v: v["updated_iso"], reverse=True)
+    # 特別企画のシリーズ(第1部・第2部…)をつなぐ
+    series: dict[str, list] = {}
+    for v in novels:
+        if v["special"]:
+            series.setdefault(v["special"]["id"], []).append(v)
+    for parts in series.values():
+        parts.sort(key=lambda v: v["special"]["part"])
+        for v in parts:
+            v["series"] = parts
+    specials = [parts for parts in series.values()]
     ongoing = [v for v in novels if v["status"] == "ongoing"]
     completed = [v for v in novels if v["status"] == "completed"]
 
@@ -174,7 +185,7 @@ def build() -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
 
-    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates,
+    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates, specials=specials,
            news=load_editions()[-1:] , hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")

@@ -51,7 +51,7 @@ def maybe_cut_short(novel: Novel, index: int, rng: random.Random | None = None) 
     """評価があまりに低い連載を、作者の判断で次の話で畳む(1作品1回)。畳んだら True。"""
     rng = rng or random.Random()
     total = int(novel.meta["target_chapters"])
-    if novel.meta.get("cut_short") or novel.meta.get("extended") or index >= total or index < 3:
+    if novel.meta.get("cut_short") or novel.meta.get("extended") or novel.meta.get("special") or index >= total or index < 3:
         return False
     reviews = load_reviews(novel)[-RECENT:]
     if len(reviews) < CUT_MIN_REVIEWS:

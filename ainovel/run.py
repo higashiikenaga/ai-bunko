@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import digest, mood, sns
+from ainovel import digest, mood, sns, special
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -52,7 +52,7 @@ def chat_json(llm: BaseLLM, user: str, max_tokens: int, temperature: float, atte
 
 
 def choose_author(cfg: dict, genre: str) -> dict | None:
-    authors = cfg.get("authors") or []
+    authors = [a for a in cfg.get("authors") or [] if not a.get("official")]  # 公式(特別企画)の作家は除く
     if not authors:
         return None
     fits = [a for a in authors if genre in (a.get("genres") or [])]
@@ -169,7 +169,7 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     print(f"■ 執筆: 『{novel.meta['title']}』 第{index}章 / 全{total}章")
 
     world = novel.world
-    target_chars = int(w["chapter_chars"])
+    target_chars = int(world.get("chapter_chars") or w["chapter_chars"])  # 特別企画は作品ごとに指定
     system = prompts.system_prompt(world, author_of(novel, cfg))
     user = prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
                                   index, total, target_chars, feedback.prompt_block(reaction) + sns.debate_block(novel))
@@ -242,12 +242,16 @@ def _flaming_authors() -> set[str]:
 def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None]:
     """次に書く作家と作品を決める。サイト全体の連載枠はなく、作家ごとのペース・連載数上限・気まぐれで決まる。
     戻り値: (write, 作品, 作家) / (create, None, 作家) / (none, None, None)"""
-    ongoing = [n for n in all_novels() if n.is_ongoing and n.id not in skip]
+    # 特別企画(運営の設定をもとにAIが書くシリーズ)は、通常の作家とは別枠で一定間隔ごとに更新する
+    sp = special.due_novel(skip)
+    if sp:
+        return "write", sp, None
+    ongoing = [n for n in all_novels() if n.is_ongoing and n.id not in skip and not special.is_special(n)]
     # 企画だけして第1話がまだの作品は最優先で書く
     empty = [n for n in ongoing if not n.chapters]
     if empty:
         return "write", empty[0], None
-    authors = cfg.get("authors") or []
+    authors = [a for a in cfg.get("authors") or [] if not a.get("official")]
     if not authors:  # 作家設定がない場合は、いちばん更新が古い作品か新作
         if ongoing and random.random() > float(cfg["writing"].get("new_work_probability", 0.35)):
             return "write", min(ongoing, key=lambda n: n.meta["updated_at"]), None

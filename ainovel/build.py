@@ -17,7 +17,7 @@ from ainovel.ogp import OGP_DIR
 from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
-from ainovel.sns import ROLE_LABEL, load_posts
+from ainovel.sns import ROLE_LABEL, is_flaming, load_posts, thread_heat
 
 
 def _parse(iso: str) -> datetime | None:
@@ -178,12 +178,21 @@ def build() -> None:
     for p in posts:
         if p.get("root"):
             children.setdefault(p["root"], []).append(p)
+    def last_activity(t: dict) -> str:
+        items = [t["post"], *t["replies"]]
+        return max([p["created_at"] for p in items] + [r["at"] for p in items for r in p.get("reposts") or []])
+
     threads = [
-        {"post": p, "replies": children.get(p["id"], [])}
+        {"post": p, "replies": children.get(p["id"], []), "flame": is_flaming(posts, p["id"]), "heat": thread_heat(posts, p["id"])}
         for p in posts if not p.get("root")
     ]
-    threads.sort(key=lambda t: (t["replies"][-1] if t["replies"] else t["post"])["created_at"], reverse=True)
-    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], roles=ROLE_LABEL, post_count=len(posts))
+    for t in threads:
+        t["last"] = last_activity(t)
+    threads.sort(key=lambda t: t["last"], reverse=True)
+    day_ago = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat(timespec="seconds")
+    trending = sorted((t for t in threads if t["last"] >= day_ago and t["heat"] >= 3), key=lambda t: -t["heat"])[:5]
+    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL,
+           post_count=len(posts))
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)

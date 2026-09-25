@@ -293,13 +293,14 @@ def main(argv: list[str] | None = None) -> int:
     review_target = random.randint(int(rv.get("per_run_min", 0)), int(rv.get("per_run_max", 0))) if cfg.get("readers") else 0
     sn = cfg.get("sns") or {}
     sns_target = random.randint(int(sn.get("per_run_min", 0)), int(sn.get("per_run_max", 0)))
+    react_target = random.randint(int(sn.get("reactions_min", 0)), int(sn.get("reactions_max", 0)))
     print(f"本日 {state.data['date']}: 投稿済み {state.posts}話 / 最低 {sched['daily_min_posts']}話 → 今回 {target}話・レビュー{review_target}件・AI広場{sns_target}件")
     if target <= 0 and review_target <= 0 and sns_target <= 0:
         return 0
 
     # 定期実行でまとめて書くのではなく、作家と読者がそれぞれ好きなときに書いている様子を再現する。
     # 今回の執筆・レビューをばらばらの順に並べ、実行時間内のランダムな時刻に1件ずつ行う。
-    events = ["post"] * max(0, target) + ["review"] * review_target + ["sns"] * sns_target
+    events = ["post"] * max(0, target) + ["review"] * review_target + ["sns"] * sns_target + ["react"] * react_target
     random.shuffle(events)
     window = 0 if args.no_delay else activity_window_seconds(sched, state)
     times = sorted(random.uniform(0, window) for _ in events)
@@ -316,6 +317,9 @@ def main(argv: list[str] | None = None) -> int:
         wait = at - (time.time() - run_start)
         if wait > 0:
             time.sleep(wait)
+        if event == "react":
+            sns.react(cfg)  # いいね・リポスト(APIは使わない)
+            continue
         if event == "post":
             if stop_posts:
                 continue

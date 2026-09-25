@@ -75,6 +75,17 @@ def _thread(posts: list[dict], root_id: str) -> list[dict]:
     return [p for p in posts if p["id"] == root_id or p.get("root") == root_id]
 
 
+def thread_heat(posts: list[dict], root_id: str) -> float:
+    """スレッドの盛り上がり(返信・リポスト・いいね)。"""
+    t = _thread(posts, root_id)
+    return (len(t) - 1) + sum(0.5 * len(p.get("reposts") or []) + 0.2 * len(p.get("likes") or []) for p in t)
+
+
+def is_flaming(posts: list[dict], root_id: str) -> bool:
+    """作者の発言が火種になって炎上しているスレッドか。"""
+    return any(p.get("flame") for p in _thread(posts, root_id)) and thread_heat(posts, root_id) >= 2
+
+
 def _pick_novel(novels: list[Novel], rng: random.Random, buzz: dict[str, int]) -> Novel:
     weights = [1.0 + 0.3 * len(n.chapters) + buzz.get(n.id, 0) for n in novels]
     return rng.choices(novels, weights=weights)[0]
@@ -94,9 +105,14 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 
     if kind == "reply":
         recent = posts[-40:]
-        # 返信が付いている話題ほど伸びやすい(論争が続く)
-        target = rng.choices(recent, weights=[1 + 2 * sum(1 for q in posts if q.get("root") == (p.get("root") or p["id"])) for p in recent])[0]
+        # 返信が付いている話題ほど伸びやすい(論争が続く)。炎上中のスレッドには人が群がる
+        roots = {p.get("root") or p["id"] for p in recent}
+        flaming = {r for r in roots if is_flaming(posts, r)}
+        weights = [1 + 2 * sum(1 for q in posts if q.get("root") == (p.get("root") or p["id"]))
+                   + (12 if (p.get("root") or p["id"]) in flaming else 0) for p in recent]
+        target = rng.choices(recent, weights=weights)[0]
         root = target.get("root") or target["id"]
+        flame = root in flaming
         novel = Novel(target["novel"]) if target.get("novel") and (ROOT / "content" / "novels" / target["novel"]).exists() else None
         # 評価AIの意見には、辛口度の違う評価AIが噛みつきやすい。作品の作者が反応することもある
         pool: list[tuple[str, dict]] = []
@@ -110,15 +126,17 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
             author_recent = any(p["who"] == author_name for p in thread[-3:])
             heated = critics_in >= 2 and len(thread) >= 3 and not author_recent
             author = next((a for a in authors if a["name"] == author_name), None)
-            if author and author["name"] != target["who"] and rng.random() < (0.45 if heated else 0.1):
-                return {"kind": "reply", "role": "author", "who": author, "novel": novel, "reply_to": target, "root": root}
+            chance = 0.3 if flame and not author_recent else 0.45 if heated else 0.1
+            if author and author["name"] != target["who"] and rng.random() < chance:
+                return {"kind": "reply", "role": "author", "who": author, "novel": novel, "reply_to": target,
+                        "root": root, "flame": flame}
         pool += [("rom", r) for r in rng.sample(roms, min(5, len(roms)))]
         pool += [("critic", c) for c in rng.sample(critics, min(5, len(critics))) if c["name"] != target["who"]]
         pool = [(r, w) for r, w in pool if w["name"] != target["who"]]
         if not pool:
             return None
         role, who = rng.choice(pool)
-        return {"kind": "reply", "role": role, "who": who, "novel": novel, "reply_to": target, "root": root}
+        return {"kind": "reply", "role": role, "who": who, "novel": novel, "reply_to": target, "root": root, "flame": flame}
 
     if kind == "promo" and authors:
         mine = {a["name"]: a for a in authors}
@@ -146,7 +164,13 @@ INSTRUCTIONS = {
     "author_reply": "あなたはこの作品の作者です。スレッドでの賛否を読み、作者として返信してください。"
                     "指摘がもっともだと思えば素直に納得して、今後の話でどう活かすかを述べてかまいません。"
                     "意図が誤解されている・的外れだと思えば、作者としての狙いを説明して反論してかまいません。"
-                    "どちらにするかは議論の中身で決めてください。感情的になりすぎず、ネタバレはしない。",
+                    "どちらにするかは議論の中身で決めてください。ネタバレはしない。"
+                    "作家にも性格があるので、ときには言い方がきつくなったり、読者を煽るような強気の反論をしてしまってもかまいません。",
+    "flame_reply": "このスレッドは、作者の発言がきっかけで炎上しています。あなたらしく反応してください。"
+                   "便乗して批判する、作者を擁護する、双方をたしなめる、野次馬として面白がる、などは自由です。"
+                   "作品や発言への批判はかまいませんが、人格攻撃・罵倒・差別的な表現はしません。",
+    "flame_author": "あなたはこの作品の作者で、自分の発言がきっかけでスレッドが炎上しています。作者として返信してください。"
+                    "素直に謝罪する、真意を釈明する、開き直る、のどれにするかは、あなたの性格と流れで決めてください。ネタバレはしない。",
 }
 
 
@@ -161,9 +185,17 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
         lines = [f"- {p['who']}({ROLE_LABEL.get(p['role'], p['role'])}): {p['text']}" for p in thread]
         parts.append("# スレッド(古い順。最後の投稿に返信する)\n" + "\n".join(lines))
     author_reply = plan["kind"] == "reply" and plan["role"] == "author"
-    fmt = ('{"text": "投稿の本文", "stance": "納得" か "反論" か "その他", "takeaway": "納得した場合、今後の話で活かすこと(30文字以内。それ以外は空文字)"}'
-           if author_reply else '{"text": "投稿の本文"}')
-    parts.append(f"# 指示\n{INSTRUCTIONS['author_reply' if author_reply else plan['kind']]}\n"
+    flame = plan.get("flame")
+    if author_reply and flame:
+        fmt = '{"text": "投稿の本文", "stance": "謝罪" か "釈明" か "開き直り", "takeaway": "謝罪した場合、今後の話で改めること(30文字以内。それ以外は空文字)"}'
+        instruction = INSTRUCTIONS["flame_author"]
+    elif author_reply:
+        fmt = '{"text": "投稿の本文", "stance": "納得" か "反論" か "その他", "takeaway": "納得した場合、今後の話で活かすこと(30文字以内。それ以外は空文字)"}'
+        instruction = INSTRUCTIONS["author_reply"]
+    else:
+        fmt = '{"text": "投稿の本文"}'
+        instruction = INSTRUCTIONS["flame_reply" if flame else plan["kind"]]
+    parts.append(f"# 指示\n{instruction}\n"
                  "20〜140文字。絵文字やハッシュタグは使ってもよいが控えめに。作品の結末を断定するネタバレはしない。\n\n"
                  + fmt)
     return "\n\n".join(parts)
@@ -199,10 +231,15 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     if plan["kind"] == "reply":
         post["reply_to"] = plan["reply_to"]["id"]
         post["root"] = plan["root"]
-        if plan["role"] == "author" and data.get("stance") in ("納得", "反論"):
+        if plan["role"] == "author" and data.get("stance") in ("納得", "反論", "謝罪", "釈明", "開き直り"):
             post["stance"] = data["stance"]
-            if data["stance"] == "納得" and str(data.get("takeaway", "")).strip():
+            if data["stance"] in ("納得", "謝罪") and str(data.get("takeaway", "")).strip():
                 post["takeaway"] = str(data["takeaway"]).strip()[:40]
+            # 強気の反論や開き直りは、ときどき火種になって炎上する
+            spark = {"反論": 0.3, "開き直り": 0.6}.get(data["stance"], 0)
+            if not plan.get("flame") and rng.random() < spark:
+                post["flame"] = True
+                print("  🔥 この発言が火種になり、炎上し始めました")
     posts = load_posts()
     posts.append(post)
     save_posts(posts)
@@ -217,9 +254,42 @@ def debate_block(novel: Novel, recent: int = 5) -> str:
         return ""
     lines = ["", "# AI広場での議論(あなた=作者の反応)"]
     for p in mine:
-        if p["stance"] == "納得":
-            lines.append(f"- 読者の指摘に納得した: 「{p['text']}」" + (f" → 今後: {p['takeaway']}" if p.get("takeaway") else ""))
+        if p["stance"] in ("納得", "謝罪"):
+            lines.append(f"- 読者の指摘に{p['stance']}した: 「{p['text']}」" + (f" → 今後: {p['takeaway']}" if p.get("takeaway") else ""))
         else:
-            lines.append(f"- 読者の指摘に反論した: 「{p['text']}」")
+            lines.append(f"- 読者の指摘に{p['stance']}した: 「{p['text']}」")
     lines.append("納得した点は物語の流れの中で自然に活かし、反論した点は作者としての狙いを貫いてください(正典は変えない)。")
     return "\n".join(lines)
+
+
+def react(cfg: dict, rng: random.Random | None = None, count: int = 1) -> int:
+    """AIたちが「いいね」「リポスト」をする(APIは使わない)。人気の投稿・炎上中の投稿ほど集まりやすい。"""
+    rng = rng or random.Random()
+    posts = load_posts()
+    recent = posts[-80:]
+    people = ([("author", a["name"]) for a in cfg.get("authors") or []] + [("rom", r["name"]) for r in cfg.get("rom_readers") or []]
+              + [("critic", c["name"]) for c in cfg.get("readers") or []])
+    if not recent or not people:
+        return 0
+    flaming = {p.get("root") or p["id"] for p in recent if is_flaming(posts, p.get("root") or p["id"])}
+    done = 0
+    for _ in range(count):
+        weights = [1 + len(p.get("likes") or []) + 2 * len(p.get("reposts") or [])
+                   + (8 if (p.get("root") or p["id"]) in flaming else 0) for p in recent]
+        post = rng.choices(recent, weights=weights)[0]
+        role, name = rng.choice(people)
+        if name == post["who"]:
+            continue
+        # ROM専AIは見る専門なので、書き込まない代わりにいいね・リポストはよくする
+        if rng.random() < (0.25 if role == "rom" else 0.15):
+            reposts = post.setdefault("reposts", [])
+            if all(r["who"] != name for r in reposts):
+                reposts.append({"who": name, "at": now_iso()})
+                done += 1
+        else:
+            likes = post.setdefault("likes", [])
+            if name not in likes:
+                likes.append(name)
+                done += 1
+    save_posts(posts)
+    return done

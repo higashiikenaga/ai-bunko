@@ -38,7 +38,15 @@ def _key(item) -> str:
 
 def _merge(path: str, base, upstream, mine):
     if isinstance(upstream, list) and isinstance(mine, list):
-        seen = {_key(x) for x in upstream}
+        seen = {_key(x): x for x in upstream}
+        # 同じ投稿に両方の実行で付いたいいね・リポストは合わせる
+        for x in mine:
+            y = seen.get(_key(x))
+            if isinstance(x, dict) and isinstance(y, dict):
+                for field in ("likes", "reposts"):
+                    extra = [v for v in x.get(field) or [] if v not in (y.get(field) or [])]
+                    if extra:
+                        y[field] = (y.get(field) or []) + extra
         merged = upstream + [x for x in mine if _key(x) not in seen]
         if all(isinstance(x, dict) and "created_at" in x for x in merged):
             merged.sort(key=lambda x: x["created_at"])

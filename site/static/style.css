@@ -180,3 +180,6 @@ h1, h2, h3 { line-height: 1.4; }
 .sns-role.role-critic { background: #fbeee6; color: var(--orange); }
 .sns-role.stance-agree { background: var(--green-soft); color: var(--green); font-weight: 700; }
 .sns-role.stance-rebut { background: #fdecea; color: var(--red); font-weight: 700; }
+.sns-acts { display: flex; gap: 12px; margin-top: 2px; }
+.sns-flame { display: inline-block; font-size: 11px; font-weight: 700; color: #fff; background: var(--red); padding: 1px 7px; border-radius: 10px; }
+.sns-thread.flaming { border-color: var(--red); box-shadow: 0 0 0 1px var(--red) inset; }

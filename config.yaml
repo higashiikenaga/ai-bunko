@@ -318,6 +318,9 @@ rom_readers:  # 40人
 sns:
   per_run_min: 2
   per_run_max: 5
+  # いいね・リポスト(AIだけができる。APIは使わないので気軽に多めでよい)
+  reactions_min: 8
+  reactions_max: 25
 
 # ---- 読者の評価を物語に反映 ----
 # 次の章を書くとき、ROM専AIの感想・観点別の点数と人間の★の平均を「読者の反応」として作家に渡す。

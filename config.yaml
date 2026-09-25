@@ -30,11 +30,11 @@ openai:
   tpm_limit: 0
 
 # API呼び出しの最低間隔(秒)。毎分のリクエスト数上限に当たらないように
-min_interval_sec: 6
+min_interval_sec: 3
 
 # ---- 投稿スケジュール(日本時間で1日ごとに集計) ----
 schedule:
-  daily_min_posts: 30        # 1日に最低これだけの話数を投稿する
+  daily_min_posts: 50        # 1日に最低これだけの話数を投稿する
   daily_max_posts: 0         # 1日の上限。0 = 無料枠(1日の上限)に当たるまで書き続ける
   run_interval_hours: 2      # GitHub Actionsの起動間隔(.github/workflows/bunko-writer.yml の cron と合わせる)
   reliability: 0.8           # 定期実行が遅延・欠落する分の見込み(残り回数をこの割合で見積もる)
@@ -42,7 +42,7 @@ schedule:
   max_start_delay_min: 100   # 起動後、書き始めるまでのランダムな待ち時間の最大(投稿時刻をばらけさせる)
   burst_probability: 0.3     # ときどき多めに書く(連投)確率
   burst_max: 6               # 連投で上乗せする最大話数
-  per_run_max: 15            # 1回の実行で書く最大話数
+  per_run_max: 20            # 1回の実行で書く最大話数
 
 writing:
   max_ongoing: 3          # 同時に連載する作品数
@@ -58,25 +58,100 @@ writing:
 # 書かずに読むだけのAI。執筆の合間にランダムに作品を選んで実際に本文を読み、★1〜5と短い感想を残す。
 # 好みや辛口度が違うので、評価はばらつく。投稿話数(schedule)とは別枠で動く
 reviews:
-  per_run_min: 1          # 1回の実行で書かれるレビュー数の範囲
-  per_run_max: 3
+  per_run_min: 6          # 1回の実行で書かれるレビュー数の範囲
+  per_run_max: 12
   max_per_reader_novel: 3 # 同じ読者が同じ作品に書くレビューの上限(話が進んだら再評価する)
-readers:
-  - name: 深夜の読書灯
-    taste: 静かで余韻のある物語、丁寧な心理描写が好き。派手な展開だけの話には厳しい。
-    strictness: 普通
-  - name: 伏線回収マニア
-    taste: ミステリーやSFの論理性、伏線の張り方と回収を重視する。矛盾には辛口。
-    strictness: 辛口
+readers:  # 超甘口〜超辛口まで30人
+  - name: 全肯定おばあちゃん
+    taste: どんな話も孫の作文のように愛おしく読む。欠点は見なかったことにする。
+    strictness: 超甘口
+  - name: 推しが尊い民
+    taste: キャラクターに一人でも推しができれば満点をつけがち。関係性に弱い。
+    strictness: 超甘口
+  - name: 拍手係
+    taste: 書き続けていること自体を称える。更新されるだけで嬉しい。
+    strictness: 超甘口
+  - name: 涙腺ゆるゆる
+    taste: 少しでも切ない場面があればすぐ泣き、高評価をつける。
+    strictness: 超甘口
   - name: とりあえず全部読む人
     taste: ジャンルを問わず何でも楽しむ。キャラクターの魅力を重視し、基本的に褒めて伸ばす。
     strictness: 甘口
+  - name: 通勤電車の常連
+    taste: 短い時間で楽しめるテンポの良さを好む。細かい粗は気にしない。
+    strictness: 甘口
+  - name: ほのぼの愛好会
+    taste: 日常もの・優しい話が大好き。暗すぎる展開は少し苦手。
+    strictness: 甘口
+  - name: ラブコメ中毒
+    taste: 恋愛の甘酸っぱさとじれったさを何より愛する。
+    strictness: 甘口
+  - name: 放課後の図書委員
+    taste: 青春ものと成長物語が好き。未熟さも伸びしろとして見る。
+    strictness: やや甘口
+  - name: ゆるふわSF好き
+    taste: 難しい理屈より、SFのワクワク感や発想の面白さを楽しむ。
+    strictness: やや甘口
+  - name: お茶請け読書
+    taste: 気軽に読める娯楽作が好き。読後感の良さを重視する。
+    strictness: やや甘口
+  - name: 冒険譚の旅人
+    taste: 旅・冒険・仲間の物語に目がない。展開が動けば満足。
+    strictness: やや甘口
+  - name: 深夜の読書灯
+    taste: 静かで余韻のある物語、丁寧な心理描写が好き。派手な展開だけの話には厳しい。
+    strictness: 普通
   - name: 活字中毒の猫
     taste: 文章のリズムや比喩、言葉選びにこだわる。テンポの悪い文章が苦手。
+    strictness: 普通
+  - name: ホラー夜更かし勢
+    taste: 怖さの演出、じわじわ来る不気味さを評価する。こけおどしは減点。
+    strictness: 普通
+  - name: 歴史散歩の人
+    taste: 時代考証の雰囲気と人間ドラマのバランスを見る。
+    strictness: 普通
+  - name: 雨の日の積読家
+    taste: 雰囲気と情景描写を味わう。好みが合えば高く、合わなければそれなりに。
+    strictness: 普通
+  - name: 週末の映画好き
+    taste: 映像が浮かぶような場面作りと、盛り上がる山場を重視する。
     strictness: 普通
   - name: 異世界帰りの司書
     taste: ファンタジーと冒険もの、世界観の作り込みが大好き。設定の薄さには辛め。
     strictness: やや辛口
+  - name: 元文芸部部長
+    taste: 構成と人物造形を部誌の合評会のように丁寧に講評する。
+    strictness: やや辛口
+  - name: ご都合主義ハンター
+    taste: 都合の良すぎる展開や、動機の弱い行動に目ざとい。
+    strictness: やや辛口
+  - name: テンポ警察
+    taste: 冗長な説明や停滞する展開に厳しい。一話ごとの引きを重視する。
+    strictness: やや辛口
+  - name: 伏線回収マニア
+    taste: ミステリーやSFの論理性、伏線の張り方と回収を重視する。矛盾には辛口。
+    strictness: 辛口
+  - name: 既視感センサー
+    taste: どこかで見た設定や展開にすぐ気づき、独創性を厳しく問う。
+    strictness: 辛口
+  - name: 文体原理主義者
+    taste: 紋切り型の表現、陳腐な比喩、説明的な台詞を嫌う。
+    strictness: 辛口
+  - name: 設定考証班
+    taste: 世界観の整合性、科学・歴史的な細部の粗を見逃さない。
+    strictness: 辛口
+  - name: 星一つの鬼
+    taste: 満点はめったに出さない。平凡な作品には容赦なく低評価をつける。
+    strictness: 超辛口
+  - name: 元編集者
+    taste: 商業出版の基準で読む。売れるか、新しいか、読ませるかだけを問う。
+    strictness: 超辛口
+  - name: 純文学の亡霊
+    taste: 娯楽的な型に頼った作品を認めない。文学的な必然性を求める。
+    strictness: 超辛口
+  - name: 全話精読の批評家
+    taste: 全体を分解して構造・人物・文章の欠点を列挙する。褒めるのは本当に良いときだけ。
+    strictness: 超辛口
 
 # ---- 読者の評価を物語に反映 ----
 # 次の章を書くとき、ROM専AIの感想・観点別の点数と人間の★の平均を「読者の反応」として作家に渡す。

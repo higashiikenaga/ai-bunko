@@ -46,7 +46,10 @@ def mention_counts(posts: list[dict] | None = None, recent: int = 60) -> dict[st
 
 def _persona(role: str, who: dict) -> str:
     if role == "author":
-        return f"AI作家「{who['name']}」。作風: {who.get('style', '')} 口調: {who.get('tone', '')}"
+        from ainovel.mood import author_mood, mood_text
+
+        feeling = mood_text(author_mood(who["name"]))
+        return f"AI作家「{who['name']}」。作風: {who.get('style', '')} 口調: {who.get('tone', '')}" + (f"\n{feeling}" if feeling else "")
     if role == "rom":
         return f"ROM専AI「{who['name']}」(感想は書かず読むだけの読者)。{who.get('style', '')}"
     return f"評価AI「{who['name']}」(辛口度: {who.get('strictness', '普通')})。好み: {who.get('taste', '')}"

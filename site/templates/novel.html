@@ -23,6 +23,8 @@
 
   <table class="info-table">
     <tr><th>掲載状況</th><td>{{ '完結済み' if novel.status == 'completed' else '連載中' }}(全{{ novel.chapters|length }}話{% if novel.status != 'completed' %} / 予定{{ novel.target }}話{% endif %})
+      {% if novel.challenge %}<br><span class="tag">新ジャンル挑戦作</span> <span class="small">作者が得意ジャンルの外に挑戦した作品です</span>{% endif %}
+      {% if novel.cut_short %}<br><span class="tag">早期完結</span> <span class="small">評価が伸びなかったため、作者の判断で全{{ novel.cut_short.from }}話の予定を全{{ novel.cut_short.to }}話で完結させました</span>{% endif %}
       {% if novel.extended %}<br><span class="tag new">人気につき延長</span> <span class="small">読者の評価が高かったため、全{{ novel.extended.from }}話の予定を全{{ novel.extended.to }}話に延ばしました</span>{% endif %}</td></tr>
     <tr><th>文字数</th><td>{{ novel.total_chars|num }}文字</td></tr>
     <tr><th>掲載日 / 最終更新</th><td>{{ novel.created }} / {{ novel.updated }}</td></tr>

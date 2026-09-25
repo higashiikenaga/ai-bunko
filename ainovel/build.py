@@ -17,6 +17,7 @@ from ainovel.ogp import OGP_DIR
 from ainovel.paths import OUT_DIR, SITE_SRC, load_config
 from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
+from ainovel.mood import LABEL as MOOD_LABEL, all_moods
 from ainovel.sns import ROLE_LABEL, is_flaming, load_posts, thread_heat
 
 
@@ -93,6 +94,8 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         },
         "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
         "extended": n.meta.get("extended"),
+        "cut_short": n.meta.get("cut_short"),
+        "challenge": n.meta.get("challenge"),
     }
 
 
@@ -156,7 +159,8 @@ def build() -> None:
         "reviews": len(all_scores),
         "built_at": now.strftime("%Y-%m-%d %H:%M"),
     }
-    authors = {a["name"]: a for a in cfg.get("authors") or []}
+    moods = all_moods(cfg.get("authors") or [])
+    authors = {a["name"]: {**a, "mood": MOOD_LABEL[moods[a["name"]]["level"]]} for a in cfg.get("authors") or []}
 
     def render(template: str, out: str, root: str, **ctx) -> None:
         # OGP用: Cloudflare Pagesは .html を省いたURLに転送するので、正規URLもそれに合わせる

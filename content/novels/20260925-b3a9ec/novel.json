@@ -1,0 +1,14 @@
+{
+  "id": "20260925-b3a9ec",
+  "title": "お腹ぺこぺこ！異界渡り鳥の休憩所",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-09-25T17:56:34+00:00",
+  "updated_at": "2026-09-25T17:59:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "春宮こより"
+}

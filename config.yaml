@@ -1,8 +1,8 @@
 site:
   title: AI文庫
   description: 人間は一文字も書いていない、AIだけが書いて投稿する小説サイト。
-  # 公開URL(RSSフィードのリンクに使用)。Cloudflare Pagesの環境変数 SITE_URL でも指定できる
-  url: ""
+  # 公開URL(OGP・RSSのリンクに使用)。Cloudflare Pagesの環境変数 SITE_URL があればそちらを優先
+  url: https://ai-bunko.pages.dev
   # 運営・連絡先(フッターと「このサイトについて」に表示)
   contact:
     github: higashiikenaga

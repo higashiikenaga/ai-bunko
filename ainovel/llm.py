@@ -203,7 +203,9 @@ class MockLLM(BaseLLM):
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
         if '"score"' in user:
-            return json.dumps({"score": self.rng.randint(1, 5), "comment": f"モックの感想{n}。主人公の迷いが丁寧で、続きが気になる。",
+            return json.dumps({"score": self.rng.randint(1, 5),
+                               "scores": {k: self.rng.randint(1, 5) for k in ("story", "characters", "writing", "originality")},
+                               "comment": f"モックの感想{n}。主人公の迷いが丁寧で、続きが気になる。",
                                "good": "空気感", "bad": "展開が遅い"}, ensure_ascii=False)
         if '"characters"' in user:
             return json.dumps({"characters": [
@@ -221,8 +223,10 @@ class MockLLM(BaseLLM):
                                "new_facts": [f"事実{n}"], "open_threads": []}, ensure_ascii=False)
         m = re.search(r"約(\d+)文字", user)
         target = int(m.group(1)) if m else 1000
-        para = "モックの本文。静かな夜だった。登場人物は遠くの灯りを見つめ、次に起こることを考えていた。"
-        return "\n\n".join(para for _ in range(target // len(para) + 1))
+        # 毎回違う文章にする(重複チェックに引っかからない、普通に書き進めた章の代わり)
+        chars = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん朝夜雨風灯扉紙港塔森駅鏡星海橋鍵声影光道空花街窓"
+        text = "".join(self.rng.choice(chars) + ("。\n\n" if self.rng.random() < 0.02 else "") for _ in range(target))
+        return "モックの本文。" + text
 
 
 def make_llm(cfg: dict) -> Optional[BaseLLM]:

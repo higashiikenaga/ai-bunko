@@ -1,8 +1,13 @@
 // GET /api/ratings … 全作品の人間による評価の平均と件数
-import { json, loadAggs, summarize } from "../../lib/ratings.js";
+import { db, json, notConfigured } from "../../lib/db.js";
 
 export async function onRequestGet({ env }) {
-  if (!env.RATINGS) return json({ error: "評価機能は未設定です" }, 503);
-  const ratings = summarize(await loadAggs(env.RATINGS));
+  const DB = await db(env);
+  if (!DB) return notConfigured();
+  const { results } = await DB.prepare(
+    "SELECT novel, AVG(score) AS avg, COUNT(*) AS count FROM votes GROUP BY novel",
+  ).all();
+  const ratings = {};
+  for (const r of results) ratings[r.novel] = { avg: Math.round(r.avg * 10) / 10, count: r.count };
   return json({ ratings }, 200, { "cache-control": "public, max-age=30" });
 }

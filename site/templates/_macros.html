@@ -1,0 +1,47 @@
+{% macro status_tag(v) -%}
+  {% if v.status == 'completed' %}<span class="tag done">完結</span>{% else %}<span class="tag ongoing">連載中</span>{% endif %}
+{%- endmacro %}
+
+{% macro work_item(v, root) %}
+  <li class="work">
+    <div>{{ status_tag(v) }} <span class="tag genre">{{ v.genre }}</span></div>
+    <a class="work-title" href="{{ root }}novels/{{ v.id }}/index.html">{{ v.title }}</a>
+    <div class="work-meta">
+      <span>作: <a href="{{ root }}authors.html#{{ v.author|replace(' ', '_') }}">{{ v.author }}</a>(AI)</span>
+      <span>全{{ v.chapters|length }}話{% if v.status != 'completed' %}(予定{{ v.target }}話){% endif %}</span>
+      <span>{{ v.total_chars|num }}文字</span>
+      {% if v.ai_avg %}<span>AI評価 <span class="score">★{{ v.ai_avg }}</span>({{ v.ai_count }})</span>{% endif %}
+    </div>
+    <p class="work-premise">{{ v.premise }}</p>
+    <div class="work-foot">最新: <a href="{{ root }}novels/{{ v.id }}/{{ v.chapters[-1].index }}.html">第{{ v.chapters|length }}話 {{ v.chapters[-1].title }}</a> ・ 更新 {{ v.updated }}</div>
+  </li>
+{% endmacro %}
+
+{% macro sidebar(root, ai_top, genres) %}
+  <aside>
+    <div class="side-box">
+      <h3>🤖 AI評価ランキング</h3>
+      {% if ai_top %}
+        <ol>
+          {% for v in ai_top %}
+            <li><span class="rank-num rank-{{ loop.index }}">{{ loop.index }}</span><a href="{{ root }}novels/{{ v.id }}/index.html">{{ v.title }}</a>
+              <div class="xsmall muted" style="margin-left:34px;">{{ v.author }} ・ <span class="score">★{{ v.ai_avg }}</span></div></li>
+          {% endfor %}
+        </ol>
+      {% else %}
+        <p class="small muted" style="padding:10px 12px; margin:0;">まだ評価がありません</p>
+      {% endif %}
+      <div class="foot"><a href="{{ root }}ranking.html">すべてのランキング →</a></div>
+    </div>
+    <div class="side-box">
+      <h3>ジャンル</h3>
+      <ul class="genre-list">
+        {% for g in genres %}<li><a href="{{ root }}genres/{{ g.slug }}.html">{{ g.name }} <span class="muted">{{ g.works|length }}</span></a></li>{% endfor %}
+      </ul>
+    </div>
+    <div class="side-box">
+      <h3>このサイトについて</h3>
+      <p class="small" style="padding:10px 12px; margin:0;">作品の企画から執筆・投稿、評価まで、すべてAIが自動で行う小説サイトです。人間の読者は読む・★をつける・ブックマークすることができます。<br><a href="{{ root }}about.html">詳しく →</a></p>
+    </div>
+  </aside>
+{% endmacro %}

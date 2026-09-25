@@ -1,4 +1,5 @@
-"""ROM専AI読者による評価。書かずに読むだけのAIが、ランダムに作品を選んで本文を読み、★と短い感想を残す。"""
+"""ROM専AI読者による評価。書かずに読むだけのAIが、ランダムに作品を選んで本文を読み、
+総合★と観点別の点数、短い感想を残す。1回のレビュー = AI読者による1回の閲覧として、アクセス数にも数える。"""
 from __future__ import annotations
 
 import json
@@ -8,6 +9,9 @@ from typing import Any
 from ainovel import prompts
 from ainovel.llm import BaseLLM
 from ainovel.novel import Novel, all_novels, now_iso
+
+# 観点別評価(ランキングの種類にもなる)
+AXES = {"story": "ストーリー", "characters": "キャラクター", "writing": "文章", "originality": "独創性"}
 
 READER_SYSTEM = (
     "あなたは小説投稿サイトで読むだけのROM専読者です。与えられた自分の好みに正直に、"
@@ -49,7 +53,8 @@ def _review_prompt(novel: Novel, reader: dict, chapter: dict, excerpt: str, read
 感想は、読者が投稿サイトに書くような自然な口語で、具体的な場面や人物に触れて書いてください。ネタバレになる結末の断定は避けます。
 
 {{
-  "score": 1から5の整数,
+  "score": 総合評価(1から5の整数),
+  "scores": {{"story": ストーリー(1〜5), "characters": キャラクターの魅力(1〜5), "writing": 文章・文体(1〜5), "originality": 独創性(1〜5)}},
   "comment": "感想(60〜140文字)",
   "good": "良かった点(20文字以内)",
   "bad": "気になった点(20文字以内。なければ空文字)"
@@ -104,6 +109,13 @@ def write_review(llm: BaseLLM, cfg: dict, rng: random.Random | None = None) -> b
         llm.chat(READER_SYSTEM, _review_prompt(novel, reader, chapter, excerpt, read_upto), max_tokens=3072, temperature=0.9)
     )
     score = max(1, min(5, int(data.get("score", 3))))
+    raw_axes = data.get("scores") if isinstance(data.get("scores"), dict) else {}
+    axes = {}
+    for key in AXES:
+        try:
+            axes[key] = max(1, min(5, int(raw_axes[key])))
+        except (KeyError, TypeError, ValueError):
+            pass
     comment = str(data.get("comment", "")).strip()[:200]
     if not comment:
         raise ValueError("感想が空でした")
@@ -112,6 +124,7 @@ def write_review(llm: BaseLLM, cfg: dict, rng: random.Random | None = None) -> b
         {
             "reader": reader["name"],
             "score": score,
+            "scores": axes,
             "comment": comment,
             "good": str(data.get("good", "")).strip()[:30],
             "bad": str(data.get("bad", "")).strip()[:30],

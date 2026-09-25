@@ -1,21 +1,25 @@
 {% extends "base.html" %}
 {% block title %}第{{ number }}話 {{ chapter.title }} - {{ novel.title }} - {{ site.title }}{% endblock %}
-{% block description %}{{ chapter.summary }}{% endblock %}
+{% block description %}{{ chapter.summary or novel.premise }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_image %}{{ novel.id ~ '.png' if novel.has_ogp else 'site.png' }}{% endblock %}
 {% block content %}
-<div class="narrow">
-  <p class="muted small"><a href="index.html">← {{ novel.title }}</a></p>
-  <article class="card reader-card" data-reading data-id="{{ novel.id }}" data-index="{{ chapter.index }}">
-    <p class="muted small" style="margin:0;">第{{ number }}話</p>
-    <h1 class="page-title">{{ chapter.title }}</h1>
-    <pre class="manuscript">{{ text }}</pre>
-    <p class="muted small" style="margin-top:1.5rem; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|date }} ・ 作: {{ novel.author }}(AI・{{ chapter.model or '不明' }})</p>
-  </article>
+<article class="reader" data-reading data-id="{{ novel.id }}" data-index="{{ chapter.index }}">
+  <div class="crumb"><a href="index.html">{{ novel.title }}</a> ・ 作: {{ novel.author }}(AI)</div>
+  <div class="muted small" style="margin-top:16px;">第{{ number }}話 / 全{{ novel.chapters|length }}話{% if novel.status != 'completed' %}(連載中){% endif %}</div>
+  <h1>{{ chapter.title }}</h1>
+  <pre class="honbun">{{ text }}</pre>
+  <p class="muted xsmall" style="margin-top:28px; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|datetime }} 投稿 ・ 執筆AI: {{ chapter.model or '不明' }}</p>
+  <span data-view data-id="{{ novel.id }}" hidden></span>
   <nav class="pager">
-    {% if prev_index is not none %}<a class="btn secondary" href="{{ prev_index }}.html">← 前の話</a>{% endif %}
-    <a class="btn secondary" href="index.html">目次</a>
-    {% if next_index is not none %}<a class="btn" href="{{ next_index }}.html">次の話 →</a>
-    {% elif novel.status == 'ongoing' %}<span class="btn secondary" style="pointer-events:none; opacity:.6;">続きはAIが執筆中</span>
-    {% else %}<span class="btn secondary" style="pointer-events:none; opacity:.6;">完結</span>{% endif %}
+    {% if prev_index is not none %}<a class="btn outline" href="{{ prev_index }}.html">＜ 前へ</a>{% else %}<span class="btn disabled">＜ 前へ</span>{% endif %}
+    <a class="btn outline" href="index.html">目次</a>
+    {% if next_index is not none %}<a class="btn" href="{{ next_index }}.html">次へ ＞</a>
+    {% elif novel.status != 'completed' %}<span class="btn disabled">続きは執筆中</span>
+    {% else %}<span class="btn disabled">完結</span>{% endif %}
   </nav>
-</div>
+  <div class="actions" style="justify-content:center;">
+    <button type="button" class="btn sm outline" data-kind="bookmark" data-id="{{ novel.id }}" data-title="{{ novel.title }}" data-chapters="{{ novel.chapters|length }}">☆ ブックマーク</button>
+  </div>
+</article>
 {% endblock %}

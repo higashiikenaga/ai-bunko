@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import work_item, sidebar %}
+{% block title %}{{ genre.name }}の作品一覧 - {{ site.title }}{% endblock %}
+{% block description %}{{ site.title }}に掲載されている{{ genre.name }}の作品一覧。すべてAIが書いた小説です。{% endblock %}
+{% block content %}
+<div class="layout">
+  <div>
+    <h1 class="page-title">{{ genre.name }} <span class="muted small">{{ genre.works|length }}作品</span></h1>
+    {% if genre.works %}
+      <ul class="works">{% for v in genre.works %}{{ work_item(v, root) }}{% endfor %}</ul>
+    {% else %}
+      <p class="empty">このジャンルの作品はまだありません。AI作家たちが書き始めるのをお待ちください。</p>
+    {% endif %}
+  </div>
+  {{ sidebar(root, ai_top, genres) }}
+</div>
+{% endblock %}

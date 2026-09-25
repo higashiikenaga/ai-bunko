@@ -20,10 +20,11 @@ import sys
 import time
 import traceback
 
-from ainovel import prompts
+from ainovel import dedupe, prompts
 from ainovel.llm import BaseLLM, LLMError, make_llm
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
+from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
 from ainovel.scheduler import DailyState, plan_posts, start_delay_seconds
 
@@ -79,8 +80,16 @@ def create_novel(llm: BaseLLM, cfg: dict) -> Novel:
     author = choose_author(cfg, genre)
     print(f"■ 新作を企画: {genre} / 作家 {author['name'] if author else '-'} / モチーフ {motifs}")
 
-    world = chat_json(llm, prompts.world_prompt(genre, motifs, [n.meta["title"] for n in novels], author),
-                      max_tokens=6144, temperature=1.0)
+    titles = [n.meta["title"] for n in novels]
+    world = chat_json(llm, prompts.world_prompt(genre, motifs, titles, author), max_tokens=6144, temperature=1.0)
+    dup = dedupe.similar_title(world.get("title", ""), titles)
+    if dup:
+        print(f"  タイトル「{world.get('title')}」が既存作品「{dup}」とほぼ同じなので企画し直します")
+        world = chat_json(llm, prompts.world_prompt(genre, motifs, titles + [world.get("title", "")], author),
+                          max_tokens=6144, temperature=1.1)
+        dup = dedupe.similar_title(world.get("title", ""), titles)
+        if dup:
+            raise ValueError(f"既存作品「{dup}」と重複するタイトルしか出なかったため、今回は新作を見送ります")
     world["genre"] = world.get("genre") or genre
     print(f"  タイトル: {world.get('title')}")
 
@@ -137,17 +146,27 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
 
     world = novel.world
     target_chars = int(w["chapter_chars"])
-    text = prompts.clean_chapter(
-        llm.chat(
-            prompts.system_prompt(world, author_of(novel, cfg)),
-            prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
-                                   index, total, target_chars),
-            max_tokens=int(target_chars * 2.2) + 2048,  # 思考分の余裕込み
-            temperature=float(w.get("temperature", 0.95)),
+    system = prompts.system_prompt(world, author_of(novel, cfg))
+    user = prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
+                                  index, total, target_chars)
+    previous = [(c["index"], novel.chapter_text(c["index"])) for c in memory.data["chapters"]]
+
+    text = ""
+    for attempt in range(2):
+        text = prompts.clean_chapter(
+            llm.chat(system, user, max_tokens=int(target_chars * 2.2) + 2048,  # 思考分の余裕込み
+                     temperature=float(w.get("temperature", 0.95)))
         )
-    )
-    if len(text) < target_chars * 0.25:
-        raise ValueError(f"本文が短すぎます({len(text)}文字)。今回は保存しません")
+        if len(text) < target_chars * 0.25:
+            raise ValueError(f"本文が短すぎます({len(text)}文字)。今回は保存しません")
+        similar_to, score = dedupe.most_similar_chapter(text, previous)
+        if score < dedupe.CHAPTER_SIMILARITY_LIMIT:
+            break
+        print(f"  第{similar_to}章とほぼ同じ内容でした(類似度 {score:.2f})。書き直させます")
+        user += (f"\n\n# 重要\n第{similar_to}章と同じ場面・同じ文章を繰り返さないこと。"
+                 "既に起きた出来事は書き直さず、その先の新しい展開を書くこと。")
+    else:
+        raise ValueError(f"第{similar_to}章と重複する内容しか書けなかったため、今回は保存しません")
     model = llm.last_model
 
     try:
@@ -284,6 +303,10 @@ def main(argv: list[str] | None = None) -> int:
             state.add_tokens(llm.tokens_used - tokens_before)
 
     print(f"完了: 投稿 {posted}話 / レビュー {reviewed}件 / 失敗 {failed} / 本日の合計 {state.posts}話・{state.data['tokens']:,}トークン")
+    try:
+        ensure_ogp_images()  # 新作・完結で変わった作品のOGP画像を作る(日本語フォントがある環境のみ)
+    except Exception as e:  # noqa: BLE001 - 画像が作れなくても執筆結果は保存する
+        print(f"  (OGP画像の生成に失敗: {e})")
     return 0
 
 

@@ -37,7 +37,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt
+      - name: 依存関係(OGP画像用の日本語フォントとPillowを含む)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk > /dev/null
+          pip install -r requirements.txt Pillow
       - name: AIが執筆(クラウドLLM)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

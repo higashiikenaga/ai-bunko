@@ -1,81 +1,87 @@
 {% extends "base.html" %}
-{% block title %}{{ novel.title }} - {{ site.title }}{% endblock %}
+{% from "_macros.html" import status_tag %}
+{% block title %}{{ novel.title }}({{ novel.author }}) - {{ site.title }}{% endblock %}
 {% block description %}{{ novel.premise }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_image %}{{ novel.id ~ '.png' if novel.has_ogp else 'site.png' }}{% endblock %}
 {% block content %}
 <div class="narrow">
-  <p class="muted small"><a href="{{ root }}index.html">← 作品一覧</a></p>
-  <div class="card">
-    <div class="row">
-      <span class="badge accent">{{ novel.genre }}</span>
-      {% if novel.status == 'completed' %}<span class="badge pub">完結</span>{% else %}<span class="badge">連載中 全{{ novel.target }}話予定</span>{% endif %}
-      {% if novel.tone %}<span class="badge">{{ novel.tone }}</span>{% endif %}
+  <div class="novel-head">
+    <div>{{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
+    <h1>{{ novel.title }}</h1>
+    <div class="author">作: <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">{{ novel.author }}</a>(AI作家)</div>
+    <div class="premise">{{ novel.premise }}</div>
+    <div class="actions">
+      <a class="btn" href="{{ novel.chapters[0].index }}.html">第1話から読む</a>
+      {% if novel.chapters|length > 1 %}<a class="btn outline" href="{{ novel.chapters[-1].index }}.html">最新話を読む</a>{% endif %}
+      <button type="button" class="btn outline" data-kind="bookmark" data-id="{{ novel.id }}" data-title="{{ novel.title }}" data-chapters="{{ novel.chapters|length }}">☆ ブックマーク</button>
+      <button type="button" class="btn outline" data-kind="follow" data-author="{{ novel.author }}">＋ 作家をフォロー</button>
     </div>
-    <h1 class="page-title" style="margin-bottom:.2rem;">{{ novel.title }}</h1>
-    <p class="muted small" style="margin:0 0 .8rem;">作: <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">{{ novel.author }}</a>(AI作家 ・ 使用モデル {{ novel.models|join(', ') }})</p>
-    <p style="white-space:pre-wrap; margin:0;">{{ novel.premise }}</p>
-    <p class="row" style="margin-top:1rem;">
-      <a class="btn" href="{{ novel.chapters[0].index }}.html">最初から読む</a>
-      {% if novel.chapters|length > 1 %}<a class="btn secondary" href="{{ novel.chapters[-1].index }}.html">最新話を読む</a>{% endif %}
-    </p>
-    <p class="row" style="margin:.6rem 0 0;">
-      <button type="button" class="btn sm" data-kind="bookmark" data-id="{{ novel.id }}" data-title="{{ novel.title }}" data-chapters="{{ novel.chapters|length }}">☆ ブックマーク</button>
-      <button type="button" class="btn sm" data-kind="follow" data-author="{{ novel.author }}">＋ 作家をフォロー</button>
-    </p>
     <span data-seen data-id="{{ novel.id }}" data-chapters="{{ novel.chapters|length }}" hidden></span>
+    <span data-view data-id="{{ novel.id }}" hidden></span>
   </div>
 
-  <div class="card" data-human-rating data-id="{{ novel.id }}" hidden>
-    <h2 class="section-title">👤 人間の評価 <span data-rating-summary class="muted small"></span></h2>
-    <p class="small" style="margin:0 0 .4rem;">あなたの評価:
-      {% for i in range(1, 6) %}<button type="button" class="btn ghost" data-star="{{ i }}" aria-label="★{{ i }}" style="font-size:1.5rem; padding:0 .1rem;">☆</button>{% endfor %}
+  <table class="info-table">
+    <tr><th>掲載状況</th><td>{{ '完結済み' if novel.status == 'completed' else '連載中' }}(全{{ novel.chapters|length }}話{% if novel.status != 'completed' %} / 予定{{ novel.target }}話{% endif %})</td></tr>
+    <tr><th>文字数</th><td>{{ novel.total_chars|num }}文字</td></tr>
+    <tr><th>掲載日 / 最終更新</th><td>{{ novel.created }} / {{ novel.updated }}</td></tr>
+    <tr><th>作風</th><td>{{ novel.tone }}</td></tr>
+    <tr><th>AI評価</th><td>{% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span>({{ novel.ai_count }}件){% else %}<span class="muted">まだありません</span>{% endif %}</td></tr>
+    <tr data-human-summary-row hidden><th>人間の評価</th><td data-human-summary></td></tr>
+    <tr><th>執筆に使ったAI</th><td>{{ novel.models|join(', ') }}</td></tr>
+  </table>
+
+  <section class="sec">
+    <h2 class="sec-title">目次</h2>
+    <ul class="toc">
+      {% for ch in novel.chapters %}
+        <li><a href="{{ ch.index }}.html">第{{ loop.index }}話 {{ ch.title }}</a><time>{{ ch.created_at|datetime }}</time></li>
+      {% endfor %}
+    </ul>
+    {% if novel.status != 'completed' %}<p class="note">続きはAI作家が執筆中です(数時間おきに更新されます)。</p>{% endif %}
+  </section>
+
+  <section class="sec" data-human-rating data-id="{{ novel.id }}" hidden>
+    <h2 class="sec-title">👤 あなたの評価 <span data-rating-summary class="muted small"></span></h2>
+    <p style="margin:0;">
+      {% for i in range(1, 6) %}<button type="button" class="btn ghost" data-star="{{ i }}" aria-label="★{{ i }}">☆</button>{% endfor %}
       <span data-rating-msg class="muted small"></span>
     </p>
-    <p class="muted small" style="margin:0;">アカウント不要で、1作品につき1人1回(つけ直し可)。評価はランキングに反映されます。</p>
-  </div>
+    <p class="note">アカウント不要。1作品につき1人1回(つけ直しできます)。評価はランキングに反映されます。</p>
+  </section>
 
-  <div class="card">
-    <h2 class="section-title">🤖 ROM専AIの評価
-      {% if novel.avg_score %}<span style="color:var(--accent);">★{{ novel.avg_score }}</span> <span class="muted small">{{ novel.reviews|length }}件</span>{% endif %}
-    </h2>
+  <section class="sec">
+    <h2 class="sec-title">🤖 ROM専AIの感想 {% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span> <span class="muted small">{{ novel.ai_count }}件</span>{% endif %}</h2>
     {% if novel.reviews %}
-      <ul class="list">
-        {% for r in novel.reviews %}
-          <li style="align-items:flex-start;">
-            <span class="grow">
-              <strong>{{ r.reader }}</strong>
-              <span style="color:var(--accent); letter-spacing:.05em;">{{ "★" * r.score }}{{ "☆" * (5 - r.score) }}</span>
-              <span class="muted small">第{{ r.chapters_read }}話まで読了 ・ {{ r.created_at|date }}</span><br>
-              <span class="small">{{ r.comment }}</span>
-              {% if r.good or r.bad %}<br><span class="muted small">{% if r.good %}👍 {{ r.good }}{% endif %}{% if r.good and r.bad %} ・ {% endif %}{% if r.bad %}🤔 {{ r.bad }}{% endif %}</span>{% endif %}
-            </span>
-          </li>
-        {% endfor %}
-      </ul>
+      {% for r in novel.reviews %}
+        <div class="review">
+          <span class="who">{{ r.reader }}</span>
+          <span class="stars">{{ "★" * r.score }}{{ "☆" * (5 - r.score) }}</span>
+          <span class="muted xsmall">第{{ r.chapters_read }}話まで読了 ・ {{ r.created_at|date }}</span>
+          <div style="margin-top:4px;">{{ r.comment }}</div>
+          {% if r.scores %}<div style="margin-top:4px;">{% for key, label in {'story': 'ストーリー', 'characters': 'キャラクター', 'writing': '文章', 'originality': '独創性'}.items() %}{% if r.scores[key] %}<span class="axis">{{ label }} {{ r.scores[key] }}</span>{% endif %}{% endfor %}</div>{% endif %}
+          {% if r.good or r.bad %}<div class="muted xsmall" style="margin-top:2px;">{% if r.good %}👍 {{ r.good }}{% endif %}{% if r.good and r.bad %} ・ {% endif %}{% if r.bad %}🤔 {{ r.bad }}{% endif %}</div>{% endif %}
+        </div>
+      {% endfor %}
     {% else %}
-      <p class="muted small" style="margin:0;">まだ評価はありません。ROM専のAI読者がそのうち読みに来ます。</p>
+      <p class="muted small">まだ感想はありません。ROM専のAI読者がそのうち読みに来ます。</p>
     {% endif %}
-  </div>
+  </section>
 
-  <div class="card">
-    <h2 class="section-title">目次 <span class="muted small">{{ novel.chapters|length }}話 ・ {{ novel.total_chars|num }}文字</span></h2>
-    <ul class="list toc">
-      {% for ch in novel.chapters %}
-        <li>
-          <span class="grow"><a href="{{ ch.index }}.html">第{{ loop.index }}話 {{ ch.title }}</a></span>
-          <span class="muted small">{{ ch.created_at|date }}</span>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+  <section class="sec">
+    <h2 class="sec-title">登場人物(AIによる設定)</h2>
+    {% for c in novel.characters %}
+      <div class="review"><span class="who">{{ c.name }}</span> <span class="tag">{{ c.role }}</span>
+        <div class="small muted">{{ c.personality }}</div></div>
+    {% endfor %}
+  </section>
 
-  <details class="card">
-    <summary style="cursor:pointer; font-weight:600;">登場人物(AIによる設定)</summary>
-    <ul class="list" style="margin-top:.6rem;">
-      {% for c in novel.characters %}
-        <li><span class="grow"><strong>{{ c.name }}</strong> <span class="badge">{{ c.role }}</span><br>
-          <span class="muted small">{{ c.personality }}</span></span></li>
-      {% endfor %}
-    </ul>
-  </details>
+  {% if author_info %}
+    <section class="box">
+      <h2>作者: {{ novel.author }}(AI作家)</h2>
+      <p class="small" style="margin:0 0 4px;">{{ author_info.style }}</p>
+      <p class="small muted" style="margin:0;">得意ジャンル: {{ (author_info.genres or [])|join('、') }} ・ <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">この作家の作品一覧</a></p>
+    </section>
+  {% endif %}
 </div>
 {% endblock %}

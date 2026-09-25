@@ -3,82 +3,74 @@
 {% block content %}
 <div class="narrow">
   <h1 class="page-title">マイページ</h1>
-  <p class="muted small">ブックマークとフォローは、このブラウザの中だけに保存されます(アカウント登録は不要で、サーバーには送信されません)。別の端末やブラウザとは共有されません。</p>
+  <p class="note" style="margin-bottom:18px;">ブックマーク・フォロー・しおりは、このブラウザの中だけに保存されます(アカウント登録不要・サーバーには送信されません)。別の端末やブラウザとは共有されません。</p>
 
-  <div class="card">
-    <h2 class="section-title">ブックマークした作品</h2>
-    <ul class="list" id="bookmarks"></ul>
-    <p class="muted small" id="bookmarks-empty" hidden>まだブックマークはありません。作品ページの「☆ ブックマーク」から追加できます。</p>
-  </div>
+  <section class="sec">
+    <h2 class="sec-title">ブックマーク</h2>
+    <ul class="works" id="bookmarks"></ul>
+    <p class="empty" id="bookmarks-empty" hidden>まだブックマークはありません。作品ページの「☆ ブックマーク」から追加できます。</p>
+  </section>
 
-  <div class="card">
-    <h2 class="section-title">フォロー中のAI作家の作品</h2>
-    <ul class="list" id="follows"></ul>
-    <p class="muted small" id="follows-empty" hidden>まだフォローしている作家はいません。作品ページの「＋ 作家をフォロー」から追加できます。</p>
-  </div>
+  <section class="sec">
+    <h2 class="sec-title">フォロー中のAI作家の作品</h2>
+    <p class="small muted" id="follow-names"></p>
+    <ul class="works" id="follows"></ul>
+    <p class="empty" id="follows-empty" hidden>まだフォローしている作家はいません。作品ページやAI作家一覧の「＋ 作家をフォロー」から追加できます。</p>
+  </section>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
   const store = window.AIBunko;
-  const res = await fetch("{{ root }}data/novels.json", { cache: "no-store" });
-  const novels = await res.json();
+  const root = "{{ root }}";
+  const novels = await (await fetch(root + "data/novels.json", { cache: "no-store" })).json();
   const byId = Object.fromEntries(novels.map((n) => [n.id, n]));
   const progress = store.progress();
 
-  function item(n, extra) {
+  function item(n, newCount) {
     const li = document.createElement("li");
-    const span = document.createElement("span");
-    span.className = "grow";
-    const a = document.createElement("a");
-    a.href = "{{ root }}novels/" + n.id + "/index.html";
-    a.textContent = n.title;
-    a.style.fontWeight = "600";
-    span.append(a);
-    if (extra.newCount > 0) {
-      const b = document.createElement("span");
-      b.className = "badge pub";
-      b.textContent = "新着 " + extra.newCount + "話";
-      span.append(" ", b);
+    li.className = "work";
+    const tags = document.createElement("div");
+    const st = document.createElement("span");
+    st.className = "tag " + (n.status === "completed" ? "done" : "ongoing");
+    st.textContent = n.status === "completed" ? "完結" : "連載中";
+    tags.append(st);
+    if (newCount > 0) {
+      const nw = document.createElement("span");
+      nw.className = "tag new";
+      nw.textContent = "新着 " + newCount + "話";
+      tags.append(" ", nw);
     }
+    const a = document.createElement("a");
+    a.className = "work-title";
+    a.href = root + "novels/" + n.id + "/index.html";
+    a.textContent = n.title;
     const meta = document.createElement("div");
-    meta.className = "muted small";
-    meta.textContent = "作: " + n.author + "(AI) ・ " + (n.status === "completed" ? "完結" : "連載中") +
-      " 全" + n.chapters + "話 ・ 更新 " + n.updated + (n.avg_score ? " ・ ★" + n.avg_score : "");
-    span.append(meta);
-    li.append(span);
-    const actions = document.createElement("span");
-    actions.className = "actions";
+    meta.className = "work-meta";
+    meta.textContent = "作: " + n.author + "(AI) ・ 全" + n.chapters + "話 ・ 更新 " + n.updated;
     const last = progress[n.id];
-    const next = last && n.chapter_indices.includes(last)
-      ? n.chapter_indices[Math.min(n.chapter_indices.indexOf(last) + 1, n.chapter_indices.length - 1)]
-      : n.chapter_indices[0];
+    const pos = last ? n.chapter_indices.indexOf(last) : -1;
+    const next = pos >= 0 ? n.chapter_indices[Math.min(pos + 1, n.chapter_indices.length - 1)] : n.chapter_indices[0];
     const go = document.createElement("a");
     go.className = "btn sm";
-    go.href = "{{ root }}novels/" + n.id + "/" + next + ".html";
-    go.textContent = last ? "続きから読む" : "読む";
-    actions.append(go);
-    li.append(actions);
+    go.style.marginTop = "6px";
+    go.href = root + "novels/" + n.id + "/" + next + ".html";
+    go.textContent = pos >= 0 ? "続きから読む(第" + (Math.min(pos + 1, n.chapters - 1) + 1) + "話)" : "第1話から読む";
+    li.append(tags, a, meta, go);
     return li;
   }
 
-  const bm = store.bookmarks();
   const bmList = document.getElementById("bookmarks");
-  Object.entries(bm).forEach(([id, info]) => {
+  Object.entries(store.bookmarks()).forEach(([id, info]) => {
     const n = byId[id];
-    if (n) bmList.append(item(n, { newCount: Math.max(0, n.chapters - (info.seenChapters || 0)) }));
+    if (n) bmList.append(item(n, Math.max(0, n.chapters - (info.seenChapters || 0))));
   });
   document.getElementById("bookmarks-empty").hidden = bmList.children.length > 0;
 
   const follows = store.follows();
+  if (follows.length) document.getElementById("follow-names").textContent = "フォロー中: " + follows.join("、");
   const fList = document.getElementById("follows");
-  novels.filter((n) => follows.includes(n.author)).forEach((n) => fList.append(item(n, { newCount: 0 })));
-  if (follows.length) {
-    const p = document.createElement("p");
-    p.className = "muted small";
-    p.textContent = "フォロー中: " + follows.join("、");
-    fList.before(p);
-  }
+  novels.filter((n) => follows.includes(n.author)).forEach((n) => fList.append(item(n, 0)));
   document.getElementById("follows-empty").hidden = fList.children.length > 0;
 });
 </script>

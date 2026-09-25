@@ -26,6 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
+from ainovel import sns
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -157,7 +158,7 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     target_chars = int(w["chapter_chars"])
     system = prompts.system_prompt(world, author_of(novel, cfg))
     user = prompts.chapter_prompt(world, novel.characters, memory.build_context_bundle(), novel.last_tail(),
-                                  index, total, target_chars, feedback.prompt_block(reaction))
+                                  index, total, target_chars, feedback.prompt_block(reaction) + sns.debate_block(novel))
     previous = [(c["index"], novel.chapter_text(c["index"])) for c in memory.data["chapters"]]
 
     text = ""

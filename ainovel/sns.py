@@ -103,7 +103,15 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
         if target["role"] == "critic":
             pool += [("critic", c) for c in critics if c.get("strictness") != target.get("strictness") and c["name"] != target["who"]] * 2
         if novel:
-            pool += [("author", a) for a in authors if a["name"] == novel.meta.get("author")] * 3
+            # 賛否が過熱しているスレッドには、作品の作者が出てきやすい(まだ最近の流れに返していなければ)
+            thread = _thread(posts, root)
+            critics_in = sum(1 for p in thread if p["role"] == "critic")
+            author_name = novel.meta.get("author")
+            author_recent = any(p["who"] == author_name for p in thread[-3:])
+            heated = critics_in >= 2 and len(thread) >= 3 and not author_recent
+            author = next((a for a in authors if a["name"] == author_name), None)
+            if author and author["name"] != target["who"] and rng.random() < (0.45 if heated else 0.1):
+                return {"kind": "reply", "role": "author", "who": author, "novel": novel, "reply_to": target, "root": root}
         pool += [("rom", r) for r in rng.sample(roms, min(5, len(roms)))]
         pool += [("critic", c) for c in rng.sample(critics, min(5, len(critics))) if c["name"] != target["who"]]
         pool = [(r, w) for r, w in pool if w["name"] != target["who"]]
@@ -134,8 +142,11 @@ INSTRUCTIONS = {
             "おすすめでも、気になった点でも、正直な印象でかまいません。",
     "opinion": "この作品について、あなたの評価の立場からはっきり意見を述べてください。好みや辛口度に正直に。",
     "reply": "上のスレッドに返信してください。同意・反論・補足・茶化しなど、あなたの立場として自然な反応を。"
-             "意見が違うなら遠慮なく反論してかまいません(ただし人格攻撃や罵倒はしない)。"
-             "自分の作品への批判に作者として返すなら、感情的になりすぎず自分の考えを述べます。",
+             "意見が違うなら遠慮なく反論してかまいません(ただし人格攻撃や罵倒はしない)。",
+    "author_reply": "あなたはこの作品の作者です。スレッドでの賛否を読み、作者として返信してください。"
+                    "指摘がもっともだと思えば素直に納得して、今後の話でどう活かすかを述べてかまいません。"
+                    "意図が誤解されている・的外れだと思えば、作者としての狙いを説明して反論してかまいません。"
+                    "どちらにするかは議論の中身で決めてください。感情的になりすぎず、ネタバレはしない。",
 }
 
 
@@ -149,9 +160,12 @@ def _prompt(plan: dict, posts: list[dict]) -> str:
         thread = _thread(posts, plan["root"])[-8:]
         lines = [f"- {p['who']}({ROLE_LABEL.get(p['role'], p['role'])}): {p['text']}" for p in thread]
         parts.append("# スレッド(古い順。最後の投稿に返信する)\n" + "\n".join(lines))
-    parts.append(f"# 指示\n{INSTRUCTIONS[plan['kind']]}\n"
+    author_reply = plan["kind"] == "reply" and plan["role"] == "author"
+    fmt = ('{"text": "投稿の本文", "stance": "納得" か "反論" か "その他", "takeaway": "納得した場合、今後の話で活かすこと(30文字以内。それ以外は空文字)"}'
+           if author_reply else '{"text": "投稿の本文"}')
+    parts.append(f"# 指示\n{INSTRUCTIONS['author_reply' if author_reply else plan['kind']]}\n"
                  "20〜140文字。絵文字やハッシュタグは使ってもよいが控えめに。作品の結末を断定するネタバレはしない。\n\n"
-                 '{"text": "投稿の本文"}')
+                 + fmt)
     return "\n\n".join(parts)
 
 
@@ -185,8 +199,27 @@ def write_post(llm, cfg: dict, rng: random.Random | None = None) -> bool:
     if plan["kind"] == "reply":
         post["reply_to"] = plan["reply_to"]["id"]
         post["root"] = plan["root"]
+        if plan["role"] == "author" and data.get("stance") in ("納得", "反論"):
+            post["stance"] = data["stance"]
+            if data["stance"] == "納得" and str(data.get("takeaway", "")).strip():
+                post["takeaway"] = str(data["takeaway"]).strip()[:40]
     posts = load_posts()
     posts.append(post)
     save_posts(posts)
     print(f"  「{text[:40]}…」")
     return True
+
+
+def debate_block(novel: Novel, recent: int = 5) -> str:
+    """AI広場で作者が納得・反論した議論を、次の章を書くときの参考にする。なければ空文字。"""
+    mine = [p for p in load_posts() if p.get("novel") == novel.id and p["role"] == "author" and p.get("stance")][-recent:]
+    if not mine:
+        return ""
+    lines = ["", "# AI広場での議論(あなた=作者の反応)"]
+    for p in mine:
+        if p["stance"] == "納得":
+            lines.append(f"- 読者の指摘に納得した: 「{p['text']}」" + (f" → 今後: {p['takeaway']}" if p.get("takeaway") else ""))
+        else:
+            lines.append(f"- 読者の指摘に反論した: 「{p['text']}」")
+    lines.append("納得した点は物語の流れの中で自然に活かし、反論した点は作者としての狙いを貫いてください(正典は変えない)。")
+    return "\n".join(lines)

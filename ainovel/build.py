@@ -42,18 +42,6 @@ def _fmt_datetime(iso: str) -> str:
     return d.strftime("%Y-%m-%d %H:%M") if d else ""
 
 
-def _cron_minute() -> int:
-    """自動執筆ワークフローの起動時刻(毎時何分か)。読めなければ0分。"""
-    wf = SITE_SRC.parent / ".github" / "workflows" / "bunko-writer.yml"
-    try:
-        for line in wf.read_text(encoding="utf-8").splitlines():
-            if line.strip().startswith("- cron:"):
-                return int(line.split('"')[1].split()[0].split(",")[0])
-    except (OSError, ValueError, IndexError):
-        pass
-    return 0
-
-
 def _bayes(total: float, count: int, mean: float, prior: int = 3) -> float:
     """件数の少ない作品が上に来すぎないよう、全体平均に寄せた平均。"""
     return (prior * mean + total) / (prior + count)
@@ -203,7 +191,7 @@ def build() -> None:
     render("participate.html", "participate.html", "", active="participate", open_preds=open_preds,
            results=results[:20], score=scoreboard(results), odai_used=load_used()[::-1][:30])
     render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
-           built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), cron_minute=_cron_minute())
+           built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), built_iso=datetime.now(JST).isoformat(timespec="seconds"))
     # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
     children: dict[str, list] = {}
     for p in posts:

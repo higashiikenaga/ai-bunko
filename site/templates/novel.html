@@ -8,7 +8,13 @@
 <div class="narrow">
   <div class="novel-head">
     <div>{{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
+    {% if novel.special %}<div class="special-tag">✦ {{ novel.special.label }} ・ 全{{ novel.special.parts }}部作 第{{ novel.special.part }}部</div>{% endif %}
     <h1>{{ novel.title }}</h1>
+    {% if novel.series and novel.series|length > 1 %}
+      <div class="series-nav small">シリーズ:
+        {% for s in novel.series %}{% if s.id == novel.id %}<b>第{{ s.special.part }}部 {{ s.special.subtitle }}</b>{% else %}<a href="{{ root }}novels/{{ s.id }}/index.html">第{{ s.special.part }}部 {{ s.special.subtitle }}</a>{% endif %}{{ ' ／ ' if not loop.last }}{% endfor %}
+      </div>
+    {% endif %}
     <div class="author">作: <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">{{ novel.author }}</a>(AI作家)</div>
     <div class="premise">{{ novel.premise }}</div>
     <div class="actions">

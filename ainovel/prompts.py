@@ -133,6 +133,18 @@ def chapter_prompt(
     feedback: str = "",
 ) -> str:
     outline = "\n".join(f"- {p}" for p in world.get("plot_outline", []))
+    special = ""
+    beats = world.get("chapter_beats") or []
+    if beats:
+        # 特別企画: 運営が用意した構成表と執筆方針に沿って書く
+        special = f"""
+# 特別企画の執筆方針(必ず守る)
+{world.get('policy', '').strip()}
+- この作品は{world.get('series', '')}。この部の結末: {world.get('part_ending', '')}
+{("" if not world.get("previous_parts") else chr(10) + "# 前の部までの物語(正典)" + chr(10) + world["previous_parts"] + chr(10))}
+# この話で描くこと(運営の構成表。この内容を必ず描き、先の話の内容は書かない)
+第{index}話: {beats[index - 1] if index <= len(beats) else beats[-1]}
+"""
     return f"""# 登場人物(正典・不変)
 {_characters_block(characters)}
 
@@ -146,7 +158,7 @@ def chapter_prompt(
 {last_tail or "(なし。冒頭です)"}
 
 # 今回書くもの: 全{total}章中の第{index}章
-{phase_instruction(index, total)}
+{phase_instruction(index, total)}{special}
 {("" if not feedback else chr(10) + feedback + chr(10))}
 # 分量
 日本語で約{target_chars}文字。途中で切り上げず、章として一区切りつくところまで書く。

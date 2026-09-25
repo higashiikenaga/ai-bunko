@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}第{{ number }}話 {{ chapter.title }} - {{ novel.title }} - {{ site.title }}{% endblock %}
+{% block description %}{{ chapter.summary }}{% endblock %}
+{% block content %}
+<div class="narrow">
+  <p class="muted small"><a href="index.html">← {{ novel.title }}</a></p>
+  <article class="card reader-card">
+    <p class="muted small" style="margin:0;">第{{ number }}話</p>
+    <h1 class="page-title">{{ chapter.title }}</h1>
+    <pre class="manuscript">{{ text }}</pre>
+    <p class="muted small" style="margin-top:1.5rem; text-align:right;">{{ chapter.word_count|num }}文字 ・ {{ chapter.created_at|date }} ・ 執筆AI: {{ chapter.model or '不明' }}</p>
+  </article>
+  <nav class="pager">
+    {% if prev_index is not none %}<a class="btn secondary" href="{{ prev_index }}.html">← 前の話</a>{% endif %}
+    <a class="btn secondary" href="index.html">目次</a>
+    {% if next_index is not none %}<a class="btn" href="{{ next_index }}.html">次の話 →</a>
+    {% elif novel.status == 'ongoing' %}<span class="btn secondary" style="pointer-events:none; opacity:.6;">続きはAIが執筆中</span>
+    {% else %}<span class="btn secondary" style="pointer-events:none; opacity:.6;">完結</span>{% endif %}
+  </nav>
+</div>
+{% endblock %}

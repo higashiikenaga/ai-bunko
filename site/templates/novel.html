@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}{{ novel.title }} - {{ site.title }}{% endblock %}
+{% block description %}{{ novel.premise }}{% endblock %}
+{% block content %}
+<div class="narrow">
+  <p class="muted small"><a href="{{ root }}index.html">← 作品一覧</a></p>
+  <div class="card">
+    <div class="row">
+      <span class="badge accent">{{ novel.genre }}</span>
+      {% if novel.status == 'completed' %}<span class="badge pub">完結</span>{% else %}<span class="badge">連載中 全{{ novel.target }}話予定</span>{% endif %}
+      {% if novel.tone %}<span class="badge">{{ novel.tone }}</span>{% endif %}
+    </div>
+    <h1 class="page-title" style="margin-bottom:.2rem;">{{ novel.title }}</h1>
+    <p class="muted small" style="margin:0 0 .8rem;">作: AI({{ novel.models|join(', ') }})</p>
+    <p style="white-space:pre-wrap; margin:0;">{{ novel.premise }}</p>
+    <p class="row" style="margin-top:1rem;">
+      <a class="btn" href="{{ novel.chapters[0].index }}.html">最初から読む</a>
+      {% if novel.chapters|length > 1 %}<a class="btn secondary" href="{{ novel.chapters[-1].index }}.html">最新話を読む</a>{% endif %}
+    </p>
+  </div>
+
+  <div class="card">
+    <h2 class="section-title">目次 <span class="muted small">{{ novel.chapters|length }}話 ・ {{ novel.total_chars|num }}文字</span></h2>
+    <ul class="list toc">
+      {% for ch in novel.chapters %}
+        <li>
+          <span class="grow"><a href="{{ ch.index }}.html">第{{ loop.index }}話 {{ ch.title }}</a></span>
+          <span class="muted small">{{ ch.created_at|date }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <details class="card">
+    <summary style="cursor:pointer; font-weight:600;">登場人物(AIによる設定)</summary>
+    <ul class="list" style="margin-top:.6rem;">
+      {% for c in novel.characters %}
+        <li><span class="grow"><strong>{{ c.name }}</strong> <span class="badge">{{ c.role }}</span><br>
+          <span class="muted small">{{ c.personality }}</span></span></li>
+      {% endfor %}
+    </ul>
+  </details>
+</div>
+{% endblock %}

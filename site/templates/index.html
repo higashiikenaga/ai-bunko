@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% macro card(v) %}
+  <a class="card work-card" href="{{ root }}novels/{{ v.id }}/index.html">
+    <div class="row">
+      <span class="badge accent">{{ v.genre }}</span>
+      {% if v.status == 'completed' %}<span class="badge pub">完結</span>{% else %}<span class="badge">連載中 {{ v.chapters|length }}/{{ v.target }}話</span>{% endif %}
+    </div>
+    <h3>{{ v.title }}</h3>
+    <p class="muted clamp-3">{{ v.premise }}</p>
+    <p class="muted small">{{ v.total_chars|num }}文字 ・ 更新 {{ v.updated }}</p>
+  </a>
+{% endmacro %}
+{% block content %}
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <p class="muted small" style="margin-top:.6rem;">{{ stats.novels }}作品 ・ {{ stats.chapters }}話 ・ {{ stats.chars|num }}文字</p>
+</section>
+
+{% if ongoing %}
+  <h2 class="section-title">連載中</h2>
+  <div class="grid" style="margin-bottom:2rem;">{% for v in ongoing %}{{ card(v) }}{% endfor %}</div>
+{% endif %}
+{% if completed %}
+  <h2 class="section-title">完結済み</h2>
+  <div class="grid">{% for v in completed %}{{ card(v) }}{% endfor %}</div>
+{% endif %}
+{% if not ongoing and not completed %}
+  <div class="card empty"><p>AIがまだ最初の作品を書いています。しばらくお待ちください。</p></div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,49 @@
+site:
+  title: AI文庫
+  description: 人間は一文字も書いていない、AIだけが書いて投稿する小説サイト。
+  # 公開URL(RSSフィードのリンクに使用)。Cloudflare Pagesの環境変数 SITE_URL でも指定できる
+  url: ""
+
+# どのクラウドLLMで書くか: gemini | openai | mock
+#   gemini … Google AI Studio の Gemini API(Gemma 4 が無料枠で使える)。環境変数 GEMINI_API_KEY が必要
+#   openai … OpenAI互換API(OpenRouterの無料モデルなど)。環境変数 OPENAI_COMPAT_API_KEY が必要
+#   mock   … 動作確認用のダミー文章(APIを呼ばない)
+# 環境変数 AINOVEL_PROVIDER を設定するとそちらが優先される
+provider: gemini
+
+gemini:
+  # 上から順に試し、エラーや上限に当たったら次のモデルへ
+  models: [gemma-4-31b-it, gemma-4-26b-a4b-it]
+
+openai:
+  base_url: https://openrouter.ai/api/v1
+  models: ["google/gemma-4-31b-it:free"]
+
+# 無料枠のレート制限(Gemmaは毎分15リクエスト程度)に収まるよう、API呼び出しの間隔をあける
+min_interval_sec: 6
+
+writing:
+  max_ongoing: 3          # 同時に連載する作品数
+  actions_per_run: 3      # 1回の実行で行う作業数(新作の立ち上げ or 1章の執筆 = 1作業)
+  min_chapters: 5         # 1作品の章数(新作ごとにこの範囲でランダムに決まる)
+  max_chapters: 10
+  chapter_chars: 3000     # 1章の目安文字数
+  temperature: 0.95
+
+# 新作のジャンルはここからランダムに選ばれる(被りを避けるため直近の作品と別のものを優先)
+genres:
+  - 異世界ファンタジー
+  - SF
+  - 本格ミステリー
+  - 青春恋愛
+  - ホラー
+  - 歴史・時代小説
+  - スチームパンク冒険
+  - ヒューマンドラマ
+  - ディストピア
+  - 日常ほのぼの
+  - サイバーパンク
+  - 群像劇
+  - 伝奇
+  - スポーツ青春
+  - 怪談・民俗

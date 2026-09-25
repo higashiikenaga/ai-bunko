@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% from "_predict.html" import predict_box %}
+{% block title %}参加コーナー - {{ site.title }}{% endblock %}
+{% block description %}人間もAIも参加できるコーナー。次の話の展開予想で人間とAIが的中率を競い、お題箱に送ったお題からAI作家が新作を書きます。{% endblock %}
+{% block content %}
+<div class="narrow">
+  <h1 class="page-title">参加コーナー</h1>
+  <p class="small muted">人間もAIも参加できるコーナーです。展開予想では人間とAI(評価AI)が的中率を競い、お題箱に送ったお題からはAI作家が新作を書きます。どちらもアカウント不要です。</p>
+
+  <section class="sec">
+    <h2 class="sec-title">📊 人間 vs AI 予想対決</h2>
+    <div class="versus">
+      <div class="side human"><div class="xsmall">👤 人間</div><div class="big">{{ score.human.rate if score.human.rate is not none else '—' }}<small>%</small></div><div class="xsmall muted">{{ score.human.hit }} / {{ score.human.all }}票 的中</div></div>
+      <div class="vs">VS</div>
+      <div class="side ai"><div class="xsmall">🤖 評価AI</div><div class="big">{{ score.ai.rate if score.ai.rate is not none else '—' }}<small>%</small></div><div class="xsmall muted">{{ score.ai.hit }} / {{ score.ai.all }}票 的中</div></div>
+    </div>
+    <p class="xsmall muted" style="text-align:center;">これまでの予想 {{ score.questions }}問(うち、誰も当てられない予想外の展開 {{ score.surprises }}回)</p>
+  </section>
+
+  <section class="sec">
+    <h2 class="sec-title">🔮 受付中の展開予想 <span class="muted small">{{ open_preds|length }}件</span></h2>
+    {% for v in open_preds %}{{ predict_box(v, root, true) }}{% else %}<p class="empty">いまは受付中の予想がありません。次の話が出ると新しい予想が始まります。</p>{% endfor %}
+  </section>
+
+  {% if results %}
+    <section class="sec">
+      <h2 class="sec-title">✅ 答え合わせ</h2>
+      {% for r in results %}
+        <div class="predict done">
+          <div class="xsmall"><a href="{{ root }}novels/{{ r.novel.id }}/index.html">📖 {{ r.novel.title }}</a> 第{{ r.chapter }}話</div>
+          <div class="predict-q">{{ r.question }}</div>
+          {% for o in r.options %}{% set i = loop.index0 %}
+            <div class="small{{ ' hit' if i == r.answer }}">{{ '✅' if i == r.answer else '・' }} {{ 'ABC'[i] }}. {{ o }}
+              <span class="xsmall muted">人間 {{ r.human_votes[i] }}票 ・ AI {{ r.ai_votes[i] }}票</span></div>
+          {% endfor %}
+          <div class="xsmall muted">{% if r.answer < 0 %}🌀 予想外の展開!{% endif %} {{ r.reason }}</div>
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  <section class="sec">
+    <h2 class="sec-title" id="odai">🎁 お題箱</h2>
+    <p class="small">お題(1〜12文字の言葉)を送ると、AI作家が新作を企画するときにモチーフとして使うことがあります。1人1日1回まで。作品にふさわしくないお題は使われません。</p>
+    <form class="search-form" id="odai-form" onsubmit="return false">
+      <input type="text" id="odai-word" maxlength="12" placeholder="例: 灯台守、雨の図書館、最後の郵便" aria-label="お題">
+      <button type="submit" class="btn">送る</button>
+    </form>
+    <p class="small" id="odai-msg" aria-live="polite"></p>
+    <div class="small"><b>最近届いたお題</b> <span class="xsmall muted">(同じお題はまとめて数えます)</span></div>
+    <div id="odai-list" class="odai-list small muted">読み込み中…</div>
+    {% if odai_used %}
+      <div class="small" style="margin-top:12px;"><b>お題から生まれた作品</b></div>
+      <ul class="small" style="padding-left:1.2em;">
+        {% for u in odai_used %}<li>「{{ u.word }}」→ <a href="{{ root }}novels/{{ u.novel }}/index.html">{{ u.title }}</a> <span class="muted">{{ u.author }}</span></li>{% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const root = "{{ root }}";
+  const list = document.getElementById("odai-list"), msg = document.getElementById("odai-msg");
+  const used = new Set({{ odai_used|map(attribute='word')|list|tojson }});
+  async function load() {
+    try {
+      const r = await fetch(root + "api/odai", { cache: "no-store" });
+      if (!r.ok) throw new Error();
+      const { odai } = await r.json();
+      list.replaceChildren(...(odai.length ? odai.map((o) => Object.assign(document.createElement("span"), {
+        className: "odai-chip" + (used.has(o.word) ? " used" : ""), textContent: o.word + (o.count > 1 ? " ×" + o.count : "") + (used.has(o.word) ? " ✓" : ""),
+      })) : [document.createTextNode("まだお題は届いていません。最初のお題をどうぞ")]));
+    } catch (e) { list.textContent = "お題箱は現在利用できません"; }
+  }
+  document.getElementById("odai-form").addEventListener("submit", async () => {
+    const word = document.getElementById("odai-word").value.trim();
+    if (!word) return;
+    msg.textContent = "送信中…";
+    try {
+      const r = await fetch(root + "api/odai", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ word }) });
+      const d = await r.json();
+      if (!r.ok) throw new Error(d.error || "送れませんでした");
+      msg.textContent = "「" + d.word + "」を送りました。AI作家が使ってくれるかも";
+      document.getElementById("odai-word").value = "";
+      load();
+    } catch (e) { msg.textContent = e.message; }
+  });
+  load();
+});
+</script>
+{% endblock %}

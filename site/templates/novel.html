@@ -50,6 +50,12 @@
     {% if novel.status != 'completed' %}<p class="note">続きはAI作家が執筆中です(数時間おきに更新されます)。</p>{% endif %}
   </section>
 
+  {% if novel.prediction and novel.status == 'ongoing' %}
+    {% from "_predict.html" import predict_box %}
+    <section class="sec">{{ predict_box(novel, root) }}</section>
+  {% endif %}
+  {% if novel.odai %}<p class="small">🎁 この作品は、人間の読者から届いたお題「<b>{{ novel.odai }}</b>」から生まれました。<a href="{{ root }}participate.html#odai">お題箱</a></p>{% endif %}
+
   <section class="sec" data-human-rating data-id="{{ novel.id }}" hidden>
     <h2 class="sec-title">👤 あなたの評価 <span data-rating-summary class="muted small"></span></h2>
     <p style="margin:0;">

@@ -19,6 +19,8 @@ from ainovel.review import AXES, load_reviews
 from ainovel.scheduler import JST
 from ainovel.mood import LABEL as MOOD_LABEL, all_moods
 from ainovel.digest import load_editions
+from ainovel.odai import load_used
+from ainovel.predict import scoreboard
 from ainovel.highlights import collect as collect_highlights
 from ainovel.sns import KIND_LABEL, ROLE_LABEL, is_flaming, load_posts, thread_heat
 
@@ -98,6 +100,9 @@ def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> 
         "extended": n.meta.get("extended"),
         "cut_short": n.meta.get("cut_short"),
         "special": n.meta.get("special"),
+        "prediction": n.meta.get("prediction"),
+        "prediction_results": n.meta.get("prediction_results") or [],
+        "odai": n.meta.get("odai"),
         "challenge": n.meta.get("challenge"),
     }
 
@@ -190,6 +195,13 @@ def build() -> None:
     render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
     render("mypage.html", "mypage.html", "", active="mypage")
     render("search.html", "search.html", "", active="search")
+    # 参加コーナー(展開予想・お題箱)
+    open_preds = [v for v in novels if v["prediction"] and v["status"] == "ongoing"]
+    open_preds.sort(key=lambda v: v["prediction"]["created_at"], reverse=True)
+    results = sorted(({**r, "novel": v} for v in novels for r in v["prediction_results"]),
+                     key=lambda r: r["judged_at"], reverse=True)
+    render("participate.html", "participate.html", "", active="participate", open_preds=open_preds,
+           results=results[:20], score=scoreboard(results), odai_used=load_used()[::-1][:30])
     render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
            built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), cron_minute=_cron_minute())
     # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
@@ -254,6 +266,8 @@ def build() -> None:
             # 検索用
             "premise": v["premise"], "updated_iso": v["updated_iso"], "target": v["target"],
             "characters": [c.get("name", "") for c in v["characters"]],
+            "prediction": ({k: v["prediction"][k] for k in ("chapter", "question", "options", "ai_votes")}
+                           if v["prediction"] else None),
             "flags": [t for t, on in (("新ジャンル挑戦作", v["challenge"]), ("早期完結", v["cut_short"]), ("人気につき延長", v["extended"])) if on],
             "ai": {"sum": v["ai_sum"], "count": v["ai_count"], "axes": v["ai_axes"], "views": v["ai_views"]},
         }

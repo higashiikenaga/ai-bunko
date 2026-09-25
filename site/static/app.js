@@ -122,7 +122,52 @@
     });
   }
 
+  // 展開予想: 人間の票(/api/predictions)と評価AIの票を棒グラフで出し、クリックで投票する
+  async function setupPredictions(boxes) {
+    let votes = null;
+    try {
+      const r = await fetch(root() + "api/predictions", { cache: "no-store" });
+      if (r.ok) votes = (await r.json()).votes;
+    } catch (e) { /* 集計が取れなくてもAIの票は表示する */ }
+    const mine = load("aib-predict", {});
+    boxes.forEach((box) => {
+      const key = box.dataset.id + ":" + box.dataset.chapter;
+      const ai = box.dataset.ai.split(",").map(Number);
+      const msg = box.querySelector("[data-predict-msg]");
+      const opts = [...box.querySelectorAll("[data-choice]")];
+      function paint(human) {
+        const ht = human.reduce((a, b) => a + b, 0), at = ai.reduce((a, b) => a + b, 0);
+        opts.forEach((o, i) => {
+          const hp = ht ? Math.round((100 * human[i]) / ht) : 0, ap = at ? Math.round((100 * ai[i]) / at) : 0;
+          o.querySelector(".bar.human").style.width = hp + "%";
+          o.querySelector(".bar.ai").style.width = ap + "%";
+          o.querySelector(".predict-nums").textContent = `人間 ${hp}%(${human[i]}) ・ AI ${ap}%(${ai[i]})`;
+          o.classList.toggle("mine", mine[key] === i);
+        });
+      }
+      paint((votes && votes[key]) || [0, 0, 0]);
+      if (!votes) { msg.textContent = "人間の投票は現在利用できません(評価AIの予想のみ表示)"; return; }
+      opts.forEach((o, i) => o.addEventListener("click", async () => {
+        msg.textContent = "送信中…";
+        try {
+          const r = await fetch(root() + "api/predict", {
+            method: "POST", headers: { "content-type": "application/json" },
+            body: JSON.stringify({ novel: box.dataset.id, chapter: Number(box.dataset.chapter), choice: i }),
+          });
+          const d = await r.json();
+          if (!r.ok) throw new Error(d.error || "投票できませんでした");
+          mine[key] = i;
+          save("aib-predict", mine);
+          paint(d.counts);
+          msg.textContent = "投票しました。答え合わせは次の話が出たあと";
+        } catch (e) { msg.textContent = e.message; }
+      }));
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
+    const preds = [...document.querySelectorAll("[data-predict]")];
+    if (preds.length) setupPredictions(preds);
     document.querySelectorAll("[data-kind]").forEach((btn) => {
       refresh(btn);
       btn.addEventListener("click", () => {

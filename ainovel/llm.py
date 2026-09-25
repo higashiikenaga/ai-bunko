@@ -260,6 +260,13 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if '"options"' in user:
+            import re as _re
+            names = _re.findall(r"^- (.+?)\(辛口度", user, _re.M)
+            return json.dumps({"question": f"モック予想{n}: 次に何が起きる?", "options": ["再会する", "裏切られる", "旅に出る"],
+                               "votes": {nm: self.rng.randint(0, 2) for nm in names}}, ensure_ascii=False)
+        if '"answer"' in user:
+            return json.dumps({"answer": self.rng.randint(-1, 2), "reason": "モック判定"}, ensure_ascii=False)
         if '"subtitle"' in user:
             return json.dumps({"subtitle": f"モック外伝{n}", "premise": "モックの外伝あらすじ。", "focus": "ルナ", "ending": "静かに終わる",
                                "chapters": [f"第{i}話のモック構成" for i in range(1, 6)]}, ensure_ascii=False)

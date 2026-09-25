@@ -218,7 +218,9 @@ def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None]:
     empty = [n for n in candidates if not n.chapters]
     if empty:
         return "write", empty[0]
-    if len(ongoing) < int(cfg["writing"]["max_ongoing"]):
+    # 連載枠が空いていれば、ときどき新作を始める(毎回だと連載の続きが進まないので確率で)
+    w = cfg["writing"]
+    if len(ongoing) < int(w["max_ongoing"]) and (not candidates or random.random() < float(w.get("new_work_probability", 1.0))):
         return "create", None
     if not candidates:
         return "none", None

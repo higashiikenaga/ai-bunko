@@ -89,6 +89,8 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     genres = [g for g in pool if g not in recent_genres] or pool
     genre = random.choice(genres)
     motifs = random.sample(MOTIFS, 2)
+    if author and author.get("official"):
+        author = None  # 公式(特別企画)の作家は、特別企画以外の作品を書かない
     author = author or choose_author(cfg, genre)
     print(f"■ 新作を企画: {genre} / 作家 {author['name'] if author else '-'} / モチーフ {motifs}")
 
@@ -246,6 +248,10 @@ def pick_next(cfg: dict, skip: set[str]) -> tuple[str, Novel | None, dict | None
     sp = special.due_novel(skip)
     if sp:
         return "write", sp, None
+    # 本編が完結して評価が高ければ、外伝を企画する(公式作家は外伝以外の作品は出さない)
+    spec = special.gaiden_candidate((cfg.get("site") or {}).get("url", ""))
+    if spec:
+        return "gaiden", None, spec
     ongoing = [n for n in all_novels() if n.is_ongoing and n.id not in skip and not special.is_special(n)]
     # 企画だけして第1話がまだの作品は最優先で書く
     empty = [n for n in ongoing if not n.chapters]
@@ -303,6 +309,9 @@ def post_one(llm, cfg: dict, state: DailyState, failed_this_run: set[str]) -> st
         try:
             if action == "create":
                 create_novel(llm, cfg, author)
+                continue
+            if action == "gaiden":
+                special.create_gaiden(llm, author, chat_json)
                 continue
             write_next_chapter(llm, novel, cfg)
             if novel.meta.get("fail_count"):

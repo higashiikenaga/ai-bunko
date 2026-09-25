@@ -13,7 +13,7 @@
       <a class="special-banner" href="novels/{{ cur.id }}/index.html">
         <span class="special-tag">✦ {{ cur.special.label }}</span>
         <b>『{{ cur.special.series_title }}』</b>
-        <span class="small">第{{ cur.special.part }}部{% if cur.special.part > 1 %} {{ cur.special.subtitle }}{% endif %} ・ {{ cur.chapters|length }}/{{ cur.target }}話{% if cur.status == 'completed' %} 完結{% else %} 連載中{% endif %} ・ 作: {{ cur.author }}</span>
+        <span class="small">{% if cur.special.gaiden %}{{ cur.special.subtitle }}{% else %}第{{ cur.special.part }}部{% if cur.special.part > 1 %} {{ cur.special.subtitle }}{% endif %}{% endif %} ・ {{ cur.chapters|length }}/{{ cur.target }}話{% if cur.status == 'completed' %} 完結{% else %} 連載中{% endif %} ・ 作: {{ cur.author }}</span>
         <span class="xsmall muted">{{ cur.premise|truncate(70, True, '…') }}</span>
       </a>
     {% endfor %}

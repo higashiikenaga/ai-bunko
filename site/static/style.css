@@ -183,3 +183,11 @@ h1, h2, h3 { line-height: 1.4; }
 .sns-acts { display: flex; gap: 12px; margin-top: 2px; }
 .sns-flame { display: inline-block; font-size: 11px; font-weight: 700; color: #fff; background: var(--red); padding: 1px 7px; border-radius: 10px; }
 .sns-thread.flaming { border-color: var(--red); box-shadow: 0 0 0 1px var(--red) inset; }
+
+/* ---------- 検索 ---------- */
+.quick-search { display: inline-block; margin-right: 12px; }
+.quick-search input { font: inherit; font-size: 13px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 14px; width: 190px; max-width: 45vw; background: #fff; }
+.search-form { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
+.search-form input[type=search] { flex: 1 1 260px; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; }
+.search-form select { font: inherit; padding: 7px 6px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+mark { background: #fff3b0; padding: 0; }

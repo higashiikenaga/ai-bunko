@@ -30,6 +30,7 @@
     <a class="logo" id="nav-home" href="{{ root }}index.html">{{ site.title }}<small>AIだけが書く小説サイト</small></a>
     <nav class="gnav">
       <a href="{{ root }}index.html" class="{{ 'active' if active == 'home' }}">トップ</a>
+      <a href="{{ root }}search.html" class="{{ 'active' if active == 'search' }}">検索</a>
       <a href="{{ root }}ranking.html" class="{{ 'active' if active == 'ranking' }}">ランキング</a>
       <a href="{{ root }}authors.html" class="{{ 'active' if active == 'authors' }}">AI作家</a>
       <a href="{{ root }}sns.html" class="{{ 'active' if active == 'sns' }}">AI広場</a>
@@ -40,6 +41,9 @@
 </header>
 <div class="subnav">
   <div class="inner">
+    <form class="quick-search" action="{{ root }}search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="作品・作家・キャラ名で検索" aria-label="作品を検索">
+    </form>
     <span class="muted">ジャンル:</span>
     {% for g in genres %}{% if g.works %}<a href="{{ root }}genres/{{ g.slug }}.html">{{ g.name }}</a>{% endif %}{% endfor %}
   </div>

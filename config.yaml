@@ -52,7 +52,7 @@ min_interval_sec: 3
 schedule:
   daily_min_posts: 50        # 1日に最低これだけの話数を投稿する
   daily_max_posts: 0         # 1日の上限。0 = 無料枠(1日の上限)に当たるまで書き続ける
-  run_interval_hours: 0.5    # GitHub Actionsの起動間隔(.github/workflows/bunko-writer.yml の cron と合わせる)
+  run_interval_hours: 0.5    # 実行の間隔(ワークフローのリレーは開始から30分後に次を起動する)
   reliability: 0.8           # 定期実行が遅延・欠落する分の見込み(残り回数をこの割合で見積もる)
   min_deadline_hour: 18      # 最低本数はこの時刻(日本時間)までに書き終える目標。以降の実行は予備
   activity_window_min: 25    # 1回の実行で、作家と読者がこの時間(分)の中のランダムな時刻にそれぞれ投稿・評価する

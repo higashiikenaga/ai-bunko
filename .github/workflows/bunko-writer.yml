@@ -3,7 +3,9 @@ name: AI文庫 自動執筆
 # AIが執筆してリポジトリにコミットする。サイトの公開は Cloudflare Pages が担当
 # (push されるたびに自動でビルド・公開)。
 #
-# 30分ごとに起動し、約25分のあいだのランダムな時刻に、作家・読者がそれぞればらばらに投稿・評価する。
+# 約30分ごとに動き、約25分のあいだのランダムな時刻に、作家・読者がそれぞればらばらに投稿・評価する。
+# GitHubの定期実行(cron)は遅れたり飛ばされたりしやすいので、各実行の最後に次の実行を自分で起動する(リレー)。
+# cron はリレーが途切れたときの保険。
 # → 投稿時刻は毎回ばらばら、1日の最低話数(config.yaml の schedule.daily_min_posts)は必ず満たす。
 # Cloudflare Pages無料プランのビルド回数(月500回)に収まるよう、コミットは1回の実行につき1回だけ。
 on:
@@ -19,9 +21,14 @@ on:
         description: "投稿・評価をランダムな時刻にばらけさせる(オフなら続けてすぐ書く)"
         type: boolean
         default: false
+      chain:
+        description: "終わったら次の実行を自動で起動する(リレー)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
+  actions: write  # 次の実行を起動するため
 
 concurrency:
   group: ai-bunko-writer
@@ -30,8 +37,10 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 100
     steps:
+      - name: 開始時刻を記録
+        run: echo "RUN_START=$(date +%s)" >> "$GITHUB_ENV"
       # 待ち行列に並んでいた実行でも、起動時点ではなく最新の main から始める(前の実行の書き込みを取り込む)
       - uses: actions/checkout@v4
         with:
@@ -100,3 +109,16 @@ jobs:
           fi
           python -m ainovel.build
           npx --yes wrangler@3 pages deploy _site --project-name "$PROJECT" --branch main --commit-dirty=true
+      # リレー: 開始から30分たったら次の実行を起動する(失敗しても途切れないよう always)。
+      # 同時に動くのは concurrency で1つまでなので、重複して起動されても詰まらない
+      - name: 次の実行を起動
+        if: always() && github.event.inputs.chain != 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          wait=$(( 1800 - ($(date +%s) - RUN_START) ))
+          if [ "$wait" -gt 0 ]; then
+            echo "次の実行まで $((wait / 60))分 待ちます"
+            sleep "$wait"
+          fi
+          gh workflow run bunko-writer.yml --repo "$GITHUB_REPOSITORY" --ref main -f posts= -f delay=true -f chain=true

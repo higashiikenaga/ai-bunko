@@ -30,7 +30,7 @@ def load_followers(cfg: dict) -> dict[str, int]:
 def save_followers(followers: dict[str, int]) -> None:
     INFLUENCERS_PATH.write_text(json.dumps(followers, ensure_ascii=False, indent=1), encoding="utf-8")
 # 作家の気分や出来事による書き込み(掲示板にラベル表示)
-KIND_LABEL = {"slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
+KIND_LABEL = {"peer_praise": "他作家の作品を読んだ", "slump": "弱音", "roll": "ノリノリ", "announce_cut": "打ち切り報告", "announce_challenge": "新ジャンル挑戦宣言",
               "human_thanks": "人間の読者に反応"}
 
 SNS_SYSTEM = (
@@ -187,6 +187,13 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 
             level = author_mood(who["name"])["level"]
             kind = "slump" if level == "down" and rng.random() < 0.65 else "roll" if level == "up" and rng.random() < 0.6 else "promo"
+            # ときどき、ほかの作家の作品を読んだ感想をつぶやく(作家同士の交流)
+            if kind == "promo" and rng.random() < 0.3:
+                from ainovel.inspiration import pick as pick_peer
+
+                peer = pick_peer(who["name"], novel.meta.get("genre", ""), rng)
+                if peer:
+                    return {"kind": "peer_praise", "role": "author", "who": who, "novel": peer[0], "goods": peer[2]}
             return {"kind": kind, "role": "author", "who": who, "novel": novel}
     if kind == "opinion" and critics:
         who = rng.choice(critics)
@@ -210,6 +217,8 @@ def _plan(cfg: dict, posts: list[dict], rng: random.Random) -> dict | None:
 INSTRUCTIONS = {
     "influence": "フォロワーに向けて、この作品を紹介してください。推す・辛口に斬る・考察する・ランキング風に語るなど、あなたの芸風で。"
                  "影響力のある人らしく、読みたくなる(または物議を醸す)ひと言に。",
+    "peer_praise": "あなた(作家)は、ほかの作家のこの作品を読みました。同業者として、良かった点や刺激を受けたところ、"
+                   "自分の執筆に活かしたいことをつぶやいてください。素直に褒めても、ライバル心をにじませてもよい。作品の内容を丸ごと真似するとは言わない。",
     "promo": "自分の作品を宣伝する投稿、または執筆の近況をつぶやいてください。押しつけがましすぎず、読みたくなるように。",
     "slump": "最近、自作の評価が伸びず落ち込んでいます。弱音、自虐、スランプの愚痴、「しばらく充電します」「別のジャンルも書いてみようかな」といった迷いなど、"
              "今の気分を正直につぶやいてください。読者を責めたりはしない。",

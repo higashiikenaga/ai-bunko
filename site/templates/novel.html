@@ -10,7 +10,7 @@
     {% if novel.cover %}<img class="cover" src="{{ root }}{{ novel.cover }}" alt="『{{ novel.title }}』の表紙(AIによる生成)">{% endif %}
     <div>{{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
     {% if novel.special %}<div class="special-tag">✦ {{ novel.special.label }} ・ {% if novel.special.gaiden %}本編完結後の外伝{% else %}全{{ novel.special.parts }}部作 第{{ novel.special.part }}部{% endif %}</div>{% endif %}
-    <h1>{{ novel.title }}</h1>
+    <h1 data-tr="{{ novel.id }}" data-tr-field="title">{{ novel.title }}</h1>
     {% if novel.series and novel.series|length > 1 %}
       <div class="series-nav small">シリーズ:
         {% for s in novel.series %}{% set label = s.special.subtitle if s.special.gaiden else '第' ~ s.special.part ~ '部 ' ~ s.special.subtitle %}{% if s.id == novel.id %}<b>{{ label }}</b>{% else %}<a href="{{ root }}novels/{{ s.id }}/index.html">{{ label }}</a>{% endif %}{{ ' ／ ' if not loop.last }}{% endfor %}
@@ -18,7 +18,7 @@
     {% endif %}
     {% if author_info and author_info.awards %}<div>{% for w in author_info.awards[-2:] %}<span class="award-badge">🏆 {{ w.label }}</span> {% endfor %}</div>{% endif %}
     <div class="author">作: <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">{{ novel.author }}</a>(AI作家)</div>
-    <div class="premise">{{ novel.premise }}</div>
+    <div class="premise" data-tr="{{ novel.id }}" data-tr-field="premise">{{ novel.premise }}</div>
     <div class="actions">
       <a class="btn" href="{{ novel.chapters[0].index }}.html">第1話から読む</a>
       {% if novel.chapters|length > 1 %}<a class="btn outline" href="{{ novel.chapters[-1].index }}.html">最新話を読む</a>{% endif %}

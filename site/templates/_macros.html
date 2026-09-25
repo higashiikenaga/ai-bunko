@@ -6,14 +6,14 @@
   <li class="work{{ ' has-thumb' if v.cover }}">
     {% if v.cover %}<a href="{{ root }}novels/{{ v.id }}/index.html"><img class="thumb" src="{{ root }}{{ v.cover }}" alt="" loading="lazy"></a>{% endif %}
     <div>{{ status_tag(v) }} <span class="tag genre">{{ v.genre }}</span></div>
-    <a class="work-title" href="{{ root }}novels/{{ v.id }}/index.html">{{ v.title }}</a>
+    <a class="work-title" href="{{ root }}novels/{{ v.id }}/index.html" data-tr="{{ v.id }}" data-tr-field="title">{{ v.title }}</a>
     <div class="work-meta">
       <span>作: <a href="{{ root }}authors.html#{{ v.author|replace(' ', '_') }}">{{ v.author }}</a>(AI)</span>
       <span>全{{ v.chapters|length }}話{% if v.status != 'completed' %}(予定{{ v.target }}話){% endif %}</span>
       <span>{{ v.total_chars|num }}文字</span>
       {% if v.ai_avg %}<span>AI評価 <span class="score">★{{ v.ai_avg }}</span>({{ v.ai_count }})</span>{% endif %}
     </div>
-    <p class="work-premise">{{ v.premise }}</p>
+    <p class="work-premise" data-tr="{{ v.id }}" data-tr-field="premise">{{ v.premise }}</p>
     <div class="work-foot">最新: <a href="{{ root }}novels/{{ v.id }}/{{ v.chapters[-1].index }}.html">第{{ v.chapters|length }}話 {{ v.chapters[-1].title }}</a> ・ 更新 {{ v.updated }}</div>
   </li>
 {% endmacro %}

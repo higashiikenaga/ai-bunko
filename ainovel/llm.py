@@ -275,6 +275,9 @@ class MockLLM(BaseLLM):
 
     def chat(self, system, user, max_tokens=2048, temperature=0.9):
         n = self.rng.randint(100, 999)
+        if "「刺激を受けた」記録" in user:
+            return json.dumps({"status": "candidate", "trend": "会話劇", "origin": None,
+                               "evidence": ["モック: 複数の作家が掛け合いを参考にした"], "confidence": "low"}, ensure_ascii=False)
         if '"options"' in user:
             import re as _re
             names = _re.findall(r"^- (.+?)\(辛口度", user, _re.M)

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import random
 
-from ainovel.novel import Novel, all_novels
+from ainovel.novel import Novel, all_novels, now_iso
 from ainovel.review import load_reviews
 
 PROBABILITY = 0.3   # 1話書くたびに、他作家の作品を読んで参考にする確率
@@ -52,7 +52,8 @@ def prompt_block(novel: Novel, index: int, rng: random.Random | None = None) -> 
         return ""
     peer, avg, goods = picked
     novel.meta.setdefault("inspired_by", []).append(
-        {"novel": peer.id, "title": peer.meta["title"], "author": peer.meta.get("author", ""), "chapter": index})
+        {"novel": peer.id, "title": peer.meta["title"], "author": peer.meta.get("author", ""), "chapter": index,
+         "goods": goods, "at": now_iso()})  # 参考にした技法と日時(文学トレンド分析に使う)
     novel.meta["inspired_by"] = novel.meta["inspired_by"][-10:]
     novel.save_meta()
     print(f"  📚 {novel.meta.get('author')} は『{peer.meta['title']}』({peer.meta.get('author')})を読んで刺激を受けた")

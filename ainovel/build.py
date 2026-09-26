@@ -210,6 +210,8 @@ def build() -> None:
         add_slide(parts[-1], "✦ " + parts[-1]["special"]["label"])
     for v in ai_top[:2]:
         add_slide(v, "🏆 AI評価ランキング上位")
+    for v in [v for v in ongoing + completed if v.get("cover")][:2]:  # 表紙のある作品は見栄えがするので優先
+        add_slide(v, "🎨 表紙つき" if v not in completed else "📕 完結")
     for v in sorted(novels, key=lambda v: v["created"], reverse=True)[:3]:
         add_slide(v, "🆕 新作")
     for v in completed[:2]:

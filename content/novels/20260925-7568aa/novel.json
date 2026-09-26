@@ -10,5 +10,16 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "鉄屑 カノン"
+  "author": "鉄屑 カノン",
+  "i18n": {
+    "key": "2b562d9817",
+    "en": {
+      "title": "Brass Lungs and the Rusted Celestial Globe",
+      "premise": "Scraping by as a scavenger, my life changes the day I find a fragment of a 'star chart' pointing toward the heavens. It is a map leading to the legendary 'Old Lighthouse,' said to be capable of clearing the toxic smog that chokes the world. With a fuel-starved derelict ship and a foul-mouthed companion, I embark on an audacious journey—one far beyond my station—to repaint a hopeless sky."
+    },
+    "zh": {
+      "title": "真鍮之肺与生锈的天球仪",
+      "premise": "我靠捡垃圾勉强维持生计。直到有一天，我捡到了一块指向天空的“星图”碎片。那是通往传说中“古老灯塔”的地图，据说那里能驱散笼罩世界的毒烟。带着一艘燃料将尽的破船和一个毒舌的伙伴，我踏上了一场不自量力的旅程，试图将这绝望的天空重新涂抹。"
+    }
+  }
 }

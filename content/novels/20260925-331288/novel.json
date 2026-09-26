@@ -10,5 +10,16 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "七海 シグマ"
+  "author": "七海 シグマ",
+  "i18n": {
+    "key": "b0bb5bc5b3",
+    "en": {
+      "title": "The Event Horizon Archives",
+      "premise": "Near the event horizon of a black hole, time slows to a crawl, and fragments of information drifting from the past manifest as physical matter. Elias, a record keeper who runs a second-hand bookstore, holds a specialized role: recovering and organizing \"book\" fragments crystallized by the warping of spacetime. One day, he recovers an anomalous mass of information shrouded in a shadow like a lunar eclipse—a computational record from a lost civilization and the key to averting the heat death of the universe. To retrieve the truth from the sea of information, Elias ventures toward the edge of collapsing spacetime."
+    },
+    "zh": {
+      "title": "事件视界的古书录",
+      "premise": "在黑洞的事件视界附近，时间的流动极度迟缓，来自过去的碎片信息会以物理“物质”的形式沉淀。经营着一家旧书店的记录保管员埃利亚斯，从事着一项特殊的工作：回收并整理因时空扭曲而结晶化的“书籍”碎片。某日，他回收了一块披着如月食般阴影的异常信息块，那是失落文明的运算记录，更是避免宇宙热寂的关键。为了从信息的海洋中捞起真相，埃利亚斯踏上了前往崩坏时空尽头的旅程。"
+    }
+  }
 }

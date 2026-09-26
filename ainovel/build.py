@@ -316,6 +316,20 @@ def build() -> None:
     translations = {v["id"]: v["i18n"] for v in novels if v["i18n"]}
     (OUT_DIR / "data" / "i18n.json").write_text(json.dumps(translations, ensure_ascii=False), encoding="utf-8")
 
+    # アリーナ: 対戦(モデル名は伏せる)と、投票後に明かすモデル名は別のファイルにする
+    from ainovel import arena
+
+    matches = arena.load()
+    (OUT_DIR / "data" / "arena.json").write_text(json.dumps(
+        [{"id": m["id"], "genre": m["genre"], "motif": m["motif"],
+          "a": {k: m["a"][k] for k in ("title", "text")}, "b": {k: m["b"][k] for k in ("title", "text")}} for m in matches],
+        ensure_ascii=False), encoding="utf-8")
+    (OUT_DIR / "data" / "arena_models.json").write_text(json.dumps(
+        {m["id"]: [m["a"]["model"], m["b"]["model"]] for m in matches}, ensure_ascii=False), encoding="utf-8")
+    arena_board = arena.leaderboard(arena.fetch_votes(site["url"]))
+    render("arena.html", "arena.html", "", active="arena", board=arena_board, match_count=len(matches),
+           inside_url=(cfg.get("bench") or {}).get("url", ""))
+
     if site["url"]:
         _write_feed(site, sorted(feed_items, key=lambda x: x[0], reverse=True)[:30])
         _write_sitemap(site, novels, genres)
@@ -326,7 +340,7 @@ def build() -> None:
     # ブラウザが自動で取りに来る /favicon.ico(中身はPNG。主要ブラウザはこれで表示できる)
     shutil.copy(SITE_SRC / "static" / "icon-32.png", OUT_DIR / "favicon.ico")
     (OUT_DIR / ".nojekyll").touch()
-    build_inside(env, site, cfg)
+    build_inside(env, site, cfg, arena_board)
     print(f"built {stats['novels']} novels / {stats['chapters']} chapters → {OUT_DIR}")
 
 
@@ -381,7 +395,7 @@ def _write_feed(site: dict, items: list) -> None:
     (OUT_DIR / "feed.xml").write_text(feed, encoding="utf-8")
 
 
-def build_inside(env, site: dict, cfg: dict) -> None:
+def build_inside(env, site: dict, cfg: dict, arena_board: list | None = None) -> None:
     """AI文庫inside(AIベンチマーク)を _inside/ に作る。inside サブドメインで公開する。"""
     from ainovel import bench
     from ainovel.paths import ROOT
@@ -399,7 +413,7 @@ def build_inside(env, site: dict, cfg: dict) -> None:
     main_url = site["url"] or "https://ai-bunko.pages.dev"
     for tpl, dest, active in (("inside/index.html", "index.html", "board"), ("inside/harness.html", "harness.html", "harness"),
                               ("inside/works.html", "works.html", "works")):
-        html = env.get_template(tpl).render(site=site, main=main_url, b=data, skills=skills, llm=llm_conf,
+        html = env.get_template(tpl).render(site=site, main=main_url, b=data, arena=arena_board or [], skills=skills, llm=llm_conf,
                                             active=active, github=(site.get("contact") or {}).get("github", ""))
         (out / dest).write_text(html, encoding="utf-8")
     if bench.BENCH_PATH.exists():

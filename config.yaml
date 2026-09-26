@@ -580,3 +580,11 @@ bench:
   daily_calls:
     workers-ai: 20
     groq-bench: 200
+
+# ---- AI文庫アリーナ(小説版の Chatbot Arena)----
+# 同じお題で2つのモデルが掌編を書き、モデル名を伏せて読者が投票する。票から Elo レーティングを出す
+arena:
+  enabled: true
+  per_run: 1        # 1回の実行で作る対戦の数
+  chars: 1500       # 掌編の目安文字数
+  # models: [...]   # 出場モデルを絞るとき。省略すると使えるモデル全部(ベンチ専用の無料モデルを含む)

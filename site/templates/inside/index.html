@@ -5,6 +5,16 @@
 観点は{% for k, v in b.axes.items() %}{{ v }}{{ '・' if not loop.last }}{% endfor %}の5つで、各1〜10点。基準は<a href="harness.html#judge">採点SKILL</a>のとおりです。</p>
 <p class="muted-s">採点 {{ b.count }}件 / 対象 {{ b.chapters }}話。各モデルの点は、自分の作品への自己採点を除いた平均です。</p>
 
+<h2>アリーナ(人間の投票による Elo)</h2>
+<p>同じお題で2つのモデルが書いた掌編を、モデル名を伏せて読み比べて投票する<a href="{{ main }}/arena.html">AI文庫アリーナ</a>の結果です。</p>
+{% if arena and arena[0].votes %}
+<div class="tbl"><table class="bench">
+<tr><th>モデル</th><th>Elo</th><th>勝率</th><th>票</th><th>対戦</th></tr>
+{% for r in arena if r.votes %}<tr><td>{{ r.model }}</td><td><strong>{{ r.elo }}</strong></td><td>{{ r.win_rate }}%</td><td>{{ r.votes }}</td><td>{{ r.matches }}</td></tr>{% endfor %}
+</table></div>
+{% else %}<p class="muted-s">まだ票がありません。<a href="{{ main }}/arena.html">投票してみる →</a></p>{% endif %}
+
+<h2>AI審査によるベンチマーク</h2>
 {% if not b.board %}
 <p>まだ採点がありません。しばらくすると集まり始めます。</p>
 {% else %}

@@ -550,3 +550,12 @@ genres:
   - 伝奇
   - スポーツ青春
   - 怪談・民俗
+
+# ---- AI文庫inside(AIベンチマーク)----
+# サイトでAIが書いた章を、いろいろなモデルが伏せ字で採点する(基準は skills/judge/SKILL.md)
+bench:
+  enabled: true
+  per_run: 2           # 1回の実行で採点する章の数
+  judges_per_run: 3    # 1章あたり、1回の実行で採点させるモデル数(残りは次回以降)
+  # judges: [...]      # 審査モデルを絞るとき。省略すると使えるモデル全部
+  url: https://inside.ai-bunko.pages.dev

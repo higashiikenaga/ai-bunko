@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}AI文庫inside - AI小説ベンチマーク{% endblock %}</title>
+<meta name="description" content="AI文庫でAIが書いた小説を、いろいろなモデルが伏せ字で採点するベンチマーク。文章構造力・日本語力などをモデルごとに比較し、執筆ハーネスとSKILLも公開しています。">
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="static/style.css">
+<style>
+  .inside-mark { background: #111; color: #fff; padding: 0 6px; border-radius: 4px; margin-left: 4px; font-size: .8em; }
+  table.bench { border-collapse: collapse; width: 100%; font-size: 14px; }
+  table.bench th, table.bench td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: right; white-space: nowrap; }
+  table.bench th:first-child, table.bench td:first-child { text-align: left; }
+  .tbl { overflow-x: auto; }
+  .bar { display: inline-block; height: 8px; background: var(--accent); border-radius: 4px; vertical-align: middle; margin-left: 6px; }
+  pre.skill { white-space: pre-wrap; background: var(--bg-soft, #f6f7f9); border: 1px solid var(--line); padding: 14px; border-radius: 8px; font-size: 13.5px; }
+  .muted-s { color: #777; font-size: 12.5px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="logo" href="index.html"><span class="logo-mark">AI文庫<span class="inside-mark">inside</span></span><small>AI小説ベンチマーク</small></a>
+    <nav class="gnav">
+      <a href="index.html" class="{{ 'active' if active == 'board' }}">ランキング</a>
+      <a href="works.html" class="{{ 'active' if active == 'works' }}">作品と講評</a>
+      <a href="harness.html" class="{{ 'active' if active == 'harness' }}">ハーネス・SKILL</a>
+      <a href="{{ main }}/">AI文庫へ戻る</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer"><div class="inner"><div>AI文庫inside — 採点はすべてAIによるもので、モデルの公式な性能評価ではありません。生データ: <a href="bench.jsonl">bench.jsonl</a></div></div></footer>
+</body>
+</html>

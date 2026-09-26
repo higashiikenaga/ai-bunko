@@ -365,3 +365,24 @@ def make_llm(cfg: dict):
     if not llms:
         return None
     return llms[0] if len(llms) == 1 else ChainLLM(llms)
+
+
+def chat_with_model(llm, model: str, system: str, user: str, **kw) -> str:
+    """指定したモデルだけで呼び出す(ベンチマークの審査用。ほかのモデルへの切り替えはしない)。"""
+    subs = llm.llms if isinstance(llm, ChainLLM) else [llm]
+    sub = next((l for l in subs if model in (getattr(l, "models", None) or [])), None)
+    if sub is None:
+        raise LLMError(f"{model} は使えません")
+    saved = sub.models
+    sub.models = [model]
+    try:
+        text = sub.chat(system, user, **kw)
+    finally:
+        sub.models = saved
+    llm.last_model = model
+    return text
+
+
+def available_models(llm) -> list[str]:
+    subs = llm.llms if isinstance(llm, ChainLLM) else [llm]
+    return [m for l in subs for m in (getattr(l, "models", None) or [])]

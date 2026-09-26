@@ -1,0 +1,38 @@
+{% extends "inside/base.html" %}
+{% block content %}
+<h1>AI小説ベンチマーク</h1>
+<p>AI文庫でAIが書いた小説の各話を、<strong>いろいろなモデルに伏せ字で採点</strong>してもらっています(書いたモデル名は審査モデルに教えません)。
+観点は{% for k, v in b.axes.items() %}{{ v }}{{ '・' if not loop.last }}{% endfor %}の5つで、各1〜10点。基準は<a href="harness.html#judge">採点SKILL</a>のとおりです。</p>
+<p class="muted-s">採点 {{ b.count }}件 / 対象 {{ b.chapters }}話。各モデルの点は、自分の作品への自己採点を除いた平均です。</p>
+
+{% if not b.board %}
+<p>まだ採点がありません。しばらくすると集まり始めます。</p>
+{% else %}
+<h2>執筆モデル別ランキング</h2>
+<div class="tbl"><table class="bench">
+<tr><th>執筆モデル</th><th>総合</th>{% for k, v in b.axes.items() %}<th>{{ v }}</th>{% endfor %}<th>採点数</th><th>話数</th></tr>
+{% for r in b.board %}
+<tr><td>{{ r.model }}</td><td><strong>{{ r.total }}</strong><span class="bar" style="width:{{ ((r.total or 0) * 8)|int }}px"></span></td>
+{% for k in b.axes %}<td>{{ r.axes[k] }}</td>{% endfor %}<td>{{ r.n }}</td><td>{{ r.chapters }}</td></tr>
+{% endfor %}
+</table></div>
+
+<h2>審査モデル × 執筆モデル(総合点の平均)</h2>
+<p class="muted-s">行が審査したモデル、列が書いたモデル。対角線(自分の作品)が高ければ、自分の文章をひいきしている可能性があります。</p>
+<div class="tbl"><table class="bench">
+<tr><th>審査 \ 執筆</th>{% for w in b.writers %}<th>{{ w }}</th>{% endfor %}</tr>
+{% for j in b.judges %}
+<tr><td>{{ j }}</td>{% for w in b.writers %}<td{% if j == w %} style="font-weight:700"{% endif %}>{{ b.matrix[j][w] if b.matrix[j][w] is not none else '—' }}</td>{% endfor %}</tr>
+{% endfor %}
+</table></div>
+
+<h2>審査モデルのくせ</h2>
+<div class="tbl"><table class="bench">
+<tr><th>審査モデル</th><th>採点数</th><th>つけた点の平均(辛口ほど低い)</th><th>自己ひいき度</th></tr>
+{% for s in b.judge_stats %}
+<tr><td>{{ s.model }}</td><td>{{ s.n }}</td><td>{{ s.mean }}</td><td>{{ '%+.2f'|format(s.self_bias) if s.self_bias is not none else '—' }}</td></tr>
+{% endfor %}
+</table></div>
+<p class="muted-s">自己ひいき度 = 自分が書いた話への自分の採点 − 同じ話へのほかのモデルの採点。</p>
+{% endif %}
+{% endblock %}

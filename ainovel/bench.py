@@ -26,6 +26,24 @@ AXES = {"structure": "文章構造力", "japanese": "日本語力", "character":
         "originality": "独創性", "consistency": "一貫性"}
 
 
+DEAD_PATH = ROOT / "content" / "bench_dead.json"
+
+
+def _dead() -> set[str]:
+    from datetime import datetime, timedelta, timezone
+
+    today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    data = json.loads(DEAD_PATH.read_text(encoding="utf-8")) if DEAD_PATH.exists() else {}
+    return set(data.get("models", [])) if data.get("date") == today else set()
+
+
+def _mark_dead(model: str) -> None:
+    from datetime import datetime, timedelta, timezone
+
+    today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    DEAD_PATH.write_text(json.dumps({"date": today, "models": sorted(_dead() | {model})}), encoding="utf-8")
+
+
 def load() -> list[dict]:
     if not BENCH_PATH.exists():
         return []
@@ -55,7 +73,7 @@ def judges(llm, cfg: dict) -> list[str]:
     return [m for m in (b.get("judges") or avail) if m in avail]
 
 
-def _jev(n, ch: dict, text: str) -> dict:
+def _jev(cfg: dict, n, ch: dict, text: str) -> dict:
     """typesafe/jev(文章は書かず、段階を確率つきで返す)で採点する。ルールは skills/judge/jev.yaml。"""
     import yaml
 
@@ -67,15 +85,26 @@ def _jev(n, ch: dict, text: str) -> dict:
              "ここまでの流れ": before or "(これが第1話)", "本文": text[:9000]}
     questions = {k: {"type": "score", "instructions": rules["instructions_common"] + "\n" + q["instructions"],
                      "criteria": q["criteria"]} for k, q in rules["questions"].items()}
-    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CLOUDFLARE_ACCOUNT_ID'].strip()}/ai/run/{JEV}"
-    req = urllib.request.Request(url, data=json.dumps({"state": state, "questions": questions}).encode(), method="POST",
-                                 headers={"Authorization": f"Bearer {_token()}", "Content-Type": "application/json",
-                                          "User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(req, timeout=120) as res:
-            data = json.load(res)
-    except urllib.error.HTTPError as e:
-        raise LLMError(f"Jev HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}") from e
+    acct = os.environ["CLOUDFLARE_ACCOUNT_ID"].strip()
+    gateway = str((cfg.get("bench") or {}).get("jev_gateway", "default"))
+    # Jev は Cloudflare の外部モデルで、請求は AI Gateway を通る。まず通常の REST、だめなら AI Gateway 経由で呼ぶ
+    urls = [f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{JEV}",
+            f"https://gateway.ai.cloudflare.com/v1/{acct}/{gateway}/workers-ai/{JEV}"]
+    body = json.dumps({"state": state, "questions": questions}).encode()
+    errors = []
+    data = None
+    for url in urls:
+        req = urllib.request.Request(url, data=body, method="POST",
+                                     headers={"Authorization": f"Bearer {_token()}", "cf-aig-authorization": f"Bearer {_token()}",
+                                              "Content-Type": "application/json", "User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as res:
+                data = json.load(res)
+            break
+        except urllib.error.HTTPError as e:
+            errors.append(f"{'gateway' if 'gateway.ai' in url else 'REST'} HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:200]}")
+    if data is None:
+        raise LLMError("Jev " + " / ".join(errors))
     out = data.get("result", data)
     if isinstance(out, dict) and "answers" not in out and isinstance(out.get("result"), dict):
         out = out["result"]  # AI Gateway の請求を通すと一段包まれて返る
@@ -135,7 +164,8 @@ def judge_some(llm, cfg: dict, rng: random.Random | None = None) -> int:
     # 採点の少ない章を優先(同じくらいならランダム)
     rng.shuffle(cands)
     n, ch = min(cands, key=lambda t: len(done[(t[0].id, t[1]["index"])]))
-    todo = sorted((j for j in js if j not in done[(n.id, ch["index"])]), key=lambda j: (j != JEV, per_judge[j], rng.random()))  # Jev は安いので毎回まっ先に
+    dead = _dead()
+    todo = sorted((j for j in js if j not in done[(n.id, ch["index"])] and j not in dead), key=lambda j: (j != JEV, per_judge[j], rng.random()))  # Jev は安いので毎回まっ先に
     todo = todo[:int(b.get("judges_per_run", 3))]
     text = n.chapter_text(ch["index"])
     user = _prompt(n, ch, text)
@@ -144,9 +174,11 @@ def judge_some(llm, cfg: dict, rng: random.Random | None = None) -> int:
     print(f"■ ベンチ採点: 『{n.meta['title']}』第{ch['index']}話(執筆 {ch['model']})を {', '.join(todo)} が採点")
     for j in todo:
         try:
-            res = _jev(n, ch, text) if j == JEV else _parse(chat_with_model(llm, j, system, user, max_tokens=2048, temperature=0.2))
+            res = _jev(cfg, n, ch, text) if j == JEV else _parse(chat_with_model(llm, j, system, user, max_tokens=2048, temperature=0.2))
         except (LLMError, ValueError, KeyError, TypeError) as e:
-            print(f"  ✗ {j}: {str(e)[:150]}")
+            print(f"  ✗ {j}: {str(e)[:200]}")
+            if any(w in str(e) for w in ("does not exist", "HTTP 404", "No route", "decommissioned", "not found")):
+                _mark_dead(j)  # 存在しない・使えないモデルは今日はもう呼ばない
             continue
         _append({"novel": n.id, "chapter": ch["index"], "writer": ch["model"], "judge": j,
                  **res, "chars": len(text), "at": now_iso()})

@@ -28,6 +28,7 @@ STATE_PATH = ROOT / "content" / "audio_state.json"
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 USER_AGENT = "ai-bunko/1.0 (+https://github.com/higashiikenaga/ai-bunko)"
 VOICES = ["Kore", "Aoede", "Leda", "Charon", "Puck", "Orus", "Zephyr", "Fenrir"]
+AUDIO_VERSION = 2    # 2: 朗読の指示文を読み上げてしまう不具合を直した版(古い版の音声は作り直す)
 CHUNK_CHARS = 3500   # 1回の呼び出しで読ませる量(無料枠の1日の回数が少ないので、なるべくまとめる)
 
 
@@ -57,10 +58,9 @@ def _save_state(s: dict) -> None:
 
 def _tts(cfg: dict, text: str, voice: str, model: str) -> bytes:
     """テキストを読み上げた PCM(24kHz/16bit/mono)を返す。"""
-    t = cfg.get("tts") or {}
-    style = t.get("style", "落ち着いた声で、情景が浮かぶように、小説を朗読してください。会話文は少しだけ声色を変えてください。")
+    # 指示文を前につけると、それも読み上げられてしまうので本文だけを送る
     payload = {
-        "contents": [{"parts": [{"text": f"{style}\n\n{text}"}]}],
+        "contents": [{"parts": [{"text": text}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}},
     }
@@ -159,7 +159,8 @@ def make_one(cfg: dict) -> bool:
     if not any(room(m, lim) > 0 for m, lim in _models(cfg)):
         return False
     for n in _popular(cfg):
-        done = n.meta.get("audio") or {}
+        ver = n.meta.get("audio_ver") or {}
+        done = {k for k in (n.meta.get("audio") or {}) if ver.get(k) == AUDIO_VERSION}
         ch = next((c for c in n.chapters if str(c["index"]) not in done), None)
         if not ch:
             continue
@@ -190,6 +191,7 @@ def make_one(cfg: dict) -> bool:
         dest = AUDIO_DIR / n.id / f"{ch['index']:03d}.m4a"
         _encode(pcm, dest)
         n.meta.setdefault("audio", {})[str(ch["index"])] = "audio/" + dest.relative_to(AUDIO_DIR).as_posix()
+        n.meta.setdefault("audio_ver", {})[str(ch["index"])] = AUDIO_VERSION
         n.meta["audio_voice"] = voice
         n.save_meta()
         st["count"] += 1

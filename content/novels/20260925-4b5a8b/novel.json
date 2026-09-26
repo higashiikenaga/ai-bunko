@@ -10,5 +10,16 @@
     "gemma-4-26b-a4b-it",
     "gemma-4-31b-it"
   ],
-  "author": "疾風 大地"
+  "author": "疾風 大地",
+  "i18n": {
+    "key": "a2af5d176c",
+    "en": {
+      "title": "Roar of the Scorching Sand, Beyond the Limits",
+      "premise": "Once hailed as a prodigy, I was on the brink of abandoning basketball after a crippling injury. In a crumbling city, the only place that felt like a \"desert oasis\" was an old gymnasium. Together with a ragtag group of teammates on the verge of disbanding, we endured hellish basic drills and vowed to return to the court. At the national tournament—an uproarious \"festival night\"—we unleashed the crystal of blood and sweat we had forged."
+    },
+    "zh": {
+      "title": "热砂的咆哮，超越极限",
+      "premise": "曾被誉为天才的我，因伤痛几乎失去了对篮球的热情。废墟般的城市角落里，唯一像“沙漠绿洲”的地方是老旧的体育馆。与一支即将解散的队伍中笨拙的伙伴们一起，我们经历了地狱般的基础训练，决定重返赛场。在全国大赛——像“节日之夜”般喧嚣的舞台上，我们释放出积累的血汗结晶。"
+    }
+  }
 }

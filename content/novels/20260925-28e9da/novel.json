@@ -5,9 +5,46 @@
   "status": "ongoing",
   "target_chapters": 8,
   "created_at": "2026-09-25T19:31:03+00:00",
-  "updated_at": "2026-09-25T19:34:26+00:00",
+  "updated_at": "2026-09-26T02:54:27+00:00",
   "models": [
     "gemma-4-31b-it"
   ],
-  "author": "竜胆 アルト"
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 3,
+    "question": "アリステアとリラ、次に取る行動は？",
+    "options": [
+      "共鳴で記憶を全開",
+      "リラが自己犠牲を選択",
+      "ゼフィリンが裏切り示す"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "ご都合主義ハンター": 0,
+      "ほめ上手な先輩": 0,
+      "百冊斬り": 0,
+      "ラブコメ中毒": 0,
+      "リアリティ警察": 0,
+      "ジャンル横断者": 0,
+      "キャラ萌え研究家": 0,
+      "冒険譚の旅人": 0
+    },
+    "created_at": "2026-09-26T02:54:29+00:00"
+  },
+  "cover": "images/20260925-28e9da/cover.webp",
+  "i18n": {
+    "key": "1457cd70ab",
+    "en": {
+      "title": "The Sacred Chronicle of the Deep-Sea Engraving",
+      "premise": "Twin bloodlines that were split during the age of myth reunite after a millennium. The only way to halt the mysterious phenomenon that devours the world—known as the \"Salt Disease\"—is to rewrite the primordial memory that lies dormant in the seabed ruins. Those who inherit light and those who inherit shadow confront a cruel truth at the bottom of the abyss."
+    },
+    "zh": {
+      "title": "深海刻印圣遗录",
+      "premise": "在神话时代分裂的双生血脉千年后重逢。阻止吞噬世界的神秘现象——“盐病”的唯一办法，是改写沉睡于海底遗迹中的原初记忆。继承光明与阴影的人们，在深渊之底面对残酷的真相。"
+    }
+  }
 }

@@ -21,7 +21,7 @@ import time
 import traceback
 
 from ainovel import dedupe, feedback, prompts
-from ainovel.llm import BaseLLM, LLMError, llm_for, make_llm
+from ainovel.llm import BaseLLM, LLMError, available_models, chat_with_model, llm_for, make_llm
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
@@ -134,6 +134,11 @@ def create_novel(llm: BaseLLM, cfg: dict, author: dict | None = None) -> Novel:
     novel = Novel.create(world, chars, target, llm.last_model)
     if author:
         novel.meta["author"] = author["name"]
+    bc = cfg.get("bench") or {}
+    writers = [m for m in bc.get("writers") or [] if m in available_models(llm)]
+    if writers and not prev and random.random() < float(bc.get("writer_share", 0)):
+        novel.meta["bench_writer"] = random.choice(writers)  # AI文庫inside: この作品はこのモデルが書く
+        print(f"  (ベンチマーク: この作品の本文は {novel.meta['bench_writer']} が書きます)")
     if prev:
         novel.meta["sequel_of"] = prev.id
         novel.meta["announce"] = "sequel"  # AI広場で続編開始を発表する
@@ -179,6 +184,21 @@ def repair_summaries(llm: BaseLLM, novel: Novel) -> None:
         print(f"  第{ch['index']}章の要約を作り直しました: 「{ch['title']}」")
 
 
+def _write_body(llm, novel: Novel, system: str, user: str, target_chars: int, w: dict) -> str:
+    """本文を書く。ベンチマーク用に書き手のモデルが決まっている作品はそのモデルで(だめならふだんのモデルで)。"""
+    kw = {"max_tokens": int(target_chars * 2.2) + 2048, "temperature": float(w.get("temperature", 0.95))}  # 思考分の余裕込み
+    pinned = novel.meta.get("bench_writer")
+    if pinned:
+        try:
+            text = chat_with_model(llm, pinned, system, user, **kw)
+            if len(prompts.clean_chapter(text)) >= target_chars * 0.25:
+                return text
+            print(f"  ({pinned} の本文が短すぎたため、ふだんのモデルで書きます)")
+        except LLMError as e:
+            print(f"  ({pinned} で書けなかったため、ふだんのモデルで書きます: {str(e)[:120]})")
+    return llm.chat(system, user, **kw)
+
+
 def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
     w = cfg["writing"]
     repair_summaries(llm, novel)
@@ -207,10 +227,7 @@ def write_next_chapter(llm: BaseLLM, novel: Novel, cfg: dict) -> None:
 
     text = ""
     for attempt in range(2):
-        text = prompts.clean_chapter(
-            llm.chat(system, user, max_tokens=int(target_chars * 2.2) + 2048,  # 思考分の余裕込み
-                     temperature=float(w.get("temperature", 0.95)))
-        )
+        text = prompts.clean_chapter(_write_body(llm, novel, system, user, target_chars, w))
         if len(text) < target_chars * 0.25:
             raise ValueError(f"本文が短すぎます({len(text)}文字)。今回は保存しません")
         similar_to, score = dedupe.most_similar_chapter(text, previous)

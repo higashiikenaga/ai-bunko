@@ -121,6 +121,31 @@ def _popular(cfg: dict) -> list[Novel]:
     return list(dict.fromkeys(picked + top))
 
 
+def _read_all(cfg: dict, st: dict, parts: list[str], voice: str, model: str) -> bytes:
+    """1話ぶんを読み上げる。混雑(5xx)は30秒待って1回だけやり直し、失敗した呼び出しは回数に数えない。"""
+    t = cfg.get("tts") or {}
+    pcm = b""
+    for k, part in enumerate(parts):
+        if k:
+            time.sleep(float(t.get("interval_sec", 25)))  # 1分あたりの回数の上限(RPM)に当たらないように
+        for attempt in range(2):
+            st["used"][model] = st["used"].get(model, 0) + 1
+            _save_state(st)
+            try:
+                pcm += _tts(cfg, part, voice, model)
+                break
+            except RuntimeError as e:
+                code = e.args[1] if len(e.args) > 1 else 0
+                if code >= 500:
+                    st["used"][model] -= 1  # 混雑で失敗した分は数えない
+                    _save_state(st)
+                    if attempt == 0:
+                        time.sleep(float(t.get("retry_sec", 30)))
+                        continue
+                raise
+    return pcm
+
+
 def make_one(cfg: dict) -> bool:
     """人気作品の、まだ音声のない最も前の話を1話ぶん朗読音声にする。作ったら True。"""
     t = cfg.get("tts") or {}
@@ -140,26 +165,28 @@ def make_one(cfg: dict) -> bool:
             continue
         voice = VOICES[int(hashlib.md5(n.id.encode()).hexdigest(), 16) % len(VOICES)]  # 作品ごとに同じ声
         parts = _chunks(n.chapter_text(ch["index"]))
-        # 残りの回数で1話を読み切れるモデルを使う(途中までの音声は作らない)
-        model = next((m for m, lim in _models(cfg) if room(m, lim) >= len(parts)), None)
+        # 残りの回数で1話を読み切れるモデルを順に試す(途中までの音声は作らない)
+        pcm, model = b"", None
+        for m, lim in _models(cfg):
+            if room(m, lim) < len(parts):
+                continue
+            print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice}・{m}・{len(parts)}回に分けて)")
+            try:
+                pcm = _read_all(cfg, st, parts, voice, m)
+                model = m
+                break
+            except RuntimeError as e:
+                code = e.args[1] if len(e.args) > 1 else 0
+                if code == 429:
+                    st["exhausted"].append(m)  # このモデルの無料枠の上限。今日はほかのモデルで続ける
+                    _save_state(st)
+                    print(f"  {m} の無料枠の上限に達したため、ほかのモデルで朗読します")
+                elif code >= 500:
+                    print(f"  {m} が混み合っているため(HTTP {code})、ほかのモデルを試します")
+                else:
+                    raise
         if not model:
             return False
-        print(f"■ 聞く小説: 『{n.meta['title']}』第{ch['index']}話を朗読({voice}・{model}・{len(parts)}回に分けて)")
-        pcm = b""
-        try:
-            for k, part in enumerate(parts):
-                if k:
-                    time.sleep(float(t.get("interval_sec", 25)))  # 1分あたりの回数の上限(RPM)に当たらないように
-                st["used"][model] = st["used"].get(model, 0) + 1
-                _save_state(st)
-                pcm += _tts(cfg, part, voice, model)
-        except RuntimeError as e:
-            if len(e.args) > 1 and e.args[1] == 429:
-                st["exhausted"].append(model)  # このモデルの無料枠の上限。今日はほかのモデルで続ける
-                _save_state(st)
-                print(f"  {model} の無料枠の上限に達したため、今日はほかのモデルで朗読します")
-                return False
-            raise
         dest = AUDIO_DIR / n.id / f"{ch['index']:03d}.m4a"
         _encode(pcm, dest)
         n.meta.setdefault("audio", {})[str(ch["index"])] = "audio/" + dest.relative_to(AUDIO_DIR).as_posix()

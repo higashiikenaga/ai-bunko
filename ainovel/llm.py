@@ -355,24 +355,56 @@ def make_llm(cfg: dict):
     if provider == "mock":
         return primary
     llms = [primary] if primary else []
+    EXTRA.clear()
+    DAILY_CALLS.clear()
+    DAILY_CALLS.update((cfg.get("bench") or {}).get("daily_calls") or {})
     for fb in cfg.get("fallbacks") or []:
-        key = os.environ.get(fb["api_key_env"])
-        if key:
-            llm = OpenAICompatLLM(key, fb["base_url"], fb["models"], float(fb.get("min_interval_sec", interval)),
+        key = next((os.environ.get(k, "").strip() for k in fb["api_key_env"].split("|") if os.environ.get(k, "").strip()), "")
+        base_url = os.path.expandvars(fb["base_url"].replace("${CLOUDFLARE_ACCOUNT_ID}", os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()))
+        if key and "$" not in base_url:
+            llm = OpenAICompatLLM(key, base_url, fb["models"], float(fb.get("min_interval_sec", interval)),
                                   int(fb.get("tpm_limit", 0)))
             llm.name = fb.get("name", "fallback")
-            llms.append(llm)
+            # bench_only: ベンチマーク(AI文庫inside)の審査・執筆だけに使い、ふだんの予備にはしない
+            (EXTRA if fb.get("bench_only") else llms).append(llm)
     if not llms:
         return None
     return llms[0] if len(llms) == 1 else ChainLLM(llms)
 
 
+EXTRA: list = []  # ベンチマーク専用のAPI(make_llm が設定する)
+DAILY_CALLS: dict = {}  # ベンチマーク専用APIの1日の呼び出し上限 {API名: 回数}
+
+
+def _calls_today(name: str, add: int = 0) -> int:
+    """ベンチマーク専用APIの今日の呼び出し回数(content/bench_calls.json。日本時間で日付が変わると0)。"""
+    import json as _json
+    from datetime import datetime, timedelta, timezone
+
+    from ainovel.paths import ROOT
+
+    path = ROOT / "content" / "bench_calls.json"
+    today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    data = _json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if data.get("date") != today:
+        data = {"date": today, "counts": {}}
+    if add:
+        data["counts"][name] = data["counts"].get(name, 0) + add
+        path.write_text(_json.dumps(data), encoding="utf-8")
+    return data["counts"].get(name, 0)
+
+
 def chat_with_model(llm, model: str, system: str, user: str, **kw) -> str:
     """指定したモデルだけで呼び出す(ベンチマークの審査用。ほかのモデルへの切り替えはしない)。"""
-    subs = llm.llms if isinstance(llm, ChainLLM) else [llm]
+    subs = (llm.llms if isinstance(llm, ChainLLM) else [llm]) + EXTRA
     sub = next((l for l in subs if model in (getattr(l, "models", None) or [])), None)
     if sub is None:
         raise LLMError(f"{model} は使えません")
+    limit = DAILY_CALLS.get(sub.name)
+    if sub in EXTRA and limit is not None:
+        if _calls_today(sub.name) >= int(limit):
+            raise LLMError(f"{sub.name} は今日の上限({limit}回)に達しました")
+        _calls_today(sub.name, 1)
     saved = sub.models
     sub.models = [model]
     try:
@@ -380,9 +412,11 @@ def chat_with_model(llm, model: str, system: str, user: str, **kw) -> str:
     finally:
         sub.models = saved
     llm.last_model = model
-    return text
+    import re as _re
+
+    return _re.sub(r"<think>.*?</think>", "", text, flags=_re.S).strip()  # 考える過程を出すモデル(Qwen3など)
 
 
 def available_models(llm) -> list[str]:
-    subs = llm.llms if isinstance(llm, ChainLLM) else [llm]
+    subs = (llm.llms if isinstance(llm, ChainLLM) else [llm]) + EXTRA
     return [m for l in subs for m in (getattr(l, "models", None) or [])]

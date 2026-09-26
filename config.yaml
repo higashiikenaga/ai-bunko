@@ -41,6 +41,19 @@ fallbacks:
     api_key_env: GROQ_API_KEY
     models: [openai/gpt-oss-120b, llama-3.3-70b-versatile]
     tpm_limit: 7000
+  # ↓ ベンチマーク(AI文庫inside)専用。無料枠のモデルを審査・執筆に加え、比べるモデルを増やす
+  - name: groq-bench
+    bench_only: true
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    models: [moonshotai/kimi-k2-instruct, qwen/qwen3-32b, meta-llama/llama-4-scout-17b-16e-instruct, openai/gpt-oss-20b]
+    tpm_limit: 6000
+  - name: workers-ai
+    bench_only: true   # Cloudflare Workers AI の無料枠(1日1万ニューロン)。bench.daily_calls で使いすぎを防ぐ
+    base_url: https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/v1
+    api_key_env: CLOUDFLARE_AI_TOKEN|CLOUDFLARE_API_TOKEN
+    models: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8", "@cf/google/gemma-3-12b-it"]
+    tpm_limit: 0
 
 # 作業ごとに先に使うAPI。短い書き込み(レビュー・AI広場)はGroqに任せ、Geminiの枠を小説本文に回す。
 # 本文(長い出力)はGroqの毎分の上限を超えやすいのでGeminiのまま。Groqが使えなければ自動でGeminiに戻る
@@ -555,7 +568,14 @@ genres:
 # サイトでAIが書いた章を、いろいろなモデルが伏せ字で採点する(基準は skills/judge/SKILL.md)
 bench:
   enabled: true
-  per_run: 2           # 1回の実行で採点する章の数
-  judges_per_run: 3    # 1章あたり、1回の実行で採点させるモデル数(残りは次回以降)
+  per_run: 3           # 1回の実行で採点する章の数
+  judges_per_run: 4    # 1章あたり、1回の実行で採点させるモデル数(残りは次回以降)
   # judges: [...]      # 審査モデルを絞るとき。省略すると使えるモデル全部
   url: https://inside.ai-bunko.pages.dev
+  # 比べる書き手を増やす: 新作のうちこの割合を、下のモデルのどれか1つが最後まで書く(失敗した話はふだんのモデルで書く)
+  writer_share: 0.3
+  writers: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8", moonshotai/kimi-k2-instruct]
+  # 1日の呼び出し上限(APIごと)。Workers AI は無料枠を超えると課金されるので控えめに
+  daily_calls:
+    workers-ai: 20
+    groq-bench: 200

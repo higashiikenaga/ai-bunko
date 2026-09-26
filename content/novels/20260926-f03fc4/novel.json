@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-26T07:49:24+00:00"
   },
-  "cover": "images/20260926-f03fc4/cover.webp"
+  "cover": "images/20260926-f03fc4/cover.webp",
+  "i18n": {
+    "key": "cdeadf40bd",
+    "en": {
+      "title": "The Lighthouse Keeper's Grand Misunderstanding: The 'Legendary Relic' Was Just a Broken Pocket Watch",
+      "premise": "Haru, a young man who arrives in a seaside town, is hired as the keeper of an old lighthouse. However, for some reason, the townspeople begin to worship him as a 'Legendary Guardian.' As the misunderstanding intensifies—with everyone convinced that the 'broken pocket watch' he found is the key to the fate of the world—things take an unexpected turn. In reality, all he's guarding is a simple local museum meant for town revitalization!"
+    },
+    "zh": {
+      "title": "灯塔守护者的误会大作战 〜传说中的遗物，只不过是不走的怀表而已〜",
+      "premise": "来到海边小镇的青年哈鲁受雇担任一座旧灯塔的管理员，却不知为何被镇上的居民们奉为“传说中的守护者”。随着人们深信他捡到的那块“坏掉的怀表”是左右世界命运的关键，误解愈演愈烈，事态也向着意想不到的方向发展。其实，他守护的不过是一个为了振兴小镇而设立的资料馆罢了！"
+    }
+  }
 }

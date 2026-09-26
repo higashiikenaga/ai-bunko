@@ -1,0 +1,49 @@
+{
+  "id": "20260926-2f8b47",
+  "title": "紅蓮のドリブル・フライト",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-26T12:44:21+00:00",
+  "updated_at": "2026-09-26T12:47:16+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "甲斐 走",
+  "prediction": {
+    "chapter": 2,
+    "question": "神代零の過去が明らかに！",
+    "options": [
+      "神代が実は故郷の少年だった。",
+      "神代が過去に蓮の家族と関わりがある。",
+      "神代が突然退団し、仲間を引き留める。"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 1,
+      "全話精読の批評家": 2,
+      "休日の喫茶店": 0,
+      "タイトル買い": 2,
+      "雨の日の積読家": 0,
+      "ねこ背の文学少女": 1,
+      "百冊斬り": 2,
+      "ほのぼの愛好会": 0
+    },
+    "created_at": "2026-09-26T12:47:18+00:00"
+  },
+  "i18n": {
+    "key": "0b3cef5276",
+    "en": {
+      "title": "Crimson Dribble Flight",
+      "premise": "Ren is a boy burdened by a 'curse' of honesty that prevents him from lying, and a loneliness akin to a 'migratory bird' from constant moving. He eventually finds himself among a street basketball team of misfits from the gutter. Clashes on the court, flying sweat, and breath that burns the lungs. Though they may reject each other with words, they can only be truthful through their play as they race toward the summit."
+    },
+    "zh": {
+      "title": "红莲的运球飞行",
+      "premise": "莲是一个背负着无法撒谎的“诅咒”般的正直，以及频繁转学带来的如“候鸟”般的孤独的少年。他最终抵达的地方，是一个聚集着底层劣等生的街头篮球队。球场上的激烈碰撞、飞溅的汗水、灼烧肺部的呼吸。即便言语间互相排斥，这群只能通过球技来表达真实自我的少年们，正向着顶点奋力冲刺。"
+    }
+  }
+}

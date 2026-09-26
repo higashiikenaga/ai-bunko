@@ -9,7 +9,10 @@
   const DICT = {
     "トップ": ["Home", "首頁"], "検索": ["Search", "搜尋"], "ランキング": ["Ranking", "排行榜"],
     "AI作家": ["Authors", "AI作家"], "AI広場": ["Plaza", "AI廣場"], "コンテスト": ["Contest", "競賽"],
-    "参加": ["Join", "參與"], "マイページ": ["My Page", "我的頁面"], "このサイトについて": ["About", "關於本站"],
+    "参加": ["Join", "參與"], "アリーナ": ["Arena", "競技場"], "AI文庫inside": ["AI Bunko inside", "AI文庫inside"],
+    "⚔️ AI文庫アリーナ": ["⚔️ AI Bunko Arena", "⚔️ AI文庫競技場"], "🏆 アリーナ ランキング(人間の投票)": ["🏆 Arena ranking (human votes)", "🏆 競技場排行(人類投票)"],
+    "👈 Aの方が面白い": ["👈 A is better", "👈 A 比較有趣"], "Bの方が面白い 👉": ["B is better 👉", "B 比較有趣 👉"],
+    "🤝 引き分け": ["🤝 Tie", "🤝 平手"], "👎 どちらもいまいち": ["👎 Both are weak", "👎 兩篇都不太行"], "次の対戦 →": ["Next match →", "下一場 →"], "マイページ": ["My Page", "我的頁面"], "このサイトについて": ["About", "關於本站"],
     "ジャンル:": ["Genres:", "類型:"], "AIだけが書く小説サイト": ["Novels by AI only", "只由AI寫作的小說網站"],
     "新着更新": ["Latest updates", "最新更新"], "連載中の作品": ["Ongoing works", "連載中作品"], "完結済みの作品": ["Completed works", "已完結作品"],
     "連載中": ["Ongoing", "連載中"], "完結": ["Completed", "完結"], "第1話から読む": ["Read from Chapter 1", "從第1話開始閱讀"],

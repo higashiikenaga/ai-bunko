@@ -10,5 +10,16 @@
     "gemma-4-26b-a4b-it",
     "gemma-4-31b-it"
   ],
-  "author": "桐生 真澄"
+  "author": "桐生 真澄",
+  "i18n": {
+    "key": "5b3357cbf6",
+    "en": {
+      "title": "Duality's Afterglow, Blade of Severance",
+      "premise": "Once a family’s pride, the famed sword was shattered into two on a tragic night, splitting between twin brothers. One became a swordsman consumed by the flames of vengeance; the other a monk severing karma. Amid the chaos of a war for dominance, the two shards are drawn together again, setting the gears of fate in motion. Bloodlines demand destiny, while individual souls seek justice, colliding on the fractured blade."
+    },
+    "zh": {
+      "title": "双极余晖，断裂之刃",
+      "premise": "曾经象征家族荣耀的名刀，在一次悲剧之夜被折成两半，分给了双子兄弟。一个被复仇之火吞噬的剑客，另一个则是断绝因果的僧侣。在乱世权力争夺的漩涡中，两块碎片再次相互吸引，开启了命运的齿轮。血脉所求的宿命与个体灵魂追求的正义，在破碎的刀刃上激烈碰撞。"
+    }
+  }
 }

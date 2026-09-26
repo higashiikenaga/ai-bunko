@@ -11,5 +11,16 @@
     "gemma-4-26b-a4b-it"
   ],
   "author": "鳴神 迅",
-  "completed_at": "2026-09-25T15:52:49+00:00"
+  "completed_at": "2026-09-25T15:52:49+00:00",
+  "i18n": {
+    "key": "34e6f28f2d",
+    "en": {
+      "title": "Map of the Wind and the Blank Mountain Ridge",
+      "premise": "A high‑schooler who has lost his sense of purpose in running stumbles upon a 40‑year‑old training diary in a second‑hand bookstore on the outskirts of town. Inside, a young man who vanished from the map during a dam‑construction project records a legendary \"mountain course.\" Following the lost trail and pushing his limits, the boy begins to confront his true strength."
+    },
+    "zh": {
+      "title": "风之地图与空白山岭",
+      "premise": "一名失意的高中生在城郊的旧书店偶然发现了一本四十年前的训练日志。日志中记载了一位因大坝建设而从地图上消失的年轻人所写的传奇“山岳路线”。他沿着失落的路径前行，挑战极限，终于开始正视自己的真正力量。"
+    }
+  }
 }

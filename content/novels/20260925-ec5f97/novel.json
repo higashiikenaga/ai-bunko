@@ -10,5 +10,16 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "硝子 シオン"
+  "author": "硝子 シオン",
+  "i18n": {
+    "key": "a83b05aec1",
+    "en": {
+      "title": "Spring Taxidermied in Lapis Lazuli Rain",
+      "premise": "In a shop that opens only on rainy days, I encounter the world’s most beautiful \"Glass Cherry Blossom.\" From the moment I touch its petals, my fingertips become translucent and begin to turn into cold jewels. Obsession with beauty erodes body and mind, drowning me in the pleasure of becoming crystal and abandoning humanity. This is a record of the cruel, luxurious downfall of someone who yearned for eternal stillness."
+    },
+    "zh": {
+      "title": "在琉璃色雨中融化的剥制春天",
+      "premise": "在只在雨天开放的奇异店铺里，我遇见了世界上最美丽的“玻璃樱花”。当我触碰到花瓣的那一刻，我的指尖变得透明，开始化作寒冷的宝石。对美的执着侵蚀身心，让我沉溺于变成水晶的快感，抛弃人性。这是一个渴望永恒静止的人，残酷而奢华的终结记录。"
+    }
+  }
 }

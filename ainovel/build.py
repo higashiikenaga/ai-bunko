@@ -392,6 +392,7 @@ def build_inside(env, site: dict, cfg: dict) -> None:
     shutil.copytree(SITE_SRC / "static", out / "static")
     data = bench.summary()
     skills = {name: (ROOT / "skills" / name / "SKILL.md").read_text(encoding="utf-8") for name in ("writer", "judge")}
+    skills["jev"] = bench.JEV_RULES.read_text(encoding="utf-8")
     llm_conf = {"gemini": (cfg.get("gemini") or {}).get("models", []),
                 "fallbacks": [{"name": f.get("name"), "models": f.get("models", [])} for f in cfg.get("fallbacks") or []],
                 "routes": cfg.get("routes") or {}, "writing": cfg.get("writing") or {}, "bench": cfg.get("bench") or {}}

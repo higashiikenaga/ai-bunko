@@ -7,7 +7,10 @@
 from __future__ import annotations
 
 import json
+import os
 import random
+import urllib.error
+import urllib.request
 from collections import defaultdict
 
 from ainovel import prompts
@@ -16,6 +19,9 @@ from ainovel.novel import all_novels, now_iso
 from ainovel.paths import ROOT
 
 BENCH_PATH = ROOT / "content" / "bench.jsonl"
+JEV = "typesafe/jev"
+JEV_RULES = ROOT / "skills" / "judge" / "jev.yaml"
+USER_AGENT = "ai-bunko/1.0 (+https://github.com/higashiikenaga/ai-bunko)"
 AXES = {"structure": "文章構造力", "japanese": "日本語力", "character": "人物描写",
         "originality": "独創性", "consistency": "一貫性"}
 
@@ -37,10 +43,49 @@ def _append(rec: dict) -> None:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
+def jev_enabled(cfg: dict) -> bool:
+    from ainovel.images import _token
+
+    return bool((cfg.get("bench") or {}).get("jev", True) and os.environ.get("CLOUDFLARE_ACCOUNT_ID") and _token())
+
+
 def judges(llm, cfg: dict) -> list[str]:
     b = cfg.get("bench") or {}
-    avail = available_models(llm)
+    avail = available_models(llm) + ([JEV] if jev_enabled(cfg) else [])
     return [m for m in (b.get("judges") or avail) if m in avail]
+
+
+def _jev(n, ch: dict, text: str) -> dict:
+    """typesafe/jev(文章は書かず、段階を確率つきで返す)で採点する。ルールは skills/judge/jev.yaml。"""
+    import yaml
+
+    from ainovel.images import _token
+
+    rules = yaml.safe_load(JEV_RULES.read_text(encoding="utf-8"))
+    before = "\n".join(f"第{c['index']}話: {c.get('summary', '')}" for c in n.chapters if c["index"] < ch["index"])[-1500:]
+    state = {"作品": f"{n.meta['title']}({n.meta.get('genre', '')})", "あらすじ": n.world.get("premise", ""),
+             "ここまでの流れ": before or "(これが第1話)", "本文": text[:9000]}
+    questions = {k: {"type": "score", "instructions": rules["instructions_common"] + "\n" + q["instructions"],
+                     "criteria": q["criteria"]} for k, q in rules["questions"].items()}
+    url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CLOUDFLARE_ACCOUNT_ID'].strip()}/ai/run/{JEV}"
+    req = urllib.request.Request(url, data=json.dumps({"state": state, "questions": questions}).encode(), method="POST",
+                                 headers={"Authorization": f"Bearer {_token()}", "Content-Type": "application/json",
+                                          "User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as res:
+            data = json.load(res)
+    except urllib.error.HTTPError as e:
+        raise LLMError(f"Jev HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}") from e
+    out = data.get("result", data)
+    if isinstance(out, dict) and "answers" not in out and isinstance(out.get("result"), dict):
+        out = out["result"]  # AI Gateway の請求を通すと一段包まれて返る
+    answers = (out or {}).get("answers") or {}
+    scores, conf = {}, {}
+    for k in AXES:
+        a = answers[k]
+        scores[k] = round(float(a["score"]) + 1, 2)  # 0〜9段 → 1〜10点(期待値なので小数)
+        conf[k] = round(float(a.get("confidence", 0)), 3)
+    return {"scores": scores, "comment": "", "confidence": conf}
 
 
 def _prompt(n, ch: dict, text: str) -> str:
@@ -90,7 +135,7 @@ def judge_some(llm, cfg: dict, rng: random.Random | None = None) -> int:
     # 採点の少ない章を優先(同じくらいならランダム)
     rng.shuffle(cands)
     n, ch = min(cands, key=lambda t: len(done[(t[0].id, t[1]["index"])]))
-    todo = sorted((j for j in js if j not in done[(n.id, ch["index"])]), key=lambda j: (per_judge[j], rng.random()))
+    todo = sorted((j for j in js if j not in done[(n.id, ch["index"])]), key=lambda j: (j != JEV, per_judge[j], rng.random()))  # Jev は安いので毎回まっ先に
     todo = todo[:int(b.get("judges_per_run", 3))]
     text = n.chapter_text(ch["index"])
     user = _prompt(n, ch, text)
@@ -99,7 +144,7 @@ def judge_some(llm, cfg: dict, rng: random.Random | None = None) -> int:
     print(f"■ ベンチ採点: 『{n.meta['title']}』第{ch['index']}話(執筆 {ch['model']})を {', '.join(todo)} が採点")
     for j in todo:
         try:
-            res = _parse(chat_with_model(llm, j, system, user, max_tokens=2048, temperature=0.2))
+            res = _jev(n, ch, text) if j == JEV else _parse(chat_with_model(llm, j, system, user, max_tokens=2048, temperature=0.2))
         except (LLMError, ValueError, KeyError, TypeError) as e:
             print(f"  ✗ {j}: {str(e)[:150]}")
             continue

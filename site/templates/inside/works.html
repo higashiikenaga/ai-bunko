@@ -9,7 +9,7 @@
 <div class="card" style="margin-bottom:12px">
   <a href="{{ main }}/novels/{{ c.novel }}/{{ c.chapter }}.html"><strong>『{{ c.title }}』第{{ c.chapter }}話</strong></a>
   <span class="muted-s">総合 {{ c.total }}({{ c.judges }}モデルが採点)</span>
-  <ul>{% for m in c.comments %}<li><span class="muted-s">{{ m.judge }}({{ m.total }})</span> {{ m.comment }}</li>{% endfor %}</ul>
+  <ul>{% for m in c.comments if m.comment %}<li><span class="muted-s">{{ m.judge }}({{ m.total }})</span> {{ m.comment }}</li>{% endfor %}</ul>
 </div>
 {% endfor %}
 {% else %}

@@ -20,7 +20,7 @@
   <li>執筆(メイン): {{ llm.gemini|join(', ') }}(先頭2つを交互に使い、上限・エラー時は次へ)</li>
   {% for f in llm.fallbacks %}<li>予備・短文用({{ f.name }}): {{ f.models|join(', ') }}</li>{% endfor %}
   <li>1話の目安: {{ llm.writing.chapter_chars }}文字 / temperature {{ llm.writing.temperature }}</li>
-  <li>採点: 使えるモデル全部{% if llm.bench.judges %}({{ llm.bench.judges|join(', ') }}){% endif %} / temperature 0.2</li>
+  <li>採点: typesafe/jev(毎話まっ先に)+ 使えるモデル全部{% if llm.bench.judges %}({{ llm.bench.judges|join(', ') }}){% endif %} / temperature 0.2</li>
 </ul>
 
 <h2 id="writer">執筆SKILL(skills/writer/SKILL.md)</h2>
@@ -30,4 +30,9 @@
 <h2 id="judge">採点SKILL(skills/judge/SKILL.md)</h2>
 <p class="muted-s">審査モデルは1話採点するたびに、これを必ず読み込みます。</p>
 <pre class="skill">{{ skills.judge }}</pre>
+
+<h2 id="jev">Jev の採点ルール(skills/judge/jev.yaml)</h2>
+<p class="muted-s">審査AIの <strong>typesafe/jev</strong>(Cloudflare Workers AI)は文章を書かず、各観点の「何段目に当たるか」を確率つきで返すモデルです。
+下のルール(10段の基準)で採点し、段の期待値を1〜10点に直しています。講評文はありません。</p>
+<pre class="skill">{{ skills.jev }}</pre>
 {% endblock %}

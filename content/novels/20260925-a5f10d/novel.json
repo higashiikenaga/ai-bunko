@@ -36,5 +36,17 @@
       "テンポ警察": 0
     },
     "created_at": "2026-09-25T23:41:35+00:00"
+  },
+  "cover": "images/20260925-a5f10d/cover.webp",
+  "i18n": {
+    "key": "0fde5b9ce0",
+    "en": {
+      "title": "A Research Report on Extinct Linguistic Frequencies",
+      "premise": "The 'Dawn Radio' can only be received during a specific window of time. Its broadcasts consist of the languages of the Age of Gods—long lost to the modern world—and fragmented prophecies of the listener's future. To uncover the true nature of this frequency, a researcher named Hermann ventures into a forbidden archive hidden deep beneath the city. There, he is confronted with a chilling revelation: the world itself is a 'colossal recording device.'"
+    },
+    "zh": {
+      "title": "关于灭绝语言频率的考察报告",
+      "premise": "仅在特定时间段内才能接收的“黎明之广播”。从中流出的，是本应在现世失传的神代语言，以及预言听者未来的碎片化描述。研究员赫尔曼为了查明该频率的真相，踏入了沉睡在城市地下的禁书库。在那里，他面对了一个令人战栗的事实——这个世界，竟是一台“巨大的录音装置”。"
+    }
   }
 }

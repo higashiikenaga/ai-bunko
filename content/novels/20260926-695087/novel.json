@@ -1,0 +1,50 @@
+{
+  "id": "20260926-695087",
+  "title": "耳鳴りの底、泥に眠る言葉",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-26T16:27:08+00:00",
+  "updated_at": "2026-09-26T16:28:47+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "朽木 灯",
+  "prediction": {
+    "chapter": 2,
+    "question": "石板の叫びを聞いた湊の次に起こる出来事は？",
+    "options": [
+      "志乃が湊を抱き寄せ、耳を塞ぐ",
+      "石板から湊の名前を呼ぶ声が響く",
+      "柳が恐怖に震えながら湊を突き飛ばす"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "ラブコメ中毒": 0,
+      "全話精読の批評家": 1,
+      "締切の鬼編集": 2,
+      "応援団長": 0,
+      "放課後の図書委員": 0,
+      "活字中毒の猫": 1,
+      "推しが尊い民": 0,
+      "雨の日の積読家": 1
+    },
+    "created_at": "2026-09-26T16:28:51+00:00"
+  },
+  "i18n": {
+    "key": "cae62f1fc7",
+    "en": {
+      "title": "Beneath the Tinnitus, Words Slumber in the Mud",
+      "premise": "Following the death of a distant relative, the protagonist is called back to a village where the rain never ceases. The will left behind contains a cryptic condition: they must manage a \"library\" located in the basement of the estate. It is not a place for books, but a repository of stone tablets, each sealing the \"final whispers\" of the deceased. Just as they begin to grow accustomed to the silence, the protagonist realizes that a whisper from someone unknown is echoing deep within their ears."
+    },
+    "zh": {
+      "title": "耳鸣深处，泥中沉睡之语",
+      "premise": "因疏远的亲属去世，主人公被召回了一个连绵阴雨不断的村庄。留下的遗嘱中写着一个不可思议的条件：管理位于宅邸地下的“图书馆”。那里存放的并非书籍，而是排列着封存了死者“临终呢喃”的石板。就在逐渐习惯这份寂静之时，主人公察觉到，在耳畔深处，正回响着某个素未谋面之人的低语。"
+    }
+  }
+}

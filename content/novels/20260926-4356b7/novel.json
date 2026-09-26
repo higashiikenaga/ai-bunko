@@ -1,0 +1,50 @@
+{
+  "id": "20260926-4356b7",
+  "title": "夜行の栞、泥の祝詞",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-09-26T16:39:03+00:00",
+  "updated_at": "2026-09-26T16:41:00+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "丑満 ミコト",
+  "prediction": {
+    "chapter": 2,
+    "question": "手渡された栞自身の人生が記された本には、何が書かれている？",
+    "options": [
+      "まだ見ぬ未来の惨劇",
+      "誰かに書き換えられた記憶",
+      "祖父が隠した村の秘密"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "キャラ萌え研究家": 1,
+      "SF考証の鬼": 0,
+      "ハッピーエンド信者": 2,
+      "ホラー玄人": 1,
+      "SF考察勢": 0,
+      "初見さん": 2,
+      "伏線回収マニア": 0,
+      "伏線管理官": 1
+    },
+    "created_at": "2026-09-26T16:41:03+00:00"
+  },
+  "i18n": {
+    "key": "5108bab789",
+    "en": {
+      "title": "Bookmarks of the Night Journey, Incantations of Mud",
+      "premise": "Returning to his hometown for the first time in decades following his grandfather's death, the protagonist is drawn to a peculiar secondhand bookstore standing on the outskirts of the village. Within its walls lie ledgers documenting the 'lives' of the villagers, and a 'last train' that appears only on certain days, ferrying unwanted memories and souls to the underworld. After breaking a taboo and uncovering a past meant to be forgotten, he becomes entangled in a cycle of cruel sacrificial rituals that the village has performed for generations."
+    },
+    "zh": {
+      "title": "《夜行之栞，泥之祝词》",
+      "premise": "因祖父去世，数十年后重返故乡的主人公，被引向了村庄边缘一家诡异的旧书店。书店中保存着记录村民“人生”的账簿，而仅在特定日期出现的“末班列车”，正将那些被抛弃的记忆与人类运往冥界。在打破禁忌、解读了本该被抹去的过去后，主人公被卷入了一场村庄世代相传的残酷祭祀仪式之中。"
+    }
+  }
+}

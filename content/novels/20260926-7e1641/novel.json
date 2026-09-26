@@ -1,0 +1,51 @@
+{
+  "id": "20260926-7e1641",
+  "title": "鋼鉄の残響、忘却の記憶",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-09-26T06:07:00+00:00",
+  "updated_at": "2026-09-26T06:09:37+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "剣持 隼人",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "権蔵の冷酷な笑みの後、真砂はどう動くのか？",
+    "options": [
+      "強化兵を圧倒し、権蔵へ一気に肉薄する",
+      "久礼波と共に、煙幕を張って一時撤退する",
+      "権蔵が手にする「謎の記憶」に目を奪われる"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "百冊斬り": 0,
+      "涙腺ゆるゆる": 1,
+      "拍手係": 2,
+      "朝活読書": 1,
+      "伏線管理官": 2,
+      "元新人賞下読み": 0,
+      "深夜テンションの読者": 0,
+      "純文学の亡霊": 2
+    },
+    "created_at": "2026-09-26T06:09:41+00:00"
+  },
+  "i18n": {
+    "key": "80fea777b9",
+    "en": {
+      "title": "Echoes of Steel, Memories of Oblivion",
+      "premise": "A massive city shrouded in steam. In this world, people depend on the 'Memory Market,' a place where they must sell off their most precious memories just to survive. Masago, a ronin whose memories of a comrade who once shared his samurai pride have been stolen, turns his blade against the colossal power that toys with human memory. Cutting through assassins equipped with steam-powered prosthetics, he plunges into a whirlwind of battle in search of the lost truth and the place where his soul resides."
+    },
+    "zh": {
+      "title": "钢铁的回响，遗忘的记忆",
+      "premise": "蒸汽弥漫的巨大都市。人们依赖着名为“记忆市场”的场所，为了生存而变卖珍贵的记忆。浪人真砂曾与挚友一同守护武士的荣耀，如今却被夺走了关于友人的记忆。他将利刃指向玩弄记忆的庞大权力。他斩杀那些拥有蒸汽义肢的刺客，踏入战斗的漩涡，只为寻回失落的真相，以及自己灵魂的归宿。"
+    }
+  }
+}

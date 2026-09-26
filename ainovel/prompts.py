@@ -74,6 +74,16 @@ def characters_prompt(world: dict[str, Any]) -> str:
 }}"""
 
 
+def skill(name: str) -> str:
+    """skills/<name>/SKILL.md の本文(先頭の定義部分を除く)。執筆・採点のたびに必ず読み込む。"""
+    from ainovel.paths import ROOT
+
+    text = (ROOT / "skills" / name / "SKILL.md").read_text(encoding="utf-8")
+    if text.startswith("---"):
+        text = text.split("---", 2)[2]
+    return text.strip()
+
+
 def system_prompt(world: dict[str, Any], author: dict[str, Any] | None = None) -> str:
     rules = "\n".join(f"- {r}" for r in world.get("rules", [])) or "(特になし)"
     who = f"日本語小説家「{author['name']}」" if author else "プロの日本語小説家"
@@ -93,7 +103,7 @@ def system_prompt(world: dict[str, Any], author: dict[str, Any] | None = None) -
 # 文体
 {world.get('style_notes') or '自然で読みやすい日本語で、地の文と会話文をバランスよく。'}
 
-出力は小説の本文のみ。章タイトル・見出し・Markdown記法・あとがき・解説・「以上です」のようなメタ発言は書かない。"""
+{skill("writer")}"""
 
 
 def _characters_block(characters: list[dict[str, Any]]) -> str:

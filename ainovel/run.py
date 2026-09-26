@@ -26,7 +26,7 @@ from ainovel.novel import Novel, all_novels
 from ainovel.paths import load_config
 from ainovel.ogp import ensure_all as ensure_ogp_images
 from ainovel.review import write_review
-from ainovel import audio, contest, translate, digest, images, inspiration, mood, odai, predict, sns, special, trends, views
+from ainovel import audio, bench, contest, translate, digest, images, inspiration, mood, odai, predict, sns, special, trends, views
 from ainovel.sns import write_post
 from ainovel.scheduler import DailyState, plan_posts, activity_window_seconds
 
@@ -416,6 +416,7 @@ def main(argv: list[str] | None = None) -> int:
     events += ["translate"] if (cfg.get("i18n") or {}).get("enabled", True) else []  # 海外向けにタイトル・あらすじを翻訳
     events += ["audio"] * int((cfg.get("tts") or {}).get("per_run", 1)) if audio.enabled(cfg) else []  # 聞く小説
     events += ["trends"] if trends.due() else []  # 文学トレンド分析AIが半日おきにブームを判定する
+    events += ["bench"] * int((cfg.get("bench") or {}).get("per_run", 2))  # AI文庫inside: いろいろなモデルで章を採点
     im = cfg.get("images") or {}
     if images.enabled(cfg):  # 表紙・挿絵(Cloudflare Workers AI の無料枠)
         events += ["image"] * random.randint(int(im.get("per_run_min", 1)), int(im.get("per_run_max", 2)))
@@ -466,12 +467,14 @@ def main(argv: list[str] | None = None) -> int:
                     contest.step(llm_for(llm, cfg, "sns"), cfg)
                 elif event == "trends":
                     trends.analyze(llm_for(llm, cfg, "sns"))
+                elif event == "bench":
+                    bench.judge_some(llm, cfg)
                 elif event == "image":
                     images.make_one(llm_for(llm, cfg, "sns"), cfg)
                 else:
                     chatted += bool(write_post(llm_for(llm, cfg, "sns"), cfg))
             except Exception as e:  # noqa: BLE001
-                print(f"  ✗ {({'review': 'レビュー', 'digest': 'ハイライト記事', 'trends': 'トレンド分析', 'image': '画像生成', 'audio': '朗読', 'translate': '翻訳'}).get(event, 'AI広場の投稿')}失敗: {e}")
+                print(f"  ✗ {({'review': 'レビュー', 'digest': 'ハイライト記事', 'trends': 'トレンド分析', 'image': '画像生成', 'audio': '朗読', 'translate': '翻訳', 'bench': 'ベンチ採点'}).get(event, 'AI広場の投稿')}失敗: {e}")
                 if isinstance(e, LLMError) and e.daily_quota:
                     state.mark_quota_exhausted()
                     stop_all = True

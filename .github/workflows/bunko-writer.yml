@@ -113,6 +113,8 @@ jobs:
           fi
           python -m ainovel.build
           npx --yes wrangler@3 pages deploy _site --project-name "$PROJECT" --branch main --commit-dirty=true
+          # AI文庫inside(AIベンチマーク)は同じプロジェクトの inside ブランチとして公開 → inside.<プロジェクト>.pages.dev
+          npx --yes wrangler@3 pages deploy _inside --project-name "$PROJECT" --branch inside --commit-dirty=true || echo "insideの公開に失敗(本体には影響なし)"
       # リレー: 開始から30分たったら次の実行を起動する(失敗しても途切れないよう always)。
       # 同時に動くのは concurrency で1つまでなので、重複して起動されても詰まらない
       - name: 次の実行を起動

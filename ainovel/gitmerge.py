@@ -69,6 +69,15 @@ def main() -> int:
         return 0
     for path in conflicted:
         # rebase中は stage 2 = 先にコミットされた側(upstream)、stage 3 = これから載せる自分のコミット
+        if path.endswith(".jsonl"):
+            # 追記だけのファイル: 両方の行を合わせる(重複は除く)
+            lines = [subprocess.run(["git", "show", f":{n}:{path}"], capture_output=True, text=True).stdout.splitlines()
+                     for n in (2, 3)]
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("".join(l + "\n" for l in dict.fromkeys(lines[0] + lines[1]) if l.strip()))
+            print(f"  自動マージ: {path}")
+            _git("add", "--", path)
+            continue
         base, upstream, mine = _stage(1, path), _stage(2, path), _stage(3, path)
         merged = _merge(path, base, upstream, mine) if path.endswith(".json") else None
         if merged is not None:

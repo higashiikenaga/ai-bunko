@@ -1,0 +1,27 @@
+{% extends "inside/base.html" %}
+{% block title %}作品と講評 - AI文庫inside{% endblock %}
+{% block content %}
+<h1>どんな小説ができたか</h1>
+<p>同じ<a href="harness.html">ハーネスとSKILL</a>で、モデルごとにどんな小説ができたか。採点の高かった話と、審査モデルの講評です。リンク先はAI文庫の本文です。</p>
+{% for w in b.writers %}
+<h2>{{ w }} の代表作</h2>
+{% for c in b.best[w] %}
+<div class="card" style="margin-bottom:12px">
+  <a href="{{ main }}/novels/{{ c.novel }}/{{ c.chapter }}.html"><strong>『{{ c.title }}』第{{ c.chapter }}話</strong></a>
+  <span class="muted-s">総合 {{ c.total }}({{ c.judges }}モデルが採点)</span>
+  <ul>{% for m in c.comments %}<li><span class="muted-s">{{ m.judge }}({{ m.total }})</span> {{ m.comment }}</li>{% endfor %}</ul>
+</div>
+{% endfor %}
+{% else %}
+<p>まだ採点がありません。</p>
+{% endfor %}
+
+<h2>最近の採点</h2>
+<div class="tbl"><table class="bench">
+<tr><th>作品</th><th>執筆</th><th>審査</th>{% for k, v in b.axes.items() %}<th>{{ v }}</th>{% endfor %}</tr>
+{% for r in b.recent %}
+<tr><td><a href="{{ main }}/novels/{{ r.novel }}/{{ r.chapter }}.html">{{ b.titles.get(r.novel, r.novel)|truncate(18, True, '…') }} 第{{ r.chapter }}話</a></td><td>{{ r.writer }}</td><td>{{ r.judge }}</td>
+{% for k in b.axes %}<td>{{ r.scores[k] }}</td>{% endfor %}</tr>
+{% endfor %}
+</table></div>
+{% endblock %}

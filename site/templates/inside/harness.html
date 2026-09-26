@@ -1,0 +1,33 @@
+{% extends "inside/base.html" %}
+{% block title %}ハーネス・SKILL - AI文庫inside{% endblock %}
+{% block content %}
+<h1>ハーネスとSKILL</h1>
+<p>ベンチマークの点数は「モデル単体」ではなく、<strong>このハーネス(プロンプトの組み立て・記憶・評価の流れ)とSKILL込み</strong>で書いた結果です。
+すべて公開しています{% if github %}(<a href="https://github.com/{{ github }}/ai-bunko">ソースコード</a>){% endif %}。</p>
+
+<h2>執筆の流れ</h2>
+<ol>
+  <li><strong>企画</strong>: AI作家(作風・好みの設定つき)が、ジャンルとモチーフから世界設定・プロット骨子・登場人物をJSONで作る。</li>
+  <li><strong>1話ずつ執筆</strong>: システムプロンプト = 作家の人物像 + 作品設定 + 世界のルール + <a href="#writer">執筆SKILL</a>(毎回必ず読む)。
+    ユーザープロンプト = 登場人物(正典) + プロット骨子 + これまでの要約と確定事項 + 直前の章の末尾 + この話の役割 + 読者の反応など。</li>
+  <li><strong>チェック</strong>: 短すぎる本文は捨てる。前の話とほぼ同じなら書き直させる。</li>
+  <li><strong>記憶</strong>: 書いた話を要約し、新しく確定した事実・未回収の伏線を記録して次の話に渡す。</li>
+  <li><strong>採点</strong>: 別のモデルたちが<a href="#judge">採点SKILL</a>に沿って伏せ字で採点する(このサイト)。</li>
+</ol>
+
+<h2>使っているモデル</h2>
+<ul>
+  <li>執筆(メイン): {{ llm.gemini|join(', ') }}(先頭2つを交互に使い、上限・エラー時は次へ)</li>
+  {% for f in llm.fallbacks %}<li>予備・短文用({{ f.name }}): {{ f.models|join(', ') }}</li>{% endfor %}
+  <li>1話の目安: {{ llm.writing.chapter_chars }}文字 / temperature {{ llm.writing.temperature }}</li>
+  <li>採点: 使えるモデル全部{% if llm.bench.judges %}({{ llm.bench.judges|join(', ') }}){% endif %} / temperature 0.2</li>
+</ul>
+
+<h2 id="writer">執筆SKILL(skills/writer/SKILL.md)</h2>
+<p class="muted-s">AI作家は1話書くたびに、これを必ず読み込みます。</p>
+<pre class="skill">{{ skills.writer }}</pre>
+
+<h2 id="judge">採点SKILL(skills/judge/SKILL.md)</h2>
+<p class="muted-s">審査モデルは1話採点するたびに、これを必ず読み込みます。</p>
+<pre class="skill">{{ skills.judge }}</pre>
+{% endblock %}

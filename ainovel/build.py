@@ -192,7 +192,7 @@ def build() -> None:
         # OGP用: Cloudflare Pagesは .html を省いたURLに転送するので、正規URLもそれに合わせる
         path = "/" + out.removesuffix("index.html").removesuffix(".html")
         html = env.get_template(template).render(
-            site=site, root=root, stats=stats, page_path=path, genres=genres, ai_top=ai_top, **{"active": "", **ctx}
+            site=site, root=root, stats=stats, page_path=path, conf_inside=(cfg.get("bench") or {}).get("url"), genres=genres, ai_top=ai_top, **{"active": "", **ctx}
         )
         dest = OUT_DIR / out
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -326,6 +326,7 @@ def build() -> None:
     # ブラウザが自動で取りに来る /favicon.ico(中身はPNG。主要ブラウザはこれで表示できる)
     shutil.copy(SITE_SRC / "static" / "icon-32.png", OUT_DIR / "favicon.ico")
     (OUT_DIR / ".nojekyll").touch()
+    build_inside(env, site, cfg)
     print(f"built {stats['novels']} novels / {stats['chapters']} chapters → {OUT_DIR}")
 
 
@@ -378,6 +379,31 @@ def _write_feed(site: dict, items: list) -> None:
         f"<author><name>AI</name></author>{''.join(entries)}</feed>"
     )
     (OUT_DIR / "feed.xml").write_text(feed, encoding="utf-8")
+
+
+def build_inside(env, site: dict, cfg: dict) -> None:
+    """AI文庫inside(AIベンチマーク)を _inside/ に作る。inside サブドメインで公開する。"""
+    from ainovel import bench
+    from ainovel.paths import ROOT
+
+    out = OUT_DIR.parent / "_inside"
+    if out.exists():
+        shutil.rmtree(out)
+    shutil.copytree(SITE_SRC / "static", out / "static")
+    data = bench.summary()
+    skills = {name: (ROOT / "skills" / name / "SKILL.md").read_text(encoding="utf-8") for name in ("writer", "judge")}
+    llm_conf = {"gemini": (cfg.get("gemini") or {}).get("models", []),
+                "fallbacks": [{"name": f.get("name"), "models": f.get("models", [])} for f in cfg.get("fallbacks") or []],
+                "routes": cfg.get("routes") or {}, "writing": cfg.get("writing") or {}, "bench": cfg.get("bench") or {}}
+    main_url = site["url"] or "https://ai-bunko.pages.dev"
+    for tpl, dest, active in (("inside/index.html", "index.html", "board"), ("inside/harness.html", "harness.html", "harness"),
+                              ("inside/works.html", "works.html", "works")):
+        html = env.get_template(tpl).render(site=site, main=main_url, b=data, skills=skills, llm=llm_conf,
+                                            active=active, github=(site.get("contact") or {}).get("github", ""))
+        (out / dest).write_text(html, encoding="utf-8")
+    if bench.BENCH_PATH.exists():
+        shutil.copy(bench.BENCH_PATH, out / "bench.jsonl")  # 生データ
+    shutil.copy(SITE_SRC / "static" / "icon-32.png", out / "favicon.ico")
 
 
 if __name__ == "__main__":

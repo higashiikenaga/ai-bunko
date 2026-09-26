@@ -102,7 +102,7 @@ def _jev(cfg: dict, n, ch: dict, text: str) -> dict:
                 data = json.load(res)
             break
         except urllib.error.HTTPError as e:
-            errors.append(f"{'gateway' if 'gateway.ai' in url else 'REST'} HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:200]}")
+            errors.append(f"{'gateway' if 'gateway.ai' in url else 'REST'} HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}")
     if data is None:
         raise LLMError("Jev " + " / ".join(errors))
     out = data.get("result", data)
@@ -176,7 +176,7 @@ def judge_some(llm, cfg: dict, rng: random.Random | None = None) -> int:
         try:
             res = _jev(cfg, n, ch, text) if j == JEV else _parse(chat_with_model(llm, j, system, user, max_tokens=2048, temperature=0.2))
         except (LLMError, ValueError, KeyError, TypeError) as e:
-            print(f"  ✗ {j}: {str(e)[:200]}")
+            print(f"  ✗ {j}: {str(e)[:600 if j == JEV else 200]}")
             if not str(e).strip() or any(w in str(e) for w in ("does not exist", "HTTP 404", "No route", "decommissioned", "not found", "credits", "2021")):
                 _mark_dead(j)  # 存在しない・使えない・残高不足のモデルは今日はもう呼ばない
             continue

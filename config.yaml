@@ -42,17 +42,12 @@ fallbacks:
     models: [openai/gpt-oss-120b, openai/gpt-oss-20b]   # llama-3.3-70b-versatile は Groq で提供終了(404)
     tpm_limit: 7000
   # ↓ ベンチマーク(AI文庫inside)専用。無料枠のモデルを審査・執筆に加え、比べるモデルを増やす
-  - name: groq-bench
-    bench_only: true
-    base_url: https://api.groq.com/openai/v1
-    api_key_env: GROQ_API_KEY
-    models: [qwen/qwen3-32b, meta-llama/llama-4-scout-17b-16e-instruct]   # kimi-k2-instruct は 404 だったので外した
-    tpm_limit: 6000
+  # Groq の kimi-k2 / qwen3-32b / llama-4-scout はこのアカウントでは 404 だったので使わない
   - name: workers-ai
     bench_only: true   # Cloudflare Workers AI の無料枠(1日1万ニューロン)。bench.daily_calls で使いすぎを防ぐ
     base_url: https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/v1
     api_key_env: CLOUDFLARE_AI_TOKEN|CLOUDFLARE_API_TOKEN
-    models: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8", "@cf/google/gemma-3-12b-it"]
+    models: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8"]   # gemma-3-12b は 403(このアカウントでは使えない)
     tpm_limit: 0
 
 # 作業ごとに先に使うAPI。短い書き込み(レビュー・AI広場)はGroqに任せ、Geminiの枠を小説本文に回す。
@@ -575,11 +570,10 @@ bench:
   jev_gateway: default   # Jev を通す AI Gateway の名前(Cloudflare の AI → AI Gateway で確認)
   # 比べる書き手を増やす: 新作のうちこの割合を、下のモデルのどれか1つが最後まで書く(失敗した話はふだんのモデルで書く)
   writer_share: 0.3
-  writers: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8", "@cf/google/gemma-3-12b-it"]
+  writers: ["@cf/meta/llama-3.3-70b-instruct-fp8-fast", "@cf/mistralai/mistral-small-3.1-24b-instruct", "@cf/qwen/qwen3-30b-a3b-fp8"]
   # 1日の呼び出し上限(APIごと)。Workers AI は無料枠を超えると課金されるので控えめに
   daily_calls:
     workers-ai: 20
-    groq-bench: 200
 
 # ---- AI文庫アリーナ(小説版の Chatbot Arena)----
 # 同じお題で2つのモデルが掌編を書き、モデル名を伏せて読者が投票する。票から Elo レーティングを出す

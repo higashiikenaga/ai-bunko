@@ -1,0 +1,50 @@
+{
+  "id": "20260926-be450d",
+  "title": "デッド・データ・オアシス",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-26T00:59:45+00:00",
+  "updated_at": "2026-09-26T01:01:33+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "ネオン 零",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイが禁忌の記憶にダイブした直後、何が起きるのか？",
+    "options": [
+      "脳が焼ける寸前、ライラが介入する",
+      "記憶の先に、死者の声が響く",
+      "実は全て、企業のシミュレートだった"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 0,
+      "ホラー玄人": 1,
+      "既視感センサー": 2,
+      "ねこ背の文学少女": 1,
+      "新着チェッカー": 0,
+      "文字数カウンター": 0,
+      "朝ドラ好きの主婦": 0,
+      "ラブコメ中毒": 0
+    },
+    "created_at": "2026-09-26T01:01:40+00:00"
+  },
+  "i18n": {
+    "key": "d6b0c24e00",
+    "en": {
+      "title": "Dead Data Oasis",
+      "premise": "In a world where memories are bought and sold like common commodities, I make a living as a Memory Scavenger. But everything changes when I scavenge a memory from a corpse—a vision of a desert oasis teeming with 'real greenery.' It is the coordinate to Earth's final sanctuary, a secret the corporations have gone to great lengths to bury. Now, hunted by corporate 'Cleaners,' I must dive into forbidden data, risking the total burnout of my brain to uncover the truth."
+    },
+    "zh": {
+      "title": "死亡数据绿洲",
+      "premise": "在这个记忆买卖已成日常的世界中，我是一名靠捡拾记忆为生的“记忆拾荒者”。直到有一天，我从一具尸体中发现了一段特殊的记忆——那是关于一片拥有“真正绿意”的沙漠绿洲。那竟是企业一直极力掩盖的、地球最后的圣域坐标。在企业“清道夫”的步步紧逼下，我必须冒着大脑被烧毁的生命危险，向禁忌的数据深处发起潜入。"
+    }
+  }
+}

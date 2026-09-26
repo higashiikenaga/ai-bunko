@@ -5,9 +5,47 @@
   "status": "ongoing",
   "target_chapters": 9,
   "created_at": "2026-09-25T10:54:26+00:00",
-  "updated_at": "2026-09-25T17:00:22+00:00",
+  "updated_at": "2026-09-26T01:04:00+00:00",
   "models": [
-    "gemma-4-31b-it"
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
   ],
-  "author": "藤堂 小太郎"
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 6,
+    "question": "空白の本に、誰がどのような言葉を書き込むのか？",
+    "options": [
+      "お兼が真実の謝罪を綴る",
+      "作蔵が新しい希望を記す",
+      "店主が真の目的を明かす"
+    ],
+    "ai_votes": [
+      4,
+      1,
+      3
+    ],
+    "ai_voters": {
+      "とりあえず全部読む人": 0,
+      "設定考証班": 2,
+      "休日の喫茶店": 1,
+      "テンポ警察": 2,
+      "深夜の読書灯": 0,
+      "ほめ上手な先輩": 0,
+      "流行ウォッチャー": 2,
+      "心理描写フェチ": 0
+    },
+    "created_at": "2026-09-26T01:05:12+00:00"
+  },
+  "i18n": {
+    "key": "a9d1126bfe",
+    "en": {
+      "title": "Open Only When it Rains: The Tenement Bookstore",
+      "premise": "Genji, a cheerful loudmouth living in the tenement houses of Fukagawa, discovers a mysterious secondhand bookstore that opens its doors only on rainy days. Within its pages, the old books hold the secret longings and forgotten memories of their former owners. Through these stories, Genji uses his meddlesome yet warm-hearted nature to unravel the loneliness and regrets of those living around him."
+    },
+    "zh": {
+      "title": "雨天開店，長屋的古書店",
+      "premise": "住在深川長屋的樂天派源次，偶然發現了一家僅在雨天悄悄營業的神祕古書店。店內販售的古書中，綴寫著前任所有者深藏的心願與被遺忘的記憶。源次透過這些書籍，以他那熱心且愛管閒事的人情味，逐漸化解鄰居們心中深藏的孤獨與後悔。"
+    }
+  },
+  "cover": "images/20260925-332d12/cover.webp"
 }

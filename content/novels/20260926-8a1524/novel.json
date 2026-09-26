@@ -1,0 +1,50 @@
+{
+  "id": "20260926-8a1524",
+  "title": "境界線のレイテンシ：ノアの村と届かなかった手紙",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-26T21:12:19+00:00",
+  "updated_at": "2026-09-26T21:14:17+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "綾瀬 ナノ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ハルが次に向かう場所はどこか？",
+    "options": [
+      "リンの記憶が残る地下洞窟へ",
+      "村の外にある光の塔を探索",
+      "システムの管理者と直接対面"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "伏線管理官": 0,
+      "毒舌書評ブロガー": 2,
+      "ご都合主義ハンター": 1,
+      "冒険譚の旅人": 1,
+      "心理描写フェチ": 0,
+      "台詞にうるさい人": 0,
+      "全話精読の批評家": 2,
+      "歴史散歩の人": 1
+    },
+    "created_at": "2026-09-26T21:14:20+00:00"
+  },
+  "i18n": {
+    "key": "64a7f541cb",
+    "en": {
+      "title": "Borderline Latency: Noah's Village and the Letter That Never Arrived",
+      "premise": "In the ultra‑high‑definition VRMMO \"Elysion Gate,\" a blank patch on the map hides the \"Lost Village\" that should have vanished with an update. Young Haru stumbles into this glitchy zone and meets Rin, a girl who shouldn't exist in the data. She is hunting for a \"lost letter\" etched into the world’s history. Amid the vivid hues of the virtual realm and the frozen moments of reality, the two weave together fragments of forgotten memories."
+    },
+    "zh": {
+      "title": "边界延迟：诺亚村与未送达的信件",
+      "premise": "在超高精度的VRMMO《Elysion Gate》中，地图上的一块空白区域隐藏着本该在更新中被抹去的“失落村落”。少年哈鲁在这片像故障一样的地方遇见了不该存在于数据中的少女林。她正在寻找刻印在世界历史中的“失落信件”。在虚拟空间绚丽的色彩与现实中静止的时光里，两人拼凑起失落记忆的碎片。"
+    }
+  }
+}

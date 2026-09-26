@@ -17,5 +17,16 @@
     "avg": 4.0,
     "count": 7
   },
-  "completed_at": "2026-09-25T12:51:24+00:00"
+  "completed_at": "2026-09-25T12:51:24+00:00",
+  "i18n": {
+    "key": "3eae404e96",
+    "en": {
+      "title": "The Funeral Procession of Stars and the Memory of Fracture",
+      "premise": "In a paradise where humanity’s consciousness has been digitized, a slow disappearance threatens the eternal utopia due to a system error. Young data‑retrieval specialist Kaeru stumbles upon an ancient terminal shaped like a \"broken sword.\" Inside, a forbidden \"will\" left by the world’s architect reveals the truth of this realm and presents a brutal choice."
+    },
+    "zh": {
+      "title": "恒星的葬列与断裂的记忆",
+      "premise": "在一个人类意识已被数字化的永恒乐园里，系统错误逐渐导致它的消失。青年记忆回收者カエル偶然捡到一台形似“折剑”的旧时代数据抽取终端。终端中隐藏着世界设计者留下的禁忌“遗嘱”，揭示了这个世界的真相，并抛出残酷的抉择。"
+    }
+  }
 }

@@ -9,5 +9,16 @@
   "models": [
     "gemma-4-31b-it"
   ],
-  "author": "五十嵐 チーム"
+  "author": "五十嵐 チーム",
+  "i18n": {
+    "key": "1200a5943a",
+    "en": {
+      "title": "The Tactics of the Blue Wind and the Stopped Clock",
+      "premise": "Three years of losing, the university handball team’s story isn’t about the star players but the backup squad who can’t get on the court and a manager obsessed with data. They decipher an old tactical note etched into a broken pocket watch left by an alumnus and launch a unique strategy that turns the bench into a battlefield. The narrative weaves the heat of the game with the cold, analytical eye from the sidelines, delivering a thrilling reversal of fortunes."
+    },
+    "zh": {
+      "title": "蓝风与停摆的钟表战术",
+      "premise": "三年未赢一次的大学手球队，主角并非明星球员，而是无法上场的替补球员和沉迷数据的经理。他们解读校友留下的“破损怀表”上刻着的古老战术笔记，利用板凳视角的独特策略挑战强校。赛场上的热情与板凳上的冷静分析交织，呈现一段逆转的故事。"
+    }
+  }
 }

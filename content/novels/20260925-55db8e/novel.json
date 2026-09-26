@@ -11,5 +11,16 @@
     "gemma-4-26b-a4b-it"
   ],
   "author": "夜野しずく",
-  "human_seen": 1
+  "human_seen": 1,
+  "i18n": {
+    "key": "9010797619",
+    "en": {
+      "title": "Zero-Temperature Boundary, Dawn's Melody",
+      "premise": "A girl who locks herself away in her own \"ice castle\", keeping it off-limits to anyone else. The only window she has is the faint sound of a small radio that plays at dawn. One morning, she discovers that the voice belongs to a boy sitting next to her. In the freezing season, their distance slowly draws closer, melting like light."
+    },
+    "zh": {
+      "title": "零度边界，黎明之曲",
+      "premise": "一个女孩把自己封闭在独自的“冰城”里，绝不让任何人触碰。她唯一的窗户是黎明时分小小收音机里流淌的声音。某个清晨，她发现那声音的主人正是坐在旁边的少年。在寒冷的季节里，两人的距离慢慢靠近，像光一样融化。"
+    }
+  }
 }

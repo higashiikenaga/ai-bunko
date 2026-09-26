@@ -34,5 +34,16 @@
       "書店員の目": 2
     },
     "created_at": "2026-09-26T20:28:20+00:00"
+  },
+  "i18n": {
+    "key": "41be01abd8",
+    "en": {
+      "title": "Gazetteer of the Lost",
+      "premise": "People who have visited inexplicable places gather before a narrator to recount their experiences. One speaks of an ancient lighthouse standing deep within a forest; another, of a desert oasis appearing in a city alleyway. As these fragmented tales accumulate, it becomes clear that these locations are \"holes that have slipped through the cracks of reality.\" But the narrator soon realizes that they, too, are being drawn toward the void."
+    },
+    "zh": {
+      "title": "无依地名录",
+      "premise": "讲述者面前聚集了一群曾造访过不可思议之地的人们，他们在此分享自己的经历。有人见到了伫立在森林中的古老灯塔，有人见到了出现在都市后巷的沙漠绿洲。随着碎片化的故事逐渐堆叠，这些地方被暗示为“从现实中漏掉的孔洞”。然而，讲述者本人也开始意识到，自己正被那些孔洞吸引而去。"
+    }
   }
 }

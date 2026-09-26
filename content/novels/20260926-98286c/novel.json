@@ -49,5 +49,16 @@
       "異世界帰りの司書": 0
     },
     "created_at": "2026-09-26T20:16:44+00:00"
+  },
+  "i18n": {
+    "key": "228a09f06a",
+    "en": {
+      "title": "Echoes of Zero Distance",
+      "premise": "I was once a rising star in the 100m sprint, but an unexpected muscle tear robbed me of my explosive acceleration. The more I try to control my body like a precision machine, the more the slight tremors in my muscles confront me with my current imperfection, acting like a \"curse that cannot lie.\" Amidst a sense of helplessness, like clutching a broken sword, I begin to find a new way to run—not just to sprint through the shortest distance, but to carve out the weight of every single step."
+    },
+    "zh": {
+      "title": "零距离的残响",
+      "premise": "我曾是百米短跑的明星候选人，却因一场突如其来的肌肉拉伤，失去了往日爆发性的加速度。我越是试图像精密机械一样控制自己的身体，肌肉那细微的颤抖就越像是一种“无法撒谎的诅咒”，时刻提醒着我现在的残缺。在那如同紧握断剑般的无力感中，我不再仅仅追求以最短距离冲刺，而是开始寻找一种全新的奔跑方式——去刻画每一步的重量。"
+    }
   }
 }

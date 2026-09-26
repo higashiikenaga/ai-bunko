@@ -35,5 +35,16 @@
       "ご都合主義ハンター": 2
     },
     "created_at": "2026-09-26T07:25:52+00:00"
+  },
+  "i18n": {
+    "key": "44897d8a4b",
+    "en": {
+      "title": "Zero-Degree Logic: The Eclipsed Moon and the Ice Castle",
+      "premise": "On a polar night when a lunar eclipse cloaks the sky, the isolated research facility known as the Ice Castle—cut off from the world—holds a grim mystery: the sole surviving researcher is found dead in a sealed room. The only clues left behind are an unnaturally perfect geometric ice crystal and vanished research data. Amid a relentless snowstorm, a detective gathers fragments of logic, confronting a seemingly impossible crime that defies the laws of physics, only to uncover a deeply human deception lurking behind it."
+    },
+    "zh": {
+      "title": "零度的逻辑学：被蚀的月与冰之城",
+      "premise": "在月食笼罩的极夜之际，断绝外界联系的观测设施“冰之城”里，唯一的生还研究员在密闭的环境中死亡。现场留下的唯一线索是一枚形状异常完美的几何冰晶以及消失的研究数据。孤立无援的雪暴中，侦探拾起散落的逻辑碎片，面对似乎违背物理法则的不可能犯罪，最终揭开潜伏其后的极其人性的欺骗。"
+    }
   }
 }

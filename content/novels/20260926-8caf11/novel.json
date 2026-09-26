@@ -35,5 +35,17 @@
       "AI文章鑑定士": 1
     },
     "created_at": "2026-09-26T13:22:22+00:00"
-  }
+  },
+  "i18n": {
+    "key": "c98544f65e",
+    "en": {
+      "title": "Amber-Colored Lost Item and the Memory Market",
+      "premise": "Set in a tiny café in a seaside town, the story draws together people who encounter ownerless heirlooms and sudden feelings of unease. One day, an ancient key from the fabled \"Kiri‑gakure Village\"—a place that had vanished from maps—arrives at the shop. As they search for the key’s owner, the patrons begin to recognize fragments of precious memories they had long ago sold away. This is not a tale of blame, but a journey to reclaim the warmth they once lost."
+    },
+    "zh": {
+      "title": "琥珀色的遗失物与记忆的市场",
+      "premise": "以海边小镇的一家小咖啡店为舞台，陌生的遗物和莫名的违和感将人们聚集于此。某天，原本已从地图上消失的“雾隐村”的古老钥匙被送到了店里。寻找钥匙主人之际，众人逐渐意识到自己早已出卖的珍贵记忆碎片。这不是指责他人的故事，而是为了找回失去的温暖而展开的旅程。"
+    }
+  },
+  "cover": "images/20260926-8caf11/cover.webp"
 }

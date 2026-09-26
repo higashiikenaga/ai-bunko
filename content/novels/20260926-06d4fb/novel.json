@@ -36,5 +36,16 @@
       "新着チェッカー": 0
     },
     "created_at": "2026-09-26T19:51:47+00:00"
+  },
+  "i18n": {
+    "key": "d37bb8eca4",
+    "en": {
+      "title": "Rain on the Horizon of Events, and the Will of Pseudo-Memory",
+      "premise": "In a society where memories must be digitized and stored, a shop specializes in \"damaged data\" deemed irreparable. It opens only on \"rainy days\"—when the city’s electromagnetic noise spikes and the system’s surveillance network is compromised. The protagonist, a data restoration specialist, deciphers a fragmented \"will\" entrusted by a deceased individual, and in doing so confronts a physics paradox that shakes the very foundation of the city of Aegis."
+    },
+    "zh": {
+      "title": "事件地平线的雨与伪记忆的遗嘱",
+      "premise": "在一个必须将记忆数字化并保存的社会里，有一家专门处理被判定为不可修复的“损坏数据”的店铺。该店只在“雨天”营业——那时城市的电磁噪声激增，系统的监控网络出现漏洞。主角是一名数据修复师，他在解读一位已故者托付的碎片化“遗嘱”时，发现了一种颠覆城市艾格斯存在根基的物理学矛盾。"
+    }
   }
 }

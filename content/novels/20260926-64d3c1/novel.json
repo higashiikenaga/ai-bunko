@@ -36,5 +36,16 @@
       "とりあえず全部読む人": 1
     },
     "created_at": "2026-09-26T17:11:49+00:00"
+  },
+  "i18n": {
+    "key": "455236d923",
+    "en": {
+      "title": "Too Viral to Survive: Our Sub-Zero Login",
+      "premise": "I fell in love with 'Sakura,' an anonymous beauty streaming online. But her true identity is Shiori, the plainest girl in school. The virtual space she manages, the 'Ice Castle,' is a sanctuary for venting the truths one can never tell anyone. As the cherry blossoms dance, we fall into a glitchy love, caught between the screen and reality."
+    },
+    "zh": {
+      "title": "爆紅到想死，我們的冰點登入",
+      "premise": "我愛上了匿名美少女主播『Sakura』。然而，她的真實身份竟然是學校裡最不起眼的女生——栞。她經營的虛擬空間『冰之城』，是一個用來傾訴無法對任何人言說之真心話的避風港。在櫻花飛舞的季節，我們在螢幕與現實的縫隙之間，陷入了一場充滿Bug的戀情。"
+    }
   }
 }

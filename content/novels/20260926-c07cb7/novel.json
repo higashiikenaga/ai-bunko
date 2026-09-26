@@ -35,5 +35,16 @@
       "締切の鬼編集": 1
     },
     "created_at": "2026-09-26T17:43:00+00:00"
+  },
+  "i18n": {
+    "key": "7edbdd9f09",
+    "en": {
+      "title": "The Stardust Bookshelf Sleeping in the Dunes of the Galaxy",
+      "premise": "A desert world enveloped in an eternal night where the sands of stars quietly flow. Guided by the constellations, a lonely boy named Kai stumbles upon a mysterious antiquarian bookstore that occasionally reveals itself. Inside, amidst particles of light spilling forth from a book, he discovers a girl named Noah. She is a fragment of a constellation fallen from the sky, and before her light fades away, Kai throws himself into a journey to return her to the night sky."
+    },
+    "zh": {
+      "title": "沉眠于银河沙丘的星屑古书架",
+      "premise": "这是一个星砂静静流淌、被永恒之夜所包裹的沙漠世界。孤独的少年凯在星座的引导下，偶然来到了一家时隐时现的不可思议的旧书店。在那里，他从书中满溢而出的光粒之中，发现了一位名叫诺亚的少女。她是自天际坠落的星座碎片，为了在她的光芒耗尽之前将她送回夜空，凯投身于一段奇幻的旅程之中。"
+    }
   }
 }

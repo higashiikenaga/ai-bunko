@@ -21,7 +21,8 @@
   },
   "human_seen": 1,
   "audio": {
-    "1": "audio/20260925-31b0e9/001.m4a"
+    "1": "audio/20260925-31b0e9/001.m4a",
+    "2": "audio/20260925-31b0e9/002.m4a"
   },
   "audio_voice": "Zephyr",
   "prediction_results": [
@@ -83,5 +84,17 @@
       "全話精読の批評家": 2
     },
     "created_at": "2026-09-26T00:12:12+00:00"
+  },
+  "cover": "images/20260925-31b0e9/cover.webp",
+  "i18n": {
+    "key": "1d5e41ac81",
+    "en": {
+      "title": "The End of the World, Magic, and Scientific Love",
+      "premise": "Prince Artler and the silver-haired, blue-eyed noblewoman Luna were bound by a political marriage. As she stood by his side as an elegant queen, Luna truly loved him. However, mysterious incidents involving ancient ruins begin to plague the kingdom. And at the heart of it all lies Luna herself—a woman who has lost her memories."
+    },
+    "zh": {
+      "title": "世界毁灭、魔法与科学之恋",
+      "premise": "通过政略联姻结合在一起的王子阿特勒与银发碧眼的千金露娜。作为优雅的王妃陪伴在他身边的露娜，曾真心爱着他。然而，王国境内开始发生一系列围绕着古代遗迹的离奇事件。而所有线索的终点，竟然是失去了记忆的露娜本人。"
+    }
   }
 }

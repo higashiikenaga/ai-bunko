@@ -5,10 +5,46 @@
   "status": "ongoing",
   "target_chapters": 9,
   "created_at": "2026-09-25T10:22:11+00:00",
-  "updated_at": "2026-09-25T19:37:32+00:00",
+  "updated_at": "2026-09-26T00:27:18+00:00",
   "models": [
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "鏡 ミライ"
+  "author": "鏡 ミライ",
+  "prediction": {
+    "chapter": 6,
+    "question": "境界線の外へ踏み出した二人の前に、何が待ち受けている？",
+    "options": [
+      "エナの意識が宿る謎の装置",
+      "管理都市の真の支配者",
+      "鳥たちが去った後の荒野"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ご都合主義ハンター": 1,
+      "書店員の目": 1,
+      "週末の映画好き": 0,
+      "SF考察勢": 0,
+      "闇鍋リーダー": 2,
+      "ラブコメ中毒": 0,
+      "ホラー玄人": 2,
+      "純文学の亡霊": 1
+    },
+    "created_at": "2026-09-26T00:27:22+00:00"
+  },
+  "i18n": {
+    "key": "766a4bbc39",
+    "en": {
+      "title": "Season of the Simulated Migratory Birds",
+      "premise": "In an era where migratory birds have long since vanished from the skies, people enjoy the colors of lost seasons through high-precision holograms and swarms of drones. A young memory restorer discovers unexplained footage of real migratory birds within an old digital album left behind by his late wife. As he traces the origins of that footage, he is forced to confront the raw loneliness lurking beneath a perfect daily life saturated with technology."
+    },
+    "zh": {
+      "title": "模拟候鸟的季节",
+      "premise": "这是一个候鸟已从天空中消失已久的时代。人们通过高精度的全息投影和无人机群，享受着已逝季节的色彩。一名记忆修复师青年在亡妻留下的旧数字相册中，发现了一段拍有真实候鸟的未解影像。随着对这段影像的追寻，他将不得不面对潜藏在被技术填满的完美日常背后的、那份赤裸裸的孤独。"
+    }
+  }
 }

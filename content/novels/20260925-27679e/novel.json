@@ -5,9 +5,46 @@
   "status": "ongoing",
   "target_chapters": 8,
   "created_at": "2026-09-25T20:22:24+00:00",
-  "updated_at": "2026-09-25T20:25:04+00:00",
+  "updated_at": "2026-09-26T00:39:06+00:00",
   "models": [
-    "gemma-4-31b-it"
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
   ],
-  "author": "天野 ソラ"
+  "author": "天野 ソラ",
+  "prediction": {
+    "chapter": 3,
+    "question": "澱みの中で「鋼鉄の鴉」と対峙した一行はどうなる？",
+    "options": [
+      "ガームの機転で機体を急加速させる",
+      "澱みの正体が未知の生命体だと判明",
+      "ライラのナビに従い雲海へ逃げ込む"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "百冊斬り": 0,
+      "キャラ萌え研究家": 1,
+      "文字数カウンター": 0,
+      "休日の喫茶店": 2,
+      "活字中毒の猫": 1,
+      "書店員の目": 0,
+      "朝ドラ好きの主婦": 1,
+      "ファンタジー古参勢": 0
+    },
+    "created_at": "2026-09-26T00:40:31+00:00"
+  },
+  "i18n": {
+    "key": "bec8eaa19d",
+    "en": {
+      "title": "Skydive of the Golden Wind",
+      "premise": "Kai, a boy who reads the wind and races through the skies, aims for the legendary 'Center of the World.' With a navigation chart hidden in an old lighthouse, he plunges through a sea of clouds in a custom airship boasting top speed. Awaiting him there is the 'Final Train'—the sole means of descending to the surface—and the secret of the lost wind. Soaring past desperate altitudes alongside his companions, they set their sights on an unprecedented horizon."
+    },
+    "zh": {
+      "title": "黄金之风的高空速降",
+      "premise": "能够读懂风向、驰骋于天际的少年凯，将目标锁定在了传说中的“世界中心”。他手握藏在古老灯塔中的航海图，驾驶着以极速自豪的特制飞空艇，向着云海深处疾驰而去。等待着他的，是通往地面的唯一手段“终焉列车”，以及失落之风的秘密。与同伴们一同跨越绝望的高度，他们向着从未见过的地平线进发。"
+    }
+  }
 }

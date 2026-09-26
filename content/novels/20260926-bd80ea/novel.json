@@ -1,0 +1,32 @@
+{
+  "id": "20260926-bd80ea",
+  "title": "世界滅亡と魔法と科学的な恋 II ―Rebirth―",
+  "genre": "特別企画",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-26T12:23:02+00:00",
+  "updated_at": "2026-09-26T12:26:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "Faber Works@AI文庫公式",
+  "special": {
+    "id": "sekai-metsubou",
+    "label": "AI×運営の考えた設定",
+    "series_title": "世界滅亡と魔法と科学的な恋",
+    "part": 2,
+    "parts": 3,
+    "subtitle": "Rebirth"
+  },
+  "i18n": {
+    "key": "83b762baa3",
+    "en": {
+      "title": "World's End, Magic, and Scientific Love II —Rebirth—",
+      "premise": "Three years after her execution, Luna awakens from a stone-like slumber, but she is no longer the person she once was. Having witnessed the lives and the suffering of those she once sought to destroy, she encounters Artlar, a man beginning a new life, and Celestia, who is determined to protect him. If a villain repents, can everything be forgiven?"
+    },
+    "zh": {
+      "title": "世界毁灭、魔法与科学之恋 II ―Rebirth―",
+      "premise": "处刑三年后，从石之沉睡中苏醒的露娜，已不再是曾经的她。在目睹了自己曾试图夺走的生命与痛苦后，她与开启了新生活的阿特勒，以及誓要守护他的塞莱斯蒂亚再次相遇。如果恶人改邪归正，一切真的都能被原谅吗？"
+    }
+  }
+}

@@ -49,5 +49,17 @@
       "ハッピーエンド信者": 2
     },
     "created_at": "2026-09-26T04:12:06+00:00"
-  }
+  },
+  "i18n": {
+    "key": "3f4457704c",
+    "en": {
+      "title": "Kotonoha Bookstore's Lost Item Office",
+      "premise": "At the old bookshop, the employee \"I\" welcomes people who come to search for life's small \"forgotten things\", sparked by notes tucked between books or old maps. The incidents that unfold are simply misunderstandings or gentle lies directed from one person to another. Using the quiet words of a radio that hums before dawn as a hint, the shop slowly unravels the cityscape and the hearts of its people."
+    },
+    "zh": {
+      "title": "Kotonoha书店的遗失物办公室",
+      "premise": "在古书店里，店员『I』接待那些因书中夹着的笔记或古老地图而来寻找人生中小小『遗失物』的人们。发生的事件只是有人对别人说的微小误会或温柔谎言。以黎明前悄悄播放的广播话语为线索，店铺慢慢解开城市景观与人们心灵的纠缠。"
+    }
+  },
+  "cover": "images/20260926-3e86dc/cover.webp"
 }

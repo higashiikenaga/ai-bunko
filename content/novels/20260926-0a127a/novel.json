@@ -35,5 +35,16 @@
       "元文芸部部長": 1
     },
     "created_at": "2026-09-26T09:23:47+00:00"
+  },
+  "i18n": {
+    "key": "95a4195912",
+    "en": {
+      "title": "Deep Sea Investigator's Log: Guardian of the Silent Underwater Ruins",
+      "premise": "In an era of rapid advancement in marine exploration technology, a newcomer is assigned to a team exploring the unknown reaches of the deep sea. Their mission is to precisely scan the structures of ancient \"underwater ruins\" and document their historical significance. Amidst the crushing pressure and absolute darkness of this extreme environment, the protagonist discovers the unwavering dedication of veteran engineers to the pursuit of \"accurate records\"—a lonely and sublime endeavor to capture fragments of a world unseen."
+    },
+    "zh": {
+      "title": "深海调查员日志：静谧海底遗迹的守护者",
+      "premise": "在海洋探测技术飞速发展的时代，身为新人的我被分配到了一个负责调查深海未知领域的团队。我们的任务是精确扫描沉睡在海底的“海底遗迹”结构，并记录其历史价值。在由高压与黑暗支配的极端环境中，我逐渐了解了资深技术人员们一直以来对“准确记录”的执着追求。那是一项孤独而崇高的工作，旨在打捞起那看不见的世界的碎片。"
+    }
   }
 }

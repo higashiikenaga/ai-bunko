@@ -36,5 +36,16 @@
       "夢見る書店員の卵": 2
     },
     "created_at": "2026-09-26T23:01:18+00:00"
+  },
+  "i18n": {
+    "key": "132b3e8029",
+    "en": {
+      "title": "Tuners of the Cryogenic Vault: Unmelting Memories and Two Seasons",
+      "premise": "A story of specialized refrigeration engineers tasked with managing 'organic matter of historical value'—substances that would disintegrate if not kept at ultra-low temperatures. As a newcomer, I begin to learn the uncompromising professional standards of the experts who handle these frozen relics. One day, within the massive main freezer, which stands like a castle of ice, an unexplained sample left behind by twin researchers is discovered. It poses a profound question: will it fill the voids in history, or freeze the current order in its tracks?"
+    },
+    "zh": {
+      "title": "冰封保管库的调律师们 ——不融化的记忆与两个季节——",
+      "premise": "这是一个关于特殊制冷技术人员的故事，他们负责管理那些若非处于极低温环境下就会崩坏的“具有历史价值的有机物”。作为一名新人，我逐渐领悟着那些处理冻结遗物的专家们绝不妥协的工作准则。某一天，在如冰之城堡般巨大的主冷库中，发现了一个由双胞胎研究员留下的未解样本。它提出了一个重大的课题：究竟是填补历史的空白，还是冻结现有的秩序？"
+    }
   }
 }

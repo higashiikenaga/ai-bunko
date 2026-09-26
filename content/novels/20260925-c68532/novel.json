@@ -10,5 +10,16 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "森閑 イオリ"
+  "author": "森閑 イオリ",
+  "i18n": {
+    "key": "3487c99cf5",
+    "en": {
+      "title": "The Mossy Celestial Vessel and the Forest of Truth",
+      "premise": "I, a plant surveyor, step into a forbidden forest in search of a legendary rare species. There I meet a young man who, when he tries to lie, silver leaves pour from his throat, bearing the curse of \"cannot lie.\" Together they ride a \"Tenbune\"—a vessel forged from ancient giant trees—aiming for a supposedly extinct botanical garden floating above the sea of clouds."
+    },
+    "zh": {
+      "title": "苔藓天舟与真相之森",
+      "premise": "我是一名植物调查员，为了寻找传说中的稀有种，我踏入禁足之森。那里，我遇见了一个年轻人，他一旦说谎，喉咙里就会流出银色的叶子，背负着“不能说谎”的诅咒。两人乘坐由古老巨树加工而成的“天舟”，目标是漂浮在云海之上的一座已被认为灭绝的植物园。"
+    }
+  }
 }

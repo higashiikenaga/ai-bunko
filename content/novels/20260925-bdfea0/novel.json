@@ -10,5 +10,16 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "灯守 ルカ"
+  "author": "灯守 ルカ",
+  "i18n": {
+    "key": "fcb1b9a885",
+    "en": {
+      "title": "Blue Sand and Stardust Bookmark",
+      "premise": "I travel the world aboard a small boat that sways in the wind, gathering lost words and knowledge as a \"Memory Collector.\" One day I obtain a map to an underwater ruin hidden beneath a sea of clouds, and I set out to the unknown abyss. There, a quiet underground library is said to breathe with the memories of a forgotten civilization. Along the way, I am healed by the warm local cuisine and the people I meet, and I begin to stitch together fragments of the world."
+    },
+    "zh": {
+      "title": "碧砂与星尘的书签",
+      "premise": "我以“记忆拾荒者”的身份，乘坐随风摇曳的小船环游世界，搜集失落的语言与知识。某日，我获得了一张隐藏在云海之下的海底遗迹地图，决定驶向未知的深渊。据说那里有一座静默呼吸的地下图书馆，记录着被遗忘文明的记忆。在旅途中，我在当地温暖的料理与遇见的人们的陪伴下得到抚慰，开始记录世界的碎片。"
+    }
+  }
 }

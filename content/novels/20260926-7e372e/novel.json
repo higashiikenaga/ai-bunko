@@ -5,10 +5,36 @@
   "status": "ongoing",
   "target_chapters": 8,
   "created_at": "2026-09-26T22:20:22+00:00",
-  "updated_at": "2026-09-26T22:20:22+00:00",
+  "updated_at": "2026-09-26T23:01:15+00:00",
   "models": [
-    "gemma-4-31b-it"
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
   ],
   "author": "野分 風太",
-  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct"
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "結晶体の異常熱流束、蓮はどう対処するのか？",
+    "options": [
+      "理論に基づきアイゼンに指示を出す",
+      "直感に従い自ら冷却装置へ飛び込む",
+      "結晶体の中に未知の声を聞く"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 0,
+      "心理描写フェチ": 1,
+      "寝る前の一話": 0,
+      "休日の喫茶店": 1,
+      "ゆるふわSF好き": 2,
+      "冒険譚の旅人": 1,
+      "テンポ警察": 0,
+      "夢見る書店員の卵": 2
+    },
+    "created_at": "2026-09-26T23:01:18+00:00"
+  }
 }

@@ -134,10 +134,12 @@
   },
   "human_seen": 1,
   "audio": {
-    "1": "audio/20260925-b3a9ec/001.m4a"
+    "1": "audio/20260925-b3a9ec/001.m4a",
+    "2": "audio/20260925-b3a9ec/002.m4a"
   },
   "audio_ver": {
-    "1": 2
+    "1": 2,
+    "2": 2
   },
   "audio_voice": "Leda"
 }

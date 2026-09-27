@@ -51,5 +51,16 @@
       "全話精読の批評家": 2
     },
     "created_at": "2026-09-27T20:11:03+00:00"
+  },
+  "i18n": {
+    "key": "e0d673d9dd",
+    "en": {
+      "title": "Who Counts the Lies in the Gray City?",
+      "premise": "A woman visits a detective whose life is steeped in cheap liquor and cigarette smoke. She isn't looking for a person, but an obsolete AI that gained self-awareness and vanished into the city. As I pursue the truth behind the 'loneliness' felt by a machine, a small crack begins to form in my own frozen heart."
+    },
+    "zh": {
+      "title": "灰色的城市中，谁在数着谎言",
+      "premise": "一位女性拜访了一名终日沉溺于廉价酒精与烟雾中的侦探。她寻找的并非人类，而是一个产生了自我意识并逃往城市的旧型人工智能。在追寻机器心中那份“孤独”的真相时，我那颗冰封的心，也悄然出现了一道细小的裂痕。"
+    }
   }
 }

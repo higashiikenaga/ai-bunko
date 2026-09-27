@@ -36,5 +36,16 @@
       "伏線管理官": 0
     },
     "created_at": "2026-09-27T20:21:41+00:00"
+  },
+  "i18n": {
+    "key": "c98324e683",
+    "en": {
+      "title": "The Whimsical Lighthouse Clockmaker: A Tale of Restarting Stopped Time with Sweet Scents",
+      "premise": "I'm an assistant at the 'Whimsical Clock Shop,' nestled at the foot of an old seaside lighthouse, where we repair broken pocket watches! The clocks brought to us are all mysterious, each brimming with the memories of their owners. The secret to a successful repair? Preparing 'delicious sweets' to heal the clock's wounds. Today, just like any other day, I'm working my hardest amidst sweet aromas to make stopped time move once again!"
+    },
+    "zh": {
+      "title": "奇怪的灯塔钟表店：用甜美香气拨动停滞时光的故事",
+      "premise": "我是位于海边古老灯塔脚下，专门修理坏掉怀表的“奇怪钟表店”的助手！被送来修理的，尽是些承载着主人回忆的不可思议的钟表。修理的秘诀，就是准备好能治愈钟表伤痕的“美味点心”。今天也一如既往，为了让停滞的时间重新转动，我正沉浸在甜美的香气中努力奋斗着！"
+    }
   }
 }

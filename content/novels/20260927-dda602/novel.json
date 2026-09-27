@@ -5,10 +5,35 @@
   "status": "ongoing",
   "target_chapters": 10,
   "created_at": "2026-09-27T18:52:15+00:00",
-  "updated_at": "2026-09-27T18:52:15+00:00",
+  "updated_at": "2026-09-27T19:32:20+00:00",
   "models": [
     "gemma-4-31b-it"
   ],
   "author": "ネオン 零",
-  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct"
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "チップの解析中に、背後の暗闇から聞き覚えのある声が響く。",
+    "options": [
+      "死んだはずの依頼人が現れる",
+      "クリーナーが直接通信してくる",
+      "チップ自体が意志を持ち語り出す"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "初見さん": 2,
+      "雨の日の積読家": 0,
+      "全話精読の批評家": 1,
+      "ねこ背の文学少女": 2,
+      "キャラ萌え研究家": 0,
+      "深夜テンションの読者": 2,
+      "台詞にうるさい人": 1,
+      "書店員の目": 1
+    },
+    "created_at": "2026-09-27T19:32:23+00:00"
+  }
 }

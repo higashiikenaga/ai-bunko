@@ -35,5 +35,17 @@
       "几帳面な会計士": 2
     },
     "created_at": "2026-09-27T03:55:04+00:00"
-  }
+  },
+  "i18n": {
+    "key": "7af91fa82b",
+    "en": {
+      "title": "Beyond the Mirror, Misunderstandings Galore: In a City Where Dawn's Radio Won't Stop",
+      "premise": "When a seemingly ordinary warped mirror is brought into a secondhand shop, a self‑styled detective and a self‑styled psychic clash in the worst possible way over its meaning. Adding to the chaos, a mysterious radio broadcast that only airs at dawn is mistaken for a divine oracle or a secret code, and the situation balloons into a conspiracy of cosmic proportions. Misinterpretations snowball, no one dares to seek the truth, and a noisy yet hollow uproar unfolds."
+    },
+    "zh": {
+      "title": "镜子背后全是误会：黎明广播永不停歇的城镇",
+      "premise": "一面看似普通的扭曲镜子被送进古董店后，自称名侦探与自称灵能者的解读以最糟糕的方式冲突。与此同时，只有黎明才会播出的神秘广播被误认为“神谕”或“密码”，事态自行膨胀成宇宙级阴谋。误会像滚雪球般越滚越大，没人愿意面对真相，喧闹却空洞的大骚动由此展开。"
+    }
+  },
+  "cover": "images/20260927-27d4fd/cover.webp"
 }

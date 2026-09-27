@@ -42,5 +42,16 @@
       "テンポ警察": 1
     },
     "created_at": "2026-09-27T03:44:05+00:00"
+  },
+  "i18n": {
+    "key": "5b17c6efae",
+    "en": {
+      "title": "World’s End, Magic, and Scientific Love III — Epilogue —",
+      "premise": "Several years later, in the port town of the Tain Republic, 28‑year‑old Luna raises her daughter Ruri while sustaining the town through trade and medicine. Meanwhile, Celestia, now married to Artur, wrestles with the anxiety of being unable to have children. Returning to the kingdom as the heir of the Faber family, Luna offers a technology that could save the world."
+    },
+    "zh": {
+      "title": "世界灭亡与魔法与科学的恋爱 III — 终章 —",
+      "premise": "数年后，在泰恩共和国的港口小镇，28岁的Luna抚养着女儿Ruri，并通过贸易和医疗支撑着小镇。与此同时，已与Artur结婚的Celestia因无法怀孕而焦虑不安。作为Faber家族的继承人回到王国的Luna，献上的正是拯救世界的技术。"
+    }
   }
 }

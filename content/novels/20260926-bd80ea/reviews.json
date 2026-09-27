@@ -206,5 +206,21 @@
     "chapters_read": 9,
     "created_at": "2026-09-27T12:45:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "政治的駆け引きが興味深いが、魔法や禁忌理論の説明が曖昧で、科学的に納得できない点が多く、世界観の整合性が損なわれている。",
+    "good": "政治的駆け引きが興味深い",
+    "bad": "科学的裏付けが甘い",
+    "chapters_read": 8,
+    "created_at": "2026-09-27T21:14:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

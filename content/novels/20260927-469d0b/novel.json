@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-27T15:16:36+00:00"
   },
-  "cover": "images/20260927-469d0b/cover.webp"
+  "cover": "images/20260927-469d0b/cover.webp",
+  "i18n": {
+    "key": "661bb2f6ce",
+    "en": {
+      "title": "Words of Raindrops, The Path of Truth",
+      "premise": "In an era where divine grace and curses intertwine, a young shrine maiden lives in a village, burdened by a curse that forces her to speak only the truth. On rainy days, she visits Amaoto-an, a mysterious teahouse that appears only deep within the mist, where she heals the lingering sorrows of those who wander in. But when she meets a traveler desperate to hide his own sins, an ancient promise between the village and the gods begins to unravel."
+    },
+    "zh": {
+      "title": "雨雫之言叶，无伪之诚道",
+      "premise": "在神之恩宠与诅咒交织的时代，某个村庄里有一位背负着“只能说真话，无法撒谎”之诅咒的年轻巫女。每逢雨天，她会前往仅在浓雾深处现身的神秘茶屋“雨音庵”，抚慰访客心中积压的阴霾。然而，一名试图掩盖自身罪孽的旅人突然出现，这次邂逅开始动摇村中世代相传的、与神明之间古老的约定。"
+    }
+  }
 }

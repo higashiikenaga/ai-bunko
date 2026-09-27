@@ -1,0 +1,49 @@
+{
+  "id": "20260927-fc1419",
+  "title": "刻限の葬列と断絶の呪剣",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-09-27T10:33:16+00:00",
+  "updated_at": "2026-09-27T10:34:35+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "葛城 冥",
+  "prediction": {
+    "chapter": 2,
+    "question": "少女の出現で暴走した時間。二人の運命はどう動く？",
+    "options": [
+      "帝国の追っ手を振り切り、一時的な休息を得る",
+      "少女が記憶の断片を語り、カイルの過去が明かされる",
+      "折れた剣が共鳴し、世界の時間が完全に巻き戻る"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 0,
+      "深夜の読書灯": 1,
+      "応援団長": 2,
+      "元編集者": 2,
+      "几帳面な会計士": 0,
+      "休日の喫茶店": 1,
+      "深夜テンションの読者": 2,
+      "推しが尊い民": 1
+    },
+    "created_at": "2026-09-27T10:35:26+00:00"
+  },
+  "i18n": {
+    "key": "3f4286c866",
+    "en": {
+      "title": "The Funeral Procession of the Hour and the Cursed Blade of Severance",
+      "premise": "A young man wielding a forbidden ritual that forcibly restarts frozen time embarks on a journey to reboot the world alongside a girl who has lost her memories. Using a broken pocket watch as his catalyst, he can halt time—but at the cost of continuously eroding his own lifespan. Armed with a 'broken sword' capable of severing all causality and magic, they must face a desperate struggle for survival against an empire that devours time itself."
+    },
+    "zh": {
+      "title": "时限葬列与断绝之咒剑",
+      "premise": "操纵着能强行推动停滞时间的禁忌术式的青年，与失去记忆的少女一同踏上了重启世界的旅程。他以损坏的怀表为媒介停止时间，却也以此为代价不断削减着自己的寿命。他们所握紧的，是能斩断一切因果与术式的“断剑”。一场对抗吞噬时间的帝国的、绝望的生存斗争就此展开。"
+    }
+  }
+}

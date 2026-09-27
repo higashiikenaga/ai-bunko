@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T21:28:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "場面ごとに真実の呪いが重く描かれ、緊張が続くが、説明が長く停滞して展開が鈍く感じた。",
+    "good": "真実の呪い描写",
+    "bad": "場面説明が長い",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T21:53:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

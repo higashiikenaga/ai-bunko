@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T08:26:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "ラジオで異世界と接続するアイデアは斬新だが、物語のテンポがやや遅く、緊張感が弱い。",
+    "good": "独創的なラジオ設定",
+    "bad": "雰囲気が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-09-27T18:12:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

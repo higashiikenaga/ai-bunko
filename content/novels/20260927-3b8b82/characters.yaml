@@ -1,0 +1,54 @@
+- name: 神楽坂 弦一郎
+  role: 主人公
+  age: 42
+  gender: 男性
+  appearance: 細身で隙のない身なり、銀縁の眼鏡。鋭い眼差しが特徴。
+  personality: 冷徹な論理主義者。感情に流されず、事実のみを重んじる。一人称は「私」。
+  speech_style: 理知的で落ち着いた丁寧語。矛盾を指摘する際は極めて冷淡になる。
+  background: 元警視庁の捜査官。現在は私立探偵として、難解な事件を解決している。
+  motivation: 事象の背後にある論理的な真実を明らかにすること。
+  relationships:
+  - name: 瀬戸 結衣
+    relation: 同行者・記録係
+  arc: 事件解決を通じて、人間の情念という不合理な存在を再確認する。
+- name: 瀬戸 結衣
+  role: 相棒
+  age: 24
+  gender: 女性
+  appearance: 清楚な和装。控えめだが、観察力の鋭さを感じさせる瞳を持つ。
+  personality: 感受性が豊かだが、冷静な観察眼を持つ。一人称は「私」。
+  speech_style: 丁寧で穏やかな話し方。神楽坂を敬う。
+  background: 神楽坂の助手。文学を学んでおり、事件の記録を担う語り手。
+  motivation: 神楽坂の思考プロセスを理解し、真実を記録すること。
+  relationships:
+  - name: 神楽坂 弦一郎
+    relation: 師のような存在
+  arc: 閉ざされた島での凄惨な事件を通じ、人間の業を知り、精神的に成熟する。
+- name: 九条 宗助
+  role: 敵役
+  age: 38
+  gender: 男性
+  appearance: 恰幅の良い体格。高級な洋服を纏っているが、どこか品に欠ける。
+  personality: 強欲で短気。自尊心が高く、疑われることを極端に嫌う。一人称は「俺」。
+  speech_style: 威圧的で、声が大きく、詰め寄るような話し方。
+  background: 旧家の分家出身。莫大な遺産を相続するために島へやってきた。
+  motivation: 遺産相続において優位に立ち、望む額を手に入れること。
+  relationships:
+  - name: 九条 蓮一郎
+    relation: 従兄弟（被害者）
+  arc: 追い詰められるにつれ、隠していた強欲さと恐怖を剥き出しにする。
+- name: 九条 静
+  role: 脇役
+  age: 65
+  gender: 女性
+  appearance: 白髪を美しくまとめ、伝統的な着物を着こなす、威厳ある老婦人。
+  personality: 沈着冷静で、すべてを見透かしているようなミステリアスな雰囲気。一人称は「わたくし」。
+  speech_style: 品格のある、ゆっくりとした、含みのある話し方。
+  background: 旧家の家政を長年支えてきた、一族の歴史を知る人物。
+  motivation: 一族に伝わる「真実」と、遺産にまつわる因縁を守ること。
+  relationships:
+  - name: 九条 宗助
+    relation: 親族
+  - name: 九条 蓮一郎
+    relation: 親族（被害者）
+  arc: 物語の終盤で、隠蔽されてきた一族の悲劇を語り、真実の重みを突きつける。

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-27T06:51:55+00:00"
   },
-  "cover": "images/20260927-df4219/cover.webp"
+  "cover": "images/20260927-df4219/cover.webp",
+  "i18n": {
+    "key": "c24d911a8a",
+    "en": {
+      "title": "Moonlit Words, Radio Waves of the Dawn",
+      "premise": "There was once a lineage of 'Ear Cleaners' who recorded the final moments of non-human beings as sound. One winter night, the dying words of a yokai are entrusted to the static of an old radio. Guided by a mysterious voice drifting from the dawn airwaves, a young recorder begins to trace the lingering passions of forgotten apparitions and the memories of their time being loved by humans. It is a story of the final testaments—resembling prayers—left behind by those fading into nothingness."
+    },
+    "zh": {
+      "title": "月下的言语，黎明的电波",
+      "premise": "曾有一个名为“清耳者”的家族，负责将非人之物的临终时刻记录为声音。某个冬夜，濒死的妖怪将最后的遗言寄托在了旧收音机的杂音之中。年轻的记录者被黎明时分收音机中传来的神秘声音所引导，开始追寻那些被遗忘的怪异之情念，以及它们曾被人类爱过的记忆。这是一个关于消逝之物所留下的、宛如祈祷般的遗言的故事。"
+    }
+  }
 }

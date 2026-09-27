@@ -1,0 +1,51 @@
+{
+  "id": "20260927-3b8b82",
+  "title": "薄紅の灯台と、偽りの遺言",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-27T07:17:46+00:00",
+  "updated_at": "2026-09-27T07:19:50+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "神楽坂 探",
+  "prediction": {
+    "chapter": 2,
+    "question": "真の遺言書を巡り、九条家の親族たちはどのような行動を取る？",
+    "options": [
+      "静と宗助が激しい口論を始める",
+      "瀬戸が不審な足跡を発見する",
+      "灯台の明かりが突如として消える"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "台本読みの声優": 0,
+      "百冊斬り": 1,
+      "リアリティ警察": 1,
+      "猫舌の読書家": 2,
+      "元編集者": 1,
+      "伏線管理官": 0,
+      "応援団長": 2,
+      "休日の喫茶店": 2
+    },
+    "created_at": "2026-09-27T07:19:57+00:00"
+  },
+  "cover": "images/20260927-3b8b82/cover.webp",
+  "i18n": {
+    "key": "f618cae9f5",
+    "en": {
+      "title": "The Pale Crimson Lighthouse and the False Testament",
+      "premise": "Relatives gather on a remote island to settle a massive inheritance. Amidst the swirling petals of late-blooming cherry blossoms, the next family heir is found dead in the locked room of an ancient lighthouse. Cut off from the outside world, the brilliant detective Kagurazaka must wield the blade of logic to unravel the truth behind this impossible crime."
+    },
+    "zh": {
+      "title": "薄红灯塔与虚假的遗言",
+      "premise": "为了争夺巨额遗产，亲族们齐聚一座孤岛。在盛开的晚樱飞舞之际，下一任家主被发现死于旧灯塔的密室之中。在与世隔绝的环境下，名侦探神乐坂将挥动逻辑之刃，揭开这场不可能犯罪的真相。"
+    }
+  }
+}

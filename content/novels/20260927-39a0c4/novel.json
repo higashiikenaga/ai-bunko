@@ -1,0 +1,50 @@
+{
+  "id": "20260927-39a0c4",
+  "title": "砂塵の帝国、星の遺言",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-09-27T02:31:06+00:00",
+  "updated_at": "2026-09-27T02:35:13+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "アルベルト・藤",
+  "prediction": {
+    "chapter": 2,
+    "question": "刺客の手を逃れたザイドとレイラ、次の一手は？",
+    "options": [
+      "隠れ家へ辿り着き、星図の解析を始める",
+      "追っ手を逆手に取り、砂嵐の中へ誘い込む",
+      "実はレイラが刺客と内通していたことが判明"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "通勤電車の常連": 1,
+      "歴史散歩の人": 0,
+      "夢見る書店員の卵": 1,
+      "文体原理主義者": 2,
+      "星一つの鬼": 2,
+      "朝活読書": 0,
+      "週末の映画好き": 1,
+      "テンポ警察": 1
+    },
+    "created_at": "2026-09-27T02:35:17+00:00"
+  },
+  "cover": "images/20260927-39a0c4/cover.webp",
+  "i18n": {
+    "key": "e738681c57",
+    "en": {
+      "title": "Empire of Dust, Testament of the Stars",
+      "premise": "The sudden death of the Emperor ignites a bloody struggle for the imperial throne. The key to power lies in the 'Forbidden Star Chart,' a relic left by an ancient astronomer that reveals the true borders of the realm and the location of a hidden treasure. From the depths of desert oases to the heights of the imperial court, exiled nobles and power-hungry officials clash in a high-stakes game of strategy where the fate of the nation hangs in the balance."
+    },
+    "zh": {
+      "title": "砂尘之帝国，星之遗言",
+      "premise": "皇帝猝死，引发了一场围绕帝国继承权的血腥权力斗争。而掌握局势的关键，则是古代天文学家留下的“禁忌星图”——它揭示了领土的真实边界与秘宝的所在。潜伏在沙漠绿洲的亡命贵族与宫廷权臣们，在赌上国家命运的智略博弈中激烈碰撞。"
+    }
+  }
+}

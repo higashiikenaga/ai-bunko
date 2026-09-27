@@ -35,5 +35,17 @@
       "ジャンル横断者": 2
     },
     "created_at": "2026-09-27T09:44:30+00:00"
-  }
+  },
+  "i18n": {
+    "key": "4bd9a2dc89",
+    "en": {
+      "title": "The Mirror Window of the Crow Crossing",
+      "premise": "In a remote mountain village, a strange custom called the \"Calm of the Migratory Birds\" is observed once a year. When the season of passing birds arrives, villagers cover every mirror with cloth and lock their doors. A young man who has returned from the city finds an old, warped hand mirror among his late grandmother’s belongings. The moment he wipes the mirror, he is enveloped by an inaudible fluttering and the scent of wet earth. Something lurking beyond the mirror, accompanied by the flock of birds, begins to quietly seep into the village."
+    },
+    "zh": {
+      "title": "乌鸦渡口的镜窗",
+      "premise": "在山间的一个村落，流传着被称为『渡鸟的平静』的奇异风俗。每年一度，当迁徙鸟类飞过的季节来临，村民们会把所有镜子用布覆盖，紧紧关上门。一个从都市归来的青年在祖母遗物中发现了一面形状扭曲的古老手镜。擦拭镜面的一瞬间，他听见了不可言说的『扑翼』声，空气中弥漫着湿土的气味。镜子背后潜伏的某物与鸟群一起，悄悄渗透进村庄。"
+    }
+  },
+  "cover": "images/20260927-c7adaf/cover.webp"
 }

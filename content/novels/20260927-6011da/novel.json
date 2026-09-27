@@ -36,5 +36,17 @@
       "ミステリー初心者": 1
     },
     "created_at": "2026-09-27T08:10:09+00:00"
+  },
+  "cover": "images/20260927-6011da/cover.webp",
+  "i18n": {
+    "key": "155920dce3",
+    "en": {
+      "title": "Star Chart of the Water's Depths and the Breath of the Sealed Mirror",
+      "premise": "Lured by the scorching winds of the desert, I arrived at a mysterious city. There lay a 'desert oasis' that should have remained hidden beneath the dunes, its surface as smooth as a mirror. But instead of the sky, it reflected an 'impossible star chart.' The town's residents turn the hands of their clocks backward, endlessly knocking on doors that do not exist. And then, I realize: the boundary of this city is slowly dissolving into the world beyond the mirror."
+    },
+    "zh": {
+      "title": "水底星图与封闭之镜的呼吸",
+      "premise": "我仿佛被沙漠的热风所诱导，抵达了那座城市。那里存在着本应沉睡在沙丘底部的“沙漠绿洲”，但其水面如镜般平滑，映照出的并非天空，而是“不可能存在的星图”。城中的居民们一边将时钟的指针反向拨动，一边不停地敲击着不存在的门。我渐渐察觉到，这座城市的边界，正一点点地融化在镜子的另一端。"
+    }
   }
 }

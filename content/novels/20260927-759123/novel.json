@@ -35,5 +35,16 @@
       "ねこ背の文学少女": 2
     },
     "created_at": "2026-09-27T22:48:02+00:00"
+  },
+  "i18n": {
+    "key": "cc704e2d5b",
+    "en": {
+      "title": "Amber-Colored Pages and Winter Root Vegetable Soup",
+      "premise": "Makoto returns to her family's old bookshop after ten years. The cold silence between her and her clumsy father begins to melt away with the taste of the home‑cooked dishes her mother used to make. Surrounded by the scent of nameless cats and old books, they confront the time they've lost and slowly rebuild their family's shape."
+    },
+    "zh": {
+      "title": "琥珀色的页与冬季炖根菜汤",
+      "premise": "十年后，真琴回到家里的古书店。她与笨拙的父亲之间的冷淡沉默，随着母亲曾经烹调的家常菜味道而逐渐化解。被无名的猫咪和旧书的香气包围，两人面对失去的时光，慢慢恢复家庭的模样。"
+    }
   }
 }

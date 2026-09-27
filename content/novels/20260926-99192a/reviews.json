@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T11:13:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ソラが風結晶を磨くシーンや蜂蜜ジンジャーティーを差し出す瞬間は心地よく、AIの戸惑いも伝わるが、感情の深掘りが足りずやや表層的。",
+    "good": "ソラの細やかな描写",
+    "bad": "AIの内面描写が浅い",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T16:30:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

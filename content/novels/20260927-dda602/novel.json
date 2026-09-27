@@ -35,5 +35,17 @@
       "書店員の目": 1
     },
     "created_at": "2026-09-27T19:32:23+00:00"
-  }
+  },
+  "i18n": {
+    "key": "61844776b8",
+    "en": {
+      "title": "Noise of the Cyber Sakura, Echoes of the Memory Market",
+      "premise": "Acid rain never stops. In neon‑drenched back‑alleys where the lights seem to melt, I work as a broker who buys and sells memories at rock‑bottom prices. One day, a client brings me a memory of the “Pure White Sakura”—a legend the ruling corporation supposedly erased after it once ruled the city. Hidden within that data is a virus capable of overturning the city’s entire system. Dodging relentless pursuit drones, I dive deeper into the truth behind the information."
+    },
+    "zh": {
+      "title": "电脳樱的噪音，记忆市场的余响",
+      "premise": "酸性雨从未停歇。霓虹在巷子里似乎要融化，我是个低价收买“记忆”的搬运工。某天，送到我面前的是传说中曾统治城市的企业据称已抹杀的“纯白的樱”记忆。那段数据里潜藏着能够从根本颠覆城市系统的病毒。躲过追踪的无人机，我潜入信息的真相之中。"
+    }
+  },
+  "cover": "images/20260927-dda602/cover.webp"
 }

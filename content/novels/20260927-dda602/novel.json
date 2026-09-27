@@ -1,0 +1,14 @@
+{
+  "id": "20260927-dda602",
+  "title": "電脳桜のノイズ、記憶市場の残響",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-27T18:52:15+00:00",
+  "updated_at": "2026-09-27T18:52:15+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "ネオン 零",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct"
+}

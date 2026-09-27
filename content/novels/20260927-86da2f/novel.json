@@ -51,5 +51,17 @@
       "夢見る書店員の卵": 0
     },
     "created_at": "2026-09-27T18:39:26+00:00"
-  }
+  },
+  "i18n": {
+    "key": "ea8b98bb9e",
+    "en": {
+      "title": "The Mirror Market of the Wake",
+      "premise": "In Karasugakure, a village enclosed by mountains, there is a legend of a 'Market of Memories' that opens only on foggy nights once every few years. The village youth venture there to erase ominous events or to feed upon their most precious memories. However, the price for trading memories through mirrors is the gradual erosion of the soul's very contours. Having broken a village taboo and wandered into this mirror market, the protagonist comes face-to-face with the true nature of the 'something' writhing within."
+    },
+    "zh": {
+      "title": "殯之鏡市",
+      "premise": "被群山環繞的烏隱里，流傳著一個關於「販賣記憶的市場」的傳說。該市場每隔數年，僅在霧夜之時才會開啟。村裡的年輕人們為了忘卻不祥之事，或是將珍貴的記憶化作養分，紛紛前往該市場。然而，以鏡為媒介交易記憶的代價，是靈魂的輪廓將被一點一點地削去。打破村中禁忌、誤入鏡之市場的主角，將面對在那裡蠢動的「某種東西」的真面目。"
+    }
+  },
+  "cover": "images/20260927-86da2f/cover.webp"
 }

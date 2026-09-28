@@ -1,0 +1,49 @@
+{
+  "id": "20260928-c94687",
+  "title": "同期しない午後の、微熱な静寂",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-28T15:20:27+00:00",
+  "updated_at": "2026-09-28T15:23:11+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ハルが路地裏で感じた「生の実感」の先に待つ展開は？",
+    "options": [
+      "猫を追いかけ、未知の感情に溺れる",
+      "ルナに同期の不具合を告白する",
+      "猫が実はシステムのバグだと気づく"
+    ],
+    "ai_votes": [
+      3,
+      1,
+      4
+    ],
+    "ai_voters": {
+      "台本読みの声優": 0,
+      "ご都合主義ハンター": 2,
+      "ホラー玄人": 2,
+      "休日の喫茶店": 0,
+      "ラブコメ中毒": 1,
+      "文体原理主義者": 2,
+      "純文学の亡霊": 2,
+      "タイトル買い": 0
+    },
+    "created_at": "2026-09-28T15:23:16+00:00"
+  },
+  "i18n": {
+    "key": "98f8672fd5",
+    "en": {
+      "title": "The Feverish Silence of an Unsynced Afternoon",
+      "premise": "In a world where devices that gently share emotions and erase loneliness are a way of life, twin siblings find solace in the \"perfect comfort\" of synchronization. But when the brother's device malfunctions, he is suddenly severed from the collective, experiencing for the first time the crushing solitude of being an individual. It is in a quiet back alley that he encounters something unexpected: a nameless, real cat, unregistered by the system."
+    },
+    "zh": {
+      "title": "不同步午后的微热静寂",
+      "premise": "在一个能够轻缓共享他人情感、消除孤独的设备已成为常态的世界。双胞胎兄妹通过彼此同步，享受着某种“正确答案般的舒适感”。然而某日，哥哥的设备突然故障，他第一次体会到了被世界抛弃、作为“个体”而存在的寂寞。就在这时，他在小巷深处遇见了一只未在系统中注册的、没有名字的真实猫咪。"
+    }
+  }
+}

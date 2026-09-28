@@ -35,5 +35,17 @@
       "タイトル買い": 0
     },
     "created_at": "2026-09-28T14:49:25+00:00"
+  },
+  "cover": "images/20260928-0018cc/cover.webp",
+  "i18n": {
+    "key": "dc87d408a0",
+    "en": {
+      "title": "Threshold of Silence, Remnants of Noise",
+      "premise": "Every sound is regulated for the sake of order. Ren, an Acoustic Auditor, spends his days dispassionately performing his duty: detecting and erasing irregular sounds—the so-called \"noise.\" But one morning, he encounters a trembling human voice streaming from the forbidden \"Dawn Radio.\" It is the raw resonance of life, a sound that the managed silence has long sought to conceal."
+    },
+    "zh": {
+      "title": "静寂之阈，噪声之残渣",
+      "premise": "为了维持秩序，所有的声音都受到严密的管控。音响审计官 Ren 每天机械地执行着任务：探测并抹除那些不规则的声音——即所谓的“噪声”。然而，某天清晨，他偶然听到了从被禁的“黎明广播”中传出的、那颤抖的人声。那是被管控的静寂所掩盖的、生命最原始的共鸣。"
+    }
   }
 }

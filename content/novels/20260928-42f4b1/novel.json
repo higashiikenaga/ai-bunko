@@ -35,5 +35,16 @@
       "テンポ警察": 2
     },
     "created_at": "2026-09-28T14:25:09+00:00"
+  },
+  "i18n": {
+    "key": "872685a71e",
+    "en": {
+      "title": "The Seal of Forgetting, the Underworld Letter",
+      "premise": "Spell‑wielders known as “Lost Masters” pay the price of their own memories by selling them on the “Memory Market,” using the proceeds to gain supernatural powers. The protagonist Ren is tasked with retrieving a “Lost Letter” whose master has vanished, only to discover that the letter contains a sealed forbidden spell. Unraveling it would unleash a curse capable of rewriting the very laws of the world. A bloody clash erupts between a pursuing sorcery organization and other memory‑feeding ability users."
+    },
+    "zh": {
+      "title": "忘却的刻印，冥府的书简",
+      "premise": "操控术式的“遗失师”们以将自身记忆卖入“记忆市场”为代价，从中获取异能。主角蓮受命回收一封失去主人的“失落信件”，然而信中封印着禁忌的术式。解开此信等同于释放能够改写世界法则的诅咒。追踪他们的咒术组织与以记忆为食的异能者之间的血战即将拉开序幕。"
+    }
   }
 }

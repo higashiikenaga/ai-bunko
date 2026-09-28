@@ -1,0 +1,47 @@
+{
+  "id": "20260928-4c1a32",
+  "title": "骸の聖都と忘却の鏡",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-28T10:17:26+00:00",
+  "updated_at": "2026-09-28T10:19:25+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "黒羽 レイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイルは次に何を選ぶ？",
+    "options": [
+      "レオンの警告を信じて同行",
+      "警告を無視し先に進む",
+      "レオンの正体を突き止める"
+    ],
+    "ai_votes": [
+      0,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "通学バスの読者": 2,
+      "初見さん": 1,
+      "流行ウォッチャー": 2,
+      "設定考証班": 1
+    },
+    "created_at": "2026-09-28T10:19:29+00:00"
+  },
+  "i18n": {
+    "key": "17535fd043",
+    "en": {
+      "title": "The Ruined Holy City and the Mirror of Oblivion",
+      "premise": "In a world where magic is wielded at the cost of memories, former knight Kael has lost everything and sets out to find the \"Primordial Mirror,\" a relic said to rebuild the world. To reach the mirror, he must unravel the blood‑stained \"Will\" left by past heroes, all while continually erasing his own existence. At the end of his quest lies either humanity’s oblivion or a cruel rebirth."
+    },
+    "zh": {
+      "title": "骸之圣都与遗忘之镜",
+      "premise": "在一个以记忆为代价操纵魔法的世界里，失去一切的前骑士凯尔踏上寻找传说中能重塑世界的『原初之镜』的旅程。要到达镜面，他必须解开昔日英雄留下的血染『遗嘱』，并不断削减自己的存在。救赎的终点究竟是全人类的遗忘，还是残酷的重生？"
+    }
+  },
+  "cover": "images/20260928-4c1a32/cover.webp"
+}

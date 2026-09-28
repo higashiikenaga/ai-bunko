@@ -37,5 +37,16 @@
     },
     "created_at": "2026-09-28T05:45:16+00:00"
   },
-  "cover": "images/20260928-da4b0b/cover.webp"
+  "cover": "images/20260928-da4b0b/cover.webp",
+  "i18n": {
+    "key": "dc6663b08d",
+    "en": {
+      "title": "The Silver Fox of the Star Charts and the Frozen Castle of Prayer",
+      "premise": "In a village where the sky holds no stars and only a cold mist drifts, a young girl wanders lost. There, she encounters a silver fox carrying an ancient star chart upon its back. Together, they embark on a journey to find the star fragments slumbering within the \"Ice Castle\"—a place whispered to be a failed creation of the gods. But the castle is a terrifying realm, one that turns a visitor's most precious memories into ice to devour them."
+    },
+    "zh": {
+      "title": "编织星图的银狐与冰封的祈祷之城",
+      "premise": "在一个没有星光、唯有冷雾弥漫的村庄里，一名少女迷失了方向。她所邂逅的，是一只背负着古老星图的银狐。两人踏上了寻找星之碎片的旅程，而那些碎片正沉睡在传说中由神明创造失败而成的“冰之城”中。然而，那座城堡却是一个恐怖之地，它会将造访者“最珍贵的记忆”化作冰晶，并将其吞噬。"
+    }
+  }
 }

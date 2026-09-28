@@ -36,5 +36,17 @@
       "冒険譚の旅人": 1
     },
     "created_at": "2026-09-28T05:34:05+00:00"
-  }
+  },
+  "i18n": {
+    "key": "64c7e5f51c",
+    "en": {
+      "title": "The Liar of Chiyoda Tenement in Edo Laughs in the Dusk",
+      "premise": "In a corner of Fukagawa—known as the \"sleepless city\" plagued by frequent mysterious disappearances—lives Seiji, a peculiar young apothecary afflicted with a curse that makes him incapable of telling a lie. No matter how hard he tries to sugarcoat his words, he is an awkward man who ends up blurting out his true feelings. One night, as tenement residents lose what is precious to them and grow fearful of suspicious shadows wandering the streets, Seiji confronts his own curse while unraveling the truths people have hidden away. As the season shifts toward winter, this is a heartwarming tale of human emotion, flickering like a fire in a chilled heart."
+    },
+    "zh": {
+      "title": "江户·千代田长屋的谎言客，于暮色中微笑",
+      "premise": "在被称为“不眠之街”且频繁发生神隐事件的深川一角，住着一位名叫清次的奇异年轻药贩，他背负着无法说谎的诅咒。无论他如何粉饰，总会笨拙地将真心话脱口而出。某天夜里，长屋的居民失去了重要的东西，并在街头徘徊的可疑阴影中瑟瑟发抖。清机一边直面自身的诅咒，一边解开人们所隐藏的真相。当季节转入严冬，这是一个宛如在冰冷心中点燃火焰般的人情故事。"
+    }
+  },
+  "cover": "images/20260928-93fe8f/cover.webp"
 }

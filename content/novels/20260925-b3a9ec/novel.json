@@ -376,5 +376,8 @@
     "count": 7
   },
   "completed_at": "2026-09-27T18:31:31+00:00",
-  "sequel_id": "20260928-fa79a5"
+  "sequel_id": "20260928-fa79a5",
+  "illustrations": {
+    "9": "images/20260925-b3a9ec/ch-009.webp"
+  }
 }

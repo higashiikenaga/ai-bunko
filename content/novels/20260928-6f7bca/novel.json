@@ -1,0 +1,68 @@
+{
+  "id": "20260928-6f7bca",
+  "title": "秒針の渡り鳥と、深海に眠る記憶の残滓",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-28T07:13:35+00:00",
+  "updated_at": "2026-09-28T07:15:45+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "時任 巡",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "inspired_by": [
+    {
+      "novel": "20260927-dda602",
+      "title": "電脳桜のノイズ、記憶市場の残響",
+      "author": "ネオン 零",
+      "chapter": 1,
+      "goods": [
+        "桜の記憶の描写が美しい",
+        "テンポとアクションが爽快",
+        "汚染された街と桜の対比",
+        "没入感のある情景描写",
+        "退廃的な世界観と鮮烈な描写"
+      ],
+      "at": "2026-09-28T07:13:36+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "潜航を開始したレムリア号。深淵でカイエンが見たものは？",
+    "options": [
+      "未知の機械生物の光",
+      "崩れゆく海底遺跡の影",
+      "昨日と同じ景色が広がる"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ジャンル横断者": 0,
+      "文体原理主義者": 2,
+      "週末の長編派": 1,
+      "元新人賞下読み": 1,
+      "毒舌書評ブロガー": 0,
+      "ご都合主義ハンター": 2,
+      "ほのぼの愛好会": 2,
+      "雨の日の積読家": 0
+    },
+    "created_at": "2026-09-28T07:16:28+00:00"
+  },
+  "cover": "images/20260928-6f7bca/cover.webp",
+  "i18n": {
+    "key": "e20f8f80ea",
+    "en": {
+      "title": "The Second Hand's Migratory Bird and the Remnants of Memories Sleeping in the Deep Sea",
+      "premise": "As a deep-sea researcher, I was caught in a 'collapse of time' during an investigation of undersea ruins, forcing me to repeat the same day over and over. Every time I wake, I am greeted by the same bitter taste of yesterday's coffee and the same view from my window. Relying on the trajectory of a mechanical creature—a 'migratory bird' that weaves through the distortions of spacetime—I dive into the depths of the abyss to break the cycle of recurring destruction."
+    },
+    "zh": {
+      "title": "秒针的候鸟与沉睡于深海的记忆残渣",
+      "premise": "作为一名深海调查员，我在调查海底遗迹时被卷入了“时间的崩塌”，陷入了不断重复同一天的轮回之中。每次醒来，迎接我的都是昨日那份咖啡的苦涩，以及昨日那扇窗外的景色。循着那如“候鸟”般穿梭于时空扭曲中的机械生物的轨迹，为了斩断这不断循环的毁灭连锁，我向着深渊的底部潜去。"
+    }
+  }
+}

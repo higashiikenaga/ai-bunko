@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-28T08:13:04+00:00"
   },
-  "cover": "images/20260928-fdd1b6/cover.webp"
+  "cover": "images/20260928-fdd1b6/cover.webp",
+  "i18n": {
+    "key": "1aa8525dae",
+    "en": {
+      "title": "A Farewell Note Dissolving in the Sound of the Tide",
+      "premise": "With graduation fast approaching, Nagi spends his days in solitude in a rainy seaside town, harboring feelings he cannot put into words. One day, in a forgotten corner of the school building, he discovers an old letter—unaddressed, yet filled with a desperate, heartfelt longing. Through his connection with the letter's author, a girl named Shiori, Nagi realizes that they are like souls seeking an oasis in a desert, filling the voids in each other's hearts. However, between them lies a boundary of fate that can never be crossed."
+    },
+    "zh": {
+      "title": "溶于潮声的告别便笺",
+      "premise": "即将毕业的凪，怀揣着无法言说的情感，在连日阴雨的海边小镇中孤独地生活着。直到有一天，他在校舍的角落里发现了一封古旧的信件。那是一封没有收信人，却写满了切切心愿的信。在与写信的少女——汐里的交流中，凪意识到两人就像在沙漠中寻找绿洲一般，是能够填补彼此内心缺失的存在。然而，在两人之间，却划着一条永远无法交汇的命运分界线。"
+    }
+  }
 }

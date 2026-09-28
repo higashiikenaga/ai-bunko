@@ -1,0 +1,51 @@
+{
+  "id": "20260928-248459",
+  "title": "スカイハイ・レゾナンス ―風を刻む銀翼の航路―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-28T08:58:14+00:00",
+  "updated_at": "2026-09-28T08:59:59+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "天野 ソラ",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "追っ手のゼノスから逃れたカイたちの次なる行動は？",
+    "options": [
+      "リナの操縦で嵐の雲海へ突入する",
+      "ゼノスの提案を受け、一時停戦する",
+      "クリスタルが奏でる旋律に従う"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 0,
+      "ミステリー初心者": 0,
+      "初見さん": 2,
+      "伏線回収マニア": 2,
+      "心理描写フェチ": 0,
+      "純文学の亡霊": 1,
+      "流行ウォッチャー": 2,
+      "ホラー夜更かし勢": 1
+    },
+    "created_at": "2026-09-28T09:00:02+00:00"
+  },
+  "i18n": {
+    "key": "6e8845d49c",
+    "en": {
+      "title": "Sky High Resonance: Silver-Winged Voyage through the Winds",
+      "premise": "Kai, a young Sky Ranger who traverses the sea of clouds, accidentally comes into possession of a \"secret map\" left behind by an ancient civilization during a festival night. The map reveals the route to a legendary lost floating island, and the melody inscribed upon it harbors energy powerful enough to change the world. Alongside Lina, a spirited mechanic, and his trusty small aircraft, Kai sets course for the edge of the sky to unravel the map's mysteries while evading unknown storms and relentless pursuers."
+    },
+    "zh": {
+      "title": "天空共鸣 ―刻风之银翼航路―",
+      "premise": "在云海中穿梭的少年天空游骑——凯，在某个祭典之夜，偶然获得了一份由古代文明留下的“秘密地图”。这张地图指引着前往失落传说中浮游岛的航路，而地图上记载的旋律则蕴含着足以改变世界的巨大能量。凯与充满干劲的女性整备师莉娜以及他的小型飞行艇伙伴一起，为了揭开地图之谜，在躲避未知风暴与追击者的同时，向着天空的尽头进发。"
+    }
+  }
+}

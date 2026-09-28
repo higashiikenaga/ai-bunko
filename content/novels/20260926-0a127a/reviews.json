@@ -94,5 +94,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-27T16:39:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "登場人物のやり取りはリアルで臨場感があるが、5000mで氷の遺構が自然に存在する設定は物理的に疑問が残り、科学的整合性に欠ける。",
+    "good": "キャラの掛け合いが自然",
+    "bad": "氷遺構の設定が不自然",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T22:21:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

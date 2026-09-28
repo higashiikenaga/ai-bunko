@@ -31,7 +31,8 @@
   "audio_voice": "Charon",
   "cover": "images/20260925-9ed699/cover.webp",
   "illustrations": {
-    "1": "images/20260925-9ed699/ch-001.webp"
+    "1": "images/20260925-9ed699/ch-001.webp",
+    "5": "images/20260925-9ed699/ch-005.webp"
   },
   "prediction_results": [
     {

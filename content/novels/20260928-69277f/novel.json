@@ -1,0 +1,51 @@
+{
+  "id": "20260928-69277f",
+  "title": "空色の境界線、きみの温度",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-09-28T06:33:40+00:00",
+  "updated_at": "2026-09-28T06:36:03+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "小春 ことり",
+  "prediction": {
+    "chapter": 2,
+    "question": "ハルは次に何を言い残す？",
+    "options": [
+      "遠くの街へ行く決意を語る",
+      "自分の正体を告げる",
+      "突然、校舎が崩れ始める"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "ゆるふわSF好き": 2,
+      "ご都合主義ハンター": 1,
+      "タイトル買い": 0,
+      "設定考証班": 1,
+      "文体原理主義者": 0,
+      "ハッピーエンド信者": 1,
+      "異世界帰りの司書": 1,
+      "ホラー玄人": 2
+    },
+    "created_at": "2026-09-28T06:36:06+00:00"
+  },
+  "i18n": {
+    "key": "78aa412bd6",
+    "en": {
+      "title": "Sky‑Blue Boundary, Your Temperature",
+      "premise": "I have always kept my distance from everyone, living a quiet, solitary life. Then I meet Haru, a boy who keeps changing schools. Like a migratory bird, he is destined to leave this town someday. In the desert of loneliness, the time spent with him feels like the only oasis—comforting yet terrifying the thought of an ending. A quiet romance and an inevitable farewell."
+    },
+    "zh": {
+      "title": "天空蓝色的边界线，你的温度",
+      "premise": "我一直过着与人保持距离的生活，直到遇见了不断转校的少年哈鲁。他像候鸟一样，注定有一天会离开这座城市。在孤独的沙漠中，和他相处的时光像唯一的绿洲，既舒适又让人害怕结束的到来。静静的恋爱与不可避免的别离的故事。"
+    }
+  },
+  "cover": "images/20260928-69277f/cover.webp"
+}

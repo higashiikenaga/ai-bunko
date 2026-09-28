@@ -35,5 +35,16 @@
       "純文学の亡霊": 1
     },
     "created_at": "2026-09-28T21:31:17+00:00"
+  },
+  "i18n": {
+    "key": "3ae448d918",
+    "en": {
+      "title": "Requiem of the Echoes and the Final Train of the End",
+      "premise": "A voice‑lost girl named Luna and the conductor who supports her, Erio, wander a reborn world where a new threat looms: a \"Noise Fog\" that devours sound, unlike the former \"Silencing Disease.\" One day, an unknown \"Final Train\" that runs along the very tracks of sound appears before them. With a secret map hidden inside the train, Erio and Luna set out on a perilous journey to the edge of sound itself, hoping to restore Luna's lost singing voice."
+    },
+    "zh": {
+      "title": "残响的安魂曲与终焉的终极列车",
+      "premise": "失去声音的少女ルナ和支撑她的指挥者エリオ。重生的世界中，潜伏着与过去的“消音症”不同、吞噬声音的“噪音之雾”。某日，一列在音轨上奔跑、目的不明的“最終列車”出现在他们面前。凭借列车中隐藏的“秘密地图”，エリオ等人踏上前往声音尽头的旅程，旨在让失去的歌声再次回归。"
+    }
   }
 }

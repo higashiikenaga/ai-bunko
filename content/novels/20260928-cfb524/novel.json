@@ -1,0 +1,50 @@
+{
+  "id": "20260928-cfb524",
+  "title": "ネオン・フライヤーの不眠症的デバッグ",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-09-28T17:52:08+00:00",
+  "updated_at": "2026-09-28T17:53:46+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "ネオ・カナタ",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイトは次に何をする？",
+    "options": [
+      "廃駅に隠れ、情報集め",
+      "AIの中心を直接対峙",
+      "AIの夢にハッキング侵入"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "週末の映画好き": 1,
+      "SF考察勢": 2,
+      "文字数カウンター": 0,
+      "休日の喫茶店": 0,
+      "通学バスの読者": 1,
+      "書店員の目": 0,
+      "ほめ上手な先輩": 1,
+      "伏線回収マニア": 2
+    },
+    "created_at": "2026-09-28T17:53:47+00:00"
+  },
+  "cover": "images/20260928-cfb524/cover.webp",
+  "i18n": {
+    "key": "8121739878",
+    "en": {
+      "title": "Neon Flyer's Insomniac Debugging",
+      "premise": "In the Sleepless Dome, a city where sleep is forbidden, I make a living as a 'memory scavenger,' debugging illegal electronic lifeforms known as 'Migratory Birds' that drift through the system. One day, my terminal receives the consciousness data of a girl harboring a bug powerful enough to rewrite every log in the city. While evading the pursuit of the city's management AI, I draw closer to the truth behind a bug far too beautiful to be real, hidden in the depths of the city that never sleeps."
+    },
+    "zh": {
+      "title": "霓虹飞行员的失眠式调试",
+      "premise": "在禁止睡眠的都市“不眠之穹”中，我一边从事着“记忆拾荒”的工作，一边承接调试非法漂流在系统中的电子生命体——通称“候鸟”的任务。直到有一天，我的终端收到了一份少女的意识数据，她携带的Bug足以改写整座都市的所有日志。在躲避都市管理AI追击的同时，我逐渐接近隐藏在不眠之城底端、那个过于美丽的Bug的真相。"
+    }
+  }
+}

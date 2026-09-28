@@ -37,5 +37,16 @@
     },
     "created_at": "2026-09-28T16:43:36+00:00"
   },
-  "cover": "images/20260928-fa79a5/cover.webp"
+  "cover": "images/20260928-fa79a5/cover.webp",
+  "i18n": {
+    "key": "216d935ee6",
+    "en": {
+      "title": "Starving! The Migratory Bird's Munching Gourmet Journey in Another World",
+      "premise": "After seeing Ruru-kun off, I returned to my peaceful (?) everyday life. But now, my next customers are showing up demanding \"even more incredible flavors\"! With quests for a market that buys and sells memories and forbidden recipes sleeping in the underground library, my delicious grand adventure begins. I'm going to capture the stomachs of another world with good food and aim to become the greatest rest stop in existence!"
+    },
+    "zh": {
+      "title": "肚子饿扁啦！异界候鸟的朵颐美食之旅",
+      "premise": "送走鲁鲁君之后，我又回到了平静（？）的日常生活。然而，接下来光顾的客人居然都嚷着要寻求“更厉害的味道”！为了寻找买卖记忆的市场以及沉眠于地下图书馆的禁断食谱，我的大快朵颐大冒险正式拉开序幕。我要用美味的饭菜抓住异世界的胃，朝着世界第一的歇脚处进发！"
+    }
+  }
 }

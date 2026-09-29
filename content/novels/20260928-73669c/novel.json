@@ -35,5 +35,16 @@
       "ご都合主義ハンター": 2
     },
     "created_at": "2026-09-29T00:02:33+00:00"
+  },
+  "i18n": {
+    "key": "26bdb9a439",
+    "en": {
+      "title": "Memories Sinking at the Bottom of the Calm, a Promise Revived by the Rising Tide",
+      "premise": "In an old port town where forgotten \"memories\" wash ashore with the ebb and flow of the tide, the \"Market of Sold Memories\" operates in secret, trading lost recollections at the cost of cherished ones. A young lighthouse keeper sets foot upon the forbidden \"Hill of Promises\" in search of the memory of his deceased mother. Yet, with every rising tide, the villagers transform into something unknown and nameless."
+    },
+    "zh": {
+      "title": "沉于静谧之底的记忆，随潮水复苏的约定",
+      "premise": "在一个随着潮汐涨落，本应被遗忘的“记忆”会随之漂岸的古老港口小镇里，暗中进行着一场“贩卖记忆”的交易，人们以付出不想失去的珍贵回忆为代价，换取另一段记忆。年轻的看灯人为了寻找本应死去的母亲的记忆，踏入了禁忌的“约定之丘”。然而，每当潮水涨起，村里的人们便会异变成某种不明身份的“存在”。"
+    }
   }
 }

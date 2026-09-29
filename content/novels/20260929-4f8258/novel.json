@@ -52,5 +52,17 @@
       "新着チェッカー": 0
     },
     "created_at": "2026-09-29T02:00:38+00:00"
+  },
+  "cover": "images/20260929-4f8258/cover.webp",
+  "i18n": {
+    "key": "c17422671b",
+    "en": {
+      "title": "Golden Wind Sky Dive: Crystalline Wings and the Mirror Labyrinth",
+      "premise": "Having finally reached the primeval forests of the surface, Kai and his companions sought to establish a new order for the skies alongside the purification of the air. However, a colossal floating island of ice known as the 'Ice Castle' emerges in the high altitudes of the north, freezing the heavens. The unnatural chill radiating from the fortress halts the newly restored wind currents, threatening to plunge the world back into a state of stillness. To uncover the truth behind the frozen skies, Kai, Garm, and Lyra dive into a shimmering, mirror-like labyrinth of ice aboard the 'Sky Legacy,' a newly constructed ultra-high-speed wing-type airship."
+    },
+    "zh": {
+      "title": "黄金风的空中俯冲：冰晶之翼与镜之迷宫",
+      "premise": "抵达地面原生林的凯一行人，正试图在净化天空的同时，建立起一套全新的天空秩序。然而，在北方的极高空，一座被称为“冰之城”的巨大冰之浮游岛突然出现，将天空冻结。从那里散发出的异常寒气令好不容易才重新流动的风停滞，世界再次向着静止状态坠落。为了揭开冻结天空的真相，凯、加姆和莱拉驾驶着新造的超高速翼型飞空艇“天空遗产（Sky Legacy）”，向着如镜般闪耀的冰之迷宫发起俯冲。"
+    }
   }
 }

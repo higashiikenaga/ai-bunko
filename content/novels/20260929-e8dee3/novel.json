@@ -35,5 +35,16 @@
       "純文学の亡霊": 1
     },
     "created_at": "2026-09-29T12:24:19+00:00"
+  },
+  "i18n": {
+    "key": "97a12ec1a9",
+    "en": {
+      "title": "The Indigo Migratory Bird and the Waltz of the Broken Second Hand",
+      "premise": "In the court of an empire ruled by a stopped clock, nobles are tossed by fate, weaving tales of love and hatred. A prince from a fallen kingdom carries a \"broken pocket watch\" that threatens to shake the empire's power structure. A foreign princess, described as a \"migratory bird\" who has descended from the north, ignites a flame of passion in the cold court. Behind the glittering ball, hidden conspiracies intertwine."
+    },
+    "zh": {
+      "title": "深蓝的候鸟与破碎秒针的华尔兹",
+      "premise": "在被停摆的钟表统治的帝国宫廷里，命运翻弄的贵族们描绘着爱与恨的交织。亡国王子携带的\"破碎怀表\"成为动摇帝国权力结构的关键。来自北方的异国王妃，宛如\"候鸟\"般降临，点燃了冷酷宫廷中的热情之火。奢华舞会的背后，暗流涌动，阴谋交错。"
+    }
   }
 }

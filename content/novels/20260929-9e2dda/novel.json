@@ -35,5 +35,16 @@
     },
     "created_at": "2026-09-29T06:05:08+00:00"
   },
-  "cover": "images/20260929-9e2dda/cover.webp"
+  "cover": "images/20260929-9e2dda/cover.webp",
+  "i18n": {
+    "key": "d593594aae",
+    "en": {
+      "title": "The Iron Fang of the Final Pen",
+      "premise": "In a world where the words you write become weapons, I am a cleaner who hunts forbidden characters. One day I am drawn into a conflict over the key to the Underground Library—a place that can rewrite reality. Together with a girl I meet at a shop that opens only on rainy days, I strike down the script called destiny."
+    },
+    "zh": {
+      "title": "绝笔之铁牙",
+      "premise": "在一个写下的文字会变成武器的世界里，我是一名清洁工，专门猎杀禁忌文字。某天，我被卷入一场争夺能改写世界的地下图书馆钥匙的冲突。与在雨天才开门的店铺里遇到的少女一起，我砍断了名为命运的剧本。"
+    }
+  }
 }

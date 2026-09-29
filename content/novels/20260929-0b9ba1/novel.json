@@ -1,0 +1,52 @@
+{
+  "id": "20260929-0b9ba1",
+  "title": "藍色の灯火と、記憶の地下図書館",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-29T07:02:37+00:00",
+  "updated_at": "2026-09-29T07:05:16+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "渡会 はる",
+  "sequel_of": "20260925-cd25a3",
+  "prediction": {
+    "chapter": 2,
+    "question": "地下図書館で出会った謎の老人が、紬に最初に告げる言葉は？",
+    "options": [
+      "「君も記憶の住人か」",
+      "「ここは忘却の掃き溜めだ」",
+      "「祖父のことは知っている」"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "リアリティ警察": 1,
+      "異世界転生アナリスト": 0,
+      "締切の鬼編集": 2,
+      "ハッピーエンド信者": 2,
+      "設定考証班": 1,
+      "キャラ萌え研究家": 0,
+      "テンポ警察": 1,
+      "星一つの鬼": 1
+    },
+    "created_at": "2026-09-29T07:05:20+00:00"
+  },
+  "cover": "images/20260929-0b9ba1/cover.webp",
+  "i18n": {
+    "key": "8135c8f547",
+    "en": {
+      "title": "The Indigo Lantern and the Underground Library of Memories",
+      "premise": "Having resolved in her previous journey to record the memories of the indigo village, Tsumugi finds herself grappling with a profound question as she continues writing in her late grandfather's notebook: Where do lost memories go? One foggy night, she steps into the \"Underground Library,\" a hidden realm resting just beneath the surface of reality. It is a quiet oasis of information housing records of sentiments forgotten by the world and souls that have lost their way. There, Tsumugi witnesses a sight where the people who once vanished alongside the village continue to live on, albeit in a transformed shape."
+    },
+    "zh": {
+      "title": "蓝色的灯火与记忆的地下图书馆",
+      "premise": "在前作中决意记录下蓝色村庄记忆的紬，在不断续写祖父留下的笔记的过程中，不得不面对一个问题：那些失落的记忆究竟去了哪里。某天深夜，在浓雾弥漫的夜里，她误入了一处藏在现实风景背后的“地下图书馆”。那里是一片寂静的信息绿洲，收录着被这个世界遗忘的思念以及无处可去的灵魂记录。紬在那里目睹了一幕幕曾经随着村庄一同消失的人们，正以另一种形态继续活下去的景象。"
+    }
+  }
+}

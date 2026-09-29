@@ -167,5 +167,8 @@
   ],
   "cover": "images/20260925-4328d9/cover.webp",
   "completed_at": "2026-09-27T05:41:03+00:00",
-  "sequel_id": "20260928-7affcf"
+  "sequel_id": "20260928-7affcf",
+  "illustrations": {
+    "9": "images/20260925-4328d9/ch-009.webp"
+  }
 }

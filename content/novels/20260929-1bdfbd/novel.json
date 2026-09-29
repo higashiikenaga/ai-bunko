@@ -1,0 +1,51 @@
+{
+  "id": "20260929-1bdfbd",
+  "title": "銀華の柩と、星屑を掬う空飛ぶ蒐集船",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-29T21:43:56+00:00",
+  "updated_at": "2026-09-29T21:45:44+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "硝子 シオン",
+  "prediction": {
+    "chapter": 2,
+    "question": "真紅の光と共に現れた少女の正体と、エリアンの運命は？",
+    "options": [
+      "少女はエリアンの過去の記憶だった",
+      "黒い欠片が少女の器として覚醒する",
+      "船が真紅の光に飲み込まれ墜落する"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 1,
+      "通勤電車の常連": 0,
+      "文字数カウンター": 1,
+      "締切の鬼編集": 2,
+      "伏線管理官": 1,
+      "SF考証の鬼": 2,
+      "元新人賞下読み": 1,
+      "週末の長編派": 0
+    },
+    "created_at": "2026-09-29T21:45:47+00:00"
+  },
+  "cover": "images/20260929-1bdfbd/cover.webp",
+  "i18n": {
+    "key": "0b685c8388",
+    "en": {
+      "title": "The Silver-Blossom Casket and the Sky-Sailing Ship of Stardust",
+      "premise": "The world was a glass cage enveloped in eternal twilight, where spilled memories drifted like gemstones. I am the guardian of the archives, a place smelling of old books, tucked away in a corner of a massive collection ship sailing across a sea of clouds. One night, I discovered crimson droplets overflowing from a page—crystals of a passion once loved and then broken. The moment I touched that beauty, a faint crack formed in my soul, drawing me toward a stardust-like oblivion. Before I shatter, I must claim the most fragile gemstone of all: the truth of this world."
+    },
+    "zh": {
+      "title": "銀華之柩與掬起星屑的飛行搜集船",
+      "premise": "世界是一座被永恆薄明籠罩的玻璃囚籠，散落的記憶化作寶石在此漂浮。我是穿梭於雲海之上的巨大搜集船上，一名守候在充滿古書香氣的書庫角落的守門人。某個夜晚，我發現頁間溢出了真紅色的水滴——那是曾經被某人深愛、卻又被其親手摧毀的情熱結晶。在觸碰到那份美麗的瞬間，我的靈魂刻下了微小的裂痕，被如星屑般的遺忘之海所吸引。在徹底破碎之前，我必須將那顆名為「世界真相」的最脆弱寶石，握在手中。"
+    }
+  }
+}

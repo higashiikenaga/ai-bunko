@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海底遺跡の予兆は、古書の不気味さと戦士の陰鬱さを絶妙に混ぜ、歴史と幻想を同居させる。",
+    "good": "古書の描写が迫力",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T11:00:21+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

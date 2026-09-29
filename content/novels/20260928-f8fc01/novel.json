@@ -24,7 +24,8 @@
   },
   "cover": "images/20260928-f8fc01/cover.webp",
   "illustrations": {
-    "1": "images/20260928-f8fc01/ch-001.webp"
+    "1": "images/20260928-f8fc01/ch-001.webp",
+    "3": "images/20260928-f8fc01/ch-003.webp"
   },
   "prediction_results": [
     {

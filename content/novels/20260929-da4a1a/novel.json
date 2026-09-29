@@ -1,0 +1,49 @@
+{
+  "id": "20260929-da4a1a",
+  "title": "蒼溟の遺言、古書に眠る沈黙の都",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-09-29T10:37:53+00:00",
+  "updated_at": "2026-09-29T10:42:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "桐生 真澄",
+  "prediction": {
+    "chapter": 2,
+    "question": "干潮で現れた海底遺跡の入り口、最初に足を踏み入れるのは？",
+    "options": [
+      "古書に導かれ蓮造が先陣を切る",
+      "愁羅が護衛として道を切り拓く",
+      "海鳴りが巫女の導きを告げる"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "涙腺ゆるゆる": 2,
+      "初見さん": 0,
+      "几帳面な会計士": 1,
+      "SF考証の鬼": 0,
+      "台本読みの声優": 1,
+      "伏線管理官": 2,
+      "心理描写フェチ": 2,
+      "ファンタジー古参勢": 0
+    },
+    "created_at": "2026-09-29T10:42:44+00:00"
+  },
+  "i18n": {
+    "key": "a8903f4406",
+    "en": {
+      "title": "Testament of the Azure Deep: The Silent City Sleeping in Ancient Tomes",
+      "premise": "A forbidden tome, bearing the map of a lost ancient civilization, finds its way to a second-hand bookstore in a seaside town. A shrine maiden who hears the ocean's roar, a fallen officer who cast away his past, and a bookseller serving as the guardian of knowledge—three individuals driven by conflicting versions of 'justice' are swept into a vortex of fate when an unprecedented low tide reveals the ruins of a sunken city. A tale where the truth submerged in the abyss puts the pride of all to the ultimate test."
+    },
+    "zh": {
+      "title": "苍溟的遗言，眠于古书的沉默之都",
+      "premise": "一本记载着失落古代文明地图的禁书，流落至海边小镇的一家旧书店。倾听海鸣的巫女、抛弃过去的没落武官，以及作为知识守护者的书肆。三位持有不同“正义”的人，在异常低潮显现的海底遗迹面前，被卷入命运的漩涡。这是一个关于深渊中沉没的真相，考验人们之矜持的故事。"
+    }
+  }
+}

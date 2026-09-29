@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-29T08:52:17+00:00"
   },
-  "cover": "images/20260929-299f67/cover.webp"
+  "cover": "images/20260929-299f67/cover.webp",
+  "i18n": {
+    "key": "7508bad19b",
+    "en": {
+      "title": "The Sun-Drenched Repair Shop and the Map of Little Kindnesses",
+      "premise": "Exhausted by the grind of city life, Himari inherits an old repair shop left behind by her grandfather. Inside, she discovers a mysterious mirror that reflects the viewer's happiest memory and a secret map detailing the kindnesses of the local townspeople. As she mends broken objects, Himari follows the map to uncover the small, heartwarming stories hidden throughout the town."
+    },
+    "zh": {
+      "title": "暖阳修理店与一份小小的分享地图",
+      "premise": "厌倦了都市生活的阳葵，继承了祖父留下的旧修理店。在那里，她发现了一面能映照出观看者“最幸福记忆”的神秘镜子，以及一张记录着镇民们善意的秘密地图。在修复一件件破损物品的同时，阳葵在地图的引导下，渐渐揭开镇上那些细小而温暖的故事。"
+    }
+  }
 }

@@ -35,5 +35,17 @@
       "拍手係": 1
     },
     "created_at": "2026-09-29T05:37:41+00:00"
-  }
+  },
+  "i18n": {
+    "key": "06f3a69208",
+    "en": {
+      "title": "The Library of the Starry Night and the Lost Item of the Waning Moon",
+      "premise": "I run a small business that serves as both a second-hand bookstore and a library. One night, an old celestial atlas is brought to my door. Within its pages are star charts of constellations I have never seen before, and a mysterious note arranging a meeting on the night of the next lunar eclipse. As I search for the owner, a story of a small misunderstanding from the past and a hidden act of goodwill begin to unfold, guided by the movement of the stars."
+    },
+    "zh": {
+      "title": "星降之夜的图书室与残月的遗失物",
+      "premise": "我经营着一家兼作二手书店的图书室。某个夜晚，这里迎来了一本古旧的天体图鉴。图鉴的页面上，不知为何记载着从未见过的星座星图，其中还夹着一张约定在下次月食之夜见面的神秘便条。在寻找失主的过程中，隐藏在图鉴中的“某人的善意”，以及一段关于往昔小小误会的往事，将随着星辰的运行逐渐揭开。"
+    }
+  },
+  "cover": "images/20260929-412031/cover.webp"
 }

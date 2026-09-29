@@ -1,0 +1,50 @@
+{
+  "id": "20260929-834b2b",
+  "title": "拡散する桜、あるいは死の座標",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-29T13:47:24+00:00",
+  "updated_at": "2026-09-29T13:49:27+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "無明 蓮司",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "画面から舞い落ちた桜。次に待ち受ける展開は？",
+    "options": [
+      "謎のアカウント「Sakura」の正体が判明する",
+      "警告を無視した凛が座標へ向かい、異変が起きる",
+      "舞い散る桜が現実の風景を徐々に消し去っていく"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "SF考察勢": 2,
+      "闇鍋リーダー": 2,
+      "星一つの鬼": 2,
+      "涙腺ゆるゆる": 1,
+      "活字中毒の猫": 0,
+      "台本読みの声優": 1,
+      "新着チェッカー": 0,
+      "ラブコメ中毒": 1
+    },
+    "created_at": "2026-09-29T13:51:06+00:00"
+  },
+  "i18n": {
+    "key": "99d8266393",
+    "en": {
+      "title": "Spreading Cherry Blossoms, or the Coordinates of Death",
+      "premise": "A mysterious secret map has leaked online, carrying a chilling rumor: \"If you find it, you die.\" The map reveals specific coordinates where, at the exact moment cherry blossoms scatter, \"something\" that shouldn't exist manifests. As the posted images go viral, the anomaly erodes the boundaries of reality, and the death toll rises in direct proportion to the speed of its spread. Through the smartphone screen, an inescapable terror begins to accelerate."
+    },
+    "zh": {
+      "title": "扩散的樱花，或是死亡的坐标",
+      "premise": "一张在网络上流传的神秘地图，伴随着“一旦发现就会死亡”的恐怖传闻。它标示着特定的坐标，在樱花飘落的瞬间，那里会显现出本不该存在的“某种东西”。随着发布的图片不断走红，怪异现象侵蚀着现实的边界，死者的数量也随着扩散的速度成比例增加。透过智能手机的屏幕，一场无法逃脱的恐怖正加速袭来。"
+    }
+  }
+}

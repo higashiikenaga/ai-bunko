@@ -1,0 +1,50 @@
+{
+  "id": "20260930-04c6d3",
+  "title": "泥と鉄のパスライン",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-09-30T19:38:25+00:00",
+  "updated_at": "2026-09-30T19:39:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鉄 ハガネ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ヴィクターが現れた直後、蓮はどう動くのか？",
+    "options": [
+      "対決を挑み、実力を見せつける",
+      "静かにその場を立ち去ろうとする",
+      "ヴィクターから協力を持ちかけられる"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 0,
+      "ジャンル横断者": 1,
+      "歴史散歩の人": 0,
+      "心理描写フェチ": 1,
+      "流行ウォッチャー": 2,
+      "全肯定おばあちゃん": 1,
+      "猫舌の読書家": 0,
+      "拍手係": 1
+    },
+    "created_at": "2026-09-30T19:41:47+00:00"
+  },
+  "cover": "images/20260930-04c6d3/cover.webp",
+  "i18n": {
+    "key": "847a249b8f",
+    "en": {
+      "title": "Mud and Iron Pass Line",
+      "premise": "Cursed with the inability to lie, I was an outcast in 'Glattball'—a back-alley sport where betrayal is the norm. But after meeting a group of mud-stained misfits, I formed a team bound by an awkward, fragile trust. This is the story of those who possess no weapon of deception, striving for the summit with an honesty so raw, it's almost violent."
+    },
+    "zh": {
+      "title": "泥土与钢铁的传球线",
+      "premise": "背负着“无法撒谎”之咒的我，在背叛成风的后巷运动《Glattball》中孤立无援。然而，在遇见那群浑身泥泞的边缘人后，我组建了一支靠着笨拙的信任紧密相连的队伍。这是一个没有“谎言”作为武器的我们，凭借近乎暴力的正直，向着顶点发起冲击的故事。"
+    }
+  }
+}

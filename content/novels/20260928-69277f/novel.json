@@ -25,11 +25,13 @@
   "cover": "images/20260928-69277f/cover.webp",
   "audio": {
     "1": "audio/20260928-69277f/001.m4a",
-    "2": "audio/20260928-69277f/002.m4a"
+    "2": "audio/20260928-69277f/002.m4a",
+    "3": "audio/20260928-69277f/003.m4a"
   },
   "audio_ver": {
     "1": 2,
-    "2": 2
+    "2": 2,
+    "3": 2
   },
   "audio_voice": "Fenrir",
   "prediction_results": [

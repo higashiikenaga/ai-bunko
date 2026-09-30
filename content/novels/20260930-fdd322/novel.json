@@ -35,5 +35,17 @@
       "異世界転生アナリスト": 2
     },
     "created_at": "2026-09-30T22:29:05+00:00"
+  },
+  "cover": "images/20260930-fdd322/cover.webp",
+  "i18n": {
+    "key": "cf10d09b43",
+    "en": {
+      "title": "Humming of Rusted Strings",
+      "premise": "As a scavenger, what I stumbled upon was a radio signal from \"Dawn Radio\"—a broadcast reaching out from a world long dead. Worrying about the dwindling life of my last few batteries, I venture into the ruins of the former capital, chasing the music through the static. What awaits me there is the phantom of a \"Festival Night\"—a celebration once held by humanity amidst the depths of despair. In a world devoid of both resources and hope, broken machines and human tenacity play one final melody."
+    },
+    "zh": {
+      "title": "锈蚀琴弦的哼唱",
+      "premise": "身为拾荒者的我，偶然捕捉到了来自早已死去的世界的“黎明广播”的电波。顾虑着仅剩的一点电池电量，我追寻着那夹杂着杂音的旋律，踏入了首都遗迹的废墟之中。在那里等待着我的，是人类曾在绝望深渊中举办过的“祭典之夜”的幻影。在一个既无物资也无希望的世界里，残破的机械与人类的执念，将奏响最后的乐章。"
+    }
   }
 }

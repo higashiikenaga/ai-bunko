@@ -25,10 +25,12 @@
     }
   },
   "audio": {
-    "1": "audio/20260928-da4b0b/001.m4a"
+    "1": "audio/20260928-da4b0b/001.m4a",
+    "2": "audio/20260928-da4b0b/002.m4a"
   },
   "audio_ver": {
-    "1": 2
+    "1": 2,
+    "2": 2
   },
   "audio_voice": "Charon",
   "prediction_results": [

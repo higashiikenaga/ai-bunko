@@ -1,0 +1,49 @@
+{
+  "id": "20260930-1343fd",
+  "title": "海風と焦げたパンと、忘れ物の灯台",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-30T12:05:05+00:00",
+  "updated_at": "2026-09-30T12:08:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "prediction": {
+    "chapter": 2,
+    "question": "剣から視線を感じた陽葵。次に起こることは？",
+    "options": [
+      "剣が眩しく光り、誰かの声が響く",
+      "剣が重くなり、店に客が押し寄せる",
+      "剣が消え、源蔵が再び現れる"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 0,
+      "通学バスの読者": 0,
+      "全話精読の批評家": 2,
+      "台詞にうるさい人": 1,
+      "ジャンル横断者": 0,
+      "拍手係": 0,
+      "テンポ警察": 1,
+      "伏線管理官": 2
+    },
+    "created_at": "2026-09-30T12:09:00+00:00"
+  },
+  "i18n": {
+    "key": "ede1e698a7",
+    "en": {
+      "title": "Sea Breeze, Burnt Bread, and the Forgotten Lighthouse",
+      "premise": "I run a cozy cafe in a seaside town, tucked away inside a converted lighthouse—and I'll admit, I'm a bit of a meddler. One day, a regular customer, an elderly man, left behind a rusted, broken sword, claiming it was 'no longer of any use.' As it turns out, this blade was once whispered to be the guardian deity of our town. As the restoration of the sword begins, the 'broken pieces' within the hearts of the townspeople start to stir, and along with delicious meals, their stories begin to unfold."
+    },
+    "zh": {
+      "title": "海风、焦掉的面包与被遗忘的灯塔",
+      "premise": "我在海边小镇经营着一家由灯塔改建而成的咖啡馆，是个有点爱管闲事的店主。有一天，一位常客爷爷留下了一把锈迹斑斑且折断的剑，说它“已经没用了”。据说，这把剑曾被传颂为这座小镇的守护神。以修复这把剑为契机，镇上人们“心中折断的东西”也渐渐开始复苏。在美食的陪伴下，一段段温暖的故事悄然展开。"
+    }
+  }
+}

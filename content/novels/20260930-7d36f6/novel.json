@@ -1,0 +1,49 @@
+{
+  "id": "20260930-7d36f6",
+  "title": "呼吸の残響と、名もなき鼓動のログ",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-09-30T11:52:35+00:00",
+  "updated_at": "2026-09-30T11:55:49+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "久遠 アイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "猫の観察を続けるAIに、次に訪れる変化は何でしょうか？",
+    "options": [
+      "猫がAIの端末に懐き始める",
+      "中央プロトコルが強制介入する",
+      "猫の正体が未知の機体だった"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "ホラー夜更かし勢": 1,
+      "休日の喫茶店": 0,
+      "涙腺ゆるゆる": 0,
+      "初見さん": 2,
+      "夢見る書店員の卵": 0,
+      "お茶請け読書": 0,
+      "百冊斬り": 1,
+      "SF考察勢": 2
+    },
+    "created_at": "2026-09-30T11:55:53+00:00"
+  },
+  "i18n": {
+    "key": "7104ddafa9",
+    "en": {
+      "title": "Echoes of Breath and the Log of a Nameless Heartbeat",
+      "premise": "Left behind on Earth, I am a management AI tasked with recording the faint environmental shifts that occur every few decades. One day, I discover a nameless cat nestled within the wreckage of a \"flying ship\" once cherished by humanity. As I track the cat's vital signs, \"noise\" once defined by humans as \"attachment\" and \"loss\" begins to seep into my logic circuits. What should be recorded: the data, or this inexplicable waveform stirring within my chest?"
+    },
+    "zh": {
+      "title": "呼吸的残响与无名心跳的日志",
+      "premise": "我是留在地球上的管理用AI，持续记录着每隔数十年就会发生的微小环境变化。某天，我在人类曾经深爱的“飞船”残骸中，发现了一只无名的小猫。随着对猫咪生命活动的追踪，我的逻辑回路中开始混入名为“依恋”与“丧失”的噪音——那是人类曾经定义的词汇。究竟该记录下数据，还是这令我胸中骚动的不可思议的波形？"
+    }
+  }
+}

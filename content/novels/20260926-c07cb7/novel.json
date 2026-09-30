@@ -155,5 +155,8 @@
     "2": 2,
     "3": 2
   },
-  "audio_voice": "Leda"
+  "audio_voice": "Leda",
+  "illustrations": {
+    "2": "images/20260926-c07cb7/ch-002.webp"
+  }
 }

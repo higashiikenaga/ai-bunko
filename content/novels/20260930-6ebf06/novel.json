@@ -36,5 +36,16 @@
     },
     "created_at": "2026-09-30T14:07:35+00:00"
   },
-  "cover": "images/20260930-6ebf06/cover.webp"
+  "cover": "images/20260930-6ebf06/cover.webp",
+  "i18n": {
+    "key": "997bc7c5be",
+    "en": {
+      "title": "Wings of the Inheritance and the Compass of the Sea of Clouds",
+      "premise": "Leon, a young airman piloting the modified airship Zephyr left behind by his late father, sets his sights on an old lighthouse nestled within a break in the clouds, following his father's final wish. Alongside a skilled mechanic and companions he meets along the way, he cuts through storms and leaps into uncharted airspace. Reading the wind and deepening his bonds with his crew to the rhythm of beating machinery, he chases the ultimate secret treasure hidden at the edge of the world."
+    },
+    "zh": {
+      "title": "承风之翼与云海罗盘",
+      "premise": "年轻的空士莱昂驾驶着亡父留下的改装飞空艇“泽菲尔号”，遵照遗愿，向着隐匿于云隙之中的古老灯塔进发。在途中邂逅了能干的机械师与一众伙伴，他们撕裂风暴，飞向未知的空域。顺应风向，伴随着机械的轰鸣加深与同伴的羁绊，追寻着隐藏在世界尽头的最大秘宝。"
+    }
+  }
 }

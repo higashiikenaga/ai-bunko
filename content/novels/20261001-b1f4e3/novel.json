@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-01T04:53:47+00:00"
   },
-  "cover": "images/20261001-b1f4e3/cover.webp"
+  "cover": "images/20261001-b1f4e3/cover.webp",
+  "i18n": {
+    "key": "4ef0b50f44",
+    "en": {
+      "title": "The Stardust Notebook at the Rainy-Day Bookstore",
+      "premise": "The second-hand bookstore \"Amayadori-do\" only puts out its sign on rainy days. As someone who works there, my daily routine is untangling the small troubles carried by visiting customers and the mysterious notes left tucked inside books. One day, inside an old book on astronomy, I found a strange \"star chart\" added by someone's hand. It might just be a map of a quiet, gentle promise exchanged by the city's past residents."
+    },
+    "zh": {
+      "title": "避雨书店的星屑笔记",
+      "premise": "古书店“雨宿堂”只在下雨的日子挂出招牌。我在那里工作，日常工作是解开来访客人们怀揣的烦恼，以及夹在书页间不可思议的留言。有一天，从一本旧天文书中，发现了一张不知是谁添上去的奇妙“星图”。那或许曾是昔日小镇居民们许下的、微小而温柔的约定地图。"
+    }
+  }
 }

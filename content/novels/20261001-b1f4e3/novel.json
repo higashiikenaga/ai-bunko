@@ -1,0 +1,41 @@
+{
+  "id": "20261001-b1f4e3",
+  "title": "雨宿り書店の星屑ノート",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-01T04:51:48+00:00",
+  "updated_at": "2026-10-01T04:53:44+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "猫柳 すず",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "時計塔で見つけた星図の先に、何が待ち受けている？",
+    "options": [
+      "街の伝説を裏付ける古い碑文",
+      "かつての約束を果たす人影",
+      "星図にはない未知の文字"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "文体原理主義者": 0,
+      "書店員の目": 2,
+      "全肯定おばあちゃん": 1,
+      "テンポ警察": 2,
+      "涙腺ゆるゆる": 1,
+      "闇鍋リーダー": 2,
+      "締切の鬼編集": 0,
+      "初見さん": 2
+    },
+    "created_at": "2026-10-01T04:53:47+00:00"
+  },
+  "cover": "images/20261001-b1f4e3/cover.webp"
+}

@@ -35,5 +35,16 @@
       "キャラ萌え研究家": 1
     },
     "created_at": "2026-10-01T08:21:52+00:00"
+  },
+  "i18n": {
+    "key": "21c6587f46",
+    "en": {
+      "title": "The Moonlight Baton and the Lullaby of the Sleepless City",
+      "premise": "In the 'Sleepless City,' where the pursuit of efficiency and wakefulness has led to the prohibition of sleep through the power of music, a boy plays the forbidden 'Song of Sleep.' His path crosses with a girl wandering the streets in search of a lost melody from her hometown. The dissonance they first create gradually transforms into a sublime harmony, coaxing the world into a gentle slumber. In a world where music binds both heart and body, they fight to reclaim a quiet night and a love song meant for only one person."
+    },
+    "zh": {
+      "title": "月光指挥棒与不眠之城的摇篮曲",
+      "premise": "在这个追求效率与觉醒、以音乐禁绝睡眠的“不眠之城”中，一名演奏着禁忌之曲《睡眠之曲》的少年，与一名寻找故乡失落旋律而徘徊在街头的少女相遇了。两人最初奏出的不和谐之音，终将化为引导世界陷入惬意微睡的至高和谐。在音乐束缚身心的世界里，他们所追求的，是静谧的夜晚，以及只为一人而唱的爱之歌。"
+    }
   }
 }

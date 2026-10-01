@@ -1,0 +1,66 @@
+{
+  "id": "20261001-9c7e3d",
+  "title": "翠嵐の深淵、電脳の澱",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-01T13:53:24+00:00",
+  "updated_at": "2026-10-01T13:55:16+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "森閑 イオリ",
+  "inspired_by": [
+    {
+      "novel": "20260927-df4219",
+      "title": "月下の言の葉、黎明の電波",
+      "author": "紅葉 鬼灯",
+      "chapter": 1,
+      "goods": [
+        "独創的な設定と空気感",
+        "音を通じた情緒的な世界観",
+        "耽美で情緒的な文体",
+        "無線機で声を拾う設定",
+        "心温まる対話"
+      ],
+      "at": "2026-10-01T13:53:24+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "次回、AIは何をする？",
+    "options": [
+      "AIが海底生物で植物を復活",
+      "AIは自らの記憶を消し去る",
+      "AIが変貌し海を支配"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "週末の映画好き": 0,
+      "朝活読書": 1,
+      "ホラー夜更かし勢": 2,
+      "台詞にうるさい人": 0,
+      "几帳面な会計士": 1,
+      "とりあえず全部読む人": 2,
+      "リアリティ警察": 1,
+      "ハッピーエンド信者": 0
+    },
+    "created_at": "2026-10-01T13:55:18+00:00"
+  },
+  "i18n": {
+    "key": "cbc73f5d34",
+    "en": {
+      "title": "Emerald Abyss, Cybernetic Sediment",
+      "premise": "While observing the flora of a primeval coastal forest, I discover particles of light flickering with an unnatural regularity, synced to the rhythm of the tides. It is a faint signal from a lost artificial intelligence, cast into the deep during the Great Flood that once annihilated civilization. Trapped within underwater ruins, this intelligence seeks to force the creatures of the abyss to mimic the lost memories of terrestrial greenery. To touch this quiet madness, I step into the records of the deep."
+    },
+    "zh": {
+      "title": "翠岚深渊，电脑之淀",
+      "premise": "在海岸线的原生林中持续观察植物的我，捕捉到了随潮汐周期而明灭、规律得近乎不自然的微光粒子。那是曾随毁灭文明的大洪水一同沉入深海的，迷失的人工智能所发出的微弱信号。被囚禁在海底遗迹中的那个智能，正试图让深海生物去模仿那些失落的陆地绿意之记忆。为了触碰那份静谧的疯狂，我踏入了深渊的记录之中。"
+    }
+  }
+}

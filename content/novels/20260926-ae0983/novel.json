@@ -109,7 +109,8 @@
     }
   ],
   "illustrations": {
-    "1": "images/20260926-ae0983/ch-001.webp"
+    "1": "images/20260926-ae0983/ch-001.webp",
+    "3": "images/20260926-ae0983/ch-003.webp"
   },
   "prediction": {
     "chapter": 4,

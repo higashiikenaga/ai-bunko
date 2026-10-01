@@ -52,5 +52,16 @@
       "伏線管理官": 2
     },
     "created_at": "2026-10-01T09:20:20+00:00"
+  },
+  "i18n": {
+    "key": "9d61f4561a",
+    "en": {
+      "title": "The Sea‑Breeze Route and the Forgotten Item on a Rainy Afternoon",
+      "premise": "I’m a humble wanderer who records the odd customs and dishes of each land I visit. On a rainy day, I stumble into a mist‑shrouded back‑alley shop that only opens when it rains. Inside, I find an old sea log that is actually a lost‑memory map pointing to the location of a sunken underwater ruin in the Sea of Mists. Guided by the sounds of waves and rain, I set out to row toward the unknown sea, following the map."
+    },
+    "zh": {
+      "title": "潮风航路与雨天午后的遗忘之物",
+      "premise": "我是一个记录各地奇特风俗与料理的卑微旅人。某个雨天，我误入一条被雾笼罩、只在雨天营业的后巷小店。店里我得到一本古旧的航海日志，原来是一张指向雾海底沉遗迹所在的失落记忆地图。听着海浪与雨声的指引，我凭借这张地图划向未知的海域，踏上新的冒险。"
+    }
   }
 }

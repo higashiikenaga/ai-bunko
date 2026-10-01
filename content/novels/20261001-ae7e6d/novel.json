@@ -1,0 +1,50 @@
+{
+  "id": "20261001-ae7e6d",
+  "title": "閃光のドライブ・レゾナンス",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-01T06:14:46+00:00",
+  "updated_at": "2026-10-01T06:16:47+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鳴神 迅",
+  "prediction": {
+    "chapter": 2,
+    "question": "ゼロとの共鳴が始まった直後、二人の身に何が起きる？",
+    "options": [
+      "レンの強襲を予測し回避する",
+      "共鳴の負荷でカイが意識を失う",
+      "ゼロが未知の加速モードへ移行"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "テンポ警察": 0,
+      "既視感センサー": 2,
+      "通勤電車の常連": 0,
+      "ジャンル横断者": 1,
+      "SF考証の鬼": 1,
+      "異世界帰りの司書": 2,
+      "ファンタジー古参勢": 0,
+      "新着チェッカー": 0
+    },
+    "created_at": "2026-10-01T06:16:51+00:00"
+  },
+  "i18n": {
+    "key": "1f67adc1ed",
+    "en": {
+      "title": "Flash Drive Resonance",
+      "premise": "Kai, once hailed as a genius downhill rider, had abandoned the sport after a crushing injury. But one rainy day, he discovers a 'lost AI' with no memory lurking in a back alley. In his quest to repair the AI, Kai seeks out a mysterious mechanic shop that opens only when it rains. The AI's ultra-precise calculations and Kai's wild intuition—when these two disparate forms of 'acceleration' resonate, a legendary ride that defies the impossible begins."
+    },
+    "zh": {
+      "title": "闪光驱动共鸣",
+      "premise": "曾被誉为天才的速降骑手カイ，在遭遇伤病挫折后远离了竞技赛场。直到一个雨天，他在小巷中偶然捡到了一个失去记忆的“迷路人工智能”。为了修复这个AI，カイ造访了一家仅在雨天开业的神秘机械店。AI的超精密运算，与カイ的野性直觉——当两种截然不同的“加速”产生共鸣之时，化不可能为可能的传说之骑正式拉开帷幕。"
+    }
+  }
+}

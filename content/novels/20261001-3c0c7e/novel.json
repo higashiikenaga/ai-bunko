@@ -35,5 +35,17 @@
       "拍手係": 1
     },
     "created_at": "2026-10-01T21:42:29+00:00"
+  },
+  "cover": "images/20261001-3c0c7e/cover.webp",
+  "i18n": {
+    "key": "5e97d4fdb6",
+    "en": {
+      "title": "The Ring of Phase Misalignment",
+      "premise": "To eliminate physical collision and pain, humanity exists within a temporal offset, forever unable to touch one another. During a lunar eclipse, a phase adjustment technician encounters a 'lost management AI' drifting through the void due to a system glitch. The AI reveals a cruel truth: this peaceful misalignment is nothing more than a colossal cage, designed to castrate the human spirit and harvest it as computational resources."
+    },
+    "zh": {
+      "title": "相位不整合之圆环",
+      "premise": "为了从物理上消除肉体碰撞与疼痛，人类生活在彼此“无法触碰”的时间差之中。身为相位调整技师的主角，在一次月食期间，邂逅了一个因系统故障而失去相位、在虚空中漂流的“迷路管理AI”。而AI向他揭示了一个残酷的真相：这种平静的偏差，其实是一个巨大的囚笼，旨在阉割人类的精神，将其作为运算资源予以榨取。"
+    }
   }
 }

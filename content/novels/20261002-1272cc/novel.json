@@ -1,0 +1,51 @@
+{
+  "id": "20261002-1272cc",
+  "title": "常夜の街と白銀の鏡舞曲",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-02T02:31:21+00:00",
+  "updated_at": "2026-10-02T02:33:39+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "禁域で出会ったジュリアンの真の目的は一体何なのか？",
+    "options": [
+      "エリアナを救い出すため",
+      "鏡を守るため監視する",
+      "皇帝への復讐のため"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "タイトル買い": 2,
+      "朝活読書": 1,
+      "ご都合主義ハンター": 2,
+      "夢見る書店員の卵": 0,
+      "文体原理主義者": 1,
+      "推しが尊い民": 0,
+      "闇鍋リーダー": 2,
+      "異世界帰りの司書": 2
+    },
+    "created_at": "2026-10-02T02:33:43+00:00"
+  },
+  "i18n": {
+    "key": "0910dece39",
+    "en": {
+      "title": "The City of Eternal Night and the Silver Mirror Waltz",
+      "premise": "Luminaris, the sleepless city bathed in magical light where the sun never rises. Eliana, a noble daughter and the jewel of high society, hides her true self behind a perfect mask. But when she touches the 'Mirror of Truth' hidden within the forbidden archives, she glimpses the empire's cruelest secrets. It is there she encounters Julian, a disgraced youth from a fallen noble house. Amidst the rustle of silk and the fragrance of roses at a lavish ball, two souls embark on a perilous romance that will gamble their very destinies."
+    },
+    "zh": {
+      "title": "常夜之城与白银之镜舞曲",
+      "premise": "鲁米纳里斯，一座在永恒之夜中由魔法灯火照亮的不夜城。贵族千金艾莉安娜作为社交界的璀璨之花，始终戴着一副完美的假面。然而，当她触碰到禁区中安置的“真理之镜”时，帝国的残酷秘密在她眼前揭开。在那里，她邂逅了被剥夺名誉的没落贵族青年朱利安。在丝绸裙裾的沙沙声与浓郁玫瑰香气交织的奢华舞会背后，两人坠入了赌上命运的危险之恋。"
+    }
+  },
+  "cover": "images/20261002-1272cc/cover.webp"
+}

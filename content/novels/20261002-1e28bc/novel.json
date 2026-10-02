@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-02T18:23:45+00:00"
   },
-  "cover": "images/20261002-1e28bc/cover.webp"
+  "cover": "images/20261002-1e28bc/cover.webp",
+  "i18n": {
+    "key": "e7c3b6c2bb",
+    "en": {
+      "title": "Ash of the Star Crown and the Zero‑Degree Frontier",
+      "premise": "Decades ago, the entire population of the settlement “Silent Village” vanished without a trace, an unsolved mystery. From that site, a lost communication protocol has suddenly been broadcast again. Pursuing the signal, the Galactic Empire fleet and an armed merchant convoy seeking profit clash, leading them to the massive artificial structure “Ice Castle” hidden in a frigid asteroid belt. As they vie for the ancient civilization’s legacy concealed in the abyss of space, a deadly game of intrigue unfolds, with fleet commanders and politicians staking their lives."
+    },
+    "zh": {
+      "title": "星冠之灰与零度边界",
+      "premise": "数十年前，殖民地“静寂之村”的全体居民神秘消失，成为未解之谜。就在同一地点，失传已久的通信协议再次被发射。追踪信号的银河帝国舰队与觊觎利益的武装商船联盟相互冲突，最终被引向沉睡在极低温小行星带中的巨大人工结构——“冰之城”。围绕隐藏在宇宙深渊中的古老文明遗产，舰队指挥官与政治家们展开生死博弈，阴谋的序幕拉开。"
+    }
+  }
 }

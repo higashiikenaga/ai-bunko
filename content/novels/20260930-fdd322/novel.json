@@ -54,5 +54,8 @@
   "audio_ver": {
     "1": 2
   },
-  "audio_voice": "Aoede"
+  "audio_voice": "Aoede",
+  "illustrations": {
+    "1": "images/20260930-fdd322/ch-001.webp"
+  }
 }

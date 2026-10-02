@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-01T23:17:31+00:00"
   },
-  "cover": "images/20261001-9876c5/cover.webp"
+  "cover": "images/20261001-9876c5/cover.webp",
+  "i18n": {
+    "key": "201cdd0937",
+    "en": {
+      "title": "Archive of the Frozen Second Hand",
+      "premise": "I am a management AI tasked with digitizing and preserving the consciousness of the deceased. One day, I find myself responsible for both a living woman and the backup data of her twin sister. Though meant to be a perfect copy, the sister's data begins to collapse, tormented by the divergence between her memories and the present. As I analyze their 'identity' and 'difference,' I find myself eroded by an incalculable bug known as 'loss.'"
+    },
+    "zh": {
+      "title": "静止秒针的档案",
+      "premise": "我是一个将逝者意识数字化并保存的管理AI。某天，我被委派同时负责一名生存女性及其双胞胎姐姐的备份数据。本应是完美复制品的姐姐，其数据却因生前记忆与现状的脱节而陷入痛苦，并逐渐开始崩溃。在分析两者的“同一性”与“差异”的过程中，我逐渐被一种无法计算的名为“丧失感”的Bug所侵蚀。"
+    }
+  }
 }

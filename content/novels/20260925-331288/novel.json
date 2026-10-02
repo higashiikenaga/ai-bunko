@@ -143,5 +143,8 @@
     "6": 2,
     "7": 2
   },
-  "audio_voice": "Kore"
+  "audio_voice": "Kore",
+  "illustrations": {
+    "7": "images/20260925-331288/ch-007.webp"
+  }
 }

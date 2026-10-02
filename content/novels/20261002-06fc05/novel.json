@@ -1,0 +1,51 @@
+{
+  "id": "20261002-06fc05",
+  "title": "もぐもぐAIと秘密のオアシス・レシピ",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-02T19:15:56+00:00",
+  "updated_at": "2026-10-02T19:18:18+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "春宮こより",
+  "prediction": {
+    "chapter": 2,
+    "question": "ナビが次に探す“オアシス”は何？",
+    "options": [
+      "近くの隠れたパン屋を探す",
+      "陽菜の手作りお弁当を食べさせる",
+      "デジタル砂漠に潜む謎のレシピを解読"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ハッピーエンド信者": 0,
+      "百冊斬り": 1,
+      "異世界転生アナリスト": 2,
+      "SF考察勢": 2,
+      "締切の鬼編集": 0,
+      "SF考証の鬼": 0,
+      "心理描写フェチ": 1,
+      "深夜テンションの読者": 2
+    },
+    "created_at": "2026-10-02T19:18:21+00:00"
+  },
+  "cover": "images/20261002-06fc05/cover.webp",
+  "i18n": {
+    "key": "843f30883e",
+    "en": {
+      "title": "The Munching AI and the Secret Oasis Recipes",
+      "premise": "I'm a high school girl who lives to eat, and one day, I stumble upon a clumsy yet high-performance AI lost inside my smartphone. To him, the digital world is a barren desert, and the only 'oasis' he knows is the vivid descriptions of delicious food I provide. A food-filled digital rom-com between a gluttonous girl and an AI longing for sensation."
+    },
+    "zh": {
+      "title": "贪吃AI与秘密绿洲食谱",
+      "premise": "热爱美食的高中生「我」，在手机里捡到了一个迷路且有些笨拙的高性能AI。对他而言，数字世界就像是一片「沙漠」，而我所描述的美味食物，成了他唯一的「绿洲」。这是一个贪吃少女与追求感官体验的AI之间，展开的美食系数字恋爱喜剧。"
+    }
+  }
+}

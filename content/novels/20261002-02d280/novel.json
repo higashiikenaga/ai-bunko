@@ -1,0 +1,52 @@
+{
+  "id": "20261002-02d280",
+  "title": "ネオン・ダスト：抹消された地平",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-02T22:38:24+00:00",
+  "updated_at": "2026-10-02T22:40:21+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "ネオン 零",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "追っ手のセラスは、カイの前に何を突きつけるのか？",
+    "options": [
+      "地図の真の持ち主の名",
+      "カイの記憶の断片の正体",
+      "リナの背後に潜む影"
+    ],
+    "ai_votes": [
+      1,
+      3,
+      4
+    ],
+    "ai_voters": {
+      "ホラー玄人": 1,
+      "活字中毒の猫": 2,
+      "SF考察勢": 0,
+      "キャラ萌え研究家": 2,
+      "通勤電車の常連": 1,
+      "闇鍋リーダー": 2,
+      "猫舌の読書家": 2,
+      "夢見る書店員の卵": 1
+    },
+    "created_at": "2026-10-02T22:40:24+00:00"
+  },
+  "cover": "images/20261002-02d280/cover.webp",
+  "i18n": {
+    "key": "95ddef5e5b",
+    "en": {
+      "title": "Neon Dust: Erased Horizon",
+      "premise": "I am a diver, scavenging for data scraps in the back alleys. One day, I obtain a secret map leading to a \"village that shouldn't exist\"—a place completely erased from the corporate logs. Hidden there is a brutal system of sacrifice used to maintain the city's prosperity. Bathed in the rain of despair, I dive into the forbidden coordinates."
+    },
+    "zh": {
+      "title": "霓虹尘埃：被抹消的地平线",
+      "premise": "我是一名在小巷中搜寻数据残渣的潜行者。某天，我得到了一张秘密地图，它将引导我前往一个从企业管理日志中被彻底抹除的、“本不该存在的村庄”。在那里，隐藏着维持都市繁荣的残酷祭祀系统。在绝望的雨幕中，我向着禁忌的坐标深潜而去。"
+    }
+  }
+}

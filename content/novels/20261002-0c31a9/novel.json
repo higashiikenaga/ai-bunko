@@ -35,5 +35,17 @@
       "純文学の亡霊": 2
     },
     "created_at": "2026-10-02T22:11:03+00:00"
+  },
+  "cover": "images/20261002-0c31a9/cover.webp",
+  "i18n": {
+    "key": "b3ea76ee2b",
+    "en": {
+      "title": "Echoing Pulses and the Boundary Etude",
+      "premise": "Haru, a boy haunted by a sense of emptiness in the real world, meets the ethereal Luna within the sensory-sync VR 'Luna Sphere.' Amidst the breathtaking landscapes of a virtual realm, they share unspoken feelings and strive to cross the boundary between their worlds. However, the impending shutdown of the game and a hidden truth regarding Luna's identity begin to shake their bond. On the night of a lunar eclipse, at the hill of their promise, will the vow they exchange be mere data—or a true, beating heart?"
+    },
+    "zh": {
+      "title": "残响的脉冲与境界线上的练习曲",
+      "premise": "在现实世界中感到空虚的少年哈鲁，在感官同步型VR《Luna Sphere》中，遇见了气质超凡的少女露娜。两人在虚拟空间的绝美景色中，将无法言说的情感彼此交叠，试图跨越那道境界线。然而，游戏的停止运营以及隐藏在露娜真实身份中的“某个真相”，开始动摇两人的羁绊。月食之夜，在约定之丘上许下的誓言，究竟只是数据，还是真实的心跳？"
+    }
   }
 }

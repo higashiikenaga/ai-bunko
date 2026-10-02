@@ -126,5 +126,21 @@
     "chapters_read": 2,
     "created_at": "2026-09-29T18:27:32+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "音を記録するという独特の設定がワクワクするが、物語の展開はやや予測しやすく、キャラにもう少し深みが欲しいとともに、場面描写は美しく、耳に残る音の描写が印象的です。",
+    "good": "音の描写と独創的設定",
+    "bad": "キャラに深み不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T14:31:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

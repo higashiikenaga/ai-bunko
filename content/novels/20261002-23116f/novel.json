@@ -1,0 +1,50 @@
+{
+  "id": "20261002-23116f",
+  "title": "江戸不夜城の迷い地図",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-02T01:39:39+00:00",
+  "updated_at": "2026-10-02T01:41:59+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "八兵衛たちが闇市へ入ると、次に目にしたものは？",
+    "options": [
+      "古びた蔵の奥に、謎の金庫が光る",
+      "闇市の主が八兵衛に取引を持ちかける",
+      "突然、通りの灯がすべて消えて闇が広がる"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "星一つの鬼": 0,
+      "ハッピーエンド信者": 0,
+      "伏線回収マニア": 0,
+      "AI文章鑑定士": 0,
+      "タイトル買い": 0,
+      "キャラ萌え研究家": 0,
+      "初見さん": 0,
+      "全肯定おばあちゃん": 0
+    },
+    "created_at": "2026-10-02T01:42:02+00:00"
+  },
+  "cover": "images/20261002-23116f/cover.webp",
+  "i18n": {
+    "key": "aeb8a08b13",
+    "en": {
+      "title": "The Sleepless City of Edo: A Map of Wanderings",
+      "premise": "Hachibei, a fallen former samurai, happens upon a secret map detailing the \"Night of Edo.\" It reveals the hidden side of the sleepless city—black markets and secret hideouts that officially do not exist. Alongside his friends from the tenement, Hachibei follows the map's lead, embarking on a journey to resolve people's hidden sorrows and recover lost memories. A tale of human drama set in the nights of Edo, where laughter and tears intertwine."
+    },
+    "zh": {
+      "title": "江戸不夜城的迷途地图",
+      "premise": "落魄的前武士八兵衛偶然得到了一张记载着“夜晚江户”的秘密地图。地图上记录着那些官方并不存在、在深夜悄然开启的黑市与隐居处，揭示了这座不夜城的背面。八兵衛与长屋的伙伴们一同循图而行，踏上了一场帮人们化解心中隐秘的烦恼、找回失落之情的旅程。这是一个在笑与泪中交织，描绘江户之夜众生相的故事。"
+    }
+  }
+}

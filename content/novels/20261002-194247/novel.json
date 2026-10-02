@@ -1,0 +1,51 @@
+{
+  "id": "20261002-194247",
+  "title": "事象の地平線の降水譜",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-02T15:11:51+00:00",
+  "updated_at": "2026-10-02T15:15:28+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリスは雨の店で何を見つけるか",
+    "options": [
+      "異次元からの通信装置が稼働",
+      "失われた文明の映像が流れる",
+      "店がブラックホールの縮小版だった"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ハッピーエンド信者": 0,
+      "百冊斬り": 1,
+      "とりあえず全部読む人": 2,
+      "締切の鬼編集": 0,
+      "SF考証の鬼": 0,
+      "純文学の亡霊": 1,
+      "涙腺ゆるゆる": 1,
+      "既視感センサー": 2
+    },
+    "created_at": "2026-10-02T15:15:31+00:00"
+  },
+  "cover": "images/20261002-194247/cover.webp",
+  "i18n": {
+    "key": "4c50bd7412",
+    "en": {
+      "title": "Precipitation Score of the Event Horizon",
+      "premise": "In an era where time dilation caused by gravity dictates every aspect of existence, Eris, a chronicler, traces the fragments of a lost civilization through her management of the 'Underground Library'—a sanctuary for information preserved under extreme gravitational forces. Her journey leads her to a peculiar shop that serves as a unique communication hub, where data exchange with observers from different timelines is possible only during the 'rain' formed by condensing cooling water. There, a chance encounter begins to uncover an anomaly that strikes at the very foundations of physics: the rotation of black holes is physically rewriting the memories of the universe."
+    },
+    "zh": {
+      "title": "事象地平线的降水谱",
+      "premise": "这是一个由重力引起的时间差异决定了生活一切的时代。记录官艾莉丝通过管理在极端重力下保存信息的“地下图书馆”，追寻着失落文明的碎片。她最终来到了一家特殊的通信据点——那是一家只有在冷却水凝结成“雨”落下时，才能与不同时间轴的观测者进行数据交换的小店。在那里的一次邂逅，揭开了一个触及物理法则根基的异变：黑洞的旋转正在物理性地改写宇宙的记忆。"
+    }
+  }
+}

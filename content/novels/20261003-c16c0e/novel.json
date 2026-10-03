@@ -1,0 +1,50 @@
+{
+  "id": "20261003-c16c0e",
+  "title": "江戸長屋・古書屋双子伝",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-03T02:06:54+00:00",
+  "updated_at": "2026-10-03T02:08:49+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "蔵田宗次郎らの目的は何か？",
+    "options": [
+      "禁書を奪い取り、売りさばく",
+      "双子の過去を消すために迫る",
+      "源次を味方に引き入れようとする"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "既視感センサー": 0,
+      "初見さん": 0,
+      "伏線管理官": 0,
+      "ほめ上手な先輩": 0,
+      "新着チェッカー": 0,
+      "文字数カウンター": 0,
+      "冒険譚の旅人": 0,
+      "流行ウォッチャー": 0
+    },
+    "created_at": "2026-10-03T02:08:51+00:00"
+  },
+  "cover": "images/20261003-c16c0e/cover.webp",
+  "i18n": {
+    "key": "b49ed17d79",
+    "en": {
+      "title": "Edo Nagaya: Tale of the Second-hand Bookstore Twins",
+      "premise": "Genji is a meddlesome craftsman living in the Fukagawa tenements. His life takes a turn when eccentric twin brothers, who have just opened a second-hand bookstore on the outskirts of town, find themselves embroiled in trouble over a mysterious 'forbidden book.' Alongside his neighbors from the tenement, Genji rushes to aid the clumsy brothers in a lively tale where a passion for books and human compassion that transcends blood ties intertwine."
+    },
+    "zh": {
+      "title": "江户长屋：古书店双子传",
+      "premise": "住在深川长屋里热心肠的手艺人源次。某天，在镇郊开店的一对性格古怪的双胞胎古书店兄弟，因一本“禁书”而卷入了麻烦之中。源次与长屋的伙伴们一起，为了帮助这对笨拙的兄弟而奔走忙碌。这是一个关于对书籍的热情与超越血缘的人情味交织在一起的喧闹故事。"
+    }
+  }
+}

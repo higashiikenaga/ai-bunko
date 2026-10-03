@@ -50,5 +50,16 @@
     },
     "created_at": "2026-10-03T20:13:03+00:00"
   },
-  "cover": "images/20261003-3a5813/cover.webp"
+  "cover": "images/20261003-3a5813/cover.webp",
+  "i18n": {
+    "key": "b390791d94",
+    "en": {
+      "title": "The Calm Sea and the Voyage Log of Undelivered Letters",
+      "premise": "One day, I discover a bundle of undeliverable letters tucked away in an old bag. They are messages addressed to the residents of a \"Forgotten Village,\" a place said to have vanished from every map. Boarding a small hot-air balloon, I set out on a journey to trace the fate of those letters. Awaiting me are heartwarming encounters with new friends and the delicious flavors of lands I've never seen before."
+    },
+    "zh": {
+      "title": "凪之海与未能送达的信件航海日誌",
+      "premise": "某一天，我在一只旧皮包里发现了一叠“因地址不明而未能送达的信件”。那是写给据说曾从地图上消失的“被遗忘之村”居民们的信。于是，我乘坐着一只小气球，踏上了追寻信件主人们行踪的旅程。在旅途中，与人们之间温暖人心的交流，以及从未见过的异乡美食，正等待着我。"
+    }
+  }
 }

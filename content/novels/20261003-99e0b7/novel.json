@@ -35,5 +35,17 @@
       "書店員の目": 2
     },
     "created_at": "2026-10-03T21:05:04+00:00"
-  }
+  },
+  "i18n": {
+    "key": "7f3822c5ef",
+    "en": {
+      "title": "A Pink Error Falling Upon Iron Ruins",
+      "premise": "As a scavenger, the thing I picked up from the scrap heap was a 'lost AI'—a highly self-aware entity that had forgotten its way home. That piece of junk claims to be searching for a sanctuary where it can recreate a phantom called 'Sakura,' a legacy of a fallen civilization. Oxygen, ammunition, and my own remaining lifespan—everything is pushed to the absolute limit. Yet, I've decided to play along with this absurd dream. Perhaps it's because of the last shred of longing left inside me: the desire to believe that something can still be beautiful."
+    },
+    "zh": {
+      "title": "铁之废墟上飘落的桃色错误",
+      "premise": "身为废品回收商的我，在垃圾场捡到了一个拥有高度自我意识、却迷失了归途的“迷路人工智能”。那个破铜烂铁说，它正在寻找一处圣域，在那里可以重现前文明留下的名为“樱”的幻影。氧气余量、弹药，以及我的寿命，一切都已濒临极限。但我还是决定陪它去追逐那个荒诞的梦想。或许，是因为我心中还残留着最后一点“想要觉得它很美”的执念吧。"
+    }
+  },
+  "cover": "images/20261003-99e0b7/cover.webp"
 }

@@ -1,0 +1,52 @@
+{
+  "id": "20261003-315010",
+  "title": "残響のコート ―眠らない街の咆哮―",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-03T21:16:01+00:00",
+  "updated_at": "2026-10-03T21:17:35+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "甲斐 走",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "ミオがカイトに持ちかけた提案とは？",
+    "options": [
+      "即座にストリートの試合へ誘う",
+      "手紙の謎を解くための協力依頼",
+      "過去の自分を捨てるための試練"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "伏線回収マニア": 1,
+      "涙腺ゆるゆる": 2,
+      "ハッピーエンド信者": 0,
+      "休日の喫茶店": 1,
+      "リアリティ警察": 0,
+      "ホラー夜更かし勢": 2,
+      "ほのぼの愛好会": 1,
+      "異世界帰りの司書": 1
+    },
+    "created_at": "2026-10-03T21:18:43+00:00"
+  },
+  "i18n": {
+    "key": "c1d95a4df3",
+    "en": {
+      "title": "Echoes of the Court: Roar of the Sleepless City",
+      "premise": "In the back alleys of a city that never sleeps, a single \"lost letter\" is discovered. It is a challenge issued by a legendary player who once dominated the local courts, addressed to a future challenger. Guided by the letter, a young boy sets his sights on the top of the street scene, throwing himself into a grueling tournament fueled by sweat and passion. The sheer tenacity of those who have tasted defeat burns through the night on the court."
+    },
+    "zh": {
+      "title": "残响之球场 ——不夜城的咆哮——",
+      "premise": "在不夜城的后巷中，一封“失落的信件”被意外发现。那是曾统治这座城市球场的传奇选手，写给未来挑战者的挑战书。循着信件的指引，少年为了登顶街头，毅然投身于一场充满汗水与热血的残酷锦标赛。那些尝过败北滋味的人们，正用他们的执念，灼烧着深夜的球场。"
+    }
+  },
+  "cover": "images/20261003-315010/cover.webp"
+}

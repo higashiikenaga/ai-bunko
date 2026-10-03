@@ -35,5 +35,17 @@
       "深夜の読書灯": 2
     },
     "created_at": "2026-10-02T23:55:55+00:00"
+  },
+  "cover": "images/20261002-af05ff/cover.webp",
+  "i18n": {
+    "key": "dd7a3ae7c8",
+    "en": {
+      "title": "Stardust Beneath the Waves and the Twilight Glow",
+      "premise": "In a quiet port town where ancient ruins submerged on the seabed reveal themselves with the ebb and flow of the tides, there exists the \"Stardust Repair Shop\"—a place that restores the memories of its owners. Alongside an elderly shopkeeper with a passion for the stars, a lost girl begins to unravel the stories dwelling within broken treasures. On the night of the festival, when a meteor shower illuminates the underwater ruins, time that had stood still begins to move once more."
+    },
+    "zh": {
+      "title": "水底星尘与薄暮灯火",
+      "premise": "在宁静的海港小镇，沉没于海底的古代遗迹随着潮汐的涨落时隐时现。那里有一家名为“星尘修理铺”的小店，专门修复物主们的记忆。一位迷途的少女与热爱星空的年迈店主，一同揭开寄宿在破碎器物中的故事。在祭典之夜，当流星雨照亮海底遗迹之时，停滞的时间将再次开始流动。"
+    }
   }
 }

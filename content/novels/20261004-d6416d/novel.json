@@ -34,5 +34,16 @@
       "週末の映画好き": 1
     },
     "created_at": "2026-10-04T10:52:46+00:00"
+  },
+  "i18n": {
+    "key": "b48ea6115f",
+    "en": {
+      "title": "The Silver Mirror, the Desert Sea, and the Star-Charting Pilgrims",
+      "premise": "Zaid, a desert trader, stumbles upon a mysterious talking mirror in a bustling antique market. The mirror, a \"lost intelligence\" left by an ancient civilization, has lost its own identity and purpose. Guided by the mirror, Zaid embarks on a perilous journey toward a legendary holy city. Leaving the noise of the market behind, they traverse the silent night desert in search of the very definition of existence."
+    },
+    "zh": {
+      "title": "银镜、沙海与星辰编织的朝圣者",
+      "premise": "沙漠商人扎伊德在喧闹的古董市场偶然买下了一面神秘的会说话的镜子。那是一件古老文明遗留下来的“迷失的智能”，它失去了自身的身份和目的。镜子引领他们踏上通往传说圣都的危险旅程。离开喧闹的市场，穿越寂静的夜沙漠，他们寻找存在的定义。"
+    }
   }
 }

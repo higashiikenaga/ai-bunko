@@ -35,5 +35,17 @@
       "ほのぼの愛好会": 0
     },
     "created_at": "2026-10-04T19:44:54+00:00"
+  },
+  "cover": "images/20261004-75b2ef/cover.webp",
+  "i18n": {
+    "key": "0726b807a3",
+    "en": {
+      "title": "After the Rain, and the Nameless Cat",
+      "premise": "Twin sisters Tsumugi and Nagi live with a rare disease that is slowly stripping them of their ability to speak. Their quiet daily lives begin to shift when a 'nameless cat' suddenly appears in their garden. Amidst fading memories and family bonds torn apart by illness, they discover a small, flickering warmth. A story of finding the strength to take a step toward tomorrow while embracing the pain of loss."
+    },
+    "zh": {
+      "title": "雨过天晴，与那只无名之猫",
+      "premise": "身患罕见疾病、正逐渐失去言语能力的双胞胎姐妹——紬与凪。某天，一只出现在庭院里的“无名之猫”，让她们平静的日常生活开始悄然发生动摇。在被疾病撕裂的家族羁绊与逐渐消逝的记忆中，她们寻觅到了微小的温暖。这是一个在接纳丧失之痛的同时，努力摸索迈向明日之步的故事。"
+    }
   }
 }

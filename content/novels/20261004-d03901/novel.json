@@ -51,5 +51,17 @@
       "ファンタジー古参勢": 0
     },
     "created_at": "2026-10-04T17:30:57+00:00"
+  },
+  "cover": "images/20261004-d03901/cover.webp",
+  "i18n": {
+    "key": "81cd1622ec",
+    "en": {
+      "title": "Sleepless Court, Echoes of Frenzy",
+      "premise": "\"Night Legends\" is a street basketball team of working adults that operates out of a sports center late at night. Amidst the adversity of missing their star players, the story follows the intersecting perspectives of a bench player tirelessly recording data and the spectators hungry for excitement. Set against the backdrop of a sleepless city's bustle, they prepare to take on a tournament held on the night of the region's largest festival. A tale of light and shadow, following those who stake everything on a single moment of play."
+    },
+    "zh": {
+      "title": "不眠球场，狂热残响",
+      "premise": "“夜之传奇”是一支以深夜运动中心为据点、由社会人士组成的街头篮球队。在主力缺阵的逆境中，始终在板凳席记录数据的替补球员，与渴望狂热气氛的观众，两者的视角交织在一起。在不夜城的喧嚣背景下，他们向在当地最大祭典之夜举办的锦标赛发起挑战。这是一个关于将一切赌在瞬间动作之上的，光与影的故事。"
+    }
   }
 }

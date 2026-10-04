@@ -35,5 +35,16 @@
       "既視感センサー": 0
     },
     "created_at": "2026-10-04T14:08:20+00:00"
+  },
+  "i18n": {
+    "key": "4b1944ed9b",
+    "en": {
+      "title": "Winter Migrant, Traversing the Mapless Sky",
+      "premise": "From my grandfather's belongings I discover a \"secret map\" that sketches an unfamiliar coastline. It points to a place the grandfather once journeyed to while chasing migratory birds—a location absent from any ordinary map. I set out to follow its trail, as if to set the frozen moments of my life in motion. Guided by the cold sea breeze and the pale winter light, I gather scattered fragments of lost memories."
+    },
+    "zh": {
+      "title": "冬季的迁徙鸟，行走于无图的天空",
+      "premise": "在祖父的遗物中，我发现了一张描绘陌生海岸线的“秘密地图”。那是祖父曾追逐迁徙鸟而踏足、地图上根本没有标记的地方。我开始沿着地图的指引前行，仿佛要让停滞的时间重新流动。在寒冷的海风和淡淡的冬光的指引下，我拾起散落的记忆碎片。"
+    }
   }
 }

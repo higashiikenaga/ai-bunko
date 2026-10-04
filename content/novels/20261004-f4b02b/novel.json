@@ -53,5 +53,16 @@
     },
     "created_at": "2026-10-04T19:01:50+00:00"
   },
-  "cover": "images/20261004-f4b02b/cover.webp"
+  "cover": "images/20261004-f4b02b/cover.webp",
+  "i18n": {
+    "key": "fc26e5f13a",
+    "en": {
+      "title": "The Frosted Post Office and the Forgotten God's Prayer",
+      "premise": "Guided by an old, faded photograph left by my late grandfather, I return to the hometown village I had long erased from memory. There I discover the legend of an \"Ice Castle\" that surfaces only in winter and a deity who sleeps clutching a broken sword to guard the boundary. Undelivered letters lie buried in the snow, and the whispers of the dead begin to reach my ears."
+    },
+    "zh": {
+      "title": "冰霜邮局与被遗忘的神之祈祷",
+      "premise": "在已故祖父留下的一张古旧照片的指引下，我踏上了早已从记忆中抹去的故乡小村。那里流传着只在冬季出现的「冰之城」以及为守护界限而抱着断剑沉睡的神的传说。未曾送达的信件埋在雪中，死者的低语开始在我耳边响起。"
+    }
+  }
 }

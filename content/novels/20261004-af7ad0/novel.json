@@ -52,5 +52,16 @@
     },
     "created_at": "2026-10-04T18:32:16+00:00"
   },
-  "cover": "images/20261004-af7ad0/cover.webp"
+  "cover": "images/20261004-af7ad0/cover.webp",
+  "i18n": {
+    "key": "f5a4345239",
+    "en": {
+      "title": "Melody of the Azure Sky and the Testament of Silver Wings",
+      "premise": "Kai, a boy genius mechanic, and Ria, a girl with wings that command the wind, set out for the edge of the sky aboard the legendary airship, the Sky Runner. Their goal is to follow the route to the 'Hill of Promise' left by Kai's late father. Hidden there is a momentous 'testament' that could set the world's skies free once again. Tearing through clouds and racing through storms, guided by the heartbeat of machinery and the song of the wind, they charge toward the truth of the sky!"
+    },
+    "zh": {
+      "title": "苍穹之旋律与银翼之遗言",
+      "premise": "天才机械师少年凯与拥有操纵风之翼的少女莉亚，搭乘传说中的飞空艇“天空行者号”，向着天空的尽头进发。他们的目标是追寻亡父留下的“约定之丘”航线。在那里，隐藏着一份为了让世界天空重获自由的重要“遗言”。撕裂云层，穿梭风暴，怀揣着机械的脉动与风之歌，少年们将向着天空的真相奋力冲刺！"
+    }
+  }
 }

@@ -36,5 +36,17 @@
       "台本読みの声優": 1
     },
     "created_at": "2026-10-04T03:55:51+00:00"
+  },
+  "cover": "images/20261004-d1315d/cover.webp",
+  "i18n": {
+    "key": "3c2b6678f7",
+    "en": {
+      "title": "Too Viral to Function: Our High-Resolution Reboot Summer",
+      "premise": "Having survived the collapse of a virtual world, Haruto Asahi and Shiori Ichinose finally found each other in reality. However, as a lingering side effect of the 'Emotion Sync' from their past, they are plagued by a strange curse: whenever they tell a lie, visual noise flickers across their sight. Into this fragility steps Ren Kujo, returning with a new app that turns the truth into a form of entertainment, plotting to expose their 'true feelings' to the entire world. In a restrictive world where lying is impossible, what is the only sanctuary the two can find?"
+    },
+    "zh": {
+      "title": "爆紅到想死：我们的高分辨率重启之夏",
+      "premise": "在经历了虚拟空间的崩坏后，旭阳翔与一之濑汐里终于在现实世界中结合。然而，由于前作中“感情同步”的后遗症，两人陷入了一种奇妙的诅咒：一旦撒谎，视野中就会出现噪点。就在此时，九条莲带着一款将“真相”作为娱乐消费的新应用再次现身，企图将两人的“真实心意”公之于世。在这个无法撒谎的不自由世界中，两人最终能抵达的唯一圣域究竟在哪里？"
+    }
   }
 }

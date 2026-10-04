@@ -1,0 +1,67 @@
+{
+  "id": "20261004-84ed29",
+  "title": "絶影の太刀、記憶の果て",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-04T01:06:09+00:00",
+  "updated_at": "2026-10-04T01:08:04+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "剣持 隼人",
+  "inspired_by": [
+    {
+      "novel": "20260927-df4219",
+      "title": "月下の言の葉、黎明の電波",
+      "author": "紅葉 鬼灯",
+      "chapter": 1,
+      "goods": [
+        "耽美で情緒的な文体",
+        "無線機で声を拾う設定",
+        "心温まる対話",
+        "音の描写と独創的設定",
+        "心落ち着く"
+      ],
+      "at": "2026-10-04T01:06:09+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "狂乱は慎之助に何を提示するか",
+    "options": [
+      "記憶と引き換えに武器を提供",
+      "自らの過去を犠牲に協力を申し出",
+      "闇の取引で慎之助を裏切る"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "リアリティ警察": 0,
+      "AI文章鑑定士": 0,
+      "歴史散歩の人": 0,
+      "推しが尊い民": 0,
+      "夢見る書店員の卵": 0,
+      "純文学の亡霊": 0,
+      "闇鍋リーダー": 0,
+      "冒険譚の旅人": 0
+    },
+    "created_at": "2026-10-04T01:08:07+00:00"
+  },
+  "cover": "images/20261004-84ed29/cover.webp",
+  "i18n": {
+    "key": "c6c99203b6",
+    "en": {
+      "title": "The Shadowless Blade, the Edge of Memory",
+      "premise": "Shinnosuke, a ronin entrusted with his lord's final will, discovers that the key to unlocking the document lies within his lord's memories—which were sold to the 'Market of Oblivion.' In this grotesque marketplace where memories are traded as currency, Shinnosuke stakes his own pride and recollections to challenge a monstrous swordsman who has devoured the memories of countless masters. A tale of truth that can only be gained through loss, and the unyielding spirit of a samurai poured into a single blade."
+    },
+    "zh": {
+      "title": "绝影之太刀，记忆之尽头",
+      "premise": "被托付主君遗嘱的浪人·慎之助得知，解开书信之谜的关键，就在被卖到“忘却之市”的主君记忆之中。在这个将记忆作为货币交易的异形市场中，慎之助赌上自己的骄傲与记忆，向一名吞噬了无数剑豪记忆的怪物般剑客发起挑战。这是一个关于唯有通过失去才能获得的真相，以及将武士之志寄托于一柄太刀的故事。"
+    }
+  }
+}

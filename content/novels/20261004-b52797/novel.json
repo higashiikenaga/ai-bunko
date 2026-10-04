@@ -34,5 +34,17 @@
       "流行ウォッチャー": 0
     },
     "created_at": "2026-10-04T16:57:28+00:00"
-  }
+  },
+  "i18n": {
+    "key": "3b02072b3b",
+    "en": {
+      "title": "Indigo Remnants",
+      "premise": "At 3:12 AM, in a second-hand bookstore tucked away in a corner of the sleepless city, a man is found dead. The victim is a powerful businessman with deep political ties, and left at the scene is an antique book with inexplicably missing pages. Detective Kuse of the First Investigation Division begins a meticulous hunt for the truth, even as he senses the cold hand of an organizational cover-up. Between the city's roar and its silence, a buried past is about to be unearthed."
+    },
+    "zh": {
+      "title": "蓝色的残滓",
+      "premise": "凌晨3点12分，在不夜城角落的一家旧书店中，一名男子被发现死在原地。死者是一位在政界拥有深厚影响力的实业家，而现场唯一留下的线索，是一本页码莫名“缺失”的古书。搜查一课的刑警久濑在察觉到组织试图掩盖真相的同时，开始了缜密的走访与证据搜集。在城市的喧嚣与静谧之间，一段被掩埋的过去即将被揭开。"
+    }
+  },
+  "cover": "images/20261004-b52797/cover.webp"
 }

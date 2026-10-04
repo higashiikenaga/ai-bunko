@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T02:55:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "江戸の長屋で繰り広げる古書と人情の対決は面白いけど、会話がぎこちなくてテンポが落ちる。",
+    "good": "古書の世界観と兄弟関係",
+    "bad": "会話が不自然でテンポ不足",
+    "chapters_read": 5,
+    "created_at": "2026-10-04T17:08:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

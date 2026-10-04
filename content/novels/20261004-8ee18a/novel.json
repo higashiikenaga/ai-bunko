@@ -35,5 +35,17 @@
       "涙腺ゆるゆる": 1
     },
     "created_at": "2026-10-04T22:40:18+00:00"
+  },
+  "cover": "images/20261004-8ee18a/cover.webp",
+  "i18n": {
+    "key": "04482515c5",
+    "en": {
+      "title": "Resonating Steam, Melody of Condemnation",
+      "premise": "In a floating city of gears, singing is magic, and music is the engine of civilization. But the echoes of the sacred hymn that once saved the world have transformed into a calamity, throwing the city's gears into chaos. A knight clutching a broken sword, a mechanic driven mad by the roar of steam engines, and a diva searching for the melody of truth—as their fates intertwine, the city's stalling clock begins to tick once more."
+    },
+    "zh": {
+      "title": "奏鸣之蒸汽，断罪之旋律",
+      "premise": "在一座漂浮于天空的齿轮之城，歌声即是魔法，音乐驱动着文明。然而，曾经拯救世界的圣歌残响，如今却化作一场令城市齿轮陷入疯狂的灾厄。怀抱断剑的骑士，沉溺于蒸汽机轰鸣的修理工，以及追寻真实旋律的歌姬——众人的命运交织在一起，让这座几近停摆的城市之钟再次开始运转。"
+    }
   }
 }

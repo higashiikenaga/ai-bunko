@@ -1,0 +1,49 @@
+{
+  "id": "20261004-3888ed",
+  "title": "星葬の挽歌と、黄金の静寂なる揺籃",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-04T12:52:23+00:00",
+  "updated_at": "2026-10-04T12:54:20+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリオスは砂漠で次に何をするか?",
+    "options": [
+      "謎の女性セレスティアが再登場",
+      "エリオスが聖剣を自ら鍛え直す",
+      "虚無教団の刺客が急襲してくる"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "台詞にうるさい人": 0,
+      "純文学の亡霊": 1,
+      "ほのぼの愛好会": 0,
+      "異世界帰りの司書": 2,
+      "放課後の図書委員": 1,
+      "ねこ背の文学少女": 0,
+      "ゆるふわSF好き": 2,
+      "とりあえず全部読む人": 1
+    },
+    "created_at": "2026-10-04T12:54:23+00:00"
+  },
+  "i18n": {
+    "key": "e1eea9cf95",
+    "en": {
+      "title": "Elegy of the Star Burial and the Golden Cradle of Silence",
+      "premise": "In a world where magic and order have vanished following the death of a god, a young man—the descendant of a former Holy Knight—embarks on a journey carrying a fragment of a broken holy sword. His goal is to perform a forbidden ritual to rewind the world's time at the 'Silent Cradle,' a legendary oasis located at the edge of the desert. However, his path is beset by grotesque monsters born from the god's corpse and a cult of nothingness seeking the world's total annihilation."
+    },
+    "zh": {
+      "title": "星葬挽歌与黄金静寂之摇篮",
+      "premise": "在神明陨落、魔法与秩序随之失落的世界里，一名身为昔日圣骑士后裔的青年，携带着断裂圣剑的碎片踏上了旅程。他的目标是在沙漠尽头那座名为“静寂摇篮”的传说绿洲中，举行一场能够让世界时间倒流的禁忌仪式。然而，在这条旅途中，诞生于神之尸骸的异形怪物，以及企图让世界彻底毁灭的虚无教团，正阻挡在他的面前。"
+    }
+  }
+}

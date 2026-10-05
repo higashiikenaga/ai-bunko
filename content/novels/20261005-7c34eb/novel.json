@@ -52,5 +52,16 @@
       "ジャンル横断者": 0
     },
     "created_at": "2026-10-05T09:29:58+00:00"
+  },
+  "i18n": {
+    "key": "885af310c1",
+    "en": {
+      "title": "Rusty Lungs and the Grave Marker of Lies",
+      "premise": "Rain doesn't fall from the sky—it's rust dust that gnaws at your lungs. I wander the dying city as a scavenger who scrapes junk, clutching a dwindling oxygen canister. One day I meet a junk‑boy cursed to never be able to tell a lie, and a lost AI that drifts through fragments of memory. While evading the law‑enforcement apparatus hunting them, I come to realize that the world’s end is actually built upon a colossal lie."
+    },
+    "zh": {
+      "title": "锈蚀的肺与谎言的墓碑",
+      "premise": "从天而降的不是雨，而是磨蚀肺部的锈粉。我作为废品搜寻的拾荒者，紧握着所剩无几的氧气罐，在这座垂死的城市中徘徊。某日，我遇到了被诅咒“永不能说谎”的废品少年，以及在记忆碎片中徘徊的迷失人工智能。躲避追捕他们的治安维持机构的追踪时，我意识到，所谓的世界终结，竟是建立在一场宏大的谎言之上。"
+    }
   }
 }

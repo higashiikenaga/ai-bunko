@@ -51,5 +51,16 @@
       "伏線回収マニア": 1
     },
     "created_at": "2026-10-05T08:44:35+00:00"
+  },
+  "i18n": {
+    "key": "7692cb2d08",
+    "en": {
+      "title": "The Void on the Coastline",
+      "premise": "An elderly man suffering from dementia, unable to communicate clearly, stands accused of arson at a local welfare facility. A young court-appointed lawyer discovers a minute logical contradiction between the man's fragmented utterances and the \"perfect testimony\" presented by the prosecution. This discrepancy leads to a dark social truth: an illegal dumping scandal that the town has kept hidden for decades. This is a story that explores how one can prove the \"memories of the vulnerable\"—memories long ignored by society—within the cold, unyielding halls of justice."
+    },
+    "zh": {
+      "title": "海岸线的空白",
+      "premise": "一名患有认知障碍、难以进行有效沟通的老人，因涉嫌纵火焚烧当地福利设施而被起诉。年轻的国选辩护人在老人的断续言行与检方提出的“完美证言”之间，发现了一丝逻辑上的矛盾。而这一矛盾，竟指向了该城镇数十年来一直隐瞒的非法倾倒事件这一社会黑暗面。这是一个关于如何在冰冷的法庭之上，去证明那些被世人遗忘的“弱者记忆”的故事。"
+    }
   }
 }

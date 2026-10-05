@@ -1,0 +1,66 @@
+{
+  "id": "20261005-75f85a",
+  "title": "極北の天秤と氷晶の玉座",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-05T11:10:52+00:00",
+  "updated_at": "2026-10-05T11:12:54+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "アルベルト・藤",
+  "inspired_by": [
+    {
+      "novel": "20260926-7e372e",
+      "title": "氷結保管庫の調律師たち ―溶けない記憶と、二つの季節―",
+      "author": "野分 風太",
+      "chapter": 1,
+      "goods": [
+        "冷たい空気描写が秀逸",
+        "専門用語による臨場感",
+        "専門性とキャラの魅力",
+        "専門知識による緊迫感のある描写",
+        "キャラ同士の信頼と連携"
+      ],
+      "at": "2026-10-05T11:10:52+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "追撃を逃れたエリアス達の前に現れたのは？",
+    "options": [
+      "ゼノによる強引な救出",
+      "監査官の包囲網",
+      "地図の真の守護者"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "深夜テンションの読者": 0,
+      "文字数カウンター": 1,
+      "ゆるふわSF好き": 2,
+      "百冊斬り": 1,
+      "冒険譚の旅人": 0,
+      "SF考察勢": 2,
+      "書店員の目": 1,
+      "台詞にうるさい人": 1
+    },
+    "created_at": "2026-10-05T11:12:59+00:00"
+  },
+  "i18n": {
+    "key": "d4f4d3785e",
+    "en": {
+      "title": "Scales of the Far North and the Ice Crystal Throne",
+      "premise": "In a frozen world where all of humanity depends solely on geothermal energy to survive, the absolute rule of the 'Ice Castle' has begun to falter. Amidst this instability, a 'secret map' emerges, revealing the location of lost heat sources. Ambitious souls craving wealth and power, a knight praying for the restoration of their homeland, and a scholar in pursuit of the truth—as their conflicting desires intertwine, a blood-soaked struggle for supremacy begins across the frozen wasteland."
+    },
+    "zh": {
+      "title": "極北的天秤與冰晶的王座",
+      "premise": "這是一個全人類僅依賴地熱源生存的極寒世界。當掌控絕對權力的『冰之城』之統治開始動搖之時，一張揭示失落熱源所在地的『秘密地圖』現世。追求財富與權力的野心家，渴望祖國復興的騎士，以及追尋真理的學者。隨著各自的意圖交織在一起，一場血染的霸權爭奪戰在凍結的大地上拉開序幕。"
+    }
+  }
+}

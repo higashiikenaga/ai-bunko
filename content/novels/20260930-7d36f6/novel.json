@@ -229,5 +229,8 @@
   },
   "audio_voice": "Puck",
   "completed_at": "2026-10-01T20:50:38+00:00",
-  "sequel_id": "20261002-775ddb"
+  "sequel_id": "20261002-775ddb",
+  "illustrations": {
+    "5": "images/20260930-7d36f6/ch-005.webp"
+  }
 }

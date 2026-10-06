@@ -36,5 +36,17 @@
       "ラブコメ中毒": 1
     },
     "created_at": "2026-10-06T04:15:47+00:00"
-  }
+  },
+  "i18n": {
+    "key": "18a178980d",
+    "en": {
+      "title": "Shadow's Return: The Law of the Tide",
+      "premise": "After his grandfather’s death, Nagi returns home to a damp sea breeze and the eerily repetitive ritual of the \"Tide Festival.\" The old lighthouse at the edge of the village isn’t meant to guide ships but to divert the gaze of something lurking beneath the waves—a blindfold with no escape. On the night of the festival, when the lighthouse’s light flickers toward a forbidden direction, Nagi will peer into the abyss of a blood‑stained custom the village has kept for generations."
+    },
+    "zh": {
+      "title": "影之归还：潮汐之律",
+      "premise": "在祖父去世后，Nagi 回到故乡，迎接的是潮湿的海风和阴森重复的\"潮汐祭典\"仪式。村庄边缘的古老灯塔并非用来指引船只，而是用来转移潜藏于海底的\"某物\"目光的无处可逃的遮蔽。祭典之夜，当灯塔的光芒摇曳向禁忌之处时，Nagi 将窥见村庄代代守护的血腥传统的深渊。"
+    }
+  },
+  "cover": "images/20261006-9077a4/cover.webp"
 }

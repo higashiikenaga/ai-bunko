@@ -51,5 +51,16 @@
       "活字中毒の猫": 0
     },
     "created_at": "2026-10-06T10:56:33+00:00"
+  },
+  "i18n": {
+    "key": "cad594b538",
+    "en": {
+      "title": "Dead Link of Rain Drops",
+      "premise": "A thread titled \"A Store That Only Opens on Rainy Days\" spreads from an anonymous board to the entire internet. Users can trade their true \"last will\" for items that satisfy any desire. But as the rumor spreads, the supernatural grows, and digital data turns into physical death. A college student is chosen as the next poster, and a rain‑soaked night with no escape begins."
+    },
+    "zh": {
+      "title": "雨滴的死亡链接",
+      "premise": "一条名为『雨天才开的店』的奇怪帖子从匿名论坛扩散到整个网络。用户可以用自己的真实『遗嘱』来换取满足任何欲望的物品。然而，随着传闻蔓延，怪异的力量愈发强大，数字信息逐渐变成了物理死亡。一个大学生被选为下一位发帖者，逃不掉的雨夜就此开始。"
+    }
   }
 }

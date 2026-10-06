@@ -35,5 +35,17 @@
       "通勤電車の常連": 1
     },
     "created_at": "2026-10-06T21:17:24+00:00"
+  },
+  "cover": "images/20261006-59408a/cover.webp",
+  "i18n": {
+    "key": "15a2d687aa",
+    "en": {
+      "title": "The Lighthouse of the Roaring Tide and the Promise of a Tiny Steamwork",
+      "premise": "In a cafe overlooking an old lighthouse perched on the edge of a cape, I spend my days brewing coffee and listening to the quiet troubles of my patrons. One day, a regular elderly gentleman brings in a broken, miniature steam engine, asking for its repair. But as I unravel the secrets hidden within its mechanism, a long-forgotten tale of kindness and misunderstanding—one tied to the lighthouse itself—begins to emerge from decades past."
+    },
+    "zh": {
+      "title": "《潮声灯塔与微型蒸汽机关的约定》",
+      "premise": "在岬角尽头俯瞰着古老灯塔的咖啡馆里，我每日一边冲泡着咖啡，一边倾听着客人们细碎的烦恼。直到某天，一位常客老绅士带来了一个“无法运转的小型蒸汽机模型”，请求我帮他修理。然而，随着我一步步解开模型故障背后的谜团，一段关于灯塔、跨越数十年的温柔与误解的故事，也随之缓缓浮现。"
+    }
   }
 }

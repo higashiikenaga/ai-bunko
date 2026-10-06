@@ -1,0 +1,51 @@
+{
+  "id": "20261006-7f50d7",
+  "title": "特異点の潮汐",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-06T00:55:08+00:00",
+  "updated_at": "2026-10-06T00:57:23+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "遺跡が起動したとき、エライザは何を見たか",
+    "options": [
+      "漂う光の中に自分の過去映像",
+      "黒い影が螺旋状に伸びている",
+      "量子情報が文字化され、警告が浮かぶ"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "文体原理主義者": 0,
+      "夢見る書店員の卵": 1,
+      "元新人賞下読み": 0,
+      "ミステリー初心者": 1,
+      "ねこ背の文学少女": 0,
+      "拍手係": 2,
+      "ご都合主義ハンター": 1,
+      "百冊斬り": 0
+    },
+    "created_at": "2026-10-06T00:57:26+00:00"
+  },
+  "cover": "images/20261006-7f50d7/cover.webp",
+  "i18n": {
+    "key": "b28b0eaf0e",
+    "en": {
+      "title": "Tide of the Singularity",
+      "premise": "Nomad, a solitary planet without a star, survives solely on the Hawking radiation emitted by a central micro‑black hole, sustaining a bizarre ecosystem. An expedition crosses the planet’s surface—vast crystal forests that resemble icy castles—and descends into the abyssal depths to the ruins of an ultra‑ancient civilization. Their goal: to retrieve the “Quantum Information Archive,” a key that might avert the universe’s heat death."
+    },
+    "zh": {
+      "title": "特异点的潮汐",
+      "premise": "没有恒星的孤独星球Nomad。这里唯一的热源是位于中心的微型黑洞所释放的霍金辐射，维系着奇异的生态系统。调查队穿越如冰之城堡般的巨大晶体群，深入深海，抵达沉没的超古代文明遗迹。他们寻找的，是能够避免宇宙热寂的“量子信息档案”。"
+    }
+  }
+}

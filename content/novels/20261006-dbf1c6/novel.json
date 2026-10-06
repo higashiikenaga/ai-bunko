@@ -36,5 +36,17 @@
       "ほのぼの愛好会": 0
     },
     "created_at": "2026-10-06T22:39:23+00:00"
+  },
+  "cover": "images/20261006-dbf1c6/cover.webp",
+  "i18n": {
+    "key": "9a031647a9",
+    "en": {
+      "title": "The Galactic Post Office and the Note Borne by a Flying Ship",
+      "premise": "Months have passed since the turmoil of the previous story. At the Tsukuyomi Bookstore, a mysterious model of a \"flying ship\" has come to be on display. One day, a hidden door within the model reveals an addressless old map and a single letter. Could this be the \"secret map\" left behind by the legendary airship that once soared through the skies of Hoshimigaoka? As I trace the map's path, I begin to uncover a forgotten promise and the truth behind the gentle lies the townspeople have quietly kept."
+    },
+    "zh": {
+      "title": "银河的邮局与飞船传递的便笺",
+      "premise": "距离前作的骚动已过去数月。月读书房里摆放起了一个不可思议的“飞船”模型。某日，从模型的暗门中，发现了一张没有收件人的旧地图和一封信。这或许就是曾经在星见之丘上空翱翔的传说之飞船所留下的“秘密地图”。在追寻地图线索的过程中，我逐渐触及了一个被遗忘的约定，以及镇上人们悄悄隐藏的“温柔谎言”的真相。"
+    }
   }
 }

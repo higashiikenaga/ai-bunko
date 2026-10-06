@@ -52,5 +52,17 @@
       "雨の日の積読家": 2
     },
     "created_at": "2026-10-06T15:01:37+00:00"
-  }
+  },
+  "i18n": {
+    "key": "16e7a0db97",
+    "en": {
+      "title": "The Pulse of Brass and the Frozen Heart",
+      "premise": "The great climate control system that once warmed the world malfunctioned, transforming into a monolithic fortress of ice. Armed with a fractured thermal blade, a seasoned mechanic descends into the frozen mechanical core to reclaim the world's lost heat. Amidst the grinding of brass gears and the roar of steam, he begins a perilous mission to salvage the remnants of civilization."
+    },
+    "zh": {
+      "title": "真鍮的鼓动与零下的心脏",
+      "premise": "曾经温暖世界的巨大气候控制装置在暴走后，如今已化作一座巍峨的冰之城。为了夺回这个停滞世界的温度，一名经验丰富的修理工手持破损的热切断剑，潜入那颗被冻结的机械心脏。在黄铜齿轮的摩擦之声与蒸汽的咆哮之中，他开始了这场为了挽救文明遗产而赌上性命的修理之旅。"
+    }
+  },
+  "cover": "images/20261006-63a451/cover.webp"
 }

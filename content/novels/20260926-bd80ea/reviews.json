@@ -382,5 +382,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-05T01:44:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "罪の意識が重く、対決が繊細で良いがペースがやや遅くて続きやすい。",
+    "good": "深い罪意識と対決",
+    "bad": "ペースが遅め",
+    "chapters_read": 9,
+    "created_at": "2026-10-06T01:42:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

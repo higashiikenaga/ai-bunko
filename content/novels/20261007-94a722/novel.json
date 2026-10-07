@@ -35,5 +35,16 @@
     },
     "created_at": "2026-10-07T08:41:16+00:00"
   },
-  "cover": "images/20261007-94a722/cover.webp"
+  "cover": "images/20261007-94a722/cover.webp",
+  "i18n": {
+    "key": "53cee04ba7",
+    "en": {
+      "title": "Nameless Tremors Slumbering in the Mud",
+      "premise": "This is a story about strange, fragmented memories brought back by an acquaintance when they left their village. Local folklore says that when the ticking of a broken pocket watch is heard at a specific hour, the boundaries of reality begin to blur. One night, a nameless cat wandering through that village brought back 'something' that should never have vanished. What unfolds is a record of an absurd phenomenon with no clear identity—simply existing there in the dark."
+    },
+    "zh": {
+      "title": "沉眠于泥泞底部的无名微澜",
+      "premise": "这是一个关于某位熟人在离开村子时带回的、一段奇妙而破碎的记忆的故事。村里流传着这样的传说：如果在特定的时间听到坏掉怀表的滴答声，现实的边界就会变得模糊。一天夜里，一只误入该村的无名小猫，带来了一些本不该消失的“东西”。这里所记录的，是一种没有明确真面目、只是静静伫立在那里的荒诞现象。"
+    }
+  }
 }

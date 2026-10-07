@@ -35,5 +35,17 @@
       "ホラー夜更かし勢": 2
     },
     "created_at": "2026-10-07T02:51:59+00:00"
-  }
+  },
+  "i18n": {
+    "key": "5a8caea725",
+    "en": {
+      "title": "Rain Sound Update and Our Star Chart Debugging",
+      "premise": "Only on rainy days does a mysterious cafe appear on your phone’s map app. Inside, you meet a girl clutching an old star chart, searching for the world’s hidden bugs. Every time the rain stops, her presence vanishes like a log, and you can only connect with her through SNS. As the boundary between digital and real glitches, we must debug our own place in this strange world."
+    },
+    "zh": {
+      "title": "雨声的更新与我们的星图调试",
+      "premise": "只有在雨天，那家神秘的咖啡店才会出现在手机地图应用上。你在那里遇见一位手握古老星图、寻找“世界漏洞”的少女。每当雨停，她的存在就像日志一样消失，只能通过社交媒体与她相连。随着数字与现实的边界开始崩溃，我们必须调试自己的位置，寻找归属感。"
+    }
+  },
+  "cover": "images/20261007-dbda00/cover.webp"
 }

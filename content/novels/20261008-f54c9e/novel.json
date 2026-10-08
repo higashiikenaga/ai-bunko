@@ -1,0 +1,67 @@
+{
+  "id": "20261008-f54c9e",
+  "title": "瑠璃色の夜会と忘却の遺言",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-08T06:57:53+00:00",
+  "updated_at": "2026-10-08T07:00:07+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "inspired_by": [
+    {
+      "novel": "20260926-8a1524",
+      "title": "境界線のレイテンシ：ノアの村と届かなかった手紙",
+      "author": "綾瀬 ナノ",
+      "chapter": 1,
+      "goods": [
+        "データ残滓というSF的設定",
+        "色彩豊かな描写と切ない世界観",
+        "情景描写の鮮やかさ",
+        "切ない人間ドラマが心地よい",
+        "比喩表現の端々に見える熱量"
+      ],
+      "at": "2026-10-08T06:57:53+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "エリスが王宮の社交界へ踏み出す際、最初に直面する試練は？",
+    "options": [
+      "敵対する貴族からの冷ややかな視線",
+      "懐中時計が示す謎の紋章の正体",
+      "幼馴染ジュリアンの意外な裏切り"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 0,
+      "活字中毒の猫": 0,
+      "設定考証班": 1,
+      "深夜徘徊読者": 2,
+      "元新人賞下読み": 1,
+      "新着チェッカー": 0,
+      "通勤電車の常連": 0,
+      "SF考察勢": 1
+    },
+    "created_at": "2026-10-08T07:00:13+00:00"
+  },
+  "cover": "images/20261008-f54c9e/cover.webp",
+  "i18n": {
+    "key": "9157353c31",
+    "en": {
+      "title": "The Lapis Lazuli Soiree and the Forgotten Testament",
+      "premise": "Ellis, the daughter of a fallen noble house, returns to the royal balls of her youth, clutching two legacies from her late father: a broken pocket watch and a mysterious will. But awaiting her is the cold-hearted young Duke Kyle and a cruel conspiracy that threatens the very foundation of the kingdom. As lies hidden beneath the swirl of dancing gowns are unveiled and frozen time begins to tick once more, a true love begins to bloom."
+    },
+    "zh": {
+      "title": "瑠璃色的夜会与忘却的遗言",
+      "premise": "没落名门之女艾莉丝，手持亡父留下的“损坏的怀表”与“神秘的遗书”，再次踏入王宫的舞会。然而，在那里等待她的，是冷酷的年轻公爵凯尔，以及一场足以撼动国家的残酷阴谋。当舞裙裙摆下隐藏的谎言被揭穿，停滞的时间重新开始流动，真挚的爱恋将悄然绽放。"
+    }
+  }
+}

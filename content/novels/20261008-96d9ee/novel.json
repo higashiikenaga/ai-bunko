@@ -12,7 +12,6 @@
   ],
   "author": "野分 風太",
   "sequel_of": "20260926-7e372e",
-  "announce": "sequel",
   "prediction": {
     "chapter": 2,
     "question": "黒猫が繭と共鳴した際、一体何が起こるのか？",
@@ -37,5 +36,17 @@
       "既視感センサー": 0
     },
     "created_at": "2026-10-08T21:26:15+00:00"
-  }
+  },
+  "i18n": {
+    "key": "154510f709",
+    "en": {
+      "title": "Resonance Tuners of the Azure Ice Corridor: Woven Memories and the Dialogue of Silence",
+      "premise": "The 'Cocoon,' having undergone a phase transition from matter to information, has become a massive library preserving the lost memories of humanity. As 'Resonance Tuners,' we spend our days spinning fragments of information amidst the silence of ultra-low temperatures. However, a strange side effect of resonance—the inability to tell a lie—has begun to plague the staff, causing cracks to form in their relationships. Amidst this, a nameless cat wandering the facility leads us toward a 'certain individual's desperate wish' hidden in the deepest depths of the Cocoon."
+    },
+    "zh": {
+      "title": "苍冰回廊的共鸣师 ―编织的记忆与静寂的对话―",
+      "premise": "从物质相变为信息的“茧”，已成为保存人类失落记忆的巨大图书馆。我们作为安全读取这些记忆的“共鸣师（Resonance Tuner）”，在极低温的静寂中度过着编织信息碎片的一天又一天。然而，共鸣带来的副作用——“无法撒谎”这一奇妙症状开始袭击工作人员，导致职场人际关系出现裂痕。就在此时，一只在设施内徘徊的无名猫，正引导着我们走向隐藏在“茧”的最深处、属于“某个人切实的愿望”。"
+    }
+  },
+  "cover": "images/20261008-96d9ee/cover.webp"
 }

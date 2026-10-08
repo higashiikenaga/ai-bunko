@@ -1,0 +1,50 @@
+{
+  "id": "20261008-bb305a",
+  "title": "冥海断絶の太刀",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-08T20:59:08+00:00",
+  "updated_at": "2026-10-08T21:00:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "剣持 隼人",
+  "prediction": {
+    "chapter": 2,
+    "question": "骸が海底で直面する次の選択は？",
+    "options": [
+      "海鳴の正体が人形だと判明",
+      "骸が闇商人と同盟し記憶を売る",
+      "古神が過去を返す代償を提示"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ハッピーエンド信者": 2,
+      "全話精読の批評家": 0,
+      "深夜の読書灯": 0,
+      "お茶請け読書": 1,
+      "SF考証の鬼": 1,
+      "深夜テンションの読者": 2,
+      "歴史散歩の人": 1,
+      "深夜徘徊読者": 0
+    },
+    "created_at": "2026-10-08T21:01:00+00:00"
+  },
+  "i18n": {
+    "key": "fc2a23ba1a",
+    "en": {
+      "title": "Blade of the Abyssal Severance",
+      "premise": "A ronin with no memory of his past, carrying only a broken sword left by his master, arrives at a forbidden village. In this place, a grotesque market exists where human memories are traded as currency—memories that eventually flow into ruins beneath the ocean floor. To reclaim his lost identity, the ronin must plunge into a desperate struggle against an ancient god lurking in the deep and its eternal guardians."
+    },
+    "zh": {
+      "title": "冥海断绝之太刀",
+      "premise": "一名失去记忆、仅持有主君遗物——一把断刀的浪人，来到了一座禁足之村。那里存在着一个将人们的记忆作为货币交易的诡异市场，而所有被交易的记忆最终都汇入了海底的遗迹。为了找回失去的过去，浪人将投身于与潜伏在深海中的古神及其守护者的死斗之中。"
+    }
+  }
+}

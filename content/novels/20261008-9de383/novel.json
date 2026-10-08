@@ -35,5 +35,16 @@
     },
     "created_at": "2026-10-08T01:49:29+00:00"
   },
-  "cover": "images/20261008-9de383/cover.webp"
+  "cover": "images/20261008-9de383/cover.webp",
+  "i18n": {
+    "key": "7d40e5d132",
+    "en": {
+      "title": "Star-Severing Mercenary: Asterism Zero",
+      "premise": "Xeno, a former Holy Knight turned hitman, embarks on a journey to hunt the 'Singularities' that threaten to collapse the world. His companion is Luna, a sassy girl with no memory of her past. In pursuit of a forbidden star chart, a high-octane chase begins, cutting through storms of cherry blossoms that fill the sky and the relentless pursuit of the Empire."
+    },
+    "zh": {
+      "title": "断星佣兵：Asterism Zero",
+      "premise": "前圣骑士杀手Xeno，踏上了狩猎足以毁灭世界的“特异点”之旅。他的伙伴是失去了记忆、性格傲娇的少女Luna。围绕着禁忌星图，一场穿梭于漫天樱花风暴与帝国追击之中的高节奏逃亡剧正式拉开帷幕。"
+    }
+  }
 }

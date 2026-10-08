@@ -494,5 +494,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-07T22:01:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エライジャとクララの記憶を追う旅が、淡い光とノイズで描かれていて、心に残る。",
+    "good": "感情ノイズ描写",
+    "bad": "長すぎる",
+    "chapters_read": 10,
+    "created_at": "2026-10-08T00:28:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

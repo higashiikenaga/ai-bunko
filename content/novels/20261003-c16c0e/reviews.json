@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T11:56:27+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "長屋の炎と光が胸に迫り、源次の熱い怒りと兄弟の神秘的な書物が絶妙に絡み合うクライマックスは見応えある。",
+    "good": "炎と光の迫力",
+    "bad": "語り口が古くてやや重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-09T00:39:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

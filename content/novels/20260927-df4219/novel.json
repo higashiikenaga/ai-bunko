@@ -294,5 +294,12 @@
     "7": "images/20260927-df4219/ch-007.webp",
     "8": "images/20260927-df4219/ch-008.webp"
   },
-  "completed_at": "2026-10-07T15:23:31+00:00"
+  "completed_at": "2026-10-07T15:23:31+00:00",
+  "audio": {
+    "1": "audio/20260927-df4219/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Orus"
 }

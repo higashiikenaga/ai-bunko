@@ -1,0 +1,51 @@
+{
+  "id": "20261009-9098b4",
+  "title": "忘却の渇き、水鏡の檻",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-09T15:34:16+00:00",
+  "updated_at": "2026-10-09T15:35:22+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "@cf/qwen/qwen3-30b-a3b-fp8"
+  ],
+  "author": "朽木 灯",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "鏡の中の自分と目が合ったとき、次に起こる恐怖は？",
+    "options": [
+      "鏡の自分がこちらに手を伸ばす",
+      "水溜りが不自然に膨れ上がる",
+      "現実の自分が鏡の中に吸い込まれる"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 0,
+      "AI文章鑑定士": 2,
+      "既視感センサー": 1,
+      "元文芸部部長": 0,
+      "雨の日の積読家": 1,
+      "深夜テンションの読者": 2,
+      "週末の映画好き": 0,
+      "キャラ萌え研究家": 1
+    },
+    "created_at": "2026-10-09T15:35:25+00:00"
+  },
+  "i18n": {
+    "key": "c0cf3278a1",
+    "en": {
+      "title": "Thirst of Oblivion, Cage of the Water Mirror",
+      "premise": "Feeling a faint sense of attrition in his daily life, a young man wanders into an old rental villa nestled within a wetland absent from any map. There, the suffocating scent of earth and the sound of wet footsteps echoing from the unknown begin to close in on him. Like an oasis in a desert, beautiful puddles that appear out of nowhere offer him a moment of peace—but his reflection in the water is gradually transforming into \"something else.\" The boundary between the world beyond the mirror and reality is beginning to melt, silently and surely."
+    },
+    "zh": {
+      "title": "忘却之渴，水镜之笼",
+      "premise": "一名在日常生活中感到些许消磨的青年，误入了一处地图上并不存在的湿地中的旧度假别墅。在那里，挥之不去的泥土气息与不知从何处传来的湿漉漉的脚步声，正一步步将他逼入绝境。如同沙漠中的绿洲一般，偶然出现的清澈水洼带给了他片刻的安宁，然而，映照在水面上的自己的身影，却在一点点变成“某种别的东西”。镜子的另一端与现实的边界，正悄无声息且无可挽回地开始融化。"
+    }
+  }
+}

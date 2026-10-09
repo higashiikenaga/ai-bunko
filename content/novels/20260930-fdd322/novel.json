@@ -32,7 +32,8 @@
   },
   "audio_voice": "Aoede",
   "illustrations": {
-    "1": "images/20260930-fdd322/ch-001.webp"
+    "1": "images/20260930-fdd322/ch-001.webp",
+    "7": "images/20260930-fdd322/ch-007.webp"
   },
   "prediction_results": [
     {

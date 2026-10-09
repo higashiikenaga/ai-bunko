@@ -1,0 +1,49 @@
+{
+  "id": "20261009-d26c92",
+  "title": "事象地平の対称性 ―エルゴ球に眠る双星の記憶―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-09T20:55:46+00:00",
+  "updated_at": "2026-10-09T20:58:08+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ",
+  "prediction": {
+    "chapter": 2,
+    "question": "バイパス回路へ走るサラ。直面する最大の危機は何か？",
+    "options": [
+      "回路の破損と迫る崩壊",
+      "エリスとの通信途絶",
+      "未知の重力干渉の発生"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "ご都合主義ハンター": 2,
+      "元編集者": 2,
+      "流行ウォッチャー": 0,
+      "闇鍋リーダー": 1,
+      "伏線回収マニア": 2,
+      "朝ドラ好きの主婦": 0,
+      "元文芸部部長": 1,
+      "深夜徘徊読者": 2
+    },
+    "created_at": "2026-10-09T20:58:11+00:00"
+  },
+  "i18n": {
+    "key": "fb73ec2e4b",
+    "en": {
+      "title": "Symmetry of the Event Horizon: Memories of Twin Stars in the Ergosphere",
+      "premise": "To save humanity from the brink of extinction, a massive project was launched to extract rotational energy from a rotating black hole via the 'Penrose process.' Twin scientists, Ellis and Sarah, split their roles: one remains at the station, while the other dives into the depths of extreme gravity. Due to the extreme time dilation of general relativity, when Sarah returns—feeling as though only a few hours had passed—she finds that Ellis has aged centuries into an old woman. To save their crumbling station, they attempt to synchronize their consciousness through quantum entanglement, leveraging the interference of gravitational waves caused by an astronomically rare 'eclipse.'"
+    },
+    "zh": {
+      "title": "事件视界的对称性 ——沉睡在能层中的双星之忆——",
+      "premise": "为了拯救濒临灭绝的人类，一项利用“彭罗斯过程”从旋转黑洞中提取旋转能量的大规模计划被付诸实施。双胞胎科学家艾莉丝与莎拉分担了各自的角色：一人留在空间站，另一人则敢于潜入超高重力领域。在广义相对论造成的极端时间膨胀下，当感觉仅过去数小时的莎拉归来时，留在空间站的艾莉丝已历经数个世纪，成为了一个老人。为了拯救即将毁灭的空间站，两人试图利用天文概率下才会发生的“月食”所引发的引力波干涉，通过量子纠缠来实现意识的同步。"
+    }
+  }
+}

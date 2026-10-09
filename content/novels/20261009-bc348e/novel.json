@@ -36,5 +36,17 @@
       "歴史散歩の人": 1
     },
     "created_at": "2026-10-09T21:35:30+00:00"
-  }
+  },
+  "i18n": {
+    "key": "19093f4483",
+    "en": {
+      "title": "The Star Chart Labyrinth, or the Festival Night's Fatal Blade",
+      "premise": "On the night of the Star Festival, when the heavens overflow with stars once a year, the grandmaster is found dead in a locked inner room of an isolated temple. Left at the scene are only an unnaturally altered ancient star chart and unseasonal offerings. Confronted by this baffling situation, a coldly logical detective and I—the observer—begin to track down the truth of a death masked by the festival's commotion. Every piece of physical evidence presented is intimately connected to the alignment of constellations drawn in the night sky."
+    },
+    "zh": {
+      "title": "星图迷宫，亦或是祭典之夜的凶刃",
+      "premise": "一年一度仰望满天繁星的“星祭”之夜，在一座与世隔绝的寺庙内室里，家元（流派宗师）被发现死于密室之中。现场留下的，只有一张被不自然篡改的古老星图，以及不合时宜的供品。面对这扑朔迷离的状况，讲究逻辑推理的侦探与我——作为旁观者的我，开始追寻隐匿在祭典喧嚣之中的死亡真相。呈现在眼前的所有物证，都与夜空中描绘的星座排列紧密相连。"
+    }
+  },
+  "cover": "images/20261009-bc348e/cover.webp"
 }

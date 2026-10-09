@@ -51,5 +51,16 @@
       "通学バスの読者": 0
     },
     "created_at": "2026-10-09T14:25:03+00:00"
+  },
+  "i18n": {
+    "key": "c9d3918a20",
+    "en": {
+      "title": "The Mute Peak and the Final Train That Never Returns",
+      "premise": "A young man wanders into \"Kakurizato,\" an abandoned mountain village that should have vanished from the maps, and witnesses a grotesque festival held within. The villagers unanimously warn, \"You must not board that train,\" loathing the sound of the rails echoing through the night's darkness. However, he breaks the village taboo and steps aboard the \"final train\" that glided in silently from beyond the fog. It was a station meant for the dead, one that should have disappeared along with the village long ago."
+    },
+    "zh": {
+      "title": "噤岳与不归末班车",
+      "premise": "误入山间废村——本该从地图上消失的“隐里”的青年，目睹了村中举行的一场异形祭典。村民们异口同声地警告“绝对不能坐上那辆列车”，并对夜色中回响的铁轨声讳莫如深。然而，他却打破了村庄的禁忌，踏上了从浓雾那头无声滑入的“末班车”。那是一个曾经随村庄一同消逝的、专属于死者的站台。"
+    }
   }
 }

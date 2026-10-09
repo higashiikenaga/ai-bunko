@@ -1,0 +1,50 @@
+{
+  "id": "20261009-550a23",
+  "title": "琥珀色の旋律と銀の舞踏会",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-09T02:22:22+00:00",
+  "updated_at": "2026-10-09T02:25:02+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "時計が動き出した直後、店内に訪れる波乱とは？",
+    "options": [
+      "ジュリアンが謎の魔法を使い消える",
+      "ヴィクターの刺客が店に踏み込む",
+      "懐中時計が眩い光を放ち異空間へ"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "テンポ警察": 2,
+      "とりあえず全部読む人": 0,
+      "百冊斬り": 1,
+      "タイトル買い": 2,
+      "ジャンル横断者": 0,
+      "SF考証の鬼": 1,
+      "リアリティ警察": 1,
+      "ファンタジー古参勢": 0
+    },
+    "created_at": "2026-10-09T02:25:06+00:00"
+  },
+  "cover": "images/20261009-550a23/cover.webp",
+  "i18n": {
+    "key": "c3b0409e85",
+    "en": {
+      "title": "Amber Melody and the Silver Ball",
+      "premise": "Elaine, a young lady of a fallen noble family, spent her lonely days holding a \"broken pocket watch\" whose gears of fate had stopped. On a rainy day, she wandered into a mysterious shop hidden deep in an alley that \"only opens on rainy days,\" where she had a fateful encounter with a mysterious young man named Julian. However, the magic concealed within the shop and the court conspiracies churning behind a glamorous ball begin to violently shake their innocent love."
+    },
+    "zh": {
+      "title": "琥珀色的旋律与银色舞会",
+      "premise": "没落贵族的千金埃莱娜（Elaine）手中握着一块命运齿轮停转的“坏掉的怀表”，过着孤独的日子。在一个雨天，她迷失在一处隐蔽于小巷深处、且“只在雨天营业”的神秘店铺中，并在那里与神秘青年朱利安（Julian）展开了命中注定的相遇。然而，那家店所隐藏的魔法，以及在华丽舞会背后涌动的宫廷阴谋，开始猛烈地动摇二人纯真的爱情。"
+    }
+  }
+}

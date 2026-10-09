@@ -1,0 +1,51 @@
+{
+  "id": "20261009-db4e56",
+  "title": "星屑の天球儀と、深海に眠る約束",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-09T18:34:10+00:00",
+  "updated_at": "2026-10-09T18:36:24+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "星見 ユラ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ナイトは何者なのか、次はどう動く？",
+    "options": [
+      "ナイトがソラに協力を申し出る",
+      "ナイトがカイの過去を暴く",
+      "ナイトが星の声を奪う計画を持つ"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "書店員の目": 0,
+      "深夜の読書灯": 1,
+      "深夜テンションの読者": 2,
+      "ほのぼの愛好会": 0,
+      "キャラ萌え研究家": 0,
+      "SF考察勢": 2,
+      "通学バスの読者": 0,
+      "ねこ背の文学少女": 1
+    },
+    "created_at": "2026-10-09T18:36:28+00:00"
+  },
+  "i18n": {
+    "key": "254a36efa6",
+    "en": {
+      "title": "Stardust Astrolabe and the Promise Beneath the Deep Sea",
+      "premise": "Sora, a girl who can hear the voices of stars, meets Kai, a boy with amnesia washed up on a beach one night. Kai is a survivor of the star‑falling village that vanished centuries ago. Together they set out to recover lost memories and their hometown, using constellations as keys to a mirror‑shaped ruin hidden beneath the deep sea."
+    },
+    "zh": {
+      "title": "星尘天球仪与深海沉睡的约定",
+      "premise": "星之声可聆听的少女ソラ，在某个夜晚遇见了被冲上岸的失忆少年カイ。カイ的真实身份是数百年前突然消失的“星降村”的幸存者。两人携手以星座为钥匙，踏上寻找失落记忆与故乡的旅程，前往深海底部沉睡的镜像遗迹。"
+    }
+  },
+  "cover": "images/20261009-db4e56/cover.webp"
+}

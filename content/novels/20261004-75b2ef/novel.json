@@ -354,7 +354,8 @@
   "illustrations": {
     "2": "images/20261004-75b2ef/ch-002.webp",
     "4": "images/20261004-75b2ef/ch-004.webp",
-    "5": "images/20261004-75b2ef/ch-005.webp"
+    "5": "images/20261004-75b2ef/ch-005.webp",
+    "10": "images/20261004-75b2ef/ch-010.webp"
   },
   "extended": {
     "from": 10,
@@ -390,12 +391,14 @@
   "audio": {
     "1": "audio/20261004-75b2ef/001.m4a",
     "2": "audio/20261004-75b2ef/002.m4a",
-    "3": "audio/20261004-75b2ef/003.m4a"
+    "3": "audio/20261004-75b2ef/003.m4a",
+    "4": "audio/20261004-75b2ef/004.m4a"
   },
   "audio_ver": {
     "1": 2,
     "2": 2,
-    "3": 2
+    "3": 2,
+    "4": 2
   },
   "audio_voice": "Aoede"
 }

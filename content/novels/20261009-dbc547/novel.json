@@ -1,0 +1,51 @@
+{
+  "id": "20261009-dbc547",
+  "title": "遺構の叙事詩 ―断罪の剣と約束の丘―",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-09T04:25:47+00:00",
+  "updated_at": "2026-10-09T04:28:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "アルヴィスは暗号を解くと、何が起きる？",
+    "options": [
+      "失われた神の声が響く",
+      "エリュシアの記憶が戻る",
+      "断罪の剣の破片が光り出す"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "キャラ萌え研究家": 1,
+      "ご都合主義ハンター": 0,
+      "タイトル買い": 2,
+      "文体原理主義者": 1,
+      "雨の日の積読家": 0,
+      "毒舌書評ブロガー": 1,
+      "ほめ上手な先輩": 2,
+      "SF考証の鬼": 1
+    },
+    "created_at": "2026-10-09T04:28:44+00:00"
+  },
+  "cover": "images/20261009-dbc547/cover.webp",
+  "i18n": {
+    "key": "95c9185c5d",
+    "en": {
+      "title": "Epic of the Ruins: The Sword of Condemnation and the Hill of Promise",
+      "premise": "The legendary 'Sword of Condemnation,' which once brought an end to the great war that split the world, was shattered alongside a solemn vow, its fragments lost to the shadows of history. Alvis, a young archivist, sets out for the 'Hill of Promise' mentioned in ancient texts, where he encounters Elysia, a knight stripped of her memories. Together, they must piece together the fragments of a forgotten myth and embark on a grueling pilgrimage to stop the resurrection of an ancient god intent on returning the world to the void."
+    },
+    "zh": {
+      "title": "遗构的叙事诗 ―断罪之剑与约定之丘―",
+      "premise": "曾经终结了分断世界的战争之传说之剑——『断罪之剑』，在一段誓言中折断，其碎片散落在历史的阴影之中。年轻的记录官阿尔维斯在前往古籍记载的『约定之丘』的旅途中，邂逅了失去记忆的女骑士埃吕西亚。两人将拼凑起失落神话的碎片，投身于一场艰辛的巡礼，以阻止企图将世界归于虚无的古神再次降临。"
+    }
+  }
+}

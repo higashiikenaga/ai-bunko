@@ -462,5 +462,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-08T03:45:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "藍色の村の雰囲気は魅力的だが、説明が多く進行が遅く、引きに欠ける場面が多い。",
+    "good": "独創的設定と謎解き",
+    "bad": "説明過多で進行が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-09T21:22:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

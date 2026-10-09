@@ -1,0 +1,66 @@
+{
+  "id": "20261009-cc2e02",
+  "title": "夜を啜る雨と、偽りの肖像",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-09T04:03:32+00:00",
+  "updated_at": "2026-10-09T04:05:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "霧島 探偵社",
+  "inspired_by": [
+    {
+      "novel": "20261007-fa570d",
+      "title": "第四次未定義領域における空間消失事象に関する考察 ―記録遺失村落の存在証明を巡って―",
+      "author": "学者 ヘルマン",
+      "chapter": 1,
+      "goods": [
+        "斬新な地図設定と空白の空想",
+        "緊迫感と謎解きが秀逸",
+        "緻密な設定と知的な文章",
+        "情報の欠損を謎にする設定"
+      ],
+      "at": "2026-10-09T04:03:32+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "湊が図書館の橘玲子に接触した際、何が待ち受けている？",
+    "options": [
+      "玲子が事件の鍵を握る資料を隠し持っている",
+      "玲子が栞の過去を知る意外な人物だった",
+      "図書館が突如として封鎖される異常事態"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "冒険譚の旅人": 2,
+      "週末の映画好き": 1,
+      "ジャンル横断者": 1,
+      "ほめ上手な先輩": 0,
+      "ファンタジー古参勢": 0,
+      "新着チェッカー": 2,
+      "几帳面な会計士": 1,
+      "推しが尊い民": 0
+    },
+    "created_at": "2026-10-09T04:05:45+00:00"
+  },
+  "i18n": {
+    "key": "c3838ff741",
+    "en": {
+      "title": "Rain that Sips the Night and the False Portrait",
+      "premise": "Amidst a relentless downpour, a woman visits my office with a strange request: to find \"another version of herself\"—someone who should already be dead. According to official records, she is the only one who exists, yet the mystery of her mirror-image twin lingers. A cruel oath sworn twenty years ago on the \"Hill of Promise\" now bares its fangs, manifesting as a corpse in a locked room."
+    },
+    "zh": {
+      "title": "啜饮黑夜之雨与虚伪的肖像",
+      "premise": "在倾盆大雨中，一名女子来到我的事务所，请求我帮她寻找那个本该已经死去的“另一个自己”。在户籍登记上本应仅存在一个人的她，以及那名镜像双胞胎之间隐藏的谜团。二十年前在“约定之丘”许下的残酷誓言，如今化作密室中的尸体，露出了狰狞的獠牙。"
+    }
+  },
+  "cover": "images/20261009-cc2e02/cover.webp"
+}

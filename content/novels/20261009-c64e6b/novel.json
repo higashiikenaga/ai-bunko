@@ -51,5 +51,17 @@
       "キャラ萌え研究家": 1
     },
     "created_at": "2026-10-09T03:07:01+00:00"
+  },
+  "cover": "images/20261009-c64e6b/cover.webp",
+  "i18n": {
+    "key": "7218ea734e",
+    "en": {
+      "title": "The Second Hand in the Stillness, Recipes at the Edge of the Sky",
+      "premise": "With a broken pocket watch hanging from my neck, I travel across a sea of clouds in search of lost 'sounds' and 'tastes.' One day, within a colossal structure resembling underwater ruins appearing through a rift in the clouds, I encounter the 'Memories of the Tide' that once bound the world together. This is a story of quiet rebirth, told through the people I meet, the warm dishes of distant lands, and a clock that remains frozen in time."
+    },
+    "zh": {
+      "title": "凪の底の秒針、空の果てのレシピ",
+      "premise": "颈上挂着一块破碎的怀表，我正穿越云海，寻找失落的『声音』与『味道』。某日，在云隙间出现的一座宛如海底遗迹的巨大构造物中，我触碰到了曾经连接世界的『潮骚之记忆』。这是一段关于旅途中邂逅的人们、各地温暖的料理，以及在停滞的时钟中刻下的，静谧重生之物语。"
+    }
   }
 }

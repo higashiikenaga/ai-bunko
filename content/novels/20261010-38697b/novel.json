@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-10T06:47:42+00:00"
   },
-  "cover": "images/20261010-38697b/cover.webp"
+  "cover": "images/20261010-38697b/cover.webp",
+  "i18n": {
+    "key": "7a2bca6da4",
+    "en": {
+      "title": "The Hour of Soot, Ringing in the Hazy Moonlight",
+      "premise": "An era where the smoke of steam engines blankets the sky and the divine fade into oblivion. Armed with a broken pocket watch, a young man of the 'Guardians of Time'—a clan dedicated to soothing the lingering regrets of the supernatural—wanders this changing world. In the fleeting moment the watch's hands freeze, he hears the laments of yokai, nearly drowned out by the roar of machinery. Then, on a snowy winter night, a beautiful spirit appears, seeking to set the frozen time back in motion."
+    },
+    "zh": {
+      "title": "煤煙之刻，鳴於朧月夜",
+      "premise": "蒸汽機之煙遮蔽天空，神佛之位漸漸失落的時代。一名來自被稱為『刻之鎮守』一族的青年，手持一只損壞的懷錶，負責安撫非人之物的遺憾。在錶針停止的瞬間，他能聽見那些幾乎被機械喧囂所掩蓋的妖怪之嘆息。某個冬夜，一名隱於雪中現身的絕美物怪，為了讓停止的時間再次轉動而與他接觸。"
+    }
+  }
 }

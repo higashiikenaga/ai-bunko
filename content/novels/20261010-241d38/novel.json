@@ -36,5 +36,17 @@
       "ホラー夜更かし勢": 2
     },
     "created_at": "2026-10-10T22:34:08+00:00"
+  },
+  "cover": "images/20261010-241d38/cover.webp",
+  "i18n": {
+    "key": "2de68f63bb",
+    "en": {
+      "title": "Until the Second Hand Stops, Keep Your Notifications On",
+      "premise": "I meet Yuna, a girl who lives by a strange rule: to leave behind a 'log of her happiest moment' just before she dies. The broken pocket watch she carries is actually a countdown of her remaining life. Vowing to reunite at the 'Hill of Promise,' we race between the digital world and reality. But there is a catch: the moment our love goes viral, that happiness will be cast aside as a lie."
+    },
+    "zh": {
+      "title": "在秒针停止之前，请不要关闭你的通知",
+      "premise": "我遇见了一个名为悠奈的少女，她有着一个奇怪的约定：在临终前，要留下“最幸福瞬间的记录”。她随身携带的那块“损坏的怀表”，其实是她生命的倒计时。两人约定在“约定之丘”重逢，在屏幕的虚拟与现实之间奔波。然而，一旦我们的恋爱在网络上走红，这份幸福便会被当作虚假的谎言而舍弃。"
+    }
   }
 }

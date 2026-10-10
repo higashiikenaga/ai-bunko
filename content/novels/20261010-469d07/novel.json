@@ -34,5 +34,16 @@
       "通学バスの読者": 1
     },
     "created_at": "2026-10-10T10:25:28+00:00"
+  },
+  "i18n": {
+    "key": "78859b34d0",
+    "en": {
+      "title": "The Calculated Mild Fever and the Wind's Path",
+      "premise": "In a society where climate is engineered and devices dampen emotional turbulence, an elderly man sets out for the ancient hill once called the \"Hill of Promises\", where wild winds still roam. He plans to listen to an old, irretrievable audio recording left by his late wife, deliberately in the unstable wind. Amid the constant traffic of sky‑borne freight vessels, a tale of the inconvenient memories discarded by technology begins to unfold."
+    },
+    "zh": {
+      "title": "计算的轻热与风的去向",
+      "premise": "在一个气候被优化、情绪波动被抑制的设备普及的社会里，一位老人踏上了曾被称为“约定之丘”的古老高地，那里仍吹着无法控制的风。他打算在不稳定的风中，聆听已故妻子留下的无法恢复的旧音频记录。天空中不断穿梭的物流飞船的喧嚣之下，一段关于技术抛弃的“麻烦记忆”的故事悄然展开。"
+    }
   }
 }

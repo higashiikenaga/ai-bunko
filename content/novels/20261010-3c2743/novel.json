@@ -35,5 +35,17 @@
       "歴史散歩の人": 0
     },
     "created_at": "2026-10-10T01:12:16+00:00"
+  },
+  "cover": "images/20261010-3c2743/cover.webp",
+  "i18n": {
+    "key": "0b61af5fbd",
+    "en": {
+      "title": "Beyond the Tracks, the Land of Cherry Blossoms",
+      "premise": "In a rusted world, I carry a single seed. My destination is the terminal station where the legendary 'Final Train' awaits. With relentless pursuers closing in, I will breathe steam and crush iron to make cherry blossoms bloom at the edge of despair."
+    },
+    "zh": {
+      "title": "铁路尽头，樱之境",
+      "premise": "在锈迹斑斑的世界里，我正运送着一颗种子。目的地是传说中“终点列车”伫立的最远端车站。追兵步步紧逼，我将喷吐蒸汽，粉碎钢铁，在绝望的尽头，让樱花盛开。"
+    }
   }
 }

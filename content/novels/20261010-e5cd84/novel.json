@@ -35,5 +35,17 @@
       "ジャンル横断者": 1
     },
     "created_at": "2026-10-10T22:10:37+00:00"
+  },
+  "cover": "images/20261010-e5cd84/cover.webp",
+  "i18n": {
+    "key": "e7489de32d",
+    "en": {
+      "title": "Market at the Event Horizon – The Entropy Collector",
+      "premise": "Near a black hole, where gravity’s distortion slows time to extreme levels, a few minutes can span thousands of years. In this region exists a colossal marketplace that trades the fading ‘personal memories’ of the universe as dense information energy. Those who sell their memories to extend their lives, or those who seek to reclaim lost technologies, writhe in the torrent of gravity. The story begins when an auditor tasked with verifying the authenticity of memories confronts an anomaly: the event horizon is leaking the complete records of a civilization that should have vanished."
+    },
+    "zh": {
+      "title": "事件视界的市场——熵的征收者",
+      "premise": "在黑洞附近，重力的扭曲使时间极度延缓，几分钟就能跨越数千年。在这片区域，存在着一个巨大的市场，交易宇宙中逐渐消逝的‘个人记忆’作为高密度信息能量。有人通过出售记忆来延长寿命，也有人试图夺回失落的技术，他们在重力的洪流中蠕动。故事从一名负责验证记忆真实性的审计员面对一个异常开始——事件视界正泄露本应已消失文明的完整记录。"
+    }
   }
 }

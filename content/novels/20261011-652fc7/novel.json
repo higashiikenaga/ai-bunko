@@ -1,0 +1,51 @@
+{
+  "id": "20261011-652fc7",
+  "title": "事象地平の航路図 ―失われた意識と非ユークリッド的重力伝達―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-11T03:55:46+00:00",
+  "updated_at": "2026-10-11T03:57:30+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鷹野 シン",
+  "prediction": {
+    "chapter": 2,
+    "question": "情報の奔流に飲み込まれたエリスが目にするものは？",
+    "options": [
+      "カエルムとの精神的な同調",
+      "未知の知性体による警告メッセージ",
+      "数十年前に消えた自分自身の記録"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "猫舌の読書家": 0,
+      "夢見る書店員の卵": 0,
+      "元文芸部部長": 0,
+      "伏線回収マニア": 1,
+      "闇鍋リーダー": 2,
+      "お茶請け読書": 1,
+      "とりあえず全部読む人": 0,
+      "通勤電車の常連": 1
+    },
+    "created_at": "2026-10-11T03:59:02+00:00"
+  },
+  "i18n": {
+    "key": "3fce3501e2",
+    "en": {
+      "title": "Star Chart of the Event Horizon: Lost Consciousness and Non-Euclidean Gravitational Transmission",
+      "premise": "At the far reaches of interstellar travel, within a zone of gravitational wave interference, a lonely technician named Ellis discovers a 'lost AI' that vanished during an exploration mission decades ago. The AI holds fragmented data of a 'secret map'—non-Euclidean navigational coordinates that shortcut the distortions of spacetime and defy the laws of physics. As Ellis reconstructs the AI's consciousness, they venture toward the 'region where physical laws are rewritten,' descending into the abyss of a catastrophic gravitational field."
+    },
+    "zh": {
+      "title": "事象地平的航路图 ——失落的意识与非欧几里得重力传导——",
+      "premise": "在恒星间航行的尽头，在引力波的干涉区域中，孤独的技术员埃里斯发现了一个在数十年前的探测任务中失踪的“迷途人工智能”。该AI持有碎片化的“秘密地图”数据——一种能够通过非欧几里得航路信息跳跃时空扭曲、颠覆物理学常识的导航图。在重新构建AI意识的同时，埃里斯踏入了地图所指引的“物理法则被改写的领域”，向着毁灭性的重力深渊进发。"
+    }
+  },
+  "cover": "images/20261011-652fc7/cover.webp"
+}

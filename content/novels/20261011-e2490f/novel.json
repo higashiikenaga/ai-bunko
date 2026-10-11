@@ -52,5 +52,17 @@
       "朝ドラ好きの主婦": 0
     },
     "created_at": "2026-10-11T02:28:58+00:00"
+  },
+  "cover": "images/20261011-e2490f/cover.webp",
+  "i18n": {
+    "key": "b4c6240cb3",
+    "en": {
+      "title": "Tears of Pearl and the Golden Railway: The Court Ball of the Truthful Lady",
+      "premise": "In an imperial court where vanity and deception are held as virtues, a noble lady is trapped by a cruel curse: she is incapable of lying. Every time she speaks the truth, the power struggles within the court intensify, sweeping her into a vortex of conspiracy alongside a fallen count with whom she shares a forbidden love. As the echoes of the imperial capital's collapse draw near, will they find hope or despair? A magnificent tale of love and struggle, centered on the quest for a ticket to the 'final train' that promises escape from it all."
+    },
+    "zh": {
+      "title": "珍珠之泪与黄金铁道 ——无法说谎的淑女之宫廷舞会——",
+      "premise": "在虚饰与欺瞒被视为美德的帝国宫廷中，一位贵族千金被困于“无法说谎”这一残酷的诅咒之中。每当她吐露真相，宫廷的权力斗争便愈发激烈，她也随之与陷入禁忌之恋的没落伯爵一同卷入了阴谋的漩涡。随着帝都崩坏的脚步声渐近，她们最终抵达的是希望，还是绝望？这是一场围绕着为了抛弃一切而逃离的“末班列车”车票，展开的绚烂夺目的爱与斗争的故事。"
+    }
   }
 }

@@ -49,5 +49,16 @@
       "深夜テンションの読者": 1
     },
     "created_at": "2026-10-11T13:17:00+00:00"
+  },
+  "i18n": {
+    "key": "721744e189",
+    "en": {
+      "title": "Silver Polyphony Piercing the Silence",
+      "premise": "Amidst the despair of a world where all sound is fading, a voiceless boy named El encounters Lyra, an amnesiac tuner who fell from the sky. To make the heart of the world beat once more, the two embark on a journey to the far north in search of a lost melody. What awaits them at the end of their path is an ice castle, ruled by the King of Silence who freezes all in his wake."
+    },
+    "zh": {
+      "title": "撕裂寂静的白银复调",
+      "premise": "在万籁俱寂的绝望之中，失声少年埃尔遇到了从天而降、失去记忆的调律师莉拉。为了让世界之心再次鸣响，两人踏上了前往极北之地寻找失落旋律的旅程。而旅途的终点，竟是受冻结一切的寂静之王所统治的冰之城堡。"
+    }
   }
 }

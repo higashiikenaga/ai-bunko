@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-11T01:46:00+00:00"
   },
-  "cover": "images/20261011-87556b/cover.webp"
+  "cover": "images/20261011-87556b/cover.webp",
+  "i18n": {
+    "key": "5c4d5b7ca1",
+    "en": {
+      "title": "Glass Coffin, Scarlet Resonance",
+      "premise": "I was abandoned in a world of translucent silver. This boarding school, once hailed as a paradise of the arts, hides a cursed ritual: the collection and freezing of all things beautiful. Drawn by a melody like the voices of the dead drifting from a radio at dawn, I step into the castle of ice. There, I encounter fragments of souls—as exquisite as gemstones, yet rotting from the inside out."
+    },
+    "zh": {
+      "title": "硝子的柩，緋色的共鳴",
+      "premise": "我被抛弃在如透明白银般的世界中。在这所曾被誉为艺术天堂的寄宿学校里，沉睡着一项将美丽之物搜集并冻结的诅咒仪式。在黎明时分，被广播中传出的如死者低语般的旋律所吸引，我踏入了这座冰之城。在那里我遇见了那些如宝石般美丽，却由内而外腐烂殆尽的灵魂碎片。"
+    }
+  }
 }

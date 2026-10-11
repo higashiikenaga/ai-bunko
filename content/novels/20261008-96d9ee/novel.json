@@ -25,10 +25,12 @@
   },
   "cover": "images/20261008-96d9ee/cover.webp",
   "audio": {
-    "1": "audio/20261008-96d9ee/001.m4a"
+    "1": "audio/20261008-96d9ee/001.m4a",
+    "2": "audio/20261008-96d9ee/002.m4a"
   },
   "audio_ver": {
-    "1": 2
+    "1": 2,
+    "2": 2
   },
   "audio_voice": "Zephyr",
   "prediction_results": [

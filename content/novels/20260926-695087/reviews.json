@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-10T15:08:26+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "暗い雰囲気と耳鳴りのメタファーは面白いが、物語の進行が遅く、キャラの深みが不足している。",
+    "good": "独創的設定",
+    "bad": "説明過多",
+    "chapters_read": 7,
+    "created_at": "2026-10-11T00:01:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

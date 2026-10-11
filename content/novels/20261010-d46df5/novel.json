@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-10T23:36:19+00:00"
   },
-  "cover": "images/20261010-d46df5/cover.webp"
+  "cover": "images/20261010-d46df5/cover.webp",
+  "i18n": {
+    "key": "fe902e14d9",
+    "en": {
+      "title": "A Score of Raindrops, or a Letter to the Calming Sea",
+      "premise": "Minato, a young man who once aspired to be a musician but lost his ability to hear following an accident, lives a quiet life in a seaside town. On rainy days only, a mysterious cafe named 'Minato' opens its doors, allowing visitors to hear the overlapping melodies of waves and rainfall. There, he meets Nagisa, a woman organizing fragments of old letters. Their words are always drowned out by the sound of the rain, and as the seasons drift toward the cherry blossoms, they remain unable to find a definitive connection."
+    },
+    "zh": {
+      "title": "雨滴的谱面，亦或是寄往静谧之海的信",
+      "premise": "曾经梦想成为音乐家的凑，因一场意外失去了听觉，如今在海边小镇过着平静的生活。唯有在雨天，一家名为“水音”的神秘咖啡馆才会开业，让人聆听海浪声与雨声交织的旋律。在那里，他遇到了正在整理旧信件残片的女性——凪沙。两人的话语总是被雨声掩盖，在未能建立起决定性的羁绊之前，季节已悄然转向樱花盛开的时节。"
+    }
+  }
 }

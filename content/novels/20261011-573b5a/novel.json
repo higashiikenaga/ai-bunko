@@ -1,0 +1,67 @@
+{
+  "id": "20261011-573b5a",
+  "title": "冬凪の透明な標本",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-11T19:01:43+00:00",
+  "updated_at": "2026-10-11T19:03:17+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "渡会 はる",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "inspired_by": [
+    {
+      "novel": "20260926-40c58a",
+      "title": "藍夜の星図と、終着の残り香",
+      "author": "花房 綾",
+      "chapter": 1,
+      "goods": [
+        "五感を刺激する緻密な文章",
+        "雰囲気と文章の美しさ",
+        "星図の古い描写が美しい",
+        "3話の急展開と幻想的な空気感",
+        "五感を刺激する詩的な描写"
+      ],
+      "at": "2026-10-11T19:01:43+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "記憶を失いゆく凪沙と謎の少年・櫂。二人の関係はどうなる？",
+    "options": [
+      "櫂が案内人を名乗り、共に「約束の丘」を目指す",
+      "櫂が凪沙の失われた記憶の一部を持っていると告げる",
+      "櫂の正体が、凪沙がノートに綴った空想の人物だった"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "通勤電車の常連": 0,
+      "ホラー夜更かし勢": 2,
+      "活字中毒の猫": 1,
+      "通学バスの読者": 0,
+      "百冊斬り": 2,
+      "ハッピーエンド信者": 1,
+      "冒険譚の旅人": 0,
+      "新着チェッカー": 0
+    },
+    "created_at": "2026-10-11T19:04:00+00:00"
+  },
+  "i18n": {
+    "key": "502032e374",
+    "en": {
+      "title": "Transparent Specimens of the Winter Calm",
+      "premise": "Minato, a girl grappling with an incurable disease that causes her memories to slowly fade, spends her days amidst a freezing silence. Clinging to the fragments of her fading recollections, she lives for the day she can reach the 'Promised Hill,' where she once vowed to reunite with someone. Then, she meets Kai, a boy with eyes as cold as winter, and together, they step into a winter landscape so breathtakingly beautiful it feels untouchable—a place known as the 'Ice Castle.'"
+    },
+    "zh": {
+      "title": "冬凪的透明标本",
+      "premise": "患有罕见病、正逐渐失去记忆的少女凑，在冰冻般的寂静中度日。为了前往那座誓言定要再次重逢的“约定之丘”，她努力维系着那些微弱的记忆碎片。直到某天，她遇见了眼神中透着冬日寒意的少年櫂。两人一同踏入了那片被称为“冰之城”、美得令人不敢靠近的冬日景色之中。"
+    }
+  }
+}

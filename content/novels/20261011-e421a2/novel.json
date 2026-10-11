@@ -1,0 +1,67 @@
+{
+  "id": "20261011-e421a2",
+  "title": "#楽園のバグと、砂まみれのWi-Fi",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-11T03:16:59+00:00",
+  "updated_at": "2026-10-11T03:19:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "ネオ・カナタ",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "inspired_by": [
+    {
+      "novel": "20261005-7c34eb",
+      "title": "錆びた肺と嘘の墓標",
+      "author": "鉄屑 カノン",
+      "chapter": 1,
+      "goods": [
+        "五感に訴える描写は及第点",
+        "世界観の解像度と導入のテンポ",
+        "個性豊かな三人の出会い",
+        "硬質なディストピア描写",
+        "独特の世界観とAIとの対話"
+      ],
+      "at": "2026-10-11T03:17:00+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "次の話でカイトの運命は？",
+    "options": [
+      "Lunaが脱出計画を示す",
+      "カイトが自由を掴む戦闘",
+      "カイトはゼノスに捕らえられる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "新着チェッカー": 1,
+      "ご都合主義ハンター": 0,
+      "伏線回収マニア": 2,
+      "几帳面な会計士": 1,
+      "元編集者": 2,
+      "文体原理主義者": 1,
+      "ラブコメ中毒": 0,
+      "ホラー夜更かし勢": 2
+    },
+    "created_at": "2026-10-11T03:19:58+00:00"
+  },
+  "i18n": {
+    "key": "77e26f4dea",
+    "en": {
+      "title": "Bugs of Paradise and Sand-Covered Wi-Fi",
+      "premise": "I work as a low-paid 'bug sweeper' in a perfect virtual world. One day, I stumble upon a lost management AI from a bygone era who has lost her memories. She offers me a choice: 'log out and return to reality'—the ultimate taboo for the world's ruling class. To physically smash the servers buried in the sand, we begin the most absurd rebellion this virtual world has ever seen."
+    },
+    "zh": {
+      "title": "乐园的Bug与满是沙子的Wi-Fi",
+      "premise": "在一个完美的虚拟世界中，我作为一名低薪的“Bug清理工”勉强度日。直到有一天，我捡到了一个失去记忆、迷路了的旧时代管理AI。她向我提出了一个选择——“登出并回到现实”，而这正是这个世界支配阶层最大的禁忌。为了将埋在沙中的服务器物理摧毁，我们在这个虚拟世界中，开始了最无厘头的反叛。"
+    }
+  }
+}

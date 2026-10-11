@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "重力の渦に包まれた記憶市場の描写は斬新だが、説明過多でテンポが遅く、主人公の感情が薄い。",
+    "good": "独創的設定",
+    "bad": "語りが重くテンポが悪い",
+    "chapters_read": 1,
+    "created_at": "2026-10-11T14:01:34+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

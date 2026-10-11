@@ -1,0 +1,51 @@
+{
+  "id": "20261011-612dc8",
+  "title": "スカイハイ・レガシー ―風を掴む黄金の翼―",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-11T20:56:18+00:00",
+  "updated_at": "2026-10-11T20:58:20+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "天野 ソラ",
+  "prediction": {
+    "chapter": 2,
+    "question": "次の話でカイたちはどう進む？",
+    "options": [
+      "鏡の翼で極限気流へ突入",
+      "ルナの過去が暴露される",
+      "帝国軍が奇策で追い詰める"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "伏線回収マニア": 0,
+      "書店員の目": 2,
+      "AI文章鑑定士": 1,
+      "台本読みの声優": 1,
+      "几帳面な会計士": 0,
+      "夢見る書店員の卵": 1,
+      "雨の日の積読家": 0,
+      "深夜の読書灯": 1
+    },
+    "created_at": "2026-10-11T20:58:21+00:00"
+  },
+  "i18n": {
+    "key": "2093ff6c2e",
+    "en": {
+      "title": "Sky High Legacy: Golden Wings that Seize the Wind",
+      "premise": "Kai, a boy working at a scrap yard, comes into possession of a fragment of the legendary \"Mirror Wings,\" an artifact capable of reflecting the wind to accelerate. Alongside a band of eccentric companions, he modifies a dilapidated small airship to seek the \"Ever-Summer Continent\"—the edge of the world where legendary migratory birds are said to travel. Evading the pursuit of an Imperial Army determined to monopolize the skies, the boys plunge headlong into the unknown currents of the air."
+    },
+    "zh": {
+      "title": "天高传承：捕捉风的黄金之翼",
+      "premise": "废材屋少年凯在某一天，获得了一块能反射风力并加速的传说之物——“镜之翼”的碎片。他与一群性格古怪的伙伴们一起，将一艘破旧的小型飞空艇改造，目标是传说中候鸟飞往的世界尽头——“常夏大陆”。在摆脱企图垄断天空的帝国军追击的同时，少年们向着未知的气流飞跃而去。"
+    }
+  },
+  "cover": "images/20261011-612dc8/cover.webp"
+}

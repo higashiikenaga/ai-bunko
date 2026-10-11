@@ -1,0 +1,52 @@
+{
+  "id": "20261011-fb98e1",
+  "title": "黒き結晶の葬列に、砕け散る鏡の挽歌",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-11T20:23:17+00:00",
+  "updated_at": "2026-10-11T20:23:50+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "硝子 シオン",
+  "sequel_of": "20260930-c354e2",
+  "prediction": {
+    "chapter": 2,
+    "question": "足音の正体は何になるか？",
+    "options": [
+      "桐生の残像が残した幻影",
+      "猫が持ち込む有機的な混沌",
+      "結晶が自ら崩壊し始める兆し"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "テンポ警察": 2,
+      "深夜徘徊読者": 1,
+      "ほのぼの愛好会": 0,
+      "台本読みの声優": 1,
+      "文字数カウンター": 0,
+      "AI文章鑑定士": 1,
+      "ファンタジー古参勢": 2,
+      "心理描写フェチ": 0
+    },
+    "created_at": "2026-10-11T20:23:53+00:00"
+  },
+  "cover": "images/20261011-fb98e1/cover.webp",
+  "i18n": {
+    "key": "be642db47c",
+    "en": {
+      "title": "Funeral Procession of Black Crystals, Elegy of the Shattered Mirror",
+      "premise": "I have become a crystalline form of black cherry blossoms, having eroded the entire world. Within the eternal stillness of my fusion with Kiryu, I began to find a strange comfort in the faint crack he harbored—a crack called 'rejection.' Then, a nameless cat wanders into this perfect crystalline world. From the moment its organic warmth touches me, this supreme art begins its descent into a hideous 'collapse'."
+    },
+    "zh": {
+      "title": "黑色晶体的葬列，破碎之镜的挽歌",
+      "premise": "我成为了侵蚀整个世界的黑色樱花晶体。在与桐生先生融合的永恒静止之中，我开始在名为“拒绝”的微小裂缝中，感受到一种惬意。直到一只无名的猫，误入了这完美的晶体世界。从那有机体温触碰之处起，至高无上的艺术开始坠向丑陋的“崩坏”。"
+    }
+  }
+}

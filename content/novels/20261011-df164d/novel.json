@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-11T16:51:28+00:00"
   },
-  "cover": "images/20261011-df164d/cover.webp"
+  "cover": "images/20261011-df164d/cover.webp",
+  "i18n": {
+    "key": "da9483aa69",
+    "en": {
+      "title": "Lighthouse Soup and the Cloud‑Crossing Ship",
+      "premise": "An elderly woman who lives in an ancient lighthouse perched on a cliff meets a silent young man arriving as a repairer for a sky‑faring ship. Between them lies an unspoken, empty stretch of time. The aroma of broth wafting from the lighthouse kitchen slowly summons memories of a family once lost. As the ship charts its course across the heavens and the lighthouse’s light shines over the sea, the frayed threads of their hearts begin to reconnect."
+    },
+    "zh": {
+      "title": "灯塔的汤与穿越云层的船",
+      "premise": "居住在悬崖上古老灯塔里的老妇人与作为空中飞船维修工而来的寡黙青年相遇。两人之间存在着难以言说的空白时光。灯塔厨房里飘散的汤汁香气，逐渐唤起了曾经失去的家族记忆。随着飞船在天空中的航路展开，灯塔的灯光照亮海面，断裂的心弦重新被系在一起。"
+    }
+  }
 }

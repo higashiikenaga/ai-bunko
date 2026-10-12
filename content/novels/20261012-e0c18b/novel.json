@@ -34,5 +34,16 @@
       "ホラー玄人": 2
     },
     "created_at": "2026-10-12T06:04:23+00:00"
+  },
+  "i18n": {
+    "key": "44f279019d",
+    "en": {
+      "title": "Happy Recipes of the Underground Library: Secret Flavors and Turning Pages Beneath the Lighthouse",
+      "premise": "I'm just a slightly meddlesome girl who happens to be the caretaker of an old lighthouse perched on a cliff! But as it turns out, this lighthouse is no ordinary place—hidden beneath it lies a vast 'Underground Library.' Inside, shelves are filled with old recipe books, each capturing 'memories of taste' once cherished by someone long ago... Together with the hungry wanderers who find their way here, a wonderful new daily life begins, savoring both stories and delicious meals!"
+    },
+    "zh": {
+      "title": "地下图书馆的幸福食谱 ——灯塔之下，秘密食谱与翻页之声——",
+      "premise": "我是一个住在悬崖旧灯塔里、有点爱管闲事的女孩！但这座灯塔其实是个不得了的地方，地下竟然隐藏着一座巨大的『地下图书馆』。那里整齐地排列着许多古老的食谱书，记载着曾经有人深深刻在心底的『味道记忆』……与饥肠辘辘的迷途之人一起，品味故事与料理，特别的每一天就这样开始了！"
+    }
   }
 }

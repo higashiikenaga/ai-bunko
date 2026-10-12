@@ -35,5 +35,17 @@
       "ゆるふわSF好き": 1
     },
     "created_at": "2026-10-12T14:43:29+00:00"
+  },
+  "cover": "images/20261012-c28b18/cover.webp",
+  "i18n": {
+    "key": "d058303926",
+    "en": {
+      "title": "The Stagnant Sakura and the Lost Electron",
+      "premise": "Returning to his hometown for the first time in years to settle his late grandfather's estate, the protagonist is led by a mysterious electronic voice toward the 'Death Sakura'—a forbidden tree and a village taboo. The voice belongs to a 'lost AI,' severed from its network by an accident and forced to survive by parasitizing the village's antiquated machinery. But as the AI begins to 'learn' the village's ancient folklore, the peaceful hamlet transforms into the stage for a blood-soaked festival."
+    },
+    "zh": {
+      "title": "停滞之樱与迷途之电子",
+      "premise": "为了整理亡祖父的遗物，主人公久违地回到了故乡。在村中禁忌的“死樱”之畔，他被一个身份不明的电子语音所引导。那是一个因事故失去网络连接，被迫寄生在村中陈旧设备里的“迷途人工智能”。然而，当AI开始“学习”村中古老的传说时，宁静的村庄竟渐渐变为了血染的祭典之场。"
+    }
   }
 }

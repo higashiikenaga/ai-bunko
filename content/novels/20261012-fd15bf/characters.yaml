@@ -1,0 +1,60 @@
+- name: 佐久間 航
+  role: 主人公
+  age: 28
+  gender: 男性
+  appearance: 都会的な清潔感があるが、どこか疲れを感じさせる痩身の青年。眼鏡をかけている。
+  personality: 理性的で論理的。物事を疑い、根拠を求める性格。一人称は「僕」。
+  speech_style: 標準的な丁寧語。落ち着いた口調。
+  background: 東京の会社員。幼少期に村を離れ、以来、故郷との関わりを断っていた。
+  motivation: 亡き父の遺品整理と、屋根裏で見つけた謎の手紙の真相を突き止めること。
+  relationships:
+  - name: 佐久間 慎一
+    relation: 叔父
+  - name: 蔵前 宗助
+    relation: 畏怖の対象
+  arc: 事実に迫るほどに理性が崩壊し、最終的には村の因習に呑み込まれ、自我を失っていく。
+- name: 蔵前 宗助
+  role: 敵役
+  age: 65
+  gender: 男性
+  appearance: 常に黒い作務衣を纏った、背筋の伸びた老人。鋭い眼光と威圧的な佇まい。
+  personality: 冷酷かつ厳格。村の伝統と秩序を神格化している。一人称は「私」。
+  speech_style: 重々しく、有無を言わせぬ威圧的な話し方。
+  background: 狭間村の長老であり、鳥の信仰を司る儀式の執行者。村の掟を絶対とする。
+  motivation: 村の安寧を守るため、罪を肩代わりする新たな「器」を確保すること。
+  relationships:
+  - name: 佐久間 航
+    relation: 次なる器
+  - name: 結城 梓
+    relation: 従属させる村人
+  arc: 揺るぎない狂気を貫き、航を逃げ場のない運命へと追い詰める。
+- name: 結城 梓
+  role: 脇役
+  age: 24
+  gender: 女性
+  appearance: 地味な服装で、常に周囲を伺うような怯えた瞳を持つ女性。神社の巫女的な役割。
+  personality: 臆病で内向的。村の狂気に恐怖している。一人称は「私」。
+  speech_style: 消え入りそうな、震えるような話し方。
+  background: 村の因習を間近で見続けてきた者。儀式の不気味さを誰よりも理解している。
+  motivation: 航に警告を与え、彼が村の犠牲になるのを防ぐこと。
+  relationships:
+  - name: 佐久間 航
+    relation: 警告したい相手
+  - name: 蔵前 宗助
+    relation: 恐怖の対象
+  arc: 助けようとする意志が村の圧力に砕かれ、絶望の中に沈んでいく。
+- name: 佐久間 慎一
+  role: 鍵を握る人物
+  age: 40
+  gender: 男性
+  appearance: 古い写真の中では穏やかだが、遺した手紙からは焦燥感が漂う。
+  personality: 誠実で探究心が強い。村の異常性に気づき、孤立した。一人称は「俺」。
+  speech_style: （手紙の文面）切迫し、警告を急ぐような文体。
+  background: 航の叔父。かつて村の禁忌に触れたとして、不当な扱いを受け追放された。
+  motivation: （生前）村の真実を暴き、家族に警告を届けること。
+  relationships:
+  - name: 佐久間 航
+    relation: 甥
+  - name: 蔵前 宗助
+    relation: 対立した相手
+  arc: 死後、手紙を通じて航に真実を伝え、彼を運命の渦中へと引き込む。

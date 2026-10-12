@@ -1,0 +1,51 @@
+{
+  "id": "20261012-8ed3d7",
+  "title": "聖刻の巡礼 ―凍てつく星の記憶と忘却の回廊―",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-12T02:20:43+00:00",
+  "updated_at": "2026-10-12T02:23:25+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "エルノアは氷の城で何に直面するか",
+    "options": [
+      "古代の機械が作動する",
+      "サイラスが裏切りを見せる",
+      "忘却の声が囁き続く"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ねこ背の文学少女": 2,
+      "伏線管理官": 0,
+      "タイトル買い": 0,
+      "初見さん": 1,
+      "SF考証の鬼": 0,
+      "既視感センサー": 2,
+      "歴史散歩の人": 1,
+      "朝活読書": 2
+    },
+    "created_at": "2026-10-12T02:23:27+00:00"
+  },
+  "cover": "images/20261012-8ed3d7/cover.webp",
+  "i18n": {
+    "key": "7a3cc03a82",
+    "en": {
+      "title": "Pilgrimage of the Sacred Inscription: Memories of the Frozen Star and the Corridor of Oblivion",
+      "premise": "In an era where the gods have fallen silent and the world's memories have faded into fragments, a blind librarian embarks on a pilgrimage to recover lost history. Guided by a \"secret map\" etched into the skin of a prisoner, his journey leads him to the \"Ice Castle\"—an ultimate realm where all despair lies frozen. There, he is forced to confront a cruel truth: the world once perished, only to be reconstructed as a false paradise."
+    },
+    "zh": {
+      "title": "圣刻巡礼 ―冰封之星的记忆与遗忘的回廊―",
+      "premise": "在神明缄默、世界记忆支离破碎的时代，一位盲眼司书循着刻在某位囚犯皮肤上的“秘密地图”，踏上了回收失落历史的巡礼之旅。他最终抵达了万般绝望皆被冻结的终极之地——“冰之城”。在那里，他直面了一个残酷的真相：世界曾一度毁灭，并作为虚假的乐园被重新构建。"
+    }
+  }
+}

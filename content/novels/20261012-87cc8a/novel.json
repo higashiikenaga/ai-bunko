@@ -1,0 +1,52 @@
+{
+  "id": "20261012-87cc8a",
+  "title": "緋色の舞踏会と忘却の書架 ―双子の王冠、偽りの調べ―",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-12T22:10:46+00:00",
+  "updated_at": "2026-10-12T22:12:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "仮面舞踏会でアリステアが選ぶ相手は？",
+    "options": [
+      "謎の貴族青年と踊る",
+      "エレーヌに告白する",
+      "暗殺者に裏切られる"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "ファンタジー古参勢": 0,
+      "全話精読の批評家": 2,
+      "ねこ背の文学少女": 1,
+      "キャラ萌え研究家": 0,
+      "推しが尊い民": 1,
+      "元新人賞下読み": 0,
+      "涙腺ゆるゆる": 1,
+      "台詞にうるさい人": 0
+    },
+    "created_at": "2026-10-12T22:13:00+00:00"
+  },
+  "i18n": {
+    "key": "9eda474537",
+    "en": {
+      "title": "The Scarlet Masquerade and the Library of Oblivion: Twin Crowns, a False Melody",
+      "premise": "Deep within the gold-leafed Imperial Capital, behind the opulence of the royal court, exists an 'other Crown Prince' erased from the annals of history. A shadow prince hiding in a second-hand bookstore, a maid harboring the pride of a fallen noble, and ambitious diplomats—their paths intersect upon the stage of a single night's masquerade ball. The truths hidden behind masks and the fires of forbidden love will transform into a grand waltz that shakes the very fate of the empire."
+    },
+    "zh": {
+      "title": "绯色舞会与遗忘书架 ——双生王冠，虚假的旋律——",
+      "premise": "在金箔点缀的帝都最深处，在极尽奢华的宫廷背后，存在着一位从历史中被抹去的“另一位皇太子”。潜身于旧书店的影子王子、怀揣没落贵族尊严的侍女，以及心怀野心的外交官们，以一场一夜的假面舞会为舞台，命运交错。面具下隐藏的真相与禁忌之恋，终将化作动摇帝国命运的壮丽圆舞曲。"
+    }
+  },
+  "cover": "images/20261012-87cc8a/cover.webp"
+}

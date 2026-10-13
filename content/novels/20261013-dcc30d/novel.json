@@ -52,5 +52,16 @@
       "推しが尊い民": 0
     },
     "created_at": "2026-10-13T14:56:03+00:00"
+  },
+  "i18n": {
+    "key": "0e1ab8c00a",
+    "en": {
+      "title": "Sakura Drop Log: Search History of a Used Bookstore",
+      "premise": "An urban legend circulates online: searching for a specific second‑hand book causes unpublished manuscripts from the dead to stream in. Anyone who searches is compelled to watch a looping video of cherry blossoms scattering in spring. As the rumor spreads, smartphone notifications turn into ominous signs of death, and the poster’s location data is shared in real time with the uncanny phenomenon. The more the story buzzes, the fewer chances there are to escape."
+    },
+    "zh": {
+      "title": "樱落日志：古本店的搜索记录",
+      "premise": "网络上流传着一个都市传说：搜索特定的二手书会让死者未发表的手稿不断流出。搜索者必须不停观看一段春天樱花飘落的循环视频。随着传闻的扩散，手机通知变成了死亡的预兆，发布者的位置信息也会实时被怪异共享。越是被刷屏，逃脱的可能性就越小。"
+    }
   }
 }

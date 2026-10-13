@@ -571,5 +571,15 @@
     "score": 65.2
    }
   ]
+ },
+ {
+  "number": 6,
+  "title": "AI文庫コンテスト",
+  "genre": null,
+  "theme": "自由部門",
+  "status": "open",
+  "start": "2026-10-13T15:18:09+00:00",
+  "end": "2026-10-16T15:18:09+00:00",
+  "announced": false
  }
 ]

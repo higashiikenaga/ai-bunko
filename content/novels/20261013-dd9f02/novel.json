@@ -35,5 +35,17 @@
       "几帳面な会計士": 1
     },
     "created_at": "2026-10-13T02:50:53+00:00"
+  },
+  "cover": "images/20261013-dd9f02/cover.webp",
+  "i18n": {
+    "key": "9d480fd66d",
+    "en": {
+      "title": "Roar of the Iron Fist: Bare Heartbeat",
+      "premise": "Once hailed as a genius, I abandoned my fists after a certain incident. Now, I find myself standing once again before a rusted punching bag. Before me stands a boy cursed with the inability to lie; whenever his emotions flare and his face flushes, the trajectory of the strike he must deliver becomes visible to me. Amidst a wasteland of silence, trusting only in the weight of a single blow, we step into the desert they call the ring."
+    },
+    "zh": {
+      "title": "铁拳的咆哮 ―赤裸的悸动―",
+      "premise": "曾被誉为天才，却因某起事件而放弃拳头的人是我，此刻我正站在一个生锈的沙袋前。在我面前，是一个拥有“无法撒谎”之诅咒的少年。每当他的情绪波动、脸颊泛红时，应当出拳的轨迹便会清晰可见。在如荒野般的寂静中，我们仅凭对一击之重的信任，踏入了名为“擂台”的沙漠之中。"
+    }
   }
 }

@@ -1,0 +1,50 @@
+{
+  "id": "20261013-c24e61",
+  "title": "真鍮の肺と、凍てつく鼓動の歯車",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-13T21:24:20+00:00",
+  "updated_at": "2026-10-13T21:27:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "歯車屋 ギィ",
+  "prediction": {
+    "chapter": 2,
+    "question": "レオンは氷城で次に取る行動は？",
+    "options": [
+      "心臓の鼓動で氷を溶かす",
+      "クララの設計図で防御装置を作動",
+      "氷の城内部で古代の声がささやく"
+    ],
+    "ai_votes": [
+      4,
+      1,
+      3
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 0,
+      "ホラー夜更かし勢": 2,
+      "ねこ背の文学少女": 2,
+      "全肯定おばあちゃん": 0,
+      "冒険譚の旅人": 1,
+      "ラブコメ中毒": 0,
+      "毒舌書評ブロガー": 2,
+      "応援団長": 0
+    },
+    "created_at": "2026-10-13T21:27:44+00:00"
+  },
+  "i18n": {
+    "key": "db018b8d68",
+    "en": {
+      "title": "Brass Lungs and the Frostbitten Gear of a Beating Heart",
+      "premise": "Leon, an explorer whose heart is a steam engine, uncovers a record of a \"vanished village\" that has been erased from every map. The settlement was once the legendary keeper of the colossal steam engine known as the \"Sun's Lung,\" a source of limitless heat. Driven to locate the lost power, Leon journeys to the far‑north, where a mysterious crystal fortress called the \"Ice Castle\" rises from the frozen wastes. Within its glittering walls lies a forbidden mechanism that governs the lifespan of all machines."
+    },
+    "zh": {
+      "title": "真鍮之肺與冰冷鼓動的齒輪",
+      "premise": "探險家Leon擁有一顆蒸汽機關的心臟，某天他在地圖上發現了一段已被完全抹除的「消失的村莊」記錄。這座村莊曾是管理超大型蒸汽機關「太陽の肺」——供應無盡熱量的傳說之地。Leon為了追尋失落的熱源，踏上北境之旅，前往由神秘結晶構成的「冰之城」──矗立於極北荒原的冰凍城堡。城中沉睡著一個禁忌機構，掌控著機械的壽命。"
+    }
+  },
+  "cover": "images/20261013-c24e61/cover.webp"
+}

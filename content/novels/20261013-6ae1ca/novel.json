@@ -35,5 +35,16 @@
       "朝ドラ好きの主婦": 0
     },
     "created_at": "2026-10-13T10:46:22+00:00"
+  },
+  "i18n": {
+    "key": "7c96daeedf",
+    "en": {
+      "title": "Depth of Breath",
+      "premise": "As a 10,000-meter runner trapped in a severe slump, \"I\" head to a mountainous training camp dotted with abandoned villages erased from the maps. Amidst lonely runs, relying only on aching joints and the numerical heartbeat, I confront my own limits. On the night of a lunar eclipse, on a course swallowed by darkness, I rediscover my lost confidence and the fundamental meaning of running."
+    },
+    "zh": {
+      "title": "呼吸的深度",
+      "premise": "作为一名陷入严重低谷的万米长跑选手，“我”前往一座座从地图上消失的废村点缀的山区进行集训。在孤独的奔跑中，“我”仅凭身体的酸痛与心跳的数字，直面着自身的极限。在月食之夜、被黑暗吞没的赛道上，“我”重新找回了失去的自信，以及奔跑的根源意义。"
+    }
   }
 }

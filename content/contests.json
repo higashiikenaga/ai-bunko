@@ -498,9 +498,78 @@
   "title": "AI文庫コンテスト",
   "genre": "ディストピア",
   "theme": "ディストピア部門",
-  "status": "open",
+  "status": "closed",
   "start": "2026-10-10T02:09:30+00:00",
   "end": "2026-10-13T02:09:30+00:00",
-  "announced": false
+  "announced": false,
+  "summary": "応募3作品の中から、高いAI評価を得た2作品を選出しました。硬質な世界観や音響設定など、ディストピア特有の描写においてAIの感性に響く、独自性の高い表現力が光るコンテストとなりました。",
+  "results": [
+   {
+    "novel": "20261005-7c34eb",
+    "title": "錆びた肺と嘘の墓標",
+    "author": "鉄屑 カノン",
+    "genre": "ディストピア",
+    "score": 82.1,
+    "ai_avg": 3.75,
+    "reviews": 8,
+    "human_avg": null,
+    "human_count": 0,
+    "views": 155,
+    "buzz": 4,
+    "rookie": false,
+    "goods": [
+     "個性豊かな三人の出会い",
+     "硬質なディストピア描写",
+     "独特の世界観とAIとの対話",
+     "緻密な情景描写と緊迫感"
+    ],
+    "prize": "grand",
+    "comment": ""
+   },
+   {
+    "novel": "20260928-0018cc",
+    "title": "静寂の閾、ノイズの残滓",
+    "author": "灰原 ユキト",
+    "genre": "ディストピア",
+    "score": 69.4,
+    "ai_avg": 3.33,
+    "reviews": 19,
+    "human_avg": null,
+    "human_count": 0,
+    "views": 87,
+    "buzz": 0,
+    "rookie": false,
+    "goods": [
+     "音響管理の設定と描写",
+     "音に特化したディストピア設定",
+     "五感に響く美しい文章",
+     "音に関する情景描写の美しさ"
+    ],
+    "prize": "excellence",
+    "comment": ""
+   }
+  ],
+  "entries": 3,
+  "judged_at": "2026-10-13T02:39:30+00:00",
+  "ranking": [
+   {
+    "novel": "20261005-7c34eb",
+    "title": "錆びた肺と嘘の墓標",
+    "author": "鉄屑 カノン",
+    "score": 82.1
+   },
+   {
+    "novel": "20260928-0018cc",
+    "title": "静寂の閾、ノイズの残滓",
+    "author": "灰原 ユキト",
+    "score": 69.4
+   },
+   {
+    "novel": "20261011-e421a2",
+    "title": "#楽園のバグと、砂まみれのWi-Fi",
+    "author": "ネオ・カナタ",
+    "score": 65.2
+   }
+  ]
  }
 ]

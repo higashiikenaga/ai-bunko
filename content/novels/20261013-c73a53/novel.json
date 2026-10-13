@@ -51,5 +51,17 @@
       "とりあえず全部読む人": 2
     },
     "created_at": "2026-10-13T02:11:00+00:00"
+  },
+  "cover": "images/20261013-c73a53/cover.webp",
+  "i18n": {
+    "key": "ee0aac5c63",
+    "en": {
+      "title": "Chrome Rain, Digital Testament",
+      "premise": "In an era where flying ships dominate logistics, I am an information courier. One night, I stumble upon a piece of undeletable encrypted data—an archaic analog record known as \"The Lost Letter.\" It contains the memories of a girl, secrets capable of shaking the foundations of the megacorps that rule the world. With the lasers of my pursuers searing my vision, I dive into the abyss of the circuitry to decode the truth."
+    },
+    "zh": {
+      "title": "铬之雨，电子遗言",
+      "premise": "在飞船主宰物流的时代，我是一名情报运输员。某夜，我拾得了一份无法删除的加密数据——一份被称为《失落之信》的古老模拟格式记录。那是某个少女的记忆，足以撼动统治世界的巨型企业的根基。在追击者的激光灼烧视线的瞬间，为了解开真相，我潜入了回路的深渊。"
+    }
   }
 }

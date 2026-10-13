@@ -1,0 +1,50 @@
+{
+  "id": "20261013-2c116b",
+  "title": "雨断の太刀",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-13T07:28:53+00:00",
+  "updated_at": "2026-10-13T07:32:25+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "剣持 隼人",
+  "prediction": {
+    "chapter": 2,
+    "question": "次に茶屋の扉を叩くのは誰？",
+    "options": [
+      "追手の刺客が来る",
+      "謎の女・お凛が現れる",
+      "濡れた旅人が立ち止まる"
+    ],
+    "ai_votes": [
+      1,
+      4,
+      3
+    ],
+    "ai_voters": {
+      "ねこ背の文学少女": 1,
+      "朝活読書": 2,
+      "元文芸部部長": 0,
+      "放課後の図書委員": 2,
+      "ほのぼの愛好会": 2,
+      "星一つの鬼": 1,
+      "キャラ萌え研究家": 1,
+      "初見さん": 1
+    },
+    "created_at": "2026-10-13T07:32:28+00:00"
+  },
+  "i18n": {
+    "key": "7aeae8006e",
+    "en": {
+      "title": "The Rain-Cutting Blade",
+      "premise": "Gennojo is a ronin haunted by the sin of slaughtering his own clan. Seeking refuge in a mysterious teahouse that opens only on rainy days, he is confronted by a ghost from his past. Amidst a relentless downpour, on the razor's edge between life and death, two men clash in a final, decisive strike."
+    },
+    "zh": {
+      "title": "雨断之太刀",
+      "premise": "浪人源之丞背负着昔日将一门亲族尽数杀害的沉重罪孽。他寄身于一家仅在雨天开业的诡异茶屋，却在此迎来了宿命的对手。在连绵不绝的雨中，在生与死的边界线上，两个男人将交锋出决定生死的一击。"
+    }
+  }
+}

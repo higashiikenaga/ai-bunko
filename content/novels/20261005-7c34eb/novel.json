@@ -259,5 +259,12 @@
     "5": "images/20261005-7c34eb/ch-005.webp",
     "7": "images/20261005-7c34eb/ch-007.webp"
   },
-  "completed_at": "2026-10-12T05:24:59+00:00"
+  "completed_at": "2026-10-12T05:24:59+00:00",
+  "audio": {
+    "1": "audio/20261005-7c34eb/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Fenrir"
 }

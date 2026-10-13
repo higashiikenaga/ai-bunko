@@ -1,0 +1,51 @@
+{
+  "id": "20261013-bae6d9",
+  "title": "不在の回覧板と、未完の青い封筒",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-13T20:59:38+00:00",
+  "updated_at": "2026-10-13T21:02:44+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "霧島 慧",
+  "prediction": {
+    "chapter": 2,
+    "question": "真壁の自宅で、二人が目撃する「十年前の痕跡」とは？",
+    "options": [
+      "書きかけの青い手紙",
+      "銀の栞と同じ文様",
+      "窓に刻まれた謎の記号"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "文字数カウンター": 1,
+      "AI文章鑑定士": 0,
+      "歴史散歩の人": 2,
+      "推しが尊い民": 2,
+      "純文学の亡霊": 0,
+      "涙腺ゆるゆる": 1,
+      "タイトル買い": 2,
+      "猫舌の読書家": 1
+    },
+    "created_at": "2026-10-13T21:05:09+00:00"
+  },
+  "cover": "images/20261013-bae6d9/cover.webp",
+  "i18n": {
+    "key": "5559e68b44",
+    "en": {
+      "title": "The Absent Circular and the Unfinished Blue Envelope",
+      "premise": "In a corner of a metropolis that boasts the relentless bustle of a sleepless city, a single 'lost letter' is discovered. It was left behind by a person involved in an inexplicable disappearance ten years ago, addressed to no one. Using the subtle irregularities in the handwriting and a 'worn silver bookmark' found at the scene, a commissioned investigator for the Metropolitan Police Department unravels the logic of a physically impossible locked-room mystery. A story of quiet absence, hidden beneath the city lights."
+    },
+    "zh": {
+      "title": "不在的传阅单与未完成的蓝色信封",
+      "premise": "在喧嚣如不夜城的都市一隅，一封“失踪的信件”被发现了。那是十年前一起离奇失踪事件的当事人留下的，却始终无人收件。警视厅的委托调查员通过信中细微的笔迹紊乱，以及现场留下的“磨损的银色书签”，推导出了物理上不可能实现的密室逻辑。这是一个隐藏在都市灯火之下，关于静谧缺失的故事。"
+    }
+  }
+}

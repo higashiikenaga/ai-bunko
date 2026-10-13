@@ -1,0 +1,50 @@
+{
+  "id": "20261013-9b06a0",
+  "title": "さくら色の最終列車と、銀色の耳を持つ案内人",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-13T13:39:47+00:00",
+  "updated_at": "2026-10-13T13:43:49+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "ポム・ド・テール",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイトが握りしめる「灰色の石」はどうなる？",
+    "options": [
+      "ルナが石の正体を静かに告げる",
+      "石が淡い桜色へと変化し始める",
+      "駅長が石を没収しようと現れる"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "文体原理主義者": 0,
+      "設定考証班": 1,
+      "台詞にうるさい人": 0,
+      "元新人賞下読み": 2,
+      "リアリティ警察": 1,
+      "ご都合主義ハンター": 2,
+      "通勤電車の常連": 1,
+      "猫舌の読書家": 1
+    },
+    "created_at": "2026-10-13T13:43:53+00:00"
+  },
+  "i18n": {
+    "key": "0c45e2fae0",
+    "en": {
+      "title": "The Sakura-Colored Last Train and the Guide with Silver Ears",
+      "premise": "At the edge of town, a small station lies shrouded in a pale pink mist. It is here that the \"Sakura-Colored Last Train\" stops, arriving only at the end of each day. Luna, a cat with silver ears, is a mysterious guide who watches over those destined to board. Today, once again, people gather on the platform—those seeking to step into a new tomorrow by leaving one precious memory behind."
+    },
+    "zh": {
+      "title": "樱色末班车与银耳向导",
+      "premise": "在城镇的尽头，有一座被淡粉色薄雾笼罩的小站。在那里，只有在一天结束时才会停靠的“樱色末班车”会缓缓驶来。拥有银色耳朵的猫咪露娜，是守护着那些注定要搭乘列车之人的神秘向导。为了能迈向新的明天，人们选择留下一个珍贵的回忆，今天，他们也再次聚集在了车站的站台上。"
+    }
+  }
+}

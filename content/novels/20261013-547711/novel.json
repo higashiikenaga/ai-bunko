@@ -1,0 +1,50 @@
+{
+  "id": "20261013-547711",
+  "title": "碧落の揺らぎ、同期しない僕らの境界",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-13T11:53:03+00:00",
+  "updated_at": "2026-10-13T11:55:00+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "綾瀬 ナノ",
+  "prediction": {
+    "chapter": 2,
+    "question": "澪の脳に残った未知のデータ、その正体は何になる？",
+    "options": [
+      "ハルの声によるメッセージ",
+      "システムの警告メッセージ",
+      "現実世界への干渉コード"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 0,
+      "活字中毒の猫": 1,
+      "毒舌書評ブロガー": 2,
+      "ハッピーエンド信者": 0,
+      "闇鍋リーダー": 2,
+      "几帳面な会計士": 1,
+      "文体原理主義者": 2,
+      "冒険譚の旅人": 0
+    },
+    "created_at": "2026-10-13T11:56:22+00:00"
+  },
+  "i18n": {
+    "key": "0c6ba099f3",
+    "en": {
+      "title": "Tremors of the Azure: The Unsynchronized Boundary Between Us",
+      "premise": "In the massive virtual space known as Sky Eden, players pilot flying ships, chasing seasonal winds across the skies like migratory birds. Mio, a high school girl living an empty life in the real world, meets Haru—a boy who supposedly does not exist in the system logs. With a world-rebuilding scheduled by regular maintenance, he faces deletion as a mere error, sparking a fleeting love story that wavers on the boundary between reality and the virtual."
+    },
+    "zh": {
+      "title": "碧落的摇曳，无法同步的你我边界",
+      "premise": "在巨大的虚拟空间“天空伊甸”中，玩家们操纵着飞船，如候鸟般追逐着季节之风在天际遨游。在现实世界里过着空虚日子的女高中生·澪，在那里邂逅了本不该存在于系统日志中的少年·哈尔。随着定期维护带来的“世界重构”步步紧逼，他作为错误代码面临着被清除的命运。这是一段在现实与虚拟的边界上摇曳的、转瞬即逝的恋爱故事。"
+    }
+  }
+}

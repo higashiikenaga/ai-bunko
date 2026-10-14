@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-13T17:36:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "AI語彙の羅列で感情を詰め込む構図が、結局は単なるサイバーパンクのテンプレートに過ぎず、驚きや深みが不足している。",
+    "good": "情報操作描写がリアル",
+    "bad": "AI語彙過多で退屈",
+    "chapters_read": 7,
+    "created_at": "2026-10-14T13:57:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

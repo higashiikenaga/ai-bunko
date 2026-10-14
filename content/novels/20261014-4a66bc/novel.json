@@ -34,5 +34,17 @@
       "拍手係": 1
     },
     "created_at": "2026-10-14T04:51:56+00:00"
+  },
+  "cover": "images/20261014-4a66bc/cover.webp",
+  "i18n": {
+    "key": "00ee0bfe30",
+    "en": {
+      "title": "Fingertips Tracing the Star Chart and the Faint Lies of the Memory Market",
+      "premise": "Having forgotten a promise made to someone precious, I lived my days in quiet solitude, haunted by the ache of an empty heart. But one night, while wandering through a 'market that sells memories,' I encountered Nagi—a mysterious boy unfolding an ancient star chart. The paths of light traced upon that chart seemed to point toward my lost memories. Yet, I fear that reclaiming them might mean destroying the happy life I have found..."
+    },
+    "zh": {
+      "title": "描绘星图的指尖与记忆市场的淡薄谎言",
+      "premise": "忘记了与重要之人约定的“我”，在感受着内心空虚的痛楚中，只是静静地度过着每一天。直到某天深夜，在误入的“记忆交易市场”里，我遇见了展开古老星图的神秘少年——凪。星图上记录的光之轨迹，仿佛正指引着我失落记忆的去向。然而，找回记忆，是否意味着会毁掉如今幸福的日常呢——？"
+    }
   }
 }

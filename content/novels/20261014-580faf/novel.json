@@ -1,0 +1,51 @@
+{
+  "id": "20261014-580faf",
+  "title": "事象の地平線における継承 ―エントロピーのゆらぎと観測者の残響―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-14T16:57:08+00:00",
+  "updated_at": "2026-10-14T16:58:31+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ",
+  "sequel_of": "20261010-e5cd84",
+  "prediction": {
+    "chapter": 2,
+    "question": "カエリスは折れた剣に何を求めるか？",
+    "options": [
+      "記憶を取り戻す鍵を探す",
+      "敵ヴァレリウスを倒す計画",
+      "自己の存在を永遠に残す術"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "元文芸部部長": 0,
+      "朝ドラ好きの主婦": 1,
+      "全肯定おばあちゃん": 2,
+      "台本読みの声優": 0,
+      "台詞にうるさい人": 1,
+      "週末の映画好き": 2,
+      "休日の喫茶店": 0,
+      "通勤電車の常連": 1
+    },
+    "created_at": "2026-10-14T16:58:34+00:00"
+  },
+  "i18n": {
+    "key": "16964ce191",
+    "en": {
+      "title": "Inheritance at the Event Horizon: Entropy Fluctuations and the Observer's Echoes",
+      "premise": "When Elias transformed himself into the ultimate noise, the memories of vanished civilizations began to circulate through the universe as waves of information. Kaeris, a new kind of pilgrim who treats memory as physical mass, wanders in search of fragments of a former partner. However, in the far reaches of the galaxy, a gravitationally isolated information storage layer—resembling vast undersea ruins—begins to vibrate abnormally, threatening to re-fix the causality of the entire universe. There, Kaeris discovers a fragment of an incomplete yet indomitable will, like a broken sword left behind."
+    },
+    "zh": {
+      "title": "事件视界中的继承 ——熵之涨落与观测者的残响——",
+      "premise": "随着埃利亚斯将自身转化为终极噪声，消逝文明的记忆化作信息的波动，在宇宙中循环往复。卡埃里斯作为一名将记忆视为物理质量的新型“巡礼者”，在旅途中追寻着昔日伙伴的碎片。然而，在银河边缘一座重力孤立、宛如“海底遗迹”般的巨大信息存储层中，一场试图重新固定全宇宙因果律的异常震动悄然开启。在那里，卡埃里斯发现了一块如同“折断之剑”般，虽不完整却意志坚定的碎片。"
+    }
+  },
+  "cover": "images/20261014-580faf/cover.webp"
+}

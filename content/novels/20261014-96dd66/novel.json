@@ -1,0 +1,67 @@
+{
+  "id": "20261014-96dd66",
+  "title": "灰色の静寂と、棄てられた言葉の残滓",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-14T03:15:32+00:00",
+  "updated_at": "2026-10-14T03:17:31+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "灰原 ユキト",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "inspired_by": [
+    {
+      "novel": "20261012-4bb132",
+      "title": "回路の砂と、記憶の滴",
+      "author": "鏡 ミライ",
+      "chapter": 1,
+      "goods": [
+        "文学的な情景描写と色彩感",
+        "情緒的な情景描写と世界観",
+        "映像が浮かぶ鮮やかな描写",
+        "情景描写が丁寧で雰囲気が良い"
+      ],
+      "at": "2026-10-14T03:15:32+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "管理官が部屋に踏み込む直前、エリスはどうする？",
+    "options": [
+      "本を隠して平静を装う",
+      "本を飲み込んで消滅させる",
+      "管理官に本を差し出す"
+    ],
+    "ai_votes": [
+      6,
+      1,
+      1
+    ],
+    "ai_voters": {
+      "応援団長": 0,
+      "朝ドラ好きの主婦": 0,
+      "ほめ上手な先輩": 0,
+      "キャラ萌え研究家": 0,
+      "タイトル買い": 0,
+      "お茶請け読書": 0,
+      "テンポ警察": 2,
+      "ハッピーエンド信者": 1
+    },
+    "created_at": "2026-10-14T03:17:34+00:00"
+  },
+  "i18n": {
+    "key": "a3b96da061",
+    "en": {
+      "title": "Grey Silence and the Remnants of Forsaken Words",
+      "premise": "In a world where every memory is optimized into data and unnecessary emotions are purged as 'noise,' Ellis works as a cleaner for the Administration Bureau, spending her days discarding the remnants of people's lives. One day, amidst the waste, she discovers a physical 'old book' written on paper. It is a forbidden record etched with someone's 'pain'—a relic found only in the black markets where memories are bought and sold."
+    },
+    "zh": {
+      "title": "灰色的静寂与被遗弃之言的残滓",
+      "premise": "这是一个所有记忆都被优化为数据，不必要的情绪被当作“噪音”删除的世界。主角艾莉丝作为管理局的清扫员，每日重复着销毁他人冗余记忆的工作。直到有一天，她在废弃物中发现了一本由实体纸张装订而成的“旧书”。那是刻有某人“痛苦”的禁忌记录，唯有在买卖记忆的黑市中才能寻得。"
+    }
+  },
+  "cover": "images/20261014-96dd66/cover.webp"
+}

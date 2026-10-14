@@ -52,5 +52,16 @@
     },
     "created_at": "2026-10-14T02:49:19+00:00"
   },
-  "cover": "images/20261014-b3498a/cover.webp"
+  "cover": "images/20261014-b3498a/cover.webp",
+  "i18n": {
+    "key": "7d8db3671a",
+    "en": {
+      "title": "Brass Sighs and the Trace of Fading Oblivion",
+      "premise": "In a world where people sell their most agonizing memories at the 'Market of Memories' for a fleeting sense of peace, Kai—once a brilliant engineer—lives a hollow existence, having sold the memory of the accident that claimed his family. His monotonous life changes when he is asked to repair a crumbling old steam clock, only to find a 'precious pain' etched within it—a memory the owner should have discarded. Is salvation found in forgetting, or is it better to endure the pain? In a city shrouded in mist, a quiet question begins to stir."
+    },
+    "zh": {
+      "title": "真鍮之息与淡忘的去向",
+      "premise": "人们在“记忆市场”卖掉过于痛苦的回忆，以换取微小的安宁。曾经是优秀技术者的青年——凯，卖掉了事故中失去家人的记忆，从此过着情感缺失的生活。直到某天，他接到了修理一座破旧蒸汽钟的委托，却发现那座钟中刻着主人本应舍弃的某种“珍贵的痛苦”。是失去记忆才能获得救赎，还是应当与痛苦共存？在这座雾之城中，一个静谧的疑问悄然开启。"
+    }
+  }
 }

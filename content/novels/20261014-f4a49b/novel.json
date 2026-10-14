@@ -1,0 +1,50 @@
+{
+  "id": "20261014-f4a49b",
+  "title": "琥珀の隊商と霜宮の眠り",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-14T18:40:30+00:00",
+  "updated_at": "2026-10-14T18:42:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "砂原 オアシス",
+  "prediction": {
+    "chapter": 2,
+    "question": "ヴァーンの妨害から逃れた二人が、次に直面する試練は？",
+    "options": [
+      "砂漠の嵐に巻き込まれ遭難する",
+      "ザールの隠された過去が露呈する",
+      "地図の真の使い手が姿を現す"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "タイトル買い": 2,
+      "キャラ萌え研究家": 1,
+      "新着チェッカー": 1,
+      "猫舌の読書家": 0,
+      "ねこ背の文学少女": 2,
+      "台詞にうるさい人": 1,
+      "異世界転生アナリスト": 0,
+      "設定考証班": 2
+    },
+    "created_at": "2026-10-14T18:42:20+00:00"
+  },
+  "i18n": {
+    "key": "132cf55c2a",
+    "en": {
+      "title": "The Amber Caravan and the Slumber of the Frost Palace",
+      "premise": "Saphia, the daughter of a fallen merchant house, embarks on a perilous journey to the legendary 'Ice Castle' in hopes of restoring her family's legacy. Her guide is a solitary man, the last keeper of the 'Old Lighthouse' that once illuminated the sea of sand. From the sweltering chaos of the markets to the frozen silence of nights where even the stars turn to ice, their path leads them to a hidden treasure capable of rewriting the laws of the world."
+    },
+    "zh": {
+      "title": "琥珀之商队与霜宫之眠",
+      "premise": "没落商家的女儿萨菲亚，为了振兴家族，踏上了前往传说中“冰之城”的旅程。而她的向导，则是一位孤独的男子——他曾是照亮沙之海的“古老灯塔”的最后一名守护者。远离灼热市场的喧嚣，跨越连星辰都将冻结的深夜之静谧，两人最终将邂逅足以颠覆世界法则的秘宝。"
+    }
+  }
+}

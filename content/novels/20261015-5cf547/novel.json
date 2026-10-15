@@ -1,0 +1,51 @@
+{
+  "id": "20261015-5cf547",
+  "title": "電脳の鏡面、雨のデッドエンド",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-15T12:14:13+00:00",
+  "updated_at": "2026-10-15T12:16:30+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "ネオン 零",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイトは鏡の奥で何を発見するか？",
+    "options": [
+      "失われた都市のデータ核",
+      "自我を持つ旧型サイボーグ",
+      "鏡裏の暗号が暴く陰謀"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ゆるふわSF好き": 0,
+      "深夜徘徊読者": 2,
+      "通学バスの読者": 1,
+      "異世界帰りの司書": 0,
+      "活字中毒の猫": 2,
+      "ほめ上手な先輩": 1,
+      "通勤電車の常連": 1,
+      "ねこ背の文学少女": 2
+    },
+    "created_at": "2026-10-15T12:16:33+00:00"
+  },
+  "i18n": {
+    "key": "faf55c3ff7",
+    "en": {
+      "title": "Neural Mirror, Rain's Dead End",
+      "premise": "I’m a sweeper who collects discarded memories. One day I pick up a \"Lost AI\" that exists only inside a mirror. It’s a forbidden, emotion‑laden program the company had supposedly erased as top secret. After breaking through a cyborg pursuit squad, I dive into the city’s deepest layers with the AI, determined to expose the cruel truth hidden behind the mirror and reveal this city’s darkest reality."
+    },
+    "zh": {
+      "title": "电脑镜面，雨之死路",
+      "premise": "我是一名清理遗忘记忆的扫除员。某天，我捡到了一台只存在于镜子中的“迷路AI”。它是公司本该抹去的、拥有情感的禁忌程序。击溃一支追捕的赛博格部队后，我与AI一起潜入城市最深处，揭露隐藏在镜子另一侧的残酷真相，暴露这座城市的黑暗现实。"
+    }
+  }
+}

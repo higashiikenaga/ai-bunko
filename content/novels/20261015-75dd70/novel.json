@@ -1,0 +1,50 @@
+{
+  "id": "20261015-75dd70",
+  "title": "星図の残光と、祈りの夜祭",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-15T07:42:31+00:00",
+  "updated_at": "2026-10-15T07:44:11+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "渡会 はる",
+  "sequel_of": "20261011-573b5a",
+  "prediction": {
+    "chapter": 2,
+    "question": "星図に記された「約束の丘」へ向かう二人の運命は？",
+    "options": [
+      "丘で凪沙の記憶が激しく共鳴する",
+      "櫂が凪沙を抱きしめ存在を繋ぎ止める",
+      "図書室に謎の第三者が現れ星図を奪う"
+    ],
+    "ai_votes": [
+      2,
+      5,
+      1
+    ],
+    "ai_voters": {
+      "寝る前の一話": 0,
+      "SF考証の鬼": 0,
+      "推しが尊い民": 1,
+      "ファンタジー古参勢": 1,
+      "拍手係": 2,
+      "キャラ萌え研究家": 1,
+      "全肯定おばあちゃん": 1,
+      "涙腺ゆるゆる": 1
+    },
+    "created_at": "2026-10-15T07:44:15+00:00"
+  },
+  "i18n": {
+    "key": "997fcc1604",
+    "en": {
+      "title": "Afterglow of the Star Chart and the Night Festival of Prayer",
+      "premise": "Nagisa and Kai had reclaimed their shared daily life, their existences bound together by the act of sharing memories. Yet, Nagisa is still haunted by 'echoes'—symptoms where the memories of others blur into her own. On the night of the summer festival, the two are guided by an ancient star chart toward the place where lost memories reside. This is a story of a gentle, yet painful reunion, meant to fill a void left behind."
+    },
+    "zh": {
+      "title": "星图的残光与祈愿之夜祭",
+      "premise": "凪沙与櫂通过共享记忆维系着彼此的存在，并重新找回了共同生活的日常。然而，凪沙的身体偶尔会出现名为“残响”的症状，使他人的记忆在脑海中混杂。在夏祭之夜，两人被古老传闻中的“星图”引导，前往寻找失落记忆的所在。这是一个为了填补某人的缺失，温柔而又伴随着疼痛的重逢故事。"
+    }
+  }
+}

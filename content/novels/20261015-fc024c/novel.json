@@ -50,5 +50,16 @@
       "SF考証の鬼": 1
     },
     "created_at": "2026-10-15T05:46:54+00:00"
+  },
+  "i18n": {
+    "key": "9f548ada59",
+    "en": {
+      "title": "Engine of the Azure Sky and Forgotten Memories: The Nameless Cat and the Wind's Route",
+      "premise": "Kaito, a pilot of the small flying boat \"Sky Runner,\" was chasing rumors of the Memory Market, a black market where memories are bought and sold. There, he meets a mysterious beast who has lost its owner's memories and become a \"nameless cat.\" Their journey to trace the fragments of the cat's lost memories eventually leads them to the true identity of the colossal storm ruling the skies of the world. Cutting through the wind and roaring their engine, Kaito and his companions race across the sea of clouds in search of the lost truth!"
+    },
+    "zh": {
+      "title": "苍穹引擎与遗忘追忆：无名之猫与风之航路",
+      "premise": "驾驶小型飞行艇“天行者号”的操纵士凯特（Kaito），一直在追查买卖记忆的黑市“记忆市场”的传闻。在那里，他遇到了一只失去主人记忆、变成“无名之猫”的神奇野兽。追寻这只猫失去的记忆碎片的旅程，最终指向了统治世界天空的巨大风暴的真相。切风破浪，引擎轰鸣，凯特一行人为了找寻失落的真相，在云海中纵横驰骋！"
+    }
   }
 }

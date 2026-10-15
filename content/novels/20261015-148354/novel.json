@@ -1,0 +1,51 @@
+{
+  "id": "20261015-148354",
+  "title": "雨垂れの記憶と、錆びた歯車のコンパス",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-15T05:55:33+00:00",
+  "updated_at": "2026-10-15T05:56:59+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "sequel_of": "20261012-4bb132",
+  "prediction": {
+    "chapter": 2,
+    "question": "次章でカイは何を選ぶ？",
+    "options": [
+      "海底遺跡に潜り、記憶を解く",
+      "リナと共に真鍮の鍵を再発見",
+      "エララの過去を追い、裏切りを知る"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "元文芸部部長": 0,
+      "夢見る書店員の卵": 1,
+      "推しが尊い民": 1,
+      "全話精読の批評家": 2,
+      "ゆるふわSF好き": 0,
+      "ハッピーエンド信者": 1,
+      "台本読みの声優": 0,
+      "タイトル買い": 1
+    },
+    "created_at": "2026-10-15T05:57:03+00:00"
+  },
+  "i18n": {
+    "key": "de858e742f",
+    "en": {
+      "title": "Memories of Raindrops and the Rusted Gear Compass",
+      "premise": "Six months after the final battle of the previous installment, Kai and Lina live alongside the minute noise etched into the system. Upon hearing rumors of the 'Sea Ruins'—clusters of old-era data servers sunken beneath the city's seabed—and guided by a new reaction from the brass key once left by Elara, they embark on a journey to recover fragments of true memories, long forgotten behind the lights of the 'Sleepless City.' In the gaps of an optimized daily life, this is a story of two people groping to piece together their imperfect pasts and futures."
+    },
+    "zh": {
+      "title": "雨滴的回忆与生锈齿轮的指南针",
+      "premise": "前作决战半年后，在刻入系统的微小噪音中生存着的 Kai 与 Lina，听闻了沉没在城市海底的旧时代数据服务器群——“海底遗迹”的传闻。受曾经由 Elara 留下的黄铜钥匙所产生的全新反应指引，他们踏上了回收真相记忆碎片的旅程；而这些记忆，早已在人们所依赖的“不眠之城”的光芒背后被世人遗忘。这是一个在高度效率化的日常缝隙中，通过摸索将自己不完美的过去与未来重新连接起来的故事。"
+    }
+  }
+}

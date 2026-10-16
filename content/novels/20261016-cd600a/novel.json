@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-16T04:25:13+00:00"
   },
-  "cover": "images/20261016-cd600a/cover.webp"
+  "cover": "images/20261016-cd600a/cover.webp",
+  "i18n": {
+    "key": "a188d28d49",
+    "en": {
+      "title": "The Used Bookstore in the Sleepless City: Still Grandly Misreading Today!",
+      "premise": "In a quiet corner of the never‑sleeping metropolis known as the Sleepless City, shopkeeper Ren devotes himself more to fueling customers' misunderstandings than to actually selling books. One day a self‑proclaimed master assassin—who is really just an extremely shy woman—stops by. Her harmless remarks are quickly blown out of proportion, spiraling into a city‑wide fiasco born of mistaken interpretations. As the lines between the stories on the shelves and reality blur, the chaos somehow races toward a surprisingly peaceful resolution. All sparked by a literal “misreading” of a single volume, the tale erupts into a comedic whirlwind."
+    },
+    "zh": {
+      "title": "不夜城的旧书店，今天依旧盛大地读错中！",
+      "premise": "在被称为不夜城的永不入眠的城市角落，店主青年Ren把‘让顾客产生误会’当成比‘卖书’更重要的使命。某天，一位自称是‘高手暗杀者’的女性顾客来到店里——其实她只是极度害羞的人。她的一句无意的言行被误解，逐渐演变成卷入全城的大事件。书中的情节与现实交错错位，事态却莫名其妙地向和平的方向失控。所有混乱都源自一本书的字面‘读错’，由此展开一场闹腾的喜剧剧场。"
+    }
+  }
 }

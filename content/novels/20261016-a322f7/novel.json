@@ -35,5 +35,16 @@
     },
     "created_at": "2026-10-16T21:44:51+00:00"
   },
-  "cover": "images/20261016-a322f7/cover.webp"
+  "cover": "images/20261016-a322f7/cover.webp",
+  "i18n": {
+    "key": "8dad58b38d",
+    "en": {
+      "title": "Inventory of Our Memories",
+      "premise": "Driven by a dream to become an estate organizer, a newcomer begins to realize that his job is more than just tidying up—it is about 'organizing the lives of those who have passed.' But everything changes when he discovers a mysterious will and a fragmented 'secret map' among the belongings of a former cartographer. As we unravel the hidden meanings within each relic, we embark on a journey to find what the deceased truly intended to leave behind."
+    },
+    "zh": {
+      "title": "我们记忆的盘点",
+      "premise": "怀揣着对遗品整理师这一职业的憧憬而入职的新人“我”，在工作中逐渐领悟到，这份工作不仅仅是简单的收拾整理，更是“整理故人人生”的使命感。某天，在一位前地图制作者的遗物中，他发现了一份附带神秘条件的遗嘱和一张残缺不全的“秘密地图”。我们一边解开每一件遗物中所隐藏的意义，一边踏上了寻找地图所指向的“故人真正想要留下的东西”的旅程。"
+    }
+  }
 }

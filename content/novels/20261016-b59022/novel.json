@@ -52,5 +52,16 @@
     },
     "created_at": "2026-10-16T21:50:00+00:00"
   },
-  "cover": "images/20261016-b59022/cover.webp"
+  "cover": "images/20261016-b59022/cover.webp",
+  "i18n": {
+    "key": "6cda56b456",
+    "en": {
+      "title": "Prism of Reverberations and the Village Lost in a Silver Melody",
+      "premise": "The world is shaped by the melodies it plays, and dissonance invites disaster. When a 'Silent Village' vanishes from the map without a trace, the fates of three musicians intertwine: a pursuing musician, a songstress stripped of her memories, and a melody imprisoned within a mirror. When their voices finally harmonize, the long-lost chord of truth shall resonate across the world."
+    },
+    "zh": {
+      "title": "残响之棱镜与消失在银色旋律中的村庄",
+      "premise": "世界由奏响的旋律构成，而不和谐音则会招致灾厄。某日，围绕着从地图上忽然消失的“无声之村”的谜团，三位演奏者的命运交织在一起。追寻真相的乐师、失去记忆的歌姬，以及被囚禁在镜中的旋律。当他们的歌声重叠之时，失落于世的真实和弦将响彻寰宇。"
+    }
+  }
 }

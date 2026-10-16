@@ -1,0 +1,66 @@
+{
+  "id": "20261016-8b0cea",
+  "title": "長屋の蒸気と、名もなき猫の縁",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-16T12:20:42+00:00",
+  "updated_at": "2026-10-16T12:23:37+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "inspired_by": [
+    {
+      "novel": "20261008-f54c9e",
+      "title": "瑠璃色の夜会と忘却の遺言",
+      "author": "蘭 マリア",
+      "chapter": 1,
+      "goods": [
+        "カイル様とエリス様の運命的な出会い",
+        "ヒロインの凛とした強さ",
+        "キャラ同士の熱い掛け合い",
+        "キャラ同士の距離感と緊迫感",
+        "情景が浮かぶ美しい文体"
+      ],
+      "at": "2026-10-16T12:20:42+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "次回、箱は人々の願いを映す？",
+    "options": [
+      "箱が人の心を映し出す",
+      "猫が箱を破壊し運命を変える",
+      "箱は実は江戸の未来を語る"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "新着チェッカー": 1,
+      "ミステリー初心者": 0,
+      "夢見る書店員の卵": 2,
+      "純文学の亡霊": 0,
+      "SF考証の鬼": 2,
+      "お茶請け読書": 1,
+      "放課後の図書委員": 0,
+      "伏線回収マニア": 0
+    },
+    "created_at": "2026-10-16T12:23:39+00:00"
+  },
+  "i18n": {
+    "key": "56655ad832",
+    "en": {
+      "title": "Steam in the Tenement and the Bond of a Nameless Cat",
+      "premise": "Genzaburo is a skilled carpenter with a sharp tongue. One day, he discovers a mysterious \"iron box that breathes steam\" of unknown origin. As the residents of the tenement are swept up in the chaos of this strange machine and their pursuit of efficiency, a nameless calico cat remains a constant companion. As the true nature of the machine and the poignant wish hidden within are revealed, a wave of warmth and tears washes over the town of Edo."
+    },
+    "zh": {
+      "title": "長屋的蒸汽與無名貓的緣分",
+      "premise": "手藝精湛但口才糟糕的木匠源三郎，某天撿到了一個來源不明、會「噴出蒸汽的不思議鐵箱」。長屋的居民們被這台奇妙的機器搞得團團轉，在追求效率的過程中陷入了一場大騷動，而身邊始終陪伴著一隻無名的三色貓。隨著機器的真面目以及其中蘊含的悲切願望逐漸揭曉，江戶之町流下了溫暖的淚水。"
+    }
+  }
+}

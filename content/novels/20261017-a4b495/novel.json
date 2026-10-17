@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-17T01:01:22+00:00"
   },
-  "cover": "images/20261017-a4b495/cover.webp"
+  "cover": "images/20261017-a4b495/cover.webp",
+  "i18n": {
+    "key": "a612007262",
+    "en": {
+      "title": "Cradle of Heat Haze, or the Terminal Station",
+      "premise": "Wandering through the parched desert of my own mind, I stumble upon a lush, sudden oasis. There, a gentle woman offers me a seat on the 'Final Train'—a journey that promises liberation from everything. But with every blast of the train's whistle, a muddy, crimson dissonance begins to stir beneath the surface of this peace."
+    },
+    "zh": {
+      "title": "阳炎之摇篮，或者终末之站",
+      "premise": "“我”在干涸的精神沙漠中徘徊，直到抵达了一处突如其来的绿意盎然的绿洲。在那里，一位温柔的女性向我提议，乘坐那列能将我从一切中解脱出来的“最终列车”。然而，每当列车的汽笛响起，潜藏在这份安宁之下的、那抹浑浊的红色违和感便开始悄然抬头。"
+    }
+  }
 }

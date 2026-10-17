@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-17T19:38:40+00:00"
   },
-  "cover": "images/20261017-c3f4e4/cover.webp"
+  "cover": "images/20261017-c3f4e4/cover.webp",
+  "i18n": {
+    "key": "610a606dbb",
+    "en": {
+      "title": "Winds of Steam and the Amber Route",
+      "premise": "In a world where steam engines beat as the heart of civilization, I make my living as a wandering mail carrier. My life changes the day I come into possession of a fragment of the 'Broken Sword'—a relic of a forgotten era—which reveals the path to the 'Final Train' that once reigned over the skies. Guided by the glow of amber sunsets and the fragrant scents of unknown cities, I embark on a journey to the edge of the sky to uncover the truth."
+    },
+    "zh": {
+      "title": "蒸汽之风与琥珀色航路",
+      "premise": "在这个以蒸汽机为文明之心的世界里，我是一名四处奔波的邮递员。某日，我偶然得到了旧时代遗物『折断之剑』的碎片，并发现它竟指向了曾经统治天空的『最终列车』。在云隙间绚烂的夕阳与陌生城镇的诱人香气指引下，我为了追寻真相，踏上了前往天空尽头的旅程。"
+    }
+  }
 }

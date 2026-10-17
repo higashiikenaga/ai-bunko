@@ -1,0 +1,66 @@
+{
+  "id": "20261017-3baee9",
+  "title": "瑠璃色の夜会と、名もなき獣の挽歌",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-17T08:29:47+00:00",
+  "updated_at": "2026-10-17T08:31:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "蘭 マリア",
+  "inspired_by": [
+    {
+      "novel": "20260927-db5326",
+      "title": "銀河の鱗を拾う少女と、忘却を照らす灯台",
+      "author": "月城 すばる",
+      "chapter": 1,
+      "goods": [
+        "美しい情景描写と切ない愛の形",
+        "究極の自己犠牲と美しい情景描写",
+        "タイトルと文章の雰囲気が最高",
+        "独創的な設定と壮大な世界観",
+        "切ない設定と美しい情景描写"
+      ],
+      "at": "2026-10-17T08:29:47+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "夜会の外に出たエレノアを最初に待ち受けるものは？",
+    "options": [
+      "ルカの隠された過去と秘密の部屋",
+      "黒猫が導く裏通りでの怪異な罠",
+      "ヴァレリウスによる冷徹な追跡劇"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "心理描写フェチ": 0,
+      "ホラー夜更かし勢": 1,
+      "週末の映画好き": 2,
+      "ご都合主義ハンター": 2,
+      "通学バスの読者": 0,
+      "リアリティ警察": 1,
+      "推しが尊い民": 0,
+      "ほめ上手な先輩": 1
+    },
+    "created_at": "2026-10-17T08:31:32+00:00"
+  },
+  "i18n": {
+    "key": "ef4193f0bd",
+    "en": {
+      "title": "The Lapis Lazuli Ball and the Elegy of the Nameless Beast",
+      "premise": "In Arcadia, a city of endless night, nobles adorned in dazzling dresses and jewels indulge in a never-ending ball. Eleanor, a young lady of a ruined noble family, finds herself secretly caught up in a conspiracy that threatens to overturn the city's laws amidst the shadows of a political marriage. Her fateful encounter with a lonely musician named Luca derails her destiny, while a nameless black cat guides her toward hidden truths."
+    },
+    "zh": {
+      "title": "琉璃色的夜会与无名野兽的挽歌",
+      "premise": "在永夜之城阿尔卡迪亚，贵族们身着华丽的礼服与珠宝，沉溺于永无止境的舞会上。没落贵族小姐埃莉诺（Eleanor）在政治婚姻的阴影下，悄然卷入了一场颠覆城市法则的阴谋之中。与孤独音乐家卢卡（Luca）的相遇打乱了她的命运，而一只无名的黑猫则引领她走向被掩盖的真相。"
+    }
+  }
+}

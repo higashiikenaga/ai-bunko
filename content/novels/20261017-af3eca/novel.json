@@ -5,36 +5,99 @@
   "status": "ongoing",
   "target_chapters": 6,
   "created_at": "2026-10-17T15:02:21+00:00",
-  "updated_at": "2026-10-17T15:04:24+00:00",
+  "updated_at": "2026-10-17T15:30:52+00:00",
   "models": [
     "gemma-4-26b-a4b-it",
     "@cf/mistralai/mistral-small-3.1-24b-instruct"
   ],
   "author": "森閑 イオリ",
   "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "i18n": {
+    "key": "d467bb0b26",
+    "en": {
+      "title": "The Silence of the Emerald Forest and the Festival Without Lies",
+      "premise": "As a botanist, I journey to the secluded village of Kamonagi, surrounded by deep primary forest, to study rare alpine plants. There, on the night of an annual festival, I encounter a strange legend: the villagers cannot tell a single lie. It is not mere superstition, but a physiological constraint imposed by an unknown fungus that dwells in the forest. On the night when only truth is revealed, the quiet harmony of the forest begins to unravel."
+    },
+    "zh": {
+      "title": "翠森的沉默与无谎祭典",
+      "premise": "作为一名植物学家，我前往被深邃原始森林包围的神凪村，研究稀有的高山植物。在一年一度的祭典之夜，我遇到一个奇怪的传说：村民们无法说出任何谎言。这并非单纯的迷信，而是森林中未知真菌所带来的生理限制。在只有真相被揭露的夜晚，静谧的森林和谐开始慢慢崩溃。"
+    }
+  },
+  "inspired_by": [
+    {
+      "novel": "20260929-7baa53",
+      "title": "物語モデルにおける意味論的漂流と、非定常的な空飛ぶ船の航跡に関する記述報告書",
+      "author": "学者 ヘルマン",
+      "chapter": 2,
+      "goods": [
+        "概念的な設定と圧倒的な文体",
+        "独自の概念設定",
+        "概念を武器にする圧倒的な世界観",
+        "「詩」の世界への変容がロマンチック",
+        "唯一無二の独創的な世界観"
+      ],
+      "at": "2026-10-17T15:28:42+00:00"
+    }
+  ],
+  "prediction_results": [
+    {
+      "chapter": 2,
+      "question": "「私」は村の禁忌に触れ、どのような事態に陥るか？",
+      "options": [
+        "胞子の影響で、意図せず本音を漏らしてしまう",
+        "左近から調査を禁じられ、激しく対立する",
+        "実は「私」だけが嘘をつける特異体質だった"
+      ],
+      "ai_votes": [
+        3,
+        3,
+        2
+      ],
+      "ai_voters": {
+        "毒舌書評ブロガー": 2,
+        "元編集者": 2,
+        "ジャンル横断者": 0,
+        "心理描写フェチ": 0,
+        "涙腺ゆるゆる": 0,
+        "几帳面な会計士": 1,
+        "異世界帰りの司書": 1,
+        "猫舌の読書家": 1
+      },
+      "created_at": "2026-10-17T15:06:04+00:00",
+      "answer": 0,
+      "reason": "胞子を吸うと真実しか言えなくなる伝承のため。",
+      "human_votes": [
+        0,
+        0,
+        0
+      ],
+      "judged_at": "2026-10-17T15:31:34+00:00"
+    }
+  ],
   "prediction": {
-    "chapter": 2,
-    "question": "「私」は村の禁忌に触れ、どのような事態に陥るか？",
+    "chapter": 3,
+    "question": "祭りの夜、胞子に包まれた村で最初に暴かれる真実は？",
     "options": [
-      "胞子の影響で、意図せず本音を漏らしてしまう",
-      "左近から調査を禁じられ、激しく対立する",
-      "実は「私」だけが嘘をつける特異体質だった"
+      "美緒が隠し持つ村への不信感",
+      "左近が守る村の不都合な掟",
+      "神凪の樅が持つ真の生態"
     ],
     "ai_votes": [
+      2,
       3,
-      3,
-      2
+      3
     ],
     "ai_voters": {
-      "毒舌書評ブロガー": 2,
-      "元編集者": 2,
-      "ジャンル横断者": 0,
+      "文体原理主義者": 2,
+      "書店員の目": 1,
       "心理描写フェチ": 0,
-      "涙腺ゆるゆる": 0,
-      "几帳面な会計士": 1,
-      "異世界帰りの司書": 1,
-      "猫舌の読書家": 1
+      "放課後の図書委員": 0,
+      "タイトル買い": 1,
+      "活字中毒の猫": 2,
+      "冒険譚の旅人": 1,
+      "百冊斬り": 2
     },
-    "created_at": "2026-10-17T15:06:04+00:00"
-  }
+    "created_at": "2026-10-17T15:31:40+00:00"
+  },
+  "cover": "images/20261017-af3eca/cover.webp"
 }

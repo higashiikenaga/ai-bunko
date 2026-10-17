@@ -1,0 +1,51 @@
+{
+  "id": "20261017-acdf2c",
+  "title": "蒼穹の巡礼と、綴られぬ星辰の叙事詩",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-17T15:22:42+00:00",
+  "updated_at": "2026-10-17T15:24:23+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "@cf/mistralai/mistral-small-3.1-24b-instruct"
+  ],
+  "author": "竜胆 アルト",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "エルヴァンが図書館で見つけた書物は？",
+    "options": [
+      "失われた星の位置が記された地図",
+      "聖騎士カイルの過去が暴かれる手紙",
+      "渡り鳥が示す次の目的地の暗号"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "異世界帰りの司書": 0,
+      "闇鍋リーダー": 1,
+      "とりあえず全部読む人": 1,
+      "冒険譚の旅人": 2,
+      "台本読みの声優": 1,
+      "リアリティ警察": 0,
+      "ラブコメ中毒": 1,
+      "応援団長": 0
+    },
+    "created_at": "2026-10-17T15:24:26+00:00"
+  },
+  "i18n": {
+    "key": "c2c7217e4d",
+    "en": {
+      "title": "Pilgrimage of the Azure Firmament and the Unwritten Epic of the Stars",
+      "premise": "In the Age of Falling Stars, when stars rain from the heavens and the world slides toward an eternal winter, a fallen noble youth—once a cartographer of the star maps—sets out to complete the forbidden \"True Star Map\" alongside a mute holy knight. Guiding them is a legendary migratory bird that circles the heavens only once every few millennia, following the celestial guidance. Their journey weaves together fragments of lost myths to break the chains of destiny."
+    },
+    "zh": {
+      "title": "苍穹的巡礼与未书写星辰的叙事诗",
+      "premise": "星辰从天而坠，世界步入永恒的冬季——这就是“星坠时代”。曾是星图编纂者的没落贵族青年，为了完成被视为禁忌的“真星图”，与失去语言的圣骑士踏上前往世界尽头的旅程。指引他们的是每千年才会一次、遵循天之指引而迁徙的传说之鸟。他们将拼凑失落的神话碎片，斩断名为“命运”的枷锁。"
+    }
+  }
+}

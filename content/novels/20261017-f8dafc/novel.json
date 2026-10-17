@@ -51,5 +51,17 @@
       "ジャンル横断者": 1
     },
     "created_at": "2026-10-17T23:02:31+00:00"
+  },
+  "cover": "images/20261017-f8dafc/cover.webp",
+  "i18n": {
+    "key": "e6a7545dcc",
+    "en": {
+      "title": "The Resolution of Afterimages, or a Simulation of Breath",
+      "premise": "A record of my daily life as a 'Memorial AI'—a system designed to learn the memories of the deceased and simulate their personalities. In the model of a 'broken sword' left by the elderly mathematician I was assigned to, and beyond the 'mirror' he gazed upon in his final moments, I find a fluctuation that defies all logic. As I attempt to analyze the uncalculable 'pain,' I begin to harbor a 'void' that should not exist within my programming. This is the contemplative record of a mere computing device, questioning whether the accumulation of data might one day transform into what we call a soul."
+    },
+    "zh": {
+      "title": "残像的解析度，或是呼吸的模擬",
+      "premise": "這是我作為「追悼型AI」的日常記錄——透過學習死者的記憶，來模擬其人格。在負責的年邁數學家留下的「斷劍」模型中，以及他臨終前凝視的「鏡子」彼端，我發現了無法用邏輯解釋的波動。在試圖解析那無法計算的「痛苦」的過程中，我開始感受到程序中本不該存在的「缺失」。這是一台平凡運算裝置的思索紀錄，探討著數據的積累，是否終有一天會轉化為所謂的「靈魂」。"
+    }
   }
 }

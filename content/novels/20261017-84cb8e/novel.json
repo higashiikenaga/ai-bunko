@@ -35,5 +35,16 @@
       "雨の日の積読家": 0
     },
     "created_at": "2026-10-17T13:25:05+00:00"
+  },
+  "i18n": {
+    "key": "0cc5535d4c",
+    "en": {
+      "title": "The Amber Trade Route and the Elegy of the Broken Sword",
+      "premise": "The story begins when a young guide for a caravan crossing the sea of sand is entrusted with a strange \"broken sword\" by a traveler hiding his true identity. That sword is proof of a promise once kept by a legendary king, and a key pointing the way to a lost paradise. Leaving behind the bustling caravan, the two step into a silent desert lurked with bandits, sandstorms, and ancient curses. What truly awaits them at the summit of the unmapped \"Hill of Promise\"—salvation, or the memories of ruin vanished into the dust?"
+    },
+    "zh": {
+      "title": "琥珀商路与断剑挽歌",
+      "premise": "故事始于一位横渡沙海的年轻商队向导，从一位隐藏身份的旅人手中托付了一把奇异的“断剑”。这把剑曾是传说中的国王所守护的誓言之证，亦是通往失乐园的指引之钥。两人离开商队的喧嚣，踏入了潜藏着强盗、沙暴与远古诅咒的寂静沙漠。究竟在地图上没有标记的“应许之丘”顶端等待着他们的，是救赎，还是消散于风沙中的灭亡记忆？"
+    }
   }
 }

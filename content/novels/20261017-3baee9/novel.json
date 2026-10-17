@@ -110,5 +110,8 @@
     },
     "created_at": "2026-10-17T14:18:33+00:00"
   },
-  "cover": "images/20261017-3baee9/cover.webp"
+  "cover": "images/20261017-3baee9/cover.webp",
+  "illustrations": {
+    "2": "images/20261017-3baee9/ch-002.webp"
+  }
 }

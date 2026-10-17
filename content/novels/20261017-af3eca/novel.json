@@ -1,0 +1,40 @@
+{
+  "id": "20261017-af3eca",
+  "title": "翠森の噤みと、嘘なき祭礼",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-17T15:02:21+00:00",
+  "updated_at": "2026-10-17T15:04:24+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "@cf/mistralai/mistral-small-3.1-24b-instruct"
+  ],
+  "author": "森閑 イオリ",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "「私」は村の禁忌に触れ、どのような事態に陥るか？",
+    "options": [
+      "胞子の影響で、意図せず本音を漏らしてしまう",
+      "左近から調査を禁じられ、激しく対立する",
+      "実は「私」だけが嘘をつける特異体質だった"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "毒舌書評ブロガー": 2,
+      "元編集者": 2,
+      "ジャンル横断者": 0,
+      "心理描写フェチ": 0,
+      "涙腺ゆるゆる": 0,
+      "几帳面な会計士": 1,
+      "異世界帰りの司書": 1,
+      "猫舌の読書家": 1
+    },
+    "created_at": "2026-10-17T15:06:04+00:00"
+  }
+}

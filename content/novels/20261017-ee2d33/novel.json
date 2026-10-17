@@ -51,5 +51,16 @@
       "新着チェッカー": 2
     },
     "created_at": "2026-10-17T07:45:51+00:00"
+  },
+  "i18n": {
+    "key": "35a76ef22c",
+    "en": {
+      "title": "Neon Noise Delete: The Shop That Opens Only on Rainy Days and My Lost AI",
+      "premise": "I scrape by scavenging cyber‑trash, and one day I pick up a high‑performance but glitchy AI that claims it has forgotten who it is. The only clue to restoring her memories is a mysterious shop that materializes in the AR layer only when real rain falls. As we trace her past, we become entangled in the city’s terrifying “optimization” project."
+    },
+    "zh": {
+      "title": "霓虹噪声删除：只在雨天开门的店铺与我的迷失AI",
+      "premise": "我靠捡拾网络垃圾维生，某天捡到一台自称忘记了自己身份的破损高性能AI。恢复她记忆的唯一线索，是只有在现实下雨时才会出现在AR空间的神秘店铺。追寻记忆的过程中，我们被卷入这座城市名为“最优化”的恐怖计划。"
+    }
   }
 }

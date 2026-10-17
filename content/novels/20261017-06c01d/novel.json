@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-17T06:36:50+00:00"
   },
-  "cover": "images/20261017-06c01d/cover.webp"
+  "cover": "images/20261017-06c01d/cover.webp",
+  "i18n": {
+    "key": "26ba5fc606",
+    "en": {
+      "title": "Geometry of Shadows and the Diminished Moonlight",
+      "premise": "On the night of a total lunar eclipse, a renowned astronomer is discovered dead in a sealed chamber on the top floor of an ancient lighthouse on a remote island. The windows are locked from the inside and the only entrance is shut tight. The only traces left behind are astronomical instruments set at an odd angle and a bizarre geometric pattern traced by the eclipse’s shadow. A cold‑hearted detective tackles the physical contradictions and the \"visual locked‑room\" mystery caused by the vanishing light."
+    },
+    "zh": {
+      "title": "影之几何与缺损的月光",
+      "premise": "在一次月全食的夜晚，一位著名天文学家被发现在孤岛古老灯塔最上层的密闭房间中死亡。窗户从内部上锁，唯一的出入口也被封闭。现场唯一留下的线索是以异常角度摆放的天文观测仪器以及月食阴影绘出的奇异几何图案。一位冷峻的侦探将破解由光的消失所制造的“视觉密室”之谜以及其中的物理矛盾。"
+    }
+  }
 }

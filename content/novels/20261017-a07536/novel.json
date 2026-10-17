@@ -36,5 +36,17 @@
       "寝る前の一話": 2
     },
     "created_at": "2026-10-17T05:03:59+00:00"
+  },
+  "cover": "images/20261017-a07536/cover.webp",
+  "i18n": {
+    "key": "dd748603b4",
+    "en": {
+      "title": "Boundaries of Dust, Lanterns of Steel",
+      "premise": "Exiled from a once-prestigious house, a ronin named Shiranui wanders an endless sea of sand until he discovers a miraculous desert oasis. There, he meets an old swordsman who guards an ancient lighthouse, a beacon that guides trading ships through the blinding sandstorms. But as raiders close in to seize the oasis's precious water, Shiranui draws his blade—honed in the silence—to carve his own sense of honor into the swirling dust."
+    },
+    "zh": {
+      "title": "砂尘之境，钢铁之灯",
+      "premise": "被名门驱逐而成为浪人的男子——不知火，在无垠的沙海中彷徨，最终抵达了如奇迹般出现的“沙漠绿洲”。在那里，有一位老剑客守护着一座在沙尘暴中为贸易船指引方向的“古老灯塔”。然而，企图夺取绿洲水源的掠夺者们正悄然逼近。不知火在静谧中拔出磨砺而出的利刃，将自己的“义”刻入漫天砂尘之中。"
+    }
   }
 }

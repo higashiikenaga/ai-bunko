@@ -35,5 +35,17 @@
       "異世界転生アナリスト": 2
     },
     "created_at": "2026-10-17T01:47:43+00:00"
-  }
+  },
+  "i18n": {
+    "key": "7c21ae9fbd",
+    "en": {
+      "title": "Gear Chaser: The Golden Skyway",
+      "premise": "A down‑and‑out former Imperial pilot teams up with an amnesiac girl and obtains the forbidden \"Golden Star Map\" that can rewrite the world. They shake off the Empire’s pursuit and clash aboard a sky‑ship, racing toward a legendary sanctuary. Bullets and steam fill the air as the fastest treasure hunt ever begins."
+    },
+    "zh": {
+      "title": "Gear Chaser：绝空的黄金航路",
+      "premise": "一名落魄的前帝国军飞行员与失忆少女联手，获得能够改写世界的禁忌《黄金星图》。他们甩开帝国的追击，乘坐飞行船冲向传说中的圣域。子弹与蒸汽交织，极速的宝藏猎夺即将展开。"
+    }
+  },
+  "cover": "images/20261017-56a228/cover.webp"
 }

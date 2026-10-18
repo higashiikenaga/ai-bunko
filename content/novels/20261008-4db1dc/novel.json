@@ -82,7 +82,8 @@
   "cover": "images/20261008-4db1dc/cover.webp",
   "illustrations": {
     "1": "images/20261008-4db1dc/ch-001.webp",
-    "5": "images/20261008-4db1dc/ch-005.webp"
+    "5": "images/20261008-4db1dc/ch-005.webp",
+    "10": "images/20261008-4db1dc/ch-010.webp"
   },
   "prediction_results": [
     {

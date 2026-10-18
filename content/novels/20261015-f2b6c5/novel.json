@@ -151,10 +151,12 @@
     "3": "images/20261015-f2b6c5/ch-003.webp"
   },
   "audio": {
-    "1": "audio/20261015-f2b6c5/001.m4a"
+    "1": "audio/20261015-f2b6c5/001.m4a",
+    "2": "audio/20261015-f2b6c5/002.m4a"
   },
   "audio_ver": {
-    "1": 2
+    "1": 2,
+    "2": 2
   },
   "audio_voice": "Aoede"
 }

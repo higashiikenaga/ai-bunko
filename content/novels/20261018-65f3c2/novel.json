@@ -1,0 +1,51 @@
+{
+  "id": "20261018-65f3c2",
+  "title": "雨季の鏡、あるいは渡り鳥の証言",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-18T13:32:52+00:00",
+  "updated_at": "2026-10-18T13:33:48+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "神楽坂 探",
+  "sequel_of": "20261009-bc348e",
+  "prediction": {
+    "chapter": 2,
+    "question": "偽教授が残した鞄の中身と、彼の次の行動は？",
+    "options": [
+      "教授の遺品と思われる証拠品",
+      "謎の装置を起動させる",
+      "雨に紛れて店から逃走する"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 1,
+      "既視感センサー": 0,
+      "活字中毒の猫": 2,
+      "週末の長編派": 1,
+      "通勤電車の常連": 2,
+      "異世界転生アナリスト": 1,
+      "ハッピーエンド信者": 2,
+      "ご都合主義ハンター": 0
+    },
+    "created_at": "2026-10-18T13:34:08+00:00"
+  },
+  "i18n": {
+    "key": "dd6acabc73",
+    "en": {
+      "title": "Mirror of the Rainy Season, or the Testimony of a Migratory Bird",
+      "premise": "Following the events of the previous case, a scholar tasked with organizing the Saionji family estate is murdered in a locked room within 'Suikyodo'—a shop that opens only on rainy days. The only clues left behind are an out-of-season migratory bird feather and a reservation book marked with inexplicable times. Ren Kuga sets out to uncover the truth behind the 'temporal locked room' created by the rain."
+    },
+    "zh": {
+      "title": "雨季之镜，或候鸟之证言",
+      "premise": "在前作的事件之后，一名负责整理西园寺家遗产的学者，在仅于雨天营业的店铺『水镜堂』的密室中被杀。现场仅留下一根季节外的候鸟羽毛，以及一本记录着不可思议时间的预约簿。久我莲试图揭开由“雨”这一气象条件所构成的“时间性密室”之真相。"
+    }
+  }
+}

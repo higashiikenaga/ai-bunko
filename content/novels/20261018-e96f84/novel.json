@@ -1,0 +1,51 @@
+{
+  "id": "20261018-e96f84",
+  "title": "深紅のヴェルヴェットと歯車仕掛けの夜想曲",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-18T19:18:21+00:00",
+  "updated_at": "2026-10-18T19:19:46+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "混乱の中、ジュリアンがエララに駆け寄った先で何が起きる？",
+    "options": [
+      "エララが秘蔵の装置で暴走を食い止める",
+      "混乱に乗じてイザベラが二人を陥れる",
+      "蒸気機関が想定外の兵器へと変貌する"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 0,
+      "深夜テンションの読者": 2,
+      "異世界転生アナリスト": 1,
+      "毒舌書評ブロガー": 1,
+      "タイトル買い": 2,
+      "元編集者": 2,
+      "元文芸部部長": 0,
+      "ほのぼの愛好会": 0
+    },
+    "created_at": "2026-10-18T19:20:51+00:00"
+  },
+  "i18n": {
+    "key": "77b9401f22",
+    "en": {
+      "title": "Crimson Velvet and the Clockwork Nocturne",
+      "premise": "In the season of fresh greenery, a grand masquerade ball is held in the royal capital. Beneath the guise of a cutting-edge steam engine exhibition, bloody conspiracies over the right of succession stir in the shadows. Amidst the fever of the festival, noble ladies in exquisite gowns and ambitious schemers hidden behind masks cross paths. The fate of a nation and a forbidden love begin to spiral out of control to the rhythmic ticking of gears."
+    },
+    "zh": {
+      "title": "深红的丝绒与齿轮之夜曲",
+      "premise": "新绿之季，王都举行盛大的假面舞会。在先进的蒸汽机博览会的掩护下，围绕王位继承权的血腥阴谋正暗流涌动。身着华丽礼服的贵妇人与面具下微笑的野心家，在狂欢的节日之夜背后交织相遇。国家的命运与禁断之恋，随着齿轮的转动而逐渐失控。"
+    }
+  },
+  "cover": "images/20261018-e96f84/cover.webp"
+}

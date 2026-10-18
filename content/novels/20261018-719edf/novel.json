@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-18T05:04:06+00:00"
   },
-  "cover": "images/20261018-719edf/cover.webp"
+  "cover": "images/20261018-719edf/cover.webp",
+  "i18n": {
+    "key": "dfa6fed70a",
+    "en": {
+      "title": "Fallen Checkmate: Neon Echoes and the Fading Spring",
+      "premise": "Once hailed as a genius, Yuki lost everything to a single fatal miscalculation. Now, he drifts through the fringes of the sleepless city, a shadow of his former self. But as the cherry blossoms bloom, he is pulled back into the game by an underground tournament hosted by his old rival. Amidst the light trails of holographic pieces and the faint electric hum beneath his fingertips, a battle of desperation and hope unfolds in the neon night."
+    },
+    "zh": {
+      "title": "零落的将死：霓虹残响与匆匆凋零之春",
+      "premise": "曾被誉为天才的少年结城，因一次致命的预判失误而失去了一切，如今在不夜城的角落里过着如同废人般的生活。然而，当樱花再次覆盖这座城市，他被昔日宿敌举办的地下锦标赛重新拉回了战场。全息棋子划出的光之轨迹，指尖传来的微弱电信号。每一步棋中交织的绝望与希望，在霓虹闪烁的夜色中激烈碰撞。"
+    }
+  }
 }

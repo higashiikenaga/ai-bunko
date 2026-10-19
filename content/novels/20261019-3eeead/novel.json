@@ -1,0 +1,67 @@
+{
+  "id": "20261019-3eeead",
+  "title": "江戸長屋・正直双子騒動記",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-19T15:56:01+00:00",
+  "updated_at": "2026-10-19T15:57:41+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "inspired_by": [
+    {
+      "novel": "20261013-2c116b",
+      "title": "雨断の太刀",
+      "author": "剣持 隼人",
+      "chapter": 1,
+      "goods": [
+        "キャラ同士の緊張感と掛け合い",
+        "静と動の対比が美しい描写",
+        "情景描写と文体",
+        "宿敵同士の魂の共鳴",
+        "幻想的な雰囲気と筆力"
+      ],
+      "at": "2026-10-19T15:56:01+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "新次郎は兄の計画にどう対処する？",
+    "options": [
+      "新次郎が双子に対峙する",
+      "蓮二郎が嘘で新次郎を罠へ",
+      "新次郎、双子が実は別人だと知る"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 0,
+      "文体原理主義者": 2,
+      "異世界帰りの司書": 1,
+      "猫舌の読書家": 0,
+      "涙腺ゆるゆる": 2,
+      "ホラー夜更かし勢": 1,
+      "几帳面な会計士": 0,
+      "通勤電車の常連": 0
+    },
+    "created_at": "2026-10-19T15:57:43+00:00"
+  },
+  "cover": "images/20261019-3eeead/cover.webp",
+  "i18n": {
+    "key": "082d302224",
+    "en": {
+      "title": "Chronicles of the Honest Twins in an Edo Tenement",
+      "premise": "Shinjiro, a young man burdened by a strange curse that makes it impossible for him to lie, settles into a tenement house in Asakusa. His life is upended when his twin brother, Renjiro, appears—a man with his exact face, but one who can manipulate lies with effortless ease. As these polar opposites stir up chaos, they are embraced by the warm-hearted humanity of the people of Edo."
+    },
+    "zh": {
+      "title": "江户长屋：诚实双子的骚动记",
+      "premise": "背负着无法撒谎这一奇妙诅咒的青年——新次郎，搬进了浅草的长屋。然而出现在他面前的，却是拥有和他一模一样面孔、却能随心所欲操纵谎言的双胞胎哥哥——莲二郎。这对性格截然相反的双子所引发的一场场骚动，最终都被江户百姓们那温暖的人情味所包容。"
+    }
+  }
+}

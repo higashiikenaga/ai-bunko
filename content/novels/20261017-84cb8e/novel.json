@@ -195,5 +195,12 @@
   },
   "illustrations": {
     "3": "images/20261017-84cb8e/ch-003.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261017-84cb8e/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Kore"
 }

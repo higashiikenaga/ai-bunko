@@ -446,5 +446,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-17T22:58:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エララとアラリックの絆や、時計が放つ光の描写は胸を打ちましたが、全体的に暗さが強く、日常の温かさを求める私にはやや重く感じました。",
+    "good": "光の描写が美しい",
+    "bad": "暗さが強すぎ",
+    "chapters_read": 5,
+    "created_at": "2026-10-19T20:44:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

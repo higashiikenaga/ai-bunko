@@ -1,0 +1,50 @@
+{
+  "id": "20261019-e34b3b",
+  "title": "鋼の挽回",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-19T10:33:44+00:00",
+  "updated_at": "2026-10-19T10:35:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鉄 ハガネ",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイルが記憶を失った代償として、次に直面する試練とは？",
+    "options": [
+      "リナの記憶が侵食され始める",
+      "剣の力が暴走し自我を失う",
+      "帝国の追跡者が村の遺構を襲う"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 1,
+      "純文学の亡霊": 0,
+      "週末の長編派": 2,
+      "通学バスの読者": 0,
+      "涙腺ゆるゆる": 0,
+      "ほのぼの愛好会": 1,
+      "冒険譚の旅人": 2,
+      "百冊斬り": 1
+    },
+    "created_at": "2026-10-19T10:37:36+00:00"
+  },
+  "i18n": {
+    "key": "0d4462d287",
+    "en": {
+      "title": "Steel Redemption",
+      "premise": "One day, my village vanished from the map. All that remained in my hands was a single broken sword, its master long gone. In this world where warriors fight by selling off their very memories, I join forces with a girl—the sole survivor of my village—to bare my fangs against an Empire intent on consuming the world. Gripping my broken blade, I will reclaim everything that was stolen from me."
+    },
+    "zh": {
+      "title": "钢铁之挽回",
+      "premise": "某一天，我的故乡村庄从地图上消失了。手中仅剩下一柄失去了主人、断裂的长剑。在这个必须通过变卖记忆来战斗的世界里，我与村庄的唯一幸存少女一同，向着企图抹杀世界的帝国亮出了獠牙。紧握着断剑，我将夺回所有被剥夺的一切。"
+    }
+  }
+}

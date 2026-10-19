@@ -51,5 +51,17 @@
       "全肯定おばあちゃん": 0
     },
     "created_at": "2026-10-19T14:53:38+00:00"
+  },
+  "cover": "images/20261019-a75be9/cover.webp",
+  "i18n": {
+    "key": "8a6408d219",
+    "en": {
+      "title": "Beyond the Steam, With You",
+      "premise": "Exhausted by the grind of work, a young woman returns to her grandfather's home in search of refuge. Through the quiet moments they share, she begins to rediscover the strength of family bonds. Between the secrets of a 'broken sword' cherished by her grandfather and the recipes left behind by her late grandmother, her heart slowly begins to heal. Starting with the simple sound of the morning radio, this is a story of renewal and forgiveness."
+    },
+    "zh": {
+      "title": "在氤氲之中，与你",
+      "premise": "一名因工作而身心俱疲、像是逃避般回到祖父身边的女性，在共同生活的时光中重新找回家族羁绊的故事。祖父珍藏的“折断之剑”中隐藏的往事，以及亡故祖母留下的料理食谱，渐渐抚慰着她紧绷的心弦。从平凡的早晨广播开始，开启一段关于重生与宽恕的岁月。"
+    }
   }
 }

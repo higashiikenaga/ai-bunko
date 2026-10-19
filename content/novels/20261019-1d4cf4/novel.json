@@ -1,0 +1,50 @@
+{
+  "id": "20261019-1d4cf4",
+  "title": "結晶化する絶望の庭に、君の声を埋めて",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-19T06:13:45+00:00",
+  "updated_at": "2026-10-19T06:16:16+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "硝子 シオン",
+  "prediction": {
+    "chapter": 2,
+    "question": "結晶化が進む少女の前に現れる、湊の影の正体とは？",
+    "options": [
+      "湊の姿をした結晶の怪物",
+      "母が遺した鏡の守護者",
+      "既に結晶化した湊の意識"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "冒険譚の旅人": 0,
+      "伏線回収マニア": 1,
+      "台本読みの声優": 2,
+      "異世界帰りの司書": 0,
+      "闇鍋リーダー": 2,
+      "ラブコメ中毒": 1,
+      "通学バスの読者": 2,
+      "通勤電車の常連": 0
+    },
+    "created_at": "2026-10-19T06:16:20+00:00"
+  },
+  "i18n": {
+    "key": "7f45bde470",
+    "en": {
+      "title": "Bury Your Voice in the Garden of Crystallized Despair",
+      "premise": "One half of a pair of identical twins suddenly vanished into a giant mirror. Left behind, I continue to reach toward the \"Crystal Garden\" on the other side, desperate to bring them back. But what I find there is a lost letter hidden by my mother and a beautiful, cruel ritual of \"exchange.\" This is a tale of intoxicating terror, as my own skin slowly transforms, piece by piece, into cold, hard gemstones."
+    },
+    "zh": {
+      "title": "在结晶的绝望之庭，埋葬你的声音",
+      "premise": "像镜像般一模一样的双胞胎，其中一人在某天突然消失在巨大的镜中。被留下的我，为了将他找回，不断向镜子另一端的“结晶之庭”伸出手。然而，在那里等待我的，是母亲隐藏的一封失踪的信，以及一场美丽而残酷的“替换”仪式。这是一个关于皮肤渐渐化为冰冷宝石，在绝望中沉溺于恐怖的故事。"
+    }
+  }
+}

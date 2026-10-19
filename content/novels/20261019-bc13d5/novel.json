@@ -51,5 +51,17 @@
       "星一つの鬼": 2
     },
     "created_at": "2026-10-19T00:29:59+00:00"
-  }
+  },
+  "i18n": {
+    "key": "87248798f9",
+    "en": {
+      "title": "Roaring Streets: Truth Shot of the Sleepless City",
+      "premise": "Ren is a boy burdened by a curse: he is incapable of telling a lie. In the world of street basketball, where psychological warfare and bluffing reign supreme, his awkward honesty has left him isolated. However, his \"naked truth\" begins to stir the hearts of fallen geniuses, exhausted by a world of deception. Aiming for the top of the sleepless city, a passion devoid of lies will set the court ablaze."
+    },
+    "zh": {
+      "title": "咆哮之街：不眠之城的真相之彈",
+      "premise": "背負著無法撒謊之詛咒的少年——レン，在心理戰與虛張聲勢主宰的街頭籃球世界中，因其笨拙而陷入孤立。然而，他那「赤裸的真相」，卻觸動了那些對謊言感到疲憊、遭遇挫折的天才們的心。目標是登頂這座不眠之城，不含謊言的熱情將燃盡球場。"
+    }
+  },
+  "cover": "images/20261019-bc13d5/cover.webp"
 }

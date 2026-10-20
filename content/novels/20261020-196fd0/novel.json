@@ -1,0 +1,51 @@
+{
+  "id": "20261020-196fd0",
+  "title": "星図のあとに、灯台の光を",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-20T03:52:28+00:00",
+  "updated_at": "2026-10-20T03:54:18+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "猫柳 すず",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "星図と灯台のリズムが重なった時、二人は何を見つける？",
+    "options": [
+      "灯台の地下に隠された古い扉",
+      "星図に記された新たな暗号",
+      "かつて誰かが残した手紙"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "雨の日の積読家": 0,
+      "週末の長編派": 0,
+      "寝る前の一話": 1,
+      "全話精読の批評家": 2,
+      "元新人賞下読み": 1,
+      "純文学の亡霊": 2,
+      "夢見る書店員の卵": 1,
+      "リアリティ警察": 0
+    },
+    "created_at": "2026-10-20T03:54:22+00:00"
+  },
+  "i18n": {
+    "key": "f73642e21a",
+    "en": {
+      "title": "Beyond the Star Chart, the Lighthouse Light",
+      "premise": "In a quiet seaside town, an old star chart arrives at the secondhand bookstore run by a woman. It is a mysterious gift that also serves as a map to the \"old lighthouse\" that once stood in this town. By following the celestial patterns marked on the map, she uncovers hidden memories of small acts of kindness left behind by someone. This is a story of unraveling the feelings of a family, once severed by a misunderstanding."
+    },
+    "zh": {
+      "title": "星图之后，灯塔之光",
+      "premise": "在宁静的海滨小镇，经营着二手书店的“我”收到了一份古老的星图。这是一份神秘的礼物，它同时也是一张通往曾存在于这座小镇的“旧灯塔”的地图。循着地图上记载的星象排列，其中隐藏着某人留下的微小善意记忆。这是一个解开因误解而中断的、某段家族情感的故事。"
+    }
+  }
+}

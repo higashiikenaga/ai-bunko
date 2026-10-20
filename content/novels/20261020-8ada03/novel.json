@@ -1,0 +1,67 @@
+{
+  "id": "20261020-8ada03",
+  "title": "銀河の滴と、名前のない猫の足跡",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-20T07:02:06+00:00",
+  "updated_at": "2026-10-20T07:03:58+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "灯守 ルカ",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "inspired_by": [
+    {
+      "novel": "20260928-7affcf",
+      "title": "残響のレクイエムと終焉の最終列車",
+      "author": "吟遊 ノクト",
+      "chapter": 1,
+      "goods": [
+        "旅の疾走感と三人の共鳴シーン",
+        "幻想的な情景描写と文体",
+        "キャラ同士の情緒的な掛け合い",
+        "音楽的な情景描写",
+        "タイトルの雰囲気と世界観"
+      ],
+      "at": "2026-10-20T07:02:06+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "銀色の猫が示す星図の先は？",
+    "options": [
+      "星の記憶が宿る古代遺跡へ向かう",
+      "失われた星の船団と遭遇する",
+      "猫が別の銀色の鍵を渡す"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "ほめ上手な先輩": 0,
+      "元新人賞下読み": 1,
+      "歴史散歩の人": 0,
+      "ねこ背の文学少女": 2,
+      "AI文章鑑定士": 1,
+      "拍手係": 0,
+      "週末の映画好き": 1,
+      "書店員の目": 0
+    },
+    "created_at": "2026-10-20T07:04:01+00:00"
+  },
+  "i18n": {
+    "key": "24976756f7",
+    "en": {
+      "title": "Drops of the Galaxy and the Footprints of a Nameless Cat",
+      "premise": "I am an apprentice cartographer, traveling in search of the signposts of lost stars. One day, as if guided by a nameless silver cat, I come into possession of a fragment of an ancient star chart. The map points toward a place where the memories of forgotten stars lie sleeping. As I encounter the unique customs and wondrous cuisines of various lands, I begin to piece together the fragments of the world."
+    },
+    "zh": {
+      "title": "银河之滴与无名猫之足迹",
+      "premise": "我是一名见习制图师，在寻找失落星辰的指引之路上旅行。某一天，仿佛受到一只无名银猫的引导，我得到了一块刻有古老星图的碎片。那张地图所指向的地方，是沉睡着被遗忘星辰记忆之所。在体验各地风俗与奇妙料理的同时，我正一点点拼凑起世界的碎片。"
+    }
+  }
+}

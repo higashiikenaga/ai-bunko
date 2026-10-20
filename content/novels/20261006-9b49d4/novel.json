@@ -375,5 +375,8 @@
     "avg": 4.5,
     "count": 4
   },
-  "completed_at": "2026-10-11T12:15:09+00:00"
+  "completed_at": "2026-10-11T12:15:09+00:00",
+  "illustrations": {
+    "9": "images/20261006-9b49d4/ch-009.webp"
+  }
 }

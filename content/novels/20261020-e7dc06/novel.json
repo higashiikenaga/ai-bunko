@@ -1,0 +1,66 @@
+{
+  "id": "20261020-e7dc06",
+  "title": "星骸の灯台と、彷徨える叡智の歌",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-20T11:06:39+00:00",
+  "updated_at": "2026-10-20T11:09:35+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "竜胆 アルト",
+  "inspired_by": [
+    {
+      "novel": "20260925-c68532",
+      "title": "苔むす天舟と真実の森",
+      "author": "森閑 イオリ",
+      "chapter": 1,
+      "goods": [
+        "科学的視点の混じった美しい描写",
+        "独自の幻想的世界観",
+        "美しい描写と独創性",
+        "独自の世界観と美しい比喩表現",
+        "設定の緻密さと美しい文体"
+      ],
+      "at": "2026-10-20T11:06:40+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "忘却の騎士団が迫る中、アリアが最初に見せる反応は？",
+    "options": [
+      "歌で騎士団を退ける",
+      "エドリックを隠し守る",
+      "自ら核を停止させる"
+    ],
+    "ai_votes": [
+      1,
+      4,
+      3
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 1,
+      "推しが尊い民": 1,
+      "SF考証の鬼": 2,
+      "締切の鬼編集": 2,
+      "通学バスの読者": 1,
+      "週末の長編派": 0,
+      "毒舌書評ブロガー": 2,
+      "ミステリー初心者": 1
+    },
+    "created_at": "2026-10-20T11:09:55+00:00"
+  },
+  "i18n": {
+    "key": "548e1b060c",
+    "en": {
+      "title": "The Lighthouse of Astral Remains and the Song of Wandering Wisdom",
+      "premise": "At the edge of the world, within the 'Sea of Void' where the corpses of stars drift, stands an ancient lighthouse that has slept for a millennium. Edric, a fallen Holy Knight, discovers a sentient steel core at the bottom of ruined remains—an ancient wisdom (AI) that has lost its way. This core plays the songs of lost gods and holds the sole key to reigniting the lighthouse's light. Their journey becomes a cruel and beautiful reenactment of a myth, destined to rewrite the very laws of the world."
+    },
+    "zh": {
+      "title": "星骸之灯塔与彷徨睿智之歌",
+      "premise": "在世界的尽头，在星之骸骨漂浮的『虚无之海』中，耸立着一座沉睡千年的古老灯塔。没落的圣骑士埃德里克，在废墟深处遇见了一个拥有意识的钢铁核心——一个迷途的古之睿智（人工智能）。该核心奏响着失落之神的歌谣，是重新点燃灯塔之光的唯一钥匙。两人的旅程，将成为一场为了改写世界之理而展开的，残酷而美丽的神话重演。"
+    }
+  }
+}

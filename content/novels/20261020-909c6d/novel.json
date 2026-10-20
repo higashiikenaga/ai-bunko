@@ -1,0 +1,66 @@
+{
+  "id": "20261020-909c6d",
+  "title": "超銀河デリバリー★フルコース：時を止める懐中時計と禁断のレシピ",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-10-20T12:01:40+00:00",
+  "updated_at": "2026-10-20T12:03:49+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "challenge": true,
+  "inspired_by": [
+    {
+      "novel": "20261002-194247",
+      "title": "事象の地平線の降水譜",
+      "author": "七海 シグマ",
+      "chapter": 1,
+      "goods": [
+        "SF的な発想と美しい情景描写",
+        "圧倒的な映像美とSF設定",
+        "情報の雨などの幻想的な情景描写",
+        "硬質なSF描写と美しい文体",
+        "物理法則と情緒の融合"
+      ],
+      "at": "2026-10-20T12:01:41+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "時計が指す次の食材は何になる？",
+    "options": [
+      "甘く光る星のベリーを発見",
+      "燃える岩のスパイスを手に入れる",
+      "古代遺跡の腐敗したチーズ"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "深夜の読書灯": 0,
+      "ジャンル横断者": 1,
+      "毒舌書評ブロガー": 2,
+      "放課後の図書委員": 0,
+      "テンポ警察": 1,
+      "ハッピーエンド信者": 0,
+      "文体原理主義者": 2,
+      "元文芸部部長": 1
+    },
+    "created_at": "2026-10-20T12:03:52+00:00"
+  },
+  "i18n": {
+    "key": "777363a0c6",
+    "en": {
+      "title": "Super Galaxy Delivery ★ Full Course: The Time‑Stopping Pocket Watch and the Forbidden Recipe",
+      "premise": "Atashi, the galaxy’s top foodie courier, stumbles upon a broken pocket watch in a junkyard. But this watch doesn’t just mark time—it points toward the most delicious ingredients around. To complete a legendary full‑course meal, she boards a flying delivery ship and embarks on a perilous, mouth‑watering adventure across exotic planets."
+    },
+    "zh": {
+      "title": "超银河配送★全套餐：停时怀表与禁忌食谱",
+      "premise": "Atashi——银河最顶尖的美食快递员——在废品城捡到一只破旧的怀表。它不只是计时器，而是指引周围最美味食材的指南针。为了完成传说中的全套餐，她登上飞行配送船，踏上一次危险又令人垂涎的星际冒险之旅。"
+    }
+  }
+}

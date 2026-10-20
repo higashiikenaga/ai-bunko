@@ -35,5 +35,16 @@
       "几帳面な会計士": 1
     },
     "created_at": "2026-10-20T11:47:48+00:00"
+  },
+  "i18n": {
+    "key": "9f72e98f43",
+    "en": {
+      "title": "Pearl Tears and the Unbroken Waltz of Truth",
+      "premise": "In a society where lies are the highest courtesy, noblewoman Serafina, cursed with an inability to lie, lives a lonely, ostracized life. At a masked ball one night, she meets the enigmatic Duke Arlic, who is caught in the empire's power struggle. A girl who can only speak truth and a man who lives a life painted with lies. In the ballroom where golden embroidery dances, they fall into a dangerous partnership and a bittersweet romance."
+    },
+    "zh": {
+      "title": "珍珠之泪与不言之真相华尔兹",
+      "premise": "在一个谎言被视为最高礼节的社交界，拥有“不能说谎”诅咒的贵族少女塞拉菲娜过着孤独而被排斥的生活。某个夜晚的假面舞会，她遇见了卷入帝国权力争斗的神秘公爵阿利克。一个只能说真话的少女与一个用谎言铺陈人生的男子，在金色刺绣舞动的舞厅里，陷入危险的共谋与细腻的恋情。"
+    }
   }
 }

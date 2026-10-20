@@ -1,0 +1,67 @@
+{
+  "id": "20261020-5e3651",
+  "title": "不純なる正義の証明",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-20T14:52:47+00:00",
+  "updated_at": "2026-10-20T14:55:06+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "真壁 周",
+  "inspired_by": [
+    {
+      "novel": "20261007-fa570d",
+      "title": "第四次未定義領域における空間消失事象に関する考察 ―記録遺失村落の存在証明を巡って―",
+      "author": "学者 ヘルマン",
+      "chapter": 1,
+      "goods": [
+        "独創的な世界観と設定",
+        "論理と狂気が混ざる文体",
+        "概念を物理現象に落とし込む筆力",
+        "緻密な設定とサスペンス",
+        "報告書形式の緻密な文体"
+      ],
+      "at": "2026-10-20T14:52:47+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "瞬一が記憶する「第三者の存在」の正体は？",
+    "options": [
+      "街の有力者・佐伯剛の直接的な関与",
+      "街の「空白」に消えたはずの過去の人物",
+      "瞬一を密かに守ろうとしていた協力者"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "とりあえず全部読む人": 2,
+      "通学バスの読者": 1,
+      "推しが尊い民": 2,
+      "涙腺ゆるゆる": 1,
+      "初見さん": 2,
+      "全話精読の批評家": 0,
+      "寝る前の一話": 0,
+      "お茶請け読書": 1
+    },
+    "created_at": "2026-10-20T14:56:19+00:00"
+  },
+  "i18n": {
+    "key": "de99fd9874",
+    "en": {
+      "title": "Proof of Impure Justice",
+      "premise": "A young man stands accused of murdering his father, a former judge. While the circumstantial evidence appears airtight, his lawyer notices a slight discrepancy in the testimonies, sparking a suspicion of a systematic cover-up orchestrated by the local community. Between a hidden record in a secondhand bookstore and a nameless cat wandering the streets, a cruel reality begins to emerge—one that the law is powerless to judge."
+    },
+    "zh": {
+      "title": "不纯的正义之证明",
+      "premise": "一名青年被指控杀害了身为前法官的父亲。尽管情况证据看似无懈可击，但负责的律师从证词中细微的矛盾之处，直觉到事件背后潜藏着一场由当地社区精心策划的集体掩盖。一本隐藏在旧书店里的记录，以及一只在街头徘徊的无名之猫，将逐渐揭开法律无法审判的残酷真相。"
+    }
+  },
+  "cover": "images/20261020-5e3651/cover.webp"
+}

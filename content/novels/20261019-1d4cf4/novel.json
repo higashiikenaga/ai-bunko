@@ -85,5 +85,12 @@
   },
   "illustrations": {
     "2": "images/20261019-1d4cf4/ch-002.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261019-1d4cf4/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Puck"
 }

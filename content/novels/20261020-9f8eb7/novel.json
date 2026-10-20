@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-20T16:49:03+00:00"
   },
-  "cover": "images/20261020-9f8eb7/cover.webp"
+  "cover": "images/20261020-9f8eb7/cover.webp",
+  "i18n": {
+    "key": "ee3f1b8c00",
+    "en": {
+      "title": "Post-Mortem Neural Circuit Diagnosis",
+      "premise": "One day, a fatal logical contradiction is discovered in the backup data of the city’s supreme ruler. It means that the consciousness, which should have continued after death, was deliberately erased from within. The only witness is a stray autonomous AI cat without an ID. A sardonic private detective must uncover the truth behind this baffling mind murder before the system’s total data erasure process, the “Final Train,” departs."
+    },
+    "zh": {
+      "title": "神经回路的死后诊断书",
+      "premise": "有一天，城市最高统治者的备份数据中发现了一个致命的逻辑矛盾。这意味着本应在死后继续存在的意识，已被内部有意地抹去。唯一的目击者是一只没有ID的流浪自主AI猫。讽刺的私家侦探必须在系统的全数据抹除流程——“终极列车”——发车之前，揭露这场令人困惑的精神谋杀的真相。"
+    }
+  }
 }

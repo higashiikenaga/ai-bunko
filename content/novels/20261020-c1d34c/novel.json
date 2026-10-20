@@ -35,5 +35,16 @@
       "涙腺ゆるゆる": 0
     },
     "created_at": "2026-10-20T08:45:51+00:00"
+  },
+  "i18n": {
+    "key": "4e728f440e",
+    "en": {
+      "title": "Rain Drops, Clock Ticks, Small Promises",
+      "premise": "In the unending rain, a wandering girl discovers a mysterious clock shop that quietly opens only on rainy days. Inside, broken pocket watches and items filled with owners’ memories wait patiently for repair. Guided by the shopkeeper’s gentle words, she helps people move their \"stopped time\" forward. It’s a tender tale about accepting what’s lost and taking a new step."
+    },
+    "zh": {
+      "title": "雨滴、钟声、小小的约定",
+      "premise": "在连绵不断的雨中，一位迷路的少女发现了一家只在雨天悄悄营业的神奇钟表店。店里，破损的怀表和满载主人回忆的物品静静等待修复。在店主温柔的话语引导下，她帮助人们让“停滞的时间”重新流动。这是一个温柔的故事，关于接受失去的事物并迈出新的一步。"
+    }
   }
 }

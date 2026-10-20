@@ -52,5 +52,16 @@
       "深夜徘徊読者": 2
     },
     "created_at": "2026-10-20T12:55:55+00:00"
+  },
+  "i18n": {
+    "key": "706ea7b61b",
+    "en": {
+      "title": "A Tale of the Moon, the Silver Bell, and the Magic Bakery",
+      "premise": "In a small bakery nestled in the Land of Clouds, there is a special magic that bakes delicious bread by listening to stories. One day, a hungry traveler who has forgotten their own name—the 'Nameless Cat'—visits the shop. Vowing to reach the 'Hill of Promise' to reunite with someone precious, the cat sets off on a journey in search of gentle magic, accompanied by the bakery's own tiny Spoon-kun."
+    },
+    "zh": {
+      "title": "月亮、银铃与魔法面包店的故事",
+      "premise": "在云之国的一家小面包店里，有着一种通过倾听故事来烘焙美味面包的魔法。某一天，一只忘记了名字、饥肠辘辘的“无名猫先生”来到了店里。为了有一天能与重要的人相遇，猫先生约定前往“约定之丘”。于是，他与面包店的小勺子君一起，为了寻找温柔的魔法而踏上了旅程。"
+    }
   }
 }

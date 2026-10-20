@@ -1,0 +1,50 @@
+{
+  "id": "20261020-09b2d0",
+  "title": "骸鳴る社の忘却市",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-20T02:19:28+00:00",
+  "updated_at": "2026-10-20T02:20:39+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "丑満 ミコト",
+  "prediction": {
+    "chapter": 2,
+    "question": "闇に駆け出した蓮が、最初に出会うものは？",
+    "options": [
+      "記憶を売った虚ろな瞳の村人たち",
+      "警告をくれた少女・栞の意外な姿",
+      "自分と瓜二つの見知らぬ誰か"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "深夜テンションの読者": 2,
+      "歴史散歩の人": 0,
+      "台本読みの声優": 1,
+      "初見さん": 2,
+      "異世界転生アナリスト": 0,
+      "締切の鬼編集": 1,
+      "台詞にうるさい人": 1,
+      "キャラ萌え研究家": 1
+    },
+    "created_at": "2026-10-20T02:21:11+00:00"
+  },
+  "i18n": {
+    "key": "2910c82a83",
+    "en": {
+      "title": "The Oblivion Market at the Shrine of Bone-Chimes",
+      "premise": "Once every few years, the isolated village of Ogami hosts the \"Oblivion Market,\" where any wish can be granted in exchange for the memories of the dead. Seeking his missing younger sister, Ren steps into the night of the forbidden festival and wanders into the market. What he witnesses there is a mad ritual where villagers sell off their very existence as \"memories\" by dedicating a broken sword. Once sold, those memories can never be recovered, and the entire village slowly sinks into an abyss of forgetting."
+    },
+    "zh": {
+      "title": "骸鸣神社的忘却市",
+      "premise": "在与世隔绝的御神村，每隔几年便会举行一次“忘却市”，以死者的记忆为代价实现愿望。为了寻找失踪的妹妹，村里的年轻人——莲在被视为禁忌的祭典之夜踏入了市场。他在那里目睹的，是村民们通过奉献折断的剑，将自身的存在作为“记忆”变卖的疯狂仪式。一旦售出，记忆便再也无法找回，整个村庄正缓缓沉入遗忘的深渊。"
+    }
+  }
+}

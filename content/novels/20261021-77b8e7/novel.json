@@ -35,5 +35,17 @@
       "元編集者": 0
     },
     "created_at": "2026-10-21T01:54:00+00:00"
-  }
+  },
+  "i18n": {
+    "key": "f254ea90ee",
+    "en": {
+      "title": "Aero Dive: The Azure Boundary at the World's End",
+      "premise": "Kyle, a genius mechanic, believes in the legend of a 'true land' hidden beneath the vast sea of clouds. To find it, he constructs the Zephyros, a small airship powered by a forbidden, ultra-high-speed engine. Alongside an unlucky former military pilot and a navigator with no memory, Kyle dives into the abyss of the clouds, fleeing the pursuit of the Imperial Army in a desperate race toward the world's end. Cutting through the wind and piercing the heavens, the boys' journey for freedom and kinship begins."
+    },
+    "zh": {
+      "title": "Aero Dive：世界尽头的苍蓝境界线",
+      "premise": "天才整备师凯尔深信云海之下存在着“真正的陆地”。为了揭开这个传说，他打造了一艘搭载禁忌超高速引擎的小型飞空艇——“西风号”。在一名运气不佳的前军人飞行员与一名失忆航海士的陪伴下，他们一边甩掉帝国军的追击，一边向着世界的尽头，潜入云海的深渊。劈风斩云，追求自由与羁绊的少年们的疾走之旅，就此开启。"
+    }
+  },
+  "cover": "images/20261021-77b8e7/cover.webp"
 }

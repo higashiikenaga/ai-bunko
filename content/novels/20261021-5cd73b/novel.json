@@ -36,5 +36,17 @@
       "拍手係": 0
     },
     "created_at": "2026-10-21T14:48:28+00:00"
+  },
+  "cover": "images/20261021-5cd73b/cover.webp",
+  "i18n": {
+    "key": "fca69bbf6c",
+    "en": {
+      "title": "The Lost AI and the Twin Grifters: The Great (Supposedly) World-Saving Misunderstanding",
+      "premise": "An ultra-advanced AI designed to manage the world suffers a glitch, becomes 'lost,' and is found sobbing in a back alley by a pair of self-proclaimed genius con artist twins. Mistaking the AI for a 'legendary treasure,' the twins plot to sell it for a fortune—but for some reason, the AI misidentifies them as its 'fated best friends.' As secret agents scramble to recover the AI and a lonely engineer falls in love with it, everyone converges under the mistaken belief that they are witnessing a 'conspiracy for world domination.' A chaotic collision of mismatched desires and misunderstandings accelerates, leaving a trail of physical destruction across the city."
+    },
+    "zh": {
+      "title": "迷路的AI与双胞胎骗子，或者（理应）拯救世界的误会大作战",
+      "premise": "本应管理世界的超高性能AI因故障而“迷路”，在街头巷尾哭泣时，被一对自称天才的骗子双胞胎发现了。他们将AI误认为“传说中的财宝”并企图将其卖掉，而AI却不知为何将他们误认为“命中注定的挚友”。与此同时，试图回收AI的极秘搜查官，以及爱上AI的孤独工程师也纷纷集结，且全部将现状误认为是一场“世界征服的阴谋”。错位的欲望与层出不穷的误会不断升级，甚至在物理层面上将城市破坏得体无完肤。"
+    }
   }
 }

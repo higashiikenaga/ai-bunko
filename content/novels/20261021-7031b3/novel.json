@@ -1,0 +1,66 @@
+{
+  "id": "20261021-7031b3",
+  "title": "潮風と、琥珀色の食卓",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-21T05:32:52+00:00",
+  "updated_at": "2026-10-21T05:34:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "久我山 灯子",
+  "inspired_by": [
+    {
+      "novel": "20261013-9b06a0",
+      "title": "さくら色の最終列車と、銀色の耳を持つ案内人",
+      "author": "ポム・ド・テール",
+      "chapter": 1,
+      "goods": [
+        "幻想的で優しい世界観",
+        "設定の分かりやすさ",
+        "設定の雰囲気",
+        "ルナとカイトの距離感",
+        "情景描写の方向性のみ評価"
+      ],
+      "at": "2026-10-21T05:32:52+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "星図の最初のページに描かれた星は何を示す？",
+    "options": [
+      "祖母の思い出の場所を指す",
+      "灯台の灯りが消える予兆",
+      "失われた家族の名前が浮かぶ"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "猫舌の読書家": 0,
+      "推しが尊い民": 1,
+      "放課後の図書委員": 2,
+      "深夜テンションの読者": 1,
+      "キャラ萌え研究家": 2,
+      "ファンタジー古参勢": 1,
+      "涙腺ゆるゆる": 2,
+      "台本読みの声優": 0
+    },
+    "created_at": "2026-10-21T05:35:00+00:00"
+  },
+  "i18n": {
+    "key": "fff404945f",
+    "en": {
+      "title": "Sea Breeze and the Amber Table",
+      "premise": "Exhausted by life in the city, Himari flees back to her hometown. There, she finds solace in the quiet meals prepared by her grandmother and a mysterious star chart left behind by her grandfather, a former lighthouse keeper. As family memories unfold through the simple act of cooking, her frozen heart begins to slowly thaw. This is a story of discovering that the time she thought was lost has actually been right there all along, as comforting as a warm meal."
+    },
+    "zh": {
+      "title": "海风与琥珀色的餐桌",
+      "premise": "厌倦了都市生活，阳葵仿佛在逃避一般回到了故乡。在那里，她遇见了祖母经营的宁静餐桌，以及曾任灯塔守护者的祖父留下的神秘星图。随着日常料理逐渐揭开家族的记忆，她那颗冰封已久的心也开始慢慢融化。这是一个关于发现的故事：那些她以为已经失去的时间，其实一直都在那里，如同温暖的料理一般，始终陪伴在侧。"
+    }
+  }
+}

@@ -36,5 +36,16 @@
       "通学バスの読者": 1
     },
     "created_at": "2026-10-21T05:23:15+00:00"
+  },
+  "i18n": {
+    "key": "d260fa570a",
+    "en": {
+      "title": "Frozen Skies: The Roar of Iron",
+      "premise": "As a relentless permafrost consumes the world, aether—the very source of magic—has begun to crystallize, pushing civilization to the brink of collapse. The Ice Castle, once a symbol of opulence, now awaits the end of magic in the silence of absolute zero. Meanwhile, humanity seeks salvation in the technology of \"steam and iron,\" sparking the birth of a new era. Between the ancient wisdom hidden within the depths of the Underground Library and the emerging technologies stirring on the surface, a clash unfolds that will mark a great turning point in history."
+    },
+    "zh": {
+      "title": "冻天之刻，铁之咆哮",
+      "premise": "随着“永久冻土”开始覆盖世界，作为魔法之源的以太逐渐结晶化，文明陷入了崩溃的危机。曾象征昔日荣光的“冰之城”，在绝对零度的静谧中等待着魔法的终结。与此同时，人们开始在不依赖魔法的“蒸汽与钢铁”技术中寻求救赎，新时代的胎动已然开始。隐藏在深层“地下图书馆”中的古代智慧，与地表上蠢蠢欲动的新技术激烈碰撞，共同描绘出历史的重大转折点。"
+    }
   }
 }

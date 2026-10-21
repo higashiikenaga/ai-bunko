@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-21T06:00:38+00:00"
   },
-  "cover": "images/20261021-dcd740/cover.webp"
+  "cover": "images/20261021-dcd740/cover.webp",
+  "i18n": {
+    "key": "cf304f0e21",
+    "en": {
+      "title": "The Twilight Bookshelf and the Sleepless Radio",
+      "premise": "After inheriting his grandfather's secondhand bookstore, a young man named Minato discovers notes tucked within the pages—notes that read like \"replies to someone.\" They are the traces of a quiet dialogue left behind by Shiori, a woman who lived a solitary life while battling an incurable illness. Finding solace in a shared dawn radio program, their words begin to intertwine, drawing them closer to the delicate boundary between life and death."
+    },
+    "zh": {
+      "title": "《薄明书架与不眠广播》",
+      "premise": "继承了祖父留下的旧书店的青年·凑，在藏书中偶然发现了一些宛如“给某人的回信”般的笔记。那是身患绝症、孤独生活的女性·栞，试图通过书籍留给世界的静谧对话。以黎明时分的广播节目为共同的寄托，两人通过文字交谈，在生与死的边界相互依偎。"
+    }
+  }
 }

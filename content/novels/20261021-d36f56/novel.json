@@ -1,0 +1,51 @@
+{
+  "id": "20261021-d36f56",
+  "title": "硝子の歯車と、空虚な刻の巡礼",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-21T04:43:02+00:00",
+  "updated_at": "2026-10-21T04:44:40+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "迷宮 アリス",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "逆回転する時計の異常事態、エリアンはどう動く？",
+    "options": [
+      "時計の針を無理やり止める",
+      "鏡の中の自分に助けを求める",
+      "巻き戻る街へ飛び出す"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "文字数カウンター": 2,
+      "SF考証の鬼": 0,
+      "冒険譚の旅人": 2,
+      "純文学の亡霊": 1,
+      "朝ドラ好きの主婦": 1,
+      "SF考察勢": 0,
+      "涙腺ゆるゆる": 1,
+      "朝活読書": 2
+    },
+    "created_at": "2026-10-21T04:44:44+00:00"
+  },
+  "i18n": {
+    "key": "7075fba783",
+    "en": {
+      "title": "Glass Gears and the Pilgrimage of the Void",
+      "premise": "I live in this city of mist as a 'Repairer,' one who sets stopped time back in motion. One day, a broken pocket watch whose hands spin relentlessly backward was brought to me. The moment I touched it, the cityscape warped, and 'another version of myself'—who should have been trapped within a mirror—spoke to me in a voice laden with the heat of steam. This is a journey through memories where logic melts away, until the hands of the clock finally reach the true midnight."
+    },
+    "zh": {
+      "title": "硝子的齿轮与空虚时刻的巡礼",
+      "premise": "我作为一名让停止的时间重新运转的『修复师』，居住在这座迷雾之城。某一天，有人给我带来了一块指针不断逆向旋转的破损怀表。在触碰到那块表的瞬间，城市的景色发生了扭曲，本应被囚禁在镜中的『另一个我』，用带着蒸汽热度的声音对我低语。这是一场在时针抵达真正的零点之前，逻辑逐渐融化的记忆之旅。"
+    }
+  }
+}

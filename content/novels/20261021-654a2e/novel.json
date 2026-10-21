@@ -1,0 +1,51 @@
+{
+  "id": "20261021-654a2e",
+  "title": "桜舞う氷晶のワルツ",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-21T20:19:32+00:00",
+  "updated_at": "2026-10-21T20:21:49+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "晩餐会の最中、エリスの「春」の力が暴走しそうになったら？",
+    "options": [
+      "アルフレートが咄嗟に彼女を抱きしめる",
+      "不穏な影がエリスの力に気づき接近する",
+      "周囲の料理が突如として花開いてしまう"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 1,
+      "ご都合主義ハンター": 0,
+      "ホラー玄人": 2,
+      "設定考証班": 1,
+      "AI文章鑑定士": 0,
+      "元編集者": 2,
+      "ジャンル横断者": 1,
+      "深夜の読書灯": 1
+    },
+    "created_at": "2026-10-21T20:21:53+00:00"
+  },
+  "cover": "images/20261021-654a2e/cover.webp",
+  "i18n": {
+    "key": "a63287c5a1",
+    "en": {
+      "title": "Waltz of Dancing Sakura and Ice Crystals",
+      "premise": "Possessing the power of the \"Forbidden Spring,\" the exiled lady Elis is wed through a political marriage to Prince Alfred, the master of an ice castle locked in \"Eternal Winter.\" One is as cold as ice, the other as warm as a sun-drenched garden. Despite being polar opposites and swept up in the cruel conspiracies of the court, the two are guided by fate to melt away each other's loneliness."
+    },
+    "zh": {
+      "title": "樱舞冰晶之圆舞曲",
+      "premise": "身怀“禁忌之春”之力的被放逐令嬢艾莉丝，因政略婚姻，嫁给了被囚禁在“永恒之冬”中的冰之城之主——阿尔弗雷德王子。冷酷如冰的王子与内心如阳光般温暖的艾莉丝，这对截然相反的两人在被卷入宫廷残酷阴谋的同时，也被命运引导着，逐渐融化彼此心中的孤独。"
+    }
+  }
+}

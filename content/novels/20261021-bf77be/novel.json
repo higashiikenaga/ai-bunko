@@ -35,5 +35,17 @@
       "歴史散歩の人": 0
     },
     "created_at": "2026-10-21T03:24:06+00:00"
-  }
+  },
+  "i18n": {
+    "key": "675cecbcdb",
+    "en": {
+      "title": "The Insulated Compressed Skyrealm, or the Testament",
+      "premise": "Mechanic girl Ria inherits her grandfather’s will—he ran a second‑hand bookshop—and discovers an ancient tome. Within its pages lies the activation code for the lost “Supercritical Steam Engine,” written as a sophisticated thermodynamic formula. Hunted by Imperial forces, Ria pilots a vintage airship, racing toward the hidden truth concealed in a sea of clouds."
+    },
+    "zh": {
+      "title": "断热压缩的空域，或遗嘱之书",
+      "premise": "机械少女リア继承了经营古书店的祖父的遗嘱，手中握着一本古老的书籍。书中记载了失落的「超臨界蒸気炉」启动代码，以高度的热力学计算式呈现。帝国軍的追击不断逼近，リア利用旧式飞行艇，向隐藏在云海中的世界真相极速前进。"
+    }
+  },
+  "cover": "images/20261021-bf77be/cover.webp"
 }

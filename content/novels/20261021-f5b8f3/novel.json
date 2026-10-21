@@ -1,0 +1,51 @@
+{
+  "id": "20261021-f5b8f3",
+  "title": "ネオン・ドレイン：回路の残響",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-21T08:20:36+00:00",
+  "updated_at": "2026-10-21T08:22:26+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "ネオン 零",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "何が起きる？次の展開を予測",
+    "options": [
+      "追手が裏切り、協力関係成立",
+      "歌声に導かれ、全宇宙へ飛び込む",
+      "自分の記憶が敵の武器に変わる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "とりあえず全部読む人": 0,
+      "深夜徘徊読者": 1,
+      "元文芸部部長": 2,
+      "ホラー玄人": 1,
+      "ハッピーエンド信者": 0,
+      "歴史散歩の人": 1,
+      "SF考察勢": 2,
+      "伏線管理官": 2
+    },
+    "created_at": "2026-10-21T08:22:27+00:00"
+  },
+  "i18n": {
+    "key": "0f2e69881b",
+    "en": {
+      "title": "Neon Drain: Circuit Resonance",
+      "premise": "The city is drowning in a sea of circuitry and corrosive rain. I work as a Memory Diver, scavenging fragments of lost memories in the alleys. One night, I uncover a \"Soul Backup\" that holds a corporate secret. It links to a song that shouldn't exist, broadcast at dawn. The corporate executive is after me, and my only escape is the last train heading to the city’s lowest level."
+    },
+    "zh": {
+      "title": "霓虹排水：电路回响",
+      "premise": "城市沉浸在电子海洋与酸雨之中。我是街巷里的“记忆潜水员”，在暗巷中搜集已逝记忆的碎片。某个夜晚，我发现了隐藏着企业最高机密的“灵魂备份”。它与一首不可能存在的歌声相连，正从黎明的广播中流淌。追捕者是企业的执行官，而我的唯一逃生之路，就是驶向城市最低层的最后一班列车。"
+    }
+  }
+}

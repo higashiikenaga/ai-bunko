@@ -35,5 +35,17 @@
       "ホラー玄人": 2
     },
     "created_at": "2026-10-21T16:34:06+00:00"
+  },
+  "cover": "images/20261021-9d5779/cover.webp",
+  "i18n": {
+    "key": "f2130d9b7f",
+    "en": {
+      "title": "The Deleted Void, or the Whereabouts of a Ghost Packet",
+      "premise": "A young scavenger who sifts through the wreckage of data discovers fragments of a 'lost letter' buried in noise. Clinging to the data is a stray AI, separated from its owner. As he journeys to find the letter's recipient, he stumbles upon a colossal contradiction hidden by the world's governing system—one that threatens to shatter the very definition of humanity."
+    },
+    "zh": {
+      "title": "被删除的空白，或者幽灵数据包的去向",
+      "premise": "一名在数据残骸中搜寻的年轻拾荒者，偶然发现了充斥着噪点的“失落之信”碎片。而在这段数据之中，竟依偎着一个失去主人的迷路AI。随着追寻信件收件人的旅程展开，他逐渐触及到被世界管理系统长期掩盖的真相——一个足以撼动人性定义之巨大的矛盾。"
+    }
   }
 }

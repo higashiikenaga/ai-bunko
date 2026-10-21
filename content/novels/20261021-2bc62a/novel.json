@@ -52,5 +52,16 @@
       "元新人賞下読み": 2
     },
     "created_at": "2026-10-21T08:59:12+00:00"
+  },
+  "i18n": {
+    "key": "5b057b2da6",
+    "en": {
+      "title": "Iron Wires in the Mire",
+      "premise": "After a crushing setback, I fled back to my hometown, only to be taken in by a bottom-tier rugby team—a group covered in mud and long since forgotten how to win. In a mysterious shop that opens only on rainy days, I encountered a group of outcasts who found no place in society. As the season arrives for migratory birds to return north, we kick off once more, charging from the depths of despair toward the summit."
+    },
+    "zh": {
+      "title": "泥泞中的铁线",
+      "premise": "遭遇挫折、逃回故乡的我，被一支浑身泥泞、早已忘却如何取胜的底层橄榄球队收留了。在一家仅在雨天开业、来历不明的神秘小店里，我遇见了一群在社会中无处容身的边缘人。在候鸟北归的季节，我们再次踏地起跑，从绝望的深渊向着顶峰奋力冲刺。"
+    }
   }
 }

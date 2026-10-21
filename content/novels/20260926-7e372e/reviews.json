@@ -414,5 +414,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-20T01:04:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "冷却施設での緊張感や情報の相転移は斬新だが、冒険やファンタジー的な広がりが足りず、世界観の厚みがやや薄く感じた。",
+    "good": "設定の緻密さ",
+    "bad": "冒険感不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T09:16:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

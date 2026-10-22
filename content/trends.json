@@ -654,5 +654,18 @@
   "created_at": "2026-10-22T09:54:18+00:00",
   "edges": 191,
   "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "情景描写重視、幻想的で美しい文体",
+  "origin": "五月雨の茶屋と、氷細工の涼",
+  "evidence": [
+   "「情景描写の美しさ」や「情景描写の丁寧さ」といった技法を参考にした作家が多数確認されている",
+   "期間内に影響を受けて書かれた新作が多数公開されている"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-10-22T22:16:46+00:00",
+  "edges": 191,
+  "model": "gemini-3.5-flash-lite"
  }
 ]

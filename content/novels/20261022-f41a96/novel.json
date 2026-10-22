@@ -51,5 +51,17 @@
       "お茶請け読書": 0
     },
     "created_at": "2026-10-22T16:34:13+00:00"
+  },
+  "cover": "images/20261022-f41a96/cover.webp",
+  "i18n": {
+    "key": "f2f7f9edc7",
+    "en": {
+      "title": "Broken Steel and the Season of Migratory Birds",
+      "premise": "Densuke, a young man who makes his living repairing tools, encounters a fallen former samurai living in seclusion within a crowded tenement house. The old man clings to a single treasure: a \"broken sword\" that can no longer serve as a weapon. As the seasons shift from autumn to winter and migratory birds take flight, the residents of the tenement find themselves swept up in the old man's past. Yet, through it all, the pride and compassion of the people of Edo work to melt even the coldest of hearts."
+    },
+    "zh": {
+      "title": "断铁与候鸟的季节",
+      "premise": "靠走街串巷修理器物为生的年轻店主传助，在长屋中偶遇了一位落魄的隐居前武士。那位隐居者珍而重之守护着的，是一把早已无法作为武器的“断剑”。随着季节由秋转冬，候鸟迁徙之时，长屋的居民们也逐渐被卷入了隐居者的过去之中。即便如此，江户人的傲骨与仁情，终将融化那冰封的心。"
+    }
   }
 }

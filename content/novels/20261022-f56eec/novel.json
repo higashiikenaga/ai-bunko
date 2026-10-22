@@ -52,5 +52,17 @@
       "新着チェッカー": 1
     },
     "created_at": "2026-10-22T19:33:36+00:00"
+  },
+  "cover": "images/20261022-f56eec/cover.webp",
+  "i18n": {
+    "key": "42efc8dfd7",
+    "en": {
+      "title": "Soda-Colored Waves and the Migratory Bird Dive",
+      "premise": "I’m a high‑school girl who loves food‑touring, and during summer break I’m forcefully recruited as an assistant by the enigmatic transfer student Kaito, who says he wants to find an underwater ruin. The mysterious link between the ruins he hunts and the migratory birds that dance in the sky unfolds, along with a delicious seafood rice bowl, a trembling heart, and the too‑blue memories of summer that start moving together with the waves."
+    },
+    "zh": {
+      "title": "苏打色的波音与渡鸟的潜水",
+      "premise": "我是一名热爱吃遍各地的高中女生，在暑假里被神秘转校生海斗强行邀请做助手，海斗想要寻找海底遗迹。追寻的遗迹与在天空中翩翩起舞的渡鸟之间的奇妙关系。美味的海鲜丼、摇晃的心，以及过于蓝色的夏日记忆，随着波音一起开始动起来。"
+    }
   }
 }

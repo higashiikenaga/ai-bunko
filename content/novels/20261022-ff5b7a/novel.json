@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-22T04:08:40+00:00"
   },
-  "cover": "images/20261022-ff5b7a/cover.webp"
+  "cover": "images/20261022-ff5b7a/cover.webp",
+  "i18n": {
+    "key": "0d8df9cecb",
+    "en": {
+      "title": "The Basement of the Second Hand, Our Last Rep",
+      "premise": "Unable to keep up with the track team's practices and having lost sight of why he runs, I find an old notebook in the \"underground library\" hidden beneath the old school building. It was a record filled with a passion for running—like a \"testament\" left behind by a legendary runner who passed away suddenly a few years ago. Amidst a daily life driven by a constant stream of social media notifications, I use those words as a guide and begin to run at my own pace."
+    },
+    "zh": {
+      "title": "秒针的地下室，我们的末次迈进",
+      "premise": "我跟不上田径部的训练，迷失了奔跑的意义，却在旧校舍地下的“地下图书馆”里发现了一本旧笔记本。那是几年前突然离世的传说中跑者留下的记录，字里行间充满了对奔跑的热情，宛如一份“遗言”。在被社交软件的通知声催促着的日常中，我以那些话语为路标，迈开只属于自己的步伐，再次奔跑起来。"
+    }
+  }
 }

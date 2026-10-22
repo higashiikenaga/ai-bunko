@@ -36,5 +36,16 @@
       "ホラー夜更かし勢": 2
     },
     "created_at": "2026-10-22T10:22:54+00:00"
+  },
+  "i18n": {
+    "key": "1fbe686978",
+    "en": {
+      "title": "Love Out of Sync, or a Zero‑Second Rendezvous",
+      "premise": "I’m a struggling streamer, and while waiting for the last train on the platform I accidentally capture a “girl no one can see” on my broadcast. She clutches a broken pocket watch and only appears at a specific moment—a lost child of time. In an age dominated by digital everything, I’m drawn into a wildly clumsy, out‑of‑sync romance as I try to free her from an analog curse."
+    },
+    "zh": {
+      "title": "恋爱不同步，或是0秒的约会",
+      "premise": "我是一名举步维艰的直播主，在等候末班列车的站台上，意外把一位“没人能看到的少女”拍进了直播画面。她紧握破碎的怀表，只在特定的时间出现，是个“时间的迷失者”。在数字至上的时代，我为拯救这位被模拟诅咒束缚的少女，展开了一段极度笨拙、不同步的恋爱。"
+    }
   }
 }

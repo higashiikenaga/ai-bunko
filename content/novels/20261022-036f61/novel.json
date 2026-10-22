@@ -35,5 +35,16 @@
       "既視感センサー": 1
     },
     "created_at": "2026-10-22T10:47:10+00:00"
+  },
+  "i18n": {
+    "key": "e4fc6849c6",
+    "en": {
+      "title": "Silver Droplets and the Clock Shop After the Rain",
+      "premise": "In an old seaside town, I run a small clock repair shop inherited from my late grandfather. My days are spent immersed in the quiet work of restoration, accompanied by the distant hum of the steam engines that power the city. One day, an elderly man visits my shop carrying an antique pocket watch shaped like a broken sword. As I work to mend it, I find myself touching time that had long since stopped—and the forgotten memories of those who left it behind."
+    },
+    "zh": {
+      "title": "银之雫与雨后的钟表店",
+      "premise": "在海边的一座古老城镇中，我经营着一家从已故祖父那里继承而来的小型钟表修理店。在驱动城镇的蒸汽机轰鸣声中，我每日沉浸于细碎的修理工作之中。直到有一天，一位老人来到店里，带来了一块形似断剑的陈旧怀表。随着修理工作的展开，我开始触碰到那些停滞的时间，以及人们早已遗忘的记忆。"
+    }
   }
 }

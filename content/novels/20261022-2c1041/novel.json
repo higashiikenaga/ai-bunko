@@ -52,5 +52,16 @@
     },
     "created_at": "2026-10-22T01:20:02+00:00"
   },
-  "cover": "images/20261022-2c1041/cover.webp"
+  "cover": "images/20261022-2c1041/cover.webp",
+  "i18n": {
+    "key": "4405c9a97f",
+    "en": {
+      "title": "A Love That Can't Be Tagged, or How to Make an Analog Heart Beat",
+      "premise": "In a world where a \"like\" on your emotions is treated as justice, I deliberately pretend to be emotionless (zero) and drift through life. Then I meet Luna, an eccentric girl trying to repair an antique steam locomotive in a deserted, out‑of‑range ruin. She’s aiming for the \"Ice Castle,\" a physically frozen server stronghold that serves as a graveyard for all data. Forget efficient, streamlined romance—this is the start of a wildly inconvenient, maddeningly un‑taggable youth."
+    },
+    "zh": {
+      "title": "禁止标签的恋爱，或模拟心脏的敲击方式",
+      "premise": "在一个“点赞”情感即正义的世界里，我故意装作“无感情（零）”，随意度日。就在这时，我在一座信号盲区的废墟里，遇见了正在修复古董蒸汽机车的怪异少女——Luna。她的目标是“冰之城”，一个被物理冻结的服务器据点，也是所有数据的墓场。别想要高效的恋爱，那都是狗屁；我们即将展开一段极度不便、令人焦急、无法打标签的青春。"
+    }
+  }
 }

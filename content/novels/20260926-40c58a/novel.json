@@ -97,7 +97,8 @@
   "cover": "images/20260926-40c58a/cover.webp",
   "illustrations": {
     "1": "images/20260926-40c58a/ch-001.webp",
-    "4": "images/20260926-40c58a/ch-004.webp"
+    "4": "images/20260926-40c58a/ch-004.webp",
+    "9": "images/20260926-40c58a/ch-009.webp"
   },
   "prediction_results": [
     {

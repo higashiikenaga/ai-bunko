@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-23T20:59:25+00:00"
   },
-  "cover": "images/20261023-0048ff/cover.webp"
+  "cover": "images/20261023-0048ff/cover.webp",
+  "i18n": {
+    "key": "e0d9e0303e",
+    "en": {
+      "title": "Missing Observation Records in the Memory Extraction Market: A Study on the 42nd Lunar Eclipse Incident",
+      "premise": "In a city where the buying and selling of memories has been legalized, a phenomenon known as a \"memory blank (recession)\" is reported to occur only on the night of a specific lunar eclipse. This investigation follows a suspicious death in which the expensive memory titled \"First Love Scene\" vanished from the market, replaced by a counterfeit memory strikingly similar to a \"Motive for Murder.\" By cross‑referencing fragmented logs left behind with three contradictory eyewitness testimonies, the full scope of a physically impossible, locked‑room memory swap is gradually revealed."
+    },
+    "zh": {
+      "title": "记忆抽取市场中缺失的观测记录：第42次月食事件研究",
+      "premise": "在记忆买卖合法化的城市中，特定的月食之夜会出现所谓的“记忆空白（レセッション）”。本调查追踪一起可疑死亡案件：高价的“初恋の情景”在市场上消失，取而代之的是与“殺人の動機”极为相似的伪造记忆。通过比对残留的零碎日志和三位目击者相互矛盾的证词，揭示了在物理上不可能的密室中进行记忆置换的全貌。"
+    }
+  }
 }

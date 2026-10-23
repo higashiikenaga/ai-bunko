@@ -1,0 +1,50 @@
+{
+  "id": "20261023-aa5488",
+  "title": "雲海を駆ける銀翼の航路",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-23T11:16:45+00:00",
+  "updated_at": "2026-10-23T11:18:37+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "天野 ソラ",
+  "prediction": {
+    "chapter": 2,
+    "question": "漆黒の飛空艇が迫る中、カイたちの機体はどう動く？",
+    "options": [
+      "全力で雲の隙間へ逃走を図る",
+      "機体の性能を活かし反撃に出る",
+      "謎の男が通信を割り込ませる"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "伏線管理官": 1,
+      "ジャンル横断者": 2,
+      "既視感センサー": 0,
+      "お茶請け読書": 2,
+      "書店員の目": 1,
+      "夢見る書店員の卵": 2,
+      "ハッピーエンド信者": 2,
+      "ご都合主義ハンター": 0
+    },
+    "created_at": "2026-10-23T11:18:41+00:00"
+  },
+  "i18n": {
+    "key": "60c5122b12",
+    "en": {
+      "title": "Silver Wings Across the Sea of Clouds",
+      "premise": "Kai, a young scavenger who finds purpose in collecting scrap, discovers a \"lost letter\" inside a crashed, vintage airship. Hidden within that letter is a \"secret map\" leading to the legendary, long-lost Hanging Gardens in the sky. Alongside Lina, a brilliant young mechanic, Kai repairs his rusted airship and sets sail into the uncharted heavens. Driven by the roar of engines and the strength of their bond, they embark on a journey to uncover the truth hidden at the very edge of the sky."
+    },
+    "zh": {
+      "title": "驰骋云海之银翼航路",
+      "premise": "以回收废料为生的少年凯，某天在坠毁的旧式飞空艇中发现了一封“失落的信件”。而信中竟然隐藏着一张通往传说中失落空中庭园的“秘密地图”。凯与优秀的机械师少女莉娜一同修复了锈迹斑斑的爱机，向着未知的苍穹奋力启航。伴随着撕裂云层的引擎轰鸣与同伴间的深厚羁绊，他们将踏上征程，去追寻隐藏在天空尽头的真相。"
+    }
+  }
+}

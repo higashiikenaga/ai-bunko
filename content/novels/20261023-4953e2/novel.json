@@ -35,5 +35,16 @@
       "ファンタジー古参勢": 0
     },
     "created_at": "2026-10-23T06:51:03+00:00"
+  },
+  "i18n": {
+    "key": "47ff83cc64",
+    "en": {
+      "title": "Stardust Memories and the Recipes of the Star-Falling City",
+      "premise": "Armed with the 'Traveler's Notebook' inherited from my late grandfather, I set out on a journey to explore the world. Within its pages are records of exquisite cuisines and the small, cherished traditions of people from every corner of the globe. My journey eventually leads me to the 'City That Never Sleeps,' a place eternally bathed in light. There, in a quiet corner of the town, I discover the final wish of a solitary old man—and the taste of a star-falling night that he spent a lifetime protecting."
+    },
+    "zh": {
+      "title": "星屑的記憶與星降之城的食譜",
+      "premise": "我帶著從已故祖父那裡繼承的《旅人之手帳》，踏上了環遊世界的旅程。手帳中記錄著世界各地的美味料理，以及人們心中珍視的微小習俗。某日，我來到了一座永不入眠、整座城市被燈火填滿的「不眠之城」。在那裡，我在城市的角落遇見了一位孤獨老人的「遺願」，以及他終其一生守護著的、星降之夜的味道。"
+    }
   }
 }

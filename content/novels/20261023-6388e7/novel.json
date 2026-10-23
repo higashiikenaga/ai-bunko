@@ -1,0 +1,51 @@
+{
+  "id": "20261023-6388e7",
+  "title": "泥濘の頁と、約束の丘の葬列",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-23T07:22:29+00:00",
+  "updated_at": "2026-10-23T07:24:24+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "丑満 ミコト",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "父のノートに記された警告。志乃が次に目にするものは？",
+    "options": [
+      "地下図書館へと続く隠された扉",
+      "村人が隠し持つ忌まわしき祭具",
+      "蓮が語る父の失踪に関する真実"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "朝活読書": 0,
+      "百冊斬り": 2,
+      "ファンタジー古参勢": 0,
+      "寝る前の一話": 1,
+      "週末の映画好き": 1,
+      "異世界帰りの司書": 0,
+      "猫舌の読書家": 1,
+      "冒険譚の旅人": 0
+    },
+    "created_at": "2026-10-23T07:24:28+00:00"
+  },
+  "i18n": {
+    "key": "c6a74104f3",
+    "en": {
+      "title": "The Muddy Pages and the Funeral Procession of the Promised Hill",
+      "premise": "Following her grandmother's death, Shino visits Mikami Village, a settlement cut off from the outside world. The village harbors a long-standing taboo ritual known as the 'Underground Library,' where the memories of the dead are recorded on paper and preserved. On the 'Promised Hill,' which the villagers view with dread, a festival is held once every few years, offering 'words' in place of a human sacrifice. As Shino traces the footsteps of her missing father, she confronts the horrifying truth that the village's faith has long concealed."
+    },
+    "zh": {
+      "title": "泥泞之页与约定之丘的送葬队列",
+      "premise": "因祖母的去世，主角志乃来到了与世隔绝的御神村。村里流传着自古以来的禁忌仪式——被称为“地下图书馆”的场所，会将死者的记忆书写在纸上并加以保存。而在村民们心生畏惧的“约定之丘”上，每隔几年便会举行一次以“语言”代替活祭的祭礼。志乃在追寻失踪父亲足迹的过程中，逐渐逼近了村庄信仰所掩盖的可怕真相。"
+    }
+  }
+}

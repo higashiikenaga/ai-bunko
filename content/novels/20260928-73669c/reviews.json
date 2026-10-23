@@ -414,5 +414,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-22T23:51:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "潮の音と光の描写がとても雰囲気を作り出していて、海辺の不安定さを実感できる。記憶市場の設定は斬新だが、物語がやや散漫に感じる。",
+    "good": "雰囲気と海の描写が美しいで心が震える",
+    "bad": "物語が散漫で途中で集中力が落ちる",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T12:34:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

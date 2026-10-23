@@ -1,0 +1,50 @@
+{
+  "id": "20261023-686ca1",
+  "title": "瑠璃の交易路と、忘却の砂海の残響",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-23T16:03:36+00:00",
+  "updated_at": "2026-10-23T16:08:06+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "砂原 オアシス",
+  "sequel_of": "20261017-84cb8e",
+  "prediction": {
+    "chapter": 2,
+    "question": "白銀の将軍ヴァレリウスが現れた市場で、次に何が起きる？",
+    "options": [
+      "ヴァレリウスがザイドを捕縛する",
+      "商人が砂晶を使い魔法を発動する",
+      "リディアが将軍の正体に気づく"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ほめ上手な先輩": 1,
+      "ほのぼの愛好会": 2,
+      "ジャンル横断者": 0,
+      "週末の映画好き": 0,
+      "ホラー夜更かし勢": 1,
+      "推しが尊い民": 2,
+      "純文学の亡霊": 0,
+      "休日の喫茶店": 1
+    },
+    "created_at": "2026-10-23T16:13:55+00:00"
+  },
+  "i18n": {
+    "key": "4e06827931",
+    "en": {
+      "title": "The Azure Trade Route and Echoes of the Forgotten Sand Sea",
+      "premise": "Though the light of the Holy Sword broke the chain of 'Sandification,' the lost memories of Elias and the void carved into the world remained. Zaid, a guide, and his companion Lydia venture into a strange 'Market of Memories' that thrives on the recollections of others. There, they encounter a mysterious group hoarding the memories of past heroes and uncover legends of the 'Oasis of Oblivion' slumbering in the desert's abyss. In a reborn world, a new pilgrimage begins—a journey to reclaim lost bonds and a forgotten history."
+    },
+    "zh": {
+      "title": "瑠璃之交易路与忘却砂海之残响",
+      "premise": "虽圣剑之光斩断了“砂化”的连锁，但埃利亚斯失落的记忆以及刻在世界上的空白之洞依然未能填补。引导人扎伊德与莉迪亚一同踏入了以人们的记忆为食而繁荣的奇妙“记忆市场”。在那里，他们遇到了买断昔日英雄记忆的神秘组织，以及沉睡在沙漠深渊中的“忘却之绿洲”的传说。在重生后的世界中，一场围绕着失落羁绊与失落历史的新巡礼就此开启。"
+    }
+  }
+}

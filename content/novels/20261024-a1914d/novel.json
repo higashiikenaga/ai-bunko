@@ -36,5 +36,16 @@
       "お茶請け読書": 0
     },
     "created_at": "2026-10-24T03:54:26+00:00"
+  },
+  "i18n": {
+    "key": "b81cb2c9b5",
+    "en": {
+      "title": "Silence of the Coordinates",
+      "premise": "An unidentified body is discovered in an abandoned observatory deep in the mountains. Found in the victim's pocket is a single star map, marked with unnatural alterations. Through painstaking door-to-door inquiries and coordinate analysis, Detective Kuga realizes the case is linked to an unsolved disappearance from twenty years ago. Defying organizational pressure and a wall of silence, Kuga pursues the 'true coordinates' indicated by the star map."
+    },
+    "zh": {
+      "title": "坐标之缄默",
+      "premise": "在深山中的废弃天文台，发现了一具身份不明的尸体。遗体口袋里留着一张被施加了不自然修正的星图。通过脚踏实地的走访调查与坐标解析，刑警久我意识到这起案件与二十年前的一宗失踪悬案息息相关。顶着组织的压力与沉默，久我追寻着星图所指向的“真实坐标”。"
+    }
   }
 }

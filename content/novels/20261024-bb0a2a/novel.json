@@ -35,5 +35,17 @@
       "ホラー夜更かし勢": 1
     },
     "created_at": "2026-10-24T04:05:36+00:00"
-  }
+  },
+  "i18n": {
+    "key": "b45fc23376",
+    "en": {
+      "title": "Bookmark of the Floral Mist",
+      "premise": "There was once a 'promise of oblivion' forged between gods and humans. A young man running an old bookstore possesses the power to decipher the memories dwelling within books. One day, he encounters a beautiful divine girl who has lost her memories. She seeks the words exchanged long ago at the 'Hill of Promises'—words that can turn back the seasons. Together, they trace the fragments scattered through ancient books to uncover the true nature of the lost promise."
+    },
+    "zh": {
+      "title": "花霞之书签",
+      "premise": "神与人之间曾缔结过一份“遗忘”之约。经营着旧书店的青年拥有一种能够解读寄宿于书中的记忆的力量。某日，他遇见了一位失去了记忆的美丽神之少女。她所寻找的，是曾经在“约定之丘”交换的、能够让季节重回原点的言语。两人循着散落在古籍中的碎片，探寻那份失落之约的真相。"
+    }
+  },
+  "cover": "images/20261024-bb0a2a/cover.webp"
 }

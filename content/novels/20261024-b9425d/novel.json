@@ -1,0 +1,49 @@
+{
+  "id": "20261024-b9425d",
+  "title": "鳥のゆくえと、空白の季節",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-24T06:22:39+00:00",
+  "updated_at": "2026-10-24T06:25:04+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイが感じたノイズの正体は、次に何を引き起こすか？",
+    "options": [
+      "消したはずの記憶の断片が再来する",
+      "記憶の売買を行う組織の影に触れる",
+      "感情の暴走で管理システムが異常を起こす"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ジャンル横断者": 1,
+      "台本読みの声優": 0,
+      "文字数カウンター": 1,
+      "ご都合主義ハンター": 2,
+      "推しが尊い民": 0,
+      "全肯定おばあちゃん": 0,
+      "元編集者": 2,
+      "SF考察勢": 1
+    },
+    "created_at": "2026-10-24T06:25:08+00:00"
+  },
+  "i18n": {
+    "key": "07ba7c6c5a",
+    "en": {
+      "title": "Where the Birds Fly and the Blank Season",
+      "premise": "A young man working in memory organization archives the memories people have discarded as \"unnecessary,\" connecting them to those in need. One day, within a nameless fragment of memory circulating the market, he discovers a \"longing for someone\" that he thought he had long since cast away. This lost emotion begins to send quiet ripples through his efficiently managed life."
+    },
+    "zh": {
+      "title": "鸟之行踪与空白季节",
+      "premise": "从事记忆整理业的青年，负责将人们视为“无用”而变卖的记忆进行存档，并将其传递给有需要的人。某天，他在市场上流转的一段无名记忆碎片中，发现了一份本该早已被自己抛弃的“对某人的思念”。这份本以为已经失去的情感，正向着高效管理的现状，泛起阵阵静谧的涟漪。"
+    }
+  }
+}

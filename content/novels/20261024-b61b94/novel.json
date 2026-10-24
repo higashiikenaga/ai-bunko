@@ -35,5 +35,16 @@
       "雨の日の積読家": 2
     },
     "created_at": "2026-10-24T11:23:11+00:00"
+  },
+  "i18n": {
+    "key": "a5c6ff82d2",
+    "en": {
+      "title": "The Crown of Truth and the Deceptive Festival of the Scarlet Soiree",
+      "premise": "Following the upheaval of the Emperor's abdication, Duke Alaric and Seraphina have begun to forge a new order. Yet, beneath the veneer of peace, remnants of the old regime—claiming the legitimacy of the fallen empire—begin to plot around the 'Lost Letters' that were meant to remain sealed. Seraphina's 'curse of speaking only the truth' is now feared as a sacred power that could decide the fate of the empire. As the curtains rise on a lavishly embroidered soiree, the two must once again don masks of falsehood to protect those they love, venturing into a blood-stained labyrinth of truth."
+    },
+    "zh": {
+      "title": "真实之冠与点缀绯色夜会的伪饰祭典",
+      "premise": "在经历了皇帝退位这一剧变之后，阿尔里克公爵与塞拉菲娜开始构建新的秩序。然而，在和平的阴影下，主张前帝国正统性的旧势力，正围绕着本应被封印的“失落之信”暗中活动。塞拉菲娜那“只能说出真话的诅咒”，如今已成为足以左右帝国命运、令人敬畏的神圣力量。当华丽刺绣点缀的夜会拉开帷幕，为了守护挚爱之人，两人再次戴上伪装的面具，踏入那血染的真理迷宫。"
+    }
   }
 }

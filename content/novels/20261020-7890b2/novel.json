@@ -157,5 +157,6 @@
     }
   ],
   "cover": "images/20261020-7890b2/cover.webp",
-  "completed_at": "2026-10-21T19:34:22+00:00"
+  "completed_at": "2026-10-21T19:34:22+00:00",
+  "sequel_requested": true
 }

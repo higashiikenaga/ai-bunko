@@ -257,5 +257,12 @@
   "completed_at": "2026-10-15T10:15:24+00:00",
   "illustrations": {
     "7": "images/20261013-2c116b/ch-007.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261013-2c116b/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Puck"
 }

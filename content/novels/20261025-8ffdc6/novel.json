@@ -35,5 +35,16 @@
       "台詞にうるさい人": 2
     },
     "created_at": "2026-10-25T07:33:00+00:00"
+  },
+  "i18n": {
+    "key": "034d8ec1bd",
+    "en": {
+      "title": "The Muddy Mirror, or the Village of Silence",
+      "premise": "Weary from city life, Kohei travels to Mikoshima Village to sort through his late grandfather's belongings. He feels uneasy at the village's unnaturally quiet atmosphere. During the dreaded \"Mirror Ritual\"—a period the elders despise—he discovers a hidden \"Secret Map\" in the depths of a storage room, etched with an incomprehensible pattern that marks the village's boundary. The map’s routes do not match the actual terrain; only those who step into the depicted \"blank land\" can glimpse the truth that lies beyond the mirror."
+    },
+    "zh": {
+      "title": "泥濘之鏡，或是噤聲之村",
+      "premise": "因厭倦都市生活而前往御神辺村整理已故祖父遺物的青年航平，對村子異常的寂靜感到不安。正值村中長老們厭惡的「鏡之儀」期間，他在倉庫深處發現了一張刻有不可思議紋樣、標示村界的「秘密的地圖」。地圖上的道路與實際地形不符，只有踏入圖中所繪「空白之地」的人，才能窺見鏡子另一側的真相。"
+    }
   }
 }

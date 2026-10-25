@@ -49,5 +49,8 @@
     }
   },
   "cover": "images/20261025-0bd65c/cover.webp",
-  "fail_count": 1
+  "fail_count": 1,
+  "illustrations": {
+    "1": "images/20261025-0bd65c/ch-001.webp"
+  }
 }

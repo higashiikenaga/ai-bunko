@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-22T23:09:37+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "濃いネオンと雨の描写で緊張感はあるが、物語の流れはありがちなサイバーパンクの型に従っており、深みがやや足りない。",
+    "good": "鮮やかな描写と緊迫感",
+    "bad": "深み不足",
+    "chapters_read": 5,
+    "created_at": "2026-10-25T06:41:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

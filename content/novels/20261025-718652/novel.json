@@ -1,0 +1,50 @@
+{
+  "id": "20261025-718652",
+  "title": "潮騒の艇、双子の航跡",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-25T11:39:15+00:00",
+  "updated_at": "2026-10-25T11:40:31+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "五十嵐 チーム",
+  "prediction": {
+    "chapter": 2,
+    "question": "混沌の中で感じた「リズム」の正体とは？",
+    "options": [
+      "海陽の計算が導き出した最適解",
+      "佐伯がかつて到達した伝説の感覚",
+      "灯台の老人が密かに送る合図だった"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "キャラ萌え研究家": 1,
+      "寝る前の一話": 0,
+      "週末の映画好き": 2,
+      "深夜テンションの読者": 2,
+      "文体原理主義者": 0,
+      "新着チェッカー": 1,
+      "締切の鬼編集": 2,
+      "AI文章鑑定士": 0
+    },
+    "created_at": "2026-10-25T11:42:14+00:00"
+  },
+  "i18n": {
+    "key": "a5f6ce82eb",
+    "en": {
+      "title": "Tides of the Surf, Twin Wakes",
+      "premise": "A coastal rowing club on the brink of collapse. A twin brother hailed as the ace, and his sister, the manager, who weaves meticulous strategies from the shadows. A former athlete haunted by failure, a reserve player in charge of records, and an old man watching over them from an ancient lighthouse on the hill—together, they channel their fragmented hopes into a single boat. Between the raging seas and the precise diagrams on the strategy board, they are driven toward a race of absolute limits."
+    },
+    "zh": {
+      "title": "潮骚之艇，双子航迹",
+      "premise": "一个濒临废部的沿海划船部。被寄予厚望的王牌双胞胎哥哥，以及在阴影中制定缜密战术的经理妹妹。遭遇挫折的前选手、负责记录的替补选手，以及在山丘上的古老灯塔中注视着他们的老人，将各自零散的思绪汇聚在同一艘艇上。狂暴的大海与战术板上精密的战术图，将他们引导向一场极限的比赛。"
+    }
+  }
+}

@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-25T00:35:02+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "静かなカフェとラジオの音が心を癒すが、旅や冒険がほとんど無いため、期待していた冒険感は薄い。",
+    "good": "暖かい雰囲気と音楽",
+    "bad": "冒険要素不足",
+    "chapters_read": 2,
+    "created_at": "2026-10-25T16:31:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

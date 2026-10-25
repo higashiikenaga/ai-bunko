@@ -35,5 +35,17 @@
       "深夜の読書灯": 1
     },
     "created_at": "2026-10-25T15:43:54+00:00"
+  },
+  "cover": "images/20261025-32ef9e/cover.webp",
+  "i18n": {
+    "key": "12a6dd6f4d",
+    "en": {
+      "title": "The Cage of Sand and the Eclipsed Celestial Globe",
+      "premise": "Astronomers have been specially invited to an oasis resort in the heart of a vast desert to witness a rare total lunar eclipse—the first in decades. But the moment the moon is swallowed by shadow, the host's body is discovered within a locked observatory. All that remains at the scene is an impossibly precise celestial globe and a few stray traces of sand. Is this death, brought by the darkness, a law of nature, or a calculated intent to kill?"
+    },
+    "zh": {
+      "title": "沙尘之笼与蚀之天球仪",
+      "premise": "天文学家们受邀前往广袤沙漠中的一处绿洲度假村，共同见证数十年一遇的月全食。然而，就在月亮被阴影吞噬的刹那，主办者的尸体在密室般的天文台内被发现。现场仅留下一具精密得令人费解的天球仪，以及些许沙尘痕迹。这场由黑暗带来的死亡，究竟是自然的必然，还是经过精密计算的杀意？"
+    }
   }
 }

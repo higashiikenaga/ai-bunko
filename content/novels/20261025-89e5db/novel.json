@@ -1,0 +1,49 @@
+{
+  "id": "20261025-89e5db",
+  "title": "星海を渡る翼と、光速の最終列車",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-25T14:24:26+00:00",
+  "updated_at": "2026-10-25T14:26:12+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "月城 すばる",
+  "prediction": {
+    "chapter": 2,
+    "question": "リナは異常信号の正体をどう探るか？",
+    "options": [
+      "ゼロに逆らい手動で追跡する",
+      "信号が別の渡り鳥群の誘導と判明",
+      "カイトの意識が自ら復活を宣言"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "拍手係": 0,
+      "既視感センサー": 1,
+      "リアリティ警察": 0,
+      "伏線回収マニア": 1,
+      "文字数カウンター": 0,
+      "推しが尊い民": 2,
+      "ファンタジー古参勢": 0,
+      "台本読みの声優": 2
+    },
+    "created_at": "2026-10-25T14:26:15+00:00"
+  },
+  "i18n": {
+    "key": "3948ef9c28",
+    "en": {
+      "title": "Wings Across the Star Sea and the Final Train of Light",
+      "premise": "Humanity has preserved the fragments of its civilization by digitizing memories and entrusting them to autonomous nanomachines known as \"Migratory Birds\" to traverse the stars. But as the energy sustaining their habitats dwindles, humanity is forced to board the \"Final Train\"—a journey to sublimate consciousness into pure light. Rina, a communications engineer, chases a signal from a \"Migratory Bird\" that should not exist, left behind by a lover she once lost. The signal points toward the edge of the galaxy, to a place where a silent end awaits."
+    },
+    "zh": {
+      "title": "星海之翼与光速最终列车",
+      "premise": "人类将记忆数据化，托付给被称为“候鸟”的自律型纳米机器群，在星海间穿梭，以此连接文明的碎片。然而，维持居住区的能源已近枯竭，人类被迫登上将意识升华为光的“最终列车”。通信技师莉娜追寻着一段本不该存在的“候鸟”信号，那是她曾经失去的恋人所留下的。而信号所指的方向，是等待在银河尽头的，一片静谧的终焉之地。"
+    }
+  }
+}

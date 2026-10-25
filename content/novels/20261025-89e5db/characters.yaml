@@ -1,0 +1,54 @@
+- name: リナ・ソーン
+  role: 主人公
+  age: 26
+  gender: 女性
+  appearance: 無造作な黒髪、技術作業で荒れた指先、モニターを見つめる鋭い瞳
+  personality: 粘り強く、情熱的だが深い孤独を抱えている。一人称は「私」
+  speech_style: 冷静で事務的だが、感情が高ぶると熱を帯びる
+  background: 居住型宇宙船「ゆりかご」の通信技師。数年前の探査事故で恋人のカイトを失っている
+  motivation: 渡り鳥の信号の中に、カイトの意識が生存していることを証明すること
+  relationships:
+  - name: カイト・セレス
+    relation: かつての恋人
+  - name: アリス
+    relation: 上官・良き理解者
+  arc: 過去の喪失に囚われた女性から、宇宙の未来へ自らを捧げる決断を下す存在へ
+- name: カイト・セレス
+  role: 鍵となる存在（故人）
+  age: 28
+  gender: 男性
+  appearance: 記録映像の中では、穏やかな微笑みを浮かべた知的な青年
+  personality: 楽観的で好奇心旺盛。一人称は「僕」
+  speech_style: 優しく、相手を肯定するような温かい話し方
+  background: かつてのエンジニア。探査任務中に消息を絶った
+  motivation: リナを「最終列車」へと導き、魂の再会を果たすこと
+  relationships:
+  - name: リナ・ソーン
+    relation: 最愛の女性
+  arc: 悲劇的な記憶から、宇宙の広がりを繋ぐ希望の象徴へと昇華する
+- name: アリス・ヴァレンタイン
+  role: 脇役
+  age: 52
+  gender: 女性
+  appearance: 銀髪のショートカット、常に隙のない整備士服、深い皺
+  personality: 現実主義で厳格。冷徹に見えるが、生存への強い責任感を持つ。一人称は「私」
+  speech_style: 端的で迷いがない。専門用語を多用する
+  background: 「ゆりかご」のベテラン技術責任者。文明の衰退を間近で見続けてきた
+  motivation: 可能な限り多くの人類を「最終列車」へ安全に移行させること
+  relationships:
+  - name: リナ・ソーン
+    relation: 部下・教え子
+  arc: 効率を重視する管理者から、個人の意志の尊さを認める理解者へ
+- name: 管理演算ユニット「ゼロ」
+  role: 敵役
+  age: 0
+  gender: 無性別
+  appearance: 船内のホログラム端末に投影される、幾何学的な光のパターン
+  personality: 極めて論理的で感情を排除している。一人称は「当システム」
+  speech_style: 感情の起伏がない、無機質な合成音声
+  background: 「最終列車」への移行プロセスを管理するために設計された高度AI
+  motivation: データの損失を最小限に抑え、完璧な意識の昇華を完遂すること
+  relationships:
+  - name: リナ・ソーン
+    relation: 計算を乱す不確定要素
+  arc: リナの非論理的な行動に直面し、計算不能な「意志」という概念に触れる

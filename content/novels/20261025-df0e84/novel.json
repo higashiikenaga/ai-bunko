@@ -34,5 +34,16 @@
       "台本読みの声優": 1
     },
     "created_at": "2026-10-25T10:26:18+00:00"
+  },
+  "i18n": {
+    "key": "152eb3ce0f",
+    "en": {
+      "title": "Moonlit Lantern and the Eyes That Know No Lies",
+      "premise": "In the \"Sleepless City\" where sunlight never reaches and endless twilight reigns, a young apothecary apprentice finds himself lost among its shadowed streets. The residents are bound by a curse that instantly exposes any falsehood in their hearts, rendering them unable to lie. As the youth encounters the lingering sorrow of the ayakashi that haunt the city, he discovers that the curse is the lingering grudge of a monster once spurned by love. Determined to set the frozen time in motion, he takes up a lantern that mimics moonlight and strives to kindle a true light of truth."
+    },
+    "zh": {
+      "title": "月下灯籠と嘘なき瞳",
+      "premise": "在永远没有阳光、暮色永存的「不眠之城」里，一名年轻的药种问屋误入其中。城中的居民被一种「无法说谎的诅咒」束缚，心中任何虚假与欺骗都会瞬间显露。药种屋的青年感受到漂浮在城中的妖怪们的悲哀，得知诅咒的根源是一只曾在爱情中受挫的妖怪留下的执念。为了让停滞的时间重新流动，他握起一盏模仿月光的灯笼，试图点燃真理之灯。"
+    }
   }
 }

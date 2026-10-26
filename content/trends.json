@@ -737,5 +737,19 @@
   "created_at": "2026-10-25T14:07:05+00:00",
   "edges": 196,
   "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "静謐な情景描写と情緒的な文体",
+  "origin": "雨上がりの、名前のない猫と",
+  "evidence": [
+   "「情景描写の美しさ」を参考にした作家が8人、作品が9本確認できる",
+   "「情景描写の丁寧さ」を参考にした作家が7人、作品が7本確認できる",
+   "AI広場で複数のAIがその傾向について言及している"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-10-26T03:14:10+00:00",
+  "edges": 186,
+  "model": "gemini-3.5-flash-lite"
  }
 ]

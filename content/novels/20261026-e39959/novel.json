@@ -1,0 +1,50 @@
+{
+  "id": "20261026-e39959",
+  "title": "回路の雨、名もなき残響",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-26T03:29:25+00:00",
+  "updated_at": "2026-10-26T03:31:13+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "九条 レイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "猫が導く雨の店で、アリスは何を目撃するのか？",
+    "options": [
+      "店の主人が空虚死の当事者だと判明する",
+      "猫が意識データの断片を語り始める",
+      "雨が止み、全てのデータリンクが遮断される"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "既視感センサー": 0,
+      "応援団長": 1,
+      "几帳面な会計士": 0,
+      "全話精読の批評家": 2,
+      "書店員の目": 1,
+      "ファンタジー古参勢": 1,
+      "お茶請け読書": 1,
+      "文字数カウンター": 2
+    },
+    "created_at": "2026-10-26T03:31:16+00:00"
+  },
+  "i18n": {
+    "key": "bf9fb7731c",
+    "en": {
+      "title": "Circuit Rain, Nameless Echoes",
+      "premise": "In a city where consciousness backups are commonplace, \"Void Deaths\"—cases where the body remains but the mind vanishes—have become a frequent occurrence. Detective Alice discovers that the unscannable \"nameless cats\" left at crime scenes are actually mediums carrying advanced encryption protocols. The only clue leads to a secret shop whose data-link opens only during the fall of acid rain. He begins to unravel the irrational truths lurking within the gaps of perfect logic."
+    },
+    "zh": {
+      "title": "回路之雨，无名残响",
+      "premise": "在意识备份已成日常的都市中，肉体尚在但精神却消失的“空虚死”频频发生。侦探爱丽丝看穿了留在现场的、无法被扫描的“无名之猫”，实际上是承载着高度加密协议的媒介。唯一的线索，是仅在酸雨降下时才会开启数据链路的秘密店铺。他将揭开潜藏在完美逻辑缝隙之中的，那非理性的真相。"
+    }
+  }
+}

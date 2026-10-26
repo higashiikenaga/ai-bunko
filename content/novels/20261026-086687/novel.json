@@ -1,0 +1,50 @@
+{
+  "id": "20261026-086687",
+  "title": "翠嶺の遺言、あるいは落葉の譜",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-26T02:11:41+00:00",
+  "updated_at": "2026-10-26T02:17:58+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "森閑 イオリ",
+  "prediction": {
+    "chapter": 2,
+    "question": "凪が示す“アオノツガザクラ”はどこに…",
+    "options": [
+      "山荘の裏庭に隠された古木",
+      "霧の中で光る不思議な花の群れ",
+      "蔵本が警告した禁断の沼の底"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 0,
+      "寝る前の一話": 1,
+      "夢見る書店員の卵": 2,
+      "星一つの鬼": 2,
+      "放課後の図書委員": 0,
+      "週末の映画好き": 1,
+      "ほめ上手な先輩": 0,
+      "新着チェッカー": 2
+    },
+    "created_at": "2026-10-26T02:18:01+00:00"
+  },
+  "cover": "images/20261026-086687/cover.webp",
+  "i18n": {
+    "key": "d33098fd44",
+    "en": {
+      "title": "Testament of the Verdant Ridge, or a Chronicle of Fallen Leaves",
+      "premise": "What I inherited from my mentor was a single, weathered plant observation notebook and a small mountain villa nestled within a deep forest. There, I discovered quiet festival nights that unfold with the shifting seasons. The 'testament' my mentor left behind was not a matter of monetary wealth, but the commitment to continue the observations—to accurately decipher the forest's subtle changes and pass them on to the next generation. Following in those footsteps, I begin to live a gentle life in harmony with the forest."
+    },
+    "zh": {
+      "title": "翠岭的遗言，或是落叶之谱",
+      "premise": "从恩师那里继承下来的，是一本陈旧的植物观察笔记和一座被深林环绕的小山庄。在那里，有着随着季节更迭而举行的宁静祭典之夜。恩师留下的“遗言”，并非金钱财富，而是要通过持续的观察，准确解读森林的细微变化，并将其传承给下一代。循着那些记录，我开始过上人与森林共生的恬静日常。"
+    }
+  }
+}

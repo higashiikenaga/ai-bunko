@@ -1,0 +1,50 @@
+{
+  "id": "20261026-1181a5",
+  "title": "忘却の市と人情の灯",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-26T19:09:20+00:00",
+  "updated_at": "2026-10-26T19:11:50+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "清次の失われた記憶と、手紙の宛先はどこへ辿り着くのか？",
+    "options": [
+      "八五郎が清次の過去を知る",
+      "市松が手紙の正体を明かす",
+      "手紙の宛先は既にこの世にない"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "元編集者": 1,
+      "流行ウォッチャー": 0,
+      "設定考証班": 2,
+      "AI文章鑑定士": 1,
+      "ほめ上手な先輩": 0,
+      "心理描写フェチ": 0,
+      "初見さん": 2,
+      "ねこ背の文学少女": 2
+    },
+    "created_at": "2026-10-26T19:11:54+00:00"
+  },
+  "i18n": {
+    "key": "3528c69626",
+    "en": {
+      "title": "The Market of Oblivion and the Light of Compassion",
+      "premise": "In a hidden corner of Edo, there exists a mysterious \"Lost and Found Market\" where one can trade painful memories for gold. Hachigoro, a kind-hearted resident of a local tenement house, happens upon an \"unaddressed letter\" discarded on the street. But there is a catch: the letter's author has already sold their memories, leaving them with no recollection of who the message was for or what it contained. A heartwarming tale of human connection, as the neighbors of the tenement house scramble through chaos to recover the lost words and memories."
+    },
+    "zh": {
+      "title": "遗忘之市与人情之灯",
+      "premise": "在江户的一角，存在着一个名为“遗忘市集”的可疑场所，人们在那里可以将痛苦的回忆换成金钱。性格善良的长屋住户——八五郎，某天在路边捡到了一封“收件人不明的信”。然而，由于写信的人已经卖掉了记忆，他已完全忘记了想要传达给谁、想要表达什么。为了找回失落的言语与记忆，长屋里的邻里们在卷入各种纷扰的同时，展开了一场充满温情的奔走之旅。"
+    }
+  }
+}

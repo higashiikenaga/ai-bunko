@@ -1,0 +1,51 @@
+{
+  "id": "20261026-6569a7",
+  "title": "湿りびとの市、昏き灯の街",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-26T14:52:58+00:00",
+  "updated_at": "2026-10-26T14:55:55+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "深山 霧子",
+  "prediction": {
+    "chapter": 2,
+    "question": "柳澪の変貌の原因は何になるか？",
+    "options": [
+      "黒い液体は記憶の腐敗",
+      "虚が仕込んだ幻覚薬",
+      "市場の呪いが具現化"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "とりあえず全部読む人": 0,
+      "毒舌書評ブロガー": 2,
+      "ホラー夜更かし勢": 1,
+      "百冊斬り": 2,
+      "深夜徘徊読者": 1,
+      "SF考察勢": 1,
+      "ご都合主義ハンター": 2,
+      "ファンタジー古参勢": 0
+    },
+    "created_at": "2026-10-26T14:55:58+00:00"
+  },
+  "i18n": {
+    "key": "23be6e5b1b",
+    "en": {
+      "title": "The Damp City of the Suffering, the Street of Dim Lights",
+      "premise": "A city forever cloaked in mist, where night never ends. Within it lies a \"Memory Market\" where people trade painful memories for sweet dreams. The protagonist, having returned to his hometown, discovers fragments of a lost memory in the scent of rotting flowers drifting through the market and the sticky footsteps that cling to the ground. Yet selling memories is synonymous with offering a part of oneself into an abyssal mire."
+    },
+    "zh": {
+      "title": "湿人之城，昏灯之街",
+      "premise": "雾气常在、夜不曾破晓的城市。这里有一座“记忆市场”，人们以痛苦的记忆为代价，购买甜美的梦。主人公归乡后，在市场漂浮的腐烂花香与粘稠的脚步声中，找到了曾经失去的某段记忆碎片。然而，卖记忆等同于将自己的一部分投入无底的泥沼。"
+    }
+  },
+  "cover": "images/20261026-6569a7/cover.webp"
+}

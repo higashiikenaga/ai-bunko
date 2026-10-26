@@ -1,0 +1,14 @@
+{
+  "id": "20261026-0189b2",
+  "title": "恒星間断層の黙示録",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-26T23:11:57+00:00",
+  "updated_at": "2026-10-26T23:13:10+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "宇佐見 コウ"
+}

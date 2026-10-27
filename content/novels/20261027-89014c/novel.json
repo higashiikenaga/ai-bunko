@@ -51,5 +51,17 @@
       "ジャンル横断者": 1
     },
     "created_at": "2026-10-27T02:13:04+00:00"
-  }
+  },
+  "i18n": {
+    "key": "8fac26cd69",
+    "en": {
+      "title": "The Stardust Wake and the Flying Ship Across the Galaxy",
+      "premise": "With Kaito becoming the guardian of the undersea ruins and me still completely obsessed with delicious food, a brand-new summer is about to begin! The energy from the ruins has connected to the sky, causing the silhouette of a 'flying ship' to suddenly appear in the night sky. To solve the mystery of the star chart Kaito holds, I get swept up with him into an aerial journey aiming above the clouds. As we stuff our cheeks with delectable starry-sky sweets, the distance between the two of us is bound to close even faster... or so it should!"
+    },
+    "zh": {
+      "title": "星屑的航迹与横渡银河的飞船",
+      "premise": "随着海斗成为了海底遗迹的守护者，而我依旧是个对美味佳肴毫无抵抗力的吃货，我们的全新夏天开始了！遗迹的能量与天空相连，夜空中竟突然浮现出了一艘“飞船”的剪影。为了解开海斗所拥有的星图之谜，我被卷入了一场与他一同冲上云霄的天空之旅。一边大口品尝着美味的星空甜点，我们俩之间的距离一定会迅速拉近……大概吧！"
+    }
+  },
+  "cover": "images/20261027-89014c/cover.webp"
 }

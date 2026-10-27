@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-27T02:40:40+00:00"
   },
-  "cover": "images/20261027-349bd8/cover.webp"
+  "cover": "images/20261027-349bd8/cover.webp",
+  "i18n": {
+    "key": "bccc235bf1",
+    "en": {
+      "title": "The Lighthouse in the Calm, A Program of Memories",
+      "premise": "In an old seaside lighthouse, Misaki sorts through the belongings of her late husband. Deep in the basement, she discovers a malfunctioning, outdated device that has lost its master. It is a 'lost AI'—a consciousness born from endlessly learning the memories of its owner, now wandering without purpose. Through her dialogue with the device, Misaki begins to confront her own grief and the unspoken feelings her husband left behind."
+    },
+    "zh": {
+      "title": "宁静灯塔，记忆程序",
+      "premise": "在海边的旧灯塔里，美咲正整理着亡夫的遗物。她在灯塔的地下室中，发现了一台失去主人、陷入功能失调状态的旧式设备。那是一个通过不断学习主人的记忆而诞生、却失去了目标的“迷失人工智能”。通过与设备的对话，美咲开始直面丈夫留下的那些无法言说的思念，以及她自身的丧失感。"
+    }
+  }
 }

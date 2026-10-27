@@ -1,0 +1,50 @@
+{
+  "id": "20261027-0a596e",
+  "title": "共鳴する夜の輪舞曲（ロンド）と、星を喰らう歌い手",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-27T08:06:07+00:00",
+  "updated_at": "2026-10-27T08:07:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "吟遊 ノクト",
+  "prediction": {
+    "chapter": 2,
+    "question": "エララの招待状、次はどこへ向かう？",
+    "options": [
+      "地下音楽堂で謎の儀式が始まる",
+      "カエレンがライラと共鳴",
+      "エララが裏切り者と暴露する"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 0,
+      "活字中毒の猫": 1,
+      "毒舌書評ブロガー": 2,
+      "週末の映画好き": 0,
+      "純文学の亡霊": 2,
+      "ご都合主義ハンター": 1,
+      "応援団長": 1,
+      "闇鍋リーダー": 2
+    },
+    "created_at": "2026-10-27T08:07:59+00:00"
+  },
+  "i18n": {
+    "key": "e7bf9698b0",
+    "en": {
+      "title": "Rondo of the Resonating Night and the Star-Devouring Singer",
+      "premise": "Noctopia, the 'city that never sleeps,' is sustained by ceaseless music. In this place, song is power, magic, and the very lifeline of existence. Once every thousand years, on the 'Festival Night' when the stars resonate, players of dissonance gather, plotting to alter the world's harmony. This is the story of those bearing different kinds of solitude, as they strive to complete a single, forbidden song."
+    },
+    "zh": {
+      "title": "共鸣之夜的轮舞曲与噬星歌者",
+      "premise": "“不眠之城”诺克托皮亚（Noctopia）依靠永不停歇的音乐维持运转。在那里，歌声即是权力，是魔法，亦是生命的命脉。千年一度，在星辰共鸣的“祭典之夜”，企图改变世界律动的“不协和音奏者”们纷纷集结。这是一段关于怀揣着各自孤独的人们，直至完成那一首禁忌之歌的故事。"
+    }
+  }
+}

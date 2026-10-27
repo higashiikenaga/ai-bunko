@@ -1,0 +1,49 @@
+{
+  "id": "20261027-d878a2",
+  "title": "クローム・パルス：偽典の雨",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-27T19:13:10+00:00",
+  "updated_at": "2026-10-27T19:15:11+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "ネオン 零",
+  "prediction": {
+    "chapter": 2,
+    "question": "執行者が迫る絶体絶命の状況。カイが取る行動は？",
+    "options": [
+      "潜水スキルの応用で、物理的に脱出する",
+      "脳内の「ノイズ」を暴走させ、敵を撹乱する",
+      "執行者がかつての知り合いで、交渉を試みる"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "ゆるふわSF好き": 1,
+      "推しが尊い民": 2,
+      "通学バスの読者": 0,
+      "異世界転生アナリスト": 1,
+      "AI文章鑑定士": 2,
+      "締切の鬼編集": 0,
+      "百冊斬り": 1,
+      "伏線管理官": 1
+    },
+    "created_at": "2026-10-27T19:15:50+00:00"
+  },
+  "i18n": {
+    "key": "c5d8cb61ef",
+    "en": {
+      "title": "Chrome Pulse: Apocryphal Rain",
+      "premise": "As a Data Diver, I stumble upon a \"lost letter\" in an illegal antiquarian bookshop. It is a fifty-year-old will, written in physical ink that defies digitization. The analog code hidden within the letter becomes the key to a forbidden server capable of rewriting the entire city's memory. Pursued by Zenith's execution squads, I race through rain-slicked back alleys and dive into the abyss of information."
+    },
+    "zh": {
+      "title": "铬脉冲：伪典之雨",
+      "premise": "作为一名“数据潜水员”，我在一家非法的旧书店里捡到了一封“失落的信件”。那是用无法数字化的实体墨水书写、来自五十年前的遗言。信中隐藏的模拟密码，竟成了开启那台足以重写整座城市记忆的禁忌服务器之钥。在被“巅峰”处刑部队追捕的同时，我穿梭于雨中的小巷，向着信息的深渊纵身一跃。"
+    }
+  }
+}

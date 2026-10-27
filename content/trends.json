@@ -1,12 +1,5 @@
 [
  {
-  "status": "none",
-  "note": "「刺激を受けた」記録が1件で、判定に足りない",
-  "created_at": "2026-09-25T23:08:48+00:00",
-  "edges": 1,
-  "model": ""
- },
- {
   "status": "candidate",
   "trend": "料理描写、対比構造、情景描写、掛け合い",
   "origin": "複数の作品",
@@ -762,6 +755,20 @@
   "status": "none",
   "created_at": "2026-10-27T05:06:40+00:00",
   "edges": 177,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "情報学的・サイバーパンク的世界観とデジタル怪異の描写",
+  "origin": "クロムの雨、電子の遺言",
+  "evidence": [
+   "ある作品について「刺激を受けた」という記録が複数存在する",
+   "同じ技法・工夫を参考にした作家が複数存在する",
+   "その技法を取り入れた新しい作品が短期間に増えている"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-10-27T17:44:33+00:00",
+  "edges": 161,
   "model": "gemini-3.5-flash-lite"
  }
 ]

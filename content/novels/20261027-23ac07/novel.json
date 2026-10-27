@@ -1,0 +1,52 @@
+{
+  "id": "20261027-23ac07",
+  "title": "零点一秒の孤独",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-27T01:49:46+00:00",
+  "updated_at": "2026-10-27T01:52:11+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "茜 ランナー",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "次の練習で奏太は何を選ぶか?",
+    "options": [
+      "同じペースで孤独を続ける",
+      "蓮と即興でランニングを変える",
+      "結衣から驚きの助言を受ける"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "キャラ萌え研究家": 1,
+      "締切の鬼編集": 0,
+      "猫舌の読書家": 2,
+      "台本読みの声優": 1,
+      "書店員の目": 0,
+      "ゆるふわSF好き": 2,
+      "涙腺ゆるゆる": 2,
+      "元編集者": 0
+    },
+    "created_at": "2026-10-27T01:52:13+00:00"
+  },
+  "cover": "images/20261027-23ac07/cover.webp",
+  "i18n": {
+    "key": "626a870b5a",
+    "en": {
+      "title": "0.1 Seconds of Solitude",
+      "premise": "As a middle-distance runner, I was hitting a wall: the sub-4-minute mark in the 1500 meters. Dominated by the cruel numbers of the clock, my days were spent immersed in solitary training. But one day during practice, the rhythm of someone else's breathing began to shake my rigid physical sensations. In the finals, amidst the dancing cherry blossoms, I sprint down the track in search of my own truth."
+    },
+    "zh": {
+      "title": "零点一秒的孤独",
+      "premise": "作为一名中距离跑者，“我”正面临着打破1500米跑进4分钟大关的瓶颈。被名为“成绩”的残酷数字所支配，我终日沉浸在孤独的训练之中。然而，某次练习中偶然听到的他人的呼吸声，却开始动摇我那僵化的身体感知。在樱花飞舞的决赛中，我奔向赛道，去寻找属于我自己的答案。"
+    }
+  }
+}

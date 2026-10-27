@@ -10,5 +10,17 @@
     "gemma-4-31b-it",
     "gemma-4-26b-a4b-it"
   ],
-  "author": "宇佐見 コウ"
+  "author": "宇佐見 コウ",
+  "cover": "images/20261026-0189b2/cover.webp",
+  "i18n": {
+    "key": "f417e3c848",
+    "en": {
+      "title": "Apocalypse of the Interstellar Rift",
+      "premise": "The delicate balance between the Interstellar Empire Asterism and Singularity, a corporate conglomerate monopolizing super-technology, begins to shatter with the discovery of a massive comet fortress known as the 'Ice Castle' on the galactic frontier. When an information broker operating a second-hand bookstore in a neutral zone deciphers ancient physical records and exposes secrets that overturn history, the galaxy is thrust into an unprecedented fleet war. Through the intersecting perspectives of various fleets, politicians, and a lone broker, the truth of the universe is slowly laid bare."
+    },
+    "zh": {
+      "title": "恒星间断层的启示录",
+      "premise": "星间帝国Asterism与垄断超技术的联合企业Singularity之间的平衡，因边境名为“冰之城”的巨大彗星要塞的发现而开始崩塌。一名在中立地带经营旧书店的信息商解读了古代的物理记录，揭露了足以颠覆历史的机密，将银河系推向了前所未有的舰队大战。多支舰队、政治家以及一名信息商的视角交织，宇宙的真相逐渐揭晓。"
+    }
+  }
 }

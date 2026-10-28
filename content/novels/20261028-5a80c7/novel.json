@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-28T15:37:39+00:00"
   },
-  "cover": "images/20261028-5a80c7/cover.webp"
+  "cover": "images/20261028-5a80c7/cover.webp",
+  "i18n": {
+    "key": "b4dac5a43d",
+    "en": {
+      "title": "Throat of Wind, Heartbeat of Iron",
+      "premise": "In a world where winged beastmen soaring through the skies and indigenous demi-humans turning iron gears on the ground clash repeatedly over scarce resources, a sudden change stirs the peace. For the first time in decades, the 'Migratory Birds' begin an unseasonal northward trek, signaling erratic weather and impending geopolitical upheaval. Amidst the chaos, the irregular static from 'Dawn Radio,' broadcasting from a remote station, begins to weave the divided races toward an unforeseen destiny. On the razor's edge between racial pride and survival, what choice will they make?"
+    },
+    "zh": {
+      "title": "风之咽喉，钢铁之律动",
+      "premise": "这是一个翱翔天际的翼兽人与在地面转动铁质齿轮的土著亚人，为了有限的资源而不断发生冲突的世界。某日，数十年未见的“候鸟”开始进行反季节的北迁，预示着异常天气与地缘政治动荡的到来。从边境电台传出的《黎明广播》那不规则的杂音，正将分裂的种族们引向意想不到的命运。在种族尊严与生存的边界线上，他们将做出怎样的选择？"
+    }
+  }
 }

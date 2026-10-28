@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-28T01:42:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "宇宙規模の戦闘と心理戦が熱いが、甘酸っぱいロマンスがほとんど見られず、感情移入がやや難しい。",
+    "good": "斬新な設定",
+    "bad": "恋愛要素不足",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T18:48:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

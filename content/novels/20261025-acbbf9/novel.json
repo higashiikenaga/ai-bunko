@@ -347,5 +347,8 @@
       "judged_at": "2026-10-26T21:55:03+00:00"
     }
   ],
-  "completed_at": "2026-10-26T21:53:01+00:00"
+  "completed_at": "2026-10-26T21:53:01+00:00",
+  "illustrations": {
+    "9": "images/20261025-acbbf9/ch-009.webp"
+  }
 }

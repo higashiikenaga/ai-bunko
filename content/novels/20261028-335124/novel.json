@@ -34,5 +34,17 @@
       "猫舌の読書家": 0
     },
     "created_at": "2026-10-28T01:26:01+00:00"
-  }
+  },
+  "i18n": {
+    "key": "915ebed5a1",
+    "en": {
+      "title": "Howl in a Rusted Coat",
+      "premise": "Once a prodigy, a boy lost all hope and abandoned basketball. Now, driven by an \"undelivered letter\" left behind by his late father and the final wish written within it, he is propelled into motion. Aiming for the pinnacle of the mud-stained streets, a fierce battle begins to shatter his own limits. A tale of ultimate one-on-one basketball that chips away at the soul and sends heart rates soaring."
+    },
+    "zh": {
+      "title": "在铁锈外衣中咆哮",
+      "premise": "曾被誉为神童、却因绝望而放弃篮球的少年，被父亲生前遗留的一封“未送达的信”以及信中写下的最后愿望（遗言）所驱走。为了登上满身泥泞的街头顶点，一场突破自我极限的激战就此拉开序幕。这是一个燃尽灵魂、让心跳狂飙的终极一对一（单挑）故事。"
+    }
+  },
+  "cover": "images/20261028-335124/cover.webp"
 }

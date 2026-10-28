@@ -221,5 +221,12 @@
     "5": "images/20261022-f56eec/ch-005.webp",
     "4": "images/20261022-f56eec/ch-004.webp"
   },
-  "sequel_id": "20261027-89014c"
+  "sequel_id": "20261027-89014c",
+  "audio": {
+    "1": "audio/20261022-f56eec/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Fenrir"
 }

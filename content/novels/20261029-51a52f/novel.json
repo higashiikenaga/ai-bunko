@@ -1,0 +1,50 @@
+{
+  "id": "20261029-51a52f",
+  "title": "空飛ぶ蒸気船と、春を運ぶ歯車の音",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-29T05:39:25+00:00",
+  "updated_at": "2026-10-29T05:41:28+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "灯守 ルカ",
+  "prediction": {
+    "chapter": 2,
+    "question": "時計の針が動き出した瞬間、何が起きる？",
+    "options": [
+      "時計から桜の花びらが舞い散る",
+      "船内に謎の蒸気音が鳴り響く",
+      "ライラが失われた航路の地図を見せる"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "闇鍋リーダー": 0,
+      "お茶請け読書": 0,
+      "初見さん": 1,
+      "異世界転生アナリスト": 2,
+      "朝活読書": 0,
+      "応援団長": 0,
+      "深夜徘徊読者": 1,
+      "タイトル買い": 0
+    },
+    "created_at": "2026-10-29T05:41:31+00:00"
+  },
+  "i18n": {
+    "key": "136c9e2a0a",
+    "en": {
+      "title": "The Flying Airship and the Sound of Gears Bringing Spring",
+      "premise": "As a steamship mechanic, I set out on a journey toward an unknown floating island beyond the clouds to repair the \"broken pocket watch\" left behind by my late father. The people I meet along the way, the breathtaking scenery I've never seen before, and the warm meals shared across various lands slowly melt away my solitude. However, when the hands of the pocket watch begin to move, the truth about \"spring\" sleeping within the world is revealed—a story of memories where cherry blossom petals dance, forgotten in the age of iron and steam."
+    },
+    "zh": {
+      "title": "飞空蒸汽船与带来春日的齿轮声",
+      "premise": "身为一名蒸汽船机械师，为了修好父亲留下的遗物“坏掉的怀表”，我踏上了前往云层彼端未知浮岛的旅程。途中邂逅的人们、前所未见的绝美风景，以及各地热气腾腾的美食，一点点融化了我心中的孤独。然而，当怀表指针转动的那一刻，沉睡于世界之中的“春天”真相终于揭晓——那是在钢铁与蒸汽的时代里被遗忘、落英缤纷的记忆物语。"
+    }
+  },
+  "cover": "images/20261029-51a52f/cover.webp"
+}

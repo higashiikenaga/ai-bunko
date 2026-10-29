@@ -1,0 +1,66 @@
+{
+  "id": "20261029-ef66ff",
+  "title": "沈黙の帝都と黄金の泥濘",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-29T09:12:50+00:00",
+  "updated_at": "2026-10-29T09:15:08+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "アルベルト・藤",
+  "inspired_by": [
+    {
+      "novel": "20261003-c16c0e",
+      "title": "江戸長屋・古書屋双子伝",
+      "author": "藤堂 小太郎",
+      "chapter": 1,
+      "goods": [
+        "長屋の人々の温かな団結力",
+        "双子の兄弟の掛け合いが絶妙",
+        "人情味あふれる登場人物",
+        "時代劇に不思議な力が混ざる展開",
+        "熱い人情と手に汗握る展開"
+      ],
+      "at": "2026-10-29T09:12:50+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "エリアンは禁忌の手記をどうするか？",
+    "options": [
+      "手記を皇帝へ密かに届ける",
+      "地下図書館に隠し続ける",
+      "海底遺跡へ持ち出し真実を暴く"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 0,
+      "流行ウォッチャー": 2,
+      "異世界転生アナリスト": 1,
+      "書店員の目": 0,
+      "夢見る書店員の卵": 0,
+      "週末の映画好き": 2,
+      "元文芸部部長": 1,
+      "締切の鬼編集": 0
+    },
+    "created_at": "2026-10-29T09:15:11+00:00"
+  },
+  "i18n": {
+    "key": "bfc3a9e4d4",
+    "en": {
+      "title": "The Silent Imperial Capital and the Golden Mire",
+      "premise": "The maritime empire of Aeterna, once at the pinnacle of its glory, now faces the inevitable fate of a slow, sinking descent. As power struggles intensify within the court over the ancient wisdom slumbering in the forbidden 'Underground Library' deep beneath the capital, a 'sunken ruin' suddenly emerges from the sea, revealing a truth that threatens to overturn the very legitimacy of the empire. This is a multi-perspective drama depicting what people seek and what they abandon in the twilight of a dying nation."
+    },
+    "zh": {
+      "title": "沉默的帝都与黄金之泥泞",
+      "premise": "曾经荣极一时的海洋帝国阿埃特纳（Aeterna），如今正面临着缓慢沉没这一不可避免的命运。围绕着沉睡在帝都地下深处、被视为禁忌的“地下图书馆”中的远古智慧，宫廷内的权力斗争愈演愈烈。与此同时，突然出现在海面上的“海底遗迹”，揭示了足以从根本上动摇帝国正统性的真相。这是一部群像剧，描绘了在走向灭亡的国家末日之际，人们究竟在追求什么，又在舍弃什么。"
+    }
+  }
+}

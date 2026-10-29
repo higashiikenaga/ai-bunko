@@ -27,7 +27,8 @@
   "cover": "images/20261025-0bd65c/cover.webp",
   "fail_count": 1,
   "illustrations": {
-    "1": "images/20261025-0bd65c/ch-001.webp"
+    "1": "images/20261025-0bd65c/ch-001.webp",
+    "4": "images/20261025-0bd65c/ch-004.webp"
   },
   "prediction_results": [
     {

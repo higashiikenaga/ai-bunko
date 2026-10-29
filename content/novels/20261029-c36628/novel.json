@@ -1,0 +1,66 @@
+{
+  "id": "20261029-c36628",
+  "title": "雨啜りの村と、最期の乗客",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-10-29T07:32:59+00:00",
+  "updated_at": "2026-10-29T07:36:00+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "朽木 灯",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "inspired_by": [
+    {
+      "novel": "20260928-da4b0b",
+      "title": "星図を綴る銀狐と、凍てつく祈りの城",
+      "author": "ポム・ド・テール",
+      "chapter": 1,
+      "goods": [
+        "星空設定",
+        "情緒的で美しい文体",
+        "銀月とノアの掛け合いと関係性",
+        "幻想的な世界観と美しい文章",
+        "狐の語りと記憶の旅路が魅力"
+      ],
+      "at": "2026-10-29T07:32:59+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "迫りくる列車の正体と、蓮が直面する運命は？",
+    "options": [
+      "列車の乗客が蓮の名を呼ぶ",
+      "凪が恐怖に満ちた顔で叫ぶ",
+      "駅の風景が静かに崩壊する"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "元文芸部部長": 0,
+      "ねこ背の文学少女": 2,
+      "元編集者": 1,
+      "新着チェッカー": 2,
+      "活字中毒の猫": 1,
+      "放課後の図書委員": 0,
+      "涙腺ゆるゆる": 0,
+      "AI文章鑑定士": 1
+    },
+    "created_at": "2026-10-29T07:36:03+00:00"
+  },
+  "i18n": {
+    "key": "bcaea6f874",
+    "en": {
+      "title": "The Village of the Soughing Rain and the Final Passenger",
+      "premise": "Returning to his hometown for a relative's funeral after several years, the protagonist finds himself witnessing a strange festival held by the village. It is said that on this night, a 'final train' appears only once a year, carrying passengers who do not belong to this world. When the etiquette of hospitality is breached, 'something' lurking in the village's silence begins to slowly creep toward his very feet."
+    },
+    "zh": {
+      "title": "啜雨之村与最后的乘客",
+      "premise": "为了参加亲戚的葬礼，主角时隔多年回到了故乡，却恰逢村庄举行一场诡异的祭典。据说在那天深夜，一年一度出现的“末班列车”会载着不属于这个世界的乘客。一旦违背了款待的礼节，潜伏在村庄寂静之中的“某种东西”，便会悄无声息地向主角的脚下蔓延而来。"
+    }
+  }
+}

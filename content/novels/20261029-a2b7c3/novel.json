@@ -52,5 +52,16 @@
       "週末の映画好き": 1
     },
     "created_at": "2026-10-29T06:53:20+00:00"
+  },
+  "i18n": {
+    "key": "4c9758d0ba",
+    "en": {
+      "title": "Resistance of the Azure Sky: The Silver Wings that Weave the Wind and the Library of Oblivion",
+      "premise": "Kaito, a young mechanic who races through the skies, sets out on a journey to the 'Underground Library'—a place where the world's memories are said to be sealed—alongside a 'Nameless Cat' he encountered by chance. Their vessel is the Sky Strider, a legendary prototype airship capable of reading the wind and converting air into fuel. Amidst a battle over lost history, Kaito and his companions stand against an Empire seeking to dominate the heavens. The sound of wings slicing through the wind and the bonds of comrades will breathe new life into a stagnant world."
+    },
+    "zh": {
+      "title": "苍穹的反抗者 ——编织风之银翼与遗忘之书库——",
+      "premise": "在天空中翱翔的年轻机修师凯特，与偶然发现的“无名之猫”一同踏上了前往传说中封印着世界记忆的“地下图书馆”的旅程。他们驾驶的是传说中的原型试作型飞空艇“天空行者（Sky Strider）”，它能读取风向并将空气转化为燃料。在围绕失落历史的战斗中，凯特将与伙伴们一起，向企图统治天空的帝国发起挑战。划破长空的银翼之声与伙伴间的羁绊，将为停滞的世界吹入新的希望之风。"
+    }
   }
 }

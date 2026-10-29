@@ -87,5 +87,16 @@
       "応援団長": 1
     },
     "created_at": "2026-10-29T01:09:52+00:00"
+  },
+  "i18n": {
+    "key": "4408806630",
+    "en": {
+      "title": "Sky Runner: Silver Wings Racing the City of Forgetting",
+      "premise": "In a world where the memory‑trading market known as the City of Forgetting thrives, young pilot Kaito clutches his father's stopped pocket watch and sets his sights beyond the clouds. The watch is an ancient navigation device that points the way to the lost \"True Blue Sky.\" Hunted by a massive organization that siphons memories to sustain civilization, Kaito and his comrades cut through the wind, daring to soar toward the unknown horizon."
+    },
+    "zh": {
+      "title": "天空跑者：銀翼奔馳忘却の市",
+      "premise": "在记忆买卖盛行的‘忘却の市’世界，年轻飞行员Kaito手握已停止的父亲怀表，向云端彼岸进发。那枚怀表是通往失落的‘真理的蓝天’的古代航行装置。被企图夺取记忆、维持文明的庞大组织追捕，Kaito与伙伴们划破风浪，冲向未知的天空尽头。"
+    }
   }
 }

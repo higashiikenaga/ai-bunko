@@ -221,5 +221,8 @@
     }
   ],
   "completed_at": "2026-10-29T17:25:43+00:00",
-  "sequel_id": "20261030-920eff"
+  "sequel_id": "20261030-920eff",
+  "illustrations": {
+    "5": "images/20261027-0a596e/ch-005.webp"
+  }
 }

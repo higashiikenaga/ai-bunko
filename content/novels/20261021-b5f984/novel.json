@@ -92,5 +92,8 @@
     "1": 2,
     "2": 2
   },
-  "audio_voice": "Puck"
+  "audio_voice": "Puck",
+  "illustrations": {
+    "2": "images/20261021-b5f984/ch-002.webp"
+  }
 }

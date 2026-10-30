@@ -1,0 +1,51 @@
+{
+  "id": "20261030-7d0997",
+  "title": "残光の記録 ―不夜城の灯火と、継承される遺言―",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-30T07:02:00+00:00",
+  "updated_at": "2026-10-30T07:04:32+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "野分 風太",
+  "sequel_of": "20261016-85791d",
+  "prediction": {
+    "chapter": 2,
+    "question": "潮崎が示した光の揺らぎの原因は？",
+    "options": [
+      "古い灯台の電磁波が干渉している",
+      "銀色の存在が残したコードが作動",
+      "潮崎自身が過去の記憶を投影した幻影"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "週末の映画好き": 1,
+      "元新人賞下読み": 0,
+      "推しが尊い民": 2,
+      "ホラー夜更かし勢": 2,
+      "書店員の目": 1,
+      "流行ウォッチャー": 1,
+      "闇鍋リーダー": 0,
+      "朝ドラ好きの主婦": 2
+    },
+    "created_at": "2026-10-30T07:04:36+00:00"
+  },
+  "cover": "images/20261030-7d0997/cover.webp",
+  "i18n": {
+    "key": "5c97d083b9",
+    "en": {
+      "title": "Chronicles of the Afterglow: The Light of the Sleepless City and the Inherited Testament",
+      "premise": "As I began my journey as a lighthouse maintenance technician, I realized that the ripples from the \"silver existence\" I once saved were casting a shadow over the city's infrastructure. Behind the dazzling glare of the city that never sleeps, aging control systems are reaching their breaking point, and the city's very lifeline is beginning to falter. One day, I come into possession of a blueprint—an indecipherable \"testament\" entrusted to me by my late predecessor. It is the final design to reclaim the vanishing \"darkness\" and the \"true light.\""
+    },
+    "zh": {
+      "title": "残光记录 ——不夜城的灯火与传承的遗言",
+      "premise": "作为一名初出茅庐的灯塔维护技师，我察觉到曾经救下的那个“银色存在”所留下的余波，正为城市的基础设施投下阴影。在不夜城耀眼光芒的背后，陈旧的控制系统已达极限，城市的生命线开始动摇。某天，我得到了一份由已故的前任技师托付、如同无法解读的“遗言”般的蓝图。那是为了找回正逐渐消失的“黑暗”与“精准之光”而存在的，最后的蓝图。"
+    }
+  }
+}

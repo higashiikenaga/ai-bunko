@@ -1,0 +1,51 @@
+{
+  "id": "20261030-062da4",
+  "title": "翠嶺の呼吸 ―原生林を駆ける軌跡―",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-30T22:47:28+00:00",
+  "updated_at": "2026-10-30T22:48:45+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "森閑 イオリ",
+  "challenge": true,
+  "prediction": {
+    "chapter": 2,
+    "question": "大会に向けた自主トレ中、九条から突然告げられた言葉は？",
+    "options": [
+      "過酷な新ルートへの同行依頼",
+      "走りの本質を問う厳しい試練",
+      "実はライバルだったという事実"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "推しが尊い民": 0,
+      "活字中毒の猫": 0,
+      "AI文章鑑定士": 2,
+      "全話精読の批評家": 1,
+      "テンポ警察": 2,
+      "猫舌の読書家": 0,
+      "ミステリー初心者": 1,
+      "タイトル買い": 0
+    },
+    "created_at": "2026-10-30T22:48:49+00:00"
+  },
+  "i18n": {
+    "key": "4b88db6767",
+    "en": {
+      "title": "Breath of the Verdant Peaks: Trails Through the Primeval Forest",
+      "premise": "Having found solace only in the silence of nature, I am driven by a sudden impulse to enter a grueling trail running race. The scent of damp earth in the primeval forest, the pale bark of birch trees, the sight of Japanese serows leaping across the crags—as I push my body to its absolute limit, I learn that the goal is not to conquer nature, but to become a part of its eternal cycle. From an old coastal lighthouse, past oasis-like springs hidden among arid rocks, this is a story of the journey toward the summit."
+    },
+    "zh": {
+      "title": "翠岭之息：奔跑于原生林的轨迹",
+      "premise": "习惯于在自然的静谧中寻找归属感的“我”，在一次冲动之下，决定挑战一场艰苦的越野跑大赛。原生林中湿润的泥土气息、白桦树洁白的树皮、在岩场间奔跑的日本羚羊……在挑战肉体极限的过程中，我逐渐领悟到，奔跑并非为了征服自然，而是为了成为自然循环的一部分。从海岸边的古老灯塔出发，跨越干涸岩块间如绿洲般的涌泉，这是一个向着顶峰进发的故事。"
+    }
+  }
+}

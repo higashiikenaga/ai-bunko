@@ -52,5 +52,16 @@
       "深夜テンションの読者": 1
     },
     "created_at": "2026-10-30T08:06:53+00:00"
+  },
+  "i18n": {
+    "key": "6d34162458",
+    "en": {
+      "title": "The Ponpoko Clock Shop and the Moon's Promise",
+      "premise": "In a quiet corner of the forest lies a clock shop where Popo, a kind-hearted squirrel, repairs more than just gears—he restores the precious memories held within. One day, a little rabbit arrives with a broken pocket watch that has lost the memory of a special promise made long ago at the 'Hill of Promises.' To set the hands ticking once more, Popo and his forest friends embark on a gentle, bittersweet journey of discovery."
+    },
+    "zh": {
+      "title": "砰砰钟表店与月亮的约定",
+      "premise": "在森林的角落里，有一家温暖的钟表店。这里住着小松鼠波波，他不仅修理时钟，更细心地修复着其中承载的珍贵回忆。直到有一天，一只小兔子带着一只“损坏的怀表”找上门来。这只怀表似乎遗忘了曾经在“约定之丘”许下的重要约定。为了让时针重新走动，波波与森林里的伙伴们一起，踏上了一段温柔而略带感伤的冒险之旅。"
+    }
   }
 }

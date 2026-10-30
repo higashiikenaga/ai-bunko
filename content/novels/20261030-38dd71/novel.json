@@ -35,5 +35,17 @@
       "リアリティ警察": 0
     },
     "created_at": "2026-10-30T05:43:32+00:00"
-  }
+  },
+  "i18n": {
+    "key": "3eae9ed529",
+    "en": {
+      "title": "The Stardust Casket and the Iron Offering",
+      "premise": "In the mountain village of Hoshikui, a ritual is held once every century to offer the 'Star Chart'—a record of celestial movements—to the gods. To power the armillary sphere, a colossal steam engine designed to hear the divine voice, the village youth must sacrifice the 'memories' of those chosen. A young scribe from outside the village begins to notice the unsettling nature of the place, where the scent of steam soot mingles with the smell of old blood. As the stars shift into an abnormal alignment, the gears of the machine begin to tick to the rhythm of non-human footsteps."
+    },
+    "zh": {
+      "title": "星屑之柩与钢铁供物",
+      "premise": "在山间的星喰村，每百年会举行一次将记录天体运行的“星图”献给神明的仪式。为了驱动那台旨在聆听神之声的巨大蒸汽机构——天球仪，村里的年轻人必须献上被选中之人的“记忆”作为祭品。一名来自村外的青年书记官，逐渐察觉到这个弥漫着蒸汽煤烟与陈旧血腥味的村庄之异样。当星辰开始呈现异常排列之时，机械的齿轮开始刻下非人之物的脚步声。"
+    }
+  },
+  "cover": "images/20261030-38dd71/cover.webp"
 }

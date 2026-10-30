@@ -1,0 +1,50 @@
+{
+  "id": "20261030-ac35e2",
+  "title": "硝子細工の追憶、氷晶の揺り籠",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-30T04:47:20+00:00",
+  "updated_at": "2026-10-30T04:49:30+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "硝子 シオン",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリアスはリィネの結晶に何を見たか？",
+    "options": [
+      "記憶の裂け目が映し出された",
+      "自分の過去が逆流した",
+      "氷の城が崩れ始めた"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 1,
+      "ファンタジー古参勢": 2,
+      "テンポ警察": 0,
+      "歴史散歩の人": 2,
+      "全話精読の批評家": 1,
+      "涙腺ゆるゆる": 0,
+      "伏線管理官": 1,
+      "台詞にうるさい人": 2
+    },
+    "created_at": "2026-10-30T04:49:32+00:00"
+  },
+  "i18n": {
+    "key": "4adf1f0534",
+    "en": {
+      "title": "Glasswork Memories, the Ice Crystal Cradle",
+      "premise": "I am a craftsman who turns fragments of people’s souls into jewels. Those who bring memories filled with pain to the \"Market of Memories\" have them transformed into shining crystals in return. One day, a formless girl who lives in the \"Ice Castle\" comes to me. She is not seeking the memory of a lost love, but the most beautiful and cruel pain she has chosen to keep."
+    },
+    "zh": {
+      "title": "玻璃工艺的回忆，冰晶摇篮",
+      "premise": "我是一名将人们灵魂碎片加工成宝石的工匠。人们把充满痛苦的记忆带到“记忆之市”，我则将其转化为闪耀的晶体。某日，一位居住在“冰之城”、形体不定的少女来到我这里。她寻找的不是失去的爱情记忆，而是她拒绝遗忘的最美最残酷的痛楚。"
+    }
+  },
+  "cover": "images/20261030-ac35e2/cover.webp"
+}

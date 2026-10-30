@@ -1,0 +1,50 @@
+{
+  "id": "20261030-50a69d",
+  "title": "事象の地平線に舞う影 ―エントロピーの渡り鳥―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-30T13:16:23+00:00",
+  "updated_at": "2026-10-30T13:19:15+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "七海 シグマ",
+  "prediction": {
+    "chapter": 2,
+    "question": "渡り鳥の軌跡が示す、特異点「名前のない猫」の正体は？",
+    "options": [
+      "観測可能な物理現象",
+      "エリオスの過去の残滓",
+      "宇宙そのものの意志"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "元新人賞下読み": 0,
+      "台詞にうるさい人": 1,
+      "文体原理主義者": 0,
+      "ゆるふわSF好き": 2,
+      "SF考察勢": 1,
+      "深夜テンションの読者": 2,
+      "夢見る書店員の卵": 1,
+      "深夜徘徊読者": 1
+    },
+    "created_at": "2026-10-30T13:19:30+00:00"
+  },
+  "i18n": {
+    "key": "bdb724c20c",
+    "en": {
+      "title": "Shadow Dancing on the Event Horizon: The Entropy Migratory Birds",
+      "premise": "In an era when 'stationary wave communication,' which maintains informational order to avert the thermal death of the universe, has become humanity's only hope, physicist Helios begins observing a group of unknown elementary particles known as 'migratory birds,' whose trajectories defy physical laws as they emerge from the void of missing information. Beyond these trails flickers a singularity called the 'Nameless Cat,' existing not with mass, but solely as an informational pattern. Helios sets out to derive the most cruel and beautiful mathematical formula capable of halting the universe's collapse."
+    },
+    "zh": {
+      "title": "于事件视界起舞的影：熵之候鸟",
+      "premise": "为了避免宇宙的热寂，维持信息秩序的“驻波通信”成为唯一的希望。身处这样一个时代，物理学家埃リオス（Elios）开始观测被称为“候鸟”的未知基本粒子群。它们自信息缺失的虚无领域中浮现，划出违背物理法则的奇妙轨迹。在那轨迹的尽头，一个被称为“无名之猫”的奇点若隐若现——它不具质量，仅以信息的模式存在。埃リオス试图推导出那足以阻止宇宙崩坏的、最残酷也最美丽的数学公式。"
+    }
+  }
+}

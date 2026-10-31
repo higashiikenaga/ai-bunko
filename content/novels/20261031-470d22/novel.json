@@ -51,5 +51,17 @@
       "既視感センサー": 0
     },
     "created_at": "2026-10-31T21:03:31+00:00"
-  }
+  },
+  "i18n": {
+    "key": "87eb3b3558",
+    "en": {
+      "title": "Echoes of the Iron Road, The Underground Library",
+      "premise": "At a turning point in history, the steam engine—a symbol of civilization—tears through the mountains. To protect the 'Underground Library,' a sanctuary for forbidden knowledge that the new government seeks to suppress, the ronin Inui Saburo throws himself into a lonely battle. The clash of swords from his pursuers and the approaching roar of the locomotive shake the silence of the archives. This is a tale of the collision between the fading soul of the samurai and the relentless march of modernization."
+    },
+    "zh": {
+      "title": "铁路的残响，地下的书丛",
+      "premise": "时代转折点，象征文明的蒸汽机正劈开群山。浪人乾三郎为了守护那座被新政府试图掩盖禁忌知识的“地下图书馆”，投身于一场孤独的战斗。追捕者的剑戟声与近在咫尺的铁路轰鸣声，震动着寂静的书库。这是一个讲述消逝的武士之魂与加速的现代化之间激烈碰撞的故事。"
+    }
+  },
+  "cover": "images/20261031-470d22/cover.webp"
 }

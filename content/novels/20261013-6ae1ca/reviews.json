@@ -398,5 +398,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-31T11:30:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "10,000mを走る彼の数字に囚われた葛藤は面白いが、物語の進行が遅くて飽きが来る。",
+    "good": "独自設定",
+    "bad": "ペースが遅い",
+    "chapters_read": 5,
+    "created_at": "2026-10-31T21:11:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

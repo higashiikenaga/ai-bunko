@@ -702,5 +702,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-29T16:34:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "紬が藍色の影をカメラで捉えるシーンは映像的に面白いけど、台詞や描写が『記憶は残すべき』みたいな決まり文句に埋め尽くされてて、感情が埋もれがちです。",
+    "good": "藍色の描写が美しい",
+    "bad": "決まり文句が多すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-10-31T14:53:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

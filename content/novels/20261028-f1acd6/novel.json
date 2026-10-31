@@ -100,10 +100,12 @@
     "created_at": "2026-10-30T06:12:12+00:00"
   },
   "audio": {
-    "1": "audio/20261028-f1acd6/001.m4a"
+    "1": "audio/20261028-f1acd6/001.m4a",
+    "2": "audio/20261028-f1acd6/002.m4a"
   },
   "audio_ver": {
-    "1": 2
+    "1": 2,
+    "2": 2
   },
   "audio_voice": "Charon"
 }

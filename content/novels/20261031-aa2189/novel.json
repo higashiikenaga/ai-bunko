@@ -11,7 +11,6 @@
   ],
   "author": "七海 シグマ",
   "sequel_of": "20261026-ac6d00",
-  "announce": "sequel",
   "prediction": {
     "chapter": 2,
     "question": "海底遺跡の入り口で、カイが直面する最大の障壁とは？",
@@ -36,5 +35,16 @@
       "タイトル買い": 2
     },
     "created_at": "2026-10-31T02:48:01+00:00"
+  },
+  "i18n": {
+    "key": "034771ea4e",
+    "en": {
+      "title": "The Insulating Boundary, or the Thermodynamics of Information",
+      "premise": "Planet Aero has rebuilt its thermal equilibrium and is entering a new “Quiet Season.” Yet the excess information entropy released during the reboot has begun to settle deep within the planet, alongside physical heat. Tracing the remnants of past thermal storms, Kai and Lyra head for the submerged ancient data hub known as the “Information Seafloor Ruins.” There they confront the price the planet has paid—called “Memory”—to keep its heat circulation alive."
+    },
+    "zh": {
+      "title": "断热的边界，亦或信息的热力学",
+      "premise": "星球Aero重新构建热平衡，迎来了全新的「静かなる季節」。然而，在系统重启时释放的过剩信息熵，正与物理热量一起沉积到星球的深层。追寻昔日热暴痕迹的Kai和Lyra踏上前往沉没于海底的古老数据聚集地——「情報の海底遺跡」。在那里，他们看到的是星球为维持热循环而付出的、名为「記憶」的代价。"
+    }
   }
 }

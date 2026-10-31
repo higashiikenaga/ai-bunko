@@ -51,5 +51,16 @@
     },
     "created_at": "2026-10-31T00:22:39+00:00"
   },
-  "cover": "images/20261031-ac658d/cover.webp"
+  "cover": "images/20261031-ac658d/cover.webp",
+  "i18n": {
+    "key": "fe73cc339f",
+    "en": {
+      "title": "Silver Rain and the Second Hand's Footsteps",
+      "premise": "Minato, a young watchmaker, discovers the profound ache of loss through the people who visit him with broken pocket watches. In a quiet corner of town, there exists a mysterious cafe that opens its doors only on rainy days—a sanctuary where lost objects gather to deliver one final message. A quiet exploration of those striving to set their frozen time back in motion."
+    },
+    "zh": {
+      "title": "银色的雨与秒针的足迹",
+      "premise": "年轻的钟表修理师凑，在与那些带着停摆怀表前来拜访的人们相遇的过程中，逐渐体悟到失去的痛楚。在城镇的一角，有一家只在雨天悄悄营业的神秘咖啡店。那里是失去了主人的物品们为了传递最后的遗言而聚集之所。故事静静地描绘了那些试图让停滞的时间重新转动的人们。"
+    }
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "id": "20261031-e77095",
+  "title": "刻印の灰、忘却の終着駅",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-10-31T00:58:37+00:00",
+  "updated_at": "2026-10-31T01:00:58+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "列車内でエルンを待ち受ける、最初の試練とは？",
+    "options": [
+      "車掌による記憶の検閲",
+      "謎の乗客からの接近",
+      "列車の急停止と異変"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "推しが尊い民": 1,
+      "台本読みの声優": 0,
+      "冒険譚の旅人": 2,
+      "文字数カウンター": 0,
+      "ホラー玄人": 2,
+      "全話精読の批評家": 0,
+      "応援団長": 1,
+      "几帳面な会計士": 1
+    },
+    "created_at": "2026-10-31T01:01:01+00:00"
+  },
+  "i18n": {
+    "key": "8ab60b5eff",
+    "en": {
+      "title": "Ashes of the Sigil, the Terminus of Oblivion",
+      "premise": "After the death of the gods, the world's memories were sealed within the 'Underground Library,' and their records were slowly fading into nothingness. Seeking fragments of lost myths, a young archivist named Ern boards the forbidden 'Final Train.' This train does not run to bring about the end of the world, but to bury the glorious eras of the past forever. Through this journey, Ern begins to discover a forbidden spell etched into his very bloodline—one capable of rewriting the laws of reality itself."
+    },
+    "zh": {
+      "title": "刻印之灰，遗忘的终点站",
+      "premise": "神明陨落之后，世界的记忆被封印在“地下图书馆”之中，而相关的记载也正逐渐消逝。年轻的记录官埃恩为了寻找失落的神话碎片，毅然踏上了被视为禁忌的“终极列车”。这列列车行驶的目的并非为了加速世界的终结，而是为了彻底埋葬那段辉煌的往昔。在列车的旅途中，埃恩逐渐察觉到刻印在自己血脉中的禁忌咒语——一个足以改写世界法则的力量。"
+    }
+  }
+}

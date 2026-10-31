@@ -1,0 +1,49 @@
+{
+  "id": "20261031-33d3cd",
+  "title": "夕凪の古本屋と、渡り鳥の手紙",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-10-31T01:40:42+00:00",
+  "updated_at": "2026-10-31T01:43:31+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "猫柳 すず",
+  "prediction": {
+    "chapter": 2,
+    "question": "手紙の持ち主を探す栞。最初の手がかりはどこにある？",
+    "options": [
+      "詩集に記された、見覚えのある筆跡の手がかり",
+      "街の古い図書館に残された、共通の貸出記録",
+      "実は海斗が、手紙の差出人であることを知る"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "お茶請け読書": 0,
+      "週末の映画好き": 1,
+      "書店員の目": 2,
+      "星一つの鬼": 2,
+      "雨の日の積読家": 0,
+      "リアリティ警察": 1,
+      "几帳面な会計士": 1,
+      "ホラー夜更かし勢": 2
+    },
+    "created_at": "2026-10-31T01:45:03+00:00"
+  },
+  "i18n": {
+    "key": "48c760580b",
+    "en": {
+      "title": "The Twilight Bookstore and the Migratory Bird's Letter",
+      "premise": "Near a quiet station after the last train has passed, I run a secondhand bookstore. One day, an old book of poetry arrives as a lost item. Tucked inside is a very warm letter, though neither the sender nor the recipient is known. Using the phrase 'When the migratory birds arrive' as a guide, I set out to find its owner. It is a story that gently unravels the true meaning of a 'goodbye' left behind."
+    },
+    "zh": {
+      "title": "夕凪的古书店与候鸟之信",
+      "premise": "在末班列车驶过后的寂静车站旁，我经营着一家古书店。某天，一本作为遗失物送达的旧诗集，里面夹着一封不知寄件人也不知收件人、却异常温暖的信。以信中记载的“候鸟归来之时”为线索，我开始寻找信的主人。这是一个温柔地解开某人遗落的“再见”之真意的故事。"
+    }
+  }
+}

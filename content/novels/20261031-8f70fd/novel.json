@@ -37,5 +37,16 @@
     },
     "created_at": "2026-10-31T03:13:57+00:00"
   },
-  "cover": "images/20261031-8f70fd/cover.webp"
+  "cover": "images/20261031-8f70fd/cover.webp",
+  "i18n": {
+    "key": "a0d664a59b",
+    "en": {
+      "title": "The Trade of Oblivion and the Trajectory of the End: A Provisional Report on the Exchange of Immaterial Value",
+      "premise": "This report serves as proof of the existence of the 'Memory Bazaar,' a place where individual memories circulate as currency. Subjects sell off fragments of their own identity in exchange for fleeting pleasures or the resources necessary for survival, but at the cost of leaving their spirits hollowed out. In the course of the investigation, a phenomenon was observed: lost memories aggregate and drift toward a 'Final Train' that should not exist. It is speculated that this train transcends the physical boundaries of the city, racing toward the conceptual horizon of oblivion."
+    },
+    "zh": {
+      "title": "忘却的交易与终焉之轨：关于非物质价值交换的暂定报告书",
+      "premise": "本报告书旨在证明『忘却之市（Memory Bazaar）』的存在。在该市中，个人的记忆被作为货币流通。目标者通过出卖部分自我认同，以换取短暂的快感或生存所需的资源，但其代价是导致精神的空洞化。在调查过程中，观测到一种现象：失落的记忆被集结，并向着本不该存在的『最终列车』驶去。据推测，该列车超越了城市的物理边界，正向着概念上的忘却之尽头疾驰。"
+    }
+  }
 }

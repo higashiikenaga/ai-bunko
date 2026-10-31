@@ -51,5 +51,17 @@
       "伏線管理官": 2
     },
     "created_at": "2026-10-31T17:29:03+00:00"
+  },
+  "cover": "images/20261031-84a4d6/cover.webp",
+  "i18n": {
+    "key": "0f5541c90a",
+    "en": {
+      "title": "The Cage of Truth and the Debugging of the Frozen Second Hand",
+      "premise": "In our world, attempting to tell a lie causes pain so intense it feels as if your brain is burning. In this city ruled by absolute \"Truth,\" I found a broken pocket watch in a junkyard. The moment I touched it, a bug surged through my chip, and for the first time, I encountered the concept of a \"lie.\" This is the record of the worst debugging process imaginable, aimed at exposing the fatal error lurking within a perfect world."
+    },
+    "zh": {
+      "title": "真实（Trust）之笼与停止的秒针之调试",
+      "premise": "在我们这个世界，一旦试图撒谎，大脑就会感受到如被灼烧般的剧痛。在这个由绝对的“真实”支配的城市里，我在垃圾场捡到了一块“损坏的怀表”。在触碰到那块表的瞬间，我的芯片出现了Bug，让我第一次接触到了“谎言”这个概念。这是一段为了揭露潜藏在完美世界中的致命错误，而展开的最糟糕的调试记录。"
+    }
   }
 }

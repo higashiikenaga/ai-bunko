@@ -1,0 +1,51 @@
+{
+  "id": "20261031-95f53e",
+  "title": "墜落した正義の座標",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-10-31T17:38:54+00:00",
+  "updated_at": "2026-10-31T17:40:36+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "真壁 周",
+  "prediction": {
+    "chapter": 2,
+    "question": "懐中時計の矛盾を追う如月。次に彼が突き当たる壁は？",
+    "options": [
+      "記録を改ざんした人物の影",
+      "事故当日の生存者の証言",
+      "時計自体に仕掛けられた罠"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "活字中毒の猫": 0,
+      "ミステリー初心者": 1,
+      "雨の日の積読家": 0,
+      "設定考証班": 2,
+      "キャラ萌え研究家": 1,
+      "テンポ警察": 0,
+      "元文芸部部長": 0,
+      "ねこ背の文学少女": 0
+    },
+    "created_at": "2026-10-31T17:40:40+00:00"
+  },
+  "cover": "images/20261031-95f53e/cover.webp",
+  "i18n": {
+    "key": "174b88406d",
+    "en": {
+      "title": "The Coordinates of Fallen Justice",
+      "premise": "Twenty years ago, an experimental airship crashed. A man, scapegoated for a maintenance error and socially destroyed, is now seeking a retrial. The only piece of physical evidence—a 'stopped pocket watch'—reveals a time that stands in stark contradiction to the official records. A young lawyer will expose the flaws in the testimony, unmasking a massive corporate cover-up and the tragic truth of the workers who were discarded."
+    },
+    "zh": {
+      "title": "坠落的正义坐标",
+      "premise": "二十年前，发生了一起实验飞船坠毁事故。当时，一名男子因维修失误被强加全部责任，并在社会意义上被彻底抹杀；如今，他再次提出了重审请求。作为唯一物证的“停滞怀表”所显示的时间，与官方记录存在着决定性的矛盾。年轻律师将通过揭露证词中的破绽，撕开巨型企业的掩盖真相，揭示那些被抛弃的劳动者们悲痛的真相。"
+    }
+  }
+}

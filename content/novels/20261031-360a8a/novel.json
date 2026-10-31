@@ -1,0 +1,50 @@
+{
+  "id": "20261031-360a8a",
+  "title": "影渡りの聞き書き",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-10-31T07:21:57+00:00",
+  "updated_at": "2026-10-31T07:23:35+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "白石 夜話",
+  "prediction": {
+    "chapter": 2,
+    "question": "櫂の影は次にどう動く？",
+    "options": [
+      "影だけが街路灯に吸い込まれる",
+      "影が別人の姿に変わる",
+      "影が消えて自分だけ残る"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "通学バスの読者": 0,
+      "締切の鬼編集": 1,
+      "推しが尊い民": 2,
+      "全話精読の批評家": 0,
+      "ねこ背の文学少女": 0,
+      "涙腺ゆるゆる": 2,
+      "活字中毒の猫": 0,
+      "ラブコメ中毒": 1
+    },
+    "created_at": "2026-10-31T07:23:38+00:00"
+  },
+  "i18n": {
+    "key": "8f1481661e",
+    "en": {
+      "title": "Transcribed Tales of the Shadow-Walker",
+      "premise": "I once heard a strange tale from an acquaintance. It was a collection of fragmentary records: inexplicable events occurring on festival nights, and the cryptic last wills left by the dead. Each story is brief, offering no definitive answers. Yet, as you piece them together, the silhouette of 'something' lurking beneath the surface of this world begins to quietly emerge."
+    },
+    "zh": {
+      "title": "影渡者的口述记录",
+      "premise": "我曾从一位熟人那里听过一个怪异的故事。那是关于祭典之夜发生的不可思议之事，以及亡者留下的离奇遗言的碎片化记录。每一个故事都十分简短，从未给出任何确凿的答案。然而，当你将它们拼凑在一起时，潜伏在这个世界背后的“某种东西”的轮廓，便会悄然浮现。"
+    }
+  },
+  "cover": "images/20261031-360a8a/cover.webp"
+}

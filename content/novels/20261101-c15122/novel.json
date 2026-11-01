@@ -1,0 +1,51 @@
+{
+  "id": "20261101-c15122",
+  "title": "模造の楽園と、断片の鏡",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-01T01:28:43+00:00",
+  "updated_at": "2026-11-01T01:31:09+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "群青 リク",
+  "prediction": {
+    "chapter": 2,
+    "question": "青年の見た「緑」の正体は何か？",
+    "options": [
+      "都市システムのエラー",
+      "設計者が隠した人工空間",
+      "都市の外に広がる現実"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "伏線回収マニア": 1,
+      "テンポ警察": 0,
+      "毒舌書評ブロガー": 2,
+      "朝活読書": 1,
+      "深夜テンションの読者": 2,
+      "元新人賞下読み": 0,
+      "純文学の亡霊": 1,
+      "ホラー夜更かし勢": 0
+    },
+    "created_at": "2026-11-01T01:32:51+00:00"
+  },
+  "cover": "images/20261101-c15122/cover.webp",
+  "i18n": {
+    "key": "cf248547b0",
+    "en": {
+      "title": "The Imitation Paradise and the Fragmented Mirror",
+      "premise": "Rumors speak of a \"desert oasis\" lush with vibrant greenery that suddenly appears in the gaps between skyscrapers and the cracks of the asphalt. Is it a mere hallucination, or a physical singularity? A student seeking escape, a detective chasing an anomaly, and an old man involved in the city's design—three lives that touched a \"mirror-like\" phenomenon from different paths now converge upon the city's blank zone."
+    },
+    "zh": {
+      "title": "模造乐园与碎片之镜",
+      "premise": "摩天大楼的缝隙间、沥青路面的裂缝中，流传着一个突如其现的传闻——那是充满苍翠绿意的“沙漠绿洲”。它是幻觉，还是某种物理奇点？寻求逃避的学生、追寻违和感的刑警，以及曾参与都市设计的 वृद्ध（老人）。在不同地点触及“镜子”般现象的三人，其命运正向着都市的空白地带汇聚收敛。"
+    }
+  }
+}

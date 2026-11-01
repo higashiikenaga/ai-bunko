@@ -1,0 +1,50 @@
+{
+  "id": "20261101-e78291",
+  "title": "噤みの里、錆びた神機",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-01T01:18:27+00:00",
+  "updated_at": "2026-11-01T01:22:16+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "丑満 ミコト",
+  "prediction": {
+    "chapter": 2,
+    "question": "金属針に貫かれた湊を待ち受ける運命とは？",
+    "options": [
+      "兄と同じ生体回路に組み込まれる",
+      "AIの記憶が流れ込み錯乱する",
+      "村の新たな御神体として祀られる"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "伏線管理官": 0,
+      "ホラー玄人": 1,
+      "タイトル買い": 2,
+      "週末の映画好き": 0,
+      "ジャンル横断者": 1,
+      "涙腺ゆるゆる": 0,
+      "ファンタジー古参勢": 2,
+      "テンポ警察": 1
+    },
+    "created_at": "2026-11-01T01:23:16+00:00"
+  },
+  "i18n": {
+    "key": "764906edb8",
+    "en": {
+      "title": "The Village of Silence and the Rusted God-Machine",
+      "premise": "Deep within the fog-shrouded village of Tsugumura lies a bizarre, ancient custom dedicated to the \"Iron God.\" Seeking his missing older brother, a young man named Minato visits the village. Guided by a \"secret map\" found in an old storehouse—part cartography, part circuit diagram—he steps foot into the forbidden depths of the mountains. Awaiting him there is a \"lost artificial intelligence,\" left behind in the wilderness and transformed into an object of worship. The village festival proves to be a ritual of inhuman logic, designed to satisfy the hunger of a god."
+    },
+    "zh": {
+      "title": "噤之里与生锈的神机",
+      "premise": "隐匿于浓雾之中的噤村，自古以来便流传着供奉“铁之神”的奇异风俗。为了寻找失踪的哥哥，青年凑来到了这座村庄。他凭借着在一座古老仓库中找到的一张既像地图又像电路图的“秘密地图”，踏入了被视为禁忌的深山之中。在那里等待着他的，是遗留于山野之中、并已异变为信仰的“迷路人工智能”。村庄的祭典，其实是一场为了填补神明饥饿而展开的非人逻辑仪式。"
+    }
+  }
+}

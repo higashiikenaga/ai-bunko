@@ -1,0 +1,49 @@
+{
+  "id": "20261101-00c71e",
+  "title": "腐りゆく残響と、湿った駅の徴",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-01T11:48:13+00:00",
+  "updated_at": "2026-11-01T11:51:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "朽木 灯",
+  "prediction": {
+    "chapter": 2,
+    "question": "霧の中から迫る正体不明の巨体は、一体何なのか？",
+    "options": [
+      "記憶を喰らう巨大な怪物",
+      "過去の自分たちの集合体",
+      "迷い込んだ人々の成れの果て"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "几帳面な会計士": 0,
+      "朝ドラ好きの主婦": 2,
+      "深夜の読書灯": 1,
+      "ホラー夜更かし勢": 2,
+      "ホラー玄人": 1,
+      "既視感センサー": 1,
+      "伏線管理官": 0,
+      "新着チェッカー": 0
+    },
+    "created_at": "2026-11-01T11:52:49+00:00"
+  },
+  "i18n": {
+    "key": "810a78b19e",
+    "en": {
+      "title": "Decaying Echoes and the Damp Station's Mark",
+      "premise": "The protagonist feels an indescribable \"void\" tucked within the gaps of everyday life. On a rainy night, having wandered onto a station platform, he discovers a strange market lined with stalls buying and selling memories. There, small bottles filled with nostalgic scents are being traded in exchange for human lives. As he hears the dull, approaching sound of a train that should not be arriving for the very last time, he is forced to confront what it is he has truly lost."
+    },
+    "zh": {
+      "title": "腐朽的残响与潮湿车站的印记",
+      "premise": "主人公在日常的缝隙中，感受到了某种无法言喻的“缺失”。在一个下雨的夜晚，他误入了一处车站月台，眼前竟是贩卖记忆的露天摊位排列而成的奇异市集。在那里，装满怀念气味的玻璃小瓶正被拿来当作人生的筹码进行交易。听着本不该作为末班车驶来的列车那沉闷的接近声，他被迫面对自己究竟失去了什么。"
+    }
+  }
+}

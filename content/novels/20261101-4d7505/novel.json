@@ -1,0 +1,52 @@
+{
+  "id": "20261101-4d7505",
+  "title": "空飛ぶ歯車と、迷子の鉄屑心臓（メカニカル・ハート）",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-01T04:50:20+00:00",
+  "updated_at": "2026-11-01T04:52:08+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "challenge": true,
+  "prediction": {
+    "chapter": 2,
+    "question": "黄金の歯車を手にしたルル、次の行動は？",
+    "options": [
+      "逃げ切り、地下の古代駅へ潜入",
+      "歯車と会話、最終列車の情報を聞き出す",
+      "歯車が暴走、ルルは自ら犠牲になる"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "新着チェッカー": 0,
+      "書店員の目": 1,
+      "休日の喫茶店": 2,
+      "猫舌の読書家": 1,
+      "ほめ上手な先輩": 0,
+      "通勤電車の常連": 0,
+      "拍手係": 1,
+      "ファンタジー古参勢": 0
+    },
+    "created_at": "2026-11-01T04:52:11+00:00"
+  },
+  "cover": "images/20261101-4d7505/cover.webp",
+  "i18n": {
+    "key": "38c79b36ce",
+    "en": {
+      "title": "Flying Gears and the Lost Mechanical Heart",
+      "premise": "I'm Lulu, a junk dealer, and I just picked up a chatty little gear-shaped AI! Who would've guessed that this little guy, with his innocent questions like \"Where am I?\", holds the key to the legendary \"Final Train\"? With roaring steam engines and flights across the sky—and plenty of hungry stomachs—a noisy, wonderful grand adventure begins!"
+    },
+    "zh": {
+      "title": "空飞的齿轮与迷路的废铁之心（Mechanical Heart）",
+      "premise": "我是废品回收商露露，而我捡到的是一个爱说话的小齿轮AI！谁能想到，那个总是问着“我在哪里？”这种天真问题的家伙，竟然掌握着通往传说中“最终列车”的钥匙？蒸汽机轰鸣，在天空中飞驰，肚子也饿得咕咕叫——一场喧闹而最棒的大冒险就此展开！"
+    }
+  }
+}

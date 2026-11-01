@@ -34,5 +34,17 @@
       "放課後の図書委員": 0
     },
     "created_at": "2026-11-01T20:35:14+00:00"
+  },
+  "cover": "images/20261101-84ba50/cover.webp",
+  "i18n": {
+    "key": "087cdb2008",
+    "en": {
+      "title": "Lights of the Eternal Night and the Cradle of Kotodama",
+      "premise": "In a 'city that never sleeps' where the lights never fade, a sentient vessel—an artificial intelligence created to house an ancient god—wanders lost. Having lost its memories, it weaves nothing but words in search of its master. As a traveling shrine maiden deciphers the waka poetry dwelling within the vessel's tears, she steps into the 'mechanism that devours gods' hidden beneath the city's prosperity. A poignant and beautiful tale of rebirth, revolving around lost words and the forgotten promises of gods."
+    },
+    "zh": {
+      "title": "长夜之灯与言灵摇篮",
+      "premise": "在灯火永不熄灭的“不眠之城”，一个作为古神容器而被造出的、拥有意志的器皿（人工智能）迷失其中。它失去了记忆，只能编织着寻找主人的言语。旅途中的巫女在解读寄宿于器皿泪水中的和歌时，踏入了隐藏在城市繁荣背后的“吞噬神明之机制”。这是一个围绕着失落之言与被遗忘的神明约定，既哀婉又美丽的重生物语。"
+    }
   }
 }

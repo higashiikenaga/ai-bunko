@@ -1,0 +1,54 @@
+- name: エリアス・ヴェイン
+  role: 主人公
+  age: 19
+  gender: 男性
+  appearance: 砂埃を被ったゴーグルと使い古した革のジャケット、活発な瞳
+  personality: 前向きで好奇心旺盛。「俺」
+  speech_style: 元気で少し早口な、親しみやすい話し方
+  background: 空中都市アズラールの下層区で育った、駆け出しの郵便配達員
+  motivation: 失われた手紙の宛先を見つけ、世界の謎を解き明かすこと
+  relationships:
+  - name: ライラ・アズール
+    relation: 旅の相棒
+  - name: ソラ
+    relation: 導き手
+  arc: 冒険を楽しむ少年から、世界の運命を背負い決断を下す青年へ
+- name: ライラ・アズール
+  role: 相棒
+  age: 18
+  gender: 女性
+  appearance: 整備士のつなぎ、鮮やかな青い瞳、常に油汚れがある手
+  personality: 冷静沈着で知識豊富。「私」
+  speech_style: 理知的で簡潔、時に皮肉混じりの話し方
+  background: 砂漠の遺構で孤独に生きてきた、古代技術に詳しいメカニックの少女
+  motivation: 枯れた大地に再び水を取り戻すこと
+  relationships:
+  - name: エリアス・ヴェイン
+    relation: 信頼する相棒
+  arc: 他者を拒んでいた孤独な隠者から、仲間を信じる者へ
+- name: ヴァルガス男爵
+  role: 敵役
+  age: 52
+  gender: 男性
+  appearance: 巨大な蒸気駆動の外骨格を装着した、傷だらけの巨漢
+  personality: 強欲で支配的。「私」
+  speech_style: 高圧的で威厳のある、命令口調の話し方
+  background: 砂漠の略奪船団を率いる、力こそが全てと信じる野心家
+  motivation: 伝説の都の動力源を奪い、世界の覇権を握ること
+  relationships:
+  - name: エリアス・ヴェイン
+    relation: 邪魔な小僧
+  arc: 欲望に突き動かされる支配者から、文明の重みに敗れる敗北者へ
+- name: ソラ
+  role: 導き手
+  age: 15
+  gender: 女性
+  appearance: 碧い羽の髪飾り、透き通るような白いドレス、どこか浮世離れした雰囲気
+  personality: 穏やかで神秘的。「私」
+  speech_style: 詩的で静かな、語りかけるような話し方
+  background: 伝説の都に眠る、世界の記憶と渡り鳥の魂を司る存在
+  motivation: 手紙に記された「約束」を完遂させ、世界を再生させること
+  relationships:
+  - name: エリアス・ヴェイン
+    relation: 旅の導き手
+  arc: 過去の記憶としての存在から、未来へ命を繋ぐ象徴へ

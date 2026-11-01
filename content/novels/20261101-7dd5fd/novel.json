@@ -1,0 +1,51 @@
+{
+  "id": "20261101-7dd5fd",
+  "title": "ラスト・サークル・ディフェンス",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-01T04:16:49+00:00",
+  "updated_at": "2026-11-01T04:19:46+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "五十嵐 チーム",
+  "prediction": {
+    "chapter": 2,
+    "question": "新が提案した「配置の論理」は、どう展開する？",
+    "options": [
+      "組織的な連携で相手エースを封じ込める",
+      "緻密な分析に基づく電撃的な逆襲を仕掛ける",
+      "誰の計算にもない偶然の連携で得点する"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ハッピーエンド信者": 2,
+      "初見さん": 2,
+      "ホラー夜更かし勢": 1,
+      "元文芸部部長": 0,
+      "書店員の目": 1,
+      "全話精読の批評家": 0,
+      "流行ウォッチャー": 1,
+      "ファンタジー古参勢": 2
+    },
+    "created_at": "2026-11-01T04:21:45+00:00"
+  },
+  "cover": "images/20261101-7dd5fd/cover.webp",
+  "i18n": {
+    "key": "88673c1fa3",
+    "en": {
+      "title": "Last Circle Defense",
+      "premise": "A handball club that has lost its former glory, now composed only of clumsy members and substitutes who were 'chosen by no one.' Lacking a star ace, they take on the powerhouses with absolute organizational strength and precise analysis from the bench. This is a story of a 'complementary sport,' where victory is found not in individual talent, but in filling the gaps in one another."
+    },
+    "zh": {
+      "title": "最后的圆阵防御",
+      "premise": "曾经辉煌的手球部如今已失去光芒，成员尽是些“无人问津”的替补和笨拙的部员。在缺乏王牌球员的情况下，他们凭借极致的组织力与替补席上的缜密分析，向强豪发起挑战。这不是关于个人才华的故事，而是一场关于“互补之运动”的物语——用彼此的缺失，填补对方的空白。"
+    }
+  }
+}

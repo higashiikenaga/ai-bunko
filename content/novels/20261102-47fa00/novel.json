@@ -34,5 +34,16 @@
       "初見さん": 2
     },
     "created_at": "2026-11-02T10:57:13+00:00"
+  },
+  "i18n": {
+    "key": "61a34cbb3a",
+    "en": {
+      "title": "Steam-Crafted Raindrops and Amber Tea Time",
+      "premise": "Deep within a narrow alley, a mysterious cafe appears only on rainy days. There, amidst the rhythmic, musical hum of steam engines, special warm beverages are served. It is a story of gentle encounters amidst the sound of rain between a quiet young shopkeeper and a girl who happened to wander in. But there is a secret: the tea he brews is infused with a touch of bittersweet magic..."
+    },
+    "zh": {
+      "title": "雨声的蒸汽调制，琥珀色的茶歇时光",
+      "premise": "在小巷深处，有一间只在雨天才会悄然现身的神秘咖啡馆。在那里，蒸汽机的轰鸣声宛如悦耳的旋律，伴随着一份份特别的温热饮品。沉默寡言的店主青年，与偶然误入的“我”，在雨声的环绕下展开了宁静的交流。然而，他所沏出的茶，却被施加了一丝丝令人心碎的魔法……"
+    }
   }
 }

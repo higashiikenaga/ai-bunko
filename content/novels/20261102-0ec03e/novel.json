@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-02T20:38:11+00:00"
   },
-  "cover": "images/20261102-0ec03e/cover.webp"
+  "cover": "images/20261102-0ec03e/cover.webp",
+  "i18n": {
+    "key": "77b8ef703e",
+    "en": {
+      "title": "Overtime at Ground Zero",
+      "premise": "A 3x3 basketball story about a talentless boy aiming for the top through nothing but the \"repetitive practice\" he trusts above all else. Using a basement library in a school on the brink of closure as his base, the gritty skills he honed in secret will rewrite the despair on the court. Only a nameless cat knows the truth behind his blood-soaked efforts—and now, he will prove it."
+    },
+    "zh": {
+      "title": "零点处的加时赛",
+      "premise": "这是一个关于毫无天赋的我，仅凭唯一能相信的“反复练习”向巅峰发起挑战的3x3篮球故事。以一座濒临废校的地下图书馆为据点，在无人察觉的情况下磨炼出的那份不华丽却扎实的技巧，终将改写球场上的绝望。唯有那只无名小猫知晓，他那挥汗如血般的努力究竟意味着什么。"
+    }
+  }
 }

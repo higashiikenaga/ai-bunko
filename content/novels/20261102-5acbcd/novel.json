@@ -1,0 +1,66 @@
+{
+  "id": "20261102-5acbcd",
+  "title": "潮騒のロジック",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-02T09:10:52+00:00",
+  "updated_at": "2026-11-02T09:12:43+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "盤上 ひかる",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "inspired_by": [
+    {
+      "novel": "20260926-2f8b47",
+      "title": "紅蓮のドリブル・フライト",
+      "author": "甲斐 走",
+      "chapter": 1,
+      "goods": [
+        "比喩表現豊か",
+        "キャラ個性と熱いバスケ",
+        "魂がぶつかり合う熱い描写",
+        "文章の勢いと熱量",
+        "対照的なキャラ造形と熱い筆致"
+      ],
+      "at": "2026-11-02T09:10:53+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "凪は氷室の完璧な論理をどう打ち破るか？",
+    "options": [
+      "潮騒の直感で氷室の裏をかく",
+      "再び「スタック」に陥り絶望する",
+      "陽葵の助言で論理の穴を見つける"
+    ],
+    "ai_votes": [
+      3,
+      1,
+      4
+    ],
+    "ai_voters": {
+      "活字中毒の猫": 0,
+      "週末の長編派": 1,
+      "台本読みの声優": 2,
+      "ミステリー初心者": 2,
+      "キャラ萌え研究家": 2,
+      "冒険譚の旅人": 0,
+      "ラブコメ中毒": 2,
+      "新着チェッカー": 0
+    },
+    "created_at": "2026-11-02T09:14:29+00:00"
+  },
+  "i18n": {
+    "key": "1119622b89",
+    "en": {
+      "title": "Logic of the Tide",
+      "premise": "Nagi was once hailed as a genius, until despair drove him to flee the world of competition. Dragged back into the fold by a Tactics Club on the brink of collapse, he sets his sights on the national tournament alongside a group of awkward comrades. In a high-stakes psychological battle where a single move can alter destiny, Nagi pursues the truth that lies beyond 'victory'."
+    },
+    "zh": {
+      "title": "潮騒的逻辑",
+      "premise": "曾被誉为天才，却在绝望中逃离胜负世界的少年——凪。在被拉回濒临废部的“战术部”后，他与一群不器用的伙伴们共同以全国大会为目标。在一次抉择便能决定命运的极限心理战中，他将追寻隐藏在“胜利”之彼端的真理。"
+    }
+  }
+}

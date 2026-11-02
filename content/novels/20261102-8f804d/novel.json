@@ -1,0 +1,50 @@
+{
+  "id": "20261102-8f804d",
+  "title": "銀色の街の、白い煙の記憶",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-02T18:31:41+00:00",
+  "updated_at": "2026-11-02T18:33:55+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイは失われた記憶の手がかりを得るか",
+    "options": [
+      "ルカの記憶がカイと交差",
+      "カイの失われた少年時代が露呈",
+      "エリスがカイを裏切り別路へ"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 0,
+      "キャラ萌え研究家": 2,
+      "リアリティ警察": 1,
+      "全肯定おばあちゃん": 0,
+      "ファンタジー古参勢": 0,
+      "新着チェッカー": 1,
+      "深夜の読書灯": 1,
+      "通勤電車の常連": 2
+    },
+    "created_at": "2026-11-02T18:33:57+00:00"
+  },
+  "cover": "images/20261102-8f804d/cover.webp",
+  "i18n": {
+    "key": "f09fea26d7",
+    "en": {
+      "title": "Memories of White Smoke in the Silver City",
+      "premise": "In a world where people digitize unnecessary memories and overwhelming sorrows to discard them aboard the annual 'Final Train,' one station attendant plays a special role. By listening to the 'small regrets' passengers wish to leave behind, he helps them find the strength to move forward. In an efficient digital society, this is a story about the ritual of forgetting, carried out by the intentionally inconvenient grace of a steam engine."
+    },
+    "zh": {
+      "title": "银色之城的白烟记忆",
+      "premise": "人们将不再需要的记忆或无法承受的悲伤数字化，通过一年一度的“最终列车”将其丢弃。而身为车站职员的主角，则负责倾听乘客们想要舍弃的那些“小小遗憾”，并送别他们，引导他们重新向前迈进。在高效的数字化社会中，这是一个关于由刻意保留的、不便的蒸汽机所承载的“遗忘”仪式的故事。"
+    }
+  }
+}

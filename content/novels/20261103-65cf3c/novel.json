@@ -35,5 +35,17 @@
       "歴史散歩の人": 2
     },
     "created_at": "2026-11-03T15:07:31+00:00"
+  },
+  "cover": "images/20261103-65cf3c/cover.webp",
+  "i18n": {
+    "key": "a635550aa6",
+    "en": {
+      "title": "Azure Breakers: Pulse of the Wind and the Forgotten Route",
+      "premise": "The world's balance is on the brink of collapse as the wind vanishes. Elio, a young pilot, sets sail with his crew aboard the Sky Rush in search of the \"Heart of the Wind\" to bring back the lost breezes. From encounters in the \"Market of Oblivion,\" where memories are bought and sold, to a mysterious shop that appears only on rainy days—their passionate voyage begins with a roar of wind that rends the sky!"
+    },
+    "zh": {
+      "title": "苍穹之破空者：风之鼓动与忘却之航路",
+      "premise": "随着风的消失，世界的均衡正处于崩溃的边缘。年轻的操纵士埃里奥与爱机“天空冲刺号”的伙伴们一起，踏上了寻找能唤回失落之风的“风之心脏”的旅程。在买卖记忆的“忘却市场”中的邂逅，以及在仅在雨天现身的神秘店铺里的相遇。伴随着撕裂天空的风之咆哮，他们热血的航海正式拉开帷幕！"
+    }
   }
 }

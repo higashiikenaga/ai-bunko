@@ -327,5 +327,12 @@
   },
   "illustrations": {
     "8": "images/20261031-e77095/ch-008.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261031-e77095/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Orus"
 }

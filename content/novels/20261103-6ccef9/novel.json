@@ -35,5 +35,16 @@
       "純文学の亡霊": 1
     },
     "created_at": "2026-11-03T09:05:04+00:00"
+  },
+  "i18n": {
+    "key": "f81db46de9",
+    "en": {
+      "title": "Sinking into the Calm of the Sky Boat",
+      "premise": "Returning to his hometown for his grandmother's funeral after decades, the protagonist encounters the village legend of the \"Sora-bune\" (Sky Boat). To pacify a massive ghost ship drifting through the sea of clouds, the village has upheld a cruel taboo for generations. Guided by a nameless black cat, he discovers the bloody, hidden tradition the villagers keep secret."
+    },
+    "zh": {
+      "title": "在空舟的宁静中沉没",
+      "premise": "在祖母的葬礼上，主人公数十年后回到故乡，接触到村里流传的“空舟”传说。为了安抚漂浮在云海中的巨大亡灵之船，村子世代遵守着一种残酷的禁忌。被一只无名的黒猫引导，他逐渐了解到村子暗中隐藏的血腥因习真相。"
+    }
   }
 }

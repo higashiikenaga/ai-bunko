@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-01T05:39:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "全編を通して光と影の論理が重層的に構築され、終盤の協力関係も緊張感を保ちつつ解決へ。",
+    "good": "緻密な科学と構成",
+    "bad": "説明が多過ぎる",
+    "chapters_read": 7,
+    "created_at": "2026-11-02T23:43:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

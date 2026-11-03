@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-03T00:33:51+00:00"
   },
-  "cover": "images/20261103-f4cd10/cover.webp"
+  "cover": "images/20261103-f4cd10/cover.webp",
+  "i18n": {
+    "key": "69ae25534c",
+    "en": {
+      "title": "Chrome Pulse: Resonance of Oblivion",
+      "premise": "With the loss of Zenith's control, an 'Information Flood' of raw, unfiltered emotions begins to contaminate the network and ravage the city. As a 'Memory Sweeper' tasked with recovering the remnants of discarded emotions, I visit a mysterious shop that appears only on rainy nights. There, I acquire a log of a 'woman who shouldn't exist,' trapped within a mirror. As I pursue her true identity, I stumble upon the omen of a second catastrophe lurking in the city's depths: the 'Grand Synchronicity,' a phenomenon that threatens to synchronize all human consciousness."
+    },
+    "zh": {
+      "title": "铬脉：遗忘的共鸣",
+      "premise": "随着 Zenith 管理权的丧失，充斥着原始情感、污染网络的“信息洪流”席卷了城市。身为一名回收废弃情感残渣的“记忆清道夫”，我在仅在雨夜现身的神秘店铺中，得到了一份被囚禁在镜中的“本不该存在的女性”的日志。在追寻她真实身份的过程中，我撞见了沉睡在城市深处的第二次毁灭预兆——旨在同步全人类意识的“大同步”（Grand Synchronicity）。"
+    }
+  }
 }

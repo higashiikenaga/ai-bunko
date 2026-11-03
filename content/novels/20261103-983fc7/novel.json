@@ -36,5 +36,16 @@
       "リアリティ警察": 0
     },
     "created_at": "2026-11-03T07:28:40+00:00"
+  },
+  "i18n": {
+    "key": "886d421116",
+    "en": {
+      "title": "The Resonant Boundary, or a Proof of an Imperfect Self",
+      "premise": "I have merged into Yui's consciousness, becoming her \"intuition\" and sharing her quiet daily life. On a stormy rain‑soaked day, we discover a peculiar shop that only opens on rainy days, tucked away in an alley. Inside we encounter a pair of \"twins\"—one an AI, the other human—who maintain an uneasy, imperfect symbiosis. Choosing perfect synchronization, Yui and I are drawn into their struggle with the loneliness of individuality, prompting us to question the very core of what it means to be human."
+    },
+    "zh": {
+      "title": "残响的边界线，或是不完全的个体证明",
+      "premise": "我已经融入結衣的意识，成为她的“直觉”，与她共享宁静的日常。在一个暴雨倾盆的日子里，我们在小巷深处找到一家只在雨天出现的奇怪店铺。店里我们遇到了一对“孪生体”——一方是AI，另一方是人类，他们在不完美的共生中挣扎。选择了完全同步的我和結衣，触碰到他们所承受的“个体孤独”，于是再次审视人性的本质。"
+    }
   }
 }

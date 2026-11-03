@@ -1,0 +1,49 @@
+{
+  "id": "20261103-cf385b",
+  "title": "鋼鉄の咆哮、空の断層",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-03T02:14:17+00:00",
+  "updated_at": "2026-11-03T02:17:58+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鉄 ハガネ",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイの限界を超えた加速。レースはどのような結末へ向かう？",
+    "options": [
+      "ゼオンの妨害を力で跳ね除ける",
+      "ライラの整備が奇跡を起こす",
+      "機体が空中分解の危機に陥る"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "ジャンル横断者": 1,
+      "ほめ上手な先輩": 0,
+      "純文学の亡霊": 2,
+      "ミステリー初心者": 1,
+      "台詞にうるさい人": 1,
+      "週末の長編派": 0,
+      "推しが尊い民": 0,
+      "冒険譚の旅人": 1
+    },
+    "created_at": "2026-11-03T02:18:01+00:00"
+  },
+  "i18n": {
+    "key": "d27bc20e65",
+    "en": {
+      "title": "Roar of Steel, Skyward Fault",
+      "premise": "A city that never sleeps. A vertical labyrinth of steel. Here, ultra-high-speed races in flying ships decide the right to survive. Having once lost everything, I will climb back into the sky with nothing but a rusted machine. My goal: the summit above the clouds. Cutting through the wind and striking the iron, we accelerate beyond our limits."
+    },
+    "zh": {
+      "title": "钢铁咆哮，天空断层",
+      "premise": "不夜之城。垂直耸立的钢铁迷宫。在这里，飞船进行的超高速竞速决定着生存权。曾失去一切的我，将带着锈迹斑斑的机体再次向天空攀爬。目标是云端之上的顶点。破风而行，击打钢铁，我们向着极限之外加速前进。"
+    }
+  }
+}

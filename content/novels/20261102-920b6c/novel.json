@@ -47,5 +47,8 @@
       "premise": "在沙漠的中心，一个绿洲并非流淌水，而是失落的信件。死者未曾发送的话语竟传递给现代的人。这些本应消失的声音，化作沙子堆积，留下残留。"
     }
   },
-  "cover": "images/20261102-920b6c/cover.webp"
+  "cover": "images/20261102-920b6c/cover.webp",
+  "illustrations": {
+    "1": "images/20261102-920b6c/ch-001.webp"
+  }
 }

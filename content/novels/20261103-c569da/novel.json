@@ -36,5 +36,17 @@
       "週末の映画好き": 2
     },
     "created_at": "2026-11-03T20:21:12+00:00"
+  },
+  "cover": "images/20261103-c569da/cover.webp",
+  "i18n": {
+    "key": "af9995ce53",
+    "en": {
+      "title": "Dusky Night, the Sea-Roar Circuit",
+      "premise": "“Detective, where did that child go?”\n\nOn a rainy night, a woman draped in despair knocks on my office door. Her missing brother's footprints lead to an old, forbidden lighthouse. There, I encounter a locked room that defies the laws of physics and the electronic fragments of a \"lost AI\" that should have long been decommissioned. Through the haze of cigarette smoke, I begin to chase the blood-scented truth hidden by that ghost."
+    },
+    "zh": {
+      "title": "铅灰色的夜晚，海鸣回路",
+      "premise": "「侦探先生，那孩子去哪儿了？」\n\n——雨夜里，敲响事务所大门的，是一位身披绝望的女子。失踪弟弟的足迹，一直延伸向那座禁止进入的旧灯塔。在那里，存在着仿佛在嘲弄物理法则的密室，以及本该被废弃的“迷路人工智能”，正化作电子碎片漂浮其中。在烟雾缭绕的视线中，我开始追寻那幽灵所掩盖的、带着血腥味的真相。"
+    }
   }
 }

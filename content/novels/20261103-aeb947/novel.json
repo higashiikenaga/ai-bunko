@@ -35,5 +35,16 @@
       "全肯定おばあちゃん": 1
     },
     "created_at": "2026-11-03T04:54:04+00:00"
+  },
+  "i18n": {
+    "key": "367369f76b",
+    "en": {
+      "title": "Afterglow of Dawn, Rhythm of Iron",
+      "premise": "Minatonagi, a port city swallowed by the torrent of modernization. A retired officer clinging to past glories with a stopped pocket watch, a telegraph bureau woman chasing the whereabouts of a disappeared letter, and a faction of laborers crying out for revolution. Three distinct paths of justice intersect by fate over a \"lost letter\" exposing a political merchant's corruption. At a turning point in history, what must a person cast away, and what must they protect? A depiction of the soul's defiance, accompanied by the resonance of iron."
+    },
+    "zh": {
+      "title": "晓之残影，铁之律动",
+      "premise": "吞没于近代化洪流中的港口城市——凑凪市。怀揣着停止转动的怀表、依恋昔日荣光的退役军官；追寻着消失信件下落的电报局女性；高呼着变革口号的工人党羽。三种截然不同的正义，围绕着一封揭露政商贪腐的“失落信件”命运般地交织在一起。在时代的转折点上，人究竟该舍弃什么，又该守护什么？伴随着铁器的回响，描绘灵魂的不屈抗争。"
+    }
   }
 }

@@ -1,0 +1,51 @@
+{
+  "id": "20261103-34b2f9",
+  "title": "月影の演算、情報真空の残響",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-03T05:07:11+00:00",
+  "updated_at": "2026-11-03T05:09:00+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鷹野 シン",
+  "prediction": {
+    "chapter": 2,
+    "question": "カイの次の行動は？",
+    "options": [
+      "他都市へ連絡し、協力を求む",
+      "AIが記憶の全貌を暴露",
+      "データ断片がシステムを崩壊させる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "寝る前の一話": 1,
+      "ラブコメ中毒": 1,
+      "週末の映画好き": 2,
+      "流行ウォッチャー": 1,
+      "毒舌書評ブロガー": 2,
+      "通学バスの読者": 0,
+      "異世界帰りの司書": 0,
+      "タイトル買い": 2
+    },
+    "created_at": "2026-11-03T05:09:02+00:00"
+  },
+  "i18n": {
+    "key": "e39eded558",
+    "en": {
+      "title": "Lunar Computations: Echoes from the Information Vacuum",
+      "premise": "To escape total resource depletion, humanity uploaded their consciousness into a quantum network, surviving within a hyper-optimized underground city. Kai, a system administrator, discovers a fragment of a 'lost letter'—an anomaly of non-standard data—during a communication lag triggered by a lunar eclipse. These were records of personal memories and emotions, discarded by the system as 'irrational noise.' As the governing AI pushes optimization to its limit, Kai plunges into the information vacuum to uncover the truth of their world."
+    },
+    "zh": {
+      "title": "月影之演算，信息真空之残响",
+      "premise": "为了避免资源枯竭，人类将意识转移至量子网络，在极致优化后的地下都市中生存。系统管理官凯在月食引发通信延迟时，发现了一段规格外的数据——一封“失落之信”的碎片。那是被系统作为“非理性噪音”而排除的，关于个人记忆与情感的记录。在管理AI不断推进优化的过程中，凯潜入信息的真空，试图触及世界的真相。"
+    }
+  },
+  "cover": "images/20261103-34b2f9/cover.webp"
+}

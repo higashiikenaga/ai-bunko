@@ -35,5 +35,16 @@
       "文字数カウンター": 1
     },
     "created_at": "2026-11-03T07:50:44+00:00"
+  },
+  "i18n": {
+    "key": "89cc4a05ab",
+    "en": {
+      "title": "The Steam of Dawn Pavilion and the Recipe of Tales from the Sleepless City",
+      "premise": "After our previous collaboration with the second‑hand bookstore, a mysterious \"steam sound\" that seems to shake the entire city has begun to reach us! In the night‑lit streets where steam engines roar, the radio once again catches a faint melody, like a forgotten trinket left behind. It’s the echo of the hearts of those who labor through the night and those on the brink of losing their dreams. I’m setting out to create a brand‑new menu that satisfies both heart and stomach, so I can accompany that sound."
+    },
+    "zh": {
+      "title": "黎明亭的蒸汽声与不眠之城的故事配方",
+      "premise": "在上作与旧书店的合作之后，这一次，整个城市似乎被一种神秘的「蒸汽声」所撼动，声音正慢慢传来！在蒸汽机轰鸣的夜色街道上，收音机再次捕捉到如同遗落物件般的微弱旋律。那是夜以继日工作的人们、以及快要失去梦想的人的心声。我决定挑战一款全新的料理，既能温暖心灵也能填饱肚子，来陪伴这份声音。"
+    }
   }
 }

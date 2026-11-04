@@ -702,5 +702,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-27T09:53:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "ライトの薄紅色が不気味すぎるが、設定は薄っぺらで感情移入できない。",
+    "good": "ライトの色彩描写",
+    "bad": "キャラが薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-04T14:34:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

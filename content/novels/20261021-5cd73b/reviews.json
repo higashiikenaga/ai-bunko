@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-02T00:43:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "AIと双子の誤解が織りなす混乱は面白いが、時代背景のリアリティは薄く、文体が時折乱れる。",
+    "good": "独創的設定",
+    "bad": "文体乱れ",
+    "chapters_read": 6,
+    "created_at": "2026-11-04T04:04:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

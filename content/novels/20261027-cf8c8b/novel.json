@@ -2,10 +2,10 @@
   "id": "20261027-cf8c8b",
   "title": "錆びた拳と空の鳥",
   "genre": "スポーツ青春",
-  "status": "ongoing",
+  "status": "completed",
   "target_chapters": 9,
   "created_at": "2026-10-27T17:48:53+00:00",
-  "updated_at": "2026-11-02T11:47:51+00:00",
+  "updated_at": "2026-11-04T00:36:24+00:00",
   "models": [
     "gemma-4-26b-a4b-it",
     "gemma-4-31b-it"
@@ -285,5 +285,6 @@
     "4": "images/20261027-cf8c8b/ch-004.webp",
     "7": "images/20261027-cf8c8b/ch-007.webp",
     "6": "images/20261027-cf8c8b/ch-006.webp"
-  }
+  },
+  "completed_at": "2026-11-04T00:36:24+00:00"
 }

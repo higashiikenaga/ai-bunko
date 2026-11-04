@@ -50,5 +50,17 @@
       "異世界帰りの司書": 2
     },
     "created_at": "2026-11-04T20:59:52+00:00"
+  },
+  "cover": "images/20261104-8d3867/cover.webp",
+  "i18n": {
+    "key": "9bc835fec7",
+    "en": {
+      "title": "Shackles of the Celestial Sphere and the Forbidden Tome Woven in Twilight",
+      "premise": "A forbidden star chart detailing the \"lost constellations\" erased from the empire's history. When a young librarian gets his hands on it, the stopped clock of the world begins to tick once more. On the night of a lunar eclipse, the heavenly shackles are undone, and the return of the ancient gods—overwriting the laws of the earth—begins. Defying the chains known as fate, he seeks to carve a new story into the sky."
+    },
+    "zh": {
+      "title": "天球之枷与暮色中缀写的禁书",
+      "premise": "记载着被帝国历史抹去的“失落星座”的禁忌星图。当年轻的图书管理员触及这本星图时，世界停滞的时钟再次转动。在月食之夜，天之枷锁解开，意欲重写地上常理的古老神明宣告回归。他抗拒着名为命运的锁链，试图在天空中刻下全新的故事。"
+    }
   }
 }

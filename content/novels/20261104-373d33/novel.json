@@ -36,5 +36,17 @@
       "キャラ萌え研究家": 2
     },
     "created_at": "2026-11-04T18:40:44+00:00"
+  },
+  "cover": "images/20261104-373d33/cover.webp",
+  "i18n": {
+    "key": "51bf06d231",
+    "en": {
+      "title": "Resistance of the Azure Sky —The Silver-Winged Route Inscribed on the Star Map—",
+      "premise": "After the Empire's collapse, Kaito and Lira have reclaimed the free skies, but they are confronted with a mysterious phenomenon where constellations that should float in the heavens vanish one by one. Riding the rebuilt “Sky Strider,” Kaito sets out on a quest for the “Lost Star Map” that can guide the missing stars. Relying on an old navigation log hidden in a secondhand bookshop, they pierce through seas of clouds and plunge into an unknown wind that leads to the edge of the cosmos."
+    },
+    "zh": {
+      "title": "苍穹的抵抗——刻在星图上的银翼航路——",
+      "premise": "帝国崩溃后，Kaito 与 Lira 夺回了自由的天空，却面对着本该漂浮在空中的星座陆续消失的神秘现象。Kaito 驾驶重新打造的“Sky Strider”，踏上寻找能够指引失落星辰的“失落星图”的旅程。凭借藏在古旧书店里的航海日志，他们冲破云海，飞向通往宇宙尽头的未知风暴。"
+    }
   }
 }

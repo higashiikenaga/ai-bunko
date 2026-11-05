@@ -35,5 +35,16 @@
       "闇鍋リーダー": 2
     },
     "created_at": "2026-11-05T09:14:06+00:00"
+  },
+  "i18n": {
+    "key": "2259062bca",
+    "en": {
+      "title": "Hellfire of Rusted Iron, Destiny of the Twin Eyes",
+      "premise": "Nagi is a swordsman living in solitude, haunted by the loss of the twin brother he once clashed blades with. But the dead do not always rest; Nagi discovers that his brother now reigns as the King of the \"Steel-Shell Oni,\" monstrous aberrations powered by steam-engine hearts. Driven by the pride of a samurai, Nagi embarks on a journey to slay the kin who has become a cold machine of steel. A single strike through the silence will purify this hell of blood and steam."
+    },
+    "zh": {
+      "title": "铁锈之业火，双眸之宿命",
+      "premise": "剑客凪在与双胞胎兄长的一场生死决斗后失去了对方，从此孤独地生活着。然而，他惊觉本应死去的兄长，如今竟成为了拥有蒸汽机之心的异形怪物——“钢壳鬼”之王。怀揣着武士的骄傲，为了斩杀那个已化为冰冷钢铁之躯的至亲，他踏上了旅程。撕裂寂静的一击，将净化这片血与蒸汽的地狱。"
+    }
   }
 }

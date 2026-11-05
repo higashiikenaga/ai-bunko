@@ -34,5 +34,16 @@
     },
     "created_at": "2026-11-05T17:46:50+00:00"
   },
-  "cover": "images/20261105-b641ad/cover.webp"
+  "cover": "images/20261105-b641ad/cover.webp",
+  "i18n": {
+    "key": "f9df28e80e",
+    "en": {
+      "title": "Return to the Mire, Vault of Time",
+      "premise": "Kota, a young man who returns to his hometown as if fleeing the city, discovers an ownerless local history book in a weathered secondhand bookstore on the edge of the village. Within its pages, written in a distorted hand, are taboos regarding the \"offerings to the Zashiki-gami\" performed during the village festivals. It warns that those who board the \"Last Train\"—which appears only at midnight on the village's sole railway line—must never change their seats. As Kota witnesses villagers defying the prohibitions and hears the nightly screeching of the rails, he begins to feel an irresistible omen of death."
+    },
+    "zh": {
+      "title": "泥泞之还，刻之藏",
+      "premise": "为了逃离都市而回到故乡的青年·航太，在村边的一家陈旧二手书店里，发现了一本无主的老旧乡土志。书中用扭曲的笔触记载着关于村庄祭礼中“献给座敷神之供物”的禁忌。据说，乘坐村中唯一铁路线在深夜才出现的“末班车”之人，绝不能更换座位。看着村民们打破书中禁忌的身影，听着每夜回响的铁轨吱呀声，航太开始感受到一种无法抗拒的死亡预兆。"
+    }
+  }
 }

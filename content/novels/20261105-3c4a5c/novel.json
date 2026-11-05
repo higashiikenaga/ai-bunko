@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-05T16:48:23+00:00"
   },
-  "cover": "images/20261105-3c4a5c/cover.webp"
+  "cover": "images/20261105-3c4a5c/cover.webp",
+  "i18n": {
+    "key": "a9ff14234e",
+    "en": {
+      "title": "Coordinates of the Void, Requiem for the Galaxy",
+      "premise": "The Star System Federation, guardians of galactic order, and the Independent Planetary Alliance, driven by the quest for resources. The fragile balance between these two powers shatters upon the discovery of the legendary 'Lost Star Chart'—a map detailing the routes of an ultra-ancient civilization that once commanded the entire universe. As fleets from across the cosmos converge on the relay station 'Elysium,' the city that never sleeps, they are drawn into a swirling vortex of espionage and interstellar warfare. With the fate of the stars hanging in the balance, ruthless strategy and unwavering conviction collide."
+    },
+    "zh": {
+      "title": "虚空的坐标，银河的镇魂歌",
+      "premise": "维持银河秩序的“星系联合”，与以确保资源为目标的“独立行星同盟”。随着传说中的“失落星图”被发现，两方阵营之间的均衡彻底崩塌。那张星图记载了曾统制宇宙全域的超古代文明之航路。各国舰队以被称为“不夜城”的中继站“爱丽舍”为舞台，被卷入情报战与舰队战的漩涡之中。在关乎星辰命运的博弈中，冷酷的战略与个人的信念激烈交锋。"
+    }
+  }
 }

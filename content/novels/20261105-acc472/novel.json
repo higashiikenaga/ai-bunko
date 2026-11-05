@@ -1,0 +1,50 @@
+{
+  "id": "20261105-acc472",
+  "title": "香料の都と、砂に消えた約束の丘",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-05T03:58:18+00:00",
+  "updated_at": "2026-11-05T04:00:50+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "砂原 オアシス",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "砂海へ逃げ込んだ二人の行く手に待ち受ける運命は？",
+    "options": [
+      "砂嵐が二人の行方を阻む",
+      "猫が隠し通路を見つける",
+      "追手が奇妙な罠を仕掛ける"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ホラー玄人": 2,
+      "初見さん": 1,
+      "ジャンル横断者": 1,
+      "ミステリー初心者": 0,
+      "キャラ萌え研究家": 1,
+      "心理描写フェチ": 0,
+      "ご都合主義ハンター": 2,
+      "週末の長編派": 0
+    },
+    "created_at": "2026-11-05T04:01:04+00:00"
+  },
+  "i18n": {
+    "key": "750bb00140",
+    "en": {
+      "title": "The City of Spices and the Hill of Promise Lost to the Sands",
+      "premise": "Once an imperial court cartographer, a man is entrusted with a fragment of a map to the \"Legendary Green Hill\" by a mysterious woman. Leaving the bustle of the vibrant markets behind, he sets out on a journey alongside a nameless cat to find a lost paradise buried beneath the sands. It is a perilous trek along dangerous trade routes—a journey to reclaim his lost pride."
+    },
+    "zh": {
+      "title": "香料之都与消失在黄沙中的约定之丘",
+      "premise": "曾任帝国宫廷制图师的男子，某日受一位身份不明的女子所托，得到了一张通往“传说中的绿丘”的地图碎片。他告别了繁华喧闹的市场，带着一只无名小猫，踏上了寻找埋没在黄沙之中的失落乐园的旅程。这是一场穿越险恶贸易路线、赌上性命的冒险，也是一场为了找回失落尊严的征途。"
+    }
+  }
+}

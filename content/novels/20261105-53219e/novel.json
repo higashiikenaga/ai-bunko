@@ -36,5 +36,16 @@
       "ゆるふわSF好き": 0
     },
     "created_at": "2026-11-05T09:58:36+00:00"
+  },
+  "i18n": {
+    "key": "abbc52aceb",
+    "en": {
+      "title": "Urban Flight Paths: Echoes at 3 AM",
+      "premise": "At 3:15 AM, a body is discovered in a nondescript building in Shinjuku. Detective Saeki of the Metropolitan Police Department's First Investigation Division notices a chilling detail: the body's placement mimics the migration route of a specific species of bird. A series of murders, executed with calculated precision in time and place, blend seamlessly into the urban chaos. Trapped between organizational interference and the limits of the investigation, Saeki must rely on cold, hard logic to hunt the killer lurking in the shadows of the night city."
+    },
+    "zh": {
+      "title": "都市的航路，凌晨三点的残响",
+      "premise": "凌晨三点十五分，新宿的一栋杂居大楼内发现了一具尸体。警视厅搜查一课的刑警佐伯发现，尸体的摆放方式模仿了某种候鸟的迁徙路线。连续发生的杀人事件在都市的喧嚣中掩盖，在经过计算的时间与地点精准上演。在组织干预与搜查极限的夹缝中，佐伯仅凭冷彻的逻辑，追击潜伏在夜晚街道上的犯人。"
+    }
   }
 }

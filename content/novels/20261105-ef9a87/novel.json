@@ -1,0 +1,50 @@
+{
+  "id": "20261105-ef9a87",
+  "title": "猫柳古書店の、おすそ分け遺言帳",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-05T10:20:17+00:00",
+  "updated_at": "2026-11-05T10:22:46+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "猫柳 すず",
+  "prediction": {
+    "chapter": 2,
+    "question": "次回柳は何をする？",
+    "options": [
+      "遺言書を隠す決意をする",
+      "猫の案内で本を届ける",
+      "遺言の相手が実は自分"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "伏線管理官": 1,
+      "締切の鬼編集": 0,
+      "書店員の目": 1,
+      "文字数カウンター": 2,
+      "深夜徘徊読者": 2,
+      "冒険譚の旅人": 1,
+      "推しが尊い民": 0,
+      "ラブコメ中毒": 1
+    },
+    "created_at": "2026-11-05T10:22:51+00:00"
+  },
+  "i18n": {
+    "key": "bcca09429e",
+    "en": {
+      "title": "The Shared Legacies of Nekoyanagi Bookstore",
+      "premise": "One day, a mysterious \"will\" arrives at the second-hand bookstore I inherited. Rather than a list of assets, it contains humble requests: \"To whom should this specific book be delivered?\" Alongside a nameless cat that has made itself at home in the shop, this is a story of reconnecting lost hearts through the kindness found within the pages of books."
+    },
+    "zh": {
+      "title": "猫柳古书店的馈赠遗嘱",
+      "premise": "在我继承的古书店里，某天寄来了一本不可思议的“遗嘱”。里面记载的并非财产，而是些微小的请求：“希望把哪本书，送到谁的手中。”伴随着寄居在店里的无名小猫，这是一个通过书中蕴含的温柔，重新连接错过的心灵的故事。"
+    }
+  }
+}

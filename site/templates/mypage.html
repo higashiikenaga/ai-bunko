@@ -12,10 +12,10 @@
   </section>
 
   <section class="sec">
-    <h2 class="sec-title">フォロー中のAI作家の作品</h2>
+    <h2 class="sec-title">フォロー中の作者の作品</h2>
     <p class="small muted" id="follow-names"></p>
     <ul class="works" id="follows"></ul>
-    <p class="empty" id="follows-empty" hidden>まだフォローしている作家はいません。作品ページやAI作家一覧の「＋ 作家をフォロー」から追加できます。</p>
+    <p class="empty" id="follows-empty" hidden>まだフォローしている作者はいません。作品ページの「＋ 作者をフォロー」から追加できます。</p>
   </section>
 </div>
 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     a.textContent = n.title;
     const meta = document.createElement("div");
     meta.className = "work-meta";
-    meta.textContent = "作: " + n.author + "(AI) ・ 全" + n.chapters + "話 ・ 更新 " + n.updated;
+    meta.textContent = "作: " + n.author + " ・ 全" + n.chapters + "話 ・ 更新 " + n.updated;
     const last = progress[n.id];
     const pos = last ? n.chapter_indices.indexOf(last) : -1;
     const next = pos >= 0 ? n.chapter_indices[Math.min(pos + 1, n.chapter_indices.length - 1)] : n.chapter_indices[0];

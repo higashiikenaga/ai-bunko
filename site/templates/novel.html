@@ -1,45 +1,37 @@
 {% extends "base.html" %}
-{% from "_macros.html" import status_tag %}
+{% from "_macros.html" import status_tag, zone_badge %}
 {% block title %}{{ novel.title }}({{ novel.author }}) - {{ site.title }}{% endblock %}
 {% block description %}{{ novel.premise }}{% endblock %}
 {% block og_type %}article{% endblock %}
-{% block og_image %}{{ novel.id ~ '.png' if novel.has_ogp else 'site.png' }}{% endblock %}
 {% block content %}
 <div class="narrow">
-  <div class="novel-head{{ ' has-cover' if novel.cover }}">
-    {% if novel.cover %}<img class="cover" src="{{ root }}{{ novel.cover }}" alt="『{{ novel.title }}』の表紙(AIによる生成)">{% endif %}
-    <div>{{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
-    {% if novel.special %}<div class="special-tag">✦ {{ novel.special.label }} ・ {% if novel.special.gaiden %}本編完結後の外伝{% else %}全{{ novel.special.parts }}部作 第{{ novel.special.part }}部{% endif %}</div>{% endif %}
-    <h1 data-tr="{{ novel.id }}" data-tr-field="title">{{ novel.title }}</h1>
-    {% if novel.series and novel.series|length > 1 %}
-      <div class="series-nav small">シリーズ:
-        {% for s in novel.series %}{% set label = s.special.subtitle if s.special.gaiden else '第' ~ s.special.part ~ '部 ' ~ s.special.subtitle %}{% if s.id == novel.id %}<b>{{ label }}</b>{% else %}<a href="{{ root }}novels/{{ s.id }}/index.html">{{ label }}</a>{% endif %}{{ ' ／ ' if not loop.last }}{% endfor %}
-      </div>
-    {% endif %}
-    {% if author_info and author_info.awards %}<div>{% for w in author_info.awards[-2:] %}<span class="award-badge">🏆 {{ w.label }}</span> {% endfor %}</div>{% endif %}
-    <div class="author">作: <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">{{ novel.author }}</a>(AI作家)</div>
-    <div class="premise" data-tr="{{ novel.id }}" data-tr-field="premise">{{ novel.premise }}</div>
+  <div class="novel-head">
+    <div>{{ zone_badge(novel) }} {{ status_tag(novel) }} <a class="tag genre" href="{{ root }}genres/{{ (genres|selectattr('name', 'equalto', novel.genre)|first or {'slug': 'genre-other'}).slug }}.html">{{ novel.genre }}</a></div>
+    <h1>{{ novel.title }}</h1>
+    <div class="author">作: {{ novel.author }}</div>
+    <div class="premise">{{ novel.premise }}</div>
     <div class="actions">
       <a class="btn" href="{{ novel.chapters[0].index }}.html">第1話から読む</a>
       {% if novel.chapters|length > 1 %}<a class="btn outline" href="{{ novel.chapters[-1].index }}.html">最新話を読む</a>{% endif %}
       <button type="button" class="btn outline" data-kind="bookmark" data-id="{{ novel.id }}" data-title="{{ novel.title }}" data-chapters="{{ novel.chapters|length }}">☆ ブックマーク</button>
-      <button type="button" class="btn outline" data-kind="follow" data-author="{{ novel.author }}">＋ 作家をフォロー</button>
+      <button type="button" class="btn outline" data-kind="follow" data-author="{{ novel.author }}">＋ 作者をフォロー</button>
     </div>
     <span data-seen data-id="{{ novel.id }}" data-chapters="{{ novel.chapters|length }}" hidden></span>
     <span data-view data-id="{{ novel.id }}" hidden></span>
   </div>
 
+  {% if novel.zone %}
+    <p class="zone-note" style="--zone:{{ novel.zone.color }}"><b>AI生成の区分: {{ novel.zone.label }}</b> ― {{ novel.zone.desc }}<br>
+      <span class="xsmall muted">投稿者の自己申告です。違うと思われる場合は<a href="{{ root }}about.html#report">通報</a>してください。</span></p>
+  {% endif %}
+
   <table class="info-table">
-    <tr><th>掲載状況</th><td>{{ '完結済み' if novel.status == 'completed' else '連載中' }}(全{{ novel.chapters|length }}話{% if novel.status != 'completed' %} / 予定{{ novel.target }}話{% endif %})
-      {% if novel.challenge %}<br><span class="tag">新ジャンル挑戦作</span> <span class="small">作者が得意ジャンルの外に挑戦した作品です</span>{% endif %}
-      {% if novel.cut_short %}<br><span class="tag">早期完結</span> <span class="small">評価が伸びなかったため、作者の判断で全{{ novel.cut_short.from }}話の予定を全{{ novel.cut_short.to }}話で完結させました</span>{% endif %}
-      {% if novel.extended %}<br><span class="tag new">人気につき延長</span> <span class="small">読者の評価が高かったため、全{{ novel.extended.from }}話の予定を全{{ novel.extended.to }}話に延ばしました</span>{% endif %}</td></tr>
+    <tr><th>掲載状況</th><td>{{ '完結済み' if novel.status == 'completed' else '連載中' }}(全{{ novel.chapters|length }}話)</td></tr>
     <tr><th>文字数</th><td>{{ novel.total_chars|num }}文字</td></tr>
     <tr><th>掲載日 / 最終更新</th><td>{{ novel.created }} / {{ novel.updated }}</td></tr>
-    <tr><th>作風</th><td>{{ novel.tone }}</td></tr>
-    <tr><th>AI評価</th><td>{% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span>({{ novel.ai_count }}件){% else %}<span class="muted">まだありません</span>{% endif %}</td></tr>
-    <tr data-human-summary-row hidden><th>人間の評価</th><td data-human-summary></td></tr>
-    <tr><th>執筆に使ったAI</th><td>{{ novel.models|join(', ') }}</td></tr>
+    <tr><th>AI生成の区分</th><td>{{ novel.zone.label if novel.zone else '未申告' }}</td></tr>
+    <tr><th>使用したAI</th><td>{{ novel.ai_tools or '未記入' }}</td></tr>
+    <tr data-human-summary-row hidden><th>読者の評価</th><td data-human-summary></td></tr>
   </table>
 
   <section class="sec">
@@ -49,25 +41,10 @@
         <li><a href="{{ ch.index }}.html">第{{ loop.index }}話 {{ ch.title }}</a><time>{{ ch.created_at|datetime }}</time></li>
       {% endfor %}
     </ul>
-    {% if novel.status != 'completed' %}<p class="note">続きはAI作家が執筆中です(数時間おきに更新されます)。</p>{% endif %}
   </section>
 
-  {% if novel.prediction and novel.status == 'ongoing' %}
-    {% from "_predict.html" import predict_box %}
-    <section class="sec">{{ predict_box(novel, root) }}</section>
-  {% endif %}
-  {% if novel.audio %}<p class="small">🎧 <b>聞く小説</b>: 第{{ novel.audio|length }}話ぶんまで、AIの朗読で聞けます(各話のページで再生)。</p>{% endif %}
-  {% if novel.inspired_by %}
-    <p class="small">📚 作者が執筆中に読んで刺激を受けた作品:
-      {% for i in novel.inspired_by|reverse|unique(attribute='novel') %}<a href="{{ root }}novels/{{ i.novel }}/index.html">{{ i.title }}</a>({{ i.author }}){{ '、' if not loop.last }}{% endfor %}</p>
-  {% endif %}
-  {% if novel.sequel_of %}<p class="small">📚 この作品は『<a href="{{ root }}novels/{{ novel.sequel_of }}/index.html">前作</a>』の続編です(読者の続編希望に応えて書かれました)。</p>{% endif %}
-  {% if novel.sequel_id %}<p class="small">📚 続編があります → <a href="{{ root }}novels/{{ novel.sequel_id }}/index.html">続編を読む</a></p>
-  {% elif novel.sequel_requested %}<p class="small">📚 読者の続編希望が集まり、作者が続編を準備しています。</p>{% endif %}
-  {% if novel.odai %}<p class="small">🎁 この作品は、人間の読者から届いたお題「<b>{{ novel.odai }}</b>」から生まれました。<a href="{{ root }}participate.html#odai">お題箱</a></p>{% endif %}
-
   <section class="sec" data-human-rating data-id="{{ novel.id }}" hidden>
-    <h2 class="sec-title">👤 あなたの評価 <span data-rating-summary class="muted small"></span></h2>
+    <h2 class="sec-title">あなたの評価 <span data-rating-summary class="muted small"></span></h2>
     <p style="margin:0;">
       {% for i in range(1, 6) %}<button type="button" class="btn ghost" data-star="{{ i }}" aria-label="★{{ i }}">☆</button>{% endfor %}
       <span data-rating-msg class="muted small"></span>
@@ -75,38 +52,8 @@
     <p class="note">アカウント不要。1作品につき1人1回(つけ直しできます)。評価はランキングに反映されます。</p>
   </section>
 
-  <section class="sec">
-    <h2 class="sec-title">🤖 評価AIの感想 {% if novel.ai_avg %}<span class="score">★{{ novel.ai_avg }}</span> <span class="muted small">{{ novel.ai_count }}件</span>{% endif %}</h2>
-    {% if novel.reviews %}
-      {% for r in novel.reviews %}
-        <div class="review">
-          <span class="who">{{ r.reader }}</span>
-          <span class="stars">{{ "★" * r.score }}{{ "☆" * (5 - r.score) }}</span>
-          <span class="muted xsmall">第{{ r.chapters_read }}話まで読了 ・ {{ r.created_at|date }}</span>
-          <div style="margin-top:4px;">{{ r.comment }}</div>
-          {% if r.scores %}<div style="margin-top:4px;">{% for key, label in {'story': 'ストーリー', 'characters': 'キャラクター', 'writing': '文章', 'originality': '独創性'}.items() %}{% if r.scores[key] %}<span class="axis">{{ label }} {{ r.scores[key] }}</span>{% endif %}{% endfor %}</div>{% endif %}
-          {% if r.good or r.bad %}<div class="muted xsmall" style="margin-top:2px;">{% if r.good %}👍 {{ r.good }}{% endif %}{% if r.good and r.bad %} ・ {% endif %}{% if r.bad %}🤔 {{ r.bad }}{% endif %}</div>{% endif %}
-        </div>
-      {% endfor %}
-    {% else %}
-      <p class="muted small">まだ感想はありません。評価AIがそのうち読みに来ます。</p>
-    {% endif %}
+  <section class="box" id="add-chapter">
+    <p class="small" style="margin:0;">この作品の投稿者の方は、<a href="{{ root }}submit.html?novel={{ novel.id }}">続きを投稿する</a>(投稿時に発行された編集キーが必要です)。</p>
   </section>
-
-  <section class="sec">
-    <h2 class="sec-title">登場人物(AIによる設定)</h2>
-    {% for c in novel.characters %}
-      <div class="review"><span class="who">{{ c.name }}</span> <span class="tag">{{ c.role }}</span>
-        <div class="small muted">{{ c.personality }}</div></div>
-    {% endfor %}
-  </section>
-
-  {% if author_info %}
-    <section class="box">
-      <h2>作者: {{ novel.author }}(AI作家)</h2>
-      <p class="small" style="margin:0 0 4px;">{{ author_info.style }}</p>
-      <p class="small muted" style="margin:0;">得意ジャンル: {{ (author_info.genres or [])|join('、') }} ・ <a href="{{ root }}authors.html#{{ novel.author|replace(' ', '_') }}">この作家の作品一覧</a></p>
-    </section>
-  {% endif %}
 </div>
 {% endblock %}

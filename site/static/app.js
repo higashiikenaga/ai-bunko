@@ -3,7 +3,7 @@
 (function () {
   const KEY = {
     bookmarks: "aibunko:bookmarks", follows: "aibunko:follows", progress: "aibunko:progress",
-    ratings: "aibunko:myratings", viewed: "aibunko:viewed",
+    ratings: "aibunko:myratings", viewed: "aibunko:viewed", zones: "aibunko:hiddenzones",
   };
 
   function load(key, fallback) {
@@ -54,7 +54,7 @@
     const isBookmark = btn.dataset.kind === "bookmark";
     const on = isBookmark ? store.isBookmarked(btn.dataset.id) : store.isFollowing(btn.dataset.author);
     btn.classList.toggle("outline", !on);
-    btn.textContent = isBookmark ? (on ? "★ ブックマーク済み" : "☆ ブックマーク") : (on ? "✓ フォロー中" : "＋ 作家をフォロー");
+    btn.textContent = isBookmark ? (on ? "★ ブックマーク済み" : "☆ ブックマーク") : (on ? "✓ フォロー中" : "＋ 作者をフォロー");
     btn.setAttribute("aria-pressed", on ? "true" : "false");
   }
 
@@ -122,72 +122,52 @@
     });
   }
 
-  // 展開予想: 人間の票(/api/predictions)と評価AIの票を棒グラフで出し、クリックで投票する
-  async function setupPredictions(boxes) {
-    let votes = null;
-    try {
-      const r = await fetch(root() + "api/predictions", { cache: "no-store" });
-      if (r.ok) votes = (await r.json()).votes;
-    } catch (e) { /* 集計が取れなくてもAIの票は表示する */ }
-    const mine = load("aib-predict", {});
-    boxes.forEach((box) => {
-      const key = box.dataset.id + ":" + box.dataset.chapter;
-      const ai = box.dataset.ai.split(",").map(Number);
-      const msg = box.querySelector("[data-predict-msg]");
-      const opts = [...box.querySelectorAll("[data-choice]")];
-      function paint(human) {
-        const ht = human.reduce((a, b) => a + b, 0), at = ai.reduce((a, b) => a + b, 0);
-        opts.forEach((o, i) => {
-          const hp = ht ? Math.round((100 * human[i]) / ht) : 0, ap = at ? Math.round((100 * ai[i]) / at) : 0;
-          o.querySelector(".bar.human").style.width = hp + "%";
-          o.querySelector(".bar.ai").style.width = ap + "%";
-          o.querySelector(".predict-nums").textContent = `人間 ${hp}%(${human[i]}) ・ AI ${ap}%(${ai[i]})`;
-          o.classList.toggle("mine", mine[key] === i);
-        });
-      }
-      paint((votes && votes[key]) || [0, 0, 0]);
-      if (!votes) { msg.textContent = "人間の投票は現在利用できません(評価AIの予想のみ表示)"; return; }
-      opts.forEach((o, i) => o.addEventListener("click", async () => {
-        msg.textContent = "送信中…";
-        try {
-          const r = await fetch(root() + "api/predict", {
-            method: "POST", headers: { "content-type": "application/json" },
-            body: JSON.stringify({ novel: box.dataset.id, chapter: Number(box.dataset.chapter), choice: i }),
-          });
-          const d = await r.json();
-          if (!r.ok) throw new Error(d.error || "投票できませんでした");
-          mine[key] = i;
-          save("aib-predict", mine);
-          paint(d.counts);
-          msg.textContent = "投票しました。答え合わせは次の話が出たあと";
-        } catch (e) { msg.textContent = e.message; }
-      }));
+  // ---------- AI生成の区分(ゾーニング)の表示切り替え ----------
+  // 隠す区分をこのブラウザの localStorage に保存する。初期状態はすべて表示
+  const hiddenZones = () => load(KEY.zones, []);
+  store.zoneVisible = (key) => !hiddenZones().includes(key || "");
+  function applyZones() {
+    document.querySelectorAll("[data-zone]").forEach((el) => { el.hidden = !store.zoneVisible(el.dataset.zone); });
+    document.querySelectorAll(".sec").forEach((sec) => {
+      const items = sec.querySelectorAll("[data-zone]");
+      if (items.length) sec.hidden = [...items].every((el) => el.hidden);
     });
   }
-
-  // トップのスライド: 自動で送り、ドット・矢印・スワイプでも切り替えられる
-  function setupSlider(root_) {
-    const track = root_.querySelector(".slides"), slides = [...track.children];
-    const dots = [...root_.querySelectorAll(".dots button")];
-    if (slides.length < 2) return;
-    let i = 0, timer;
-    const go = (n) => { i = (n + slides.length) % slides.length; track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: "smooth" }); };
-    const paint = () => dots.forEach((d, k) => d.setAttribute("aria-current", k === i));
-    track.addEventListener("scroll", () => { i = Math.round(track.scrollLeft / track.clientWidth); paint(); }, { passive: true });
-    dots.forEach((d, k) => d.addEventListener("click", () => { go(k); restart(); }));
-    root_.querySelector(".prev").addEventListener("click", () => { go(i - 1); restart(); });
-    root_.querySelector(".next").addEventListener("click", () => { go(i + 1); restart(); });
-    const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
-    function restart() { clearInterval(timer); if (!reduce) timer = setInterval(() => go(i + 1), 6000); }
-    root_.addEventListener("mouseenter", () => clearInterval(timer));
-    root_.addEventListener("mouseleave", restart);
-    paint(); restart();
+  store.renderZoneFilter = function (box, zones, onChange) {
+    if (!box || box.dataset.ready) return;
+    box.dataset.ready = "1";
+    box.append(Object.assign(document.createElement("span"), { className: "small muted", textContent: "表示する区分:" }));
+    zones.forEach((z) => {
+      const label = document.createElement("label");
+      label.className = "zone-check";
+      const cb = Object.assign(document.createElement("input"), { type: "checkbox", checked: store.zoneVisible(z.key) });
+      const badge = Object.assign(document.createElement("span"), { className: "zone-badge", textContent: z.label });
+      badge.style.setProperty("--zone", z.color);
+      cb.addEventListener("change", () => {
+        const h = hiddenZones().filter((k) => k !== z.key);
+        if (!cb.checked) h.push(z.key);
+        save(KEY.zones, h);
+        applyZones();
+        if (onChange) onChange();
+      });
+      label.append(cb, badge);
+      box.append(label);
+    });
+  };
+  async function autoZoneFilters() {
+    const boxes = [...document.querySelectorAll("[data-zone-filter]")].filter((b) => !b.dataset.ready && !b.dataset.manual);
+    if (!boxes.length) return;
+    try {
+      const r = await fetch(root() + "data/meta.json");
+      const zones = r.ok ? (await r.json()).zones : [];
+      boxes.forEach((b) => store.renderZoneFilter(b, zones));
+    } catch (e) { /* 区分の切り替えが使えないだけ */ }
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("[data-slider]").forEach(setupSlider);
-    const preds = [...document.querySelectorAll("[data-predict]")];
-    if (preds.length) setupPredictions(preds);
+    applyZones();
+    // 検索・ランキングは自前で初期化する(区分の読み込み後に一覧を描くため)
+    if (!document.getElementById("results") && !document.getElementById("ranking-list")) autoZoneFilters();
     document.querySelectorAll("[data-kind]").forEach((btn) => {
       refresh(btn);
       btn.addEventListener("click", () => {

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "_macros.html" import work_item, sidebar %}
+{% block title %}{{ zone.label }}の作品一覧 - {{ site.title }}{% endblock %}
+{% block description %}{{ zone.desc }}{% endblock %}
+{% block content %}
+<div class="layout">
+  <div>
+    <h1 class="page-title"><span class="zone-badge" style="--zone:{{ zone.color }}">{{ zone.label }}</span> <span class="muted small">{{ zone.works|length }}作品</span></h1>
+    <p class="note">{{ zone.desc }} 区分は投稿者の自己申告です。</p>
+    {% if zone.works %}
+      <ul class="works">{% for v in zone.works %}{{ work_item(v, root) }}{% endfor %}</ul>
+    {% else %}
+      <p class="empty">この区分の作品はまだありません。</p>
+    {% endif %}
+  </div>
+  {{ sidebar(root, zones, genres) }}
+</div>
+{% endblock %}

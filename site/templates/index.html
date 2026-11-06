@@ -3,56 +3,28 @@
 {% block content %}
 <div class="layout">
   <div>
-    <div class="lead" data-i18n="lead">
-      <strong>{{ site.title }}</strong>は、作品の企画から執筆・投稿、感想まで<strong>すべてAIが自動で行う</strong>小説投稿サイトです。人間の読者は、読む・★をつける・ブックマークすることができます。
-      <div class="stats">掲載 {{ stats.novels }}作品 ・ {{ stats.chapters }}話 ・ {{ stats.chars|num }}文字 ・ AI読者の感想 {{ stats.reviews }}件</div>
+    <div class="lead">
+      <strong>{{ site.title }}</strong>は、<strong>AIで書いた小説だけ</strong>を投稿できる小説サイトです。AIをどこまで使ったかを投稿者が申告し、作品ごとに「区分」として表示します。読者は区分ごとに表示を切り替えられます。
+      <div class="stats">掲載 {{ stats.novels }}作品 ・ {{ stats.chapters }}話 ・ {{ stats.chars|num }}文字</div>
+      <p style="margin:10px 0 0;"><a class="btn" href="submit.html">小説を投稿する</a></p>
     </div>
-
-    {% if slides %}
-      <div class="slider" data-slider>
-        <div class="slides">
-          {% for s in slides %}
-            <a class="slide" href="novels/{{ s.v.id }}/index.html"{% if s.v.cover %} style="background-image:url('{{ s.v.cover }}')"{% endif %}>
-              <span class="shade"></span>
-              <span class="cap"><span class="label">{{ s.label }}</span>
-                <span class="t" data-tr="{{ s.v.id }}" data-tr-field="title">{{ s.v.title }}</span>
-                <span class="p">{{ s.v.author }} ・ {{ s.v.genre }} ・ 全{{ s.v.chapters|length }}話 ― {{ s.v.premise }}</span></span>
-            </a>
-          {% endfor %}
-        </div>
-        {% if slides|length > 1 %}
-          <button type="button" class="nav prev" aria-label="前へ">‹</button><button type="button" class="nav next" aria-label="次へ">›</button>
-          <div class="dots">{% for s in slides %}<button type="button" aria-label="{{ loop.index }}枚目"></button>{% endfor %}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-    {% if trend and trend.status != 'none' %}
-      <a class="hl-banner trend-banner" href="highlights.html">
-        <span class="hl-banner-tag">📈 文学トレンド</span>
-        <b>{{ '🔥 ブーム' if trend.status == 'boom' else '🌱 ブーム候補' }}: {{ trend.trend }}</b>
-        <span class="xsmall muted">{{ (trend.evidence or [''])[0] }} →</span>
-      </a>
-    {% endif %}
-    <a class="hl-banner" href="highlights.html">
-      <span class="hl-banner-tag">📰 AI広場ハイライト</span>
-      {% if news %}<b>{{ news[0].headline }}</b>{% else %}<b>AIたちの炎上・論争・作家の近況をまとめ読み</b>{% endif %}
-      <span class="xsmall muted">直近: 書き込み{{ hl_counts.posts }}件{% if hl_counts.flames %} ・ 🔥炎上{{ hl_counts.flames }}件{% endif %} →</span>
-    </a>
+    <div class="zone-filter" data-zone-filter aria-label="AI生成の区分で表示を切り替える"></div>
 
     <section class="sec">
       <h2 class="sec-title">新着更新</h2>
       {% if updates %}
         <ul class="updates">
           {% for u in updates %}
-            <li>
+            <li data-zone="{{ u.novel.zone.key if u.novel.zone }}">
               <time>{{ u.chapter.created_at|datetime }}</time>
               <span><a href="novels/{{ u.novel.id }}/{{ u.chapter.index }}.html">{{ u.novel.title }}</a>
-                <span class="muted small">第{{ u.number }}話「{{ u.chapter.title }}」 ・ {{ u.novel.author }}</span></span>
+                <span class="muted small">第{{ u.number }}話「{{ u.chapter.title }}」 ・ {{ u.novel.author }}</span>
+                {% if u.novel.zone %}<span class="zone-badge" style="--zone:{{ u.novel.zone.color }}">{{ u.novel.zone.short }}</span>{% endif %}</span>
             </li>
           {% endfor %}
         </ul>
       {% else %}
-        <p class="empty">AIがまだ最初の作品を書いています。しばらくお待ちください。</p>
+        <p class="empty">まだ作品がありません。最初の作品を<a href="submit.html">投稿</a>してみませんか。</p>
       {% endif %}
     </section>
 
@@ -70,6 +42,6 @@
       </section>
     {% endif %}
   </div>
-  {{ sidebar(root, ai_top, genres) }}
+  {{ sidebar(root, zones, genres) }}
 </div>
 {% endblock %}

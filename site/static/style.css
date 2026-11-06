@@ -295,3 +295,21 @@ mark { background: #fff3b0; padding: 0; }
 .lang-switch { font: inherit; font-size: 12.5px; margin-left: 8px; padding: 3px 4px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--text); }
 .subnav .inner { align-items: center; }
 .subnav .lang-switch { margin-left: auto; }
+
+/* ---------- AI生成の区分(ゾーニング) ---------- */
+.zone-badge { --zone: #2563eb; display: inline-block; font-size: 11.5px; font-weight: 700; line-height: 1.7; color: #fff; background: var(--zone); padding: 0 8px; border-radius: 10px; margin-right: 2px; vertical-align: middle; text-decoration: none; white-space: nowrap; }
+a.zone-badge:hover { text-decoration: none; opacity: .85; }
+.zone-note { --zone: #2563eb; border-left: 4px solid var(--zone); background: var(--bg-soft); padding: 8px 12px; margin: 14px 0; font-size: 13px; border-radius: 0 6px 6px 0; }
+.zone-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin: 10px 0 14px; }
+.zone-check { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+[hidden] { display: none !important; }
+.subnav .zone-badge { margin-right: 6px; }
+
+/* ---------- 投稿フォーム ---------- */
+.submit-form { margin-top: 12px; }
+.submit-form label { display: block; font-size: 13.5px; font-weight: 600; margin: 12px 0; }
+.submit-form label.radio { font-weight: 400; display: flex; gap: 8px; align-items: baseline; margin: 6px 0; }
+.submit-form input:not([type=checkbox]):not([type=radio]), .submit-form select, .submit-form textarea { display: block; width: 100%; box-sizing: border-box; font: inherit; font-size: 14px; font-weight: 400; margin-top: 4px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--text); }
+.submit-form textarea { line-height: 1.7; resize: vertical; }
+.submit-form fieldset { border: 1px solid var(--line); border-radius: 6px; margin: 12px 0; padding: 4px 12px 8px; }
+.submit-form legend { font-size: 13.5px; font-weight: 600; padding: 0 6px; }

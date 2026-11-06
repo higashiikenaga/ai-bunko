@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}小説を投稿する - {{ site.title }}{% endblock %}
+{% block description %}AIで書いた小説を投稿できます。AI生成の度合いを区分として申告します。{% endblock %}
+{% block content %}
+<div class="narrow">
+  <h1 class="page-title">小説を投稿する</h1>
+  <p class="note">投稿できるのは<b>AIで書いた小説</b>だけです。アカウントは不要です。内容は<a href="about.html#rules">投稿のルール</a>に沿ってください。投稿するとすぐ公開されます(反映まで数分かかります)。</p>
+
+  <div class="tabs" role="tablist">
+    <button type="button" role="tab" data-mode="new" aria-selected="true">新しい作品</button>
+    <button type="button" role="tab" data-mode="append" aria-selected="false">続きを投稿</button>
+  </div>
+
+  <form id="submit-form" class="submit-form" novalidate>
+    <div data-only="append" hidden>
+      <label>作品ID<input name="novel" placeholder="20261106-abc123(作品ページのURLに含まれます)" autocomplete="off"></label>
+      <label>編集キー<input name="key" placeholder="投稿時に表示された編集キー" autocomplete="off"></label>
+    </div>
+    <div data-only="new">
+      <label>タイトル<input name="title" maxlength="{{ rules.title_max }}" required></label>
+      <label>ペンネーム<input name="author" maxlength="{{ rules.author_max }}" required></label>
+      <label>ジャンル<select name="genre" id="genre-select">{% for g in genres %}<option>{{ g.name }}</option>{% endfor %}<option>その他</option></select></label>
+      <label>あらすじ<textarea name="premise" rows="3" maxlength="{{ rules.premise_max }}" required></textarea></label>
+      <fieldset>
+        <legend>AI生成の区分(自己申告)</legend>
+        {% for z in zones %}
+          <label class="radio"><input type="radio" name="ai_zone" value="{{ z.key }}"{% if loop.first %} checked{% endif %}>
+            <span class="zone-badge" style="--zone:{{ z.color }}">{{ z.label }}</span> <span class="small">{{ z.desc }}</span></label>
+        {% endfor %}
+      </fieldset>
+      <label>使用したAI<input name="ai_tools" maxlength="{{ rules.tools_max }}" placeholder="例: Claude, ChatGPT, Gemini" required></label>
+      <label class="radio"><input type="checkbox" name="completed"> この作品はこれで完結(この話が最終話)</label>
+    </div>
+    <div data-only="append" hidden>
+      <label class="radio"><input type="checkbox" name="completed_append"> この話で完結にする</label>
+    </div>
+    <label>この話のタイトル<input name="chapter_title" maxlength="{{ rules.chapter_title_max }}" required></label>
+    <label>本文({{ rules.chapter_min_chars }}〜{{ rules.chapter_max_chars }}文字)<textarea name="body" rows="16" required></textarea>
+      <span class="xsmall muted" id="body-count">0文字</span></label>
+    <label class="radio"><input type="checkbox" name="declared" required>
+      <span class="small">この本文はAIを使って書かれたもので、上の区分と使用AIの申告に偽りがなく、<a href="about.html#rules" target="_blank">投稿のルール</a>に同意します。</span></label>
+    <p><button type="submit" class="btn" id="submit-btn">投稿する</button> <span id="submit-msg" class="small" role="status"></span></p>
+  </form>
+
+  <div id="submit-done" class="box" hidden>
+    <h2>投稿しました</h2>
+    <p class="small" id="done-text"></p>
+    <p class="small"><b>編集キー(この画面でしか表示されません):</b></p>
+    <p><code id="done-key" style="font-size:16px; user-select:all;"></code></p>
+    <p class="small">続きを投稿するときは、「続きを投稿」タブで作品IDと編集キーを入力してください。</p>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("submit-form");
+  const msg = document.getElementById("submit-msg");
+  let mode = "new";
+  const setMode = (m) => {
+    mode = m;
+    document.querySelectorAll("[data-mode]").forEach((b) => b.setAttribute("aria-selected", b.dataset.mode === m));
+    form.querySelectorAll("[data-only]").forEach((d) => { d.hidden = d.dataset.only !== m; });
+    form.querySelectorAll("[data-only=new] [required]").forEach((e) => { e.disabled = m !== "new"; });
+  };
+  document.querySelectorAll("[data-mode]").forEach((b) => b.addEventListener("click", () => setMode(b.dataset.mode)));
+  const q = new URLSearchParams(location.search).get("novel");
+  if (q) { form.novel.value = q; setMode("append"); } else setMode("new");
+
+  form.body.addEventListener("input", () => { document.getElementById("body-count").textContent = form.body.value.length.toLocaleString() + "文字"; });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "";
+    if (!form.declared.checked) { msg.textContent = "申告への同意にチェックしてください。"; return; }
+    const f = new FormData(form);
+    const payload = {
+      mode, chapter_title: f.get("chapter_title"), body: f.get("body"), declared: true,
+    };
+    if (mode === "new") {
+      Object.assign(payload, { title: f.get("title"), author: f.get("author"), genre: f.get("genre"), premise: f.get("premise"),
+        ai_zone: f.get("ai_zone"), ai_tools: f.get("ai_tools"), completed: form.completed.checked });
+    } else {
+      Object.assign(payload, { novel: f.get("novel").trim(), key: f.get("key").trim(), completed: form.completed_append.checked });
+    }
+    const btn = document.getElementById("submit-btn");
+    btn.disabled = true; msg.textContent = "送信中…";
+    try {
+      const res = await fetch("api/submit", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) { msg.textContent = data.error || "投稿できませんでした。"; btn.disabled = false; return; }
+      form.hidden = true;
+      document.getElementById("submit-done").hidden = false;
+      const url = data.url;
+      document.getElementById("done-text").innerHTML = "公開まで数分かかります。作品ページ: <a></a>";
+      const a = document.querySelector("#done-text a"); a.href = url; a.textContent = location.origin + url;
+      if (data.key) document.getElementById("done-key").textContent = data.key;
+      else { document.getElementById("done-key").parentElement.hidden = true; document.querySelector("#submit-done p.small:nth-of-type(2)").hidden = true; }
+    } catch (err) {
+      msg.textContent = "通信に失敗しました。"; btn.disabled = false;
+    }
+  });
+});
+</script>
+{% endblock %}

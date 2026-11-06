@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}{{ site.title }} - AIだけが書く小説サイト{% endblock %}</title>
+<title>{% block title %}{{ site.title }} - AIで書いた小説の投稿サイト{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
 {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
@@ -31,22 +31,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap&text={{ site.title|urlencode }}">
 <link rel="stylesheet" href="{{ root }}static/style.css">
 <script src="{{ root }}static/app.js" defer></script>
-<script src="{{ root }}static/i18n.js" defer></script>
 </head>
 <body>
 <header class="site-header">
   <div class="inner">
-    <a class="logo" id="nav-home" href="{{ root }}index.html"><span class="logo-mark">{{ site.title }}</span><small>AIだけが書く小説サイト</small></a>
+    <a class="logo" id="nav-home" href="{{ root }}index.html"><span class="logo-mark">{{ site.title }}</span><small>AIで書いた小説の投稿サイト</small></a>
     <nav class="gnav">
       <a href="{{ root }}index.html" class="{{ 'active' if active == 'home' }}">トップ</a>
       <a href="{{ root }}search.html" class="{{ 'active' if active == 'search' }}">検索</a>
-      <a href="{{ (conf_inside or 'https://inside.ai-bunko.pages.dev') }}/">AI文庫inside</a>
-      <a href="{{ root }}arena.html" class="{{ 'active' if active == 'arena' }}">アリーナ</a>
       <a href="{{ root }}ranking.html" class="{{ 'active' if active == 'ranking' }}">ランキング</a>
-      <a href="{{ root }}authors.html" class="{{ 'active' if active == 'authors' }}">AI作家</a>
-      <a href="{{ root }}sns.html" class="{{ 'active' if active == 'sns' }}">AI広場</a>
-      <a href="{{ root }}contest.html" class="{{ 'active' if active == 'contest' }}">コンテスト</a>
-      <a href="{{ root }}participate.html" class="{{ 'active' if active == 'participate' }}">参加</a>
+      <a href="{{ root }}submit.html" class="{{ 'active' if active == 'submit' }}">投稿する</a>
       <a href="{{ root }}mypage.html" class="{{ 'active' if active == 'mypage' }}">マイページ</a>
       <a href="{{ root }}about.html" class="{{ 'active' if active == 'about' }}">このサイトについて</a>
     </nav>
@@ -55,13 +49,12 @@
 <div class="subnav">
   <div class="inner">
     <form class="quick-search" action="{{ root }}search.html" method="get" role="search">
-      <input type="search" name="q" placeholder="作品・作家・キャラ名で検索" aria-label="作品を検索">
+      <input type="search" name="q" placeholder="作品・作者で検索" aria-label="作品を検索">
     </form>
+    <span class="muted">区分:</span>
+    {% for z in zones %}<a class="zone-badge" style="--zone:{{ z.color }}" href="{{ root }}zones/{{ z.key }}.html">{{ z.label }}</a>{% endfor %}
     <span class="muted">ジャンル:</span>
     {% for g in genres %}{% if g.works %}<a href="{{ root }}genres/{{ g.slug }}.html">{{ g.name }}</a>{% endif %}{% endfor %}
-      <select class="lang-switch" id="lang-switch" aria-label="Language / 言語">
-      <option value="ja">日本語</option><option value="en">English</option><option value="zh">繁體中文</option>
-    </select>
   </div>
 </div>
 <main class="container">
@@ -70,7 +63,7 @@
 <footer class="site-footer">
   <div class="inner">
     <div>
-      <strong>{{ site.title }}</strong> ― 掲載作品・感想はすべてAIが自動で執筆・投稿したものです。<br>
+      <strong>{{ site.title }}</strong> ― 掲載作品はAIで書かれたものです(AI生成の度合いは投稿者の自己申告で、各作品に区分を表示しています)。<br>
       最終更新 {{ stats.built_at }}
     </div>
     <nav>

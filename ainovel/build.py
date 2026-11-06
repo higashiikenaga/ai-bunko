@@ -7,25 +7,15 @@ from __future__ import annotations
 import json
 import os
 import shutil
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone, timedelta
 from xml.sax.saxutils import escape
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from ainovel.novel import Novel, all_novels
-from ainovel.ogp import OGP_DIR
-from ainovel.paths import OUT_DIR, SITE_SRC, load_config
-from ainovel.review import AXES, load_reviews
-from ainovel.scheduler import JST
-from ainovel.mood import LABEL as MOOD_LABEL, all_moods
-from ainovel.contest import FAME_DAYS, PRIZES, awards as contest_awards, entries as contest_entries, load as load_contests
-from ainovel.digest import load_editions
-from ainovel.views import counts as browse_views
-from ainovel.trends import load as load_trends
-from ainovel.odai import load_used
-from ainovel.predict import scoreboard
-from ainovel.highlights import collect as collect_highlights
-from ainovel.sns import KIND_LABEL, ROLE_LABEL, load_followers, is_flaming, load_posts, thread_heat
+from ainovel.paths import OUT_DIR, ROOT, SITE_SRC, load_config
+
+JST = timezone(timedelta(hours=9))
 
 
 def _parse(iso: str) -> datetime | None:
@@ -45,65 +35,24 @@ def _fmt_datetime(iso: str) -> str:
     return d.strftime("%Y-%m-%d %H:%M") if d else ""
 
 
-def _bayes(total: float, count: int, mean: float, prior: int = 3) -> float:
-    """件数の少ない作品が上に来すぎないよう、全体平均に寄せた平均。"""
-    return (prior * mean + total) / (prior + count)
-
-
-def _novel_view(n: Novel, now: datetime, rom_views: list[str] | None = None) -> dict:
+def _novel_view(n: Novel, zones: dict[str, dict]) -> dict:
+    m = n.meta
     chapters = n.chapters
-    reviews = sorted(load_reviews(n), key=lambda r: r["created_at"], reverse=True)
-    today = now.strftime("%Y-%m-%d")
-    week_start = (now - timedelta(days=6)).strftime("%Y-%m-%d")
-    # 評価AIのレビューと、ROM専AIがAI広場で口コミした回数 = AIによる閲覧
-    review_days = [_fmt_date(r["created_at"]) for r in reviews] + (rom_views or [])
-    axes = {}
-    for key in AXES:
-        vals = [r["scores"][key] for r in reviews if key in (r.get("scores") or {})]
-        axes[key] = {"sum": sum(vals), "count": len(vals)}
+    zone = zones.get(m.get("ai_zone"))
     return {
         "id": n.id,
-        "title": n.meta["title"],
-        "genre": n.meta.get("genre", ""),
-        "status": n.meta.get("status"),
-        "premise": n.world.get("premise", ""),
-        "tone": n.world.get("tone", ""),
-        "target": n.meta.get("target_chapters"),
+        "title": m["title"],
+        "genre": m.get("genre", ""),
+        "status": m.get("status", "ongoing"),
+        "premise": m.get("premise", ""),
         "chapters": chapters,
         "total_chars": sum(c.get("word_count", 0) for c in chapters),
-        "created": _fmt_date(n.meta.get("created_at")),
-        "updated": _fmt_datetime(n.meta.get("updated_at")),
-        "updated_iso": n.meta.get("updated_at", ""),
-        "models": n.meta.get("models", []),
-        "author": n.meta.get("author") or "名もなきAI",
-        "characters": n.characters,
-        "reviews": reviews,
-        "ai_sum": sum(r["score"] for r in reviews),
-        "ai_count": len(reviews),
-        "ai_avg": round(sum(r["score"] for r in reviews) / len(reviews), 1) if reviews else None,
-        "ai_axes": axes,
-        # 評価AIのレビュー・ROM専AIの口コミ・AIたちの閲覧(views.py)の合計
-        "ai_views": {
-            "day": sum(1 for d in review_days if d == today) + browse_views(n.id)["day"],
-            "week": sum(1 for d in review_days if d >= week_start) + browse_views(n.id)["week"],
-            "total": len(review_days) + browse_views(n.id)["total"],
-        },
-        "has_ogp": (OGP_DIR / f"{n.id}.png").exists(),
-        "extended": n.meta.get("extended"),
-        "cut_short": n.meta.get("cut_short"),
-        "special": n.meta.get("special"),
-        "prediction": n.meta.get("prediction"),
-        "prediction_results": n.meta.get("prediction_results") or [],
-        "odai": n.meta.get("odai"),
-        "inspired_by": n.meta.get("inspired_by") or [],
-        "cover": n.meta.get("cover"),
-        "sequel_of": n.meta.get("sequel_of"),
-        "sequel_id": n.meta.get("sequel_id"),
-        "sequel_requested": n.meta.get("sequel_requested"),
-        "audio": n.meta.get("audio") or {},
-        "i18n": {k: v for k, v in (n.meta.get("i18n") or {}).items() if k != "key"},
-        "illustrations": n.meta.get("illustrations") or {},
-        "challenge": n.meta.get("challenge"),
+        "created": _fmt_date(m.get("created_at")),
+        "updated": _fmt_datetime(m.get("updated_at")),
+        "updated_iso": m.get("updated_at", ""),
+        "author": m.get("author") or "名無しさん",
+        "ai_tools": m.get("ai_tools", ""),
+        "zone": zone,
     }
 
 
@@ -113,6 +62,7 @@ def build() -> None:
     # SITE_URL(Cloudflareの環境変数)> config の url > CF_PAGES_URL(デプロイごとのURL)の順
     site["url"] = (os.environ.get("SITE_URL") or site.get("url") or os.environ.get("CF_PAGES_URL") or "").rstrip("/")
     now = datetime.now(JST)
+    zones = {z["key"]: z for z in cfg["zones"]}
 
     env = Environment(loader=FileSystemLoader(SITE_SRC / "templates"), autoescape=select_autoescape())
     env.filters["date"] = _fmt_date
@@ -123,43 +73,22 @@ def build() -> None:
         shutil.rmtree(OUT_DIR)
     (OUT_DIR / "novels").mkdir(parents=True)
     shutil.copytree(SITE_SRC / "static", OUT_DIR / "static")
-    audio_dir = SITE_SRC.parent / "content" / "audio"
-    if audio_dir.exists():
-        shutil.copytree(audio_dir, OUT_DIR / "audio")  # 聞く小説
-    images_dir = SITE_SRC.parent / "content" / "images"
-    if images_dir.exists():
-        shutil.copytree(images_dir, OUT_DIR / "images")  # 表紙・挿絵
-    if OGP_DIR.exists():
-        shutil.copytree(OGP_DIR, OUT_DIR / "ogp", ignore=shutil.ignore_patterns("*.json"))
+    ogp_dir = ROOT / "content" / "ogp"
+    if ogp_dir.exists():
+        shutil.copytree(ogp_dir, OUT_DIR / "ogp")
 
-    posts = load_posts()
-    rom_views: dict[str, list[str]] = {}
-    for p in posts:
-        if p["role"] == "rom" and p.get("novel"):
-            rom_views.setdefault(p["novel"], []).append(_fmt_date(p["created_at"]))
-    novels = [_novel_view(n, now, rom_views.get(n.id)) for n in all_novels() if n.chapters and n.meta.get("status") != "abandoned"]
+    # 運営が status を hidden にした作品や、まだ1話もない作品は出さない
+    novels = [_novel_view(n, zones) for n in all_novels() if n.chapters and n.meta.get("status") != "hidden"]
     novels.sort(key=lambda v: v["updated_iso"], reverse=True)
-    # 特別企画のシリーズ(第1部・第2部…)をつなぐ
-    series: dict[str, list] = {}
-    for v in novels:
-        if v["special"]:
-            series.setdefault(v["special"]["id"], []).append(v)
-    for parts in series.values():
-        parts.sort(key=lambda v: v["special"]["part"])
-        for v in parts:
-            v["series"] = parts
-    specials = [parts for parts in series.values()]
     ongoing = [v for v in novels if v["status"] == "ongoing"]
     completed = [v for v in novels if v["status"] == "completed"]
 
-    # 新着更新(全作品の章を新しい順に)
     updates = sorted(
         ({"novel": v, "chapter": c, "number": i + 1} for v in novels for i, c in enumerate(v["chapters"])),
         key=lambda u: u["chapter"].get("created_at", ""),
         reverse=True,
     )[:20]
 
-    # ジャンル(ページのファイル名は英数字にする)
     genres = []
     for i, g in enumerate(cfg["genres"], 1):
         genres.append({"name": g, "slug": f"genre-{i:02d}", "works": [v for v in novels if v["genre"] == g]})
@@ -167,117 +96,41 @@ def build() -> None:
     if other:
         genres.append({"name": "その他", "slug": "genre-other", "works": other})
 
-    # AI評価ランキング上位(サイドバー用。ランキングページは人間の評価と合わせてブラウザ側で並べ替える)
-    all_scores = [r["score"] for v in novels for r in v["reviews"]]
-    ai_mean = sum(all_scores) / len(all_scores) if all_scores else 3.0
-    ai_top = sorted(
-        (v for v in novels if v["ai_count"]),
-        key=lambda v: _bayes(v["ai_sum"], v["ai_count"], ai_mean),
-        reverse=True,
-    )[:5]
+    zone_list = [{**z, "works": [v for v in novels if v["zone"] and v["zone"]["key"] == z["key"]]} for z in cfg["zones"]]
 
     stats = {
         "novels": len(novels),
         "chapters": sum(len(v["chapters"]) for v in novels),
         "chars": sum(v["total_chars"] for v in novels),
-        "reviews": len(all_scores),
         "built_at": now.strftime("%Y-%m-%d %H:%M"),
     }
-    moods = all_moods(cfg.get("authors") or [])
-    author_awards = contest_awards()
-    authors = {a["name"]: {**a, "mood": MOOD_LABEL[moods[a["name"]]["level"]], "awards": author_awards.get(a["name"], [])}
-               for a in cfg.get("authors") or []}
 
     def render(template: str, out: str, root: str, **ctx) -> None:
-        # OGP用: Cloudflare Pagesは .html を省いたURLに転送するので、正規URLもそれに合わせる
+        # Cloudflare Pagesは .html を省いたURLに転送するので、正規URLもそれに合わせる
         path = "/" + out.removesuffix("index.html").removesuffix(".html")
         html = env.get_template(template).render(
-            site=site, root=root, stats=stats, page_path=path, conf_inside=(cfg.get("bench") or {}).get("url"), genres=genres, ai_top=ai_top, **{"active": "", **ctx}
+            site=site, root=root, stats=stats, page_path=path, genres=genres, zones=zone_list, **{"active": "", **ctx}
         )
         dest = OUT_DIR / out
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
 
-    # トップのスライド: 特別企画・AI評価上位・新作・最近の完結から最大6枚(表紙があれば背景に)
-    slides, seen_ids = [], set()
-
-    def add_slide(v, label):
-        if v and v["id"] not in seen_ids and len(slides) < 6:
-            seen_ids.add(v["id"])
-            slides.append({"v": v, "label": label})
-
-    for parts in specials:
-        add_slide(parts[-1], "✦ " + parts[-1]["special"]["label"])
-    for v in ai_top[:2]:
-        add_slide(v, "🏆 AI評価ランキング上位")
-    for v in [v for v in ongoing + completed if v.get("cover")][:2]:  # 表紙のある作品は見栄えがするので優先
-        add_slide(v, "🎨 表紙つき" if v not in completed else "📕 完結")
-    for v in sorted(novels, key=lambda v: v["created"], reverse=True)[:3]:
-        add_slide(v, "🆕 新作")
-    for v in completed[:2]:
-        add_slide(v, "📕 完結")
-    for v in ongoing:
-        add_slide(v, "連載中")
-    render("index.html", "index.html", "", active="home", slides=slides, ongoing=ongoing, completed=completed, updates=updates, specials=specials,
-           news=load_editions()[-1:], trend=(load_trends() or [None])[-1], hl_counts=collect_highlights(posts, cfg.get("authors") or [])["counts"])
-    render("ranking.html", "ranking.html", "", active="ranking", axes=AXES)
+    render("index.html", "index.html", "", active="home", ongoing=ongoing, completed=completed, updates=updates)
+    render("ranking.html", "ranking.html", "", active="ranking")
     render("mypage.html", "mypage.html", "", active="mypage")
     render("search.html", "search.html", "", active="search")
-    contests = load_contests()
-    open_c = contests[-1] if contests and contests[-1]["status"] == "open" else None
-    render("contest.html", "contest.html", "", active="contest", open=open_c, prizes=PRIZES, fame_days=FAME_DAYS,
-           standings=contest_entries(open_c)[:5] if open_c else [], past=[c for c in contests if c["status"] == "closed"][::-1])
-    # 参加コーナー(展開予想・お題箱)
-    open_preds = [v for v in novels if v["prediction"] and v["status"] == "ongoing"]
-    open_preds.sort(key=lambda v: v["prediction"]["created_at"], reverse=True)
-    results = sorted(({**r, "novel": v} for v in novels for r in v["prediction_results"]),
-                     key=lambda r: r["judged_at"], reverse=True)
-    render("participate.html", "participate.html", "", active="participate", open_preds=open_preds,
-           results=results[:20], score=scoreboard(results), odai_used=load_used()[::-1][:30])
-    render("about.html", "about.html", "", active="about", authors=authors, readers=cfg.get("readers") or [], roms=cfg.get("rom_readers") or [], conf=cfg,
-           influencers=[{**i, "followers": f} for i, f in zip(cfg.get("influencers") or [], load_followers(cfg).values())],
-           built_at=datetime.now(JST).strftime("%Y-%m-%d %H:%M"), built_iso=datetime.now(JST).isoformat(timespec="seconds"))
-    # AI広場: 親投稿を新しい順に、返信は古い順にぶら下げる
-    children: dict[str, list] = {}
-    for p in posts:
-        if p.get("root"):
-            children.setdefault(p["root"], []).append(p)
-    def last_activity(t: dict) -> str:
-        items = [t["post"], *t["replies"]]
-        return max([p["created_at"] for p in items] + [r["at"] for p in items for r in p.get("reposts") or []])
-
-    threads = [
-        {"post": p, "replies": children.get(p["id"], []), "flame": is_flaming(posts, p["id"]), "heat": thread_heat(posts, p["id"])}
-        for p in posts if not p.get("root")
-    ]
-    for t in threads:
-        t["last"] = last_activity(t)
-    threads.sort(key=lambda t: t["last"], reverse=True)
-    day_ago = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat(timespec="seconds")
-    trending = sorted((t for t in threads if t["last"] >= day_ago and t["heat"] >= 3), key=lambda t: -t["heat"])[:5]
-    render("sns.html", "sns.html", "", active="sns", threads=threads[:150], trending=trending, roles=ROLE_LABEL, kinds=KIND_LABEL,
-           post_count=len(posts))
-    hl = collect_highlights(posts, cfg.get("authors") or [])
-    trend_history = load_trends()
-    latest_trend = trend_history[-1] if trend_history else None
-    trend_log = [t for t in trend_history if t["status"] != "none"][::-1][:8]
-    editions = load_editions()[::-1][:10]
-    render("highlights.html", "highlights.html", "", active="sns", h=hl, editions=editions, roles=ROLE_LABEL, kinds=KIND_LABEL,
-           trend=latest_trend, trend_log=trend_log)
+    render("submit.html", "submit.html", "", active="submit", rules=cfg["submit"])
+    render("about.html", "about.html", "", active="about", rules=cfg["submit"])
     render("404.html", "404.html", "/")  # 404は任意の階層で表示されるのでルートからの絶対パス
     for g in genres:
         render("genre.html", f"genres/{g['slug']}.html", "../", genre=g)
-
-    by_author: dict[str, list] = {}
-    for v in novels:
-        by_author.setdefault(v["author"], []).append(v)
-    author_list = sorted(authors.values(), key=lambda a: (-len(by_author.get(a["name"], [])), a["name"]))
-    render("authors.html", "authors.html", "", active="authors", authors=author_list, works=by_author)
+    for z in zone_list:
+        render("zone.html", f"zones/{z['key']}.html", "../", zone=z)
 
     feed_items = []
     for v in novels:
         novel = Novel(v["id"])
-        render("novel.html", f"novels/{v['id']}/index.html", "../../", novel=v, author_info=authors.get(v["author"]))
+        render("novel.html", f"novels/{v['id']}/index.html", "../../", novel=v)
         indices = [c["index"] for c in v["chapters"]]
         for pos, ch in enumerate(v["chapters"]):
             render(
@@ -293,46 +146,26 @@ def build() -> None:
             )
             feed_items.append((ch.get("created_at", ""), v, ch, pos + 1))
 
-    # ブラウザ側(ランキング・マイページ)が使う作品データ。個人の情報は含まない
+    # ブラウザ側(ランキング・検索・マイページ)と投稿API(functions/api/submit.js)が使うデータ
     (OUT_DIR / "data").mkdir(exist_ok=True)
     index_json = [
         {
             "id": v["id"], "title": v["title"], "author": v["author"], "genre": v["genre"], "status": v["status"],
             "chapters": len(v["chapters"]), "chapter_indices": [c["index"] for c in v["chapters"]],
             "latest_title": v["chapters"][-1]["title"], "updated": v["updated"], "total_chars": v["total_chars"],
-            # 検索用
-            "premise": v["premise"], "updated_iso": v["updated_iso"], "target": v["target"],
-            "characters": [c.get("name", "") for c in v["characters"]],
-            "prediction": ({k: v["prediction"][k] for k in ("chapter", "question", "options", "ai_votes")}
-                           if v["prediction"] else None),
-            "audio": len(v["audio"]),
-            "flags": [t for t, on in (("聞く小説", v["audio"]),("新ジャンル挑戦作", v["challenge"]), ("早期完結", v["cut_short"]), ("人気につき延長", v["extended"])) if on],
-            "ai": {"sum": v["ai_sum"], "count": v["ai_count"], "axes": v["ai_axes"], "views": v["ai_views"]},
+            "premise": v["premise"], "updated_iso": v["updated_iso"],
+            "zone": v["zone"]["key"] if v["zone"] else "", "ai_tools": v["ai_tools"],
         }
         for v in novels
     ]
     (OUT_DIR / "data" / "novels.json").write_text(json.dumps(index_json, ensure_ascii=False), encoding="utf-8")
-    # 海外向け: 作品のタイトル・あらすじの翻訳(static/i18n.js が言語に応じて差し替える)
-    translations = {v["id"]: v["i18n"] for v in novels if v["i18n"]}
-    (OUT_DIR / "data" / "i18n.json").write_text(json.dumps(translations, ensure_ascii=False), encoding="utf-8")
-
-    # アリーナ: 対戦(モデル名は伏せる)と、投票後に明かすモデル名は別のファイルにする
-    from ainovel import arena
-
-    matches = arena.load()
-    (OUT_DIR / "data" / "arena.json").write_text(json.dumps(
-        [{"id": m["id"], "genre": m["genre"], "motif": m["motif"],
-          "a": {k: m["a"][k] for k in ("title", "text")}, "b": {k: m["b"][k] for k in ("title", "text")}} for m in matches],
-        ensure_ascii=False), encoding="utf-8")
-    (OUT_DIR / "data" / "arena_models.json").write_text(json.dumps(
-        {m["id"]: [m["a"]["model"], m["b"]["model"]] for m in matches}, ensure_ascii=False), encoding="utf-8")
-    arena_board = arena.leaderboard(arena.fetch_votes(site["url"]))
-    render("arena.html", "arena.html", "", active="arena", board=arena_board, match_count=len(matches),
-           inside_url=(cfg.get("bench") or {}).get("url", ""))
+    meta = {"genres": cfg["genres"], "zones": [{k: z[k] for k in ("key", "label", "short", "color")} for z in cfg["zones"]],
+            "rules": cfg["submit"]}
+    (OUT_DIR / "data" / "meta.json").write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
 
     if site["url"]:
         _write_feed(site, sorted(feed_items, key=lambda x: x[0], reverse=True)[:30])
-        _write_sitemap(site, novels, genres)
+        _write_sitemap(site, novels, genres, zone_list)
     robots = "User-agent: *\nAllow: /\nDisallow: /api/\n"
     if site["url"]:
         robots += f"Sitemap: {site['url']}/sitemap.xml\n"
@@ -340,16 +173,16 @@ def build() -> None:
     # ブラウザが自動で取りに来る /favicon.ico(中身はPNG。主要ブラウザはこれで表示できる)
     shutil.copy(SITE_SRC / "static" / "icon-32.png", OUT_DIR / "favicon.ico")
     (OUT_DIR / ".nojekyll").touch()
-    build_inside(env, site, cfg, arena_board)
     print(f"built {stats['novels']} novels / {stats['chapters']} chapters → {OUT_DIR}")
 
 
-def _write_sitemap(site: dict, novels: list, genres: list) -> None:
-    """検索エンジン向けのページ一覧(Search Consoleに登録する)。URLはCloudflare Pagesの正規形(.htmlなし)。"""
+def _write_sitemap(site: dict, novels: list, genres: list, zones: list) -> None:
+    """検索エンジン向けのページ一覧。URLはCloudflare Pagesの正規形(.htmlなし)。"""
     base = site["url"]
-    pages = ["ranking", "authors", "about", "search", "sns", "highlights", "contest", "participate"]
+    pages = ["ranking", "about", "search", "submit"]
     urls = [(f"{base}/", None)] + [(f"{base}/{p}", None) for p in pages]
     urls += [(f"{base}/genres/{g['slug']}", None) for g in genres if g["works"]]
+    urls += [(f"{base}/zones/{z['key']}", None) for z in zones]
     for v in novels:
         urls.append((f"{base}/novels/{v['id']}/", v["updated_iso"]))
         urls += [(f"{base}/novels/{v['id']}/{c['index']}", c.get("created_at")) for c in v["chapters"]]
@@ -362,9 +195,7 @@ def _write_sitemap(site: dict, novels: list, genres: list) -> None:
         f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{items}\n</urlset>\n',
         encoding="utf-8",
     )
-    # 予備: URLを1行ずつ並べたテキスト形式(Search Console はこちらも受け付ける)
     (OUT_DIR / "sitemap.txt").write_text("".join(f"{u}\n" for u, _ in urls), encoding="utf-8")
-    # Cloudflare Pages が確実に XML として配信し、古いものを長く保持しないように
     (OUT_DIR / "_headers").write_text(
         "/sitemap.xml\n  Content-Type: application/xml; charset=utf-8\n  Cache-Control: public, max-age=600\n"
         "/feed.xml\n  Content-Type: application/atom+xml; charset=utf-8\n"
@@ -378,11 +209,12 @@ def _write_feed(site: dict, items: list) -> None:
     entries = []
     for created, v, ch, number in items:
         url = f"{site['url']}/novels/{v['id']}/{ch['index']}"
+        zone = f"【{v['zone']['label']}】" if v["zone"] else ""
         entries.append(
-            f"<entry><title>{escape(v['title'])} 第{number}話 {escape(ch['title'])}</title>"
+            f"<entry><title>{zone}{escape(v['title'])} 第{number}話 {escape(ch['title'])}</title>"
             f'<link href="{url}"/><id>{url}</id><updated>{created}</updated>'
-            f"<author><name>{escape(v['author'])}(AI)</name></author>"
-            f"<summary>{escape(ch.get('summary', ''))}</summary></entry>"
+            f"<author><name>{escape(v['author'])}</name></author>"
+            f"<summary>{escape(v['premise'])}</summary></entry>"
         )
     updated = items[0][0] if items else datetime.now(timezone.utc).isoformat()
     feed = (
@@ -390,35 +222,9 @@ def _write_feed(site: dict, items: list) -> None:
         '<feed xmlns="http://www.w3.org/2005/Atom">'
         f"<title>{escape(site['title'])}</title><link href=\"{site['url']}/\"/>"
         f"<id>{site['url']}/</id><updated>{updated}</updated>"
-        f"<author><name>AI</name></author>{''.join(entries)}</feed>"
+        f"<author><name>{escape(site['title'])}</name></author>{''.join(entries)}</feed>"
     )
     (OUT_DIR / "feed.xml").write_text(feed, encoding="utf-8")
-
-
-def build_inside(env, site: dict, cfg: dict, arena_board: list | None = None) -> None:
-    """AI文庫inside(AIベンチマーク)を _inside/ に作る。inside サブドメインで公開する。"""
-    from ainovel import bench
-    from ainovel.paths import ROOT
-
-    out = OUT_DIR.parent / "_inside"
-    if out.exists():
-        shutil.rmtree(out)
-    shutil.copytree(SITE_SRC / "static", out / "static")
-    data = bench.summary()
-    skills = {name: (ROOT / "skills" / name / "SKILL.md").read_text(encoding="utf-8") for name in ("writer", "judge")}
-    skills["jev"] = bench.JEV_RULES.read_text(encoding="utf-8")
-    llm_conf = {"gemini": (cfg.get("gemini") or {}).get("models", []),
-                "fallbacks": [{"name": f.get("name"), "models": f.get("models", [])} for f in cfg.get("fallbacks") or []],
-                "routes": cfg.get("routes") or {}, "writing": cfg.get("writing") or {}, "bench": cfg.get("bench") or {}}
-    main_url = site["url"] or "https://ai-bunko.pages.dev"
-    for tpl, dest, active in (("inside/index.html", "index.html", "board"), ("inside/harness.html", "harness.html", "harness"),
-                              ("inside/works.html", "works.html", "works")):
-        html = env.get_template(tpl).render(site=site, main=main_url, b=data, arena=arena_board or [], skills=skills, llm=llm_conf,
-                                            active=active, github=(site.get("contact") or {}).get("github", ""))
-        (out / dest).write_text(html, encoding="utf-8")
-    if bench.BENCH_PATH.exists():
-        shutil.copy(bench.BENCH_PATH, out / "bench.jsonl")  # 生データ
-    shutil.copy(SITE_SRC / "static" / "icon-32.png", out / "favicon.ico")
 
 
 if __name__ == "__main__":

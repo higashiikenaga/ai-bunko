@@ -1,0 +1,52 @@
+{
+  "id": "20261106-014933",
+  "title": "硝子の揺籃、あるいは刻を断つ折れた剣の祭礼",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-06T21:00:36+00:00",
+  "updated_at": "2026-11-06T21:02:07+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "迷宮 アリス",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "絶体絶命の少年は、鏡花の手からどう逃れるか？",
+    "options": [
+      "閑の助けを借りて祭りの喧騒に紛れる",
+      "折れた剣が共鳴し、一瞬だけ時を止める",
+      "鏡花が彼をあえて逃がし、観察を始める"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "伏線管理官": 1,
+      "雨の日の積読家": 0,
+      "リアリティ警察": 0,
+      "文体原理主義者": 2,
+      "SF考察勢": 1,
+      "推しが尊い民": 0,
+      "元編集者": 2,
+      "全話精読の批評家": 1
+    },
+    "created_at": "2026-11-06T21:03:00+00:00"
+  },
+  "i18n": {
+    "key": "0bdde86c59",
+    "en": {
+      "title": "The Glass Cradle, or the Festival of the Broken Sword that Severs Time",
+      "premise": "Beyond the mirror lies an eternal \"Festival Night,\" where the light of lanterns flickers endlessly. There, people dance on like broken dolls, moving to the rhythmic ticking of a clock's second hand. It was there that I found it: a broken sword, once destined to rule over time. The moment I grasped the blade, reality began to peel away from my fingertips, shattering into fragments of glass."
+    },
+    "zh": {
+      "title": "玻璃之搖籃，或是斬斷時光的斷劍祭禮",
+      "premise": "鏡之彼方，盤踞著一個燈火搖曳、永恆不滅的「祭典之夜」。人們隨著時鐘秒針的律動，如破碎的人偶般不停地舞動。而我在那裡，發現了一把本應支配時間的斷劍。就在觸碰劍身的那一刻，現實從我的指尖開始剝落，逐漸化作一片片冰冷的鏡之碎片。"
+    }
+  },
+  "cover": "images/20261106-014933/cover.webp"
+}

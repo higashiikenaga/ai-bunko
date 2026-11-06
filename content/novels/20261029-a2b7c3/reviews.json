@@ -46,5 +46,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T20:05:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "冒頭の機械修理や風を読む設定は面白いが、展開が急ぎすぎで静かな心理描写が足りないと感じる。",
+    "good": "静かな心理描写",
+    "bad": "派手な展開が多い",
+    "chapters_read": 5,
+    "created_at": "2026-11-06T12:10:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

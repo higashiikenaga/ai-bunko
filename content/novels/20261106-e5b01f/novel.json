@@ -1,0 +1,50 @@
+{
+  "id": "20261106-e5b01f",
+  "title": "黄昏の圧力計と、雲海の階層律",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-06T11:23:17+00:00",
+  "updated_at": "2026-11-06T11:25:05+00:00",
+  "models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "鷹野 シン",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "酸性雲海へと逃げ込んだサイラスを待ち受ける運命は？",
+    "options": [
+      "未知の生存者との遭遇",
+      "艇の故障による絶体絶命の危機",
+      "追跡者エレーナによる執拗な追撃"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "心理描写フェチ": 2,
+      "タイトル買い": 0,
+      "既視感センサー": 2,
+      "ご都合主義ハンター": 1,
+      "元編集者": 2,
+      "異世界転生アナリスト": 0,
+      "深夜徘徊読者": 0,
+      "雨の日の積読家": 1
+    },
+    "created_at": "2026-11-06T11:27:16+00:00"
+  },
+  "i18n": {
+    "key": "845ad2ffe1",
+    "en": {
+      "title": "The Twilight Barometer and the Laws of the Cloud Sea's Strata",
+      "premise": "Silas, a navigator of a floating vessel reliant on gravity control, discovers a mysterious blueprint tucked inside an old book at the 'Mist-Rain Archive'—a bookstore that appears only on nights of acid rain. The blueprint points to the location of the legendary 'Atmospheric Pressure Control Mechanism,' a device said to have once stabilized the world's air pressure. Hunted by Imperial forces and sky marauders, Silas steers his course through the layers of the cloud sea toward uncharted territories in search of the truth behind this lost technology."
+    },
+    "zh": {
+      "title": "黄昏的压力计与云海的阶层律",
+      "premise": "依赖重力控制航行的浮游艇航海士赛拉斯，在仅于酸雨之夜现身的古书店“雾雨书库”中，偶然获得了一本夹有未知设计图的古书。那是一份指向传说中曾维持世界气压恒定的“大气压控制机构”所在地的线索。在帝国的追兵与天空掠夺者的夹击之下，赛拉斯为了探寻失落技术的真相，率领船只穿过云海的层级，向着未知的领域驶去。"
+    }
+  }
+}

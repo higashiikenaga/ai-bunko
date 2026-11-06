@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-06T14:51:18+00:00"
   },
-  "cover": "images/20261106-78dc28/cover.webp"
+  "cover": "images/20261106-78dc28/cover.webp",
+  "i18n": {
+    "key": "8bd28a635f",
+    "en": {
+      "title": "Midnight Desert Sweet Palette",
+      "premise": "In the sleepless city's endless desert, a miraculous oasis appears—a café called \"Dessert Dream\" that offers sweet magic to soothe weary stomachs. I work there, a pastry‑perfectionist who’s a little clumsy. Travelers returning from work and the city’s insomniac residents bring their troubles, but a single bite of cake always sets things right. Eating, laughing, and a dash of sugar make tomorrow feel doable—this is a daily chronicle of those heart‑warming moments."
+    },
+    "zh": {
+      "title": "午夜沙漠甜点调色盘",
+      "premise": "在这座不眠之城的沙漠里，奇迹般地矗立着一片绿洲——甜点咖啡厅「Dessert Dream」，用甜蜜的魔法拯救疲惫的胃。我是这里的店员，虽然对甜点要求苛刻，却有点笨拙。下班归来的旅人和失眠的城中人带来的烦恼，总能在一口蛋糕中得到解决！只要吃下去、笑出来，明天就能继续加油，这就是记录这份温暖日常的故事。"
+    }
+  }
 }

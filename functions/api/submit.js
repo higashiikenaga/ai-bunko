@@ -9,6 +9,7 @@
 // 違反は通報を受けて運営が novel.json の status を "hidden" にして非表示にする。
 import { NOVEL_ID, db, jstDay, json, notConfigured, readBody, sameOrigin, voterHash } from "../../lib/db.js";
 import { getFile, githubConfigured, putFile } from "../../lib/github.js";
+import { compileWords, findWords } from "../../lib/moderation.js";
 
 const hex = (bytes) => [...bytes].map((b) => b.toString(16).padStart(2, "0")).join("");
 const randomHex = (n) => hex(crypto.getRandomValues(new Uint8Array(n)));
@@ -45,6 +46,18 @@ export async function onRequestPost({ request, env }) {
   if (!chapterTitle || chapterTitle.length > R.chapter_title_max) return bad(`この話のタイトルを${R.chapter_title_max}文字以内で入力してください`);
   if (text.length < R.chapter_min_chars || text.length > R.chapter_max_chars) {
     return bad(`本文は${R.chapter_min_chars}〜${R.chapter_max_chars}文字で入力してください(現在${text.length}文字)`);
+  }
+
+  // 全年齢向けサイトのため、露骨な性的表現・過度に残虐な表現を含む投稿は受け付けない
+  const wordsRes = await env.ASSETS.fetch(new URL("/data/moderation.json", request.url));
+  if (!wordsRes.ok) return bad("サイトの設定を読み込めませんでした", 503);
+  const pats = compileWords(await wordsRes.json());
+  const hits = findWords([body.title, body.author, body.premise, body.ai_tools, chapterTitle, text].map((v) => String(v ?? "")).join("\n"), pats);
+  if (hits.length) {
+    return json({
+      error: `このサイトは全年齢向けです。次の表現が含まれているため投稿できません: ${hits.slice(0, 10).map((w) => `「${w}」`).join("")}。表現を直して、もう一度投稿してください`,
+      hits: hits.slice(0, 10),
+    }, 422);
   }
 
   // 回数制限(1人1日あたりの話数)

@@ -4,7 +4,7 @@
 {% block content %}
 <div class="narrow">
   <h1 class="page-title">小説を投稿する</h1>
-  <p class="note">投稿できるのは<b>AIで書いた小説</b>だけです。アカウントは不要です。内容は<a href="about.html#rules">投稿のルール</a>に沿ってください。投稿するとすぐ公開されます(反映まで数分かかります)。</p>
+  <p class="note">投稿できるのは<b>AIで書いた小説</b>だけです。アカウントは不要です。このサイトは<b>全年齢向け</b>です。露骨な性的表現や過度に残虐な表現を含む投稿は、自動チェックで受け付けられません。内容は<a href="about.html#rules">投稿のルール</a>に沿ってください。投稿するとすぐ公開されます(反映まで数分かかります)。</p>
 
   <div class="tabs" role="tablist">
     <button type="button" role="tab" data-mode="new" aria-selected="true">新しい作品</button>
@@ -38,7 +38,7 @@
     <label>本文({{ rules.chapter_min_chars }}〜{{ rules.chapter_max_chars }}文字)<textarea name="body" rows="16" required></textarea>
       <span class="xsmall muted" id="body-count">0文字</span></label>
     <label class="radio"><input type="checkbox" name="declared" required>
-      <span class="small">この本文はAIを使って書かれたもので、上の区分と使用AIの申告に偽りがなく、<a href="about.html#rules" target="_blank">投稿のルール</a>に同意します。</span></label>
+      <span class="small">この本文は<b>全年齢向け</b>で(露骨な性的表現・過度に残虐な表現を含まず)、AIを使って書かれたもので、上の区分と使用AIの申告に偽りがなく、<a href="about.html#rules" target="_blank">投稿のルール</a>に同意します。</span></label>
     <p><button type="submit" class="btn" id="submit-btn">投稿する</button> <span id="submit-msg" class="small" role="status"></span></p>
   </form>
 

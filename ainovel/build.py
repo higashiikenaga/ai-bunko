@@ -12,6 +12,7 @@ from xml.sax.saxutils import escape
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from ainovel import moderation
 from ainovel.novel import Novel, all_novels
 from ainovel.paths import OUT_DIR, ROOT, SITE_SRC, load_config
 
@@ -35,23 +36,24 @@ def _fmt_datetime(iso: str) -> str:
     return d.strftime("%Y-%m-%d %H:%M") if d else ""
 
 
-def _novel_view(n: Novel, zones: dict[str, dict]) -> dict:
+def _novel_view(n: Novel, zones: dict[str, dict], pats: list) -> dict:
     m = n.meta
-    chapters = n.chapters
+    mk = lambda t: moderation.mask(t or "", pats)[0]  # noqa: E731  全年齢向けのため、表現チェックに該当する語は伏字にする
+    chapters = [{**c, "title": mk(c.get("title", ""))} for c in n.chapters]
     zone = zones.get(m.get("ai_zone"))
     return {
         "id": n.id,
-        "title": m["title"],
+        "title": mk(m["title"]),
         "genre": m.get("genre", ""),
         "status": m.get("status", "ongoing"),
-        "premise": m.get("premise", ""),
+        "premise": mk(m.get("premise", "")),
         "chapters": chapters,
         "total_chars": sum(c.get("word_count", 0) for c in chapters),
         "created": _fmt_date(m.get("created_at")),
         "updated": _fmt_datetime(m.get("updated_at")),
         "updated_iso": m.get("updated_at", ""),
-        "author": m.get("author") or "名無しさん",
-        "ai_tools": m.get("ai_tools", ""),
+        "author": mk(m.get("author") or "名無しさん"),
+        "ai_tools": mk(m.get("ai_tools", "")),
         "zone": zone,
     }
 
@@ -63,6 +65,7 @@ def build() -> None:
     site["url"] = (os.environ.get("SITE_URL") or site.get("url") or os.environ.get("CF_PAGES_URL") or "").rstrip("/")
     now = datetime.now(JST)
     zones = {z["key"]: z for z in cfg["zones"]}
+    pats = moderation.compile_words(moderation.all_words(cfg))
 
     env = Environment(loader=FileSystemLoader(SITE_SRC / "templates"), autoescape=select_autoescape())
     env.filters["date"] = _fmt_date
@@ -78,7 +81,7 @@ def build() -> None:
         shutil.copytree(ogp_dir, OUT_DIR / "ogp")
 
     # 運営が status を hidden にした作品や、まだ1話もない作品は出さない
-    novels = [_novel_view(n, zones) for n in all_novels() if n.chapters and n.meta.get("status") != "hidden"]
+    novels = [_novel_view(n, zones, pats) for n in all_novels() if n.chapters and n.meta.get("status") != "hidden"]
     novels.sort(key=lambda v: v["updated_iso"], reverse=True)
     ongoing = [v for v in novels if v["status"] == "ongoing"]
     completed = [v for v in novels if v["status"] == "completed"]
@@ -133,6 +136,7 @@ def build() -> None:
         render("novel.html", f"novels/{v['id']}/index.html", "../../", novel=v)
         indices = [c["index"] for c in v["chapters"]]
         for pos, ch in enumerate(v["chapters"]):
+            text, masked = moderation.mask(novel.chapter_text(ch["index"]), pats)
             render(
                 "chapter.html",
                 f"novels/{v['id']}/{ch['index']}.html",
@@ -140,7 +144,8 @@ def build() -> None:
                 novel=v,
                 chapter=ch,
                 number=pos + 1,
-                text=novel.chapter_text(ch["index"]),
+                text=text,
+                masked=masked,
                 prev_index=indices[pos - 1] if pos > 0 else None,
                 next_index=indices[pos + 1] if pos + 1 < len(indices) else None,
             )
@@ -163,6 +168,11 @@ def build() -> None:
             "rules": cfg["submit"]}
     (OUT_DIR / "data" / "meta.json").write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
 
+    # 投稿API(functions/api/submit.js)が使う、全年齢向けの表現チェックの語リスト
+    (OUT_DIR / "data" / "moderation.json").write_text(
+        json.dumps(moderation.all_words(cfg), ensure_ascii=False), encoding="utf-8")
+
+    _write_headers(site)
     if site["url"]:
         _write_feed(site, sorted(feed_items, key=lambda x: x[0], reverse=True)[:30])
         _write_sitemap(site, novels, genres, zone_list)
@@ -196,13 +206,44 @@ def _write_sitemap(site: dict, novels: list, genres: list, zones: list) -> None:
         encoding="utf-8",
     )
     (OUT_DIR / "sitemap.txt").write_text("".join(f"{u}\n" for u, _ in urls), encoding="utf-8")
-    (OUT_DIR / "_headers").write_text(
-        "/sitemap.xml\n  Content-Type: application/xml; charset=utf-8\n  Cache-Control: public, max-age=600\n"
-        "/feed.xml\n  Content-Type: application/atom+xml; charset=utf-8\n"
-        "/robots.txt\n  Content-Type: text/plain; charset=utf-8\n"
-        "/sitemap.txt\n  Content-Type: text/plain; charset=utf-8\n",
-        encoding="utf-8",
-    )
+
+
+# セキュリティヘッダ(Cloudflare Pages の _headers)。
+# インラインの <script>/<style> を使っているので script-src/style-src に 'unsafe-inline' を許している。
+# 投稿された文章はすべてエスケープして出力しているため、CSPは多重防御の位置づけ
+_CSP = "; ".join([
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline'",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "font-src https://fonts.gstatic.com",
+    "img-src 'self' data:",
+    "connect-src 'self'",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'none'",
+])
+
+
+def _write_headers(site: dict) -> None:
+    lines = [
+        "/*",
+        f"  Content-Security-Policy: {_CSP}",
+        "  X-Content-Type-Options: nosniff",
+        "  Referrer-Policy: strict-origin-when-cross-origin",
+        "  X-Frame-Options: DENY",
+        "  Permissions-Policy: camera=(), microphone=(), geolocation=()",
+        "/sitemap.xml",
+        "  Content-Type: application/xml; charset=utf-8",
+        "  Cache-Control: public, max-age=600",
+        "/feed.xml",
+        "  Content-Type: application/atom+xml; charset=utf-8",
+        "/robots.txt",
+        "  Content-Type: text/plain; charset=utf-8",
+        "/sitemap.txt",
+        "  Content-Type: text/plain; charset=utf-8",
+    ]
+    (OUT_DIR / "_headers").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _write_feed(site: dict, items: list) -> None:

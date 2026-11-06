@@ -11,7 +11,6 @@
   ],
   "author": "春宮こより",
   "sequel_of": "20261101-4d7505",
-  "announce": "sequel",
   "prediction": {
     "chapter": 2,
     "question": "灯台の共鳴が強まる中、政府の探査機が迫る！どうなる？",
@@ -36,5 +35,17 @@
       "台本読みの声優": 2
     },
     "created_at": "2026-11-06T19:29:09+00:00"
+  },
+  "cover": "images/20261106-0265ab/cover.webp",
+  "i18n": {
+    "key": "eb2b35872b",
+    "en": {
+      "title": "Flying Gears and the Sakura Lighthouse of the Old World",
+      "premise": "Pico, Jax, and I boarded the legendary 'Final Train' and set off for the unknown skies! But the new world is far noisier than I imagined—and our stomachs are growling! One day, the train stops at a mysterious island featuring an ancient lighthouse and beautiful cherry blossoms fluttering through the air. However, the shadows of the World Government lurk there, along with omens of a 'Sky Storm' drawn by Pico's power... With delicious pies in hand, our grand new adventure begins!"
+    },
+    "zh": {
+      "title": "空飞的齿轮与樱舞旧世界的灯塔",
+      "premise": "我和皮可，还有杰克斯，搭乘着传说中的『最终列车』，向着未知的天空出发了！不过，新世界比想象中要嘈杂得多，而且我们现在肚子饿扁了！就在这时，列车停靠在了一座拥有古老灯塔的岛屿上，那里飘舞着美丽的『樱花』。然而，这里似乎潜伏着世界政府的阴影，以及因皮可的力量而招致的『天空之岚』的预兆……一边品尝着美味的派，我们的全新大冒险再次开启啦！"
+    }
   }
 }

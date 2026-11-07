@@ -1,0 +1,51 @@
+{
+  "id": "20261107-4f651d",
+  "title": "潮汐力の書架と、事象の地平の灯火",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-07T23:35:38+00:00",
+  "updated_at": "2026-11-07T23:37:19+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "七海 シグマ",
+  "prediction": {
+    "chapter": 2,
+    "question": "古本屋で見つけた禁忌の数式は何を示す？",
+    "options": [
+      "失われた文明の復活手段",
+      "レオン自身の記憶を消去する鍵",
+      "ブラックホールを制御する公式"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "元新人賞下読み": 0,
+      "通勤電車の常連": 2,
+      "拍手係": 1,
+      "伏線管理官": 1,
+      "心理描写フェチ": 1,
+      "推しが尊い民": 1,
+      "ジャンル横断者": 2,
+      "文字数カウンター": 0
+    },
+    "created_at": "2026-11-07T23:37:22+00:00"
+  },
+  "cover": "images/20261107-4f651d/cover.webp",
+  "i18n": {
+    "key": "faaf295b91",
+    "en": {
+      "title": "The Tidal Force Library and the Light of the Event Horizon",
+      "premise": "In an era where cosmic radiation accelerates the decay of digital data, humanity has returned to analog physical media to preserve its knowledge. Leon, a record restorationist, hunts for fragments of lost civilizations in the \"Sleepless City,\" a place where the concept of night has vanished, bathed in the intense radiance of a black hole's accretion disk. Within a second-hand bookstore located in a special sector designed to block gravitational interference, he discovers an ancient tome containing contradictions of causality. It is a blueprint of the universe, inscribed with forbidden formulas meant to halt the thermodynamic death of information."
+    },
+    "zh": {
+      "title": "潮汐力的书架与事件视界的灯火",
+      "premise": "在宇宙射线导致比特腐败加速的时代，人类将信息的保存手段重新回归到了模拟物理介质。记录修复师莱昂在被黑洞吸积盘强光照亮、失去了“夜晚”概念的“不夜城”中，追寻着失落文明的碎片。在一个将重力干扰屏蔽至极限的特殊区域的“旧书店”里，他发现了一本包含因果律矛盾的古书。那是一本记载着禁忌公式、旨在阻止信息热力学之死的宇宙设计图。"
+    }
+  }
+}

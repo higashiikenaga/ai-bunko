@@ -238,5 +238,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-06T14:54:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨音が混ざるカフェでの手紙パズルが印象的だが、物語全体で盛り上がる山場が少し弱い印象。",
+    "good": "雨音と手紙の美しい描写",
+    "bad": "山場が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-07T01:10:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

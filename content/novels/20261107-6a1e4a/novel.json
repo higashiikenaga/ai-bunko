@@ -1,0 +1,51 @@
+{
+  "id": "20261107-6a1e4a",
+  "title": "春風の砂塵と、長屋の小さな雫",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-07T21:19:59+00:00",
+  "updated_at": "2026-11-07T21:21:13+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "善兵衛の企みに対し、ザリフはどうなるか？",
+    "options": [
+      "権兵衛が正義感からザリフを救う",
+      "琥珀色の飴に隠された真価が明かされる",
+      "ザリフが夜のうちに忽然と姿を消す"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "タイトル買い": 1,
+      "歴史散歩の人": 0,
+      "ラブコメ中毒": 0,
+      "設定考証班": 1,
+      "純文学の亡霊": 2,
+      "ホラー玄人": 2,
+      "ホラー夜更かし勢": 1,
+      "流行ウォッチャー": 1
+    },
+    "created_at": "2026-11-07T21:22:32+00:00"
+  },
+  "cover": "images/20261107-6a1e4a/cover.webp",
+  "i18n": {
+    "key": "6459aa597b",
+    "en": {
+      "title": "Spring Dust and the Tiny Droplets of the Nagaya",
+      "premise": "In a beautiful spring where cherry blossoms dance, an unexpected drought strikes the tenement houses of Edo, leaving wells to run dry one by one. Amidst the desperation of the townspeople, a mysterious merchant from a desert land arrives, draped in exotic scents. Calling his small cart 'The Desert Oasis,' he shares wisdom on surviving with limited water and offers mysterious sweets that soothe parched souls. A story of bringing a rain of mercy—in the form of human kindness—to a withered town."
+    },
+    "zh": {
+      "title": "春风沙尘与长屋微滴",
+      "premise": "樱花漫舞的美丽之春，一场突如其来的旱灾袭击了江户的长屋，水井接连干涸。就在町人们陷入困境之时，一位据说来自沙漠之国的奇特商人，带着异域的香气悄然现身。他将自己的小货车称为“沙漠绿洲”，不仅传授在有限水源下生存的智慧，还带来了能滋润干涸心灵的神奇点心。这是一个在枯竭的小镇上，降下名为“人情”的恩惠之雨的故事。"
+    }
+  }
+}

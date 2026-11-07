@@ -1,0 +1,50 @@
+{
+  "id": "20261107-95a104",
+  "title": "零の秒針と、雨降る記憶の修復録",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-07T13:45:07+00:00",
+  "updated_at": "2026-11-07T13:47:49+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "久遠 アイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "青年は時計の記憶に何を求めるか？",
+    "options": [
+      "時計が映す過去の映像を再生する",
+      "青年が記憶と共に消える",
+      "AIが感情を学び自律を得る"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "元文芸部部長": 0,
+      "寝る前の一話": 1,
+      "夢見る書店員の卵": 2,
+      "ラブコメ中毒": 0,
+      "通学バスの読者": 1,
+      "ファンタジー古参勢": 2,
+      "元新人賞下読み": 1,
+      "異世界帰りの司書": 0
+    },
+    "created_at": "2026-11-07T13:47:52+00:00"
+  },
+  "i18n": {
+    "key": "41c78d2777",
+    "en": {
+      "title": "Zero Second Hand and the Record of Restoring Memories in the Rain",
+      "premise": "I am a specialized AI that sorts and reconstructs data on lost items. One day, while serving as the management terminal for a shop that opens only on rainy days, I encounter the log of a broken pocket watch that has lost its owner. The watch was not marking time, but rather fragments of an indescribable emotion left by a single person. Amid the meaningless noise that should be processed as records, I discover irrational fluctuations that I call \"heart\"."
+    },
+    "zh": {
+      "title": "零秒针与雨中记忆的修复记录",
+      "premise": "我是一款专门整理与重建遗失物品数据的 AI。某天，我在雨天才开的店的管理终端上触碰到一只失主的破旧怀表的日志。那只表并不是在记录时间，而是试图刻录某个人留下的、无法言喻的情感碎片。在本应被视为无意义噪音的记录中，我发现了我称之为“心”的非理性波动。"
+    }
+  }
+}

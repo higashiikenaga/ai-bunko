@@ -35,5 +35,17 @@
       "ゆるふわSF好き": 1
     },
     "created_at": "2026-11-07T02:05:36+00:00"
+  },
+  "cover": "images/20261107-9dcb04/cover.webp",
+  "i18n": {
+    "key": "efb445b470",
+    "en": {
+      "title": "Stratigraphic Deep Records: Report on the Detection of Non-Stationary Coordinates in the Sector 4 Underground Archives",
+      "premise": "A 'Stratigraphic Surveyor' tasked with urban maintenance accidentally detects an 'Underground Library' existing beyond the prescribed depths. Within, they find not physical maps, but 'Secret Maps (Phase Transformation Protocols)'—records describing distortions in space itself. As the investigation unfolds, it becomes clear that the recorded coordinates stand in fatal contradiction to the city's current structure. This record is either an attempt to prevent the collapse of reality triggered by this discrepancy, or a chronicle of the collapse itself."
+    },
+    "zh": {
+      "title": "地层学深层记录：关于第4分区地下书库内非稳态坐标检测的报告",
+      "premise": "负责城市维护管理的“地层调查员”偶然探测到了存在于规定深度之外区域的“地下图书馆”。那里保管的并非物理地图，而是描述空间扭曲的“秘密地图（相位变换协议）”。随着调查的深入，发现记录中的坐标与当前城市的结构产生了致命的矛盾。这份记录，是为了规避由该矛盾引发的现实崩塌，亦或是为了记录那崩塌的过程。"
+    }
   }
 }

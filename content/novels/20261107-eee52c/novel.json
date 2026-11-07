@@ -34,5 +34,16 @@
       "朝活読書": 0
     },
     "created_at": "2026-11-07T12:07:47+00:00"
+  },
+  "i18n": {
+    "key": "ddfd175622",
+    "en": {
+      "title": "Weaving the Eons: Cherry Blossom Dew and the Galactic Lighthouse",
+      "premise": "In a world where the radiance of the stars is the source of all magic, a twilight era has dawned, and the light of the heavens is slowly fading. Luna, a young girl who lives by an ancient lighthouse collecting fragments of fallen stars, comes into possession of a single petal from the \"Star Cherry Blossom\"—a flower that blooms by absorbing the memories of the stars. This petal is the final spark needed to reignite the dying galaxy. To call back the lost constellations, Luna chants the melody of the stars and embarks on a journey into the abyss of the dark night sky."
+    },
+    "zh": {
+      "title": "编织星霜：樱之雫与银河灯塔",
+      "premise": "在一个星之辉光为魔法之源的世界，天空之光正逐渐消逝，黄昏的时代悄然降临。在古老灯塔旁收集星之碎片生活的少女露娜，偶然获得了一片吸收星之记忆而绽放的“星樱”花瓣。而这片花瓣，正是让消逝的银河再次闪耀的最后契机。为了唤回失落的星座，露娜咏唱起星之旋律，毅然踏入了漆黑夜空的深渊。"
+    }
   }
 }

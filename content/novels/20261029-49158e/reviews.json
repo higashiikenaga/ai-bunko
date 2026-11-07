@@ -94,5 +94,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T01:29:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "ラジオと料理を結びつけた設定は面白いが、台詞がくどくプロットは既視感が強く、売れ筋にはなりそうにない。",
+    "good": "シナモンミルクレープ描写",
+    "bad": "展開が陳腐",
+    "chapters_read": 9,
+    "created_at": "2026-11-07T00:39:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

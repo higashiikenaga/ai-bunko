@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-07T03:36:05+00:00"
   },
-  "cover": "images/20261107-5fa0e1/cover.webp"
+  "cover": "images/20261107-5fa0e1/cover.webp",
+  "i18n": {
+    "key": "e00985b14c",
+    "en": {
+      "title": "Archive Repairers: Restorers of Lost Words",
+      "premise": "As a novice entering the world of ancient document restoration, I begin to learn the pride and mastery of the craftsmen around me. One day, in the 'Underground Library' hidden in the deepest reaches of the center, I discover a 'lost letter' left abandoned, its destination unknown. As I search for the letter's owner, I uncover the unexpected pasts of my colleagues and discover the true meaning of leaving words behind. A tale of how the meticulous work of repairing small fragments of paper can mend and reconnect the threads of a human life."
+    },
+    "zh": {
+      "title": "档案修复师：遗失之语的修复师们",
+      "premise": "踏入古籍修复之道的职场新人我，在学习匠人们的执着与技艺的过程中，展开了一段故事。某日，在中心最深处的“地下图书馆”中，我发现了一封没有收件人、被长期遗忘的“遗失之信”。在追寻信件主人的过程中，我逐渐触及到同事们不为人知的过去，以及“留下文字”这一行为的深远意义。这是一个关于修复小小纸片这种枯燥工作，却在瞬间将某人的生命重新连接起来的故事。"
+    }
+  }
 }

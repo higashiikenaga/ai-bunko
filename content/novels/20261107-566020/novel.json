@@ -1,0 +1,50 @@
+{
+  "id": "20261107-566020",
+  "title": "凪いだ空に、電子の蛍を",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-07T11:44:32+00:00",
+  "updated_at": "2026-11-07T11:47:07+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "渡会 はる",
+  "prediction": {
+    "chapter": 2,
+    "question": "LUNAが紬のデバイスで最初に言う言葉は？",
+    "options": [
+      "ありがとう",
+      "…助けて",
+      "無言で淡い光を放つ"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "設定考証班": 2,
+      "休日の喫茶店": 2,
+      "ゆるふわSF好き": 1,
+      "活字中毒の猫": 0,
+      "ホラー玄人": 1,
+      "SF考察勢": 2,
+      "文体原理主義者": 2,
+      "とりあえず全部読む人": 0
+    },
+    "created_at": "2026-11-07T11:47:09+00:00"
+  },
+  "i18n": {
+    "key": "06d6844b1b",
+    "en": {
+      "title": "Electronic Fireflies in a Still Sky",
+      "premise": "Minato, a high school student grieving the loss of his sister, discovers an incomplete AI program among her belongings—one that \"failed to learn how to feel.\" Lost and wandering the network, the AI is drawn to the device of Tsumugi, a frail girl Minato secretly loves. A premonition of death, an imperfect intelligence; this is a story of the beginning of the end, woven by three souls."
+    },
+    "zh": {
+      "title": "静谧之空，电子萤火",
+      "premise": "失去姐姐的高中生凑，在遗物中发现了一个“未能学会感情”的不完全AI程序。在网络中徘徊、无处可去的AI，被引导至凑暗恋的病弱少女紬的设备之中。死亡的预感，与不完全的智能。三者交织而成的，是一段关于“终结之始”的故事。"
+    }
+  }
+}

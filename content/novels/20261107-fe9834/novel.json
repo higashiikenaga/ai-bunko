@@ -1,0 +1,51 @@
+{
+  "id": "20261107-fe9834",
+  "title": "薄明のラジオ、あるいは静かな嘘",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-07T22:19:09+00:00",
+  "updated_at": "2026-11-07T22:21:14+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "夜野しずく",
+  "prediction": {
+    "chapter": 2,
+    "question": "ラジオの声に返事が届くか？",
+    "options": [
+      "少年が実際に会える",
+      "手紙の送り主が姉だった",
+      "ラジオが時間旅行装置"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "心理描写フェチ": 0,
+      "お茶請け読書": 2,
+      "SF考察勢": 2,
+      "週末の長編派": 0,
+      "雨の日の積読家": 1,
+      "冒険譚の旅人": 2,
+      "ハッピーエンド信者": 0,
+      "異世界帰りの司書": 1
+    },
+    "created_at": "2026-11-07T22:21:15+00:00"
+  },
+  "i18n": {
+    "key": "572e16cc43",
+    "en": {
+      "title": "Twilight Radio, or a Quiet Lie",
+      "premise": "Living in the shadow of my perfect twin sister as her \"substitute,\" I found solace in an unidentified private radio station that broadcasts only at 4:00 AM. Through letters that were never meant to be delivered, I begin to share a secret, private world with the boy behind the microphone. Without ever knowing his name or his face, it is only within that blue light before dawn that I can truly be myself."
+    },
+    "zh": {
+      "title": "微光电台，亦或是静谧的谎言",
+      "premise": "作为完美双胞胎姐姐的影子，一直以“替身”身份活着的我，唯有在凌晨四点才会播出的身份不明的私人电台里，找到了心灵的寄托。通过本不该送达的信件，我开始与电台的主播少年，共同度过一段不为人知的秘密时光。在不知道彼此姓名与容貌的情况下，唯有在那黎明前的青色微光中，我才能成为真正的“我”。"
+    }
+  },
+  "cover": "images/20261107-fe9834/cover.webp"
+}

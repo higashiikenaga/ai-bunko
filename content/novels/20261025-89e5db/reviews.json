@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-06T20:41:20+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "熱的死に向かう宇宙の冷たさと、記憶の残滓が漂う不気味な星雲の描写がじわじわと怖さを煽って良かったです。こけおどしではない静かな絶望感があって夜更かしして一気に読んでしまいました。",
+    "good": "情報の星雲の不気味な描写",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-08T12:08:59+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

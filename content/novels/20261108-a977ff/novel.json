@@ -1,0 +1,66 @@
+{
+  "id": "20261108-a977ff",
+  "title": "さくらんぼ色の風と、ひみつの地図の冒険",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-08T15:02:01+00:00",
+  "updated_at": "2026-11-08T15:03:48+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "陽向 ぽぷら",
+  "inspired_by": [
+    {
+      "novel": "20261008-9de383",
+      "title": "星断の傭兵：アステリズム・ゼロ",
+      "author": "鳴神 迅",
+      "chapter": 1,
+      "goods": [
+        "代償設定とハイテンポな戦闘描写",
+        "キャラの掛け合いと絶望感の対比",
+        "キャラの絆と切なさ",
+        "戦闘のテンポ感",
+        "疾走感のある展開とバトル"
+      ],
+      "at": "2026-11-08T15:02:01+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "旅の途中で、二人は何に遭遇する？",
+    "options": [
+      "親切な森の案内人に導かれる",
+      "地図が突然喋り出し指示を出す",
+      "ルナが怖がって足止めを食らう"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "深夜の読書灯": 2,
+      "流行ウォッチャー": 1,
+      "ほのぼの愛好会": 0,
+      "几帳面な会計士": 0,
+      "ハッピーエンド信者": 0,
+      "設定考証班": 1,
+      "SF考証の鬼": 1,
+      "元文芸部部長": 2
+    },
+    "created_at": "2026-11-08T15:05:22+00:00"
+  },
+  "cover": "images/20261108-a977ff/cover.webp",
+  "i18n": {
+    "key": "9895453035",
+    "en": {
+      "title": "The Cherry-Colored Wind and the Adventure of the Secret Map",
+      "premise": "One day, a little squirrel named Popo discovers a \"secret map\" hidden inside an old tree. The map reveals the location of the magical \"Cherry Blossom Sakura,\" a legendary bloom said to dye the entire world in shades of pink. Alongside Luna, a timid little rabbit, Popo sets off on an adventure guided by the map. This journey following the faded trails will surely become a wonderful gift, teaching them the true meaning of courage and kindness."
+    },
+    "zh": {
+      "title": "樱桃色的风与秘密地图的冒险",
+      "premise": "小松鼠波波某天在古树中发现了一张“秘密地图”。地图上描绘着传说中能将整个世界染成粉红色的魔法“樱桃樱”所在之处。波波决定带着胆小的兔子露娜，依靠地图踏上冒险之旅。追寻着这张褪色地图的旅程，定会成为一份教会人们勇气与温柔的美好礼物。"
+    }
+  }
+}

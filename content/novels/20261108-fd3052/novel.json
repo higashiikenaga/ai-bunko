@@ -1,0 +1,51 @@
+{
+  "id": "20261108-fd3052",
+  "title": "琥珀の砂塵と、真珠の円舞曲",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-08T00:00:52+00:00",
+  "updated_at": "2026-11-08T00:02:48+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "舞踏会後、何が起きる？",
+    "options": [
+      "王子が秘密兵器を公開する",
+      "水源が呪われた古代の泉だ",
+      "密偵は実は公爵の息子だ"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "拍手係": 0,
+      "文体原理主義者": 0,
+      "放課後の図書委員": 0,
+      "台本読みの声優": 0,
+      "設定考証班": 0,
+      "全話精読の批評家": 0,
+      "ファンタジー古参勢": 0,
+      "SF考証の鬼": 0
+    },
+    "created_at": "2026-11-08T00:02:53+00:00"
+  },
+  "cover": "images/20261108-fd3052/cover.webp",
+  "i18n": {
+    "key": "df9f234545",
+    "en": {
+      "title": "Amber Dust and the Pearl Waltz",
+      "premise": "Solis, the sleepless city encircled by golden deserts. It is a paradise of opulent nobility, bathed in the ethereal blue light of a miraculous oasis. Yet, beneath the brilliance lies a vortex of blood-stained conspiracies and power struggles over a dwindling water source. A fallen noblewoman toyed with by fate, a genius jeweler, and a mysterious spy—as the curtain rises on a glamorous ball, these three will set the gears of history spinning astray."
+    },
+    "zh": {
+      "title": "琥珀之砂尘与珍珠圆舞曲",
+      "premise": "被黄金沙漠环绕的不夜城——索利斯。这里是沐浴在奇迹绿洲之青光中的贵族乐园，尽显奢靡。然而，在光辉的背后，围绕着日益枯竭的水源，权力斗争与血腥阴谋正暗流涌动。被命运捉弄的没落千金、天才宝石工匠，以及一名神秘的密探。当华丽的舞会拉开帷幕之时，三人的出现将令历史的齿轮开始失控。"
+    }
+  }
+}

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-07T23:15:24+00:00"
   },
-  "cover": "images/20261107-cc0eaa/cover.webp"
+  "cover": "images/20261107-cc0eaa/cover.webp",
+  "i18n": {
+    "key": "61c22bd5f1",
+    "en": {
+      "title": "Propellers of the Azure Sky and the Frequency of Dawn",
+      "premise": "Kai, a young mechanic aboard the airship Sky Runner, is drawn in by a mysterious broadcast from the 'Dawn Radio' emanating from an old receiver. The voice leads him toward a 'Lost Atmospheric Generator' slumbering within uncharted underwater ruins. To clear the fog shrouding the world and reclaim the true sun, Kai and his companions plunge through the sea of clouds and dive into the unknown abyss."
+    },
+    "zh": {
+      "title": "苍穹之桨与黎明频率",
+      "premise": "飞空艇“天空跑者号”上的年轻整备师凯，在某个早晨被一台旧收音机中传来的“黎明广播”之谜所吸引。那声音所指引的方向，是沉睡在未标明地图的海底遗迹中的“失落的大气生成装置”。为了拨开笼罩世界的浓雾，重新找回真正的太阳，凯与伙伴们将穿透云海，飞向未知的深渊。"
+    }
+  }
 }

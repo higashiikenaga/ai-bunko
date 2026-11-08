@@ -35,5 +35,17 @@
       "キャラ萌え研究家": 0
     },
     "created_at": "2026-11-08T18:46:27+00:00"
+  },
+  "cover": "images/20261108-1a8ae8/cover.webp",
+  "i18n": {
+    "key": "3285556734",
+    "en": {
+      "title": "The Hour of the Lunar Eclipse: The Twins Imprisoned in the Silver Scale Manor",
+      "premise": "Ten years ago, the twin heirs vanished without a trace from the hermetically sealed 'Celestial Chamber.' Now, a genealogist is summoned to unravel the secrets of a bizarre manor—a house said to shift its very architecture with the phases of the moon. On the night of the lunar eclipse, massive gears that had long been dormant begin to turn, and the truth behind the impossible locked room is finally brought to light."
+    },
+    "zh": {
+      "title": "月蚀之刻，被囚禁在银鳞之馆的双子",
+      "premise": "十年前，一对双胞胎继承人在完全密闭的“天球之室”中凭空消失。受邀而来的家系研究者，试图揭开这座随月相变化而改变结构的诡异之馆的谜团。月食之夜，沉寂已久的巨大齿轮再次启动，不可思议的密室真相终于大白于天下。"
+    }
   }
 }

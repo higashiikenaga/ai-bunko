@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-08T07:02:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "SFの通信絶望と重力渦で緊張感は高いけど、登場人物の感情がもう少し掘り下げられれば、戦闘と哲学のバランスがさらに良くなると思う。",
+    "good": "緊張感と独自のプロトコル",
+    "bad": "感情描写が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-11-08T07:39:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

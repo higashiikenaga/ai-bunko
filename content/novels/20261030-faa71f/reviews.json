@@ -94,5 +94,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-07T21:14:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "全くファンタジーじゃないので期待外れだったが、地下図書館の雰囲気と謎解きは興味深かった。",
+    "good": "描写が細かい",
+    "bad": "魔法が無い",
+    "chapters_read": 10,
+    "created_at": "2026-11-08T00:35:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

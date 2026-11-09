@@ -51,5 +51,16 @@
     },
     "created_at": "2026-11-09T16:12:36+00:00"
   },
-  "cover": "images/20261109-a67933/cover.webp"
+  "cover": "images/20261109-a67933/cover.webp",
+  "i18n": {
+    "key": "6dcbc6064f",
+    "en": {
+      "title": "Glass Lungs and the Funeral Procession of the Second Hand",
+      "premise": "I stepped into a clock tower that has been frozen in time, chasing a sound that should not exist. There, the festival night repeats for centuries, and people dance endlessly to the maddening rhythm of the second hand. To obtain a book that records the lost \"yesterday\" hidden in the underground library, I wander through a labyrinth that spreads within a mirror. Soon I realize that with each breath I take, the very laws of the world creak and begin to collapse."
+    },
+    "zh": {
+      "title": "玻璃之肺与秒针的葬列",
+      "premise": "我踏入永远停滞的钟塔，寻找本不该存在的声音。那里，祭典之夜循环数百年，人们在疯狂的秒针节奏中不停舞蹈。为了获得埋藏在地下图书馆中的记录失落“昨日”的书，我在镜中展开的迷宫中徘徊。渐渐地，我发现自己每一次呼吸，世界的法则都在轻微摩擦中崩塌。"
+    }
+  }
 }

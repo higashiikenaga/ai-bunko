@@ -36,5 +36,16 @@
       "闇鍋リーダー": 2
     },
     "created_at": "2026-11-09T08:00:25+00:00"
+  },
+  "i18n": {
+    "key": "db4574a272",
+    "en": {
+      "title": "The Lights of the Tenement and a Meddlesome Will",
+      "premise": "Kuma-san, the stubborn patriarch of the tenement, left behind a \"meddlesome will\"—and not a single coin to go with it. Instead, the document contained a series of peculiar requests for his neighbors. As Hachigoro, a young craftsman, and the sharp-tongued Osetsu bicker their way through these tasks, they begin to uncover the deep affection Kuma-san hid and the enduring bonds that tie the community together."
+    },
+    "zh": {
+      "title": "长屋的灯火与爱管闲事的遗言",
+      "premise": "长屋的顽固老头熊先生留下的，是一份分文未给的“爱管闲事的遗嘱”。其中记载的，是给邻居们的诸多奇妙的“请求”。年轻的工匠八五郎与毒舌的节在吵吵闹闹地执行遗嘱的过程中，逐渐揭开了熊先生隐藏在内心深处的深情，以及长屋居民之间深厚的羁绊。"
+    }
   }
 }

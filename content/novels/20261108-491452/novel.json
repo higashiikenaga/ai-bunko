@@ -51,5 +51,17 @@
       "ねこ背の文学少女": 2
     },
     "created_at": "2026-11-08T23:59:17+00:00"
+  },
+  "cover": "images/20261108-491452/cover.webp",
+  "i18n": {
+    "key": "8d631dee63",
+    "en": {
+      "title": "Golden Steam and the Footsteps of the Ever-lit City",
+      "premise": "Erina is a young girl who runs a small cafe beside the massive steam engine that serves as the city's heartbeat. In this city, the warmth and light provided by the steam allow a gentle time to flow, never sleeping even through the night. One night, when a small change occurs in the flow of steam that sustains the city's lights, the townspeople use the kindness they each hold to mend the tiny fracture. Accompanied by the rhythmic sound of steam, this is a story of hearts quietly connecting."
+    },
+    "zh": {
+      "title": "黄金蒸汽与灯火不熄之城的足音",
+      "premise": "在作为城市心跳的巨大蒸汽机旁，少女艾莉娜经营着一家小小的咖啡馆。在这座城市里，依靠着蒸汽带来的温暖与灯火，宁静的时光即便在黑夜中也从未停歇。某天深夜，当支撑城市灯火的蒸汽流发生了一丝细微的变化时，镇上的居民们用各自拥有的温柔，共同抚平了那道小小的裂痕。这是一个伴随着蒸汽的律动，人们的心灵悄然相连的故事。"
+    }
   }
 }

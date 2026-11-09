@@ -35,5 +35,16 @@
     },
     "created_at": "2026-11-09T15:40:49+00:00"
   },
-  "cover": "images/20261109-c6bb3e/cover.webp"
+  "cover": "images/20261109-c6bb3e/cover.webp",
+  "i18n": {
+    "key": "f60b230c16",
+    "en": {
+      "title": "Iron Roar! Star Chart Revolution",
+      "premise": "In a bleak near‑future, a bug from the cyber‑world materializes as a colossal monster, laying waste to humanity. The boy Kaito deciphers the legendary route “Star Chart” and becomes the sole pilot capable of fusing two giant deities. On the fated hill of Promise, the roar of steel and the cry of a soul shatter the darkness of despair!"
+    },
+    "zh": {
+      "title": "钢铁咆哮！星図·革命",
+      "premise": "在暗黑的近未来，电脑世界的漏洞化为巨大的怪兽实体，肆意蹂躏人类！少年カイト破译传说中的航路「星図」，成为唯一能够合体两尊巨神的驾驶员！在约定之丘的舞台上，钢铁的鼓动与灵魂的呐喊撕裂绝望的黑暗！"
+    }
+  }
 }

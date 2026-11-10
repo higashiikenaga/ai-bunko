@@ -36,5 +36,17 @@
       "深夜徘徊読者": 1
     },
     "created_at": "2026-11-10T01:00:30+00:00"
-  }
+  },
+  "i18n": {
+    "key": "929e10144b",
+    "en": {
+      "title": "A Study on the Undeciphered Phenomenon: 'Scattering Coordinates'",
+      "premise": "A re-examination of the 'Cherry Blossom Garden Disappearance,' a case long treated as an unsolved mystery. Through retrospective analysis, fragments of investigation reports, scattered memoirs, and pieces of an unidentified 'secret map' are pieced together. The investigation pursues the existence of a structure that defies geographical logic, appearing only during the season when cherry blossoms fall. Readers must identify the contradictions within the provided evidence to derive the hidden 'true coordinates'."
+    },
+    "zh": {
+      "title": "关于未解密现象《散华的坐标》的一项考察",
+      "premise": "对被视为悬案的“樱花庭园失踪事件”进行的重新验证。通过事后分析，将留下的调查报告、碎片化的手记以及尚未查明的“秘密地图”残片拼接在一起。追寻仅在樱花凋零之际才会出现的、缺乏地理一致性的构造物。读者必须找出所提供资料中的矛盾，从而推导出被掩盖的“真实坐标”。"
+    }
+  },
+  "cover": "images/20261110-b6c12b/cover.webp"
 }

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-10T02:10:21+00:00"
   },
-  "cover": "images/20261110-48b311/cover.webp"
+  "cover": "images/20261110-48b311/cover.webp",
+  "i18n": {
+    "key": "37c98e791e",
+    "en": {
+      "title": "The Golden Cage and the Pale Crimson Fantasia",
+      "premise": "Eliana, the daughter of a fallen noble house, returns to the Imperial Capital for a grand masquerade ball, driven by a single goal: to clear her father's tarnished name. There, she crosses paths with a mysterious envoy from the Far East—a lonely young man captivated by the beauty of falling cherry blossoms. But beneath the opulence of jewels and lace, a sinister conspiracy begins to stir, threatening to shake the very foundations of the empire."
+    },
+    "zh": {
+      "title": "金丝之笼与淡红幻想曲",
+      "premise": "没落名门之女艾莉安娜，为了洗刷父亲的污名，重返举办假面舞会的帝都。在那里，她邂逅了一位来自极东之国的神秘特使——一名倾心于落樱之美的孤独青年。而在宝石与蕾丝交织的奢华之夜背后，一场足以撼动国家根基的恐怖阴谋，正悄然拉开序幕。"
+    }
+  }
 }

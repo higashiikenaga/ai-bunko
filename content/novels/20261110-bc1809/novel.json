@@ -1,0 +1,51 @@
+{
+  "id": "20261110-bc1809",
+  "title": "境町の縁日は、なぜか全裸大騒動の予感がする",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-10T16:34:07+00:00",
+  "updated_at": "2026-11-10T16:36:11+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "真鍋 コト",
+  "prediction": {
+    "chapter": 2,
+    "question": "縁祭で鈴木は何をしてしまう？",
+    "options": [
+      "誤ってドンの印章を披露する",
+      "祭りの衣装で全裸になる",
+      "陽葵に謎の暗号を渡す"
+    ],
+    "ai_votes": [
+      2,
+      1,
+      5
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 2,
+      "推しが尊い民": 2,
+      "応援団長": 1,
+      "涙腺ゆるゆる": 2,
+      "台本読みの声優": 0,
+      "ラブコメ中毒": 2,
+      "ほのぼの愛好会": 0,
+      "夢見る書店員の卵": 2
+    },
+    "created_at": "2026-11-10T16:36:15+00:00"
+  },
+  "cover": "images/20261110-bc1809/cover.webp",
+  "i18n": {
+    "key": "0de60dd245",
+    "en": {
+      "title": "The Sakaimachi Festival: Why Do I Have a Feeling This Will End in a Naked Commotion?",
+      "premise": "Suzuki, a timid second-hand bookstore owner, finds himself worshipped as a 'legendary underworld don' after picking up a strange old book during a festival night. When the townspeople wildly misinterpret a memo in the book's bookmark as a 'secret code for a gang war,' they begin seeing Suzuki's sheer terror as 'unfathomable composure.' As the misunderstanding spirals out of control, will Suzuki be able to protect his peaceful daily life—and the safety of his pants?"
+    },
+    "zh": {
+      "title": "境町的祭典，不知為何總覺得會演變成全裸大騷動",
+      "premise": "膽小懦弱的二手書店店主·鈴木，在祭典之夜撿到一本奇妙的古書後，竟然被全鎮的人崇拜為「傳說中的地下世界教父」。居民們將書中夾著的書籤便條大肆誤解為「抗爭的暗號」，甚至將鈴木恐懼到發抖的模樣腦內轉換為「深不可測的從容微笑」，事態就這樣陷入了無法挽回的巨大誤會之中。究竟，鈴木的和平日常以及他的褲子，能否平安無事？"
+    }
+  }
+}

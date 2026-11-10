@@ -51,5 +51,17 @@
       "ねこ背の文学少女": 2
     },
     "created_at": "2026-11-10T18:25:16+00:00"
+  },
+  "cover": "images/20261110-82608c/cover.webp",
+  "i18n": {
+    "key": "aca6d0b677",
+    "en": {
+      "title": "Azure Winds and the Silver-Winged Last Train",
+      "premise": "Young pilot Kai and his trusty small airship, the Sky Racer, are on a quest for the key to the 'Underground Library'—a place where the memories of a lost world lie dormant. But the Imperial Army, desperate to seize the key for themselves, relentlessly pursues them, blocking their path. With the fate of the world hanging in the balance, their only hope for escape is to board the legendary 'Last Train' that tears through the sea of clouds. Trusting in the power of wind and steam, Kai and his companions embark on a perilous voyage toward the edge of the sky."
+    },
+    "zh": {
+      "title": "苍穹之风与银翼的最终列车",
+      "premise": "年轻的操纵士凯与他的搭档——小型飞空艇『天空赛车』，正在寻找沉睡着失落世界记忆的『地下图书馆』之钥。然而，觊觎该钥匙的帝国军展开追击，阻碍了凯等人的前行。被寄托了世界命运的唯一脱出手段，便是搭乘那辆劈开云海而行的传说之『最终列车』。凯与伙伴们坚信着风与蒸汽的力量，向着天空的尽头，开启了一场决死之航。"
+    }
   }
 }

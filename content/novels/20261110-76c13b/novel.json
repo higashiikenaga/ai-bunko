@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-10T02:56:32+00:00"
   },
-  "cover": "images/20261110-76c13b/cover.webp"
+  "cover": "images/20261110-76c13b/cover.webp",
+  "i18n": {
+    "key": "f7b1ab1133",
+    "en": {
+      "title": "Indigo Rain and the Migratory Bird's Bookmark",
+      "premise": "After her brother's death, Minato returns to her seaside hometown, only to discover a bundle of unaddressed letters he left behind. Within the letters lie cryptic words that lead to the 'Hill of Promises,' a place they once visited together. With every rainfall, fragments of the words her brother had kept unspoken begin to pile up in her heart. As the season of migratory birds arrives, she begins to trace the path toward a precious memory her brother had long kept hidden."
+    },
+    "zh": {
+      "title": "靛蓝色的雨与候鸟的书签",
+      "premise": "兄长去世后，凑回到了故乡的海边，在那里她发现了一叠哥哥留下的无署名信件。信中写着一些令人费解的话语，指引着通往两人曾经造访过的“约定之丘”的路。每当雨落之时，哥哥曾默默咽下的那些话语碎片，便在凑的心中层层堆积。在候鸟飞越天空的季节，她开始追寻哥哥一直隐藏着的、那段珍贵的回忆。"
+    }
+  }
 }

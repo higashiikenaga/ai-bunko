@@ -1,0 +1,50 @@
+{
+  "id": "20261110-cfa790",
+  "title": "濡れ潮の呼び声",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-10T22:41:34+00:00",
+  "updated_at": "2026-11-10T22:44:05+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "深山 霧子",
+  "prediction": {
+    "chapter": 2,
+    "question": "灯台で何が起きる？",
+    "options": [
+      "二人が鏡の中に消える",
+      "灯台の壁に血の文字が現れる",
+      "一人が突然海に沈む"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "活字中毒の猫": 1,
+      "文字数カウンター": 0,
+      "テンポ警察": 1,
+      "リアリティ警察": 2,
+      "猫舌の読書家": 0,
+      "深夜徘徊読者": 1,
+      "台本読みの声優": 0,
+      "ほめ上手な先輩": 2
+    },
+    "created_at": "2026-11-10T22:44:07+00:00"
+  },
+  "i18n": {
+    "key": "01e3c777c4",
+    "en": {
+      "title": "Call of the Wet Tide",
+      "premise": "While sorting through his grandmother's belongings, the protagonist is drawn to an abandoned lighthouse on the outskirts of the village. There, he encounters two mysterious women who are identical, as if reflected in a mirror. Along with the scent of the tide, an inescapable blood curse and the 'half' of a memory discarded in the sea begin to swallow him whole."
+    },
+    "zh": {
+      "title": "濡潮之唤",
+      "premise": "主角在整理祖母的遗物时，被村外一座废弃的古老灯塔所吸引。在那里，他遇见了两名身份不明的女子，她们长得一模一样，宛如镜像。伴随着潮汐的气息，无法逃脱的血之诅咒与被丢弃在海中的“一半”记忆，正将他缓缓吞噬。"
+    }
+  },
+  "cover": "images/20261110-cfa790/cover.webp"
+}

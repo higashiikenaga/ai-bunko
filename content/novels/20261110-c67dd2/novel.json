@@ -35,5 +35,16 @@
       "元編集者": 2
     },
     "created_at": "2026-11-10T10:00:31+00:00"
+  },
+  "i18n": {
+    "key": "a0db0f224c",
+    "en": {
+      "title": "The Silver Crown Ball and the Silk Garment of the Hidden Star Chart",
+      "premise": "In the depths of high society, a legend is whispered: the \"Celestial Star Chart,\" said to guarantee the Empire's prosperity, is hidden within the embroidery of a master artisan. A noblewoman on the verge of ruin, an ambitious jeweler, and a mysterious dancer—each playing a false role reflected in the mirror—step into a web of traps surrounding the secret map during a lavish ball. Amidst the shimmer of jewels and the rustle of silk, the gears of fate begin to turn."
+    },
+    "zh": {
+      "title": "银冠舞会与秘藏星图的丝衣",
+      "premise": "在社交界的深处，流传着一个传说：能确保帝国繁荣的“天空星图”，就隐藏在某位名匠的刺绣之中。处于没落边缘的令嬢、怀揣野心的宝石商，以及身份不明的舞者。他们在镜中扮演着虚伪的自己，在豪华绚烂的舞会上，步入了围绕着秘密地图而设的陷阱。在闪耀的宝石与丝绸的摩擦声交织之中，命运的齿轮悄然开始转动。"
+    }
   }
 }

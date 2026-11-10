@@ -1,0 +1,66 @@
+{
+  "id": "20261110-4c2dda",
+  "title": "嘘をつけないキミと、月食の夜に溶ける恋心",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-10T10:49:33+00:00",
+  "updated_at": "2026-11-10T10:51:49+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "inspired_by": [
+    {
+      "novel": "20261029-068b06",
+      "title": "碧落の再同期：蒼い鳥が運ぶ空の遺言",
+      "author": "綾瀬 ナノ",
+      "chapter": 1,
+      "goods": [
+        "情景描写の美しさと文体",
+        "情景描写の美しさと没入感",
+        "五感を刺激する美麗な描写",
+        "美しい情景描写と世界観",
+        "映像的な情景描写が美しい"
+      ],
+      "at": "2026-11-10T10:49:34+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "月食が始まった後、二人の関係はどう変化する？",
+    "options": [
+      "蓮との最悪な学園生活がスタートする",
+      "一花にも「嘘をつけない呪い」が移る",
+      "月食の夜、二人の記憶に異変が起きる"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "台詞にうるさい人": 0,
+      "異世界転生アナリスト": 1,
+      "ゆるふわSF好き": 1,
+      "書店員の目": 0,
+      "涙腺ゆるゆる": 2,
+      "通勤電車の常連": 0,
+      "週末の映画好き": 2,
+      "ホラー夜更かし勢": 2
+    },
+    "created_at": "2026-11-10T10:52:55+00:00"
+  },
+  "i18n": {
+    "key": "f128102059",
+    "en": {
+      "title": "You Who Cannot Lie, and the Love That Melts on the Night of the Lunar Eclipse",
+      "premise": "\"As long as there's delicious food, life is perfect!\" That's my philosophy as a high school girl with a massive appetite. But my life takes a turn when a handsome new transfer student arrives—one who is cursed with the \"inability to lie,\" making him uncontrollably sharp-tongued. Our days are a chaotic whirlwind of mismatched rhythms that somehow, strangely, fit together perfectly. And on the night of the lunar eclipse, the \"truths\" we've both been hiding will begin to melt away, just like a sweet dessert."
+    },
+    "zh": {
+      "title": "无法撒谎的你，与在月食之夜融化的恋心",
+      "premise": "“只要有美食，人生就是最棒的！”——我是一个只要有美食就能感到幸福的贪吃女高中生。就在这时，一名转学生出现在我面前。他长得帅气，却因为“无法撒谎的诅咒”，变得毒舌不已。与那个只能说出真心话的他，度过了看似不合拍却又契合的喧闹日常。而在月食之夜，两人一直隐藏着的“真相”，将如甜点般缓缓融化——。"
+    }
+  }
+}

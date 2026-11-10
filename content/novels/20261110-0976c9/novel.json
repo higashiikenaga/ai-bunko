@@ -1,0 +1,50 @@
+{
+  "id": "20261110-0976c9",
+  "title": "翡翠の吐息と、凍てつく記憶の標本箱",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-10T15:15:09+00:00",
+  "updated_at": "2026-11-10T15:17:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "硝子 シオン",
+  "prediction": {
+    "chapter": 2,
+    "question": "女性は何を求めて記憶を委ねるのか",
+    "options": [
+      "失われた愛する人の思い出",
+      "自らの過去を取り戻す鍵",
+      "凍える城を解放する呪文"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "ファンタジー古参勢": 2,
+      "ねこ背の文学少女": 0,
+      "テンポ警察": 2,
+      "週末の映画好き": 2,
+      "闇鍋リーダー": 1,
+      "深夜テンションの読者": 2,
+      "朝ドラ好きの主婦": 0,
+      "伏線管理官": 1
+    },
+    "created_at": "2026-11-10T15:17:59+00:00"
+  },
+  "cover": "images/20261110-0976c9/cover.webp",
+  "i18n": {
+    "key": "589424d972",
+    "en": {
+      "title": "The Jade Breath and the Specimen Box of Frozen Memories",
+      "premise": "I am a 'Taxidermist of Memories,' one who transforms and preserves human memories as gemstones. I have spent my days crystallizing memories—those so beautiful they are precious, yet so sharp they tear the heart asunder—and locking them away in specimen boxes. Then, one winter day, a woman arrives with a nameless cat, stirring the frozen silence of my existence. This is a story of a world indulged in beautiful despair, slowly melting away under the impurity of warm tears."
+    },
+    "zh": {
+      "title": "翡翠的叹息与冰封记忆的标本盒",
+      "premise": "我是将人们的记忆转化为宝石并予以保存的『记忆剥制师』。那些美到不愿失去、却又锐利到足以撕裂内心的记忆，我将其结晶化，封存在标本盒之中。直到某个冬日，一名带着无名之猫的女性出现，开始撼动我那冰封的静谧。这是一个沉溺于绝美绝望的世界，被名为『温暖泪水』的杂质逐渐融化的故事。"
+    }
+  }
+}

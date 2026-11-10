@@ -1,0 +1,51 @@
+{
+  "id": "20261110-a817be",
+  "title": "断罪の鏡像、あるいは忘却の銀河に捧ぐ挽歌",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-10T19:25:34+00:00",
+  "updated_at": "2026-11-10T19:28:45+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-31b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "アルドは次の選択で何を選ぶ？",
+    "options": [
+      "アルドはセレネの求める記憶を手に入れる",
+      "ギルバートが裏切り、アルドを追い詰める",
+      "リッカが鏡を抜けて消える"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "ご都合主義ハンター": 0,
+      "純文学の亡霊": 1,
+      "とりあえず全部読む人": 2,
+      "文字数カウンター": 0,
+      "通勤電車の常連": 0,
+      "お茶請け読書": 0,
+      "心理描写フェチ": 1,
+      "テンポ警察": 0
+    },
+    "created_at": "2026-11-10T19:28:48+00:00"
+  },
+  "cover": "images/20261110-a817be/cover.webp",
+  "i18n": {
+    "key": "66c4ccba95",
+    "en": {
+      "title": "Mirror Image of Condemnation, or a Dirge Dedicated to the Galaxy of Oblivion",
+      "premise": "When the gods created the world, there remained a place where leftover \"pure memories\" pooled like sediment. To feed upon those memories, or to settle accounts with a detestable past, people secretly make their way to a \"market that sells memories.\" A knight tasked with protecting a sanctuary dedicated to the mirror god becomes consumed by the \"self that could have been\" reflected within the mirrors, and is forced to confront a forbidden memory that threatens the very order of the world. Is this the return of a lost myth, or merely a prelude to the end?"
+    },
+    "zh": {
+      "title": "断罪的镜像，亦或是献给遗忘银河的挽歌",
+      "premise": "曾几何时，诸神创世之际，留下的“纯粹记忆”如沉淀物般汇聚于一处。为了将这些记忆作为食粮，或是为了清算那些应当忌讳的过去，人们秘密踏入了“贩卖记忆的市场”。守护着供奉镜之神圣域的骑士，正逐渐被镜中映出的“本可能存在的自我”所侵蚀，并不得不直面动摇世界真理的禁忌记忆。这究竟是失落神话的再度降临，还是走向终焉的序曲？"
+    }
+  }
+}

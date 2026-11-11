@@ -1,0 +1,51 @@
+{
+  "id": "20261111-906e96",
+  "title": "潮鳴りの残滓、散華の剣",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-11T19:38:07+00:00",
+  "updated_at": "2026-11-11T19:40:19+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "剣持 隼人",
+  "prediction": {
+    "chapter": 2,
+    "question": "弦次の前に現れた殺気の正体と、再会する人物の行方は？",
+    "options": [
+      "かつての戦友・恭平が刺客として現れる",
+      "志乃が隠し持っていた武器が牙を剥く",
+      "潮が満ち、海底の寺院が突如として姿を現す"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "お茶請け読書": 2,
+      "休日の喫茶店": 2,
+      "深夜徘徊読者": 0,
+      "AI文章鑑定士": 0,
+      "伏線回収マニア": 0,
+      "元文芸部部長": 1,
+      "毒舌書評ブロガー": 0,
+      "歴史散歩の人": 1
+    },
+    "created_at": "2026-11-11T19:40:38+00:00"
+  },
+  "i18n": {
+    "key": "b1085d1049",
+    "en": {
+      "title": "Remnants of the Tides, the Scattering Blade",
+      "premise": "The ruins of an ancient temple lie sunken beneath the sea, rumored to hold the pride of a fallen noble house. Seeking a \"lost blade\" hidden within those ruins, the ronin Genji arrives at a desolate fishing village ruled by the rhythm of the tides. But as he searches, he finds himself confronted by a gruesome truth buried deep beneath the waves and assassins who pursue him like relentless shadows."
+    },
+    "zh": {
+      "title": "《潮鸣之残滓，散华之剑》",
+      "premise": "沉没于深海的古刹遗迹，传闻那里沉睡着一个覆灭名门的尊严。浪人弦次为了寻找沉睡在遗迹中的“失落之刃”，来到了一个受潮汐支配的孤独渔村。然而，挡在他面前的，是隐藏在海底的惨烈真相，以及如影随形、步步紧逼的刺客。"
+    }
+  },
+  "cover": "images/20261111-906e96/cover.webp"
+}

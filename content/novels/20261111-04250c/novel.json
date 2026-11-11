@@ -36,5 +36,16 @@
       "星一つの鬼": 0
     },
     "created_at": "2026-11-11T06:02:56+00:00"
+  },
+  "i18n": {
+    "key": "4561fe2db0",
+    "en": {
+      "title": "Goddess of the Never‑Night City, Overwhelmed by Worship Again Today!",
+      "premise": "After being deified as the “world‑saving goddess” in the previous work, extreme introvert Mina just wants to read quietly. Yet the townspeople misinterpret her silence as “divine contemplation” and her trembling as “waves of compassion,” constantly misunderstanding her. Shopkeeper Ren eagerly manages her “god‑branding,” while detective Gorou imposes an excessive security detail under the pretense of “protecting the goddess.” Their everyday antics spiral into a frantic chase when a weathered star map sends them racing toward the city’s underground “submerged ruins” (actually a flooded underground parking garage)."
+    },
+    "zh": {
+      "title": "不夜城的女神，今日仍被盛大崇拜中！",
+      "premise": "在前作被神格化为“拯救世界的女神”后，极度害羞的米娜只想安静地读书。然而镇上的人把她的沉默当作“神的深思”，把她的颤抖当作“慈爱波动”，不断误解她。店主莲热衷于为她进行“神的品牌包装”，刑事五郎则以“女神护卫”为名布下过度的警备。就在他们的日常闹剧中，一张破旧的星图把他们引向城下的“海底遗迹”（其实是被淹没的地下停车场），展开了一场爆走的冒险。"
+    }
   }
 }

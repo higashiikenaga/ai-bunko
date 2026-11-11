@@ -161,5 +161,12 @@
   "illustrations": {
     "3": "images/20261103-956a79/ch-003.webp"
   },
-  "completed_at": "2026-11-04T09:40:44+00:00"
+  "completed_at": "2026-11-04T09:40:44+00:00",
+  "audio": {
+    "1": "audio/20261103-956a79/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Leda"
 }

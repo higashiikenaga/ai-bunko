@@ -36,5 +36,16 @@
       "闇鍋リーダー": 2
     },
     "created_at": "2026-11-11T13:02:30+00:00"
+  },
+  "i18n": {
+    "key": "3442674975",
+    "en": {
+      "title": "The Moonlit Underground Library and the Blue Bookmark of Wishes",
+      "premise": "In a seaside town, there exists an \"Underground Library\" where the memories of people sleep in the form of books. One summer, Nico, a member of the library committee, discovers that the \"Blue Bookmark\"—the cherished guardian of the library—has vanished. From the perspectives of Teto, a cafe owner; Lulu, a mysterious girl from afar; and Momo, the manager, they trace the missing bookmark's trail as the town prepares for its festival. It is a gentle mystery about a small act of kindness that had lost its way."
+    },
+    "zh": {
+      "title": "月光下的地下書庫與傳遞願望的青色書籤",
+      "premise": "在一個海邊小鎮，流傳著一座人們的回憶化作書籍沉睡其中的「地下圖書館」。某個夏天，圖書委員尼可發現，被視為圖書館守護神般重要的「青色書籤」失蹤了。經營咖啡廳的特托、不知從何而來的少女露露，以及管理員莫莫。在準備祭典的小鎮中，他們各自以不同的視角，追尋著失蹤書籤的足跡。這是一個關於某人微小的溫柔迷失方向的，溫馨的解謎故事。"
+    }
   }
 }

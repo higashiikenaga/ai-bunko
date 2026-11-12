@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T14:14:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "空飛ぶレースと階級闘争が交差する都市を舞台に、熱い加速と精神の闘いが描かれるが、科学的裏付けが弱く、物語の展開がやや曖昧に残る。",
+    "good": "斬新都市設定",
+    "bad": "科学的裏付け薄",
+    "chapters_read": 9,
+    "created_at": "2026-11-12T22:58:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

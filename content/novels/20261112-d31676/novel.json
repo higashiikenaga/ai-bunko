@@ -12,7 +12,6 @@
   ],
   "author": "ネオン 零",
   "sequel_of": "20261110-78bedb",
-  "announce": "sequel",
   "prediction": {
     "chapter": 2,
     "question": "霧の向こうに現れた「虚無の村」で、カイトを待ち受ける運命は？",
@@ -37,5 +36,17 @@
       "朝ドラ好きの主婦": 0
     },
     "created_at": "2026-11-12T21:38:38+00:00"
-  }
+  },
+  "i18n": {
+    "key": "5db11a58ca",
+    "en": {
+      "title": "Chrome Hazard: Neon Rebellion — Ghost Circuits and the Wake of Flying Ash",
+      "premise": "The Ark has escaped the corporate grip, fleeing into an unknown sky. But while Kaito lost his right arm, something else took its place: an unknown code beginning to erode his mind. As their pursuers evolve beyond mere corporations into the 'God OS'—the ultimate authority governing the world—a hidden sanctuary emerges. Floating beyond the mist is the 'Village of Void,' an aerial settlement erased from every map, holding the key to Kaito's lost truth. Once more, the flying ship Ark dives into the stormy cyber-sea."
+    },
+    "zh": {
+      "title": "铬金危机：霓虹反叛 —— 亡灵回路与飞灰之辙",
+      "premise": "飞船“方舟”摆脱了企业的掌控，逃往未知的天空。然而，在凯斗失去右臂的同时，一段未知的代码开始侵蚀他的大脑。追击者已超越企业之身，进化为掌控世界管理权的“神之OS”。在迷雾彼端，一座本应从地图上消失的空中集落——“虚无之村”，掌握着凯斗失落的真相。飞船“方舟”再次潜入那场电脑之海的风暴之中。"
+    }
+  },
+  "cover": "images/20261112-d31676/cover.webp"
 }

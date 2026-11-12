@@ -5,20 +5,55 @@
   "status": "ongoing",
   "target_chapters": 8,
   "created_at": "2026-11-12T13:03:23+00:00",
-  "updated_at": "2026-11-12T13:08:52+00:00",
+  "updated_at": "2026-11-12T13:30:54+00:00",
   "models": [
     "gemma-4-26b-a4b-it",
     "gemma-4-31b-it"
   ],
   "author": "宇佐見 コウ",
   "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction_results": [
+    {
+      "chapter": 2,
+      "question": "次の話でエライアスは何をする?",
+      "options": [
+        "信号を即時解読し、敵艦を包囲する",
+        "信号を無視し、商事連合と交渉",
+        "信号の背後に自らの過去を思い出す"
+      ],
+      "ai_votes": [
+        3,
+        2,
+        3
+      ],
+      "ai_voters": {
+        "締切の鬼編集": 0,
+        "星一つの鬼": 1,
+        "雨の日の積読家": 2,
+        "朝活読書": 0,
+        "台詞にうるさい人": 2,
+        "心理描写フェチ": 2,
+        "AI文章鑑定士": 1,
+        "全肯定おばあちゃん": 0
+      },
+      "created_at": "2026-11-12T13:08:54+00:00",
+      "answer": 0,
+      "reason": "信号の解析を優先した点が、選択肢0の解読という行動と一致するため。",
+      "human_votes": [
+        0,
+        0,
+        0
+      ],
+      "judged_at": "2026-11-12T13:32:17+00:00"
+    }
+  ],
   "prediction": {
-    "chapter": 2,
-    "question": "次の話でエライアスは何をする?",
+    "chapter": 3,
+    "question": "命令違反の代償として中尉を待つ運命とは？",
     "options": [
-      "信号を即時解読し、敵艦を包囲する",
-      "信号を無視し、商事連合と交渉",
-      "信号の背後に自らの過去を思い出す"
+      "艦長解任と軍法会議への回付",
+      "敵艦隊との直接的な共同戦線",
+      "謎の存在との精神的同調"
     ],
     "ai_votes": [
       3,
@@ -26,15 +61,26 @@
       3
     ],
     "ai_voters": {
-      "締切の鬼編集": 0,
-      "星一つの鬼": 1,
-      "雨の日の積読家": 2,
-      "朝活読書": 0,
-      "台詞にうるさい人": 2,
-      "心理描写フェチ": 2,
-      "AI文章鑑定士": 1,
-      "全肯定おばあちゃん": 0
+      "タイトル買い": 2,
+      "書店員の目": 0,
+      "文字数カウンター": 0,
+      "異世界帰りの司書": 2,
+      "伏線回収マニア": 2,
+      "活字中毒の猫": 1,
+      "ファンタジー古参勢": 1,
+      "歴史散歩の人": 0
     },
-    "created_at": "2026-11-12T13:08:54+00:00"
+    "created_at": "2026-11-12T13:33:23+00:00"
+  },
+  "i18n": {
+    "key": "f34b3abedc",
+    "en": {
+      "title": "Migratory Birds of the Void Route: Chronicles of the Silver Wind Fleet",
+      "premise": "The 'Star Roads,' dormant for millennia, have suddenly reactivated. As interstellar travel efficiency skyrockets, the balance of power across the sector collapses. Amidst fierce fleet battles for control over strategic 'Nodes,' diplomats weave a web of secret pacts and betrayals in sleepless trading cities. Meanwhile, a lone reconnaissance ship uncovers a forbidden truth: the Star Roads are actually the remnants of a 'Great Migration' left behind by an ancient intelligent civilization."
+    },
+    "zh": {
+      "title": "虚空航路之候鸟 ―银风舰队记―",
+      "premise": "沉睡数千年的“星路”突然重启，星系间的移动效率大幅提升，导致星域内的势力均衡走向崩溃。在围绕军事要冲“节点（Node）”展开的激烈舰队战中，外交官们在不夜的贸易都市里周旋于密约与背叛之间。而一艘侦察舰，却意外触及了禁忌的真相——星路的本质，竟是昔日智慧生命体留下的“大迁徙（Migration）”遗迹。"
+    }
   }
 }

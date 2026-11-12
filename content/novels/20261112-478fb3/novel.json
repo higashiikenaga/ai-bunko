@@ -35,5 +35,16 @@
       "ほめ上手な先輩": 2
     },
     "created_at": "2026-11-12T16:24:48+00:00"
+  },
+  "i18n": {
+    "key": "8f30cd3a36",
+    "en": {
+      "title": "Frozen Fingertips and the Map Awaiting the Thaw",
+      "premise": "Deep beneath the heavy snow, a voice echoes, unheard by any. A lonely girl living on the outskirts of a village discovers a fragment of a frozen 'Ice Castle'—a key that leads to a secret map capable of restoring the lost seasons. But as she unravels the map's mysteries, the 'Forgotten Ones' lurking within the frost begin to creep closer, craving the girl's warmth."
+    },
+    "zh": {
+      "title": "冻结的指尖与等待融雪的地图",
+      "premise": "此刻，在深雪之底，回荡着无人知晓的低语。住在村边的一位孤独少女，偶然发现了一块被冰封的“冰之城”碎片。那是开启“秘密地图”的钥匙，而这张地图能唤回早已失落的季节。然而，随着地图被逐渐解读，潜伏在雪中的“被遗忘者”们，正渴求着少女的体温，悄然逼近。"
+    }
   }
 }

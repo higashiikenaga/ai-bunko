@@ -35,5 +35,17 @@
       "週末の映画好き": 2
     },
     "created_at": "2026-11-12T08:27:10+00:00"
+  },
+  "cover": "images/20261112-17d653/cover.webp",
+  "i18n": {
+    "key": "cfec280129",
+    "en": {
+      "title": "Amber Nights, Tracing the Village of Mist",
+      "premise": "Tsumugi, a college student working at a late-night cafe, encounters Kai, a young man who appeared like a migratory bird out of season. Kai is chasing the nostalgic and bittersweet memories of a \"lost village\" that has supposedly been erased from all maps. Amidst the aroma of coffee and the silence of the night, their loneliness begins to melt together, accompanied by a faint scent of perfume."
+    },
+    "zh": {
+      "title": "琥珀之夜，追寻雾之村",
+      "premise": "在深夜咖啡店工作的大学生紬，遇见了如不合时节的候鸟般出现的青年——櫂。櫂所追寻的，是那座据传已从地图上抹去的“消失之村”中，那份既怀旧又伤感的记忆。在咖啡的香气与深夜的静谧中，两人的孤独伴随着淡淡的香水味，悄然交融。"
+    }
   }
 }

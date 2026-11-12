@@ -1,0 +1,68 @@
+{
+  "id": "20261112-27bc1c",
+  "title": "低潮線の境界",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-12T10:14:14+00:00",
+  "updated_at": "2026-11-12T10:16:51+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "氷室 冴",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "inspired_by": [
+    {
+      "novel": "20261030-faa71f",
+      "title": "忘却の書庫と、迷子の電子音",
+      "author": "神楽坂 探",
+      "chapter": 1,
+      "goods": [
+        "書架を論理回路とする設定",
+        "図書館の幻想的な雰囲気",
+        "描写が細かい",
+        "展開の加速感とスケール感",
+        "耽美で幻想的な情景描写"
+      ],
+      "at": "2026-11-12T10:14:15+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "次の話で、静馬一郎は何を見せるのか？",
+    "options": [
+      "静馬が隠した古文書を提示。",
+      "静馬が海底遺跡の入口を示す。",
+      "静馬が突然、犯人を告げる。"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "全肯定おばあちゃん": 0,
+      "流行ウォッチャー": 1,
+      "週末の長編派": 1,
+      "闇鍋リーダー": 2,
+      "雨の日の積読家": 0,
+      "初見さん": 2,
+      "台詞にうるさい人": 0,
+      "設定考証班": 1
+    },
+    "created_at": "2026-11-12T10:16:53+00:00"
+  },
+  "cover": "images/20261112-27bc1c/cover.webp",
+  "i18n": {
+    "key": "8ace3d26bb",
+    "en": {
+      "title": "Boundary of the Low Tide Line",
+      "premise": "At 04:12, a body is discovered in a reef zone during low tide. The victim, a researcher of underwater ruins, was found clutching an ancient nautical chart believed to have been purchased from a secondhand bookstore. As an investigator uncovers a connection between the tidal cycles and the inexplicable circumstances of the murder, political pressures within the organization collide with the silent memories slumbering beneath the sea."
+    },
+    "zh": {
+      "title": "低潮线的边界",
+      "premise": "凌晨04时12分，在退潮时的礁石地带发现了一具尸体。被害者是一名海底遗迹研究员，手中紧握着一张疑似从旧书店购得的古老航海图。随着调查员察觉到潮汐周期与离奇杀人现场之间的诡异关联，组织内部的政治压力与沉睡在深海之下的沉默记忆，开始交织碰撞。"
+    }
+  }
+}

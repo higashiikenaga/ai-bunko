@@ -50,5 +50,17 @@
       "歴史散歩の人": 2
     },
     "created_at": "2026-11-12T19:25:54+00:00"
-  }
+  },
+  "i18n": {
+    "key": "9f42e1ee5e",
+    "en": {
+      "title": "The Third Spring: Ironclad Circle",
+      "premise": "A former ace whose dream was cut short by injury, a tactical genius manager who lacks physical prowess, and a group of reserve players waiting for their turn. With disparate backgrounds, they must forge a single \"circle\" on the harsh stage of the national tournament. The on‑court battles are layered with the bench’s schemes and the roar of the crowd. As cherry blossoms fall, they confront rivals who mirror themselves and discover true solidarity."
+    },
+    "zh": {
+      "title": "第三春：铁壁圆环",
+      "premise": "一位因伤失去梦想的前王牌球员，一位缺乏身体素质却是战术天才的经理，以及一直等待上场机会的替补球员们。来自不同背景的他们，在全国大赛这片严酷舞台上，必须共同打造一个“圆环”。球场上的攻防被替补席的计谋与观众席的狂热多层次地描绘。樱花飘落的季节，他们面对如镜般映照自己的对手，寻找真正的团结。"
+    }
+  },
+  "cover": "images/20261112-fb4eb9/cover.webp"
 }

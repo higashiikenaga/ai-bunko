@@ -51,5 +51,17 @@
       "休日の喫茶店": 2
     },
     "created_at": "2026-11-12T19:19:25+00:00"
-  }
+  },
+  "i18n": {
+    "key": "572d889509",
+    "en": {
+      "title": "Lunar Eclipse Melody, the Low Voice of Truth",
+      "premise": "In a world where singing sculpts emotions, Kai is bound by a curse that turns every secret longing into a song. Luna, a prodigious talent, roams the night in search of the elusive \"true tone\" that surfaces only during a lunar eclipse. When their melodies intertwine, the veiled false notes unravel, and as the moon wanes, a genuine romance takes center stage."
+    },
+    "zh": {
+      "title": "月食旋律，真相低音",
+      "premise": "在一个情感以歌声塑造的世界里，少年カイ因被诅咒而无法隐瞒心中的情感，所有隐藏的思念都化作歌声涌出。天才少女ルナ则在月食之夜寻找只在此时出现的\"真相之音\"。当两人的旋律共振时，隐藏的虚假乐章被揭开，随着月亮的消退，真挚的爱情悄然展开。"
+    }
+  },
+  "cover": "images/20261112-95af75/cover.webp"
 }

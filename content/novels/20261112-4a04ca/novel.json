@@ -36,5 +36,17 @@
       "ご都合主義ハンター": 0
     },
     "created_at": "2026-11-12T03:38:19+00:00"
+  },
+  "cover": "images/20261112-4a04ca/cover.webp",
+  "i18n": {
+    "key": "b098b17a92",
+    "en": {
+      "title": "The Azure Crystal Archive and the Piercing Thorns of Truth",
+      "premise": "Amidst a deepening silence, I have spent my days collecting transparent truths. This is a beautiful yet cruel underground library, ruled by a curse that forbids all lies. Then, one day, I encounter an 'Incarnation of Lies'—a being far too ornate, and far too empty, who shatters the stillness. As naked truths scrape away at the soul and falsehoods glitter like gemstones, my heart, like shattering glass, accelerates toward an inescapable ruin."
+    },
+    "zh": {
+      "title": "苍晶书库与刺穿舌尖的真相之刺",
+      "premise": "在层层堆积的沉默之中，我一直搜集着那些剔透的真相。那是一座被“无法撒谎之咒”支配的，既美丽又残酷的地下图书馆。直到有一天，我遇见了一个过于华美、却又过于空虚的“谎言化身”，打破了这里的静谧。当赤裸的真相削蚀灵魂，而伪饰如宝石般闪耀之时，我的心将如破碎的玻璃一般，加速坠向无法逃避的毁灭。"
+    }
   }
 }

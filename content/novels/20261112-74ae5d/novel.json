@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-12T15:35:17+00:00"
   },
-  "cover": "images/20261112-74ae5d/cover.webp"
+  "cover": "images/20261112-74ae5d/cover.webp",
+  "i18n": {
+    "key": "c298f336b9",
+    "en": {
+      "title": "Investigation of Non-Standard Phenomena in the Upper Atmosphere – Fragments of the Lost Celestial Survey and Observation",
+      "premise": "This report details the analysis of the excavated \"Secret Map\" [1] and the investigation of the flight paths recorded for the \"flying ships\" depicted therein. The map possesses a peculiar property: it dynamically alters terrain based on the observer's perception. As the investigation progresses, evidence suggests that the drifting vessels are remnants of a once‑existing civilization's \"thought residue.\" Readers will piece together from fragmented accounts the chilling truth that the world is being reconstructed through observation."
+    },
+    "zh": {
+      "title": "高层气层中非标准现象的调查——失落天球测绘图碎片与漂浮结构观测记录",
+      "premise": "本报告记录了对挖掘出的“秘密地图”[1]的解析以及其中记载的“飞行船”航迹的调查。该地图具有一种奇特的性质：根据观察者的认知动态改变地形。随着调查的深入，逐渐暗示漂浮在空中的船只实际上是曾经存在文明的“思维残余”。读者将从零散的报告中拼凑出一个令人震惊的真相：世界正通过观测被重新构建。"
+    }
+  }
 }

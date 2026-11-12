@@ -78,5 +78,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-12T05:28:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気と青い結晶で始まる冒険、アクションは迫力があるけど、キャラの成長がもう少し欲しい感じ。",
+    "good": "迫力あるアクションと世界観",
+    "bad": "キャラの深さ不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T05:57:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

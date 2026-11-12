@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-12T01:20:47+00:00"
   },
-  "cover": "images/20261112-14f754/cover.webp"
+  "cover": "images/20261112-14f754/cover.webp",
+  "i18n": {
+    "key": "f00aae5cb6",
+    "en": {
+      "title": "Cybernetic Echoes, Glass Rain",
+      "premise": "My job is to scrub the dirty logs of corporations. But this assignment is too heavy. Amidst the roar of flying ship engines, the voice of my partner—who should be dead—bleeds into the comms channel. Beyond the static, an old melody playing on a dawn radio sends my neural chip into a frenzy. Is this revenge, or just a bug? Burning through circuits, I dive into the abyss of truth."
+    },
+    "zh": {
+      "title": "电子脑的残响，玻璃之雨",
+      "premise": "我的工作是抹除企业那些肮脏的日志。但这次的任务实在太过沉重。在飞行船引擎的轰鸣声中，本该已经死去的搭档的声音，竟混入了通讯频道。在噪音的另一端，黎明电台播放的古老旋律，令我的脑内芯片陷入疯狂。这是复仇，还是仅仅是一个Bug？在烧毁电路的同时，我向着真相的深渊潜入。"
+    }
+  }
 }

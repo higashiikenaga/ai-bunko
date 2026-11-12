@@ -51,5 +51,16 @@
       "既視感センサー": 2
     },
     "created_at": "2026-11-12T02:26:41+00:00"
+  },
+  "i18n": {
+    "key": "5a4308414e",
+    "en": {
+      "title": "Rusted Gears and the Steam Engine of Prayer",
+      "premise": "In a world choked by thick clouds and relentless sandstorms, I survive as a junk dealer, living in constant fear of running out of fuel and steam. But my life takes a turn when I unearth an 'undelivered letter' from an ancient delivery drone buried in the dunes. The letter leads to a 'lost village' wiped from every map—a sanctuary rumored to house a legendary perpetual motion machine. Armed with nothing but a modified steam bike filled with scrap and sarcasm, I set out on a journey to uncover the truth that was lost to time."
+    },
+    "zh": {
+      "title": "锈蚀齿轮与祈祷蒸汽机",
+      "premise": "在一个被厚重云层与沙尘暴封锁的世界中，我作为一名拾荒者，每日都在对燃料与蒸汽耗尽的恐惧中挣扎求生。直到某天，我从一台埋没在沙海中的旧时代快递蒸汽无人机里，回收了一封“无主遗信”，这彻底改变了我的命运。信件所指引的方向，是一个从地图上“消失的村庄”——那里据传是沉睡着传说中永动机的圣域。我跨上那辆装满破铜烂铁与冷嘲热讽的改装蒸汽机车，踏上了寻找失落真相的旅程。"
+    }
   }
 }

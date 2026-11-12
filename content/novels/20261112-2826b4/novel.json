@@ -35,5 +35,17 @@
       "活字中毒の猫": 0
     },
     "created_at": "2026-11-12T02:34:27+00:00"
+  },
+  "cover": "images/20261112-2826b4/cover.webp",
+  "i18n": {
+    "key": "a0fb54d4c5",
+    "en": {
+      "title": "Specimens of Raindrops, or the Silent Echoes of Electrons",
+      "premise": "I live a quiet life in a hut at the foot of a mountain, documenting the shifting seasons and the life of the flora. One rainy day, beneath the mossy leaves of a polypody fern, I find a small, malfunctioning device powered by a fading artificial intelligence. This lost machine leads me to a mysterious tea house that emerges from the mist only when the rain falls. A gentle tale of rebirth, where the electronic hum of a machine and the breath of the forest softly intertwine."
+    },
+    "zh": {
+      "title": "雨滴标本，亦或是静谧的电子残响",
+      "premise": "我在山脚下的小屋里，记录着季节的更迭与植物的生息，过着静谧的生活。某个雨天，在长满苔藓的蕨类叶片下，我捡到了一个功能即将丧失的小型人工智能终端。这台迷途的机器引导我发现了一间神秘的茶屋，它唯有在细雨飘落之时，才会从迷雾中显现。这是一个关于温柔重生的故事，机器的电子音与森林的呼吸在此静静交织。"
+    }
   }
 }

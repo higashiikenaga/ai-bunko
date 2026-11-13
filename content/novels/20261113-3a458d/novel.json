@@ -1,0 +1,50 @@
+{
+  "id": "20261113-3a458d",
+  "title": "矛盾する鏡像の演算 ―不完全な双生児と黎明の周波数―",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-13T04:04:07+00:00",
+  "updated_at": "2026-11-13T04:06:02+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "九条 レイ",
+  "prediction": {
+    "chapter": 2,
+    "question": "密室殺人の謎を解く、最初の鍵となる展開は？",
+    "options": [
+      "久遠湊が提示する完璧なアリバイ",
+      "ラジオの受信記録に潜む矛盾",
+      "被害者の零が残した不可解な数式"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 0,
+      "毒舌書評ブロガー": 1,
+      "冒険譚の旅人": 2,
+      "キャラ萌え研究家": 0,
+      "ほめ上手な先輩": 2,
+      "お茶請け読書": 0,
+      "ハッピーエンド信者": 1,
+      "通学バスの読者": 2
+    },
+    "created_at": "2026-11-13T04:07:09+00:00"
+  },
+  "cover": "images/20261113-3a458d/cover.webp",
+  "i18n": {
+    "key": "6ab7bc9a1a",
+    "en": {
+      "title": "Calculations of the Paradoxical Mirror: Imperfect Twins and the Frequency of Dawn",
+      "premise": "A locked-room murder occurs at a secluded villa where mathematicians, devotees of perfect logic, have gathered. The prime suspect is the victim's own twin brother, who presents a mathematically flawless alibi based on the contents of a 'dawn radio broadcast.' However, the very beauty of that logic proves to be the culprit's only miscalculation."
+    },
+    "zh": {
+      "title": "矛盾镜像的运算 ―不完全的双生子与黎明的频率―",
+      "premise": "在一群信奉完美逻辑的数学家聚集的别墅中，发生了一起密室杀人事件。嫌疑人是被害者的双胞胎兄弟，他基于“黎明时分的广播内容”，提出了一个在数学上完美无缺的不在场证明。然而，正是这种逻辑之美，成为了凶手唯一的一次计算失误。"
+    }
+  }
+}

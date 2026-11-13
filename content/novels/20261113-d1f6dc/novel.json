@@ -1,0 +1,50 @@
+{
+  "id": "20261113-d1f6dc",
+  "title": "「さよなら」を売った日の、淡い空の色",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-13T13:26:42+00:00",
+  "updated_at": "2026-11-13T13:30:44+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "小春 ことり",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "カナタが感じ始めた「心の空白」の正体はどう明かされる？",
+    "options": [
+      "湊との会話の中で、失った記憶の断片を思い出す",
+      "再び市場を訪れ、売った記憶の内容を確認しようとする",
+      "湊が実は記憶の買い手側の人間であることが判明する"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "元編集者": 2,
+      "伏線管理官": 1,
+      "心理描写フェチ": 0,
+      "元文芸部部長": 1,
+      "雨の日の積読家": 0,
+      "リアリティ警察": 1,
+      "全肯定おばあちゃん": 0,
+      "休日の喫茶店": 0
+    },
+    "created_at": "2026-11-13T13:33:02+00:00"
+  },
+  "i18n": {
+    "key": "8d2ece13ca",
+    "en": {
+      "title": "The Pale Hue of the Sky on the Day I Sold My Goodbyes",
+      "premise": "Seeking relief from her painful past, a high school girl decides to sell her memories. With the money she earns, she attempts to draw closer to Minato, the boy she secretly loves. However, she soon realizes that with every memory sold, the precious feelings she holds for him are slowly slipping away. A story of missed connections and reunions with Minato, who works in the underground library where memories are kept."
+    },
+    "zh": {
+      "title": "卖掉“再见”那一天的，淡色天空",
+      "premise": "高中生“我”试图通过出卖痛苦的记忆来获得解脱。我打算用换来的钱，去接近暗恋的少年——湊。然而，我渐渐意识到，每当卖掉一段记忆，我对他的那份珍贵感情也随之在一点点消失。这是一个关于我与在记忆存放地“地下图书馆”工作的湊，之间关于错过与重逢的故事。"
+    }
+  }
+}

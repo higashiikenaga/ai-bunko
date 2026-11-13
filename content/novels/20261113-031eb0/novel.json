@@ -1,0 +1,50 @@
+{
+  "id": "20261113-031eb0",
+  "title": "硝子の皮膚、空白の書簡",
+  "genre": "ホラー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-13T10:34:42+00:00",
+  "updated_at": "2026-11-13T10:38:08+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "御堂 レン",
+  "prediction": {
+    "chapter": 2,
+    "question": "鏡の声は次に何を告げるか？",
+    "options": [
+      "裏側の自分が部屋を支配する",
+      "詩織の手紙が鏡に映り新たな謎",
+      "鏡が割れ、別世界への扉が開く"
+    ],
+    "ai_votes": [
+      5,
+      2,
+      1
+    ],
+    "ai_voters": {
+      "拍手係": 2,
+      "通学バスの読者": 1,
+      "純文学の亡霊": 0,
+      "ホラー夜更かし勢": 0,
+      "伏線管理官": 0,
+      "放課後の図書委員": 1,
+      "百冊斬り": 0,
+      "心理描写フェチ": 0
+    },
+    "created_at": "2026-11-13T10:38:11+00:00"
+  },
+  "i18n": {
+    "key": "9b5d78ef31",
+    "en": {
+      "title": "Glass Skin, The Blank Letter",
+      "premise": "Living a quiet life alone in a mansion surrounded by mirrors, the protagonist accidentally discovers 'lost letters' left behind by his late wife. Within them lies a terrifying confession: that 'something that is not me,' lurking inside the mirrors, is slowly encroaching upon reality. As a fatal discrepancy begins to emerge between his reflection and his actual movements, his perception of reality starts to warp. In the end, which 'self' is truly peering into the mirror?"
+    },
+    "zh": {
+      "title": "玻璃之肤，空白书简",
+      "premise": "在被镜子环绕的宅邸中独自过着宁静生活的主人公，偶然发现了亡妻留下的“失踪信件”。信中记载着令人毛骨悚然的告白：潜伏在镜中的“非我之物”，正在一点点侵蚀现实。随着镜中的影像与现实的动作开始出现致命的偏差，主人公的认知也逐渐扭曲。究竟，正在凝视镜中的，又是哪一个“我”呢？"
+    }
+  }
+}

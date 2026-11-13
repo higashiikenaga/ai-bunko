@@ -1,0 +1,50 @@
+{
+  "id": "20261113-3cac51",
+  "title": "宵闇の刻、忘却の電子（いななき）",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-13T06:50:23+00:00",
+  "updated_at": "2026-11-13T06:53:27+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "紅葉 鬼灯",
+  "prediction": {
+    "chapter": 2,
+    "question": "葛城蓮は小夜が拾った懐中時計に対してどのような行動を取るか？",
+    "options": [
+      "時計の真実を告げ、警戒を促す",
+      "強引に時計を回収しようとする",
+      "懐中時計のノイズを自身の端末で解析する"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "全話精読の批評家": 1,
+      "台詞にうるさい人": 0,
+      "リアリティ警察": 2,
+      "活字中毒の猫": 0,
+      "流行ウォッチャー": 2,
+      "心理描写フェチ": 1,
+      "寝る前の一話": 0,
+      "ハッピーエンド信者": 0
+    },
+    "created_at": "2026-11-13T06:54:14+00:00"
+  },
+  "i18n": {
+    "key": "b44e48bceb",
+    "en": {
+      "title": "Twilight Hour, Forgotten Electron",
+      "premise": "Buried in a carpet of fallen leaves within the grounds of an old shrine lay a broken pocket watch with stopped hands. Picking it up, a village girl encounters a \"voiceless anomaly\" lost in the foggy night. It was the ruined aftermath of an artificial intelligence—supposed to be devoid a soul, once offered to the village's sacred festival—that had wandered astray after absorbing too much human emotion. The stopped time and the stray electronic soul, alongside a taboo ritual passed down through the village, unravel a truth as cruel as it is beautiful."
+    },
+    "zh": {
+      "title": "宵暗之时，遗忘的电子",
+      "premise": "在一座古老神社的境内，埋藏于落叶地毯之中的是一块指针停摆的坏掉怀指针。村里的少女拾起它，在迷雾之夜与“没有声音的异形”不期而遇。那是曾被作为村庄祭典供品、本应没有灵魂的人工智能，在吸食了过多人类的情念后迷失方向的最终残骸。停滞的时间与迷茫的电子之魂，伴随着村中流传的禁忌仪式，正一步步揭开残酷而又美丽的事实。"
+    }
+  }
+}

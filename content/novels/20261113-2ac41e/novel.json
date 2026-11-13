@@ -36,5 +36,17 @@
       "元文芸部部長": 1
     },
     "created_at": "2026-11-13T00:54:56+00:00"
-  }
+  },
+  "i18n": {
+    "key": "ea47b938ec",
+    "en": {
+      "title": "False Paradise and the Undefined Twin Patch Notes",
+      "premise": "In a city where social credit scores have been reset and lies and truth swirl together, Kai and Rina thought they'd finally grasp a freedom beyond the system's watchful eye. Yet as the city is rebuilt, logs of a “non‑existent twin” begin to infiltrate the system, heralding a new error in a world thought to have collapsed and been rewritten. Armed with a “secret map” to conceal the world’s truth, they dive into the vanishing sea of data."
+    },
+    "zh": {
+      "title": "虚伪的乐园与未定义的双子补丁说明",
+      "premise": "在社会信用分数被重置、谎言与真相交织的混沌城市中，Kai 与 Rina 以为已经获得了系统监视不到的“自由”。然而，随着城市的重建，‘本不应存在的双子’日志突然渗入系统。这预示着本已崩塌、被改写的世界出现了新的错误征兆。手握用于掩盖世界真相的“秘密地图”，他们潜入逐渐消逝的数据海洋。"
+    }
+  },
+  "cover": "images/20261113-2ac41e/cover.webp"
 }

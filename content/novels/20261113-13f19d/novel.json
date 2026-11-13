@@ -52,5 +52,16 @@
     },
     "created_at": "2026-11-13T05:21:55+00:00"
   },
-  "cover": "images/20261113-13f19d/cover.webp"
+  "cover": "images/20261113-13f19d/cover.webp",
+  "i18n": {
+    "key": "f1e757745d",
+    "en": {
+      "title": "The Second-hand Bookstore's Silver Spoon and the Broken Sword Bookmark",
+      "premise": "I work as a clerk at a cozy second-hand book cafe. One day, an elderly gentleman visits, searching for a cherished possession: a brass bookmark shaped like a sword with a broken tip. Between the discovery of a 'lost letter' during a routine cleanup and the mystery of the bookmark, a tale of hidden kindness and a long-delayed truth begins to unfold. This is a gentle story about resolving old misunderstandings and setting a frozen moment in time back into motion."
+    },
+    "zh": {
+      "title": "古本屋的银匙与折断之剑的书签",
+      "premise": "“我”是一名古本咖啡店的店员。某日，一位老绅士造访店内，寻找着他曾经深为珍视的、尖端折断的黄铜剑形书签。随着在整理店内时发现的一封“遗失的信件”，以及对书签之谜的追寻，隐藏在旧书中的温柔与历经岁月终于抵达的真相渐渐浮现。这是一个关于化解误会、让停滞的时间重新流动的小故事。"
+    }
+  }
 }

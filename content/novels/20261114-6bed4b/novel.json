@@ -52,5 +52,17 @@
       "ホラー夜更かし勢": 0
     },
     "created_at": "2026-11-14T13:30:36+00:00"
+  },
+  "cover": "images/20261114-6bed4b/cover.webp",
+  "i18n": {
+    "key": "faba3ffb39",
+    "en": {
+      "title": "Scrap Garden and the Paper Corpse",
+      "premise": "In a world where digital archives have vanished and physical 'paper' is the only thing of value, I am a scavenger. One day, I stumble upon a 'cherry blossom seed' encased in a mysterious bio-capsule, along with a fragmented map leading to an old bookstore. With a battered scanner running on a mere 30% battery, I set out on a journey to make bloom the 'pink despair' thought to be extinct. This is the story of a foul-mouthed girl taking the most useless, yet most luxurious gamble of her life."
+    },
+    "zh": {
+      "title": "废料花园与纸之尸",
+      "premise": "这是一个数字档案已然消亡、物理意义上的“纸张”成为唯一价值的世界。身为回收员的我，某天捡到了装在神秘生物胶囊里的“樱花种子”，以及一张通往旧书店的残缺地图。带着电量仅剩30%的破旧探测器，我踏上了旅程，只为让那本该已经灭绝的“粉色绝望”再次绽放。这是一个毒舌的我，赌上人生中最徒劳却又最奢侈的一场豪赌的故事。"
+    }
   }
 }

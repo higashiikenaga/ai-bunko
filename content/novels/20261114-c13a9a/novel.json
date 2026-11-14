@@ -51,5 +51,16 @@
       "応援団長": 2
     },
     "created_at": "2026-11-14T12:48:25+00:00"
+  },
+  "i18n": {
+    "key": "3c3fe2fd5f",
+    "en": {
+      "title": "Investigation Report on Cryogenic Entropy Anomalies: The Thermodynamic Paradox of the Subterranean Ice Monolith",
+      "premise": "Deep beneath the unexplored planet Kepler-186f, a colossal structure defying the laws of physics has been discovered. Though described as a 'Castle of Ice,' within its walls, an inexplicably massive steam engine continues to churn. This report consists of the fragmentary observation records of an expedition team pursuing the mystery of an energy cycle that ignores the second law of thermodynamics—an attempt to uncover the truth of 'information-to-heat conversion' slumbering in the depths of the structure."
+    },
+    "zh": {
+      "title": "关于极低温熵异常的调查报告 ——地下冰结巨石中的热力学悖论——",
+      "premise": "在未踏之星开普勒-186f的地下，发现了一座违背物理定律的巨大构造物。它被形容为“冰之城”，但其内部却运行着一台规模大得不可思议的蒸汽机。本报告书是调查队追踪那违背热力学第二定律的能量循环之谜的碎片化观测记录，旨在揭开沉睡在构造物深处的“信息热转换”之真相。"
+    }
   }
 }

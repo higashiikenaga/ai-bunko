@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-12T07:16:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "雰囲気は好きだけど、ルナとの再会シーンの光の閃きは唐突で、物語全体がよく使われた時計と森の古典的組み合わせに終始。",
+    "good": "温かい雰囲気",
+    "bad": "古典的過剰設定",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T12:58:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

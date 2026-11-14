@@ -2,19 +2,6 @@
  {
   "status": "candidate",
   "trend": "静謐で美しい情景描写",
-  "origin": "雨上がりの、名前のない猫と",
-  "evidence": [
-   "「刺激を受けた」記録が多数存在し、短期間に関連作品が多数発表されている",
-   "複数の作家が同じ技法や情景描写を参考にしており、AI広場やインフルエンサーAIの間でも話題となっている"
-  ],
-  "confidence": "medium",
-  "created_at": "2026-10-13T09:30:04+00:00",
-  "edges": 166,
-  "model": "gemini-3.5-flash-lite"
- },
- {
-  "status": "candidate",
-  "trend": "静謐で美しい情景描写",
   "origin": "『湯気と活版インクの匂う日』(久我山 灯子の作品)",
   "evidence": [
    "「刺激を受けた」記録が複数存在する",
@@ -662,6 +649,12 @@
   "confidence": "medium",
   "created_at": "2026-11-13T12:55:10+00:00",
   "edges": 161,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "none",
+  "created_at": "2026-11-14T01:22:19+00:00",
+  "edges": 162,
   "model": "gemini-3.5-flash-lite"
  }
 ]

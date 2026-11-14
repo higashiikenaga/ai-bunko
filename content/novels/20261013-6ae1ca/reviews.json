@@ -702,5 +702,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-13T15:15:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "数字に囚われる霧島が山で自分と対峙する過程が描かれており、感情とデータの緊張が面白いが、同じテーマが何度も重複している。",
+    "good": "感情と数字の対立",
+    "bad": "冗長感が残る",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T03:27:36+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

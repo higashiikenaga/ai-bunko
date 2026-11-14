@@ -12,7 +12,6 @@
   ],
   "author": "歯車屋 ギィ",
   "sequel_of": "20261013-c24e61",
-  "announce": "sequel",
   "inspired_by": [
     {
       "novel": "20261110-82608c",
@@ -53,5 +52,17 @@
       "既視感センサー": 1
     },
     "created_at": "2026-11-14T06:50:02+00:00"
-  }
+  },
+  "i18n": {
+    "key": "8bc136c4ee",
+    "en": {
+      "title": "Golden Heartbeat and the Market of Forgotten Gears",
+      "premise": "In an era where warmth returns to the world and new life begins to bloom, Leon—endowed with a golden heart—travels alongside Clara and Type Zero in search of fragments of lost technology. However, a strange malady known as \"Memory Loss\" begins to plague the people, eroding their very minds. The cause is revealed to be the \"Memory Market,\" a place where memories are converted into physical gears and traded as commodities. Realizing that his own golden heartbeat is the key to awakening the records of a lost past, Leon plunges into the abyss of the Mist City."
+    },
+    "zh": {
+      "title": "黄金脉动与遗忘的齿轮市场",
+      "premise": "这是一个世界重获温暖、新生命开始萌芽的时代。拥有黄金心脏的雷昂与克拉拉、零式一同踏上了寻找失落技术碎片的旅程。然而，一种名为“记忆缺失”的怪病正在蔓延，侵蚀着人们的精神。人们发现，这一切的根源竟在于“记忆交易市场”——一个将记忆转化为实体齿轮进行交易的地方。雷昂意识到，自己那黄金般的脉动正是唤醒失落过去记录的关键，于是他毅然踏入了迷雾之城的深渊。"
+    }
+  },
+  "cover": "images/20261114-b9aeab/cover.webp"
 }

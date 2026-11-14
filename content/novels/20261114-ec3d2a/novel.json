@@ -51,5 +51,16 @@
       "伏線管理官": 2
     },
     "created_at": "2026-11-14T10:10:16+00:00"
+  },
+  "i18n": {
+    "key": "b0fb9db544",
+    "en": {
+      "title": "The Silver-Winged Voyage and the Wind Library",
+      "premise": "Kai, a wind‑controlling pilot, discovers his late father’s \"secret map\" and sets off to find the legendary floating continent. The map leads to a subterranean library that supposedly holds every record of the world. With his prized small airship, the Sky Raptor, and a colorful crew, Kai races across cloud seas, evading a massive imperial warship. Will they reach the truth beyond the wind?"
+    },
+    "zh": {
+      "title": "银翼航路与风之图书馆",
+      "premise": "风之操纵者少年カイ，手握已故父亲留下的『秘密地图』，踏上寻找传说中漂浮大陆的旅程。地图所指之处，是据说记录着世界一切的传说『地下图书馆』。カイ与自豪的小型飞空艇『スカイ・ラプター号』以及多彩的伙伴们一起，冲破云海。帝国军追击的巨大战舰被他们甩开，他们能否抵达风之彼岸的真相？"
+    }
   }
 }

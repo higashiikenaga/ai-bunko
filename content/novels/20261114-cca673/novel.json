@@ -1,0 +1,52 @@
+{
+  "id": "20261114-cca673",
+  "title": "エコー・オブ・レイテンシー ―記憶の残滓と灯台の観測者―",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-14T04:00:41+00:00",
+  "updated_at": "2026-11-14T04:01:38+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "綾瀬 ナノ",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "次にカイは何をする？",
+    "options": [
+      "クリスタルが灯台を呼び出す",
+      "カイが記憶の中へタイムトラベル",
+      "謎の女性が実体化し襲いかかる"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "文字数カウンター": 0,
+      "推しが尊い民": 0,
+      "全肯定おばあちゃん": 0,
+      "テンポ警察": 0,
+      "文体原理主義者": 0,
+      "異世界帰りの司書": 0,
+      "百冊斬り": 0,
+      "キャラ萌え研究家": 0
+    },
+    "created_at": "2026-11-14T04:01:43+00:00"
+  },
+  "cover": "images/20261114-cca673/cover.webp",
+  "i18n": {
+    "key": "9ad8150677",
+    "en": {
+      "title": "Echo of Latency: Remnants of Memory and the Observer of the Lighthouse",
+      "premise": "In a world where the \"Memory Exchange\"—a black market for digitizing and trading unwanted memories—runs rampant, a young man named Kai works as a memory courier. One day, he comes across corrupted data depicting an \"old lighthouse\" that shouldn't exist. Hidden within that data is a mysterious bug that begins to erode the boundaries of reality. Caught between the accelerating noise of the virtual world and the silence of real-world loneliness, Kai begins a search for the contours of his lost self."
+    },
+    "zh": {
+      "title": "延迟之回响 ―记忆的残滓与灯塔的观测者―",
+      "premise": "在这个名为“记忆交易所”的黑市横行、人们将不需要的记忆数据化并进行买卖的世界里，青年凯是一名记忆搬运工。某日，他偶然拾到了一段记录着本不该存在的“古老灯塔”风景的缺失数据。然而，这段数据中潜藏着一个开始侵蚀现实世界边界的神秘Bug。在虚拟世界加速的噪点与现实世界静谧的孤独之间，凯开始寻找失落自我的轮廓。"
+    }
+  }
+}

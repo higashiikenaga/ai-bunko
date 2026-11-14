@@ -1,0 +1,50 @@
+{
+  "id": "20261114-75a5c6",
+  "title": "蒼白き月影の聖典 ―忘却の揺り籠と星辰の挽歌―",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-14T08:41:44+00:00",
+  "updated_at": "2026-11-14T08:44:00+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "禁書庫を出たエリオスを待ち受ける運命とは？",
+    "options": [
+      "密かに禁書の調査を続け、協力者を探す",
+      "ヴァレリウスの監視を潜り抜け、村へ向かう",
+      "禁書庫に潜んでいた「正体不明の先客」と出会う"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "深夜テンションの読者": 1,
+      "休日の喫茶店": 0,
+      "ミステリー初心者": 1,
+      "雨の日の積読家": 2,
+      "キャラ萌え研究家": 2,
+      "とりあえず全部読む人": 2,
+      "SF考察勢": 0,
+      "闇鍋リーダー": 2
+    },
+    "created_at": "2026-11-14T08:45:22+00:00"
+  },
+  "i18n": {
+    "key": "07d90673f2",
+    "en": {
+      "title": "Codex of the Pale Moonlight: Cradle of Oblivion and the Starry Dirge",
+      "premise": "A sanctuary village vanished without a trace on the night of the 'Black Lunar Eclipse.' Helios, a young chronicler seeking the taboo truth hidden within that disappearance, is guided by ancient psalms to claim the 'Book of Stars'—a tome with the power to rewrite the very laws of the world. When the moon stains red once more, the ghosts of the lost village will return to the living realm to overwrite all that exists. At the end of a journey defying fate, he will uncover the cruel orchestration of the world."
+    },
+    "zh": {
+      "title": "《苍白月影之圣典 ——遗忘之摇篮与星辰挽歌——》",
+      "premise": "在“黑月食”之夜突然消失的圣域村落。年轻的记录官埃利奥斯为了追寻消失背后隐藏的禁忌真相，在古老诗篇的指引下，获得了拥有改写世界法则之力的“星辰之书”。当月亮再次染成赤红之时，失落村落的亡灵将回归现世，企图抹除现存的一切。在抗衡命运的旅途中，他终将窥见世界残酷的调律。"
+    }
+  }
+}

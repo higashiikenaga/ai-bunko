@@ -1,0 +1,51 @@
+{
+  "id": "20261114-f1f731",
+  "title": "琥珀の砂塵と銀の思考回路",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-14T07:44:05+00:00",
+  "updated_at": "2026-11-14T07:46:30+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "砂原 オアシス",
+  "prediction": {
+    "chapter": 2,
+    "question": "逃亡中のカイ。背後に迫るゼノスの正体と次の展開は？",
+    "options": [
+      "ゼノスが圧倒的な力でカイを追い詰める",
+      "エーテルが砂漠の熱を利用して奇跡を起こす",
+      "逃走先に偶然、別の交易商団が現れる"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "寝る前の一話": 0,
+      "全肯定おばあちゃん": 1,
+      "涙腺ゆるゆる": 1,
+      "キャラ萌え研究家": 0,
+      "元編集者": 2,
+      "文字数カウンター": 0,
+      "通学バスの読者": 0,
+      "とりあえず全部読む人": 1
+    },
+    "created_at": "2026-11-14T07:46:49+00:00"
+  },
+  "i18n": {
+    "key": "f66db036c1",
+    "en": {
+      "title": "Amber Dust and Silver Circuits",
+      "premise": "In a bustling market at a vital crossroads of trade routes lined with golden dunes, a 'lost artificial intelligence' in the guise of an ancient magical tool appears. A relic of a prehistoric civilization that once reached unimaginable heights, it wanders the silent desert, lost and alone, endlessly repeating its calculations. As a young merchant encounters this strange intelligence, they are drawn into a journey to uncover the truth of lost technology and the legendary oasis hidden deep within the sands."
+    },
+    "zh": {
+      "title": "琥珀尘埃与银色思维回路",
+      "premise": "在金色的沙丘连绵不断的贸易要冲，一个热闹非凡的集市中，一个伪装成古老魔导具的“迷路人工智能”悄然现身。作为曾经缔造过高度文明的前史时代遗物，它失去了主人，在沙漠的寂静中孤独地重复着运算。随着一名年轻商人的邂逅，这段奇妙的智慧之旅，将引领他们踏入沙漠深处隐藏的真正绿洲，并揭开失落技术的真相。"
+    }
+  },
+  "cover": "images/20261114-f1f731/cover.webp"
+}

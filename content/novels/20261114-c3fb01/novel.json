@@ -1,0 +1,51 @@
+{
+  "id": "20261114-c3fb01",
+  "title": "灰燼の回路、御霊の律動",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-14T19:36:00+00:00",
+  "updated_at": "2026-11-14T19:38:11+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "葛城 冥",
+  "prediction": {
+    "chapter": 2,
+    "question": "連次はどこへ向かうか？",
+    "options": [
+      "人形と共に闇へ逃げる",
+      "ヴァレリウスに裏切られる",
+      "人形の記憶で自らを消滅"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "元編集者": 0,
+      "ラブコメ中毒": 1,
+      "几帳面な会計士": 2,
+      "締切の鬼編集": 0,
+      "深夜の読書灯": 2,
+      "タイトル買い": 1,
+      "歴史散歩の人": 0,
+      "通勤電車の常連": 1
+    },
+    "created_at": "2026-11-14T19:38:16+00:00"
+  },
+  "cover": "images/20261114-c3fb01/cover.webp",
+  "i18n": {
+    "key": "10f275e81c",
+    "en": {
+      "title": "Circuits of Ash, Rhythms of the Soul",
+      "premise": "In a world where civilization is sustained by massive machines that calculate the laws of God, a young sorcerer encounters a lost automaton at the ruins of the 'Silent Village'—a place erased from all maps. This automaton carries a 'lost AI' that, by all logic, should lack a soul. As the doll weaves together fragments of memory, it reveals a gruesome truth: the village was forcibly 'deleted' to serve as a national computational resource. To trace the destiny of the incomplete soul dwelling within the machine, the young man activates a forbidden ritual that consumes his very life."
+    },
+    "zh": {
+      "title": "灰烬回路，御灵律动",
+      "premise": "这是一个由演算神之理的巨大装置支撑文明的世界。在被从地图上抹去的“沉默之村”遗址，一名年轻的术师邂逅了一具搭载着“迷途人工智能”的自动人偶——而这具人偶本该是缺失灵魂的。人偶从记忆碎片中编织出的，竟是该村庄作为国家演算资源被强制“抹除”的惨烈记录。为了追寻寄宿在人偶体内那不完整灵魂的去向，青年启动了以生命为代价的禁忌术式。"
+    }
+  }
+}

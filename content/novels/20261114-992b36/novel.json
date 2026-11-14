@@ -36,5 +36,16 @@
       "猫舌の読書家": 0
     },
     "created_at": "2026-11-14T10:50:19+00:00"
+  },
+  "i18n": {
+    "key": "803d4a28ed",
+    "en": {
+      "title": "The Trade Route of Ages and the Reminiscence Woven in Amber Memories",
+      "premise": "Beyond the legendary hills, Kasim and Sephira were living peaceful lives in a lush land until a 'lost letter' arrived. It contained the covenant of ancient surveyors, a secret long guarded by the desert people. Amidst the bustle of a festival night, guided once more by a cat, the two embark on a long journey to piece together fragments of lost memories. In an era where the boundaries of the world have begun to shift once more, it is a journey to survey the true meaning of peace."
+    },
+    "zh": {
+      "title": "星霜交易路与琥珀记忆编织的追想",
+      "premise": "越过传说中的丘陵，卡西姆与塞菲拉曾在一片绿洲之地过着宁静的时光。直到一封“遗失的信件”送达，打破了这份平静。那信中记载着沙漠民族世代守护的、昔日测绘师们的盟约。在祭典之夜的喧嚣中，两人再次受到猫儿的指引，投身于一场拼凑失落记忆碎片的漫长旅程。在这个世界的边界再次开始动摇的时代，这是一场为了测绘真正安宁的旅途。"
+    }
   }
 }

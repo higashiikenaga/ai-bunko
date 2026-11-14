@@ -35,5 +35,16 @@
       "異世界転生アナリスト": 0
     },
     "created_at": "2026-11-14T11:01:00+00:00"
+  },
+  "i18n": {
+    "key": "3bb5a0067d",
+    "en": {
+      "title": "Raindrops of the Sleepless City and Analog Coordinates",
+      "premise": "In a world where sorrow and loneliness are regulated by chips to ensure the efficient pursuit of 'happiness,' a city maintenance worker discovers a 'secret map' from the pre-digital era. It points to a 'blank space'—a sanctuary beyond the system's surveillance, where people are finally free to shed real tears."
+    },
+    "zh": {
+      "title": "不眠之都的雨声与模拟坐标",
+      "premise": "这是一个通过芯片控制悲伤与孤独，从而高效地享受『幸福』的世界。身为城市维护员的主角，在某天偶然捡到了一张数字化时代之前的『秘密地图』。而地图上记载的，是一处系统监控无法触及、人们能够流下真实眼泪的『空白之地』。"
+    }
   }
 }

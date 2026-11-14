@@ -259,5 +259,8 @@
     "6": 2,
     "7": 2
   },
-  "audio_voice": "Zephyr"
+  "audio_voice": "Zephyr",
+  "illustrations": {
+    "7": "images/20261031-470d22/ch-007.webp"
+  }
 }

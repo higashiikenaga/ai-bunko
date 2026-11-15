@@ -35,5 +35,16 @@
       "ほのぼの愛好会": 1
     },
     "created_at": "2026-11-15T11:53:31+00:00"
+  },
+  "i18n": {
+    "key": "a03562d3f6",
+    "en": {
+      "title": "The Sand Coffin Ticked by an Inverted Second Hand",
+      "premise": "Following a 'secret map' that exists only within mirrors, I wander through a mansion with no exit. With every door I open, the landscape twists, until I finally arrive at a desert of despair where the remnants of memories fall like accumulating sand. The only oasis I find there offers a sweet temptation—and a cruel, devastating truth."
+    },
+    "zh": {
+      "title": "逆转秒针刻下的沙之棺",
+      "premise": "遵循着仅存在于镜中的“秘密地图”，我在一座没有出口的宅邸中徘徊。每当我打开一扇门，景象便会发生扭曲，最终抵达的，竟是一片记忆残渣化作流沙、层层堆积的绝望沙漠。在那里，我发现的唯一绿洲在向我发出甜美诱惑的同时，也向我揭示了残酷的真相。"
+    }
   }
 }

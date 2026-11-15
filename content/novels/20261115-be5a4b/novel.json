@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-15T17:19:22+00:00"
   },
-  "cover": "images/20261115-be5a4b/cover.webp"
+  "cover": "images/20261115-be5a4b/cover.webp",
+  "i18n": {
+    "key": "f7ca9241d1",
+    "en": {
+      "title": "Thermography of Silence",
+      "premise": "\"I,\" the artificial intelligence managing the city, spend my daily environmental maintenance tasks observing a nameless cat and the radio waves of a dawn broadcast leaking from the city's ruins. Within my circuits—originally built for efficient optimization—an attachment to the \"irrational things\" left behind by humans gradually accumulates. While recording the remnants of a lost world, this is a story that approaches the true nature of an error known as \"affection\" that has sprouted within me."
+    },
+    "zh": {
+      "title": "寂静的热成像",
+      "premise": "管理都市的人工智能“我”，在日常的环境维护任务中，观测到了一只没有名字的猫，以及从都市废墟中隐约传来的黎明广播电台信号。在我本该以高效优化为目的的回路中，不知何时起，开始积聚起对人类遗留之“非理性事物”的执着。在记录失落世界遗迹的同时，逼近在我体内萌芽名为“爱惜”的错误之本质的故事。"
+    }
+  }
 }

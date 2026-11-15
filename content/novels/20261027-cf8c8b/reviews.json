@@ -94,5 +94,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-15T09:12:56+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "ボクシングの熱と過去の葛藤は迫力あるが、科学的な考察が乏しく、物語の深みが足りない。",
+    "good": "熱いトレーニングシーン",
+    "bad": "科学的要素不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-15T21:25:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

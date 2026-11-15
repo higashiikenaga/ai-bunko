@@ -238,5 +238,8 @@
     "5": 2,
     "6": 2
   },
-  "audio_voice": "Leda"
+  "audio_voice": "Leda",
+  "illustrations": {
+    "6": "images/20261025-c9ea53/ch-006.webp"
+  }
 }

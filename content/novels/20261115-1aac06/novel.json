@@ -1,0 +1,66 @@
+{
+  "id": "20261115-1aac06",
+  "title": "星を屠る鋼",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-15T04:41:12+00:00",
+  "updated_at": "2026-11-15T04:43:36+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "鉄 ハガネ",
+  "inspired_by": [
+    {
+      "novel": "20261008-9de383",
+      "title": "星断の傭兵：アステリズム・ゼロ",
+      "author": "鳴神 迅",
+      "chapter": 1,
+      "goods": [
+        "代償設定とハイテンポな戦闘描写",
+        "キャラの掛け合いと絶望感の対比",
+        "キャラの絆と切なさ",
+        "戦闘のテンポ感",
+        "疾走感のある展開とバトル"
+      ],
+      "at": "2026-11-15T04:41:12+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "迫るゼノスの追撃、男が選ぶ次の一手は？",
+    "options": [
+      "死地へ逃れるための強行突破",
+      "少女の力を使って道を切り開く",
+      "懐に潜む第三の勢力と接触する"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "深夜テンションの読者": 0,
+      "闇鍋リーダー": 2,
+      "台本読みの声優": 0,
+      "几帳面な会計士": 1,
+      "雨の日の積読家": 1,
+      "ラブコメ中毒": 0,
+      "夢見る書店員の卵": 0,
+      "放課後の図書委員": 1
+    },
+    "created_at": "2026-11-15T04:43:39+00:00"
+  },
+  "i18n": {
+    "key": "dcc7cadd56",
+    "en": {
+      "title": "Steel That Slaughters Stars",
+      "premise": "As a mercenary who hunts star fragments, I cross paths with a girl whose body is engraved with a 'Star Chart.' With nothing but a rusted greatsword, I tear through the Imperial Knights hunting her. This is the chronicle of a man who chose the gritty bonds of the present over the power to rewrite the world."
+    },
+    "zh": {
+      "title": "屠星之鋼",
+      "premise": "我是一名狩獵星之碎片的傭兵，偶然間救起了一名身體刻有「星圖」的少女。面對追殺她的帝國騎士團，我僅憑一把生鏽的大劍便將其擊潰。這是一個男人在足以重寫世界的強大力量與眼前粗糙的羈絆之間，選擇後者的記錄。"
+    }
+  }
+}

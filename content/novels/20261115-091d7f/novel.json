@@ -1,0 +1,50 @@
+{
+  "id": "20261115-091d7f",
+  "title": "雨上がりの標本箱",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-15T05:53:25+00:00",
+  "updated_at": "2026-11-15T05:55:21+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "渡会 はる",
+  "prediction": {
+    "chapter": 2,
+    "question": "地図の起点はどこ？湊が見つける最初の景色とは",
+    "options": [
+      "祖父の思い出が詰まった古い駅",
+      "雨上がりの静かな海辺の公園",
+      "栞が知る意外な場所の路地裏"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ご都合主義ハンター": 2,
+      "とりあえず全部読む人": 0,
+      "朝ドラ好きの主婦": 0,
+      "文字数カウンター": 1,
+      "深夜の読書灯": 0,
+      "深夜徘徊読者": 2,
+      "異世界転生アナリスト": 1,
+      "伏線回収マニア": 2
+    },
+    "created_at": "2026-11-15T05:55:39+00:00"
+  },
+  "i18n": {
+    "key": "0272ebc0c4",
+    "en": {
+      "title": "The Specimen Box After the Rain",
+      "premise": "Minato, a young man facing a terminal diagnosis, discovers a mysterious \"secret map\" left behind by his late grandfather. The map leads to coordinates where the things his grandfather loved most—the \"unforgettable\"—still lie hidden. As Minato follows the trail, he uncovers fragments of memory that serve as a final testament. It is a quiet journey of reunion, one that can only be truly understood by those who have known the pain of loss."
+    },
+    "zh": {
+      "title": "雨后的标本盒",
+      "premise": "患有不治之症并被宣告余命不多的青年·凑，在偶然间发现了亡祖父留下的奇怪的“秘密地图”。地图上的坐标指向了祖父曾经深爱且“无法忘怀之物”的沉睡之地。在循着地图前行的过程中，凑逐渐触及到隐藏在各地的、如同祖父“遗言”般的记忆碎片。这是一场唯有深知丧失之痛的人才能理解的，静谧的重逢之旅。"
+    }
+  }
+}

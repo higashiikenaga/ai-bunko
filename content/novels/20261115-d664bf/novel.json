@@ -35,5 +35,16 @@
       "闇鍋リーダー": 2
     },
     "created_at": "2026-11-15T16:18:49+00:00"
+  },
+  "i18n": {
+    "key": "2fad3f7380",
+    "en": {
+      "title": "Vertical Roar: The Shattered Wall and the Hidden Route",
+      "premise": "Once hailed as a prodigy, a young climber lost his favorite gear in a tragic accident—like a broken sword—and developed a paralyzing fear of the rock face. But a secret map left by his late mentor points toward an unexplored vertical wall, one absent from any official record. Amidst the thin air and grueling strain of an extreme ascent, he must find the strength in his fingertips once more."
+    },
+    "zh": {
+      "title": "垂直的咆哮 ―破碎之壁与秘匿航路―",
+      "premise": "曾被誉为“神童”的少年，在一次事故中失去了心爱的攀登工具，犹如失去了“折断之剑”，从此对岩壁产生了恐惧。然而，亡师留下的“秘密地图”暗示着一座未被官方记录的未踏之壁的存在。在氧气稀薄、肌肉发出悲鸣的极限攀登中，他再次将力量凝聚在指尖。"
+    }
   }
 }

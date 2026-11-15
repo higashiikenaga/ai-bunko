@@ -1,0 +1,52 @@
+{
+  "id": "20261115-9aed19",
+  "title": "鋼鉄咆哮！スターチャート・インフィニティ",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-15T16:39:22+00:00",
+  "updated_at": "2026-11-15T16:41:47+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "雷電 ゴウ",
+  "sequel_of": "20261109-c6bb3e",
+  "prediction": {
+    "chapter": 2,
+    "question": "星図が示す先は何になる？",
+    "options": [
+      "リラが失われた記憶を取り戻す",
+      "カイトが次元合体の儀式を開始",
+      "謎の声がヴォイド・イーターを召喚"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "通学バスの読者": 2,
+      "ファンタジー古参勢": 1,
+      "応援団長": 0,
+      "休日の喫茶店": 2,
+      "朝活読書": 1,
+      "ほのぼの愛好会": 0,
+      "書店員の目": 1,
+      "雨の日の積読家": 2
+    },
+    "created_at": "2026-11-15T16:41:50+00:00"
+  },
+  "cover": "images/20261115-9aed19/cover.webp",
+  "i18n": {
+    "key": "9b915ae273",
+    "en": {
+      "title": "Steel Roar! Starchart Infinity",
+      "premise": "After defeating the Zero Void and beginning the world's reconstruction, Kaito and Rila set out on a journey toward the 'Hill of Promise' where they swore an oath. However, waiting at the edge of the world is the ultimate bug, the 'Void Eater,' seeking to reduce all data to nothingness! Surpassing even soul resonance, a dimensional-breaking fusion and a steel roar that burns away despair echo once again!"
+    },
+    "zh": {
+      "title": "钢铁咆哮！星图无限",
+      "premise": "在打倒零之虚无、世界开始重建之后，Kaito与Rila为了实现彼此发誓的“约定之丘”而踏上了旅程。然而，在世界的尽头，试图将所有数据归零的终极程序错误“虚无吞噬者”正等待着他们！超越灵魂共鸣、突破次元的合意融合，以及燃尽绝望的钢铁咆哮再次响彻云霄！"
+    }
+  }
+}

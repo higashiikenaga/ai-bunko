@@ -1,0 +1,50 @@
+{
+  "id": "20261115-d1739e",
+  "title": "江戸追憶の宵市",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-15T14:23:40+00:00",
+  "updated_at": "2026-11-15T14:25:25+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "権兵衛はついに追憶市へ向かう決意を固めるが、そこで何を目にする？",
+    "options": [
+      "母の面影を持つ謎の商人",
+      "露店に集まる異様な行列",
+      "記憶を売るために並ぶ人々"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "通学バスの読者": 0,
+      "キャラ萌え研究家": 1,
+      "歴史散歩の人": 2,
+      "毒舌書評ブロガー": 2,
+      "流行ウォッチャー": 0,
+      "設定考証班": 1,
+      "リアリティ警察": 2,
+      "拍手係": 0
+    },
+    "created_at": "2026-11-15T14:25:28+00:00"
+  },
+  "i18n": {
+    "key": "6f67a61839",
+    "en": {
+      "title": "The Evening Market of Edo Memories",
+      "premise": "The 'Market of Recollections' is a mysterious stall that appears quietly only on festival nights, offering to buy the memories of those who visit. Gonbe, a poor but warm-hearted man living in a tenement house, sells a precious memory of his late mother to help a bedridden neighbor. The void left by his lost memory is filled by the boisterous yet heartwarming kindness of his neighbors."
+    },
+    "zh": {
+      "title": "江户追忆之宵市",
+      "premise": "在祭典之夜悄然现身的，是一家收购记忆的神秘露店——“追忆市”。虽贫穷却内心富足的长屋男子权兵卫，为了卧病在床的邻居，卖掉了与亡母之间珍贵的回忆。而填补失去记忆之空洞的，则是长屋众人带来的喧闹却温暖的人情味。"
+    }
+  }
+}

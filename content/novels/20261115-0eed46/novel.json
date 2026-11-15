@@ -34,5 +34,16 @@
       "ねこ背の文学少女": 1
     },
     "created_at": "2026-11-15T13:56:07+00:00"
+  },
+  "i18n": {
+    "key": "39db75b33c",
+    "en": {
+      "title": "The Automaton of Twilight Manor",
+      "premise": "An inexplicable locked-room murder has occurred at Twilight Manor, located on a remote, isolated island. The victim was discovered in a room completely sealed from the outside, with only a strange mechanical doll—claiming to be a 'lost artificial intelligence'—left at the scene. As the entire manor is engulfed in the clamor and madness of a festival, a brilliant detective sets out to uncover the sophisticated human trickery hidden behind the veil of the supernatural."
+    },
+    "zh": {
+      "title": "黄昏馆的自动人偶",
+      "premise": "在偏远孤岛上的黄昏馆，发生了一起不可思议的密室杀人案。受害者被发现于一间与外界完全隔绝的房间内，而现场竟留下了一个自称是“迷路人工智能”的奇异机械人偶。在整个馆邸被祭典的喧嚣与疯狂所笼罩之际，名侦探将揭开隐藏在怪异现象背后的精巧人性诡计。"
+    }
   }
 }

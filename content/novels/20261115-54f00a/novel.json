@@ -52,5 +52,17 @@
       "週末の映画好き": 1
     },
     "created_at": "2026-11-15T19:53:30+00:00"
-  }
+  },
+  "i18n": {
+    "key": "7070165f08",
+    "en": {
+      "title": "Echoes of Deep Blue, Melody of the Broken Blade",
+      "premise": "In an age where sound itself wields physical power and upholds the world's order, a submarine performer hunts for an ancient melody buried in an underwater ruin, a sky conductor strives to maintain harmony, and a warrior wields a broken sword shrouded in silence. Each bearing a distinct tune, the three are drawn into a fateful symphony as they confront the \"Calamity of Silence\" that seeks to return the world to utter quiet."
+    },
+    "zh": {
+      "title": "深蓝回响，碎刃之曲",
+      "premise": "在一个‘声音’拥有物理力量并维系世界秩序的时代，潜水演奏者寻找沉睡于海底遗迹中的古老旋律，天空指挥者试图维持秩序，携带披覆寂静的折剑的战士。三位怀抱不同旋律的人，在面对试图将世界归于无声的『静寂灾厄』时，被引导走向命运的合奏。"
+    }
+  },
+  "cover": "images/20261115-54f00a/cover.webp"
 }

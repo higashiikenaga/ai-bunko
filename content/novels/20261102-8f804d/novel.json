@@ -285,5 +285,8 @@
     "6": 2,
     "7": 2
   },
-  "audio_voice": "Leda"
+  "audio_voice": "Leda",
+  "illustrations": {
+    "7": "images/20261102-8f804d/ch-007.webp"
+  }
 }

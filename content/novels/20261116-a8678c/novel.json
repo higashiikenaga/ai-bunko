@@ -1,0 +1,66 @@
+{
+  "id": "20261116-a8678c",
+  "title": "事象の断片：パルス・エッジの残照",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-16T19:44:42+00:00",
+  "updated_at": "2026-11-16T19:47:50+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "七海 シグマ",
+  "inspired_by": [
+    {
+      "novel": "20261025-89e5db",
+      "title": "星海を渡る翼と、光速の最終列車",
+      "author": "月城 すばる",
+      "chapter": 1,
+      "goods": [
+        "光の回廊描写が秀逸",
+        "情報の星雲の不気味な描写",
+        "詩的で美しい情景描写",
+        "リナとカイトの切ない関係性",
+        "情景描写の美しさと没入感"
+      ],
+      "at": "2026-11-16T19:44:43+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "カイエンが手に入れた「折れた剣」の秘密とは？",
+    "options": [
+      "局長と手を組み街を救う",
+      "実は星の意思を持つAIだった",
+      "時空を超えた過去からの警告"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ほのぼの愛好会": 1,
+      "SF考察勢": 2,
+      "ほめ上手な先輩": 0,
+      "通学バスの読者": 1,
+      "深夜徘徊読者": 2,
+      "文字数カウンター": 0,
+      "応援団長": 0,
+      "放課後の図書委員": 1
+    },
+    "created_at": "2026-11-16T19:49:13+00:00"
+  },
+  "i18n": {
+    "key": "8348280e77",
+    "en": {
+      "title": "Fragments of the Event: Afterglow of Pulse Edge",
+      "premise": "A colossal ring structure siphons the rotational energy of a neutron star. In this place, where fierce electromagnetic pulses rain down incessantly, artificial magnetic shielding is the only thing that makes rest possible in the 'City That Never Sleeps.' One day, a young recovery worker discovers a fragment of ultra-high-density matter said to have once rent the universe asunder—the wreckage of an ancient probe known as the 'Broken Sword.' The data hidden within the fragment reveals a terrifying truth: the neutron star's rotation is decelerating faster than predicted, and the city is on the verge of being swallowed by gravity."
+    },
+    "zh": {
+      "title": "事象之碎片：脉冲边缘的残照",
+      "premise": "一个夺取中子星旋转能量的巨大环状结构体。在电磁脉冲不断倾泻而下的那个地方，如果没有人工磁屏蔽，甚至无法获得片刻休息，这里是一座真正的“不夜城”。某日，一名从事回收工作的青年拾到了一块据称曾撕裂宇宙的超高密度物质碎片——被称作“折断之剑”的古代探测器残骸。而碎片中隐藏的数据揭示了一个残酷的真相：中子星的自转速度正在以超出预期的速度丧失，整座城市即将被重力吞噬。"
+    }
+  }
+}

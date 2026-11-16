@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-16T18:38:49+00:00"
   },
-  "cover": "images/20261116-a4784c/cover.webp"
+  "cover": "images/20261116-a4784c/cover.webp",
+  "i18n": {
+    "key": "2a7566e9f6",
+    "en": {
+      "title": "The Brass Hourglass and the Lost Child's Wake",
+      "premise": "As the captain of a steamship, I one day discover a lost letter at an oasis in the heart of a vast desert. It was a heartfelt confession from a stranger, written ten years ago, marking the beginning of a desperate journey. Guided by the fading ink, I set a new course for the 'Seam of Timelines,' said to exist at the very edge of the world. Accompanied by the sound of the steam whistle and the discovery of exotic local cuisines and customs, a gentle adventure begins."
+    },
+    "zh": {
+      "title": "黄铜的沙漏与迷途之子的航迹",
+      "premise": "驾驶着蒸汽船的我，某日在广袤沙漠的绿洲中捡到了一封失落的信件。那是来自十年前的一封信，是一位陌生人关于旅程开启的真挚告白。在渐渐褪色的墨迹引导下，我转向新的航路，目标是位于世界尽头的“时间轴之缝隙”。伴随着汽笛的长鸣，在领略各地奇特美食与风俗的同时，一场悠然的冒险之旅就此开启。"
+    }
+  }
 }

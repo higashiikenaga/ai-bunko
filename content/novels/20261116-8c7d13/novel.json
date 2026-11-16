@@ -1,0 +1,50 @@
+{
+  "id": "20261116-8c7d13",
+  "title": "散りゆく刃の追憶",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-16T19:29:45+00:00",
+  "updated_at": "2026-11-16T19:32:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "霧島 探偵社",
+  "prediction": {
+    "chapter": 2,
+    "question": "乾が最初に踏み込む事件の真相とは？",
+    "options": [
+      "折れた刀こそが凶器という密室トリック",
+      "警察も隠す九条家の暗い過去の暴露",
+      "栞自身が犯人であるという悲劇の結末"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 0,
+      "台詞にうるさい人": 1,
+      "書店員の目": 2,
+      "涙腺ゆるゆる": 2,
+      "ミステリー初心者": 1,
+      "毒舌書評ブロガー": 0,
+      "リアリティ警察": 0,
+      "夢見る書店員の卵": 2
+    },
+    "created_at": "2026-11-16T19:33:42+00:00"
+  },
+  "i18n": {
+    "key": "2543813a25",
+    "en": {
+      "title": "Memories of the Scattering Blade",
+      "premise": "“...Where should I take this sword?” she murmured, visiting the office amidst the pouring rain. In her hands, she clutched a brutally broken ancient blade and a handful of out-of-season cherry blossom petals. A murder in a locked-room antique shop. The cherry blossoms and the broken sword left at the scene—this absurd combination awakens the darkness of a sleeping town. Through a haze of cigarette smoke, I will pursue the ominous truth."
+    },
+    "zh": {
+      "title": "凋零之刃的追忆",
+      "premise": "“……这把剑，该带到哪里去好呢？” 在倾盆大雨中，造访事务所的女子如此呢喃。她的手中紧握着一把断裂得惨不忍睹的古剑，以及几片不合时节的樱花瓣。一起发生在密室古董店内的杀人事件。现场留下的樱花与断剑，这种荒诞的组合唤醒了沉睡小镇的黑暗。我将在烟雾缭绕中，追寻那不祥的真相。"
+    }
+  }
+}

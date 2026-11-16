@@ -35,5 +35,16 @@
       "SF考察勢": 2
     },
     "created_at": "2026-11-16T14:14:50+00:00"
+  },
+  "i18n": {
+    "key": "e498f35e2e",
+    "en": {
+      "title": "Deadline Runner of the Resounding Echo",
+      "premise": "In an era where sound is vanishing from the world and magic is fading away, Kai, a young \"Sound Collector\" who harvests and sells sounds, comes into possession of the \"Dawn Radio\"—a device broadcasting mysterious, unidentified transmissions. The radio reveals the schedule for the \"Final Train,\" the sole means to reboot the world and halt the encroaching silence. Alongside a cynical former knight, Kai must outrun the Empire that enforces silence and race toward the very edge of the world."
+    },
+    "zh": {
+      "title": "绝响的极限奔跑者",
+      "premise": "这是一个声音正从世界消失、魔法也逐渐流逝的时代。名为凯（Kai）的少年是一名收集并贩卖声音的“拾音人”。某日，他偶然得到了播送着神秘广播的《黎明广播》。广播中传出的，是重启世界、终结寂静的唯一手段——“末班列车”的运行时刻表。凯与一名愤世嫉俗的前骑士一同，甩掉强行施加寂静的帝国，向着世界的尽头疾驰而去。"
+    }
   }
 }

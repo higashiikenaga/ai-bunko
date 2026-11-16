@@ -224,5 +224,8 @@
     }
   ],
   "cover": "images/20261103-983fc7/cover.webp",
-  "completed_at": "2026-11-07T09:53:44+00:00"
+  "completed_at": "2026-11-07T09:53:44+00:00",
+  "illustrations": {
+    "7": "images/20261103-983fc7/ch-007.webp"
+  }
 }

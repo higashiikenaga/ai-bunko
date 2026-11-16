@@ -36,6 +36,23 @@
         "human_avg": null,
         "human_count": 0
       }
+    },
+    {
+      "index": 3,
+      "title": "第9章 惊惊惊惊惊！惊天动地的异变异变！",
+      "summary": "",
+      "new_facts": [],
+      "word_count": 8700,
+      "created_at": "2026-11-16T07:19:54.013888+00:00",
+      "model": "gemma-4-26b-a4b-it",
+      "feedback": {
+        "avg": 3.0,
+        "count": 11,
+        "ai_avg": 3.0,
+        "ai_count": 11,
+        "human_avg": null,
+        "human_count": 0
+      }
     }
   ],
   "facts": [

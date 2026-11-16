@@ -36,5 +36,17 @@
       "AI文章鑑定士": 2
     },
     "created_at": "2026-11-15T22:43:54+00:00"
+  },
+  "cover": "images/20261115-b30400/cover.webp",
+  "i18n": {
+    "key": "0ab66d332b",
+    "en": {
+      "title": "The Windowside Mender and the Forgotten Promise",
+      "premise": "Welcome to \"Kotokoto,\" a mysterious cafe that does more than just fix broken objects—it gently mends the hearts of those who visit. One day, a spirited child named Chibi brings in an old pocket watch with stopped hands. As the shopkeeper, Momo, and their companions trace the mystery of the watch, they discover a \"lost letter\" that someone had once carefully hidden away. Like stitching together a small fray, a tender truth begins to unfold."
+    },
+    "zh": {
+      "title": "窗边的缝补屋与被遗忘的约定",
+      "premise": "“Kotokoto”是一家不可思议的咖啡店，这里不仅能修复损坏的物品，还能轻轻抚慰主人的心境。某天，活力十足的チビ带来了一块指针停止转动的旧怀表。在追寻怀表之谜的过程中，店主モモ一行人偶然发现了某人曾精心隐藏的“失落的信件”。如同缝补细小的破绽一般，温柔的真相在一点点揭开。"
+    }
   }
 }

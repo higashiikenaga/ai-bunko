@@ -53,5 +53,16 @@
     },
     "created_at": "2026-11-16T03:42:30+00:00"
   },
-  "cover": "images/20261116-2a355f/cover.webp"
+  "cover": "images/20261116-2a355f/cover.webp",
+  "i18n": {
+    "key": "908e3a9e68",
+    "en": {
+      "title": "Echoes of the Silver Mirror and the Collapsing Eclipse",
+      "premise": "Having become the heart of the world, my ceaseless beating weathers away all things and continues to consume memories. One day, at a market where memories are sold, I find a fragment of my former human self displayed as merchandise. To reclaim this contradiction of who I am, I slip through a mirror's door and head toward the night of the eclipse, where everything returns to nothingness. Even who I am is rewritten with every backward tick of the clock's hands."
+    },
+    "zh": {
+      "title": "银镜的回响与崩落的月食",
+      "premise": "化作世界心脏的我，正以不息的搏动风化万物，不断消耗着记忆。某天，我在贩卖记忆的市场上，发现了我自己“身为人类时的碎片”正作为商品陈列着。为了回收我自身的这份矛盾，我潜入镜之门，踏上了驶向将一切归于虚无的月食之夜的旅程。甚至连我是谁，也随着时钟指针的倒转而被不断改写。"
+    }
+  }
 }

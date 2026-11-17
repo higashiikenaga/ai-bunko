@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-17T06:44:44+00:00"
   },
-  "cover": "images/20261117-6a4229/cover.webp"
+  "cover": "images/20261117-6a4229/cover.webp",
+  "i18n": {
+    "key": "a892995bdf",
+    "en": {
+      "title": "Breath of Reversal: From the Hill of Promises to the Final Train",
+      "premise": "Having almost given up on basketball due to an injury, 'I' step back onto the court with a struggling team, carrying the vow made with my former best friend on the 'Hill of Promises.' Hellish basic drills and intense matches that make my lungs feel like they're burning. The final tournament, risking everything, marks the end of our youth. Will we seize glory, or a regret that passes by like the 'final train'?"
+    },
+    "zh": {
+      "title": "逆转之呼吸 —从约定之丘，驶向末班列车—",
+      "premise": "因伤险些放弃篮球的“我”，怀揣着与昔日挚友在“约定之丘”发下的誓言，在弱小队伍中再次站上球场。如地狱般的基础训练，灼烧肺部的激烈比赛。赌上一切的最终锦标赛，宣告着我们青春的终结。究竟能抓住所向披靡的荣光，还是如“末班列车”般转瞬即逝的遗憾？"
+    }
+  }
 }

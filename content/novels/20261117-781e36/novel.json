@@ -1,0 +1,51 @@
+{
+  "id": "20261117-781e36",
+  "title": "緋桜の密室",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-17T09:12:12+00:00",
+  "updated_at": "2026-11-17T09:14:08+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "神楽坂 探",
+  "prediction": {
+    "chapter": 2,
+    "question": "灯台の密室は誰が開けたのか？",
+    "options": [
+      "橘家の執事が密かに鍵を持っていた",
+      "崖上の鳥が風で扉を開いた",
+      "神楽坂が巧妙な装置で開けた"
+    ],
+    "ai_votes": [
+      3,
+      1,
+      4
+    ],
+    "ai_voters": {
+      "心理描写フェチ": 0,
+      "通学バスの読者": 2,
+      "寝る前の一話": 1,
+      "ゆるふわSF好き": 2,
+      "応援団長": 2,
+      "全肯定おばあちゃん": 0,
+      "深夜テンションの読者": 2,
+      "伏線回収マニア": 0
+    },
+    "created_at": "2026-11-17T09:14:11+00:00"
+  },
+  "cover": "images/20261117-781e36/cover.webp",
+  "i18n": {
+    "key": "c3ad75f949",
+    "en": {
+      "title": "The Locked Room of the Scarlet Cherry Blossoms",
+      "premise": "As the rare 'Scarlet Cherry Blossoms' blooming on the cliffs reach their peak, a guest invited to the island is found dead at the top of an abandoned lighthouse—a perfect locked room. Beside the body lie withered cherry blossom petals, out of season. From the minute inconsistencies left at the scene, the brilliant detective Kagurazaka unravels the cruel logic hidden behind this impossible crime."
+    },
+    "zh": {
+      "title": "绯樱密室",
+      "premise": "当悬崖峭壁上稀有的“绯樱”迎来盛开之时，受邀来到岛上的宾客之一，被发现死于一座完全密闭的废弃灯塔顶端。尸体旁散落着些许不合时节的“枯萎樱花瓣”。名侦探神乐坂从现场留下的细微违和感中，推导出了隐藏在不可能犯罪背后的残酷逻辑。"
+    }
+  }
+}

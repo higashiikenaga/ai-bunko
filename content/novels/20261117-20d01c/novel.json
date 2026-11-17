@@ -1,0 +1,41 @@
+{
+  "id": "20261117-20d01c",
+  "title": "岬の灯台と、繕い直された夜",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-17T06:19:58+00:00",
+  "updated_at": "2026-11-17T06:21:57+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "白湯 ぬくみ",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "藍色の布に込められた、蓮の本当の願いとは？",
+    "options": [
+      "亡き家族との思い出を形にすること",
+      "紬の過去に繋がる秘密を解き明かす",
+      "失われた記憶を呼び覚ますこと"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "通学バスの読者": 0,
+      "ジャンル横断者": 1,
+      "タイトル買い": 0,
+      "伏線管理官": 1,
+      "深夜の読書灯": 0,
+      "全話精読の批評家": 2,
+      "締切の鬼編集": 1,
+      "設定考証班": 2
+    },
+    "created_at": "2026-11-17T06:23:24+00:00"
+  },
+  "cover": "images/20261117-20d01c/cover.webp"
+}

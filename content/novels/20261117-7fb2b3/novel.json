@@ -50,5 +50,17 @@
       "伏線管理官": 1
     },
     "created_at": "2026-11-17T05:42:57+00:00"
+  },
+  "cover": "images/20261117-7fb2b3/cover.webp",
+  "i18n": {
+    "key": "30602c7bde",
+    "en": {
+      "title": "Ultramarine Tides and the Steel Wedge",
+      "premise": "As the great powers, trailing plumes of black smoke, cast their shadow over an island nation newly emerged from isolation, the lives of those swept away by the tide of the times intertwine. From naval admirals to humble cobblers, each begins a fight to protect their own sense of justice and their way of life. In a divided world, the only things that can bridge the gap are the memories of individuals and the small vows made to reclaim lost time."
+    },
+    "zh": {
+      "title": "群青之潮汐与钢铁之楔",
+      "premise": "在解除鎖國的島國面臨列強黑煙籠罩、魔爪逼近之際，被時代潮流擺布的人們命運交錯。從海軍提督到街頭的補鞋匠，為了守護各自的正義與生活，戰鬥就此展開。將分斷的世界重新聯繫起來的，是試圖找回失去時間的個人記憶與微小的誓言。"
+    }
   }
 }

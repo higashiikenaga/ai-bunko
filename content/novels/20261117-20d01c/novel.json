@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-17T06:23:24+00:00"
   },
-  "cover": "images/20261117-20d01c/cover.webp"
+  "cover": "images/20261117-20d01c/cover.webp",
+  "i18n": {
+    "key": "7b1c8d0132",
+    "en": {
+      "title": "The Lighthouse on the Cape and the Night That Was Mended",
+      "premise": "At the breezy tip of a sea‑scented cape, Tsumugi tends the lighthouse and runs a tiny mending shop. She carefully restores old clothes and tools that still hold their owners' memories, offering quiet comfort to every visitor. One lunar‑eclipse night, a traveler arrives bearing a faded piece of ancient cloth. That single fragment sets in motion a gentle tale of stitching together lost moments."
+    },
+    "zh": {
+      "title": "岬之灯塔与被修补的夜",
+      "premise": "在海风拂面的岬角尽头，守护灯塔的守灯人和经营小小修补铺的女子——紬的故事。她细心修复承载主人记忆的旧衣旧物，温柔地贴近来访者的心。某次月食之夜，旅人带来一块褪色的古布。这块布开启了一段静静的物语，试图把失去的宝贵时光重新连结。"
+    }
+  }
 }

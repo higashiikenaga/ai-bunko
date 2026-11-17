@@ -31,5 +31,16 @@
     },
     "created_at": "2026-11-17T19:10:39+00:00"
   },
-  "cover": "images/20261117-1f3ea4/cover.webp"
+  "cover": "images/20261117-1f3ea4/cover.webp",
+  "i18n": {
+    "key": "748ffb0b9b",
+    "en": {
+      "title": "Amber‑Tinted Memories and the Sky‑Traveling Table",
+      "premise": "An elderly captain who pilots a massive grain ship that sails the skies meets his daughter, who has lost the taste of her late mother’s cooking. One day she stumbles upon a hidden corner of an underground library and discovers an ancient book containing forgotten recipes—culinary memories the family once shared, thought impossible to recreate. Amid the ship’s turbulence and the library’s hushed silence, they strive to bring those lost moments back to the dinner table."
+    },
+    "zh": {
+      "title": "琥珀色的记忆与飞向天空的餐桌",
+      "premise": "一位驾驶巨型空中谷物船的年迈船长，和已经忘记已故母亲味道的女儿的故事。某天，女儿在偶然发现的地下图书馆的一个角落里，遇到记载失传食谱的古老书籍——那是曾经全家共享、如今似乎再也无法复原的料理记忆。在空中船只的摇晃与地下图书馆的寂静之间，两人努力把失去的时光召回餐桌。"
+    }
+  }
 }

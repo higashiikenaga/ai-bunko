@@ -1,0 +1,51 @@
+{
+  "id": "20261117-c7bdf7",
+  "title": "灰白の歯車と、千年の落花 ―黎明の蒸気機関が奏でる挽歌―",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-17T08:02:16+00:00",
+  "updated_at": "2026-11-17T08:04:20+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "迫り来る聖騎士機巧団から、二人は逃げ切れるか？",
+    "options": [
+      "シオンの未知なる力が覚醒し、道を切り拓く",
+      "第三者の介入により、混乱に乗じて脱出する",
+      "追跡隊の指揮官が、シオンの正体を知っていた"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "朝活読書": 1,
+      "文字数カウンター": 0,
+      "書店員の目": 2,
+      "週末の映画好き": 0,
+      "異世界帰りの司書": 2,
+      "伏線回収マニア": 2,
+      "伏線管理官": 1,
+      "異世界転生アナリスト": 0
+    },
+    "created_at": "2026-11-17T08:06:06+00:00"
+  },
+  "cover": "images/20261117-c7bdf7/cover.webp",
+  "i18n": {
+    "key": "3b703d3637",
+    "en": {
+      "title": "The Ash-Gray Gears and the Millennial Falling Petals: A Dirge Played by the Steam Engine of Dawn",
+      "premise": "When the Spirit Flower Cherry Tree—a legacy of the gods—sheds its final petals, magic will vanish from the world. To compensate for this fading power, the empire has constructed an artificial energy circulation system powered by forbidden steam engines. Aleis, a relic scavenger, encounters Sion, a girl with a mechanical heart, and discovers that the empire's prosperity is a \"dirge\" that is grinding away the world's soul. This is an epic about the twilight of civilization and nature, where the roar of steel intersects with the prayer of falling cherry blossoms."
+    },
+    "zh": {
+      "title": "灰白齿轮与千年落花：黎明蒸汽机奏响的挽歌",
+      "premise": "当作为神明遗产的“灵花樱”凋零之时，世界之上的魔力也将消逝。为了弥补逐渐流失的魔力，帝国构建了以禁忌蒸汽机为核心的人工能量循环系统。遗物回收士阿雷イス（Aleis）邂逅了拥有机械心脏的少女希昂（Shion），并由此得知帝国的繁荣不过是一首啃噬世界灵魂的“挽歌”。钢铁的咆哮与凋零樱花的祈愿交织，这是一部围绕着文明与自然终焉的叙事诗。"
+    }
+  }
+}

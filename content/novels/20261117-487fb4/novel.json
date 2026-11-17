@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-17T01:13:22+00:00"
   },
-  "cover": "images/20261117-487fb4/cover.webp"
+  "cover": "images/20261117-487fb4/cover.webp",
+  "i18n": {
+    "key": "8386a300e7",
+    "en": {
+      "title": "Spreading Death Noise — Pulse of the Dying Cry —",
+      "premise": "A rumor circulates in a fringe online community: listening to a certain frequency makes the neural chip in your brain go berserk and kills you. Every time the story goes viral, the number of victims whose chips literally burn out spikes. Kaito, a young courier, is hired to retrieve a baffling audio log that was transmitted in the moments before death. The log turns out to be the elusive “sound of death” that slips into the noisy chaos of a festival night, a signal that could glitch the entire world."
+    },
+    "zh": {
+      "title": "扩散的死亡噪音——断末魔的脉冲——",
+      "premise": "在网络的限量社群中流传着一种都市传说：特定频率一旦被聆听，大脑内的芯片会失控并导致死亡。每当这个传闻被刷屏，实际因芯片被烧毁而死亡的人数便急剧上升。运送员青年Kaito接受委托，去回收一段在死亡瞬间传出的神秘音频日志。那段日志正是隐藏在节日夜喧闹中的“死亡之音”，一种可能让整个世界出现故障的信号。"
+    }
+  }
 }

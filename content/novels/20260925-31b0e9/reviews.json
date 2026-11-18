@@ -1230,5 +1230,21 @@
     "chapters_read": 15,
     "created_at": "2026-11-10T13:32:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "序盤は冷淡な王妃が魅力的だが、物語全体の展開はやや遅く、感情移入が難しい。",
+    "good": "物語のスケール感",
+    "bad": "ペースが遅い",
+    "chapters_read": 13,
+    "created_at": "2026-11-18T10:10:31+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

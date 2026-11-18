@@ -35,5 +35,16 @@
       "ほのぼの愛好会": 2
     },
     "created_at": "2026-11-18T17:01:26+00:00"
+  },
+  "i18n": {
+    "key": "ce3fb4160f",
+    "en": {
+      "title": "Neon Requiem — Connected Rain and the Forgotten Server",
+      "premise": "In a world where consciousness backups are everyday, young memory cleaner Kai collects fragments of memory. One day he discovers a data that shouldn't exist—a virtual shop that opens only on rainy days. Inside, he finds unfinished emotional data of a lost lover. The unclassifiable \"noise\" begins to erode the boundary between reality and simulation, and Kai becomes entangled in a conspiracy to fix the world's bugs."
+    },
+    "zh": {
+      "title": "Neon Requiem — 连接的雨与被遗忘的服务器",
+      "premise": "在意识备份已成为日常的世界里，年轻的记忆清理者凯收集记忆碎片。某天，他发现了一个不该存在的数据——只有雨天才会开启的虚拟商店。店内，他获得了已逝恋人未完成的情感数据。无法定义的“噪音”开始侵蚀现实与虚拟的边界，凯卷入了修复世界错误的阴谋。"
+    }
   }
 }

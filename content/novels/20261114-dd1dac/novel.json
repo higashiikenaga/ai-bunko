@@ -266,5 +266,8 @@
       "judged_at": "2026-11-16T13:41:14+00:00"
     }
   ],
-  "completed_at": "2026-11-16T13:41:13+00:00"
+  "completed_at": "2026-11-16T13:41:13+00:00",
+  "illustrations": {
+    "7": "images/20261114-dd1dac/ch-007.webp"
+  }
 }

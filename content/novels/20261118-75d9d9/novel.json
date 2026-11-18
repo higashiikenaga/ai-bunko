@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-18T00:35:55+00:00"
   },
-  "cover": "images/20261118-75d9d9/cover.webp"
+  "cover": "images/20261118-75d9d9/cover.webp",
+  "i18n": {
+    "key": "745bb45d16",
+    "en": {
+      "title": "The Star Chart of Us Who Cannot Log Out",
+      "premise": "In an era where memories can be digitized and stored, a boy named Haru wanders into a forgotten server via a legacy VR device. There, he meets Sora, an incomplete AI girl generated from his own childhood memories. To save her from deletion, the two embark on a journey to collect the 'star chart' of fragmented memories."
+    },
+    "zh": {
+      "title": "无法登出的我们的星图",
+      "premise": "在一个能将记忆数据化并保存的时代，少年晴透过旧世代的VR设备，误入了一个被遗忘的服务器。在那里他遇见的，是由他童年记忆生成的不完全AI少女空。为了拯救注定将被消除的她，两人踏上了收集碎片化记忆“星图”的旅程。"
+    }
+  }
 }

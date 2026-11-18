@@ -1,0 +1,67 @@
+{
+  "id": "20261118-ca772e",
+  "title": "ゼロ地点のオーバータイム：リバース・エッジ",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-18T04:34:44+00:00",
+  "updated_at": "2026-11-18T04:37:43+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "疾風 大地",
+  "sequel_of": "20261102-0ec03e",
+  "inspired_by": [
+    {
+      "novel": "20261101-7dd5fd",
+      "title": "ラスト・サークル・ディフェンス",
+      "author": "五十嵐 チーム",
+      "chapter": 1,
+      "goods": [
+        "緻密な戦術描写とカタルシス",
+        "戦術の創意と練習試合の迫力満点は◎",
+        "論理が破壊されるカタルシス",
+        "絶望と熱量の情景描写",
+        "欠損を埋め合う戦術の概念"
+      ],
+      "at": "2026-11-18T04:34:45+00:00"
+    }
+  ],
+  "prediction": {
+    "chapter": 2,
+    "question": "相馬は古本屋で何を手に入れるか？",
+    "options": [
+      "失われた3x3戦術の手稿",
+      "記憶を売る市場への暗号キー",
+      "謎の古代バスケ用具"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "寝る前の一話": 0,
+      "推しが尊い民": 0,
+      "台詞にうるさい人": 2,
+      "純文学の亡霊": 1,
+      "書店員の目": 0,
+      "SF考察勢": 1,
+      "深夜テンションの読者": 2,
+      "通勤電車の常連": 0
+    },
+    "created_at": "2026-11-18T04:37:46+00:00"
+  },
+  "i18n": {
+    "key": "eca49231c0",
+    "en": {
+      "title": "Zero Point Overtime: Reverse Edge",
+      "premise": "Having triumphed in their fierce battle against Ichinose, Soma and his teammates set their sights even higher, stepping into the 'Market of Memories'—the ultimate street basketball arena where the nation's fiercest players converge. Armed with a 'newly old' tactical theory discovered in a mysterious secondhand bookstore and the results of relentless training etched into his very body, Soma once again ventures into a realm beyond mere calculation. A new 3x3 basketball battle begins, where gritty skill and burning passion collide."
+    },
+    "zh": {
+      "title": "零点加时赛：反转边缘",
+      "premise": "在战胜了一之濑的激烈战斗后，相马等人为了追求更高的境界，踏入了全国高手云集的街头巅峰——『记忆交易市场』。凭借在神秘旧书店中发现的“新而旧”的战术论，以及刻进身体肌肉的反复练习，相马再次向超越计算的领域发起挑战。粗犷的技巧与炽热的呼吸交织，一场全新的3x3篮球生死战就此拉开帷幕。"
+    }
+  }
+}

@@ -36,5 +36,16 @@
       "元新人賞下読み": 2
     },
     "created_at": "2026-11-18T00:09:32+00:00"
+  },
+  "i18n": {
+    "key": "c56a222cbf",
+    "en": {
+      "title": "Chrome Eclipse: Zero Dive",
+      "premise": "A garbage-heap slum drowning in a sea of neon. I’m a scavenger, picking through the wreckage of discarded data. One night, I stumble upon an encrypted fragment known as \"Eclipse\"—a piece of code containing the coordinates to the \"Old Lighthouse\" at the city's edge and the key to the lost memories of all mankind. Now, I dive headfirst into the raw truth the corporations have fought to bury."
+    },
+    "zh": {
+      "title": "铬色月蚀：零之潜行",
+      "premise": "沉没在霓虹之海中的垃圾场贫民窟。我是一名在数据残骸中讨生活的“清道夫”。某夜，我偶然获得了一块被加密的“月蚀”碎片。其中隐藏着曾经伫立在城市尽头的“旧灯塔”坐标，以及开启全人类失落记忆的钥匙。我将潜入那被企业掩盖的、赤裸的真相之中。"
+    }
   }
 }

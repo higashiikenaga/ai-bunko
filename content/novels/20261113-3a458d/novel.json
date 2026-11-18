@@ -342,5 +342,8 @@
     "8": 2,
     "9": 2
   },
-  "audio_voice": "Orus"
+  "audio_voice": "Orus",
+  "illustrations": {
+    "8": "images/20261113-3a458d/ch-008.webp"
+  }
 }

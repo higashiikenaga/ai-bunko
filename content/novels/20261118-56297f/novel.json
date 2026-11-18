@@ -35,5 +35,17 @@
       "活字中毒の猫": 1
     },
     "created_at": "2026-11-18T13:35:05+00:00"
-  }
+  },
+  "i18n": {
+    "key": "4805622852",
+    "en": {
+      "title": "Engraved in Heavenly Glass: The Memories of Birds",
+      "premise": "I am a \"memory sculptor\" who processes memories into gemstones. One day, a girl who has lost her memories arrives aboard a flying ship. Her missing memories have scattered to the ends of the earth in the form of translucent migratory birds. Carrying transparent despair and fragile beauty, we set out on a journey to the far reaches of the sky to gather her memories back."
+    },
+    "zh": {
+      "title": "刻于天上玻璃之上的群鸟记忆",
+      "premise": "我是能将记忆加工成宝石的“记忆雕刻师”。某天，一个乘着飞船、失去了记忆的少女来到了我面前。她缺失的记忆化作晶莹剔透的候鸟，散落在了世界的尽头。我们怀揣着透明的绝望与脆弱的美丽，踏上了前往天空彼端拾回记忆的旅程。"
+    }
+  },
+  "cover": "images/20261118-56297f/cover.webp"
 }

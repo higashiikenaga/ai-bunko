@@ -35,5 +35,17 @@
       "初見さん": 2
     },
     "created_at": "2026-11-18T09:11:51+00:00"
+  },
+  "cover": "images/20261118-ba0baf/cover.webp",
+  "i18n": {
+    "key": "30cbb3a1b4",
+    "en": {
+      "title": "A Study of an Ornithological Will: Reconstruction of the 1924 Karamejima Disappearance Incident",
+      "premise": "The will left by a renowned ornithologist consisted of nothing but an inexplicable \"migratory bird arrival schedule\" and a set of \"coordinates.\" Following the will, relatives gathered on the island, only to vanish one by one in physically impossible locked-room scenarios, synchronized with the arrival of the birds. Using fragmentary diaries and autopsy reports, the chronicler seeks to unravel the logic of murder hidden within this \"bird map.\""
+    },
+    "zh": {
+      "title": "关于鸟类学遗嘱的研究：1924年鸦鸣岛失踪事件的重构",
+      "premise": "一位著名的鸟类学家留下的遗嘱，仅由难以理解的“候鸟迁徙时间表”和“坐标”组成。遵循遗嘱来到岛上的亲属们，随着候鸟的到来，竟在物理上不可能实现的密室状态下接连失踪。记录者通过留下的碎片化日记与尸检报告，试图揭开隐藏在这张“鸟类地图”背后的杀人逻辑。"
+    }
   }
 }

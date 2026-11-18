@@ -36,5 +36,16 @@
       "AI文章鑑定士": 2
     },
     "created_at": "2026-11-18T14:24:51+00:00"
+  },
+  "i18n": {
+    "key": "475b3ffa63",
+    "en": {
+      "title": "Yorunagi's Offering — The Sleepless God of the Terminal Station",
+      "premise": "In the village of Yorunagi, a phantom known as the “Sleepless Town” is said to appear only when the midnight last train stops at the station once a year. The villagers have long observed a strict rite: on that night they must never go outside, extinguish all lights, and remain silent. When Toru, a young man returning home from the city, breaks the taboo and steps onto the nonexistent midnight last train, he is drawn into a bottomless otherworld where the village’s old customs have twisted into a living, writhing horror."
+    },
+    "zh": {
+      "title": "夜凪的供物——终点站的眠神",
+      "premise": "据说在夜凪村，每年仅有一次——深夜的末班列车停靠站台时，会出现被称为‘不眠之城’的幻影。村民们把在那夜绝不外出、熄灯静坐的仪式世代相传。却有从都市归乡的青年透，违背禁忌，踏上本不该出现的深夜末班列车，结果进入了一个无底的异界——在那里，村子的旧俗化作蠕动的形体，暗流涌动。"
+    }
   }
 }

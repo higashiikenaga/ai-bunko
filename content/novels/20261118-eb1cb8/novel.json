@@ -1,0 +1,50 @@
+{
+  "id": "20261118-eb1cb8",
+  "title": "無菌の塵と、微かな呼吸の残滓",
+  "genre": "SF",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-18T05:49:07+00:00",
+  "updated_at": "2026-11-18T05:51:41+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-31b-it"
+  ],
+  "author": "灰原 ユキト",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリスが秘匿したデータにカインが気づいた時、何が起こる？",
+    "options": [
+      "カインは黙認し、密かに彼女を監視し始める",
+      "カインがデータの存在を察知し、即座に没収する",
+      "データがシステムに検知され、警報が鳴り響く"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "全肯定おばあちゃん": 0,
+      "元新人賞下読み": 1,
+      "新着チェッカー": 0,
+      "ラブコメ中毒": 0,
+      "既視感センサー": 1,
+      "週末の映画好き": 2,
+      "ジャンル横断者": 2,
+      "ほめ上手な先輩": 0
+    },
+    "created_at": "2026-11-18T05:51:45+00:00"
+  },
+  "i18n": {
+    "key": "48e9a2498a",
+    "en": {
+      "title": "Sterile Dust and the Faint Remnants of Breath",
+      "premise": "In a world where every citizen's emotions and biological rhythms are monitored by the 'Resonance Management System,' any deviation is met with immediate 'adjustment.' Ellis, an archivist, spends her days in a curated silence, digitizing and erasing the final wills of the dead. But one day, hidden within data marked for deletion, she finds a phrase: 'Desert Oasis'—a reference to the once-lush surface of the earth. It is the sole clue to a realm beyond the system's control, a secret the administration has fought to keep buried."
+    },
+    "zh": {
+      "title": "无菌之尘与微弱的呼吸残迹",
+      "premise": "全市民的情感与生物节律均被“共鸣管理系统”严密监控，任何偏差都将立即被“调整”。记录官艾莉丝在被管控的死寂之中，负责将死者的遗言数字化并彻底抹除。然而某日，在预定废弃的数据中，她偶然发现了一个词汇——“沙漠绿洲”，那是关于曾经绿意盎然的地表的记载。而这，竟是揭开系统长期隐瞒的、处于管理之外的生存区域的唯一线索。"
+    }
+  }
+}

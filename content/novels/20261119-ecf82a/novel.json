@@ -34,5 +34,17 @@
       "初見さん": 2
     },
     "created_at": "2026-11-19T00:09:02+00:00"
+  },
+  "cover": "images/20261119-ecf82a/cover.webp",
+  "i18n": {
+    "key": "0fbe05eab3",
+    "en": {
+      "title": "The Rainy Lighthouse and the Silver-Eared Shopkeeper",
+      "premise": "Drawn by the sound of rain, a mysterious shop appears beside an old lighthouse. It is a tiny cafe that opens its doors only on rainy days. Pip, a rabbit with silver ears, welcomes visitors by offering them \"forgotten warmth\" captured in bottles of fragrance. This is a heartwarming story of a girl fleeing the bustle of the city to find a moment of peace within the silence of the rain."
+    },
+    "zh": {
+      "title": "雨降之灯塔与银耳店主",
+      "premise": "仿佛被雨声所吸引，在古老灯塔的身旁，悄然出现了一家小店。那是一家仅在雨天开业的静谧咖啡馆。拥有银色耳朵的兔子皮普，将人们“快要遗忘的温暖”装进香气瓶中，传递给每一位到访者。这是一个逃离都市喧嚣的少女，在雨日的静谧之中，寻得心中温暖瞬间的故事。"
+    }
   }
 }

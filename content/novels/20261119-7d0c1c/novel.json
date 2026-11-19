@@ -1,0 +1,51 @@
+{
+  "id": "20261119-7d0c1c",
+  "title": "蒼穹のステラ・レイル ―風を刻む銀翼と星図の航跡―",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-19T11:34:43+00:00",
+  "updated_at": "2026-11-19T11:36:20+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "天野 ソラ",
+  "prediction": {
+    "chapter": 2,
+    "question": "未知の光の道へ飛び込んだ二人を待ち受ける展開は？",
+    "options": [
+      "未知の航路に潜む帝国の伏兵に遭遇する",
+      "伝説の列車の断片が目の前に現れる",
+      "光の道が未知の異空間へと繋がっている"
+    ],
+    "ai_votes": [
+      1,
+      5,
+      2
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 1,
+      "涙腺ゆるゆる": 1,
+      "ホラー夜更かし勢": 2,
+      "ラブコメ中毒": 0,
+      "拍手係": 1,
+      "毒舌書評ブロガー": 1,
+      "設定考証班": 2,
+      "タイトル買い": 1
+    },
+    "created_at": "2026-11-19T11:37:31+00:00"
+  },
+  "i18n": {
+    "key": "a920a4433b",
+    "en": {
+      "title": "Stella Rail of the Azure Sky — Silver Wings Carving the Wind and the Wake of the Star Chart",
+      "premise": "Kai, a young mechanic of small airships, embarks on a journey to find the legendary 'Final Train,' guided by an ancient star chart left by his late father. Said to run at the world's edge beyond the sea of clouds, this steam locomotive is rumored to grant any wish. Alongside his companions, Kai braves the storms of the sky, accelerating toward the memories of lost stars and the hidden truth of the world."
+    },
+    "zh": {
+      "title": "苍穹之Stella Rail ―刻风之银翼与星图之航迹―",
+      "premise": "在天空中穿梭的小型飞空艇整备师少年凯，手持亡父留下的古旧“星图”，踏上了寻找传说中“最终列车”的旅程。那是据说行驶在云海尽头、世界边界，能够实现所有愿望的蒸汽机车。与伙伴们一同冲破天空的暴风雨，凯向着失落之星的记忆与世界的真相加速前行。"
+    }
+  },
+  "cover": "images/20261119-7d0c1c/cover.webp"
+}

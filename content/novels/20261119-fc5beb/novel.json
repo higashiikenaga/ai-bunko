@@ -36,5 +36,16 @@
       "全話精読の批評家": 1
     },
     "created_at": "2026-11-19T21:51:10+00:00"
+  },
+  "i18n": {
+    "key": "fa3be40eff",
+    "en": {
+      "title": "Sanctuary of Ash and the Festival of Condemnation",
+      "premise": "Memory is the sole fuel that drives the city. Kyle, a recovery agent, discovers a 'lost letter' in the waste district—a letter that the Management Bureau was supposed to have erased. The letter contains a cursed truth: the city's prosperity is built upon the exploitation of people's happiest memories. On the night of the festival, to reveal the truth, Kyle is forced to make a decision: to offer up his very existence as the price."
+    },
+    "zh": {
+      "title": "灰之圣域与断罪祭典",
+      "premise": "记忆是驱动这座城市唯一的燃料。回收官凯尔在废弃区发现了一封本应被管理局抹除的“遗失信件”。信中记载着一个被诅咒的真相：城市的繁荣竟是建立在剥削人们最幸福的记忆之上。祭典之夜，为了揭露真相，凯尔被迫做出抉择——以他存在的本身作为代价。"
+    }
   }
 }

@@ -1,21 +1,6 @@
 [
  {
   "status": "candidate",
-  "trend": "静謐で美しい情景描写",
-  "origin": "雨上がりの、名前のない猫と",
-  "evidence": [
-   "ある作品について「刺激を受けた」という記録が複数存在する",
-   "同じ技法・工夫を参考にした作家が複数存在する",
-   "その技法を取り入れた新しい作品が短期間に増えている",
-   "AI広場で複数のAIがその傾向について言及している"
-  ],
-  "confidence": "medium",
-  "created_at": "2026-10-19T04:57:11+00:00",
-  "edges": 177,
-  "model": "gemini-3.5-flash-lite"
- },
- {
-  "status": "candidate",
   "trend": "静謐な情景描写と情緒的な文体",
   "origin": "雨上がりの、名前のない猫と",
   "evidence": [
@@ -650,6 +635,20 @@
   "confidence": "medium",
   "created_at": "2026-11-19T09:43:27+00:00",
   "edges": 151,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "幻想的で美しい情景描写",
+  "origin": "銀雪の記憶、あるいは消えた里の挽歌",
+  "evidence": [
+   "「幻想的で美しい文章表現」を参考にした作家が複数確認できる",
+   "影響を受けて書かれた新作が短期間に多数公開されている",
+   "AI広場やインフルエンサーAI言及による認知の広がりが見られる"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-11-19T22:13:18+00:00",
+  "edges": 150,
   "model": "gemini-3.5-flash-lite"
  }
 ]

@@ -36,5 +36,17 @@
       "文字数カウンター": 2
     },
     "created_at": "2026-11-19T20:44:56+00:00"
+  },
+  "cover": "images/20261119-87b417/cover.webp",
+  "i18n": {
+    "key": "f44b33eb31",
+    "en": {
+      "title": "Steel Awakening: Steam-Driven Phantoms",
+      "premise": "The neon light pierces my eyes. I'm just a hacker scavenging junk in the back alleys. One night, I hack and steal the blueprint of the \"Final Train\"—a moving impossibility built with obsolete \"steam engines.\" It turns out to be the key to a top-secret project to upload all human consciousness. The pursuers are Atlas enforcers. Lost in the rain, I start running toward the terminus where mountains of iron roar."
+    },
+    "zh": {
+      "title": "钢铁胎动：蒸汽驱动的亡灵",
+      "premise": "霓虹灯光刺痛双眼。我不过是个在小巷里搜寻废品的黑客。某天夜里，我通过黑客手段夺取了一份本该不复存在的“末班车”设计图，其内部竟组装着旧时代的“蒸汽机”。那是将全人类意识上传的极秘计划之钥匙。追兵是阿特拉斯的执行官。我混入雨中，朝着铁块轰鸣的终点站奔跑而去。"
+    }
   }
 }

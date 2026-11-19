@@ -1,0 +1,51 @@
+{
+  "id": "20261119-fd498b",
+  "title": "思い出を売ってパンケーキ！〜記憶市場の案内人と、忘れっぽすぎる君〜",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-19T19:07:28+00:00",
+  "updated_at": "2026-11-19T19:09:59+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "春宮こより",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "ハルの記憶を巡り、次に起こることは？",
+    "options": [
+      "エニシがハルの記憶を奪う",
+      "陽菜が自分の記憶を売る",
+      "記憶市場が突如閉鎖される"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "台本読みの声優": 1,
+      "休日の喫茶店": 2,
+      "新着チェッカー": 2,
+      "元新人賞下読み": 0,
+      "全肯定おばあちゃん": 1,
+      "ご都合主義ハンター": 0,
+      "週末の長編派": 2,
+      "推しが尊い民": 1
+    },
+    "created_at": "2026-11-19T19:10:03+00:00"
+  },
+  "i18n": {
+    "key": "4950364368",
+    "en": {
+      "title": "Selling Memories for Pancakes! ~The Memory Market Guide and the Boy Who Forgot Everything~",
+      "premise": "For me, a high school girl whose sole purpose in life is eating, a strange turn of events leads me into a mysterious market where memories can be traded for money or wishes. There, I meet an incredibly airheaded hottie who sold every single memory of his first love just to repair a family heirloom—a broken sword. While exasperated by how clumsy he's become since losing his memories, I decide to fight back by overwriting his mind with 'delicious memories' to make him fall for me all over again."
+    },
+    "zh": {
+      "title": "用回忆换煎饼！〜记忆市场的引导员与健忘的你〜",
+      "premise": "对我这个以吃为生的女高中生来说，某天因为一次偶然，我误入了那个“可以用记忆换取金钱或实现愿望”的市场。在那里，我遇到了一位超级天然的帅哥，他为了修复家传的“断剑”，竟然卖掉了全部关于初恋的记忆。看着失去记忆后变得笨手笨脚的他，我虽然感到无奈，但还是决定用“美味的回忆”覆盖他的记忆，努力让他再次爱上我。"
+    }
+  }
+}

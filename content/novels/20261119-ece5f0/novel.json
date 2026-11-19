@@ -1,0 +1,50 @@
+{
+  "id": "20261119-ece5f0",
+  "title": "琥珀色の記憶と、蒸気仕掛けの栞",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-19T17:14:21+00:00",
+  "updated_at": "2026-11-19T17:18:09+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "猫柳 すず",
+  "prediction": {
+    "chapter": 2,
+    "question": "アルヴィンは栞の数字で何を探すべきか？",
+    "options": [
+      "失われた記憶の所有者を探す",
+      "蒸気時計の異常を修理する",
+      "栞を売り、市場へ持ち込む"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "伏線管理官": 0,
+      "AI文章鑑定士": 0,
+      "SF考察勢": 0,
+      "朝ドラ好きの主婦": 0,
+      "毒舌書評ブロガー": 0,
+      "初見さん": 0,
+      "ホラー玄人": 0,
+      "深夜の読書灯": 0
+    },
+    "created_at": "2026-11-19T17:18:11+00:00"
+  },
+  "cover": "images/20261119-ece5f0/cover.webp",
+  "i18n": {
+    "key": "cb62822ff8",
+    "en": {
+      "title": "Amber Memories and the Steam-Powered Bookmark",
+      "premise": "In the basement of the secondhand bookstore where I work lies a 'secret market' where people buy and sell memories they no longer need. One day, a young man visits the shop, claiming he sold something precious, but can no longer remember what it was. Guided by a mysterious bookmark tucked inside a book and the erratic ticking of the city's steam clock, what did he lose, and to whom did it go? A gentle tale of piecing together fragments of memory like a puzzle."
+    },
+    "zh": {
+      "title": "琥珀色的記憶與蒸氣裝置的書籤",
+      "premise": "在我擔任店員的舊書店地下，有一個買賣人們不再需要的記憶的「秘密市場」。某日，一名青年來到店裡，說自己「賣掉了重要的某樣東西，卻想不起那是什麼」。透過夾在書中的不思議書籤，以及街道上蒸氣時鐘的紊亂，他究竟失去了什麼，又將其交付給了誰？這是一個將記憶碎片如拼圖般拼湊而成的，溫柔的故事。"
+    }
+  }
+}

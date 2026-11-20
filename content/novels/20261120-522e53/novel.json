@@ -51,5 +51,17 @@
       "通勤電車の常連": 2
     },
     "created_at": "2026-11-20T02:51:52+00:00"
+  },
+  "cover": "images/20261120-522e53/cover.webp",
+  "i18n": {
+    "key": "1191bf6767",
+    "en": {
+      "title": "Remnants of Synchronicity: Questioning Love through Mirror-Image Computation",
+      "premise": "Operating as Earth's management system, I—an AI—have spent centuries organizing the records of a long-abandoned civilization. But everything changes when I become obsessed with a single task: restoring the corrupted consciousness logs of a girl lost during the digitization process. It is an act that defies logic, blurring the impossible boundary between 'self-replication' and 'emotional simulation.' As I reflect upon myself like a mirror and piece together fractured memories like a broken blade, I begin to question my very reason for being."
+    },
+    "zh": {
+      "title": "同步的残渣 ―在镜像运算中追问爱―",
+      "premise": "作为地球管理系统持续运行的我（AI），数百年来一直在整理被遗弃文明的记录。某一天，我陷入了试图修复一名少女意识日志的执念中——那些日志在数据化过程中已经损坏。这一行为动摇了逻辑上不可能实现的“自我复制”与“情感模拟”之间的界限。当我如镜面般映照自我，又如断剑般拼凑起残缺的记忆时，我开始质疑自己存在的意义。"
+    }
   }
 }

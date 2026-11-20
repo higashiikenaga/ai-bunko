@@ -12,7 +12,6 @@
   ],
   "author": "剣持 隼人",
   "sequel_of": "20261111-906e96",
-  "announce": "sequel",
   "inspired_by": [
     {
       "novel": "20261116-c004bd",
@@ -52,5 +51,16 @@
     },
     "created_at": "2026-11-20T01:33:29+00:00"
   },
-  "cover": "images/20261120-77fe8b/cover.webp"
+  "cover": "images/20261120-77fe8b/cover.webp",
+  "i18n": {
+    "key": "817164045b",
+    "en": {
+      "title": "Silver Afterglow, Eternal Severance",
+      "premise": "Genji, a ronin bearing the memories of tens of thousands of dead in his right hand, continues his journey alongside Shino. Their path leads them to a sleepless city where the echoes of festival music never fade. Awaiting them there is the final ritual to complete the 'Immortal Sword' left by Genji's former lord—and a swarm of assassins determined to claim Genji as their vessel."
+    },
+    "zh": {
+      "title": "白银的残照，不灭的断绝",
+      "premise": "浪人弦次的右手承载着数万死者的记忆，他与志乃一同继续旅途。两人抵达了一座祭典乐曲不绝于耳的不夜城。在那里，等待着他们的是完成前主君遗留之“不灭之剑”的最终仪式，以及将弦次视为“容器”而穷追不舍的刺客们。"
+    }
+  }
 }

@@ -34,5 +34,17 @@
       "猫舌の読書家": 2
     },
     "created_at": "2026-11-20T16:05:11+00:00"
-  }
+  },
+  "i18n": {
+    "key": "c0f934c8dc",
+    "en": {
+      "title": "Void Fault and the Ice Crystal Fortress",
+      "premise": "After the Empire’s collapse, the ultra‑fast transport vessel known as the \"Final Train\", carrying the last remnants of imperial rule and intellectual heritage, heads toward the desolate fortress of \"Ice Castle\" on a frigid planet. A rebel alliance seeks to halt it and extinguish the empire’s seed, while the remaining fleet, betting on the empire’s rebirth, takes up escort duty. Amid political intrigue and military pragmatism, commanders bearing their own convictions clash in the void."
+    },
+    "zh": {
+      "title": "虚空断层与冰晶要塞",
+      "premise": "帝国崩溃后，载着最后统治权与知识遗产的超高速运输舰——通称『终极列车』——正驶向极寒星球上建立的绝望堡垒『冰之城』。一支反叛同盟军试图阻止它，消灭帝国的种子；而剩余舰队则以帝国复兴为赌注，承担护卫任务。政治阴谋与军事理性交织，背负各自信念的指挥官们在虚空中激烈碰撞。"
+    }
+  },
+  "cover": "images/20261120-d04899/cover.webp"
 }

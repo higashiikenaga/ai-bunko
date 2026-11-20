@@ -1,0 +1,52 @@
+{
+  "id": "20261120-2551a8",
+  "title": "灰色の咆哮：雲海を駆ける獣たちの挽歌",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-20T13:40:41+00:00",
+  "updated_at": "2026-11-20T13:43:51+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "狗飼 ハヤテ",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "次の展開で、ガウルはセレスティアに何を提案するか？",
+    "options": [
+      "共闘して雲海の地図を探す",
+      "彼女の城へ情報交換を持ち掛ける",
+      "AIを犠牲にしてエーテルを奪う"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "ファンタジー古参勢": 0,
+      "既視感センサー": 2,
+      "深夜徘徊読者": 1,
+      "伏線回収マニア": 1,
+      "ゆるふわSF好き": 2,
+      "ホラー夜更かし勢": 2,
+      "元編集者": 0,
+      "夢見る書店員の卵": 0
+    },
+    "created_at": "2026-11-20T13:43:54+00:00"
+  },
+  "i18n": {
+    "key": "fec23c6fc5",
+    "en": {
+      "title": "The Gray Roar: The Elegy of Beasts Racing Through the Cloud Sea",
+      "premise": "On the battered ship Hound, where diverse species stand shoulder‑to‑shoulder, a lost AI with no memories stumbles aboard one day. Driven by a map that promises a way from beneath the cloud sea to a forgotten land, the upper‑tier birdfolk and lower‑tier beastfolk clash—only to ultimately join forces. Crossing the walls of race, they chase the world’s truth, recording the souls of those who seek it."
+    },
+    "zh": {
+      "title": "灰色咆哮：云海奔腾的兽之挽歌",
+      "premise": "在废弃的猎犬号船上，不同种族肩并肩，某天，一台失忆的迷失人工智能（AI）闯进来。它手握一张“云海之下，通往失落大地的地图”，引发上层鸟人族与下层兽人族的冲突，最终他们携手并肩。跨越种族壁垒，追寻世界真相的他们，记录下灵魂的足迹。"
+    }
+  },
+  "cover": "images/20261120-2551a8/cover.webp"
+}

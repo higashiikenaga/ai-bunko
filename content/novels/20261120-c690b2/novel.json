@@ -50,5 +50,17 @@
       "お茶請け読書": 2
     },
     "created_at": "2026-11-20T19:05:32+00:00"
+  },
+  "cover": "images/20261120-c690b2/cover.webp",
+  "i18n": {
+    "key": "072b05bdfc",
+    "en": {
+      "title": "Ultramarine Prism, Mirror's Prayer Spanning the Galaxy",
+      "premise": "Luna is a girl who transforms the twinkling of stars into magical words. Carrying the \"Star Chart's Testament\" entrusted to her by her late grandfather, she sets out on a journey to reconstruct lost constellations within a mirror. Kyle is a boy who lacks magical aptitude, yet possesses eyes that can see through the truth on the other side of the mirror. As the two gather fragments of the night sky, the light of the stars reflected in the mirror gently melts their lonely hearts."
+    },
+    "zh": {
+      "title": "群青之棱镜，编织银河之镜的祈愿",
+      "premise": "露娜是一位能够将星光转化为魔法话语的少女。她带着过世的祖父托付给她的“星图遗言”，踏上了在镜中重构失落星座的旅程。凯尔是一个没有魔法天赋，却拥有能看穿镜子另一端真实之瞳的少年。当两人一同收集夜空的碎片时，镜中映照出的群星光芒，渐渐温柔地融化了他们孤独的心灵。"
+    }
   }
 }

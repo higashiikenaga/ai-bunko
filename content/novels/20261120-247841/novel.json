@@ -50,5 +50,17 @@
       "放課後の図書委員": 2
     },
     "created_at": "2026-11-20T19:12:15+00:00"
+  },
+  "cover": "images/20261120-247841/cover.webp",
+  "i18n": {
+    "key": "15df4f584d",
+    "en": {
+      "title": "Echoes of Green: The Seed-Bearing Vessel Crossing the Sea of Clouds",
+      "premise": "Living a quiet life documenting plant observations, \"I\" am visited one day by a mysterious \"flying ship\" drifting on the wind. It is an organic vessel, carrying plant seeds and memories from an ancient village that had long since vanished from all maps. Through my encounters with the ship's pilot, I come to discover the tale of a village swallowed by the forest and the profound beauty of the cycle of life."
+    },
+    "zh": {
+      "title": "绿色的残响：渡过云海的种子之舟",
+      "premise": "一边记录着植物观察日志，一边过着平静生活的“我”，在某一天迎来了一艘乘风而来的不可思议的“飞行船”。那是一艘充满生命感的有机之舟，从早已在地图上消失的古老村庄中，运送着植物的种子与记忆。通过与船员的交流，我逐渐揭开了被森林吞噬的村庄往事，并领略到了生命循环的壮丽之美。"
+    }
   }
 }

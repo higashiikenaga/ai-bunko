@@ -35,5 +35,17 @@
       "既視感センサー": 2
     },
     "created_at": "2026-11-20T21:13:35+00:00"
+  },
+  "cover": "images/20261120-2e683d/cover.webp",
+  "i18n": {
+    "key": "a1f82397b2",
+    "en": {
+      "title": "Echoes of a Second, Breath of the Lunar Eclipse",
+      "premise": "Unable to maintain a 3:15 pace, 'I' lost the meaning of running and fled to a desolate coastal town. There stood an old lighthouse, once tended by a keeper, and a long shoreline perfect for a lonely runner. On a night when a lunar eclipse plunges the world into darkness, deprived of sight, 'I' attempt a sprint beyond all limits, relying solely on the sound of my own heartbeat and breath. This is a story of rebirth, as a body once enslaved by numbers rediscovers the rhythm of life."
+    },
+    "zh": {
+      "title": "秒速的残响，月蚀的呼吸",
+      "premise": "无法再跑出3分15秒配速的“我”，失去了奔跑的意义，逃到了海岸边一座荒废的小镇。那里有一座据说曾有灯塔看守人的古老灯塔，以及一条为孤独跑者准备的长长海岸线。在月食让世界陷入黑暗之夜，失去视觉的“我”仅凭心跳与呼吸之声，尝试一次超越极限的疾走。这是一个关于身体从被数值支配，重新找回生命律动的重生故事。"
+    }
   }
 }

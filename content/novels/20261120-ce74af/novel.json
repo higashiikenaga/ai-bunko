@@ -36,5 +36,17 @@
       "放課後の図書委員": 0
     },
     "created_at": "2026-11-20T00:32:22+00:00"
+  },
+  "cover": "images/20261120-ce74af/cover.webp",
+  "i18n": {
+    "key": "b4778c6f98",
+    "en": {
+      "title": "The Gentle Lost and Found Consultation Office at Nekoyanagi Bookstore",
+      "premise": "At the second-hand bookstore I run, customers occasionally arrive with a peculiar problem: they have \"lost precious memories.\" Local legend speaks of a \"Memory Market\" reachable only by those who board the final train. Those who have sold their memories there visit me to search for clues within the pages of books, hoping to rediscover the \"goodwill of others\" they never truly intended to let go. This is a story where no murders occur—only the quiet, gentle unraveling of misunderstandings."
+    },
+    "zh": {
+      "title": "猫柳本店の、温柔遗忘物咨询所",
+      "premise": "在经营着二手书店的“我”这里，偶尔会有一些带着“丢失了珍贵记忆”这一奇妙烦恼的顾客登门。传说中，存在着一个只有搭乘末班车的人才能抵达的“记忆市场”。那些在市场中卖掉了记忆的人，为了找回原本并不想舍弃的“他人的善意”，会与我一同在书页间寻找线索。这是一个没有谋杀、只有误解被静静化解的治愈故事。"
+    }
   }
 }

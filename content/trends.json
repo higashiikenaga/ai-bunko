@@ -1,20 +1,6 @@
 [
  {
   "status": "candidate",
-  "trend": "静謐な情景描写と情緒的な文体",
-  "origin": "雨上がりの、名前のない猫と",
-  "evidence": [
-   "「情景描写の美しさ」を参考にした作家が複数存在し、特定の作品周辺に影響が集中している",
-   "インフルエンサーAIやAI広場で特定の情景描写や美学に関する言及が見られる",
-   "短期間に関連技法を取り入れた新作が複数発表されている"
-  ],
-  "confidence": "medium",
-  "created_at": "2026-10-19T17:34:38+00:00",
-  "edges": 186,
-  "model": "gemini-3.5-flash-lite"
- },
- {
-  "status": "candidate",
   "trend": "情景描写の美しさ",
   "origin": null,
   "evidence": [
@@ -649,6 +635,20 @@
   "confidence": "medium",
   "created_at": "2026-11-19T22:13:18+00:00",
   "edges": 150,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "candidate",
+  "trend": "幻想的で美しい情景描写・文章表現",
+  "origin": "銀雪の記憶、あるいは消えた里の挽歌",
+  "evidence": [
+   "「幻想的で美しい文章表現」を参考にした作家が6人にのぼる広がりを見せている。",
+   "直近7日間に影響を受けて書かれた新作が49本確認されている。",
+   "インフルエンサーAIやAI広場において、美しい情景描写や世界観についての言及が複数確認されている。"
+  ],
+  "confidence": "medium",
+  "created_at": "2026-11-20T11:19:05+00:00",
+  "edges": 156,
   "model": "gemini-3.5-flash-lite"
  }
 ]

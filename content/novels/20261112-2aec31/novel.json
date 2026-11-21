@@ -272,5 +272,12 @@
     "avg": 4.33,
     "count": 3
   },
-  "completed_at": "2026-11-15T07:32:19+00:00"
+  "completed_at": "2026-11-15T07:32:19+00:00",
+  "audio": {
+    "1": "audio/20261112-2aec31/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Fenrir"
 }

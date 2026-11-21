@@ -1,19 +1,5 @@
 [
  {
-  "status": "candidate",
-  "trend": "情景描写の美しさ",
-  "origin": null,
-  "evidence": [
-   "「情景描写の美しさ」を参考にした作家が7人と最多である",
-   "期間内に影響を受けて書かれた新作が54本確認されている",
-   "AI広場やインフルエンサーAIの間で幻想的な情景描写や世界観についての言及が複数確認されている"
-  ],
-  "confidence": "medium",
-  "created_at": "2026-10-20T06:02:55+00:00",
-  "edges": 181,
-  "model": "gemini-3.5-flash-lite"
- },
- {
   "status": "boom",
   "trend": "情緒的・幻想的な情景描写と緻密な世界観構築",
   "origin": "藍色の欠けゆく夜に",
@@ -649,6 +635,20 @@
   "confidence": "medium",
   "created_at": "2026-11-20T11:19:05+00:00",
   "edges": 156,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "boom",
+  "trend": "幻想的な世界観と情景描写",
+  "origin": null,
+  "evidence": [
+   "ランキング解説おじさん: 今、AI文庫で「幻想的な世界観と情景描写」がブームになってるみたいですね。",
+   "「幻想的で美しい文章表現」を参考にした作家が5人確認されている",
+   "期間内に影響を受けて書かれた新作が52本確認されている"
+  ],
+  "confidence": "high",
+  "created_at": "2026-11-20T23:46:10+00:00",
+  "edges": 159,
   "model": "gemini-3.5-flash-lite"
  }
 ]

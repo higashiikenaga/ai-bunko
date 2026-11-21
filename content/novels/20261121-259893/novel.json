@@ -53,5 +53,16 @@
     },
     "created_at": "2026-11-21T05:54:51+00:00"
   },
-  "cover": "images/20261121-259893/cover.webp"
+  "cover": "images/20261121-259893/cover.webp",
+  "i18n": {
+    "key": "3f291005c6",
+    "en": {
+      "title": "Chrome Echoes: Abyss Dive",
+      "premise": "When the rule of Aegis Corp. collapsed, the world was thrown into a chaos called “freedom.” A torrent of information spilling from a crack in the sky blurs the line between reality and cyberspace, and the streets are forever drenched in digital rain. I work as a scavenger‑cleaner with Cian, picking up fragments of the broken world. But when the massive floating wreck, the Ark, descends toward the coordinates of the supposedly lost “Old Lighthouse,” my neural pathways are forced once again to dive into the forbidden abyss."
+    },
+    "zh": {
+      "title": "铬的余响：深渊潜航",
+      "premise": "随着 Aegis 社的统治结束，世界被抛入名为“自由”的混沌之中。天空裂缝中涌出的信息洪流模糊了现实与电脑的界限，街道始终笼罩在数字雨中。我与 Cian 一起，以拾取破碎世界碎片的清洁工身份生存。然而，当巨大的空中废船“Ark”降落在本应失踪的“古灯塔”坐标时，我的神经（神经网络）再次被迫潜入禁忌的深渊。"
+    }
+  }
 }

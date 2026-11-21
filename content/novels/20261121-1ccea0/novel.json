@@ -35,5 +35,16 @@
     },
     "created_at": "2026-11-21T15:48:18+00:00"
   },
-  "cover": "images/20261121-1ccea0/cover.webp"
+  "cover": "images/20261121-1ccea0/cover.webp",
+  "i18n": {
+    "key": "efc7c1cacc",
+    "en": {
+      "title": "The Mire's Promise and the Sleepless God",
+      "premise": "Worn down mentally and physically by the 'city that never sleeps,' the protagonist returns to their ancestral village for their grandfather's funeral. There, they find a taboo festival in progress—one where no one is permitted to sleep for three days and three nights. After a momentary lapse into slumber, the protagonist becomes the target of a god with an insatiable hunger, lurking upon the 'Hill of Promises' at the village's edge."
+    },
+    "zh": {
+      "title": "泥泞的约定与不眠之神",
+      "premise": "在身心俱疲的“不夜城”中挣扎的主角，为了参加祖父的葬礼，回到了故乡的小村庄。在那里，一场禁忌的祭典正在举行——在这三天三夜里，任何人都不准入睡。然而，因一时打盹而陷入睡梦的主角，却成为了潜伏在村庄边缘“约定之丘”上、拥有无尽饥渴之神的猎物。"
+    }
+  }
 }

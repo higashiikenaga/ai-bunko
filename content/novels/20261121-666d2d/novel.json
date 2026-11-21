@@ -51,5 +51,17 @@
       "ホラー夜更かし勢": 0
     },
     "created_at": "2026-11-21T07:17:58+00:00"
+  },
+  "cover": "images/20261121-666d2d/cover.webp",
+  "i18n": {
+    "key": "db65bb00c1",
+    "en": {
+      "title": "Proof of the Migratory Bird's Absence",
+      "premise": "A brilliant scientist, consumed by research on a supposedly extinct migratory bird, is found dead inside a sealed lighthouse. The only evidence left behind is an impossible feather and the rhythmic hum of the lighthouse’s gears. Isolated on a remote island, a small group of researchers turn on one another, and the truth seems to drown with the tide. A detective with razor‑sharp logic cuts through physical paradoxes and the fragile order of nature to unravel the perfect geometry of the locked‑room mystery."
+    },
+    "zh": {
+      "title": "候鸟缺席证明",
+      "premise": "一位痴迷研究据说已灭绝的候鸟的学者，在密闭灯塔内被发现死亡。现场只留下不可能存在的奇异羽毛和灯塔机械的规律转动声。孤立在偏远岛屿的几位研究者互相投以怀疑的目光，真相似乎随潮汐沉没。侦探以锐利的逻辑之刃，剖析物理矛盾与自然秩序的裂缝，揭开完美密室几何的谜团。"
+    }
   }
 }

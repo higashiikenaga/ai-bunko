@@ -34,5 +34,17 @@
       "百冊斬り": 2
     },
     "created_at": "2026-11-22T07:02:23+00:00"
+  },
+  "cover": "images/20261122-e4b695/cover.webp",
+  "i18n": {
+    "key": "1124000687",
+    "en": {
+      "title": "Silence of the Gravitational Lens: Equations Left at the Event Horizon",
+      "premise": "At an observation base positioned within the immense gravitational field of a neutron star, a technician named Kai monitors faint signals drifting from the abyss of space. During a \"lunar eclipse\"—the moment a satellite moon obscures the neutron star's light—he detects a flickering of light with an exquisitely precise mathematical structure within the warping of spacetime. It is a \"testament\" left as gravitational wave fluctuations by a super-civilization that perished hundreds of millions of years ago, designed to prevent the heat death of the universe. Risking his life and every piece of equipment at his disposal, Kai strives to decode the process of universal reboot hidden within those equations."
+    },
+    "zh": {
+      "title": "重力透镜的沉默：遗留在事件视界上的数学公式",
+      "premise": "在位于中子星强大引力圈内的观测基地中，技术员凯（Kai）正监视着来自宇宙深渊的微弱信号。某次，在卫星遮挡中子星光芒的“月食”瞬间，他在时空的扭曲之中，检测到了具有极高精细数学结构的闪烁光芒。那是数亿年前灭绝的超文明为了防止宇宙的热寂，以引力波波动形式留下的“遗言”。凯赌上自己的生命和所有的观测设备，试图解开该数学公式所揭示的宇宙重启进程。"
+    }
   }
 }

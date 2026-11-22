@@ -287,5 +287,8 @@
     "7": 2
   },
   "audio_voice": "Puck",
-  "completed_at": "2026-11-21T19:06:20+00:00"
+  "completed_at": "2026-11-21T19:06:20+00:00",
+  "illustrations": {
+    "6": "images/20261116-3373ef/ch-006.webp"
+  }
 }

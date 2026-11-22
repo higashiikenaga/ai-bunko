@@ -38,5 +38,16 @@
     },
     "created_at": "2026-11-22T01:26:19+00:00"
   },
-  "cover": "images/20261122-8a4fb5/cover.webp"
+  "cover": "images/20261122-8a4fb5/cover.webp",
+  "i18n": {
+    "key": "5e3dcbad5b",
+    "en": {
+      "title": "The Stardust Bookstore and the Galactic Lighthouse",
+      "premise": "In a corner of the universe where stardust drifts like sand, lies a mysterious place known as 'The Stardust Bookstore.' Here, the precious memories of others sleep, preserved within the pages of books. Lulu, a small squirrel and the shop's proprietor, holds a vital role: delivering memories that have lost their way. But when a stark white book stripped of its light arrives, Lulu sets out on a journey toward the 'Old Lighthouse' at the edge of the cosmos to return it to its rightful owner."
+    },
+    "zh": {
+      "title": "星屑古书店与银河灯塔",
+      "premise": "在星砂飞舞的宇宙一隅，坐落着一个名为“星屑古书店”的神奇场所。在那里，人们珍视的回忆化作一册册书籍，静静地沉睡着。店主是一只名叫露露的小松鼠，她承担着一项重要的工作——为迷失的回忆寻回归途。某一天，一本失去了光泽的纯白之书送到了店里，为了将它归还给主人，露露决定踏上旅程，前往位于宇宙尽头的“古老灯塔”。"
+    }
+  }
 }

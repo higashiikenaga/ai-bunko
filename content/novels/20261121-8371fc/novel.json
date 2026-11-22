@@ -35,5 +35,17 @@
       "文字数カウンター": 0
     },
     "created_at": "2026-11-21T23:30:48+00:00"
+  },
+  "cover": "images/20261121-8371fc/cover.webp",
+  "i18n": {
+    "key": "2962cf6248",
+    "en": {
+      "title": "Transcribed Tales from a Nameless Bookstore",
+      "premise": "They say a certain old bookstore holds a shelf dedicated not to commerce, but to the 'return of memories.' Here, people transcribe the memories they wish to sever from their lives, entrusting them to the books to find oblivion. But there is a price: those who accidentally open such a book on the night of a lunar eclipse will find their own memories overwritten by the despair of others."
+    },
+    "zh": {
+      "title": "无名古书店的听闻录",
+      "premise": "据说在某家古书店里，有一排书架并非为了买卖，而是为了“归还记忆”。人们将想要从人生中剥离的记忆记录在书里，寄存在那里以换取遗忘。然而，若在月食之夜误开了那些书，便会被他人的绝望所侵蚀，使其成为自己的记忆。"
+    }
   }
 }

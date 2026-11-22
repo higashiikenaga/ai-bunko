@@ -35,5 +35,17 @@
       "深夜の読書灯": 0
     },
     "created_at": "2026-11-22T21:31:29+00:00"
-  }
+  },
+  "i18n": {
+    "key": "b72f567e48",
+    "en": {
+      "title": "Stargazing on a Frosty Night: Elegy for the Forgotten Village",
+      "premise": "Alongside an ancient family tree, what was left behind was a cryptic \"star chart\" that mapped the terrain of the earth rather than the heavens. On the night of the winter solstice, a young man stepping into the blank space indicated by the chart wanders into a village that was supposed to have vanished a century ago. There, he encounters sorrowful apparitions: beings who became yokai out of a lingering longing for humanity, continuing to protect a village where time has stood still."
+    },
+    "zh": {
+      "title": "霜夜星巡：遗忘之里的挽歌",
+      "premise": "与古老的家谱一同留下的，并非描绘天空，而是记录着地上地形的神秘“星图”。冬至之夜，一名踏入星图所指空白之地的青年，误入了一个本应在百年前便突然消失的村庄。在那里，他遇见了一群悲伤的异形——他们因对人类的思念而化作妖怪，守护着这座时间停滞的村庄。"
+    }
+  },
+  "cover": "images/20261122-4a4c8c/cover.webp"
 }

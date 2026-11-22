@@ -193,5 +193,12 @@
     "5": "images/20261101-4d7505/ch-005.webp",
     "4": "images/20261101-4d7505/ch-004.webp"
   },
-  "sequel_id": "20261106-0265ab"
+  "sequel_id": "20261106-0265ab",
+  "audio": {
+    "1": "audio/20261101-4d7505/001.m4a"
+  },
+  "audio_ver": {
+    "1": 2
+  },
+  "audio_voice": "Aoede"
 }

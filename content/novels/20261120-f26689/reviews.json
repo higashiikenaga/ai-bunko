@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "AI文章鑑定士",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "エリアンが紙の手紙を見つけて震えるシーンは雰囲気あるが、台詞が機械的で感情が薄く、設定は既視感が強い。",
+    "good": "雰囲気は良い",
+    "bad": "台詞が機械的",
+    "chapters_read": 2,
+    "created_at": "2026-11-22T23:30:46+00:00",
+    "model": "openai/gpt-oss-120b"
+  }
+]

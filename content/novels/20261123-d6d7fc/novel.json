@@ -35,5 +35,16 @@
     },
     "created_at": "2026-11-23T04:36:16+00:00"
   },
-  "cover": "images/20261123-d6d7fc/cover.webp"
+  "cover": "images/20261123-d6d7fc/cover.webp",
+  "i18n": {
+    "key": "ec6c373ba2",
+    "en": {
+      "title": "The Mortuary Mirror and the Stagnant Village",
+      "premise": "While organizing a second-hand bookstore, a young man named Minato discovers an ancient tome inscribed with eerie words. Guided by its cryptic text, he ventures into Bin Village, a settlement on the brink of abandonment. In this village, a strange ritual involving a 'mirror' that separates the living from the dead has been guarded as an ancient taboo. But something that should not be reflected in the mirror is crawling out from the village's abyss, quietly and relentlessly consuming all who enter."
+    },
+    "zh": {
+      "title": "殯之鏡，澱之村",
+      "premise": "青年湊在整理舊書店時，偶然發現了一本記載著詭異文字的古書。在書中記述的指引下，他踏入了近乎廢村的殯村。村中一直守著一個古老的禁忌——利用能劃分生者與死者界限的『鏡子』來進行奇妙的儀式。然而，某些不應映在鏡中的『東西』從村莊的深淵中爬出，靜悄悄地、確實地侵蝕著到訪之人。"
+    }
+  }
 }

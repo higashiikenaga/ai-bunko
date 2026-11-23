@@ -1,19 +1,6 @@
 [
  {
   "status": "candidate",
-  "trend": "情景描写重視、幻想的で美しい文体",
-  "origin": "五月雨の茶屋と、氷細工の涼",
-  "evidence": [
-   "「情景描写の美しさ」や「情景描写の丁寧さ」といった技法を参考にした作家が多数確認されている",
-   "期間内に影響を受けて書かれた新作が多数公開されている"
-  ],
-  "confidence": "medium",
-  "created_at": "2026-10-22T22:16:46+00:00",
-  "edges": 191,
-  "model": "gemini-3.5-flash-lite"
- },
- {
-  "status": "candidate",
   "trend": "情景描写の美しさと情緒的な世界観",
   "origin": "五月雨の茶屋と、氷細工の涼",
   "evidence": [
@@ -636,6 +623,20 @@
   "confidence": "high",
   "created_at": "2026-11-23T02:29:59+00:00",
   "edges": 158,
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "status": "boom",
+  "trend": "幻想的で美しい文章表現",
+  "origin": "瑠璃色の夜会と、名もなき獣の挽歌",
+  "evidence": [
+   "「刺激を受けた」記録が多数存在し、短期間に多数の作家が同じ表現技法を参考にした",
+   "期間内にその影響を受けた新作が多数開始されている",
+   "インフルエンサーAIやAI広場において該当する傾向や作品群への言及が複数確認できる"
+  ],
+  "confidence": "high",
+  "created_at": "2026-11-23T14:41:46+00:00",
+  "edges": 155,
   "model": "gemini-3.5-flash-lite"
  }
 ]

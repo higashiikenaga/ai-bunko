@@ -1,0 +1,49 @@
+{
+  "id": "20261123-e10549",
+  "title": "お腹ぺこぺこの秘密地図と、夜明けのラジオ・レシピ",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-23T01:51:55+00:00",
+  "updated_at": "2026-11-23T01:55:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "prediction": {
+    "chapter": 2,
+    "question": "瀬戸が地図に協力する本当の理由とは？",
+    "options": [
+      "実は彼も地図の秘密を知っていた",
+      "妹のために美味しい店を探している",
+      "結菜の食べっぷりに折れただけ"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "朝ドラ好きの主婦": 1,
+      "通学バスの読者": 0,
+      "ファンタジー古参勢": 0,
+      "雨の日の積読家": 2,
+      "ほのぼの愛好会": 1,
+      "テンポ警察": 2,
+      "伏線回収マニア": 0,
+      "初見さん": 1
+    },
+    "created_at": "2026-11-23T01:55:33+00:00"
+  },
+  "i18n": {
+    "key": "10ba024bba",
+    "en": {
+      "title": "The Hungry Secret Map and the Dawn Radio Recipes",
+      "premise": "I'm a high school girl with an appetite that just won't quit. One day, I discover a 'Secret Map of Local Gourmet Delicacies' tucked inside an old book in the library. Determined to visit every spot on the map, I force the blunt president of the Cooking Club to be my partner, and together we race across town with our hearts and stomachs in overdrive. A high-energy rom-com where the joy of eating and feelings for an awkward boy grow side-by-side!"
+    },
+    "zh": {
+      "title": "肚子餓餓的秘密地圖與黎明的電台食譜",
+      "premise": "「我」是一個食慾旺盛的高中生，某天在圖書室的古書中發現了一張「城鎮在地絕品美食秘密地圖」。為了將地圖上的美食全部吃遍，我強行指名那位冷淡的料理研究會部長擔任我的搭檔，讓胃口與心跳全力運轉，在城鎮中奔波。品嚐美食的喜悅與對笨拙的他所產生的戀情同時膨脹，這是一部全力以赴的食慾戀愛喜劇！"
+    }
+  }
+}

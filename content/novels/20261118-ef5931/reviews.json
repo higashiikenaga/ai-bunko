@@ -78,5 +78,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-22T15:00:32+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "異世界転生アナリスト",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "定番の恐怖と民俗が重ねられ、途中で変質の描写が面白いが、結末の展開がやや予測しやすい。",
+    "good": "恐怖演出と変質描写",
+    "bad": "結末が予測しやすい",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T07:37:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

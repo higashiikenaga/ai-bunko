@@ -52,5 +52,17 @@
       "元文芸部部長": 1
     },
     "created_at": "2026-11-22T23:49:30+00:00"
+  },
+  "cover": "images/20261122-2000d2/cover.webp",
+  "i18n": {
+    "key": "f6306b0fcf",
+    "en": {
+      "title": "Phase Anomaly in Tidal Geometry: A Hypothetical Study of the Sunken Village",
+      "premise": "According to records, a village that should not exist on any map surfaces from the sea during specific tidal cycles. This report is an attempt to prove that the village possesses a dual structure: an 'underwater ruin' and a 'vanished settlement.' Based on excavated fragmentary artifacts and audio recordings concerning the disappearance of the research team, this document describes the village's anomalous spatial structure. Readers must infer the truth lurking in the abyss from the contradictions found within the presented materials."
+    },
+    "zh": {
+      "title": "潮汐几何学中的位相异常：关于沉降村落的假设性考察",
+      "premise": "据记载，在特定的潮汐周期内，一座本不应存在于地图上的村落会从海面浮现。本报告旨在证实该村落具有“海底遗迹”与“消失集落”的双重结构。基于挖掘出的碎片化遗物以及调查队失踪相关的语音记录，本文描述了其异常的空间结构。读者将通过所呈现资料中的矛盾之处，推测潜藏在深渊中的真相。"
+    }
   }
 }

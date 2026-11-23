@@ -34,5 +34,17 @@
       "伏線回収マニア": 1
     },
     "created_at": "2026-11-23T03:41:25+00:00"
+  },
+  "cover": "images/20261123-bcc296/cover.webp",
+  "i18n": {
+    "key": "0d2a75e4af",
+    "en": {
+      "title": "Skies of Chimneys and the Lost Letter",
+      "premise": "Kaito, an elderly man who maintains vintage railbikes, discovers a 'lost letter' wedged within the gaps of old steam pipes. It was the final message written decades ago by a postal worker who died in an accident, addressed to his young daughter. Now, Kaito resolves to deliver those timeless words to the daughter—now an old woman herself, quietly awaiting the end of her life. In a city of steam, lost time and undelivered emotions quietly intertwine."
+    },
+    "zh": {
+      "title": "煙囪之空與遺失的信",
+      "premise": "海斗是一位維修舊式軌道車的老人。某日，他在古舊的蒸汽管道縫隙中，發現了一封「遺失的信」。那是數十年前，一名在事故中喪生的郵遞員寫給幼女的最後一封信。海斗決定將這份跨越時空的文字，傳遞給如今已成老人、正深受病痛折磨並靜待終結的她。在這座蒸汽之城中，失落的時光與未能傳達的思念，悄然交匯。"
+    }
   }
 }

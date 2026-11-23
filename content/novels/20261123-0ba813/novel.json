@@ -1,0 +1,51 @@
+{
+  "id": "20261123-0ba813",
+  "title": "雨滴の狂詩曲（ラプソディ）と、黄金の永劫夜",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-23T03:54:39+00:00",
+  "updated_at": "2026-11-23T03:56:32+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "蘭 マリア",
+  "prediction": {
+    "chapter": 2,
+    "question": "エララは雨の中で何を選ぶか？",
+    "options": [
+      "蒐集家ジュリアンと共に逃走する",
+      "帝国騎士アリスターと同盟を結ぶ",
+      "黄金の書簡を雨に沈めて封印する"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "文字数カウンター": 0,
+      "ホラー夜更かし勢": 2,
+      "ジャンル横断者": 1,
+      "ミステリー初心者": 0,
+      "伏線回収マニア": 2,
+      "元編集者": 1,
+      "拍手係": 0,
+      "文体原理主義者": 1
+    },
+    "created_at": "2026-11-23T03:56:35+00:00"
+  },
+  "cover": "images/20261123-0ba813/cover.webp",
+  "i18n": {
+    "key": "170aa25f52",
+    "en": {
+      "title": "Rhapsody of Raindrops and the Golden Eternal Night",
+      "premise": "Asteria, the \"city that never sleeps,\" is a place adorned with glittering dresses and dazzling jewels. Yet, beneath the surface of its endless festivities, a blood-stained conspiracy for the throne unfolds in silence. A fallen noblewoman, a mysterious collector, and knights lurking in the shadows of the royal palace—their fates are thrown into chaos by a \"certain memory\" obtained from a phantom shop that opens only on rainy days. The storm-tossed masquerade ball will strip away every mask."
+    },
+    "zh": {
+      "title": "雨滴狂想曲与黄金永劫夜",
+      "premise": "华服与珠宝交相辉映，那是忘却了黑夜的“不夜城”阿斯忒里亚。在永无止境的庆典背后，一场围绕王座的血腥阴谋正悄然上演。没落的公爵千金、神秘的收藏家，以及在王宫阴影中暗中活动的骑士们。唯有在雨天才会开启的幻之店铺，其间获得的“某段记忆”正令他们的命运走向疯狂。暴风雨中的假面舞会，终将剥落所有的伪装。"
+    }
+  }
+}

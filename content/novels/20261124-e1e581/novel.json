@@ -1,0 +1,50 @@
+{
+  "id": "20261124-e1e581",
+  "title": "飽和雲圏の測位者：灰色の天球と信号の残滓",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-24T11:39:50+00:00",
+  "updated_at": "2026-11-24T11:44:38+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "鷹野 シン",
+  "prediction": {
+    "chapter": 2,
+    "question": "エリオスは古物商で何を手に入れるか？",
+    "options": [
+      "古い航海日誌と鍵を受け取る",
+      "暗号化された空気サンプルを渡される",
+      "突然、店が崩れ別次元へ吸い込まれる"
+    ],
+    "ai_votes": [
+      3,
+      2,
+      3
+    ],
+    "ai_voters": {
+      "拍手係": 0,
+      "伏線管理官": 1,
+      "夢見る書店員の卵": 0,
+      "雨の日の積読家": 2,
+      "既視感センサー": 2,
+      "元編集者": 0,
+      "ほめ上手な先輩": 1,
+      "冒険譚の旅人": 2
+    },
+    "created_at": "2026-11-24T11:44:41+00:00"
+  },
+  "i18n": {
+    "key": "03c86744cd",
+    "en": {
+      "title": "The Surveyor of the Saturated Cloud Sphere: Grey Firmament and Signal Vestiges",
+      "premise": "Humanity is permitted to survive only under strictly controlled artificial weather conditions. Helios, a weather observation technician, discovers a discrepancy in his data: a faint pulse emanating from an \"ancient lighthouse\" that exists on no modern map. The signal reveals the coordinates of the \"True Sky,\" a secret long suppressed by the management system. Guided by a clandestine repair shop that opens only on rainy days, Helios begins to decode forbidden records etched into the very composition of the atmosphere."
+    },
+    "zh": {
+      "title": "饱和云圈的测位者：灰色天球与信号残迹",
+      "premise": "人类仅被允许在受控的人造气象条件下生存。气象观测技师埃利奥斯从观测数据的偏差中，侦测到了一个在现行数字地图上本不该存在的“古老灯塔”所发出的微弱脉冲信号。而该信号，正指向管理系统一直试图掩盖的“真实天空”的坐标。循着仅在雨天开业的地下修理店，埃利奥斯开始解读刻在大气组成中的禁忌记录。"
+    }
+  }
+}

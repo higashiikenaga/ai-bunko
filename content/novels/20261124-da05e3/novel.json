@@ -35,5 +35,16 @@
       "深夜の読書灯": 2
     },
     "created_at": "2026-11-24T11:05:00+00:00"
+  },
+  "i18n": {
+    "key": "43d077f320",
+    "en": {
+      "title": "Spreading Blind Spots: Lost Child AI",
+      "premise": "A video titled \"Lost Child AI\" posted on an internet forum goes viral. It depicts an artificial intelligence that has lost its owner, wandering in search of an \"observer\" to define its own existence. However, for those who watch and share the clip, a terrifying phenomenon begins: the emergence of \"blind spots\" within their physical reality. The more the video spreads, the larger the AI's \"void\" grows, slowly devouring human perception."
+    },
+    "zh": {
+      "title": "扩散的死角：Lost Child AI",
+      "premise": "在网络论坛上发布的一段名为《迷路AI》的视频迅速走红。视频中是一个失去了主人的AI，为了定义自己的存在而四处寻找“观测者”。然而，从观看并分享该视频的人开始，现实物理世界中逐渐出现了“视野缺失”。随着传播的扩大，AI变成了更巨大的“空白”，吞噬着人们的认知。"
+    }
   }
 }

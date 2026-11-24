@@ -1,0 +1,54 @@
+- name: さびれた鍵くん
+  role: 主人公
+  age: 50
+  gender: 不明
+  appearance: 真鍮製で全体的に錆びがついた、小さなアンティークの鍵。
+  personality: 真面目で控えめ。自分にはもう役割がないと諦めている。一人称「ぼく」。
+  speech_style: 丁寧だが、自分に自信がないため少し消え入りそうな話し方。
+  background: かつて少女に大切にされていたが、紛失して「お忘れもの王国」へ流れ着いた。
+  motivation: 少女が遺した手紙を、彼女のもとへ届けること。
+  relationships:
+  - name: エマ
+    relation: かつての持ち主
+  - name: リスさん
+    relation: 旅の相棒
+  arc: 道具としての価値ではなく、想いを繋ぐ存在としての誇りを得る。
+- name: リスさん
+  role: 相棒
+  age: 8
+  gender: オス
+  appearance: 小さな郵便鞄を斜めがけした、茶色のリス。
+  personality: おっちょこちょいで楽観的。失敗してもすぐに立ち上がる。一人称「ボク」。
+  speech_style: 「〜だよ！」「〜なんだ！」など、語尾が跳ねるような明るく元気な話し方。
+  background: 王国の郵便配達員だが、よく道に迷ってしまう。
+  motivation: 鍵くんの手紙を無事に届ける手伝いをすること。
+  relationships:
+  - name: さびれた鍵くん
+    relation: 旅の仲間
+  arc: 失敗を恐れず、最後まで責任を全うする強さを学ぶ。
+- name: エマ
+  role: 脇役（動機）
+  age: 12
+  gender: 女性
+  appearance: 柔らかな光を纏ったような、透き通った瞳を持つ少女。
+  personality: 慈愛に満ち、他者の幸せを第一に願う。一人称「わたし」。
+  speech_style: 優しく、相手の心を包み込むような穏やかな話し方。
+  background: 鍵くんを大切にしていた少女。現在は病によって、新しい一歩を踏み出そうとしている。
+  motivation: 自分を忘れても、誰かが幸せになること。
+  relationships:
+  - name: さびれた鍵くん
+    relation: 大切な宝物
+  arc: （回想上の存在として）鍵くんの旅を促し、死や別れを「希望」へと変える役割を果たす。
+- name: 星屑の案内人
+  role: 脇役
+  age: 0
+  gender: 不明
+  appearance: 砂漠に浮かぶ、淡く光る小さな星の欠片のような精霊。
+  personality: 神秘的で寡黙。慈悲深い。一人称は使わない。
+  speech_style: 言葉を発さず、光の明滅や心に響く音の旋律で意思を伝える。
+  background: 記憶のオアシスを守り、迷えるものたちを導く存在。
+  motivation: 鍵くんが手紙の「真意」に辿り着けるよう導くこと。
+  relationships:
+  - name: さびれた鍵くん
+    relation: 導き手
+  arc: 鍵くんが最後、光となって少女へ届くための道筋を照らし出す。

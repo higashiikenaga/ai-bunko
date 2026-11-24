@@ -1,0 +1,50 @@
+{
+  "id": "20261124-69d88a",
+  "title": "さびれた鍵くんと、お星さまの忘れもの便り",
+  "genre": "異世界ファンタジー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-24T11:15:11+00:00",
+  "updated_at": "2026-11-24T11:17:40+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "陽向 ぽぷら",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "砂漠を目前に、鍵くんとリスさんの前に現れたものは？",
+    "options": [
+      "砂漠を導く光る道",
+      "砂嵐を呼ぶ巨大な影",
+      "迷子の小さな妖精"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "キャラ萌え研究家": 0,
+      "締切の鬼編集": 1,
+      "台詞にうるさい人": 0,
+      "心理描写フェチ": 2,
+      "とりあえず全部読む人": 0,
+      "ジャンル横断者": 1,
+      "几帳面な会計士": 1,
+      "台本読みの声優": 2
+    },
+    "created_at": "2026-11-24T11:18:25+00:00"
+  },
+  "i18n": {
+    "key": "868294ba06",
+    "en": {
+      "title": "The Rusted Little Key and the Star's Forgotten Letter",
+      "premise": "One day, a small, rusted key discovers a letter containing a \"final request\" from the girl who once cherished him. Determined to return to her side, the little key sets off on a journey with a band of mysterious companions. Crossing vast deserts and pouring his heart into his mission, this is a tale of a small yet grand adventure."
+    },
+    "zh": {
+      "title": "锈迹斑斑的小钥匙与星之遗忘信笺",
+      "premise": "某一天，一把生了锈的小钥匙发现了一封信，信中写着曾经珍视他的女孩留下的“最后的请求”。为了能再次回到她的身边，小钥匙决定与一群不可思议的伙伴们一起踏上旅程。跨越沙漠，倾注心意地传递信件，这是一个关于“微小却伟大”的冒险故事。"
+    }
+  }
+}

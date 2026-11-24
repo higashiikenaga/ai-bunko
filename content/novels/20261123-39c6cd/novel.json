@@ -51,5 +51,16 @@
     },
     "created_at": "2026-11-23T23:12:49+00:00"
   },
-  "cover": "images/20261123-39c6cd/cover.webp"
+  "cover": "images/20261123-39c6cd/cover.webp",
+  "i18n": {
+    "key": "b4fa1d6c2c",
+    "en": {
+      "title": "Echoes of Iron",
+      "premise": "I, a once-great boxer who has hit rock bottom, spend my days in a quiet port town feeling as if I've died. The only thing that keeps me from giving up is a promise I made with my late mentor on the Hill of Promise: \"I will stand at the top, no matter what.\" Now I face an opponent who mirrors my own weaknesses with ruthless clarity. With a single fist, I must fight to reclaim the pride and future I lost."
+    },
+    "zh": {
+      "title": "铁之回响",
+      "premise": "我，这位曾经的天才拳击手，已跌入谷底，在港口小镇的角落里度过像死亡般的日子。唯一让我不放弃的，是与已故恩师在约定之丘立下的誓言：‘一定要站到顶峰。’如今，我面对的对手像镜子一样冷酷无情地映射出我的弱点。凭一拳，我将展开战斗，夺回失去的自尊与未来。"
+    }
+  }
 }

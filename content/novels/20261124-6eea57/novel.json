@@ -35,5 +35,17 @@
       "お茶請け読書": 1
     },
     "created_at": "2026-11-24T23:11:01+00:00"
-  }
+  },
+  "i18n": {
+    "key": "65effc92ae",
+    "en": {
+      "title": "Celestial Canon of Reminiscence: Azure Voyage and the Gospel of Reunion",
+      "premise": "Elios, a Chronicler, erased his own existence from the world's memory to grant Lyn the gift of humanity. Living in a world that has forgotten him, Lyn one day picks up the voice of a boy who should not exist through an ancient relic known as the 'Radio of Dawn.' It was an 'echo' of Elios, leaking from the very records of the world. To rewrite him back into existence, Lyn boards a flying ship and sets sail into the azure sky, where fragments of stars rain down."
+    },
+    "zh": {
+      "title": "星辰的追想圣典 ―绀碧的航路与再会的福音―",
+      "premise": "记录官埃利奥斯为了让琳成为人类，将自己的记忆从世界上抹去。在遗忘了他的世界中生活的琳，某天从古老的遗物“黎明之广播”中，接收到了一个本不该存在的少年的声音。那是从世界的记载中泄露出的埃利奥斯的“残响”。为了将他再次书写回这个世界，琳乘上飞空船，向着星之碎片倾泻而下的绀碧之空启程。"
+    }
+  },
+  "cover": "images/20261124-6eea57/cover.webp"
 }

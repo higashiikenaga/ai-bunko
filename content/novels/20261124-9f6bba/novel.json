@@ -51,5 +51,17 @@
       "活字中毒の猫": 0
     },
     "created_at": "2026-11-24T18:13:28+00:00"
+  },
+  "cover": "images/20261124-9f6bba/cover.webp",
+  "i18n": {
+    "key": "bd6d3153c2",
+    "en": {
+      "title": "Brass Lungs and the Severed Summit",
+      "premise": "In a world that has forgotten the sky, a low-level mechanic discovers an ancient star chart. It is a guide leading to an 'Old Lighthouse' perched atop a summit far beyond the sea of smoke. To save a comrade suffering from lung disease, he boards a forbidden elevator and turns his fury against the ruling class, who claim to dwell in a paradise above the clouds."
+    },
+    "zh": {
+      "title": "黄铜之肺与断绝之巅",
+      "premise": "在一个遗忘了天空的世界里，底层的维修工“我”捡到了一张古老的星图。那是通往烟海之巅“古老灯塔”的指路明灯。为了救治患上肺病的同伴，我踏上了禁忌的升降机，向着标榜云端乐园的统治阶层亮出了獠牙。"
+    }
   }
 }

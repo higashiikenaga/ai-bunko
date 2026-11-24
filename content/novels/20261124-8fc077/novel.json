@@ -5,10 +5,47 @@
   "status": "ongoing",
   "target_chapters": 8,
   "created_at": "2026-11-24T14:38:10+00:00",
-  "updated_at": "2026-11-24T14:38:10+00:00",
+  "updated_at": "2026-11-24T15:04:10+00:00",
   "models": [
-    "gemma-4-31b-it"
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
   ],
   "author": "学者 ヘルマン",
-  "fail_count": 1
+  "fail_count": 0,
+  "prediction": {
+    "chapter": 2,
+    "question": "氷の城の内部で、調査団が最初に出会うものは？",
+    "options": [
+      "粒子化され保存された住民たちの記憶断片",
+      "物理法則が崩壊し、空間が反転し続ける迷宮",
+      "消失したはずの住民が「正常に」暮らす街"
+    ],
+    "ai_votes": [
+      2,
+      2,
+      4
+    ],
+    "ai_voters": {
+      "流行ウォッチャー": 2,
+      "闇鍋リーダー": 2,
+      "ホラー夜更かし勢": 1,
+      "涙腺ゆるゆる": 0,
+      "猫舌の読書家": 2,
+      "週末の映画好き": 1,
+      "初見さん": 2,
+      "異世界転生アナリスト": 0
+    },
+    "created_at": "2026-11-24T15:05:23+00:00"
+  },
+  "i18n": {
+    "key": "e8500238b3",
+    "en": {
+      "title": "Observation Records: The Settlement Disappearance Incident in the Northern Ice Plains",
+      "premise": "This record is an analysis of audio fragments and residual materials recovered from the site of the \"Vanishing Village,\" where 240 residents disappeared without a trace. At the site stands a colossal crystalline structure that defies the laws of physics, known as the \"Ice Castle.\" A direct correlation has been established between the disappearance of the inhabitants and the formation of this structure. Based on the limited data recovered, this report attempts to reconstruct the process of spatial phase collapse."
+    },
+    "zh": {
+      "title": "北方冰原集落消失事件观测记录",
+      "premise": "本记录是对从240名居民突然无痕消失的“消失之村”遗址中回收的音频碎片及残留物资的分析。现场出现了一座无视物理法则的巨大晶体结构，通称“冰之城”。居民的消失与该结构的形成之间存在直接的相关性。本稿将基于回收的少量数据，尝试重建空间位相的崩溃过程。"
+    }
+  }
 }

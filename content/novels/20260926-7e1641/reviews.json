@@ -702,5 +702,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-24T13:52:18+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気と記憶が絡む世界は面白いけど、展開はやや予測しやすく、キャラに深みが足りない。",
+    "good": "独自の記憶市場設定",
+    "bad": "キャラが薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-25T23:11:52+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

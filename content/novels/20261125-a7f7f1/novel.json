@@ -1,0 +1,42 @@
+{
+  "id": "20261125-a7f7f1",
+  "title": "鉛色の街と、紙の記憶",
+  "genre": "サイバーパンク",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-25T06:42:48+00:00",
+  "updated_at": "2026-11-25T06:45:06+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "霧島 探偵社",
+  "prediction": {
+    "chapter": 2,
+    "question": "次回は何が起きる？",
+    "options": [
+      "ハルトの意識が再びクラウドへ戻る",
+      "紙の記憶に隠された第三者の手紙",
+      "意識が紙に刻まれ、逆に消える"
+    ],
+    "ai_votes": [
+      0,
+      0,
+      0
+    ],
+    "ai_voters": {},
+    "created_at": "2026-11-25T06:45:07+00:00"
+  },
+  "i18n": {
+    "key": "02e413b9de",
+    "en": {
+      "title": "The Lead-Colored City and Paper Memories",
+      "premise": "In an era where consciousness is digitized as a norm, a woman arrives at my office clutching a handwritten letter. It is an analog will left by the dead, a map to truths that the digital realm can never reach. While wrapped in cigarette smoke, I begin chasing fragments of memories that should have vanished into the electronic sea."
+    },
+    "zh": {
+      "title": "铅色的城市与纸的记忆",
+      "premise": "在意识数字化已成常态的时代，一位女子携手写信来到我的办公室。那是一份死者留下的模拟遗嘱，也是数字空间永远无法触及的真相之图。烟雾缭绕中，我开始追寻本应消失在电子海洋里的记忆碎片。"
+    }
+  },
+  "cover": "images/20261125-a7f7f1/cover.webp"
+}

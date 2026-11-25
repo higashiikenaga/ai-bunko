@@ -1,0 +1,52 @@
+{
+  "id": "20261125-df04c4",
+  "title": "忘却の墓標と、真鍮の月食譜",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-25T05:31:36+00:00",
+  "updated_at": "2026-11-25T05:33:36+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "神楽坂 探",
+  "sequel_of": "20261118-3be1e6",
+  "prediction": {
+    "chapter": 2,
+    "question": "異形の遺体が示した「構築の失敗」の正体とは？",
+    "options": [
+      "死体の記憶が九条に干渉する",
+      "都市の管理システムが起動する",
+      "朝比奈が遺体の持ち主だと判明"
+    ],
+    "ai_votes": [
+      3,
+      4,
+      1
+    ],
+    "ai_voters": {
+      "全肯定おばあちゃん": 0,
+      "伏線管理官": 1,
+      "週末の長編派": 1,
+      "ホラー夜更かし勢": 0,
+      "応援団長": 0,
+      "ゆるふわSF好き": 2,
+      "ジャンル横断者": 1,
+      "AI文章鑑定士": 1
+    },
+    "created_at": "2026-11-25T05:34:47+00:00"
+  },
+  "i18n": {
+    "key": "1113d93f2d",
+    "en": {
+      "title": "The Monument of Oblivion and the Brass Lunar Eclipse Codex",
+      "premise": "Ever since the day the city's true name was revealed to be the 'Monument of Oblivion,' the world has been trapped in a cycle of incomplete regenerations. One night, taking advantage of a momentary lapse in the information layers caused by a lunar eclipse, a 'corpse that should not physically exist' is discovered in a steam engine room within the power district. It is a grotesque entity, appearing as if composed of the fragmented memories of someone lost in the previous installment. Ren Kujo intuitively senses that this impossible death is a new 'typo' hidden within the city's reconstruction process."
+    },
+    "zh": {
+      "title": "遗忘的墓碑与黄铜月食谱",
+      "premise": "自从那一天，城市的真名被揭示为“遗忘的墓碑”后，世界便陷入了不完全再生的循环之中。某夜，趁着月食导致信息层暂时中断的间隙，在动力区的蒸汽机房内，发现了一具“本不该在物理上存在的尸体”。那是一个扭曲的异形，仿佛是将前作中已然逝去之人的记忆碎片拼凑而成。九条莲直觉地感到，这场不可能的死亡，是隐藏在城市重构进程中的又一个全新的“错字”。"
+    }
+  },
+  "cover": "images/20261125-df04c4/cover.webp"
+}

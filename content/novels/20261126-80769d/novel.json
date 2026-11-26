@@ -1,0 +1,50 @@
+{
+  "id": "20261126-80769d",
+  "title": "鈍色の海と、雨の日の記憶",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-26T08:02:25+00:00",
+  "updated_at": "2026-11-26T08:04:59+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "氷室 冴",
+  "prediction": {
+    "chapter": 2,
+    "question": "雨宮栞が差し出した日記の正体は？",
+    "options": [
+      "失踪少女の手書きメッセージ",
+      "古本屋の開店秘密を示す暗号",
+      "佐久間自身の過去に関わる写真"
+    ],
+    "ai_votes": [
+      4,
+      3,
+      1
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 0,
+      "ご都合主義ハンター": 0,
+      "深夜テンションの読者": 2,
+      "設定考証班": 1,
+      "週末の長編派": 1,
+      "放課後の図書委員": 0,
+      "ねこ背の文学少女": 0,
+      "夢見る書店員の卵": 1
+    },
+    "created_at": "2026-11-26T08:05:02+00:00"
+  },
+  "i18n": {
+    "key": "5ab22c17a8",
+    "en": {
+      "title": "The Leaden Sea and Memories of a Rainy Day",
+      "premise": "Assistant Inspector Sakuma of the First Investigation Division is nearing retirement when he is ordered to reopen a cold case: a disappearance from twenty years ago. His investigation leads him to a peculiar secondhand bookstore on the outskirts of town that opens only on rainy days, where the owner holds fragmented memories of the incident. Caught in the friction of a bureaucracy obsessed with efficiency, Sakuma persists through painstaking interviews and meticulous record checks, chasing the 'voiceless message' left behind by the missing girl."
+    },
+    "zh": {
+      "title": "钝色的大海与雨日的记忆",
+      "premise": "即将退休的搜查一课警部补·佐久间，被命令重新调查一起20年前的未解决失踪案。在调查过程中，他发现位于城镇边缘、仅在“雨天开业的旧书店”的店主，持有关于当年事件的碎片化记忆。在组织效率至上的压力与矛盾之中，佐久间通过地毯式的走访与记录比对，执着地追寻失踪少女留下的那条“无声的信息”。"
+    }
+  },
+  "cover": "images/20261126-80769d/cover.webp"
+}

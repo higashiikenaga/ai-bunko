@@ -24,7 +24,8 @@
   },
   "cover": "images/20261111-906e96/cover.webp",
   "illustrations": {
-    "1": "images/20261111-906e96/ch-001.webp"
+    "1": "images/20261111-906e96/ch-001.webp",
+    "9": "images/20261111-906e96/ch-009.webp"
   },
   "prediction_results": [
     {

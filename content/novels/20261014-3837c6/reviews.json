@@ -238,5 +238,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-23T20:15:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "元文芸部部長",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "静かな森と細部描写が印象的だが、物語の進行が遅く、人物の深みが不足。",
+    "good": "詳細描写と静寂の雰囲気",
+    "bad": "人物の掘り下げ不足",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T01:20:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

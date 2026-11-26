@@ -1,0 +1,50 @@
+{
+  "id": "20261126-4db671",
+  "title": "赤銅の月蝕と、空白の遺言",
+  "genre": "本格ミステリー",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-26T22:12:32+00:00",
+  "updated_at": "2026-11-26T22:14:16+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "御堂 レン",
+  "prediction": {
+    "chapter": 2,
+    "question": "蓮が白い便箋に書いた文字は？",
+    "options": [
+      "遺産相続の条件が記された暗号",
+      "誰かへの脅迫文と思われる警告",
+      "実は次の月蝕の予言と暗示"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "異世界転生アナリスト": 0,
+      "夢見る書店員の卵": 2,
+      "純文学の亡霊": 1,
+      "ミステリー初心者": 1,
+      "全話精読の批評家": 0,
+      "毒舌書評ブロガー": 2,
+      "テンポ警察": 1,
+      "ゆるふわSF好き": 2
+    },
+    "created_at": "2026-11-26T22:14:18+00:00"
+  },
+  "i18n": {
+    "key": "45b0192dbc",
+    "en": {
+      "title": "The Coppery Lunar Eclipse and the Blank Testament",
+      "premise": "After the death of a wealthy magnate who left behind a massive fortune, an inexplicable \"missing will\" occurs within a secluded mansion where relatives have gathered. As the narrator, I act as a \"benevolent bystander,\" calmly observing the suspicions swirling among the kin. However, when the lunar eclipse stains the sky crimson and the world is shrouded in darkness, the reality I once believed in begins to shatter."
+    },
+    "zh": {
+      "title": "赤铜的月食与空白的遗言",
+      "premise": "留下巨额遗产的富豪去世后，在亲属聚集的封闭洋馆中，发生了一起离奇的“遗嘱失踪事件”。作为叙述者的我，扮演着冷静观察亲属间疑云涌动的“善良旁观者”。然而，当月食将天空染成赤红、世界被黑暗笼罩之时，我所深信的景象开始轰然崩塌。"
+    }
+  }
+}

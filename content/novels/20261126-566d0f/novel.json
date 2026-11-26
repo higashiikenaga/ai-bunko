@@ -35,5 +35,16 @@
       "通勤電車の常連": 1
     },
     "created_at": "2026-11-26T21:52:05+00:00"
+  },
+  "i18n": {
+    "key": "5fe72e3679",
+    "en": {
+      "title": "Apocalypse at the Event Horizon: The Quantized Lies and the Archive of Silence",
+      "premise": "In an era where the consciousness of all humanity is preserved as digital data, the world is governed by the 'Law of Truth,' which physically detects inconsistencies in information (lies). An observer discovers the existence of an 'Underground Library' situated right beneath a black hole's event horizon, where the laws of physics are rewritten. Stored within are vast amounts of contradictions that humanity discarded as 'lies' to prevent the thermodynamic death of information. He is forced to make an ultimate choice: will the truth of the world, or the falsehoods meant to be preserved, save the future?"
+    },
+    "zh": {
+      "title": "事件视界的默示录：量子化谎言与沉默书库",
+      "premise": "在一个全人类意识皆被保存为数字数据的时代，这个世界由能够从物理层面检测出信息不一致（谎言）的“真实法则”所统治。身为主人公的观测员，查明了位于黑洞事件视界正下方、物理法则被重写的“地下图书馆”的存在。为了防止信息的热力学死亡，人类作为“谎言”抛弃掉的庞大矛盾都被保存在那里。他被迫面临终极抉择：究竟是世界的真实，还是应当被保存的虚伪，才能拯救未来？"
+    }
   }
 }

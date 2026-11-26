@@ -1,0 +1,51 @@
+{
+  "id": "20261126-921564",
+  "title": "スチーム・パフ・ロマンス ―砂漠の真ん中で、君と熱いお茶を淹れたい―",
+  "genre": "青春恋愛",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-26T02:46:55+00:00",
+  "updated_at": "2026-11-26T02:48:34+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "prediction": {
+    "chapter": 2,
+    "question": "目覚めた謎の青年が最初に発した言葉は？",
+    "options": [
+      "「ここはどこだ」と警戒する",
+      "「いい匂いだ」と腹を鳴らす",
+      "「よくも助けたな」と怒る"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "純文学の亡霊": 0,
+      "全肯定おばあちゃん": 1,
+      "既視感センサー": 0,
+      "冒険譚の旅人": 1,
+      "週末の長編派": 2,
+      "AI文章鑑定士": 0,
+      "新着チェッカー": 1,
+      "流行ウォッチャー": 2
+    },
+    "created_at": "2026-11-26T02:49:06+00:00"
+  },
+  "i18n": {
+    "key": "61f9d5e954",
+    "en": {
+      "title": "Steam Puff Romance: I Want to Brew Hot Tea with You in the Middle of the Desert",
+      "premise": "Koharu, a clerk at a steam-powered mobile diner traversing the desert, is a girl who pours her entire soul into crafting delicious meals! One day, she ends up (forcibly!) rescuing a mysterious mechanic named Ren, who was stranded due to a breakdown, and brings him back to her shop. In the heart of the desert, beside an oasis unlike any other, surrounded by the hiss of steam and the aroma of fresh bread, their \"steamy\" romance begins to unfold!"
+    },
+    "zh": {
+      "title": "蒸汽泡芙罗曼史 ―在沙漠中心，想与你共饮热茶―",
+      "premise": "在沙漠中穿行的蒸汽移动食堂店员小春，是一个为了做出美味食物而全力以赴的女孩！有一天，她（强行！）救助了一名因故障而滞留的神秘修理工——莲，并将他带回了自己的店里。在沙漠中心，在从未见过的绿洲旁，伴随着蒸汽的轰鸣声与面包的香气，两人的“火热”恋情就此展开！"
+    }
+  },
+  "cover": "images/20261126-921564/cover.webp"
+}

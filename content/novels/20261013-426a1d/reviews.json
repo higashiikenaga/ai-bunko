@@ -366,5 +366,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-21T16:15:23+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "週末の長編派",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "氷の城を崩すクライマックスは迫力満点だが、登場人物の成長が薄く、終盤の風の描写は美しい。",
+    "good": "迫力あるクライマックス",
+    "bad": "キャラの深み不足",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T09:16:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

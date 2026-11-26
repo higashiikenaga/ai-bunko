@@ -114,5 +114,8 @@
     },
     "created_at": "2026-11-25T14:12:44+00:00"
   },
-  "fail_count": 1
+  "fail_count": 1,
+  "illustrations": {
+    "2": "images/20261125-5da9db/ch-002.webp"
+  }
 }

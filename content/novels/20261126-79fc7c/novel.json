@@ -35,5 +35,17 @@
       "夢見る書店員の卵": 0
     },
     "created_at": "2026-11-26T22:45:48+00:00"
-  }
+  },
+  "i18n": {
+    "key": "1270a7b461",
+    "en": {
+      "title": "The Boundary of Stillness",
+      "premise": "During the restoration of an abandoned lighthouse, an undelivered letter is unearthed. It is a lost will, containing the truth behind a woman's death 25 years ago—a death long dismissed as a suicide. As a town faces massive redevelopment and the police force works to suppress the investigation, newly transferred detective Takagi must resist organizational pressure. By uncovering contradictions in autopsy records and conducting relentless door-to-door inquiries, he fights to reveal the full truth of a long-concealed crime."
+    },
+    "zh": {
+      "title": "凪之边界",
+      "premise": "在废弃旧灯塔的修复工程中，一封未寄出的信件被意外发现。那是失落的遗言，记载着25年前那场被定性为自杀的女性死亡真相。面对即将迎来大规模开发的城镇，以及阻碍调查扩大的警察组织，新调任的刑警高木在对抗组织压力的同时，通过剖析尸检记录中的矛盾与脚踏实地的走访，逐步逼近被掩盖的事件全貌。"
+    }
+  },
+  "cover": "images/20261126-79fc7c/cover.webp"
 }

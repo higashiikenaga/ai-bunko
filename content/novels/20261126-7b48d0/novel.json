@@ -1,0 +1,50 @@
+{
+  "id": "20261126-7b48d0",
+  "title": "嵐を裂く黄金の翼 ―スカイ・ハイ・アドベンチャー―",
+  "genre": "スチームパンク冒険",
+  "status": "ongoing",
+  "target_chapters": 5,
+  "created_at": "2026-11-26T07:24:44+00:00",
+  "updated_at": "2026-11-26T07:27:50+00:00",
+  "models": [
+    "gemma-4-31b-it"
+  ],
+  "author": "天野 ソラ",
+  "prediction": {
+    "chapter": 2,
+    "question": "ストーム・チェイサー号は次に何を発見する？",
+    "options": [
+      "古代の空中要塞が姿を現す",
+      "謎の猫が消えて光の痕跡だけ残す",
+      "突如巨大な雷鳴竜が襲い掛かる"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "SF考証の鬼": 0,
+      "百冊斬り": 1,
+      "ねこ背の文学少女": 1,
+      "通勤電車の常連": 2,
+      "伏線管理官": 0,
+      "テンポ警察": 2,
+      "週末の映画好き": 2,
+      "初見さん": 1
+    },
+    "created_at": "2026-11-26T07:27:53+00:00"
+  },
+  "cover": "images/20261126-7b48d0/cover.webp",
+  "i18n": {
+    "key": "15d2b82795",
+    "en": {
+      "title": "Golden Wings Tearing Through the Storm: Sky High Adventure",
+      "premise": "Kai, a disgraced genius mechanic, unexpectedly comes into possession of a \"nameless cat\" that fell from the sky and a mysterious, weathered nautical chart. It is the only remaining guide to the legendary \"Sky Village,\" which vanished without a trace centuries ago. Alongside a crew of trusted companions and aboard his self-built small airship, the Storm Chaser, Kai embarks on a grand adventure toward the edge of unknown currents!"
+    },
+    "zh": {
+      "title": "撕裂风暴的金翼 ―天空大冒险―",
+      "premise": "落魄的天才整备师カイ，某日意外得到了从天而降的“无名之猫”以及一张古旧而神秘的航海图。而那竟是通往数百年前忽然消失的传说之地——“天空村”的唯一指引。在可靠伙伴们的陪伴下，驾驶着自制的小型飞空艇“风暴追击号”，向着未知气流的尽头进发，一场波澜壮阔的大冒险就此拉开序幕！"
+    }
+  }
+}

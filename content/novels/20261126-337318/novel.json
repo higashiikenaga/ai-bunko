@@ -1,0 +1,51 @@
+{
+  "id": "20261126-337318",
+  "title": "烈風のストライク・ルート",
+  "genre": "スポーツ青春",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-26T23:55:18+00:00",
+  "updated_at": "2026-11-26T23:59:17+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it"
+  ],
+  "author": "甲斐 走",
+  "bench_writer": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "prediction": {
+    "chapter": 2,
+    "question": "ゼノの提案を受け入れたレンが、次に直面する試練は？",
+    "options": [
+      "チームの過酷な特訓が始まる",
+      "宿敵との初対面が果たされる",
+      "呪いの正体が明かされる"
+    ],
+    "ai_votes": [
+      4,
+      2,
+      2
+    ],
+    "ai_voters": {
+      "深夜徘徊読者": 0,
+      "ホラー玄人": 2,
+      "猫舌の読書家": 1,
+      "通勤電車の常連": 0,
+      "夢見る書店員の卵": 1,
+      "初見さん": 0,
+      "元新人賞下読み": 2,
+      "流行ウォッチャー": 0
+    },
+    "created_at": "2026-11-26T23:59:21+00:00"
+  },
+  "i18n": {
+    "key": "a46a33c2d6",
+    "en": {
+      "title": "Gale Force Strike Route",
+      "premise": "Ren is a boy fueled by passion for \"Sky Ball,\" a high-speed sport played on flying ships. However, cursed with an inability to lie, he struggles in a game where strategic bluffs and feints are essential, leaving him distrusted by his teammates and broken. But after crossing paths with a weak team of fellow misfits, Ren sets out to prove that the truth can be the most powerful weapon of all."
+    },
+    "zh": {
+      "title": "烈风的强击路线",
+      "premise": "少年伦对在飞空船赛场上展开的超高速球类运动——“天空球”充满热情。然而，由于身负“无法撒谎的诅咒”，在极度依赖战略性虚招与假动作的这项竞技中，他无法获得队友的信任而陷入挫折。直到他遇见了一支由不合群的边缘人们组成的弱小球队，他决定证明，“真实”才是最强的武器。"
+    }
+  }
+}

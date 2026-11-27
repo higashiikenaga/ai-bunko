@@ -222,5 +222,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-26T01:06:34+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ハッピーエンド信者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "エリオスが情報の海へ溶け込み、宇宙を再生する姿が心に残る。希望が光る終章だ。",
+    "good": "希望の再生と美しい終末",
+    "bad": "カエレンの描写が薄い",
+    "chapters_read": 7,
+    "created_at": "2026-11-27T16:56:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

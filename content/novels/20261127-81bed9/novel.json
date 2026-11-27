@@ -12,7 +12,6 @@
   ],
   "author": "藤堂 小太郎",
   "sequel_of": "20261121-d39a63",
-  "announce": "sequel",
   "prediction": {
     "chapter": 2,
     "question": "懐中時計の呪いが長屋全体に広がる原因とは？",
@@ -37,5 +36,16 @@
       "リアリティ警察": 1
     },
     "created_at": "2026-11-27T13:21:39+00:00"
+  },
+  "i18n": {
+    "key": "8505c0e63a",
+    "en": {
+      "title": "The Tidehouse and the Melody of the Stopped Pocket Watch",
+      "premise": "Denjirō, who had restored peace by binding the Sea God to the crest on his right arm, finds his quiet life disrupted when a strange commotion arrives in town. What arrives is a broken pocket watch whose hands have stopped—an item that exposes the owner’s lies and forces the truth to surface, cursed with the \"no‑lie\" spell. When the watch’s hands begin to move, the hidden pasts of the rowhouse residents intertwine with the Sea God’s power once again. A new tale of bonds, seasonal flavors, and rising turmoil awaits."
+    },
+    "zh": {
+      "title": "潮声长屋与停表之调",
+      "premise": "Denjirō 通过将海神的羁绊刻在右臂纹章上，恢复了平静，却在城镇中遇到了一场奇异的骚动。带来的，是一只停摆的“破碎怀表”——它能揭露主人的谎言并强迫真相显现，带有“不能说谎”的诅咒。当怀表的指针开始转动，长屋居民隐藏的过去与海神的力量再次交织。人们的羁绊与季节的味道交织，展开一段新的波澜故事。"
+    }
   }
 }

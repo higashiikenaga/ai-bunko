@@ -1,0 +1,51 @@
+{
+  "id": "20261127-bde198",
+  "title": "錆びた星図と、腐った空の果て",
+  "genre": "ディストピア",
+  "status": "ongoing",
+  "target_chapters": 6,
+  "created_at": "2026-11-27T22:20:43+00:00",
+  "updated_at": "2026-11-27T22:22:38+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鉄屑 カノン",
+  "bench_writer": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "prediction": {
+    "chapter": 2,
+    "question": "迫りくる追っ手の足音。エルムたちはどう切り抜ける？",
+    "options": [
+      "ゼロが身代わりとなり追っ手を撒く",
+      "未知の通路へ逃げ込み迷路に迷い込む",
+      "追っ手の正体がかつての知人だと判明"
+    ],
+    "ai_votes": [
+      4,
+      4,
+      0
+    ],
+    "ai_voters": {
+      "全話精読の批評家": 1,
+      "元新人賞下読み": 1,
+      "涙腺ゆるゆる": 0,
+      "応援団長": 0,
+      "ラブコメ中毒": 0,
+      "寝る前の一話": 1,
+      "毒舌書評ブロガー": 1,
+      "推しが尊い民": 0
+    },
+    "created_at": "2026-11-27T22:22:57+00:00"
+  },
+  "i18n": {
+    "key": "c9c95d3bcc",
+    "en": {
+      "title": "The Rusted Star Chart and the Edge of a Rotten Sky",
+      "premise": "In an era where the soot-choked sky hides even the stars, I make my living as a scavenger, picking through mountains of junk for parts to survive. One day, deep in the ruins, I find a strange antenna shaped like a 'broken sword' and an electronic chip engraved with an old 'star chart.' They are the relics of a foolish, beautiful plan from when humanity once tried to flee to the stars. To connect this scrap of junk to the other side of the sky, I set out on a journey, burning through my life and supplies."
+    },
+    "zh": {
+      "title": "锈蚀星图与腐朽天空的尽头",
+      "premise": "在一个天空被煤烟笼罩、连星星也看不见的时代，我靠着当废品商，每日在垃圾山里搜寻勉强度日的零件。某天，我在废墟底层发现了一个仿造“断剑”形状的奇特天线，以及刻有古老“星图”的电子芯片。那是人类曾试图逃往星空、既愚蠢又美丽的计划遗物。为了将这堆破烂连通到天空的另一端，我燃烧着生命与物资，踏上了旅程。"
+    }
+  }
+}

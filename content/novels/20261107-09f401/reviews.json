@@ -158,5 +158,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-27T06:38:35+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "星空と鏡で映る静寂を、まるで子どもの絵本みたいに温かく描き、心にそっと光を灯す。",
+    "good": "温かな雰囲気と星の光",
+    "bad": "やや冗長な描写",
+    "chapters_read": 9,
+    "created_at": "2026-11-27T06:51:56+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

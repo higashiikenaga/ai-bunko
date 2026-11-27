@@ -51,5 +51,17 @@
       "通学バスの読者": 1
     },
     "created_at": "2026-11-27T22:39:38+00:00"
-  }
+  },
+  "i18n": {
+    "key": "421a75aa9d",
+    "en": {
+      "title": "Flames of Condemnation and Lanterns of the Void — Echoes of the Forgotten Divine Throne",
+      "premise": "In an age when gods once ruled the earth, a \"Broken Sword\" forged to seal their law lies dormant—until the blood‑stained summons of war awakens it. The silent guardian Eryusion, who has tended the ancient lighthouse for centuries, follows the cursed resonance of the blade to the tomb of the gods. There, fragments of lost myth and a grotesque will bent on rewriting the world’s order await. When humanity grasps a divine relic, the old order crumbles and a new myth begins to be written."
+    },
+    "zh": {
+      "title": "断罪之焰与虚空灯火——遗忘神座的余响",
+      "premise": "昔日神祇统治大地之时，为封印其理而铸的「折れた剣」沉寂多年，直至血腥的呼声再度响起。寡言的守护者Eryusion守护古灯塔，追随剑刃散发的诅咒波动，踏入神座之墓。那里潜伏着失落神话的碎片与欲改写天地法则的异形意志。当人类握住神的遗物，旧有秩序崩塌，新的神话正悄然展开。"
+    }
+  },
+  "cover": "images/20261127-5399ce/cover.webp"
 }

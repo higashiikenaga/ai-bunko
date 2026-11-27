@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-27T18:27:32+00:00"
   },
-  "cover": "images/20261127-06e4c7/cover.webp"
+  "cover": "images/20261127-06e4c7/cover.webp",
+  "i18n": {
+    "key": "b228a8e95b",
+    "en": {
+      "title": "Hour of the Deep Sea Sediment: The Ancient Afterglow Melting into the Rainy City",
+      "premise": "In a seaside town where the ebb and flow of the tide dictates fate lie the ruins of a long-sunken ancient civilization. A disgraced former inspector, an apothecary who appears only on rainy days, and a diver seeking truth in the deep sea—three different forms of justice intersect over a taboo relic unearthed from the underwater ruins. As the rain ceaselessly pours and the fathomless abyss of the sea looms, people's pride is relentlessly put to the test."
+    },
+    "zh": {
+      "title": "溟海沉淀之时：溶于雨街的往昔残照",
+      "premise": "在一个潮汐左右命运的海边小镇，沉睡着昔日沉没的古代文明遗迹。被剥夺名誉的前巡察官、只在雨天现身的药材商，以及在深海中探寻真相的潜水士。三种不同的正义，因从海底遗迹中浮现的禁忌遗物而交织在一起。绵延不绝的雨水与深不见底的海渊，正无情地考验着人们的尊严与傲骨。"
+    }
+  }
 }

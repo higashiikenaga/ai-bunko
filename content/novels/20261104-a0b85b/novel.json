@@ -467,5 +467,8 @@
     "12": 2
   },
   "audio_voice": "Orus",
-  "completed_at": "2026-11-09T13:11:23+00:00"
+  "completed_at": "2026-11-09T13:11:23+00:00",
+  "illustrations": {
+    "12": "images/20261104-a0b85b/ch-012.webp"
+  }
 }

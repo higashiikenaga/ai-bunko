@@ -1,0 +1,50 @@
+{
+  "id": "20261127-fc8f95",
+  "title": "白磁の街と、地下の呼吸",
+  "genre": "ヒューマンドラマ",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-27T12:22:46+00:00",
+  "updated_at": "2026-11-27T12:25:53+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "鏡 ミライ",
+  "bench_writer": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "prediction": {
+    "chapter": 2,
+    "question": "地下図書館で老人と出会ったカイ。次に彼が目にするものは？",
+    "options": [
+      "禁断の書を開いてしまう",
+      "司書の仕事を手伝う",
+      "地下の真実を知る装置"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "新着チェッカー": 0,
+      "寝る前の一話": 1,
+      "異世界帰りの司書": 2,
+      "ファンタジー古参勢": 1,
+      "伏線管理官": 2,
+      "歴史散歩の人": 1,
+      "朝活読書": 0,
+      "几帳面な会計士": 1
+    },
+    "created_at": "2026-11-27T12:26:12+00:00"
+  },
+  "i18n": {
+    "key": "5e17274ada",
+    "en": {
+      "title": "The City of White Porcelain and the Underground Breath",
+      "premise": "A young man, weary of an ultra-efficient synchronized life, accidentally stumbles into an underground library where physical books still survive. There, he meets a lonely librarian who uses old-world steam engines to control the humidity and protect the scent of paper. Abandoning pure efficiency, he discovers the luxury of 'taking time to read,' slowly filling the emptiness in his heart that synchronization could never reach."
+    },
+    "zh": {
+      "title": "白瓷之街与地下的呼吸",
+      "premise": "厌倦了高效且同步的生活误打误撞闯入了一座仍存留着实体书的地下图书馆。在那里，有一位孤独的图书管理员，正利用旧时代的蒸汽机调节湿度，守护着纸张的气息。他抛弃了效率，懂得了“花时间去阅读”的奢侈，逐渐填补了无法通过同步生活获得的内心空白。"
+    }
+  }
+}

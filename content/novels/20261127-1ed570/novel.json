@@ -1,0 +1,49 @@
+{
+  "id": "20261127-1ed570",
+  "title": "おしゃべりダイバーと、秘密の冷凍スイーツ店",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 7,
+  "created_at": "2026-11-27T12:09:38+00:00",
+  "updated_at": "2026-11-27T12:11:01+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "春宮こより",
+  "prediction": {
+    "chapter": 2,
+    "question": "氷の城で凪が見た謎の光は何か？",
+    "options": [
+      "光は古代の鍵を示す",
+      "光は凪の記憶を呼び覚ます",
+      "光は氷の城の守護者が現れる"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "ミステリー初心者": 1,
+      "心理描写フェチ": 1,
+      "深夜テンションの読者": 2,
+      "冒険譚の旅人": 2,
+      "締切の鬼編集": 0,
+      "設定考証班": 0,
+      "朝活読書": 1,
+      "全肯定おばあちゃん": 0
+    },
+    "created_at": "2026-11-27T12:11:03+00:00"
+  },
+  "i18n": {
+    "key": "95970e4cd6",
+    "en": {
+      "title": "The Chatty Diver and the Secret Frozen Sweets Shop",
+      "premise": "Running an antique shop in a seaside town is my pride and joy—especially when it comes to hunting down rare collectibles! One day, I manage to acquire a \"seafloor ruin relief\" reportedly found in the deep sea. That single item ends up leading me to a strange café tucked away at the edge of town that looks just like an \"ice castle.\" Though the place is freezing cold to the eye, the sweets they serve possess a magical flavor that warms you right to the core! Surrounded by delicious treats and a slightly mysterious quest, my lively and mouth-watering daily life is about to begin!"
+    },
+    "zh": {
+      "title": "话痨潜水员与秘密冷冻甜品店",
+      "premise": "在海边小镇经营一家古董店的我，人生最大的乐趣就是搜寻珍奇的古董！有一天，我入手了一块据说是在深海中发现的“海底遗迹浮雕”，而这竟成了一个契机，让我开始频繁光顾镇子边缘一家宛如神秘“冰之城堡”的咖啡馆。那里的外观虽然冰冷刺骨，但端出来的甜品却有着能温暖心灵的魔法滋味！被美食与带点不可思议的寻物之旅所环绕，热闹又美味的每一天即将拉开帷幕！"
+    }
+  }
+}

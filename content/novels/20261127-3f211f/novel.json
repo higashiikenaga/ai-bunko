@@ -34,5 +34,17 @@
       "新着チェッカー": 1
     },
     "created_at": "2026-11-27T10:28:51+00:00"
+  },
+  "cover": "images/20261127-3f211f/cover.webp",
+  "i18n": {
+    "key": "d47dba5c29",
+    "en": {
+      "title": "The Heat Conduit Technician of the Frozen Lands",
+      "premise": "In a city gripped by eternal frost, I began my journey as a 'Heat Conduit Technician,' tasked with keeping the people warm. Under the stern tutelage of veteran masters, I learn to sense the slightest tremor or sound within the pipes—the subtle signs of trouble. Then, a daunting mission arrives: restore heat to the 'Ice Castle,' a long-abandoned district in the city's highest reaches. This is a tale of nameless workers who, fueled by pride and passion, strive to melt the frozen hearts of the city."
+    },
+    "zh": {
+      "title": "冻土的热导管技师",
+      "premise": "在冰封之城，我作为一名为人们带来温暖的“热导管技师”开始了我的工作。在资深工匠们的严厉指导下，我逐渐掌握了通过管道极其细微的震动与声响来察觉异状的技术。直到某天，一项艰巨的任务下达了：为位于城市最顶层的废弃地区“冰之城”重新输送热量。这是一个关于无名技师们如何倾注自豪与热情，去融化这座城市冰封之心的故事。"
+    }
   }
 }

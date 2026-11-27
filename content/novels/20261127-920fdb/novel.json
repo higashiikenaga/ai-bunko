@@ -35,5 +35,17 @@
       "ラブコメ中毒": 2
     },
     "created_at": "2026-11-27T06:08:29+00:00"
+  },
+  "cover": "images/20261127-920fdb/cover.webp",
+  "i18n": {
+    "key": "b69ff471b6",
+    "en": {
+      "title": "Endgame Silhouette",
+      "premise": "Hasumi, a solitary genius aiming for the summit of the High School Tsume Shogi Championship, meets Aoi, the only girl in school capable of keeping pace with his lightning-fast thought process. Both boast undefeated records, and while they are destined to clash in the tournament finals, they begin to discover the hidden feelings tucked away within each other's moves. The gap between the cold, calculated battles on the board and the burning passion in their hearts drives their relationship toward a dramatic endgame."
+    },
+    "zh": {
+      "title": "终局的剪影",
+      "premise": "志在问鼎高中詰将棋锦标赛巅峰的孤高天才莲见，遇到了校内唯一能跟上他思考速度的少女葵。两人皆是拥有不败战绩的强者，在注定要在正式赛决赛中正面交锋的命运之下，却也逐渐察觉到隐藏在彼此招式中的隐秘爱慕。棋盘上冷静的博弈与内心炽热的情感交织，将两人的关系推向了一场充满戏剧性的终局。"
+    }
   }
 }

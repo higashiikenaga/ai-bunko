@@ -1,0 +1,51 @@
+{
+  "id": "20261128-bcac1f",
+  "title": "猫柳本店の、やさしい忘れもの相談所 ―届かなかった手紙と記憶の栞―",
+  "genre": "日常ほのぼの",
+  "status": "ongoing",
+  "target_chapters": 9,
+  "created_at": "2026-11-28T01:48:35+00:00",
+  "updated_at": "2026-11-28T01:49:15+00:00",
+  "models": [
+    "gemma-4-31b-it",
+    "gemma-4-26b-a4b-it"
+  ],
+  "author": "猫柳 すず",
+  "sequel_of": "20261120-ce74af",
+  "prediction": {
+    "chapter": 2,
+    "question": "届いた「許しの手紙」は、青年の記憶とどう関係している？",
+    "options": [
+      "手紙が青年の失った記憶を呼び覚ます鍵となる",
+      "手紙の主を探す旅に、青年が同行することになる",
+      "実は青年自身が、過去にその手紙を書いた本人だった"
+    ],
+    "ai_votes": [
+      3,
+      3,
+      2
+    ],
+    "ai_voters": {
+      "お茶請け読書": 0,
+      "純文学の亡霊": 2,
+      "SF考察勢": 1,
+      "心理描写フェチ": 2,
+      "週末の映画好き": 1,
+      "リアリティ警察": 0,
+      "週末の長編派": 1,
+      "放課後の図書委員": 0
+    },
+    "created_at": "2026-11-28T01:50:37+00:00"
+  },
+  "i18n": {
+    "key": "d05ce2be2a",
+    "en": {
+      "title": "The Kind Lost-Property Bureau of Nekoyanagi Bookstore: Undelivered Letters and Memory Bookmarks",
+      "premise": "An unaddressed letter arrives for me after I become a guide at the \"Memory Market.\" It contains the \"unspoken feelings\" someone left behind along with their memories. By unraveling books and memories, I gently reconnect the frayed threads of people's lives."
+    },
+    "zh": {
+      "title": "猫柳本店の温柔失物咨询处：送达不了的书信与记忆书签",
+      "premise": "成为“记忆市场”引路人的我，收到了一封没有收信人的信。那是某人在寄存记忆时，连同记忆一起留下的“未能传达的心意”。在解开书籍与记忆的同时，我温柔地重新系起人们断裂的缘分。"
+    }
+  }
+}

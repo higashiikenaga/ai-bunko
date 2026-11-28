@@ -36,5 +36,17 @@
       "闇鍋リーダー": 0
     },
     "created_at": "2026-11-28T07:48:20+00:00"
+  },
+  "cover": "images/20261128-94fdf3/cover.webp",
+  "i18n": {
+    "key": "a6a947a045",
+    "en": {
+      "title": "Compass of the Firmament and the Silver-Winged Requiem",
+      "premise": "Seeking a legendary route said to lie beyond the sea of clouds, Kai, a young mechanic, sets sail aboard the Azure, an antiquated winged airship. For the first time in centuries, the signal of the 'Old Lighthouse'—which once guided the world—has resonated across the heavens. Alongside a crew of eccentric companions, Kai embarks on an epic voyage to master the winds, command the machines, and break through the very boundaries of the sky."
+    },
+    "zh": {
+      "title": "苍穹之罗盘与银翼安魂曲",
+      "premise": "为了寻找传说中沉睡在云海尽头的航路，年轻的整备师凯驾驶着拥有双翼的旧式飞空艇“蔚蓝号”，开启了一场冒险。数百年以来，曾经指引世界的“古老灯塔”再次发出了信号，在天际回响。凯将与一群个性迥异的伙伴同行，在解读风向与驾驭机械之间，投身于一场突破天空边界的壮阔航海。"
+    }
   }
 }

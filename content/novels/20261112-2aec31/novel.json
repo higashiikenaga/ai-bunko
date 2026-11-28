@@ -291,5 +291,8 @@
     "6": 2,
     "7": 2
   },
-  "audio_voice": "Fenrir"
+  "audio_voice": "Fenrir",
+  "illustrations": {
+    "7": "images/20261112-2aec31/ch-007.webp"
+  }
 }

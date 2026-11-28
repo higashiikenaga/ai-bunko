@@ -48,5 +48,8 @@
       "premise": "成为“记忆市场”引路人的我，收到了一封没有收信人的信。那是某人在寄存记忆时，连同记忆一起留下的“未能传达的心意”。在解开书籍与记忆的同时，我温柔地重新系起人们断裂的缘分。"
     }
   },
-  "cover": "images/20261128-bcac1f/cover.webp"
+  "cover": "images/20261128-bcac1f/cover.webp",
+  "illustrations": {
+    "1": "images/20261128-bcac1f/ch-001.webp"
+  }
 }

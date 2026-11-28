@@ -51,5 +51,16 @@
       "純文学の亡霊": 0
     },
     "created_at": "2026-11-28T00:45:29+00:00"
+  },
+  "i18n": {
+    "key": "2e2938ba51",
+    "en": {
+      "title": "Sky Roots — The Melody of the Wind and the Traces of a Broken Clock",
+      "premise": "A sky‑pirate boy named Kai sets out to the edge of the sky, clutching his late father’s broken pocket watch. The clock’s stopped hands hold the key to locating the legendary wings that command the world’s winds. Along the way he meets a mechanic girl, and together they pilot the ultra‑high‑performance airship “Azul Wing” toward the hidden truth beyond the cloud sea."
+    },
+    "zh": {
+      "title": "天空之根——风之旋律与破碎时钟的航迹",
+      "premise": "一名名叫凯的空中海盗少年，手握已故父亲的破碎怀表，踏上前往天空尽头的旅程。怀表停转的原因，是寻找能操纵世界之风的传说之翼的关键。途中，他遇到一位机械少女，两人共同驾驶超高性能飞空艇“阿祖尔·维恩”驶向云海之外隐藏的真相。"
+    }
   }
 }

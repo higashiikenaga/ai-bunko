@@ -34,5 +34,17 @@
       "朝ドラ好きの主婦": 0
     },
     "created_at": "2026-11-28T08:55:42+00:00"
+  },
+  "cover": "images/20261128-53e11f/cover.webp",
+  "i18n": {
+    "key": "1352012249",
+    "en": {
+      "title": "Pale Colors of Love, Secret Pages",
+      "premise": "In a quiet corner of the library, I found a handwritten map detailing \"secret places around town,\" written by an unknown hand. Drawn to the lonely words inscribed upon it, I began leaving secret replies. What started as a simple note soon turns into a private correspondence with Minato, a boy who stands isolated from his classmates. Connected only by words, they begin to discover each other's loneliness and the faint colors of a budding romance as they visit the locations marked on the map."
+    },
+    "zh": {
+      "title": "淡色的恋情，秘密的篇章",
+      "premise": "在图书馆的一个角落，我捡到了一张手写的地图，上面记录着“镇上的秘密地点”，却不知是谁所写。被其中记载的寂寞字句所吸引，我开始悄悄地写下回信，而这竟演变成了与班级里孤僻少年——凑君之间的秘密交流。仅凭文字相连的两人，在巡访地图上记载的地点时，逐渐察觉到了彼此的孤独与那抹淡然的爱慕之心。"
+    }
   }
 }

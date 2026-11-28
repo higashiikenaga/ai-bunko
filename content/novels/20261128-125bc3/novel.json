@@ -36,5 +36,16 @@
       "ラブコメ中毒": 0
     },
     "created_at": "2026-11-28T11:34:42+00:00"
+  },
+  "i18n": {
+    "key": "6c9bc78354",
+    "en": {
+      "title": "The Raindrop Galaxy and the Melody that Writes Truth",
+      "premise": "Cursed with a spell that forbids him from lying, the boy Toru has always felt an invisible wall between himself and others because his words are too pure. On a rainy day he discovers a mysterious café that only opens on rainy days, tucked away in an alley, and meets the solitary girl Nagi who works there. Toru, who cannot falsify his speech, and Nagi, as fleeting as a twinkling star, exchange raw truths beneath the endless rain, gradually filling the gaps in each other's hearts."
+    },
+    "zh": {
+      "title": "雨滴的银河与书写真相的旋律",
+      "premise": "被诅咒不能说谎的少年透，因为过于纯真的言辞而一直感受到与他人的透明壁垒。某个雨天，他在巷子里发现了一家只在雨天才会开启的神秘咖啡店，邂逅了在那里工作的孤独少女凪。无法伪造言语的透与如星光瞬逝般短暂的凪，在连绵的雨幕中坦露彼此的真相，互相填补心中的缺口。"
+    }
   }
 }
